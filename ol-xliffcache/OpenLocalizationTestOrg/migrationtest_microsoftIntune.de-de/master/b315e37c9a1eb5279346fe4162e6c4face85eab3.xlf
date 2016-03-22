@@ -1,0 +1,3725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">b315e37c9a1eb5279346fe4162e6c4face85eab3</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - Enable access to company resources using certificate profiles with Microsoft</source>
+          <target>MD Conversion - Enable access to company resources using certificate profiles with Microsoft</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - Enable access to company resources using certificate profiles with Microsoft</source>
+          <target>MD Conversion - Enable access to company resources using certificate profiles with Microsoft</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Certificate profiles are <ph dataRef="id1" id="ph1" /> policies that configure managed devices with the certificates they need so device users can connect to your on-premises company resources using connections like Wi-Fi or VPN.</source>
+          <target>Certificate profiles are <ph dataRef="id1" id="ph1" /> policies that configure managed devices with the certificates they need so device users can connect to your on-premises company resources using connections like Wi-Fi or VPN.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>When you deploy certificate profiles, you provision devices with a trusted root certificate for your PKI, and configure them to request device specific certificates.</source>
+          <target>When you deploy certificate profiles, you provision devices with a trusted root certificate for your PKI, and configure them to request device specific certificates.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>You can create three types of certificate profiles:</source>
+          <target>You can create three types of certificate profiles:</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>PKCS #12 (.PFX) Certificate Profile: this can be used with Android 4.0 or later, iOS 6.0 and later, and Windows 10 (desktop and mobile) and later.</source>
+          <target>PKCS #12 (.PFX) Certificate Profile: this can be used with Android 4.0 or later, iOS 6.0 and later, and Windows 10 (desktop and mobile) and later.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>SCEP Certificate Profile: this can be used with iOS 6.0 and later, Mac OS X 10.9 and later, Android 4.0 or later, and Windows Phone 8.1 and later.</source>
+          <target>SCEP Certificate Profile: this can be used with iOS 6.0 and later, Mac OS X 10.9 and later, Android 4.0 or later, and Windows Phone 8.1 and later.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Trusted Certificate Profile: this can be used with iOS 6.0 and later, Mac OS X 10.9 and later, Android 4.0 or later, and Windows Phone 8.1 and later.</source>
+          <target>Trusted Certificate Profile: this can be used with iOS 6.0 and later, Mac OS X 10.9 and later, Android 4.0 or later, and Windows Phone 8.1 and later.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>About certificate profiles</source>
+          <target>About certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Use certificate profiles to:</source>
+          <target>Use certificate profiles to:</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Automatically configure devices so that company resources can be accessed without having to install certificates manually or by using an out-of-band process</source>
+          <target>Automatically configure devices so that company resources can be accessed without having to install certificates manually or by using an out-of-band process</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Help to keep company resources secure by using your enterprise public key infrastructure (PKI)</source>
+          <target>Help to keep company resources secure by using your enterprise public key infrastructure (PKI)</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Enable you to use server authentication for all connections like Wi-Fi and VPN because you have provisioned the required certificates on the managed devices</source>
+          <target>Enable you to use server authentication for all connections like Wi-Fi and VPN because you have provisioned the required certificates on the managed devices</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Certificate profiles provide the following management capabilities:</source>
+          <target>Certificate profiles provide the following management capabilities:</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Certificate enrollment and renewal from an Enterprise Certification Authority (CA) for devices that run: Android, iOS, Mac OS X, Windows 8.1, or Windows Phone 8.1.</source>
+          <target>Certificate enrollment and renewal from an Enterprise Certification Authority (CA) for devices that run: Android, iOS, Mac OS X, Windows 8.1, or Windows Phone 8.1.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>These certificates can then be used for connections to your on-premises infrastructure.</source>
+          <target>These certificates can then be used for connections to your on-premises infrastructure.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Deployment of Trusted Root CA certificates and intermediate CA certificates to configure a chain-of-trust with devices for connections where server authentication is required.</source>
+          <target>Deployment of Trusted Root CA certificates and intermediate CA certificates to configure a chain-of-trust with devices for connections where server authentication is required.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Monitor and report about the installed certificates.</source>
+          <target>Monitor and report about the installed certificates.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Examples of when to use certificate profiles:</source>
+          <target>Examples of when to use certificate profiles:</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Employees must be able to connect to Wi-Fi hotspots in multiple corporate locations.</source>
+          <target>Employees must be able to connect to Wi-Fi hotspots in multiple corporate locations.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>To do this, you can use certificate profiles to deploy the certificates required to secure the Wi-Fi connection.</source>
+          <target>To do this, you can use certificate profiles to deploy the certificates required to secure the Wi-Fi connection.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>You have a PKI in place and want to move to a more flexible, secure method of provisioning certificates that lets users access company resources from their personal devices without compromising security.</source>
+          <target>You have a PKI in place and want to move to a more flexible, secure method of provisioning certificates that lets users access company resources from their personal devices without compromising security.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>To do this, you can configure certificate profiles with settings and protocols that are supported for the specific device platform.</source>
+          <target>To do this, you can configure certificate profiles with settings and protocols that are supported for the specific device platform.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The devices can then automatically request these certificates from an Internet-facing enrollment server.</source>
+          <target>The devices can then automatically request these certificates from an Internet-facing enrollment server.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>You can then configure VPN profiles to use these certificates so that the device can access company resources.</source>
+          <target>You can then configure VPN profiles to use these certificates so that the device can access company resources.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Types  of certificate profiles</source>
+          <target>Types  of certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Trusted Root Certificate profile</source>
+          <target>Trusted Root Certificate profile</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Use this profile to deploy the Trusted Root CA certificate or intermediate CA certificate to devices:</source>
+          <target>Use this profile to deploy the Trusted Root CA certificate or intermediate CA certificate to devices:</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Create a Trusted Root Certificate profile for each platform you use.</source>
+          <target>Create a Trusted Root Certificate profile for each platform you use.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>You will pair this with each SCEP certificate profile you create for that same platform.</source>
+          <target>You will pair this with each SCEP certificate profile you create for that same platform.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>.PFX Certificate profile</source>
+          <target>.PFX Certificate profile</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Use this profile to deploy platform specific settings for device certificate requests:</source>
+          <target>Use this profile to deploy platform specific settings for device certificate requests:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Create a .PFX certificate profile for each platform you use, and pair it with the Trusted CA certificate profile.</source>
+          <target>Create a .PFX certificate profile for each platform you use, and pair it with the Trusted CA certificate profile.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>To complete the task of creating a .PFX certificate profile, you must select a previously created Trusted CA certificate profile.</source>
+          <target>To complete the task of creating a .PFX certificate profile, you must select a previously created Trusted CA certificate profile.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Simple Certificate Enrollment Protocol (SCEP) settings profile</source>
+          <target>Simple Certificate Enrollment Protocol (SCEP) settings profile</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Use this profile to deploy platform specific settings for device certificate requests:</source>
+          <target>Use this profile to deploy platform specific settings for device certificate requests:</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Create a SCEP certificate profile for each platform you use, and pair it with the Trusted CA certificate profile.</source>
+          <target>Create a SCEP certificate profile for each platform you use, and pair it with the Trusted CA certificate profile.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>To complete the task of creating a SCEP certificate profile, you must select a previously created Trusted CA certificate profile.</source>
+          <target>To complete the task of creating a SCEP certificate profile, you must select a previously created Trusted CA certificate profile.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>To use SCEP certificate profiles, you must integrate the following on-premises infrastructure with  <ph dataRef="id1" id="ph1" />:</source>
+          <target>To use SCEP certificate profiles, you must integrate the following on-premises infrastructure with  <ph dataRef="id1" id="ph1" />:</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>A server that runs the Network Device Enrollment Service</source>
+          <target>A server that runs the Network Device Enrollment Service</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>An Enterprise Certification Authority</source>
+          <target>An Enterprise Certification Authority</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>The Intune Certificate Connector, which installs on the Windows Server 2012 R2 server that runs NDES</source>
+          <target>The Intune Certificate Connector, which installs on the Windows Server 2012 R2 server that runs NDES</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>To use .PFX Certificate profiles, you must integrate the following on-premises infrastructure with  <ph dataRef="id1" id="ph1" />:</source>
+          <target>To use .PFX Certificate profiles, you must integrate the following on-premises infrastructure with  <ph dataRef="id1" id="ph1" />:</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>An enterprise certification authority.</source>
+          <target>An enterprise certification authority.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>A computer that can communicate with the Certification Authority, or use the Certification Authority computer itself.</source>
+          <target>A computer that can communicate with the Certification Authority, or use the Certification Authority computer itself.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>The Intune Certificate Connector, which runs on the computer that can communicate with the Certification Authority.</source>
+          <target>The Intune Certificate Connector, which runs on the computer that can communicate with the Certification Authority.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>In this topic:</source>
+          <target>In this topic:</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Requirements for certificate profiles</source>
+          <target>Requirements for certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Configure your infrastructure</source>
+          <target>Configure your infrastructure</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Configure certificate profiles</source>
+          <target>Configure certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Deploy certificate profiles</source>
+          <target>Deploy certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_CertProfileRequirements"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Requirements for certificate profiles</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Requirements for certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_OnPremises"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />On-premises Infrastructure</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />On-premises Infrastructure</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Infrastructure</source>
+          <target>Infrastructure</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Active Directory domain</source>
+          <target>Active Directory domain</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>All servers listed in this section (except for the Web Application Proxy Server) must be joined to your Active Directory domain.</source>
+          <target>All servers listed in this section (except for the Web Application Proxy Server) must be joined to your Active Directory domain.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Certification Authority server</source>
+          <target>Certification Authority server</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">[!INCLUDE[nextref_server_7](../Token/nextref_server_7_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Referred to as the issuing CA, you must have an Enterprise Certification Authority (CA) that runs on an Enterprise edition of <ph dataRef="id1" id="ph1" /> or later.</source>
+          <target>Referred to as the issuing CA, you must have an Enterprise Certification Authority (CA) that runs on an Enterprise edition of <ph dataRef="id1" id="ph1" /> or later.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>A Standalone CA is not supported.</source>
+          <target>A Standalone CA is not supported.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/jj125375.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For instructions on how to set up a Certification Authority, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install the Certification Authority</pc>.</source>
+          <target>For instructions on how to set up a Certification Authority, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install the Certification Authority</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://support.microsoft.com/kb/2483564/)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If your CA runs Windows Server 2008 R2, you must <pc dataRefEnd="id2" dataRefStart="id1" id="p1">install the hotfix from KB2483564</pc>.</source>
+          <target>If your CA runs Windows Server 2008 R2, you must <pc dataRefEnd="id2" dataRefStart="id1" id="p1">install the hotfix from KB2483564</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>For SCEP profile only:</source>
+          <target>For SCEP profile only:</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>NDES Server</source>
+          <target>NDES Server</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">[!INCLUDE[winblue_server_2](../Token/winblue_server_2_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>On a server that runs <ph dataRef="id1" id="ph1" /> or later, you must setup up the Network Device Enrollment Service:</source>
+          <target>On a server that runs <ph dataRef="id1" id="ph1" /> or later, you must setup up the Network Device Enrollment Service:</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> does not support using the Network Device Enrollment Service when it runs on a server that also runs the Enterprise CA.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> does not support using the Network Device Enrollment Service when it runs on a server that also runs the Enterprise CA.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/hh831498.aspx)</data>
+          <data id="id3">[!INCLUDE[winblue_server_2](../Token/winblue_server_2_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network Device Enrollment Service Guidance</pc> for instructions on how to configure <ph dataRef="id3" id="ph1" /> to host the Network Device Enrollment Service.</source>
+          <target>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network Device Enrollment Service Guidance</pc> for instructions on how to configure <ph dataRef="id3" id="ph1" /> to host the Network Device Enrollment Service.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For .PFX Certificate profile only: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer that can communicate with Certification Authority</pc></source>
+          <target>For .PFX Certificate profile only: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computer that can communicate with Certification Authority</pc></target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Alternatively, use the Certification Authority computer itself.</source>
+          <target>Alternatively, use the Certification Authority computer itself.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Web Application Proxy Server</pc> (optional)</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Web Application Proxy Server</pc> (optional)</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">[!INCLUDE[winblue_server_2](../Token/winblue_server_2_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use a server that runs <ph dataRef="id1" id="ph1" /> or later as a Web Application Proxy (WAP) server.</source>
+          <target>You can use a server that runs <ph dataRef="id1" id="ph1" /> or later as a Web Application Proxy (WAP) server.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>This configuration:</source>
+          <target>This configuration:</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Allows devices to receive certificates using an Internet connection.</source>
+          <target>Allows devices to receive certificates using an Internet connection.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Is a security recommendation when devices connect through the Internet to receive and renew certificates.</source>
+          <target>Is a security recommendation when devices connect through the Internet to receive and renew certificates.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://blogs.technet.com/b/ems/archive/2014/12/11/hotfix-large-uri-request-in-web-application-proxy-on-windows-server-2012-r2.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>The server that hosts WAP <pc dataRefEnd="id2" dataRefStart="id1" id="p1">must install an update</pc> that enables support for the long URLs that are used by the Network Device Enrollment Service.</source>
+          <target>The server that hosts WAP <pc dataRefEnd="id2" dataRefStart="id1" id="p1">must install an update</pc> that enables support for the long URLs that are used by the Network Device Enrollment Service.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://support.microsoft.com/kb/3013769)</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://support.microsoft.com/kb/3011135)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This update is included with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">December 2014 update rollup</pc>, or individually from <pc dataRefEnd="id4" dataRefStart="id3" id="p2">KB3011135</pc>.</source>
+          <target>This update is included with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">December 2014 update rollup</pc>, or individually from <pc dataRefEnd="id4" dataRefStart="id3" id="p2">KB3011135</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Also, the server that hosts WAP must have a SSL certificate that matches the name being published to external clients as well as trust the SSL certificate that is used on the NDES server.</source>
+          <target>Also, the server that hosts WAP must have a SSL certificate that matches the name being published to external clients as well as trust the SSL certificate that is used on the NDES server.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>These certificates enable the WAP server to terminate the SSL connection from clients, and create a new SSL connection to the NDES server.</source>
+          <target>These certificates enable the WAP server to terminate the SSL connection from clients, and create a new SSL connection to the NDES server.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](https://technet.microsoft.com/en-us/library/dn383650.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about certificates for WAP, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Plan certificates</pc> section of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Planning to Publish Applications Using Web Application Proxy</pc>.</source>
+          <target>For information about certificates for WAP, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Plan certificates</pc> section of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Planning to Publish Applications Using Web Application Proxy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/dn584113.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For general information about WAP servers, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Working with Web Application Proxy</pc>.</source>
+          <target>For general information about WAP servers, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Working with Web Application Proxy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Microsoft Intune Certificate Connector</source>
+          <target>Microsoft Intune Certificate Connector</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You use the <ph dataRef="id1" id="ph1" /> admin console to download the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Certificate Connector</pc> installer (<pc dataRefEnd="id5" dataRefStart="id4" id="p2">ndesconnectorssetup.exe</pc>).</source>
+          <target>You use the <ph dataRef="id1" id="ph1" /> admin console to download the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Certificate Connector</pc> installer (<pc dataRefEnd="id5" dataRefStart="id4" id="p2">ndesconnectorssetup.exe</pc>).</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Then you can run <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ndesconnectorssetup.exe</pc> on the computer where you want to install the Certificate Connector.</source>
+          <target>Then you can run <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ndesconnectorssetup.exe</pc> on the computer where you want to install the Certificate Connector.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>For .PFX Certificate profiles, install the Certificate Connector on the computer that communicates with the Certification Authority.</source>
+          <target>For .PFX Certificate profiles, install the Certificate Connector on the computer that communicates with the Certification Authority.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_CertsAndTemplates"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Certificates and Templates</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Certificates and Templates</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Object</source>
+          <target>Object</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Certificate Template</source>
+          <target>Certificate Template</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>You configure this template on your issuing CA.</source>
+          <target>You configure this template on your issuing CA.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Client authentication certificate</source>
+          <target>Client authentication certificate</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Requested from your issuing CA or public CA, you install this certificate on the NDES Server.</source>
+          <target>Requested from your issuing CA or public CA, you install this certificate on the NDES Server.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Server authentication certificate</source>
+          <target>Server authentication certificate</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Requested from your issuing CA or public CA, you install and bind this SSL certificate in IIS on the NDES server.</source>
+          <target>Requested from your issuing CA or public CA, you install and bind this SSL certificate in IIS on the NDES server.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Trusted Root CA certificate</source>
+          <target>Trusted Root CA certificate</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You export this as a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.cer</pc> file from the issuing CA or any device which trusts the issuing CA, and deploy it to devices by using the Trusted CA certificate profile.</source>
+          <target>You export this as a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.cer</pc> file from the issuing CA or any device which trusts the issuing CA, and deploy it to devices by using the Trusted CA certificate profile.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>You use a single Trusted Root CA certificate per operating system platform, and associate it with each Trusted Root Certificate profile you create.</source>
+          <target>You use a single Trusted Root CA certificate per operating system platform, and associate it with each Trusted Root Certificate profile you create.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>You can use additional Trusted Root CA certificates when needed.</source>
+          <target>You can use additional Trusted Root CA certificates when needed.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>For example, you might do this to provide a trust to a CA that signs the server authentication certificates for your Wi-Fi access points.</source>
+          <target>For example, you might do this to provide a trust to a CA that signs the server authentication certificates for your Wi-Fi access points.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Accounts"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Accounts</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Accounts</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>NDES service account</source>
+          <target>NDES service account</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>You specify a domain user account to use as the NDES Service account.</source>
+          <target>You specify a domain user account to use as the NDES Service account.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ConfigureInfrastructure"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Configure your infrastructure</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Configure your infrastructure</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Before you can configure certificate profiles you must complete the following tasks, which require knowledge of Windows Server 2012 R2 and Active Directory Certificate Services (ADCS):</source>
+          <target>Before you can configure certificate profiles you must complete the following tasks, which require knowledge of Windows Server 2012 R2 and Active Directory Certificate Services (ADCS):</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 1</pc> - Configure certificate templates on the certification authority</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 1</pc> - Configure certificate templates on the certification authority</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 2</pc>, for SCEP profile only:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 2</pc>, for SCEP profile only:</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>- Configure prerequisites on the NDES server</source>
+          <target>- Configure prerequisites on the NDES server</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 3</pc>, for SCEP profile only:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 3</pc>, for SCEP profile only:</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>- Configure NDES for use with <ph dataRef="id1" id="ph1" /></source>
+          <target>- Configure NDES for use with <ph dataRef="id1" id="ph1" /></target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 4</pc> - Enable, install, and configure the Intune Certificate Connector</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 4</pc> - Enable, install, and configure the Intune Certificate Connector</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ConfigOnPremTask1"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 1 - Configure certificate templates on the certification authority</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 1 - Configure certificate templates on the certification authority</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>In this task you will:</source>
+          <target>In this task you will:</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Create a NDES service account</source>
+          <target>Create a NDES service account</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>To revoke certificates the NDES service account requires <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Issue and Manage Certificates</pc> rights for each certificate template used by a certificate profile.</source>
+          <target>To revoke certificates the NDES service account requires <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Issue and Manage Certificates</pc> rights for each certificate template used by a certificate profile.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Configure a certificate template for NDES</source>
+          <target>Configure a certificate template for NDES</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Publish the certificate template for NDES</source>
+          <target>Publish the certificate template for NDES</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>To configure the certification authority</source>
+          <target>To configure the certification authority</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Create a domain user account to use as the NDES service account.</source>
+          <target>Create a domain user account to use as the NDES service account.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>You will specify this account when you configure templates on the issuing CA before you install and configure NDES.</source>
+          <target>You will specify this account when you configure templates on the issuing CA before you install and configure NDES.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>On the issuing CA, use the Certificate Templates snap-in to create a new custom template or copy an existing template and then edit an existing template (like the User template), for use with NDES.</source>
+          <target>On the issuing CA, use the Certificate Templates snap-in to create a new custom template or copy an existing template and then edit an existing template (like the User template), for use with NDES.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>The template must have the following configurations:</source>
+          <target>The template must have the following configurations:</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify a friendly <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Template display name</pc> for the template.</source>
+          <target>Specify a friendly <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Template display name</pc> for the template.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subject Name</pc> tab, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Supply in the request</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subject Name</pc> tab, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Supply in the request</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>(Security is enforced by the <ph dataRef="id1" id="ph1" /> policy module for NDES).</source>
+          <target>(Security is enforced by the <ph dataRef="id1" id="ph1" /> policy module for NDES).</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensions</pc> tab, ensure the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Description of Application Policies</pc> includes <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Client Authentication</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensions</pc> tab, ensure the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Description of Application Policies</pc> includes <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Client Authentication</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For iOS and Mac OS X certificate templates, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensions</pc> tab, edit <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Key Usage</pc> and ensure <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Signature is proof of origin</pc> is not selected.</source>
+          <target>For iOS and Mac OS X certificate templates, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Extensions</pc> tab, edit <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Key Usage</pc> and ensure <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Signature is proof of origin</pc> is not selected.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security</pc> tab, add the NDES service account, and give it <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Read</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enroll</pc> permissions to the template.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security</pc> tab, add the NDES service account, and give it <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Read</pc> and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Enroll</pc> permissions to the template.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Review the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Validity period</pc> on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">General</pc> tab of the template.</source>
+          <target>Review the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Validity period</pc> on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">General</pc> tab of the template.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>By default, <ph dataRef="id1" id="ph1" /> uses the value configured in the template.</source>
+          <target>By default, <ph dataRef="id1" id="ph1" /> uses the value configured in the template.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, you have the option to configure the CA to allow the requester to specify a different value, which you can then set from within the <ph dataRef="id1" id="ph1" /> Administrator console.</source>
+          <target>However, you have the option to configure the CA to allow the requester to specify a different value, which you can then set from within the <ph dataRef="id1" id="ph1" /> Administrator console.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>If you want to always use the value in the template, skip the remainder of this step.</source>
+          <target>If you want to always use the value in the template, skip the remainder of this step.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>The iOS and Mac OS X platforms always uses the value set in the template regardless of other configurations you make.</source>
+          <target>The iOS and Mac OS X platforms always uses the value set in the template regardless of other configurations you make.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>To configure the CA to allow the requester to specify the validity period, on the CA run the following commands:</source>
+          <target>To configure the CA to allow the requester to specify the validity period, on the CA run the following commands:</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE</source>
+          <target>certutil -setreg Policy\EditFlags +EDITF_ATTRIBUTEENDDATE</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>net stop certsvc</source>
+          <target>net stop certsvc</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>net start certsvc</source>
+          <target>net start certsvc</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>On the issuing CA, use the Certification Authority snap-in to publish the certificate template.</source>
+          <target>On the issuing CA, use the Certification Authority snap-in to publish the certificate template.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate Templates</pc> node, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Action</pc>-&amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">New</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Certificate Template to Issue</pc>, and then select the template you created in step 2.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate Templates</pc> node, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Action</pc>-&amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">New</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Certificate Template to Issue</pc>, and then select the template you created in step 2.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Validate that the template published by viewing it under the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate Templates</pc> folder.</source>
+          <target>Validate that the template published by viewing it under the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate Templates</pc> folder.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>For .PFX profiles: on the CA computer ensure that the computer that hosts the Intune Certificate Connector has enroll permission, so that it can access the template used in creating the .PFX profile.</source>
+          <target>For .PFX profiles: on the CA computer ensure that the computer that hosts the Intune Certificate Connector has enroll permission, so that it can access the template used in creating the .PFX profile.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set that permission on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security</pc> tab of the CA computer properties.</source>
+          <target>Set that permission on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security</pc> tab of the CA computer properties.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ConfigOnPremTask2"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 2 (SCEP profile only) - Configure prerequisites on the NDES server</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 2 (SCEP profile only) - Configure prerequisites on the NDES server</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>In this task you will:</source>
+          <target>In this task you will:</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Add NDES to a Windows Server and configure IIS to support NDES</source>
+          <target>Add NDES to a Windows Server and configure IIS to support NDES</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Add the NDES Service account to the IIS_IUSR group</source>
+          <target>Add the NDES Service account to the IIS_IUSR group</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Set the SPN for the NDES Service account</source>
+          <target>Set the SPN for the NDES Service account</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>To configure prerequisites for the NDES Server</source>
+          <target>To configure prerequisites for the NDES Server</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](https://technet.microsoft.com/library/hh831809.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the server that will hosts NDES, you must log on as a an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enterprise Administrator</pc>, and then use the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Roles and Features Wizard</pc> to install NDES:</source>
+          <target>On the server that will hosts NDES, you must log on as a an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enterprise Administrator</pc>, and then use the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Roles and Features Wizard</pc> to install NDES:</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the Wizard, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Active Directory Certificate Services</pc> to gain access to the AD CS Role Services.</source>
+          <target>In the Wizard, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Active Directory Certificate Services</pc> to gain access to the AD CS Role Services.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network Device Enrollment Service</pc>, uncheck <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Certification Authority</pc>, and then complete the wizard.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network Device Enrollment Service</pc>, uncheck <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Certification Authority</pc>, and then complete the wizard.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation progress</pc> page of the wizard, do not click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Installation progress</pc> page of the wizard, do not click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Instead, click the link for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Active Directory Certificate Services on the destination server</pc>.</source>
+          <target>Instead, click the link for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Active Directory Certificate Services on the destination server</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This opens the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AD CS Configuration</pc> wizard that you use for the next task.</source>
+          <target>This opens the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AD CS Configuration</pc> wizard that you use for the next task.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>After AD CS Configuration opens, you can close the Add Roles and Features wizard.</source>
+          <target>After AD CS Configuration opens, you can close the Add Roles and Features wizard.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>When NDES is added to the server, the wizard also installs IIS.</source>
+          <target>When NDES is added to the server, the wizard also installs IIS.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Ensure IIS has the following configurations:</source>
+          <target>Ensure IIS has the following configurations:</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Web Server</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Security</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Request Filtering</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Web Server</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Security</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Request Filtering</pc></target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Web Server</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Application Development</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">ASP.NET 3.5</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Web Server</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Application Development</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">ASP.NET 3.5</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Installing ASP.NET 3.5 will install .NET Framework 3.5.</source>
+          <target>Installing ASP.NET 3.5 will install .NET Framework 3.5.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When installing .NET Framework 3.5, install both the core <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.NET Framework 3.5</pc> feature and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">HTTP Activation</pc>.</source>
+          <target>When installing .NET Framework 3.5, install both the core <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.NET Framework 3.5</pc> feature and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">HTTP Activation</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Web Server</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Application Development</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">ASP.NET 4.5</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Web Server</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Application Development</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">ASP.NET 4.5</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>Installing ASP.NET 4.5 will install .NET Framework 4.5.</source>
+          <target>Installing ASP.NET 4.5 will install .NET Framework 4.5.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When installing .NET Framework 4.5, install the core <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.NET Framework 4.5</pc> feature, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ASP.NET 4.5</pc>, and the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">WCF Services</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">HTTP Activation</pc> feature.</source>
+          <target>When installing .NET Framework 4.5, install the core <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.NET Framework 4.5</pc> feature, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ASP.NET 4.5</pc>, and the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">WCF Services</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">HTTP Activation</pc> feature.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Management Tools</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">IIS 6 Management Compatibility</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">IIS 6 Metabase Compatibility</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Management Tools</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">IIS 6 Management Compatibility</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">IIS 6 Metabase Compatibility</pc></target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Management Tools</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">IIS 6 Management Compatibility</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">IIS 6 WMI Compatibility</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Management Tools</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">IIS 6 Management Compatibility</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">IIS 6 WMI Compatibility</pc></target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the server, add the NDES service account as a member of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">IIS_IUSR</pc> group.</source>
+          <target>On the server, add the NDES service account as a member of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">IIS_IUSR</pc> group.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Run the following command to set the SPN of the NDES Service account:</source>
+          <target>Run the following command to set the SPN of the NDES Service account:</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>setspn -s http/&amp;lt;DNS name of NDES Server&amp;gt; &amp;lt;Domain name&amp;gt;\&amp;lt;NDES Service account name&amp;gt;</source>
+          <target>setspn -s http/&amp;lt;DNS name of NDES Server&amp;gt; &amp;lt;Domain name&amp;gt;\&amp;lt;NDES Service account name&amp;gt;</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, if your NDES Server is named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Server01</pc>, your domain is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Contoso.com</pc>, and the service account is <pc dataRefEnd="id6" dataRefStart="id5" id="p3">NDESService</pc>, use:</source>
+          <target>For example, if your NDES Server is named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Server01</pc>, your domain is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Contoso.com</pc>, and the service account is <pc dataRefEnd="id6" dataRefStart="id5" id="p3">NDESService</pc>, use:</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>setspn –s http/Server01.contoso.com contoso\NDESService</source>
+          <target>setspn –s http/Server01.contoso.com contoso\NDESService</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ConfigOnPremTask3"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 3 (SCEP profile only) - Configure NDES for use with <ph dataRef="id3" id="ph3" /></source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 3 (SCEP profile only) - Configure NDES for use with <ph dataRef="id3" id="ph3" /></target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>In this task you will:</source>
+          <target>In this task you will:</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Configure NDES for use with the issuing CA</source>
+          <target>Configure NDES for use with the issuing CA</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Bind the server authentication (SSL) certificate in IIS</source>
+          <target>Bind the server authentication (SSL) certificate in IIS</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Configure Request Filtering in IIS</source>
+          <target>Configure Request Filtering in IIS</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>To configure NDES for use with <ph dataRef="id1" id="ph1" /></source>
+          <target>To configure NDES for use with <ph dataRef="id1" id="ph1" /></target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>On the NDES Server, open the AD CS Configuration wizard and then make the following configurations.</source>
+          <target>On the NDES Server, open the AD CS Configuration wizard and then make the following configurations.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>If you clicked the link in the previous task, this wizard is already open.</source>
+          <target>If you clicked the link in the previous task, this wizard is already open.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Otherwise, open Server Manager to access the post-deployment configuration for Active Directory Certificate Services.</source>
+          <target>Otherwise, open Server Manager to access the post-deployment configuration for Active Directory Certificate Services.</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Role Services</pc> Page, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Network Device Enrollment Service</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Role Services</pc> Page, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Network Device Enrollment Service</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Service Account for NDES</pc> page, specify the NDES Service Account.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Service Account for NDES</pc> page, specify the NDES Service Account.</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CA for NDES</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Select</pc>, and then select the issuing CA where you configured the certificate template.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CA for NDES</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Select</pc>, and then select the issuing CA where you configured the certificate template.</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cryptography for NDES</pc> page, set the key length to meet your company requirements.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cryptography for NDES</pc> page, set the key length to meet your company requirements.</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Confirmation</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure</pc> to complete the wizard.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Confirmation</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Configure</pc> to complete the wizard.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>After the wizard completes, edit the following registry key on the NDES Server:</source>
+          <target>After the wizard completes, edit the following registry key on the NDES Server:</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>*<pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\MSCEP\*</pc></source>
+          <target>*<pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography\MSCEP\*</pc></target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To edit this key, identify the certificate template's <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Purpose</pc>, as found on its <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Request Handling</pc> tab, and then edit the corresponding entry in the registry by replacing the existing data with the name of the certificate template (not the display name of the template) that you specified in Task 1.</source>
+          <target>To edit this key, identify the certificate template's <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Purpose</pc>, as found on its <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Request Handling</pc> tab, and then edit the corresponding entry in the registry by replacing the existing data with the name of the certificate template (not the display name of the template) that you specified in Task 1.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>The following table maps the certificate template purpose to the values in the registry:</source>
+          <target>The following table maps the certificate template purpose to the values in the registry:</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>Certificate template Purpose (On the Request Handling tab)</source>
+          <target>Certificate template Purpose (On the Request Handling tab)</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>Registry value to edit</source>
+          <target>Registry value to edit</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Value seen in the <ph dataRef="id1" id="ph1" /> admin console for the SCEP profile</source>
+          <target>Value seen in the <ph dataRef="id1" id="ph1" /> admin console for the SCEP profile</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>Signature</source>
+          <target>Signature</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>SignatureTemplate</source>
+          <target>SignatureTemplate</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>Digital Signature</source>
+          <target>Digital Signature</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>Encryption</source>
+          <target>Encryption</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>EncryptionTemplate</source>
+          <target>EncryptionTemplate</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>Key Encipherment</source>
+          <target>Key Encipherment</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>Signature and encryption</source>
+          <target>Signature and encryption</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>GeneralPurposeTemplate</source>
+          <target>GeneralPurposeTemplate</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>Key Encipherment</source>
+          <target>Key Encipherment</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Digital Signature</source>
+          <target>Digital Signature</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, if the Purpose of your certificate template is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Encryption</pc>, then edit the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">EncryptionTemplate</pc> value to be the name of your certificate template.</source>
+          <target>For example, if the Purpose of your certificate template is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Encryption</pc>, then edit the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">EncryptionTemplate</pc> value to be the name of your certificate template.</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After editing the registry, run <pc dataRefEnd="id2" dataRefStart="id1" id="p1">iisreset</pc> on the server to force the server to pick up recent configuration changes.</source>
+          <target>After editing the registry, run <pc dataRefEnd="id2" dataRefStart="id1" id="p1">iisreset</pc> on the server to force the server to pick up recent configuration changes.</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>To Install and bind certificates on the NDES Server</source>
+          <target>To Install and bind certificates on the NDES Server</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On your NDES Server, request and install a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">server authentication</pc> certificate from your internal CA or public CA.</source>
+          <target>On your NDES Server, request and install a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">server authentication</pc> certificate from your internal CA or public CA.</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>You will then bind this SSL certificate in IIS.</source>
+          <target>You will then bind this SSL certificate in IIS.</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>After you bind the SSL certificate in IIS, you will also install a client authentication certificate.</source>
+          <target>After you bind the SSL certificate in IIS, you will also install a client authentication certificate.</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>This certificate can be issued by any CA that is trusted by the NDES Server.</source>
+          <target>This certificate can be issued by any CA that is trusted by the NDES Server.</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>Although it is not a best practice, you can use the same certificate for both server and client authentication as long as the certificate has both Enhance Key Usages (EKU’s).</source>
+          <target>Although it is not a best practice, you can use the same certificate for both server and client authentication as long as the certificate has both Enhance Key Usages (EKU’s).</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>Review the following steps for information about these authentication certificates.</source>
+          <target>Review the following steps for information about these authentication certificates.</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After you obtain the server authentication certificate, open <pc dataRefEnd="id2" dataRefStart="id1" id="p1">IIS Manager</pc>, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Default Web Site</pc> in the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Connections</pc> pane, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Bindings</pc> in the <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Actions</pc> pane.</source>
+          <target>After you obtain the server authentication certificate, open <pc dataRefEnd="id2" dataRefStart="id1" id="p1">IIS Manager</pc>, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Default Web Site</pc> in the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Connections</pc> pane, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Bindings</pc> in the <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Actions</pc> pane.</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>, set <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Type</pc> to <pc dataRefEnd="id6" dataRefStart="id5" id="p3">https</pc>, and then ensure the port is <pc dataRefEnd="id8" dataRefStart="id7" id="p4">443</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>, set <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Type</pc> to <pc dataRefEnd="id6" dataRefStart="id5" id="p3">https</pc>, and then ensure the port is <pc dataRefEnd="id8" dataRefStart="id7" id="p4">443</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>(Only port 443 is supported for standalone <ph dataRef="id1" id="ph1" />).</source>
+          <target>(Only port 443 is supported for standalone <ph dataRef="id1" id="ph1" />).</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SSL certificate</pc>, specify the server authentication certificate.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SSL certificate</pc>, specify the server authentication certificate.</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the NDES server uses both an external and internal name for a single network address, the server authentication certificate must have a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subject Name</pc> with an external public server name, and a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Subject Alternative Name</pc> that includes the internal server name.</source>
+          <target>If the NDES server uses both an external and internal name for a single network address, the server authentication certificate must have a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subject Name</pc> with an external public server name, and a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Subject Alternative Name</pc> that includes the internal server name.</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On your NDES Server, request and install a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">client authentication</pc> certificate from your internal CA, or a public certificate authority.</source>
+          <target>On your NDES Server, request and install a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">client authentication</pc> certificate from your internal CA, or a public certificate authority.</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>This can be the same certificate as the server authentication certificate if that certificate has both capabilities.</source>
+          <target>This can be the same certificate as the server authentication certificate if that certificate has both capabilities.</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>The client authentication certificate must have the following properties:</source>
+          <target>The client authentication certificate must have the following properties:</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enhanced Key Usage</pc> - This must include <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Client Authentication</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enhanced Key Usage</pc> - This must include <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Client Authentication</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subject Name</pc> - This must be equal to the DNS name of the server where you are installing the certificate (the NDES Server).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subject Name</pc> - This must be equal to the DNS name of the server where you are installing the certificate (the NDES Server).</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>To configure IIS Request Filtering</source>
+          <target>To configure IIS Request Filtering</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the NDES Server open <pc dataRefEnd="id2" dataRefStart="id1" id="p1">IIS Manager</pc>, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Default Web Site</pc> in the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Connections</pc> pane, and then open <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Request Filtering</pc>.</source>
+          <target>On the NDES Server open <pc dataRefEnd="id2" dataRefStart="id1" id="p1">IIS Manager</pc>, select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Default Web Site</pc> in the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Connections</pc> pane, and then open <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Request Filtering</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit Feature Settings</pc>, and then set the following:</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit Feature Settings</pc>, and then set the following:</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">query string (Bytes)</pc> = <pc dataRefEnd="id4" dataRefStart="id3" id="p2">65534</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">query string (Bytes)</pc> = <pc dataRefEnd="id4" dataRefStart="id3" id="p2">65534</pc></target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Maximum URL length (Bytes)</pc> = <pc dataRefEnd="id4" dataRefStart="id3" id="p2">65534</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Maximum URL length (Bytes)</pc> = <pc dataRefEnd="id4" dataRefStart="id3" id="p2">65534</pc></target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>Review the following registry key:</source>
+          <target>Review the following registry key:</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HTTP\Parameters</source>
+          <target>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HTTP\Parameters</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>Ensure the following values are set as DWORD entries:</source>
+          <target>Ensure the following values are set as DWORD entries:</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Name: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MaxFieldLength</pc>, with a decimal value of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">65534</pc></source>
+          <target>Name: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MaxFieldLength</pc>, with a decimal value of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">65534</pc></target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Name: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MaxRequestBytes</pc>, with a decimal value of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">65534</pc></source>
+          <target>Name: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MaxRequestBytes</pc>, with a decimal value of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">65534</pc></target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>Reboot the NDES server.</source>
+          <target>Reboot the NDES server.</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>The server is now ready to support the Certificate Connector.</source>
+          <target>The server is now ready to support the Certificate Connector.</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ConfigOnPremTask4"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 4 - Enable, install, and configure the Intune Certificate Connector  - For SCEP and .PFX certificates.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 4 - Enable, install, and configure the Intune Certificate Connector  - For SCEP and .PFX certificates.</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>In this task you will:</source>
+          <target>In this task you will:</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enable support for NDES in <ph dataRef="id1" id="ph1" /></source>
+          <target>Enable support for NDES in <ph dataRef="id1" id="ph1" /></target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>Download, install, and configure the Certificate Connector on the NDES Server</source>
+          <target>Download, install, and configure the Certificate Connector on the NDES Server</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>To enable support for the Certificate Connector</source>
+          <target>To enable support for the Certificate Connector</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Certificate Connector</pc>.</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Certificate Connector</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure On-Premises Certificate Connector</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure On-Premises Certificate Connector</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable Certificate Connector</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable Certificate Connector</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>To download, install and configure the Certificate Connector</source>
+          <target>To download, install and configure the Certificate Connector</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune administration console</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Mobile Device Management</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Certificate Connector</pc> &amp;gt; <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Download Certificate Connector</pc>.</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune administration console</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Mobile Device Management</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Certificate Connector</pc> &amp;gt; <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Download Certificate Connector</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the download completes, run the downloaded installer (<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ndesconnectorssetup.exe</pc>):</source>
+          <target>After the download completes, run the downloaded installer (<pc dataRefEnd="id2" dataRefStart="id1" id="p1">ndesconnectorssetup.exe</pc>):</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>For .PFX certificates, run the installer on the computer that is able to connect with the Certification Authority.</source>
+          <target>For .PFX certificates, run the installer on the computer that is able to connect with the Certification Authority.</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>Choose the .PFX Distribution option then click Install.</source>
+          <target>Choose the .PFX Distribution option then click Install.</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md#BKMK_ConfigProfiles)</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the installation has completed, continue by creating a certificate profile as described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure certificate profiles</pc>.</source>
+          <target>When the installation has completed, continue by creating a certificate profile as described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure certificate profiles</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <segment state="initial">
+          <source>For SCEP certificates, run the installer on a Windows Server 2012 R2 server</source>
+          <target>For SCEP certificates, run the installer on a Windows Server 2012 R2 server</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>For the SCEP option, the installer also installs the policy module for NDES and the CRP Web Service.</source>
+          <target>For the SCEP option, the installer also installs the policy module for NDES and the CRP Web Service.</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>(The CRP Web Service, CertificateRegistrationSvc, runs as an application in IIS.)</source>
+          <target>(The CRP Web Service, CertificateRegistrationSvc, runs as an application in IIS.)</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you install NDES for standalone <ph dataRef="id1" id="ph1" />, the CRP service automatically installs with the Certificate Connector.</source>
+          <target>When you install NDES for standalone <ph dataRef="id1" id="ph1" />, the CRP service automatically installs with the Certificate Connector.</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you use <ph dataRef="id1" id="ph1" /> with Configuration Manager, you install the Certificate Registration Point as a separate site system role.</source>
+          <target>When you use <ph dataRef="id1" id="ph1" /> with Configuration Manager, you install the Certificate Registration Point as a separate site system role.</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When prompted for the client certificate for the Certificate Connector, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select</pc>, and select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">client authentication</pc> certificate you installed on your NDES Server in Task 3.</source>
+          <target>When prompted for the client certificate for the Certificate Connector, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select</pc>, and select the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">client authentication</pc> certificate you installed on your NDES Server in Task 3.</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After you select the client authentication certificate, you are returned to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Client Certificate for Microsoft Intune Certificate Connector</pc> surface.</source>
+          <target>After you select the client authentication certificate, you are returned to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Client Certificate for Microsoft Intune Certificate Connector</pc> surface.</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Although the certificate you selected is not shown, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to view the properties of that certificate.</source>
+          <target>Although the certificate you selected is not shown, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> to view the properties of that certificate.</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install</pc>.</source>
+          <target>Then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After the wizard completes, but before closing the wizard, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Launch the Certificate Connector UI</pc>.</source>
+          <target>After the wizard completes, but before closing the wizard, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Launch the Certificate Connector UI</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <segment state="initial">
+          <source>If you close the wizard before launching the Certificate Connector UI, you can reopen it by running the following command:</source>
+          <target>If you close the wizard before launching the Certificate Connector UI, you can reopen it by running the following command:</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <segment state="initial">
+          <source>&amp;lt;install_Path&amp;gt;\NDESConnectorUI\NDESConnectorUI.exe</source>
+          <target>&amp;lt;install_Path&amp;gt;\NDESConnectorUI\NDESConnectorUI.exe</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate Connector</pc> UI:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificate Connector</pc> UI:</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sign In</pc> and enter your <ph dataRef="id3" id="ph1" /> service administrator credentials, or credentials for a tenant administrator with the global administration permission.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sign In</pc> and enter your <ph dataRef="id3" id="ph1" /> service administrator credentials, or credentials for a tenant administrator with the global administration permission.</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If your organization uses a proxy server and the proxy is required for the NDES server to access the Internet, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use proxy server</pc> and then provide the proxy server name, port, and account credentials to connect.</source>
+          <target>If your organization uses a proxy server and the proxy is required for the NDES server to access the Internet, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use proxy server</pc> and then provide the proxy server name, port, and account credentials to connect.</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced</pc> tab, and then provide credentials for an account that has the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Issue and Manage Certificates</pc> permission on your issuing Certificate Authority, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Apply</pc>.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced</pc> tab, and then provide credentials for an account that has the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Issue and Manage Certificates</pc> permission on your issuing Certificate Authority, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Apply</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="366">
+        <segment state="initial">
+          <source>You can now close the Certificate Connector UI.</source>
+          <target>You can now close the Certificate Connector UI.</target>
+        </segment>
+      </unit>
+      <unit id="367">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open a command prompt and type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">services.msc</pc>, and then press <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enter</pc>, right-click the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Certificate Connector Service</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Restart</pc>.</source>
+          <target>Open a command prompt and type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">services.msc</pc>, and then press <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enter</pc>, right-click the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Certificate Connector Service</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Restart</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="368">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To validate that the service is running, open a browser and enter the following URL, which should return a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">403</pc> error:</source>
+          <target>To validate that the service is running, open a browser and enter the following URL, which should return a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">403</pc> error:</target>
+        </segment>
+      </unit>
+      <unit id="369">
+        <segment state="initial">
+          <source>http:// &amp;lt;FQDN_of_your_NDES_server&amp;gt;/certsrv/mscep/mscep.dll</source>
+          <target>http:// &amp;lt;FQDN_of_your_NDES_server&amp;gt;/certsrv/mscep/mscep.dll</target>
+        </segment>
+      </unit>
+      <unit id="370">
+        <segment state="initial">
+          <source>You are now ready to configure certificate profiles.</source>
+          <target>You are now ready to configure certificate profiles.</target>
+        </segment>
+      </unit>
+      <unit id="371">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ConfigProfiles"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Configure certificate profiles</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Configure certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="372">
+        <segment state="initial">
+          <source>After your infrastructure and certificates are configured, you can configure certificate profiles:</source>
+          <target>After your infrastructure and certificates are configured, you can configure certificate profiles:</target>
+        </segment>
+      </unit>
+      <unit id="373">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 1</pc> - Export the Trusted Root CA certificate</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 1</pc> - Export the Trusted Root CA certificate</target>
+        </segment>
+      </unit>
+      <unit id="374">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 2</pc> - Create Trusted CA certificate profiles</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 2</pc> - Create Trusted CA certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="375">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 3</pc> - Either:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Task 3</pc> - Either:</target>
+        </segment>
+      </unit>
+      <unit id="376">
+        <segment state="initial">
+          <source>Create SCEP certificate profiles</source>
+          <target>Create SCEP certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="377">
+        <segment state="initial">
+          <source>Create .PFX certificate profiles</source>
+          <target>Create .PFX certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="378">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ConfigExportRootCA"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 1 - Export the Trusted Root CA certificate</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 1 - Export the Trusted Root CA certificate</target>
+        </segment>
+      </unit>
+      <unit id="379">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Export the Trusted Root CA certificate as a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.cer</pc> file from the issuing CA, or any device that trusts your issuing CA.</source>
+          <target>Export the Trusted Root CA certificate as a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.cer</pc> file from the issuing CA, or any device that trusts your issuing CA.</target>
+        </segment>
+      </unit>
+      <unit id="380">
+        <segment state="initial">
+          <source>You do not export the private key.</source>
+          <target>You do not export the private key.</target>
+        </segment>
+      </unit>
+      <unit id="381">
+        <segment state="initial">
+          <source>You will import this certificate when you configure a Trusted CA certificate profile.</source>
+          <target>You will import this certificate when you configure a Trusted CA certificate profile.</target>
+        </segment>
+      </unit>
+      <unit id="382">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ConfigRootCA"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 2 - Create Trusted CA certificate profiles</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 2 - Create Trusted CA certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="383">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You must create a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trusted CA certificate profile</pc> before you can create a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Simple Certificate Enrollment Protocol settings profile</pc>.</source>
+          <target>You must create a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Trusted CA certificate profile</pc> before you can create a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Simple Certificate Enrollment Protocol settings profile</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="384">
+        <segment state="initial">
+          <source>Both profiles are required for each mobile device platform.</source>
+          <target>Both profiles are required for each mobile device platform.</target>
+        </segment>
+      </unit>
+      <unit id="385">
+        <segment state="initial">
+          <source>To create a trusted certificate profile</source>
+          <target>To create a trusted certificate profile</target>
+        </segment>
+      </unit>
+      <unit id="386">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune administration console</pc>, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune administration console</pc>, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="387">
+        <segment state="initial">
+          <source>Configure one of the following policy types:</source>
+          <target>Configure one of the following policy types:</target>
+        </segment>
+      </unit>
+      <unit id="388">
+        <segment state="initial">
+          <source>Android &amp;gt; Trusted Certificate Profile (Android 4 and later)</source>
+          <target>Android &amp;gt; Trusted Certificate Profile (Android 4 and later)</target>
+        </segment>
+      </unit>
+      <unit id="389">
+        <segment state="initial">
+          <source>iOS &amp;gt; Trusted Certificate Profile (iOS 5 and later)</source>
+          <target>iOS &amp;gt; Trusted Certificate Profile (iOS 5 and later)</target>
+        </segment>
+      </unit>
+      <unit id="390">
+        <segment state="initial">
+          <source>iOS &amp;gt; Trusted Certificate Profile (iOS 5 and later)</source>
+          <target>iOS &amp;gt; Trusted Certificate Profile (iOS 5 and later)</target>
+        </segment>
+      </unit>
+      <unit id="391">
+        <segment state="initial">
+          <source>Mac OS X &amp;gt; Trusted Certificate Profile (Mac OS X 10.9 and later)</source>
+          <target>Mac OS X &amp;gt; Trusted Certificate Profile (Mac OS X 10.9 and later)</target>
+        </segment>
+      </unit>
+      <unit id="392">
+        <segment state="initial">
+          <source>Windows Phone and Enrolled Windows Devices &amp;gt; Trusted Certificate Profile (Windows 8.1 and later)</source>
+          <target>Windows Phone and Enrolled Windows Devices &amp;gt; Trusted Certificate Profile (Windows 8.1 and later)</target>
+        </segment>
+      </unit>
+      <unit id="393">
+        <segment state="initial">
+          <source>Windows Phone and Enrolled Windows Devices &amp;gt; Trusted Certificate Profile (Windows Phone 8.1 and later)</source>
+          <target>Windows Phone and Enrolled Windows Devices &amp;gt; Trusted Certificate Profile (Windows Phone 8.1 and later)</target>
+        </segment>
+      </unit>
+      <unit id="394">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Learn more: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</source>
+          <target>Learn more: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="395">
+        <segment state="initial">
+          <source>Use the following information to configure the trusted certificate profile settings for Android, iOS, Mac OS X, Windows 8.1, or Windows Phone 8.1:</source>
+          <target>Use the following information to configure the trusted certificate profile settings for Android, iOS, Mac OS X, Windows 8.1, or Windows Phone 8.1:</target>
+        </segment>
+      </unit>
+      <unit id="396">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="397">
+        <segment state="initial">
+          <source>Platform</source>
+          <target>Platform</target>
+        </segment>
+      </unit>
+      <unit id="398">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="399">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="400">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="401">
+        <segment state="initial">
+          <source>Provide a descriptive name for the certificate profile.</source>
+          <target>Provide a descriptive name for the certificate profile.</target>
+        </segment>
+      </unit>
+      <unit id="402">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="403">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="404">
+        <segment state="initial">
+          <source>Provide an optional description for the certificate.</source>
+          <target>Provide an optional description for the certificate.</target>
+        </segment>
+      </unit>
+      <unit id="405">
+        <segment state="initial">
+          <source>Certificate file</source>
+          <target>Certificate file</target>
+        </segment>
+      </unit>
+      <unit id="406">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="407">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import</pc>, and then select the Trusted Root CA certificate (<pc dataRefEnd="id4" dataRefStart="id3" id="p2">.cer</pc>) that you exported from your issuing CA.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import</pc>, and then select the Trusted Root CA certificate (<pc dataRefEnd="id4" dataRefStart="id3" id="p2">.cer</pc>) that you exported from your issuing CA.</target>
+        </segment>
+      </unit>
+      <unit id="408">
+        <segment state="initial">
+          <source>Destination store</source>
+          <target>Destination store</target>
+        </segment>
+      </unit>
+      <unit id="409">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="410">
+        <segment state="initial">
+          <source>For devices that have more than one certificate store, select where to store the certificate.</source>
+          <target>For devices that have more than one certificate store, select where to store the certificate.</target>
+        </segment>
+      </unit>
+      <unit id="411">
+        <segment state="initial">
+          <source>Select from:</source>
+          <target>Select from:</target>
+        </segment>
+      </unit>
+      <unit id="412">
+        <segment state="initial">
+          <source>Computer certificate store – Root</source>
+          <target>Computer certificate store – Root</target>
+        </segment>
+      </unit>
+      <unit id="413">
+        <segment state="initial">
+          <source>Computer Certificate store – Intermediate</source>
+          <target>Computer Certificate store – Intermediate</target>
+        </segment>
+      </unit>
+      <unit id="414">
+        <segment state="initial">
+          <source>User certificate store – Intermediate</source>
+          <target>User certificate store – Intermediate</target>
+        </segment>
+      </unit>
+      <unit id="415">
+        <segment state="initial">
+          <source>For devices that have only one store, this setting is ignored.</source>
+          <target>For devices that have only one store, this setting is ignored.</target>
+        </segment>
+      </unit>
+      <unit id="416">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</source>
+          <target>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="417">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> workspace, and can now be deployed.</source>
+          <target>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> workspace, and can now be deployed.</target>
+        </segment>
+      </unit>
+      <unit id="418">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ConfigSCEP"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 3 – Create SCEP or .PFX certificate profiles</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Task 3 – Create SCEP or .PFX certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="419">
+        <segment state="initial">
+          <source>After you have created a Trusted CA certificate profile, create SCEP or .PFX certificate profiles for each platform you want to use.</source>
+          <target>After you have created a Trusted CA certificate profile, create SCEP or .PFX certificate profiles for each platform you want to use.</target>
+        </segment>
+      </unit>
+      <unit id="420">
+        <segment state="initial">
+          <source>When you create a SCEP certificate profile, you must specify a Trusted CA certificate profile for that same platform.</source>
+          <target>When you create a SCEP certificate profile, you must specify a Trusted CA certificate profile for that same platform.</target>
+        </segment>
+      </unit>
+      <unit id="421">
+        <segment state="initial">
+          <source>This links the two certificate profiles, although, you must still deploy each profile separately.</source>
+          <target>This links the two certificate profiles, although, you must still deploy each profile separately.</target>
+        </segment>
+      </unit>
+      <unit id="422">
+        <segment state="initial">
+          <source>To create a SCEP certificate profile</source>
+          <target>To create a SCEP certificate profile</target>
+        </segment>
+      </unit>
+      <unit id="423">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="424">
+        <segment state="initial">
+          <source>Configure one of the following policy types:</source>
+          <target>Configure one of the following policy types:</target>
+        </segment>
+      </unit>
+      <unit id="425">
+        <segment state="initial">
+          <source>Android &amp;gt; SCEP Certificate Profile (Android 4 and later)</source>
+          <target>Android &amp;gt; SCEP Certificate Profile (Android 4 and later)</target>
+        </segment>
+      </unit>
+      <unit id="426">
+        <segment state="initial">
+          <source>iOS &amp;gt; SCEP Certificate Profile (iOS 5 and later)</source>
+          <target>iOS &amp;gt; SCEP Certificate Profile (iOS 5 and later)</target>
+        </segment>
+      </unit>
+      <unit id="427">
+        <segment state="initial">
+          <source>Mac OS X &amp;gt; SCEP Certificate Profile (Mac OS X 10.9 and later)</source>
+          <target>Mac OS X &amp;gt; SCEP Certificate Profile (Mac OS X 10.9 and later)</target>
+        </segment>
+      </unit>
+      <unit id="428">
+        <segment state="initial">
+          <source>Windows Phone and Enrolled Windows Devices &amp;gt; SCEP Certificate Profile (Windows 8.1 and later)</source>
+          <target>Windows Phone and Enrolled Windows Devices &amp;gt; SCEP Certificate Profile (Windows 8.1 and later)</target>
+        </segment>
+      </unit>
+      <unit id="429">
+        <segment state="initial">
+          <source>Windows Phone and Enrolled Windows Devices &amp;gt; SCEP Certificate Profile (Windows Phone 8.1 and later)</source>
+          <target>Windows Phone and Enrolled Windows Devices &amp;gt; SCEP Certificate Profile (Windows Phone 8.1 and later)</target>
+        </segment>
+      </unit>
+      <unit id="430">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Learn more: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</source>
+          <target>Learn more: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="431">
+        <segment state="initial">
+          <source>Use the following information to configure the SCEP certificate profile settings for Android, iOS, Mac OS X, Windows 8.1 and later, and Windows Phone 8.1 and later:</source>
+          <target>Use the following information to configure the SCEP certificate profile settings for Android, iOS, Mac OS X, Windows 8.1 and later, and Windows Phone 8.1 and later:</target>
+        </segment>
+      </unit>
+      <unit id="432">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="433">
+        <segment state="initial">
+          <source>Platform</source>
+          <target>Platform</target>
+        </segment>
+      </unit>
+      <unit id="434">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="435">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="436">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="437">
+        <segment state="initial">
+          <source>Provide a descriptive name for the certificate profile.</source>
+          <target>Provide a descriptive name for the certificate profile.</target>
+        </segment>
+      </unit>
+      <unit id="438">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="439">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="440">
+        <segment state="initial">
+          <source>Provide an optional description for the certificate.</source>
+          <target>Provide an optional description for the certificate.</target>
+        </segment>
+      </unit>
+      <unit id="441">
+        <segment state="initial">
+          <source>Renewal threshold (%)</source>
+          <target>Renewal threshold (%)</target>
+        </segment>
+      </unit>
+      <unit id="442">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="443">
+        <segment state="initial">
+          <source>Specify the percentage of the certificate lifetime that remains before the device requests renewal of the certificate.</source>
+          <target>Specify the percentage of the certificate lifetime that remains before the device requests renewal of the certificate.</target>
+        </segment>
+      </unit>
+      <unit id="444">
+        <segment state="initial">
+          <source>Key Storage Provider (KSP)</source>
+          <target>Key Storage Provider (KSP)</target>
+        </segment>
+      </unit>
+      <unit id="445">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="446">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="447">
+        <segment state="initial">
+          <source>Windows Phone 8.1</source>
+          <target>Windows Phone 8.1</target>
+        </segment>
+      </unit>
+      <unit id="448">
+        <segment state="initial">
+          <source>Specify where the key to the certificate will be stored.</source>
+          <target>Specify where the key to the certificate will be stored.</target>
+        </segment>
+      </unit>
+      <unit id="449">
+        <segment state="initial">
+          <source>Choose from one of the following:</source>
+          <target>Choose from one of the following:</target>
+        </segment>
+      </unit>
+      <unit id="450">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll to Trusted Platform Module (TPM) if present, otherwise enroll to software KSP</pc> - Enrolls the key to the TPM.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll to Trusted Platform Module (TPM) if present, otherwise enroll to software KSP</pc> - Enrolls the key to the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="451">
+        <segment state="initial">
+          <source>If the TPM is not present, the key will be installed to the storage provider for the software key.</source>
+          <target>If the TPM is not present, the key will be installed to the storage provider for the software key.</target>
+        </segment>
+      </unit>
+      <unit id="452">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll to Trusted Platform Module (TPM), otherwise fail</pc> - Enrolls the key to the TPM.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll to Trusted Platform Module (TPM), otherwise fail</pc> - Enrolls the key to the TPM.</target>
+        </segment>
+      </unit>
+      <unit id="453">
+        <segment state="initial">
+          <source>If the TPM module is not present, the installation will fail</source>
+          <target>If the TPM module is not present, the installation will fail</target>
+        </segment>
+      </unit>
+      <unit id="454">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](../Topic/Control-Microsoft-Passport-settings-on-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll  to Passport for Work KSP, otherwise fail (Windows 10 and later)</pc> - Enrolls the key to Passport for Work, described in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Control Microsoft Passport settings on devices with Microsoft Intune</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll  to Passport for Work KSP, otherwise fail (Windows 10 and later)</pc> - Enrolls the key to Passport for Work, described in <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Control Microsoft Passport settings on devices with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="455">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option also enables you to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require multi-factor authentication</pc> during enrollment of devices before issuing certificates to those devices.</source>
+          <target>This option also enables you to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require multi-factor authentication</pc> during enrollment of devices before issuing certificates to those devices.</target>
+        </segment>
+      </unit>
+      <unit id="456">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Protect-Windows-devices-with-multi-factor-authentication.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protect Windows devices with multi-factor authentication</pc> for more information.</source>
+          <target>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protect Windows devices with multi-factor authentication</pc> for more information.</target>
+        </segment>
+      </unit>
+      <unit id="457">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll to Software KSP</pc> - Enrolls the key to the storage provider for the software key.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll to Software KSP</pc> - Enrolls the key to the storage provider for the software key.</target>
+        </segment>
+      </unit>
+      <unit id="458">
+        <segment state="initial">
+          <source>SCEP server URL</source>
+          <target>SCEP server URL</target>
+        </segment>
+      </unit>
+      <unit id="459">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="460">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter a URL (with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">https://</pc> prefix), then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add</pc>; or select a URL, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Delete</pc>.</source>
+          <target>Enter a URL (with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">http://</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">https://</pc> prefix), then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add</pc>; or select a URL, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Delete</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="461">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, a SCEP server URL might resemble the following:: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">https://mdmndes1.contoso.com/certsrv/mscep/mscep.dll</pc></source>
+          <target>For example, a SCEP server URL might resemble the following:: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">https://mdmndes1.contoso.com/certsrv/mscep/mscep.dll</pc></target>
+        </segment>
+      </unit>
+      <unit id="462">
+        <segment state="initial">
+          <source>Each SCEP profile supports a single SCEP server URL.</source>
+          <target>Each SCEP profile supports a single SCEP server URL.</target>
+        </segment>
+      </unit>
+      <unit id="463">
+        <segment state="initial">
+          <source>Subject name format</source>
+          <target>Subject name format</target>
+        </segment>
+      </unit>
+      <unit id="464">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="465">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="466">
+        <segment state="initial">
+          <source>Windows Phone 8.1</source>
+          <target>Windows Phone 8.1</target>
+        </segment>
+      </unit>
+      <unit id="467">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the list, select how <ph dataRef="id1" id="ph1" /> automatically creates the subject name in the certificate request.</source>
+          <target>From the list, select how <ph dataRef="id1" id="ph1" /> automatically creates the subject name in the certificate request.</target>
+        </segment>
+      </unit>
+      <unit id="468">
+        <segment state="initial">
+          <source>If the certificate is for a user, you can also include the user's email address in the subject name.</source>
+          <target>If the certificate is for a user, you can also include the user's email address in the subject name.</target>
+        </segment>
+      </unit>
+      <unit id="469">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Common Name</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Common Name and email address</pc>.</source>
+          <target>You can select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Common Name</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Common Name and email address</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="470">
+        <segment state="initial">
+          <source>Subject Alternative Name</source>
+          <target>Subject Alternative Name</target>
+        </segment>
+      </unit>
+      <unit id="471">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="472">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Email Address</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User principal name (UPN)</pc>, or both.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Email Address</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User principal name (UPN)</pc>, or both.</target>
+        </segment>
+      </unit>
+      <unit id="473">
+        <segment state="initial">
+          <source>Certificate validity period</source>
+          <target>Certificate validity period</target>
+        </segment>
+      </unit>
+      <unit id="474">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="475">
+        <segment state="initial">
+          <source>Specify the amount of time before the certificate expires.</source>
+          <target>Specify the amount of time before the certificate expires.</target>
+        </segment>
+      </unit>
+      <unit id="476">
+        <segment state="initial">
+          <source>Key Usage</source>
+          <target>Key Usage</target>
+        </segment>
+      </unit>
+      <unit id="477">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="478">
+        <segment state="initial">
+          <source>Specify key usage options for the certificate.</source>
+          <target>Specify key usage options for the certificate.</target>
+        </segment>
+      </unit>
+      <unit id="479">
+        <segment state="initial">
+          <source>You can choose from the following options:</source>
+          <target>You can choose from the following options:</target>
+        </segment>
+      </unit>
+      <unit id="480">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Digital Signature</pc> (SignatureTemplate) – Use to digitally sign data.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Digital Signature</pc> (SignatureTemplate) – Use to digitally sign data.</target>
+        </segment>
+      </unit>
+      <unit id="481">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Key Encipherment</pc> (EncryptionTemplate) - Use for encryption.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Key Encipherment</pc> (EncryptionTemplate) - Use for encryption.</target>
+        </segment>
+      </unit>
+      <unit id="482">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Key Encipherment + Digital Signature</pc> (GeneralPurposeTemplate) – Use to digitally sign and encrypt data.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Key Encipherment + Digital Signature</pc> (GeneralPurposeTemplate) – Use to digitally sign and encrypt data.</target>
+        </segment>
+      </unit>
+      <unit id="483">
+        <segment state="initial">
+          <source>Key size (bits)</source>
+          <target>Key size (bits)</target>
+        </segment>
+      </unit>
+      <unit id="484">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="485">
+        <segment state="initial">
+          <source>Select the size of the key in bits that is supported by your device.</source>
+          <target>Select the size of the key in bits that is supported by your device.</target>
+        </segment>
+      </unit>
+      <unit id="486">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1024</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">2048</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1024</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">2048</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="487">
+        <segment state="initial">
+          <source>Hash algorithm</source>
+          <target>Hash algorithm</target>
+        </segment>
+      </unit>
+      <unit id="488">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="489">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="490">
+        <segment state="initial">
+          <source>Windows Phone 8.1</source>
+          <target>Windows Phone 8.1</target>
+        </segment>
+      </unit>
+      <unit id="491">
+        <segment state="initial">
+          <source>Select one of the available hash algorithm types to use with this certificate.</source>
+          <target>Select one of the available hash algorithm types to use with this certificate.</target>
+        </segment>
+      </unit>
+      <unit id="492">
+        <segment state="initial">
+          <source>Select the strongest level of security that the connecting devices support.</source>
+          <target>Select the strongest level of security that the connecting devices support.</target>
+        </segment>
+      </unit>
+      <unit id="493">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SHA-2</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">SHA-2</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="494">
+        <segment state="initial">
+          <source>Extended Key Usage</source>
+          <target>Extended Key Usage</target>
+        </segment>
+      </unit>
+      <unit id="495">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="496">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select</pc> to add values for the certificate’s intended purpose.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select</pc> to add values for the certificate’s intended purpose.</target>
+        </segment>
+      </unit>
+      <unit id="497">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In most cases, the certificate will require <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Client Authentication</pc> so that the user or device can authenticate to a server.</source>
+          <target>In most cases, the certificate will require <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Client Authentication</pc> so that the user or device can authenticate to a server.</target>
+        </segment>
+      </unit>
+      <unit id="498">
+        <segment state="initial">
+          <source>However, you can add any other key usages as required.</source>
+          <target>However, you can add any other key usages as required.</target>
+        </segment>
+      </unit>
+      <unit id="499">
+        <segment state="initial">
+          <source>Select Root Certificate</source>
+          <target>Select Root Certificate</target>
+        </segment>
+      </unit>
+      <unit id="500">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="501">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select</pc> to choose a root CA certificate profile that you have previously configured and deployed to the user or device.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select</pc> to choose a root CA certificate profile that you have previously configured and deployed to the user or device.</target>
+        </segment>
+      </unit>
+      <unit id="502">
+        <segment state="initial">
+          <source>This CA certificate must be the root certificate for the CA that will issue the certificate that you are configuring in this certificate profile.</source>
+          <target>This CA certificate must be the root certificate for the CA that will issue the certificate that you are configuring in this certificate profile.</target>
+        </segment>
+      </unit>
+      <unit id="503">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</source>
+          <target>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="504">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> workspace, and can now be deployed.</source>
+          <target>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> workspace, and can now be deployed.</target>
+        </segment>
+      </unit>
+      <unit id="505">
+        <segment state="initial">
+          <source>To create a .PFX certificate profile</source>
+          <target>To create a .PFX certificate profile</target>
+        </segment>
+      </unit>
+      <unit id="506">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="507">
+        <segment state="initial">
+          <source>Configure one of the following policy types:</source>
+          <target>Configure one of the following policy types:</target>
+        </segment>
+      </unit>
+      <unit id="508">
+        <segment state="initial">
+          <source>Android &amp;gt;.PFX Certificate Profile (Android 4 and later)</source>
+          <target>Android &amp;gt;.PFX Certificate Profile (Android 4 and later)</target>
+        </segment>
+      </unit>
+      <unit id="509">
+        <segment state="initial">
+          <source>Windows Phone and Enrolled Windows Devices &amp;gt; .PFX Certificate Profile (Windows 10 and later)</source>
+          <target>Windows Phone and Enrolled Windows Devices &amp;gt; .PFX Certificate Profile (Windows 10 and later)</target>
+        </segment>
+      </unit>
+      <unit id="510">
+        <segment state="initial">
+          <source>Windows Phone and Enrolled Windows Devices &amp;gt; .PFX Certificate Profile (Windows Phone 10 and later)</source>
+          <target>Windows Phone and Enrolled Windows Devices &amp;gt; .PFX Certificate Profile (Windows Phone 10 and later)</target>
+        </segment>
+      </unit>
+      <unit id="511">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Learn more: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</source>
+          <target>Learn more: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="512">
+        <segment state="initial">
+          <source>Use the following information to configure the .PFX  certificate profile settings for Android, Windows 10, and Windows Phone 10:</source>
+          <target>Use the following information to configure the .PFX  certificate profile settings for Android, Windows 10, and Windows Phone 10:</target>
+        </segment>
+      </unit>
+      <unit id="513">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="514">
+        <segment state="initial">
+          <source>Platform</source>
+          <target>Platform</target>
+        </segment>
+      </unit>
+      <unit id="515">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="516">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="517">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="518">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="519">
+        <segment state="initial">
+          <source>Windows Phone 10</source>
+          <target>Windows Phone 10</target>
+        </segment>
+      </unit>
+      <unit id="520">
+        <segment state="initial">
+          <source>Provide a descriptive name for the certificate profile.</source>
+          <target>Provide a descriptive name for the certificate profile.</target>
+        </segment>
+      </unit>
+      <unit id="521">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="522">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="523">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="524">
+        <segment state="initial">
+          <source>Windows Phone 10</source>
+          <target>Windows Phone 10</target>
+        </segment>
+      </unit>
+      <unit id="525">
+        <segment state="initial">
+          <source>Provide an optional description for the certificate.</source>
+          <target>Provide an optional description for the certificate.</target>
+        </segment>
+      </unit>
+      <unit id="526">
+        <segment state="initial">
+          <source>Renewal threshold (%)</source>
+          <target>Renewal threshold (%)</target>
+        </segment>
+      </unit>
+      <unit id="527">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="528">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="529">
+        <segment state="initial">
+          <source>Windows Phone 10</source>
+          <target>Windows Phone 10</target>
+        </segment>
+      </unit>
+      <unit id="530">
+        <segment state="initial">
+          <source>Specify the percentage of the certificate lifetime that remains before the device requests renewal of the certificate.</source>
+          <target>Specify the percentage of the certificate lifetime that remains before the device requests renewal of the certificate.</target>
+        </segment>
+      </unit>
+      <unit id="531">
+        <segment state="initial">
+          <source>Certification authority</source>
+          <target>Certification authority</target>
+        </segment>
+      </unit>
+      <unit id="532">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="533">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="534">
+        <segment state="initial">
+          <source>Windows Phone 10</source>
+          <target>Windows Phone 10</target>
+        </segment>
+      </unit>
+      <unit id="535">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Provide the FQDN of the certification authority, for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">device.certs.contoso.com</pc>.</source>
+          <target>Provide the FQDN of the certification authority, for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">device.certs.contoso.com</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="536">
+        <segment state="initial">
+          <source>Certification authority name</source>
+          <target>Certification authority name</target>
+        </segment>
+      </unit>
+      <unit id="537">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="538">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="539">
+        <segment state="initial">
+          <source>Windows Phone 10</source>
+          <target>Windows Phone 10</target>
+        </segment>
+      </unit>
+      <unit id="540">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Provide the name of the certification authority, such as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">device-contoso-CA</pc>.</source>
+          <target>Provide the name of the certification authority, such as <pc dataRefEnd="id2" dataRefStart="id1" id="p1">device-contoso-CA</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="541">
+        <segment state="initial">
+          <source>Certification template name</source>
+          <target>Certification template name</target>
+        </segment>
+      </unit>
+      <unit id="542">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="543">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="544">
+        <segment state="initial">
+          <source>Windows Phone 10</source>
+          <target>Windows Phone 10</target>
+        </segment>
+      </unit>
+      <unit id="545">
+        <segment state="initial">
+          <source>Provide the name of the certification template (not the display name).</source>
+          <target>Provide the name of the certification template (not the display name).</target>
+        </segment>
+      </unit>
+      <unit id="546">
+        <segment state="initial">
+          <source>Subject name format</source>
+          <target>Subject name format</target>
+        </segment>
+      </unit>
+      <unit id="547">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="548">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="549">
+        <segment state="initial">
+          <source>Windows Phone 10</source>
+          <target>Windows Phone 10</target>
+        </segment>
+      </unit>
+      <unit id="550">
+        <segment state="initial">
+          <source>Provide a common name or a common name and email address</source>
+          <target>Provide a common name or a common name and email address</target>
+        </segment>
+      </unit>
+      <unit id="551">
+        <segment state="initial">
+          <source>Subject alternative name</source>
+          <target>Subject alternative name</target>
+        </segment>
+      </unit>
+      <unit id="552">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="553">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="554">
+        <segment state="initial">
+          <source>Windows Phone 10</source>
+          <target>Windows Phone 10</target>
+        </segment>
+      </unit>
+      <unit id="555">
+        <segment state="initial">
+          <source>Choose the subject alternative names.</source>
+          <target>Choose the subject alternative names.</target>
+        </segment>
+      </unit>
+      <unit id="556">
+        <segment state="initial">
+          <source>Certificate validity period</source>
+          <target>Certificate validity period</target>
+        </segment>
+      </unit>
+      <unit id="557">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="558">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="559">
+        <segment state="initial">
+          <source>Windows Phone 10</source>
+          <target>Windows Phone 10</target>
+        </segment>
+      </unit>
+      <unit id="560">
+        <segment state="initial">
+          <source>Specify the amount of time before the certificate expires.</source>
+          <target>Specify the amount of time before the certificate expires.</target>
+        </segment>
+      </unit>
+      <unit id="561">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</source>
+          <target>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="562">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> workspace, and can now be deployed.</source>
+          <target>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> workspace, and can now be deployed.</target>
+        </segment>
+      </unit>
+      <unit id="563">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Deploy"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Deploy certificate profiles</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Deploy certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="564">
+        <segment state="initial">
+          <source>When you deploy certificate profiles, the certificate file from the Trusted CA certificate profile is installed on devices, and the SCEP or .PFX certificate profile is used by the device to create a certificate request by the device.</source>
+          <target>When you deploy certificate profiles, the certificate file from the Trusted CA certificate profile is installed on devices, and the SCEP or .PFX certificate profile is used by the device to create a certificate request by the device.</target>
+        </segment>
+      </unit>
+      <unit id="565">
+        <segment state="initial">
+          <source>Certificate profiles install only on applicable devices based on the platform you use when creating the profile.</source>
+          <target>Certificate profiles install only on applicable devices based on the platform you use when creating the profile.</target>
+        </segment>
+      </unit>
+      <unit id="566">
+        <segment state="initial">
+          <source>You can deploy certificate profiles to user collections or device collections.</source>
+          <target>You can deploy certificate profiles to user collections or device collections.</target>
+        </segment>
+      </unit>
+      <unit id="567">
+        <segment state="initial">
+          <source>To allow certificates to be published to devices quickly after the device enrolls, deploy the certificate profile to a user group (not a device group).</source>
+          <target>To allow certificates to be published to devices quickly after the device enrolls, deploy the certificate profile to a user group (not a device group).</target>
+        </segment>
+      </unit>
+      <unit id="568">
+        <segment state="initial">
+          <source>If you deploy to a device group, a full device registration must take place before the device receives policy.</source>
+          <target>If you deploy to a device group, a full device registration must take place before the device receives policy.</target>
+        </segment>
+      </unit>
+      <unit id="569">
+        <segment state="initial">
+          <source>Although each profile is deployed separately, both the Trusted Root and the SCEP/.PFX profile must be deployed or else the SCEP/.PFX certificate policy will fail.</source>
+          <target>Although each profile is deployed separately, both the Trusted Root and the SCEP/.PFX profile must be deployed or else the SCEP/.PFX certificate policy will fail.</target>
+        </segment>
+      </unit>
+      <unit id="570">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You deploy certificate profiles the same way you deploy other policy for <ph dataRef="id1" id="ph1" />.</source>
+          <target>You deploy certificate profiles the same way you deploy other policy for <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="571">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about how to deploy and manage policies, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</source>
+          <target>For information about how to deploy and manage policies, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="572">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="573">
+        <segment state="initial">
+          <source>Enable access to company resources with Microsoft Intune - deleted</source>
+          <target>Enable access to company resources with Microsoft Intune - deleted</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

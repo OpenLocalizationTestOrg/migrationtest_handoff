@@ -1,0 +1,1824 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - Help secure Windows PCs with Endpoint Protection for Microsoft Intune",
+      "pos": [
+        11,
+        96
+      ]
+    },
+    {
+      "content": "MD Conversion - Help secure Windows PCs with Endpoint Protection for Microsoft Intune",
+      "pos": [
+        231,
+        316
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> can help you to secure your managed computers in a number of ways, including Endpoint Protection which provides real-time protection against malware threats, keeps malware definitions up-to date, and automatically scans computers.",
+      "pos": [
+        317,
+        601
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> also provides tools that help you to manage and monitor malware attacks",
+      "pos": [
+        602,
+        717
+      ]
+    },
+    {
+      "pos": [
+        719,
+        954
+      ],
+      "content": "If you have not yet installed the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> client on your computers, see <bpt id=\"p1\">[</bpt>Install the Windows PC client with Microsoft Intune<ept id=\"p1\">](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        956,
+        1088
+      ],
+      "content": "Use the information in the following sections to help you configure, deploy and monitor <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph>."
+    },
+    {
+      "content": "Using Endpoint Protection in Microsoft Intune",
+      "pos": [
+        1093,
+        1138
+      ]
+    },
+    {
+      "content": "Before you start",
+      "pos": [
+        1144,
+        1160
+      ]
+    },
+    {
+      "content": "As an IT admin, one of your top priorities is to keep the computers that you manage free of malware and viruses.",
+      "pos": [
+        1161,
+        1273
+      ]
+    },
+    {
+      "content": "Before you deploy <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> to client computers in your organization, you should decide how to protect your computers by selecting one of the following options and configuring its associated policy settings:",
+      "pos": [
+        1274,
+        1525
+      ]
+    },
+    {
+      "content": "I want to:",
+      "pos": [
+        1528,
+        1538
+      ]
+    },
+    {
+      "content": "Endpoint Protection policy settings",
+      "pos": [
+        1539,
+        1574
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        1575,
+        1591
+      ]
+    },
+    {
+      "content": "Use <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> only if no third-party endpoint protection application is installed",
+      "pos": [
+        1672,
+        1840
+      ]
+    },
+    {
+      "content": "You can use <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> on all computers where a third-party endpoint protection application is not installed.",
+      "pos": [
+        1852,
+        2047
+      ]
+    },
+    {
+      "content": "Install Endpoint Protection = <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        2048,
+        2085
+      ]
+    },
+    {
+      "content": "Enable Endpoint Protection = <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        2097,
+        2133
+      ]
+    },
+    {
+      "content": "Install Endpoint Protection even if a third-party endpoint protection application is installed = <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>",
+      "pos": [
+        2145,
+        2248
+      ]
+    },
+    {
+      "pos": [
+        2249,
+        2487
+      ],
+      "content": "If a third-party endpoint protection application is detected, <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> will not be installed, or will be uninstalled if it has already been installed."
+    },
+    {
+      "content": "Use <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph>, even if a third-party endpoint protection application is installed",
+      "pos": [
+        2490,
+        2658
+      ]
+    },
+    {
+      "content": "With this approach, you will be running <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> and the third party endpoint protection application (if it is installed) simultaneously.",
+      "pos": [
+        2670,
+        2895
+      ]
+    },
+    {
+      "content": "This is not a recommended configuration because of potential performance issues.",
+      "pos": [
+        2896,
+        2976
+      ]
+    },
+    {
+      "content": "Install Endpoint Protection = <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        2977,
+        3014
+      ]
+    },
+    {
+      "content": "Enable Endpoint Protection = <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        3026,
+        3062
+      ]
+    },
+    {
+      "content": "Install Endpoint Protection even if a third-party endpoint protection application is installed = <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        3074,
+        3178
+      ]
+    },
+    {
+      "content": "Use when:",
+      "pos": [
+        3179,
+        3188
+      ]
+    },
+    {
+      "content": "You want to switch to using <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph>.",
+      "pos": [
+        3200,
+        3325
+      ]
+    },
+    {
+      "content": "You deploy a new client that will use <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph>",
+      "pos": [
+        3337,
+        3471
+      ]
+    },
+    {
+      "content": "You upgrade any client that will use <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph>.",
+      "pos": [
+        3483,
+        3617
+      ]
+    },
+    {
+      "content": "Use <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> without <ph id=\"ph2\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph3\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph>",
+      "pos": [
+        3620,
+        3782
+      ]
+    },
+    {
+      "content": "In this case, you won’t be using <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> to protect your computers from malware and viruses.",
+      "pos": [
+        3794,
+        3975
+      ]
+    },
+    {
+      "content": "Instead, you will rely on a third-party endpoint protection application.",
+      "pos": [
+        3976,
+        4048
+      ]
+    },
+    {
+      "pos": [
+        4049,
+        4085
+      ],
+      "content": "Install Endpoint Protection = <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>"
+    },
+    {
+      "content": "If you are not using a third-party endpoint protection application, this configuration is not recommended, as it could expose your organization’s computers to malware or other attacks.",
+      "pos": [
+        4086,
+        4270
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> is not installed, and it is uninstalled if it was installed previously.",
+      "pos": [
+        4282,
+        4450
+      ]
+    },
+    {
+      "pos": [
+        4452,
+        4704
+      ],
+      "content": "If you want to switch from your current endpoint protection application to <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph>, use the following steps which are explained in more detail later in this topic:"
+    },
+    {
+      "pos": [
+        4710,
+        4877
+      ],
+      "content": "Leave your current endpoint protection application running while you deploy the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> client software to those computers."
+    },
+    {
+      "pos": [
+        4883,
+        5048
+      ],
+      "content": "Confirm that <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> is installed and is helping to secure client computers."
+    },
+    {
+      "content": "Remove the third-party endpoint protection software by:",
+      "pos": [
+        5054,
+        5109
+      ]
+    },
+    {
+      "content": "Using <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> software distribution to deploy a software removal tool that is provided by the manufacturer of the third-party endpoint protection application.",
+      "pos": [
+        5115,
+        5317
+      ]
+    },
+    {
+      "content": "For more information, see <bpt id=\"p1\">[</bpt>Deploy and configure apps with Microsoft Intune<ept id=\"p1\">](../Topic/Deploy-and-configure-apps-with-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        5318,
+        5455
+      ]
+    },
+    {
+      "content": "Removing the third-party endpoint protection application manually.",
+      "pos": [
+        5461,
+        5527
+      ]
+    },
+    {
+      "pos": [
+        5529,
+        5645
+      ],
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> will not uninstall third-party endpoint protection applications."
+    },
+    {
+      "pos": [
+        5651,
+        5733
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_HowtoConf\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>How to configure Microsoft Intune Endpoint Protection"
+    },
+    {
+      "content": "Use the following procedure to help you configure <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> for <ph id=\"ph2\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph>.",
+      "pos": [
+        5734,
+        5886
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> can manage <ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> for Windows 10 Technical Preview.",
+      "pos": [
+        5887,
+        6027
+      ]
+    },
+    {
+      "content": "Certain policy settings are only available for Windows 10.",
+      "pos": [
+        6028,
+        6086
+      ]
+    },
+    {
+      "pos": [
+        6092,
+        6210
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Add Policy<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "Configure and deploy a <bpt id=\"p1\">**</bpt>Microsoft Intune Agent Settings<ept id=\"p1\">**</ept> policy for the <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> settings.",
+      "pos": [
+        6216,
+        6343
+      ]
+    },
+    {
+      "content": "You can use recommended settings or customize the settings.",
+      "pos": [
+        6344,
+        6403
+      ]
+    },
+    {
+      "content": "If you need more information about how to create and deploy policies, see the <bpt id=\"p1\">[</bpt>Common Windows PC management tasks with the Microsoft Intune computer client<ept id=\"p1\">](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md)</ept> topic.",
+      "pos": [
+        6404,
+        6657
+      ]
+    },
+    {
+      "content": "The tables after this procedure show the values you can configure in the policy and also the recommended values that will be used if you don’t customize the policy.",
+      "pos": [
+        6663,
+        6827
+      ]
+    },
+    {
+      "content": "You can find these settings in the <bpt id=\"p1\">**</bpt>Endpoint Protection<ept id=\"p1\">**</ept> section.",
+      "pos": [
+        6828,
+        6895
+      ]
+    },
+    {
+      "pos": [
+        6897,
+        7031
+      ],
+      "content": "You can view the deployed <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> policy on the <bpt id=\"p1\">**</bpt>All Policies<ept id=\"p1\">**</ept> page of the <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> workspace."
+    },
+    {
+      "content": "Endpoint Protection service settings",
+      "pos": [
+        7038,
+        7074
+      ]
+    },
+    {
+      "content": "Policy setting",
+      "pos": [
+        7077,
+        7091
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        7092,
+        7108
+      ]
+    },
+    {
+      "content": "Install Endpoint Protection",
+      "pos": [
+        7155,
+        7182
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to install <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> on managed computers.",
+      "pos": [
+        7185,
+        7276
+      ]
+    },
+    {
+      "content": "If a third-party endpoint protection application is detected during installation, <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> will not be installed unless <bpt id=\"p1\">**</bpt>Install Endpoint Protection even if a third party endpoint protection application is installed<ept id=\"p1\">**</ept> is set to <bpt id=\"p2\">**</bpt>Yes<ept id=\"p2\">**</ept>.",
+      "pos": [
+        7277,
+        7549
+      ]
+    },
+    {
+      "content": "Intune <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> is installed on managed computers by default.",
+      "pos": [
+        7561,
+        7657
+      ]
+    },
+    {
+      "content": "If you don’t want <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> installed on your managed computers, you must explicitly set this policy to <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>.",
+      "pos": [
+        7658,
+        7803
+      ]
+    },
+    {
+      "content": "If <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> was previously installed and the policy is updated to <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>, then the <ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client will be uninstalled.",
+      "pos": [
+        7804,
+        7993
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        8005,
+        8031
+      ]
+    },
+    {
+      "content": "Install Endpoint Protection even if a third party endpoint protection application is installed",
+      "pos": [
+        8036,
+        8130
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to install <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> even if a third-party endpoint protection application is detected.",
+      "pos": [
+        8133,
+        8322
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        8334,
+        8360
+      ]
+    },
+    {
+      "content": "Enable Endpoint Protection",
+      "pos": [
+        8365,
+        8391
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to enable <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> on computers which have the <ph id=\"ph3\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client.",
+      "pos": [
+        8394,
+        8595
+      ]
+    },
+    {
+      "content": "If set to <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>, and <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> is installed, the <ph id=\"ph3\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client user interface is not displayed to users and all protection features are inactive.",
+      "pos": [
+        8607,
+        8877
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        8889,
+        8915
+      ]
+    },
+    {
+      "content": "Disable Client UI",
+      "pos": [
+        8920,
+        8937
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to hide the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client user interface from users (requires a client computer restart to take effect).",
+      "pos": [
+        8940,
+        9149
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>",
+      "pos": [
+        9161,
+        9186
+      ]
+    },
+    {
+      "content": "Install Endpoint Protection even if a third party endpoint protection application is installed",
+      "pos": [
+        9191,
+        9285
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to force the installation of <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph>, even if a third-party endpoint protection application is detected.",
+      "pos": [
+        9288,
+        9496
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>",
+      "pos": [
+        9508,
+        9533
+      ]
+    },
+    {
+      "content": "Create a system restore point before malware remediation",
+      "pos": [
+        9538,
+        9594
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to create a Windows System Restore Point before any malware remediation begins.",
+      "pos": [
+        9597,
+        9691
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        9703,
+        9729
+      ]
+    },
+    {
+      "content": "Track resolved malware (days)",
+      "pos": [
+        9734,
+        9763
+      ]
+    },
+    {
+      "content": "Lets <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> track resolved malware for a specified time so that you can manually check previously infected computers.",
+      "pos": [
+        9766,
+        9920
+      ]
+    },
+    {
+      "content": "You can specify a value from 0 to 30 days.",
+      "pos": [
+        9932,
+        9974
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>7 days<ept id=\"p1\">**</ept>",
+      "pos": [
+        9986,
+        10015
+      ]
+    },
+    {
+      "pos": [
+        10017,
+        10758
+      ],
+      "content": "If you have set the policy values for <bpt id=\"p1\">**</bpt>Install Endpoint Protection<ept id=\"p1\">**</ept> and <bpt id=\"p2\">**</bpt>Enable Endpoint Protection<ept id=\"p2\">**</ept> to <bpt id=\"p3\">**</bpt>Yes<ept id=\"p3\">**</ept>, and the policy value for  <bpt id=\"p4\">**</bpt>Install Endpoint Protection even if a third party endpoint protection application is installed<ept id=\"p4\">**</ept> to <bpt id=\"p5\">**</bpt>No<ept id=\"p5\">**</ept>, <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> will detect that another endpoint protection application is installed and will be not be installed, or uninstalled if it is already present (however, <ph id=\"ph3\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph4\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> does report about the health of the other endpoint protection application in the <ph id=\"ph5\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph>)."
+    },
+    {
+      "content": "Real-time protection settings",
+      "pos": [
+        10765,
+        10794
+      ]
+    },
+    {
+      "content": "Policy setting",
+      "pos": [
+        10797,
+        10811
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        10812,
+        10828
+      ]
+    },
+    {
+      "content": "Enable real-time protection",
+      "pos": [
+        10875,
+        10902
+      ]
+    },
+    {
+      "content": "Enables monitoring and scanning of all files and applications that are accessed.",
+      "pos": [
+        10905,
+        10985
+      ]
+    },
+    {
+      "content": "It also blocks any malicious files and applications before they can run on computers.",
+      "pos": [
+        10986,
+        11071
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        11083,
+        11109
+      ]
+    },
+    {
+      "content": "Scan all downloads",
+      "pos": [
+        11114,
+        11132
+      ]
+    },
+    {
+      "content": "Enables the scanning of all files and attachments that are downloaded from the Internet to computers.",
+      "pos": [
+        11135,
+        11236
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        11248,
+        11274
+      ]
+    },
+    {
+      "content": "Monitor file and program activity on computers",
+      "pos": [
+        11279,
+        11325
+      ]
+    },
+    {
+      "content": "Enables the monitoring of incoming files and outgoing files, and program activity on computers.",
+      "pos": [
+        11328,
+        11423
+      ]
+    },
+    {
+      "content": "With this setting, <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> can monitor when files and programs start to run and alert you about any actions they perform or actions that are taken on them.",
+      "pos": [
+        11424,
+        11615
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        11627,
+        11653
+      ]
+    },
+    {
+      "content": "Files monitored",
+      "pos": [
+        11658,
+        11673
+      ]
+    },
+    {
+      "content": "If <bpt id=\"p1\">**</bpt>Monitor file and program activity on computers<ept id=\"p1\">**</ept> is enabled, this setting allows you to choose if only incoming, only outgoing, or all files are monitored.",
+      "pos": [
+        11676,
+        11836
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Monitor all files<ept id=\"p1\">**</ept>",
+      "pos": [
+        11848,
+        11888
+      ]
+    },
+    {
+      "content": "Enable behavior monitoring",
+      "pos": [
+        11893,
+        11919
+      ]
+    },
+    {
+      "content": "Allows <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> to check for certain patterns of suspicious activity on client computers.",
+      "pos": [
+        11922,
+        12099
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        12111,
+        12137
+      ]
+    },
+    {
+      "content": "Enable Network Inspection System",
+      "pos": [
+        12142,
+        12174
+      ]
+    },
+    {
+      "content": "Enables Network Inspection System (NIS) on client computers.",
+      "pos": [
+        12177,
+        12237
+      ]
+    },
+    {
+      "content": "NIS uses signatures of known vulnerabilities from the <bpt id=\"p1\">[</bpt>Microsoft Malware Protection Center<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkId=234249)</ept> to help detect and block malicious network traffic.",
+      "pos": [
+        12238,
+        12428
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        12440,
+        12466
+      ]
+    },
+    {
+      "content": "Scan schedule settings",
+      "pos": [
+        12474,
+        12496
+      ]
+    },
+    {
+      "content": "Policy setting",
+      "pos": [
+        12499,
+        12513
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        12514,
+        12530
+      ]
+    },
+    {
+      "content": "Schedule a daily quick scan",
+      "pos": [
+        12577,
+        12604
+      ]
+    },
+    {
+      "content": "Schedules a daily quick scan of both frequently used files and important system files on computers.",
+      "pos": [
+        12607,
+        12706
+      ]
+    },
+    {
+      "content": "This quick scan has a minimal effect on performance.",
+      "pos": [
+        12707,
+        12759
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        12771,
+        12797
+      ]
+    },
+    {
+      "content": "Run a quick scan if you have missed two consecutive scans",
+      "pos": [
+        12802,
+        12859
+      ]
+    },
+    {
+      "content": "Configures <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> to automatically run a quick scan on computers if they miss two consecutive, scheduled quick scans.",
+      "pos": [
+        12862,
+        13016
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        13028,
+        13054
+      ]
+    },
+    {
+      "content": "Schedule a full scan",
+      "pos": [
+        13059,
+        13079
+      ]
+    },
+    {
+      "content": "Configures a full scan of all files and resources on the local hard disks of computers.",
+      "pos": [
+        13082,
+        13169
+      ]
+    },
+    {
+      "content": "This scan can take some time and can affect computer performance (depending on the number of files and resources scanned).",
+      "pos": [
+        13170,
+        13292
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>",
+      "pos": [
+        13304,
+        13329
+      ]
+    },
+    {
+      "content": "Run a full scan if you have missed two consecutive full scans",
+      "pos": [
+        13334,
+        13395
+      ]
+    },
+    {
+      "content": "Configures <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> to automatically run a full scan on computers if they miss two consecutive, scheduled full scans.",
+      "pos": [
+        13398,
+        13550
+      ]
+    },
+    {
+      "content": "Recommend value: Not configured",
+      "pos": [
+        13562,
+        13593
+      ]
+    },
+    {
+      "content": "Scan options settings",
+      "pos": [
+        13601,
+        13622
+      ]
+    },
+    {
+      "content": "Policy setting",
+      "pos": [
+        13625,
+        13639
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        13640,
+        13656
+      ]
+    },
+    {
+      "content": "Run a full scan after installation of Endpoint Protection",
+      "pos": [
+        13703,
+        13760
+      ]
+    },
+    {
+      "content": "Configures <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> to automatically run a full system scan after it is installed on computers.",
+      "pos": [
+        13763,
+        13893
+      ]
+    },
+    {
+      "content": "This scan runs only when computers are idle to minimize the effect on user productivity.",
+      "pos": [
+        13894,
+        13982
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        13994,
+        14020
+      ]
+    },
+    {
+      "content": "Automatically run a full scan when needed to follow up malware removal",
+      "pos": [
+        14025,
+        14095
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to let <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> automatically run a full system scan on computers after the removal of malware to help confirm that other files were not affected.",
+      "pos": [
+        14098,
+        14294
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        14306,
+        14332
+      ]
+    },
+    {
+      "content": "Start a scheduled scan only when the computer is idle",
+      "pos": [
+        14337,
+        14390
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to prevent scheduled scans from starting when computers are in use to prevent any loss of user productivity.",
+      "pos": [
+        14393,
+        14516
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        14528,
+        14554
+      ]
+    },
+    {
+      "content": "Check for the latest malware definitions before starting a scan",
+      "pos": [
+        14559,
+        14622
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to let <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> automatically check for the latest malware definitions before it starts a scan on computers.",
+      "pos": [
+        14625,
+        14783
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        14795,
+        14821
+      ]
+    },
+    {
+      "content": "Scan archive files",
+      "pos": [
+        14826,
+        14844
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to configure <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> to scan for malware in archive files (like .zip or .cab files) on computers.",
+      "pos": [
+        14847,
+        14995
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>",
+      "pos": [
+        15007,
+        15032
+      ]
+    },
+    {
+      "content": "Scan email messages",
+      "pos": [
+        15037,
+        15056
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to configure <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> to scan incoming email messages when they arrive on computers.",
+      "pos": [
+        15059,
+        15193
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        15205,
+        15231
+      ]
+    },
+    {
+      "content": "Scan files opened from network shared folders",
+      "pos": [
+        15236,
+        15281
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to configure <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> to scan files that are opened from shared folders on the network.",
+      "pos": [
+        15284,
+        15421
+      ]
+    },
+    {
+      "content": "These are typically files that are accessed by using a UNC path.",
+      "pos": [
+        15422,
+        15486
+      ]
+    },
+    {
+      "content": "Enabling this feature can cause problems for users who have read-only access because they cannot remove malware.",
+      "pos": [
+        15487,
+        15599
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>",
+      "pos": [
+        15611,
+        15636
+      ]
+    },
+    {
+      "content": "Scan mapped network drives",
+      "pos": [
+        15641,
+        15667
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to configure <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> to scan files on mapped network drives.",
+      "pos": [
+        15670,
+        15781
+      ]
+    },
+    {
+      "content": "Enabling this feature can cause problems for users who have read-only access because they cannot remove malware.",
+      "pos": [
+        15782,
+        15894
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>",
+      "pos": [
+        15906,
+        15931
+      ]
+    },
+    {
+      "content": "Scan removable drives",
+      "pos": [
+        15936,
+        15957
+      ]
+    },
+    {
+      "content": "Set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to configure <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> to scan for malware and unwanted software in the contents of removable drives, like USB flash drives, when you run a full scan on computers.",
+      "pos": [
+        15960,
+        16172
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        16184,
+        16210
+      ]
+    },
+    {
+      "content": "Limit CPU usage during a scan",
+      "pos": [
+        16215,
+        16244
+      ]
+    },
+    {
+      "content": "Configures the maximum percentage of CPU usage that can be used during scheduled scans on computers.",
+      "pos": [
+        16247,
+        16347
+      ]
+    },
+    {
+      "content": "You can set this value from 1 to 100 percent.",
+      "pos": [
+        16348,
+        16393
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>50%<ept id=\"p1\">**</ept>",
+      "pos": [
+        16405,
+        16431
+      ]
+    },
+    {
+      "content": "Default actions settings",
+      "pos": [
+        16439,
+        16463
+      ]
+    },
+    {
+      "content": "Policy setting",
+      "pos": [
+        16466,
+        16480
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        16481,
+        16497
+      ]
+    },
+    {
+      "content": "Choose how Endpoint Protection acts on malware of the following alert levels",
+      "pos": [
+        16544,
+        16620
+      ]
+    },
+    {
+      "content": "Specifies the default action that <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> takes when malware of various alert levels is detected.",
+      "pos": [
+        16623,
+        16756
+      ]
+    },
+    {
+      "content": "For each alert level, you can remove the malware, quarantine it, or take Microsoft’s recommended action.",
+      "pos": [
+        16768,
+        16872
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Recommended action<ept id=\"p1\">**</ept>",
+      "pos": [
+        16884,
+        16925
+      ]
+    },
+    {
+      "content": "Excluded files and folders settings",
+      "pos": [
+        16933,
+        16968
+      ]
+    },
+    {
+      "content": "Policy setting",
+      "pos": [
+        16971,
+        16985
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        16986,
+        17002
+      ]
+    },
+    {
+      "content": "Files and folders to exclude when running a scan or using real-time protection",
+      "pos": [
+        17049,
+        17127
+      ]
+    },
+    {
+      "content": "Excludes specific files or folders when a scan is run or when real-time protection is used on computers.",
+      "pos": [
+        17130,
+        17234
+      ]
+    },
+    {
+      "content": "Excluded processes settings",
+      "pos": [
+        17242,
+        17269
+      ]
+    },
+    {
+      "content": "Policy setting",
+      "pos": [
+        17272,
+        17286
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        17287,
+        17303
+      ]
+    },
+    {
+      "content": "Processes to exclude when running a scan or using real-time protection",
+      "pos": [
+        17350,
+        17420
+      ]
+    },
+    {
+      "content": "Lets you exclude specific processes when a scan is run or from real-time protection.",
+      "pos": [
+        17423,
+        17507
+      ]
+    },
+    {
+      "content": "You can exclude only files with the following extensions: <bpt id=\"p1\">**</bpt>.exe<ept id=\"p1\">**</ept>, <bpt id=\"p2\">**</bpt>.com<ept id=\"p2\">**</ept> or <bpt id=\"p3\">**</bpt>.scr<ept id=\"p3\">**</ept>.",
+      "pos": [
+        17508,
+        17597
+      ]
+    },
+    {
+      "content": "Excluded file types settings",
+      "pos": [
+        17605,
+        17633
+      ]
+    },
+    {
+      "content": "Policy setting",
+      "pos": [
+        17636,
+        17650
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        17651,
+        17667
+      ]
+    },
+    {
+      "content": "File extensions to exclude when running a scan or using real-time protection",
+      "pos": [
+        17714,
+        17790
+      ]
+    },
+    {
+      "content": "Lets you exclude specific file name extensions when a scan is run or when real-time protection is used on computers.",
+      "pos": [
+        17793,
+        17909
+      ]
+    },
+    {
+      "content": "Microsoft Active Protection Service Settings",
+      "pos": [
+        17917,
+        17961
+      ]
+    },
+    {
+      "content": "Microsoft Active Protection Service is an online community that helps you decide how to respond to potential threats.",
+      "pos": [
+        17962,
+        18079
+      ]
+    },
+    {
+      "content": "The community also helps stop the spread of new malware infections.",
+      "pos": [
+        18080,
+        18147
+      ]
+    },
+    {
+      "content": "Policy setting",
+      "pos": [
+        18150,
+        18164
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        18165,
+        18181
+      ]
+    },
+    {
+      "content": "Join Microsoft Active Protection Service",
+      "pos": [
+        18228,
+        18268
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> automatically sends information about detected malware to the Microsoft Active Protection Service.",
+      "pos": [
+        18271,
+        18377
+      ]
+    },
+    {
+      "content": "Microsoft does not use any information collected to identify you or to contact you.",
+      "pos": [
+        18378,
+        18461
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        18473,
+        18499
+      ]
+    },
+    {
+      "content": "Membership level",
+      "pos": [
+        18504,
+        18520
+      ]
+    },
+    {
+      "content": "If you selected to join the Microsoft Active Protection Service, this setting lets you choose from one of the following membership levels:",
+      "pos": [
+        18523,
+        18661
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Basic<ept id=\"p1\">**</ept> - Sends basic information to Microsoft about detected malware.",
+      "pos": [
+        18673,
+        18745
+      ]
+    },
+    {
+      "content": "This includes where the software came from, the actions that you apply or that <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> applies automatically, and whether the actions were successful.",
+      "pos": [
+        18746,
+        18932
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Advanced<ept id=\"p1\">**</ept> - Sends more information to Microsoft about malware, spyware, and potentially unwanted software.",
+      "pos": [
+        18944,
+        19053
+      ]
+    },
+    {
+      "content": "This includes the location of the software, file names, how the software operates, and how it has affected your computer.",
+      "pos": [
+        19054,
+        19175
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Advanced<ept id=\"p1\">**</ept>",
+      "pos": [
+        19187,
+        19218
+      ]
+    },
+    {
+      "content": "Receive dynamic definitions based on Microsoft Active Protection Service reports",
+      "pos": [
+        19223,
+        19303
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> lets computers receive dynamic malware definitions based on information that <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> sends to the Microsoft Active Protection Service (if you have joined it) about detected malware.",
+      "pos": [
+        19306,
+        19531
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        19543,
+        19569
+      ]
+    },
+    {
+      "content": "Management tasks for Endpoint Protection",
+      "pos": [
+        19576,
+        19616
+      ]
+    },
+    {
+      "pos": [
+        19617,
+        19758
+      ],
+      "content": "The following tasks help you to carry out various management tasks on managed computers that run <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph>."
+    },
+    {
+      "content": "I want to",
+      "pos": [
+        19761,
+        19770
+      ]
+    },
+    {
+      "pos": [
+        19771,
+        19841
+      ],
+      "content": "From the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> console"
+    },
+    {
+      "content": "From the managed computer",
+      "pos": [
+        19842,
+        19867
+      ]
+    },
+    {
+      "content": "Update malware definitions",
+      "pos": [
+        19991,
+        20017
+      ]
+    },
+    {
+      "content": "From the <bpt id=\"p1\">**</bpt>Groups<ept id=\"p1\">**</ept> workspace, select the computers you want to update.",
+      "pos": [
+        20018,
+        20089
+      ]
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>Remote Tasks<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Update Malware Definitions<ept id=\"p2\">**</ept>.",
+      "pos": [
+        20101,
+        20160
+      ]
+    },
+    {
+      "content": "Start the <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client software from the Windows notification area.",
+      "pos": [
+        20161,
+        20266
+      ]
+    },
+    {
+      "content": "Click the <bpt id=\"p1\">**</bpt>Update<ept id=\"p1\">**</ept> tab, and then click <bpt id=\"p2\">**</bpt>Update<ept id=\"p2\">**</ept>.",
+      "pos": [
+        20278,
+        20330
+      ]
+    },
+    {
+      "content": "Run a malware scan",
+      "pos": [
+        20333,
+        20351
+      ]
+    },
+    {
+      "content": "From the <bpt id=\"p1\">**</bpt>Groups<ept id=\"p1\">**</ept> workspace, select the computers you want to scan.",
+      "pos": [
+        20352,
+        20421
+      ]
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>Run a Full Malware Scan<ept id=\"p1\">**</ept> or <bpt id=\"p2\">**</bpt>Run a Quick Malware Scan<ept id=\"p2\">**</ept>.",
+      "pos": [
+        20433,
+        20499
+      ]
+    },
+    {
+      "content": "Start the <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client software from the Windows notification area.",
+      "pos": [
+        20500,
+        20605
+      ]
+    },
+    {
+      "content": "Select <bpt id=\"p1\">**</bpt>Quick<ept id=\"p1\">**</ept>, <bpt id=\"p2\">**</bpt>Full<ept id=\"p2\">**</ept>, or <bpt id=\"p3\">**</bpt>Custom<ept id=\"p3\">**</ept>, and then click <bpt id=\"p4\">**</bpt>Scan now<ept id=\"p4\">**</ept>.",
+      "pos": [
+        20617,
+        20688
+      ]
+    },
+    {
+      "pos": [
+        20690,
+        20865
+      ],
+      "content": "You can view the status of a remote task by clicking the <bpt id=\"p1\">**</bpt>Remote Tasks<ept id=\"p1\">**</ept> link in the bottom right corner of the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph>."
+    },
+    {
+      "pos": [
+        20867,
+        21047
+      ],
+      "content": "The <bpt id=\"p1\">**</bpt>Remote Task Status<ept id=\"p1\">**</ept> dialog box lists current remote tasks, task status, device name, any reported errors, and provides a link to troubleshooting information, if appropriate."
+    },
+    {
+      "pos": [
+        21053,
+        21114
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_SCEPmon\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>How to monitor Endpoint Protection"
+    },
+    {
+      "content": "You monitor the status of malware on your computers by using the <bpt id=\"p1\">**</bpt>Protection<ept id=\"p1\">**</ept> workspace of the <bpt id=\"p2\">[</bpt>Microsoft Intune administration console<ept id=\"p2\">](https://manage.microsoft.com/)</ept>.",
+      "pos": [
+        21115,
+        21285
+      ]
+    },
+    {
+      "content": "This workspace contains two pages:",
+      "pos": [
+        21286,
+        21320
+      ]
+    },
+    {
+      "content": "Page name",
+      "pos": [
+        21323,
+        21332
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        21333,
+        21349
+      ]
+    },
+    {
+      "content": "Endpoint Protection Overview",
+      "pos": [
+        21391,
+        21419
+      ]
+    },
+    {
+      "content": "Displays important issues as links that you can click for more information.",
+      "pos": [
+        21422,
+        21497
+      ]
+    },
+    {
+      "content": "Issues that might be displayed include:",
+      "pos": [
+        21498,
+        21537
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Malware instances that need follow-up<ept id=\"p1\">**</ept> – Click the link to see a list of malware issues including the follow up action that needs to be taken to resolve the issue.",
+      "pos": [
+        21549,
+        21715
+      ]
+    },
+    {
+      "content": "You can further drill into this list to see which computers are affected.",
+      "pos": [
+        21716,
+        21789
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Computers with malware that need follow-up<ept id=\"p1\">**</ept> – Click the link to see all computers with unresolved malware issues including the follow up action that needs to be taken to resolve the issue.",
+      "pos": [
+        21801,
+        21992
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Devices that are not protected<ept id=\"p1\">**</ept> – Click the link to see computers that are not protected by any endpoint protection software, either because no software is installed, or because there is an error.",
+      "pos": [
+        22004,
+        22203
+      ]
+    },
+    {
+      "content": "Select a computer to view more details.",
+      "pos": [
+        22204,
+        22243
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Devices with another endpoint protection application running<ept id=\"p1\">**</ept> – Click the link to see computers that are running a third-party endpoint protection application.",
+      "pos": [
+        22255,
+        22417
+      ]
+    },
+    {
+      "content": "All Malware",
+      "pos": [
+        22422,
+        22433
+      ]
+    },
+    {
+      "content": "Displays a list of all active malware found on your computers.",
+      "pos": [
+        22436,
+        22498
+      ]
+    },
+    {
+      "content": "You can drill into this list to see all computers that are affected by a particular piece of malware, or you can select one of the following tasks:",
+      "pos": [
+        22499,
+        22646
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>View Properties<ept id=\"p1\">**</ept> – Opens a page with more information about the selected malware.",
+      "pos": [
+        22658,
+        22742
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Learn About This Malware<ept id=\"p1\">**</ept> – Opens a topic from the Microsoft Malware Protection Center with more information about the malware.",
+      "pos": [
+        22754,
+        22884
+      ]
+    },
+    {
+      "pos": [
+        22888,
+        23077
+      ],
+      "content": "[!IMPORTANT]\nThe **Protection** workspace is not displayed in the administrator console until you have installed the client on, and are successfully managing at least one computer client.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "The <bpt id=\"p1\">**</bpt>Protection<ept id=\"p1\">**</ept> workspace is not displayed in the administrator console until you have installed the client on, and are successfully managing at least one computer client.",
+          "pos": [
+            13,
+            187
+          ]
+        }
+      ]
+    },
+    {
+      "content": "How to view Recent Detection Paths for malware on computers",
+      "pos": [
+        23083,
+        23142
+      ]
+    },
+    {
+      "content": "Intune can display the paths of up to 10 most recently detected instances of malware on a device.",
+      "pos": [
+        23143,
+        23240
+      ]
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt>Recent Detection Path<ept id=\"p1\">**</ept> is disabled by default.",
+      "pos": [
+        23241,
+        23294
+      ]
+    },
+    {
+      "content": "To enable this view:",
+      "pos": [
+        23295,
+        23315
+      ]
+    },
+    {
+      "content": "How to enable Recent Detection Paths for malware",
+      "pos": [
+        23323,
+        23371
+      ]
+    },
+    {
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept> go <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>All Devices<ept id=\"p3\">**</ept> .",
+      "pos": [
+        23377,
+        23493
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Malware<ept id=\"p1\">**</ept>.",
+      "pos": [
+        23494,
+        23506
+      ]
+    },
+    {
+      "content": "Right-click a column header.",
+      "pos": [
+        23512,
+        23540
+      ]
+    },
+    {
+      "content": "A list of available columns appears.",
+      "pos": [
+        23541,
+        23577
+      ]
+    },
+    {
+      "content": "Mark the <bpt id=\"p1\">**</bpt>Recent Detection Paths<ept id=\"p1\">**</ept> checkbox in the list.",
+      "pos": [
+        23583,
+        23640
+      ]
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt>Recent Detection Paths<ept id=\"p1\">**</ept> column appears and displays up to 10 most recent malware instances monitored on the device.",
+      "pos": [
+        23641,
+        23763
+      ]
+    },
+    {
+      "content": "Need more help?",
+      "pos": [
+        23768,
+        23783
+      ]
+    },
+    {
+      "pos": [
+        23784,
+        23939
+      ],
+      "content": "For further help and support, see <bpt id=\"p1\">[</bpt>Troubleshoot Endpoint Protection in Microsoft Intune<ept id=\"p1\">](../Topic/Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        23944,
+        23952
+      ]
+    },
+    {
+      "content": "Manage Windows PCs with Microsoft Intune",
+      "pos": [
+        23954,
+        23994
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - Help secure Windows PCs with Endpoint Protection for Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 5e755aee-0f43-410b-9d65-5989cf568e3e\n---\n# MD Conversion - Help secure Windows PCs with Endpoint Protection for Microsoft Intune\n[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] can help you to secure your managed computers in a number of ways, including Endpoint Protection which provides real-time protection against malware threats, keeps malware definitions up-to date, and automatically scans computers. [!INCLUDE[epshort](../Token/epshort_md.md)] also provides tools that help you to manage and monitor malware attacks\n\nIf you have not yet installed the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] client on your computers, see [Install the Windows PC client with Microsoft Intune](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md).\n\nUse the information in the following sections to help you configure, deploy and monitor [!INCLUDE[epshort](../Token/epshort_md.md)].\n\n## Using Endpoint Protection in Microsoft Intune\n\n### Before you start\nAs an IT admin, one of your top priorities is to keep the computers that you manage free of malware and viruses. Before you deploy [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] to client computers in your organization, you should decide how to protect your computers by selecting one of the following options and configuring its associated policy settings:\n\n|I want to:|Endpoint Protection policy settings|More information|\n|--------------|---------------------------------------|--------------------|\n|Use [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] only if no third-party endpoint protection application is installed<br /><br />You can use [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] on all computers where a third-party endpoint protection application is not installed.|Install Endpoint Protection = **Yes**<br /><br />Enable Endpoint Protection = **Yes**<br /><br />Install Endpoint Protection even if a third-party endpoint protection application is installed = **No**|If a third-party endpoint protection application is detected, [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] will not be installed, or will be uninstalled if it has already been installed.|\n|Use [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)], even if a third-party endpoint protection application is installed<br /><br />With this approach, you will be running [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] and the third party endpoint protection application (if it is installed) simultaneously. This is not a recommended configuration because of potential performance issues.|Install Endpoint Protection = **Yes**<br /><br />Enable Endpoint Protection = **Yes**<br /><br />Install Endpoint Protection even if a third-party endpoint protection application is installed = **Yes**|Use when:<br /><br />You want to switch to using [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)].<br /><br />You deploy a new client that will use [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)]<br /><br />You upgrade any client that will use [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)].|\n|Use [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] without [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)]<br /><br />In this case, you won’t be using [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] to protect your computers from malware and viruses. Instead, you will rely on a third-party endpoint protection application.|Install Endpoint Protection = **No**|If you are not using a third-party endpoint protection application, this configuration is not recommended, as it could expose your organization’s computers to malware or other attacks.<br /><br />[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] is not installed, and it is uninstalled if it was installed previously.|\nIf you want to switch from your current endpoint protection application to [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)], use the following steps which are explained in more detail later in this topic:\n\n1.  Leave your current endpoint protection application running while you deploy the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] client software to those computers.\n\n2.  Confirm that [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] is installed and is helping to secure client computers.\n\n3.  Remove the third-party endpoint protection software by:\n\n    Using [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] software distribution to deploy a software removal tool that is provided by the manufacturer of the third-party endpoint protection application. For more information, see [Deploy and configure apps with Microsoft Intune](../Topic/Deploy-and-configure-apps-with-Microsoft-Intune.md).\n\n    Removing the third-party endpoint protection application manually.\n\n[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] will not uninstall third-party endpoint protection applications.\n\n### <a name=\"BKMK_HowtoConf\"></a>How to configure Microsoft Intune Endpoint Protection\nUse the following procedure to help you configure [!INCLUDE[epshort](../Token/epshort_md.md)] for [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]. [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] can manage [!INCLUDE[epshort](../Token/epshort_md.md)] for Windows 10 Technical Preview. Certain policy settings are only available for Windows 10.\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com/), click **Policy** &gt; **Add Policy**.\n\n2.  Configure and deploy a **Microsoft Intune Agent Settings** policy for the [!INCLUDE[epshort](../Token/epshort_md.md)] settings. You can use recommended settings or customize the settings. If you need more information about how to create and deploy policies, see the [Common Windows PC management tasks with the Microsoft Intune computer client](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md) topic.\n\n    The tables after this procedure show the values you can configure in the policy and also the recommended values that will be used if you don’t customize the policy. You can find these settings in the **Endpoint Protection** section.\n\nYou can view the deployed [!INCLUDE[epshort](../Token/epshort_md.md)] policy on the **All Policies** page of the **Policy** workspace.\n\n#### Endpoint Protection service settings\n\n|Policy setting|More information|\n|------------------|--------------------|\n|**Install Endpoint Protection**|Set to **Yes** to install [!INCLUDE[epshort](../Token/epshort_md.md)] on managed computers. If a third-party endpoint protection application is detected during installation, [!INCLUDE[epshort](../Token/epshort_md.md)] will not be installed unless **Install Endpoint Protection even if a third party endpoint protection application is installed** is set to **Yes**.<br /><br />Intune [!INCLUDE[epshort](../Token/epshort_md.md)] is installed on managed computers by default. If you don’t want [!INCLUDE[epshort](../Token/epshort_md.md)] installed on your managed computers, you must explicitly set this policy to **No**. If [!INCLUDE[epshort](../Token/epshort_md.md)] was previously installed and the policy is updated to **No**, then the [!INCLUDE[epshort](../Token/epshort_md.md)] client will be uninstalled.<br /><br />Recommended value: **Yes**|\n|**Install Endpoint Protection even if a third party endpoint protection application is installed**|Set to **Yes** to install [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] even if a third-party endpoint protection application is detected.<br /><br />Recommended value: **Yes**|\n|**Enable Endpoint Protection**|Set to **Yes** to enable [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] on computers which have the [!INCLUDE[epshort](../Token/epshort_md.md)] client.<br /><br />If set to **No**, and [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] is installed, the [!INCLUDE[epshort](../Token/epshort_md.md)] client user interface is not displayed to users and all protection features are inactive.<br /><br />Recommended value: **Yes**|\n|**Disable Client UI**|Set to **Yes** to hide the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] client user interface from users (requires a client computer restart to take effect).<br /><br />Recommended value: **No**|\n|**Install Endpoint Protection even if a third party endpoint protection application is installed**|Set to **Yes** to force the installation of [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)], even if a third-party endpoint protection application is detected.<br /><br />Recommended value: **No**|\n|**Create a system restore point before malware remediation**|Set to **Yes** to create a Windows System Restore Point before any malware remediation begins.<br /><br />Recommended value: **Yes**|\n|**Track resolved malware (days)**|Lets [!INCLUDE[epshort](../Token/epshort_md.md)] track resolved malware for a specified time so that you can manually check previously infected computers.<br /><br />You can specify a value from 0 to 30 days.<br /><br />Recommended value: **7 days**|\nIf you have set the policy values for **Install Endpoint Protection** and **Enable Endpoint Protection** to **Yes**, and the policy value for  **Install Endpoint Protection even if a third party endpoint protection application is installed** to **No**, [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] will detect that another endpoint protection application is installed and will be not be installed, or uninstalled if it is already present (however, [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] does report about the health of the other endpoint protection application in the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]).\n\n#### Real-time protection settings\n\n|Policy setting|More information|\n|------------------|--------------------|\n|**Enable real-time protection**|Enables monitoring and scanning of all files and applications that are accessed. It also blocks any malicious files and applications before they can run on computers.<br /><br />Recommended value: **Yes**|\n|**Scan all downloads**|Enables the scanning of all files and attachments that are downloaded from the Internet to computers.<br /><br />Recommended value: **Yes**|\n|**Monitor file and program activity on computers**|Enables the monitoring of incoming files and outgoing files, and program activity on computers. With this setting, [!INCLUDE[epshort](../Token/epshort_md.md)] can monitor when files and programs start to run and alert you about any actions they perform or actions that are taken on them.<br /><br />Recommended value: **Yes**|\n|**Files monitored**|If **Monitor file and program activity on computers** is enabled, this setting allows you to choose if only incoming, only outgoing, or all files are monitored.<br /><br />Recommended value: **Monitor all files**|\n|**Enable behavior monitoring**|Allows [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] to check for certain patterns of suspicious activity on client computers.<br /><br />Recommended value: **Yes**|\n|**Enable Network Inspection System**|Enables Network Inspection System (NIS) on client computers. NIS uses signatures of known vulnerabilities from the [Microsoft Malware Protection Center](http://go.microsoft.com/fwlink/?LinkId=234249) to help detect and block malicious network traffic.<br /><br />Recommended value: **Yes**|\n\n#### Scan schedule settings\n\n|Policy setting|More information|\n|------------------|--------------------|\n|**Schedule a daily quick scan**|Schedules a daily quick scan of both frequently used files and important system files on computers. This quick scan has a minimal effect on performance.<br /><br />Recommended value: **Yes**|\n|**Run a quick scan if you have missed two consecutive scans**|Configures [!INCLUDE[epshort](../Token/epshort_md.md)] to automatically run a quick scan on computers if they miss two consecutive, scheduled quick scans.<br /><br />Recommended value: **Yes**|\n|**Schedule a full scan**|Configures a full scan of all files and resources on the local hard disks of computers. This scan can take some time and can affect computer performance (depending on the number of files and resources scanned).<br /><br />Recommended value: **No**|\n|**Run a full scan if you have missed two consecutive full scans**|Configures [!INCLUDE[epshort](../Token/epshort_md.md)] to automatically run a full scan on computers if they miss two consecutive, scheduled full scans.<br /><br />Recommend value: Not configured|\n\n#### Scan options settings\n\n|Policy setting|More information|\n|------------------|--------------------|\n|**Run a full scan after installation of Endpoint Protection**|Configures [!INCLUDE[epshort](../Token/epshort_md.md)] to automatically run a full system scan after it is installed on computers. This scan runs only when computers are idle to minimize the effect on user productivity.<br /><br />Recommended value: **Yes**|\n|**Automatically run a full scan when needed to follow up malware removal**|Set to **Yes** to let [!INCLUDE[epshort](../Token/epshort_md.md)] automatically run a full system scan on computers after the removal of malware to help confirm that other files were not affected.<br /><br />Recommended value: **Yes**|\n|**Start a scheduled scan only when the computer is idle**|Set to **Yes** to prevent scheduled scans from starting when computers are in use to prevent any loss of user productivity.<br /><br />Recommended value: **Yes**|\n|**Check for the latest malware definitions before starting a scan**|Set to **Yes** to let [!INCLUDE[epshort](../Token/epshort_md.md)] automatically check for the latest malware definitions before it starts a scan on computers.<br /><br />Recommended value: **Yes**|\n|**Scan archive files**|Set to **Yes** to configure [!INCLUDE[epshort](../Token/epshort_md.md)] to scan for malware in archive files (like .zip or .cab files) on computers.<br /><br />Recommended value: **No**|\n|**Scan email messages**|Set to **Yes** to configure [!INCLUDE[epshort](../Token/epshort_md.md)] to scan incoming email messages when they arrive on computers.<br /><br />Recommended value: **Yes**|\n|**Scan files opened from network shared folders**|Set to **Yes** to configure [!INCLUDE[epshort](../Token/epshort_md.md)] to scan files that are opened from shared folders on the network. These are typically files that are accessed by using a UNC path. Enabling this feature can cause problems for users who have read-only access because they cannot remove malware.<br /><br />Recommended value: **No**|\n|**Scan mapped network drives**|Set to **Yes** to configure [!INCLUDE[epshort](../Token/epshort_md.md)] to scan files on mapped network drives. Enabling this feature can cause problems for users who have read-only access because they cannot remove malware.<br /><br />Recommended value: **No**|\n|**Scan removable drives**|Set to **Yes** to configure [!INCLUDE[epshort](../Token/epshort_md.md)] to scan for malware and unwanted software in the contents of removable drives, like USB flash drives, when you run a full scan on computers.<br /><br />Recommended value: **Yes**|\n|**Limit CPU usage during a scan**|Configures the maximum percentage of CPU usage that can be used during scheduled scans on computers. You can set this value from 1 to 100 percent.<br /><br />Recommended value: **50%**|\n\n#### Default actions settings\n\n|Policy setting|More information|\n|------------------|--------------------|\n|**Choose how Endpoint Protection acts on malware of the following alert levels**|Specifies the default action that [!INCLUDE[epshort](../Token/epshort_md.md)] takes when malware of various alert levels is detected.<br /><br />For each alert level, you can remove the malware, quarantine it, or take Microsoft’s recommended action.<br /><br />Recommended value: **Recommended action**|\n\n#### Excluded files and folders settings\n\n|Policy setting|More information|\n|------------------|--------------------|\n|**Files and folders to exclude when running a scan or using real-time protection**|Excludes specific files or folders when a scan is run or when real-time protection is used on computers.|\n\n#### Excluded processes settings\n\n|Policy setting|More information|\n|------------------|--------------------|\n|**Processes to exclude when running a scan or using real-time protection**|Lets you exclude specific processes when a scan is run or from real-time protection. You can exclude only files with the following extensions: **.exe**, **.com** or **.scr**.|\n\n#### Excluded file types settings\n\n|Policy setting|More information|\n|------------------|--------------------|\n|**File extensions to exclude when running a scan or using real-time protection**|Lets you exclude specific file name extensions when a scan is run or when real-time protection is used on computers.|\n\n#### Microsoft Active Protection Service Settings\nMicrosoft Active Protection Service is an online community that helps you decide how to respond to potential threats. The community also helps stop the spread of new malware infections.\n\n|Policy setting|More information|\n|------------------|--------------------|\n|**Join Microsoft Active Protection Service**|**Yes** automatically sends information about detected malware to the Microsoft Active Protection Service. Microsoft does not use any information collected to identify you or to contact you.<br /><br />Recommended value: **Yes**|\n|**Membership level**|If you selected to join the Microsoft Active Protection Service, this setting lets you choose from one of the following membership levels:<br /><br />**Basic** - Sends basic information to Microsoft about detected malware. This includes where the software came from, the actions that you apply or that [!INCLUDE[epshort](../Token/epshort_md.md)] applies automatically, and whether the actions were successful.<br /><br />**Advanced** - Sends more information to Microsoft about malware, spyware, and potentially unwanted software. This includes the location of the software, file names, how the software operates, and how it has affected your computer.<br /><br />Recommended value: **Advanced**|\n|**Receive dynamic definitions based on Microsoft Active Protection Service reports**|**Yes** lets computers receive dynamic malware definitions based on information that [!INCLUDE[epshort](../Token/epshort_md.md)] sends to the Microsoft Active Protection Service (if you have joined it) about detected malware.<br /><br />Recommended value: **Yes**|\n\n### Management tasks for Endpoint Protection\nThe following tasks help you to carry out various management tasks on managed computers that run [!INCLUDE[epshort](../Token/epshort_md.md)].\n\n|I want to|From the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] console|From the managed computer|\n|-------------|--------------------------------------------------------------------------|-----------------------------|\n|Update malware definitions|From the **Groups** workspace, select the computers you want to update.<br /><br />Click **Remote Tasks** &gt; **Update Malware Definitions**.|Start the [!INCLUDE[epshort](../Token/epshort_md.md)] client software from the Windows notification area.<br /><br />Click the **Update** tab, and then click **Update**.|\n|Run a malware scan|From the **Groups** workspace, select the computers you want to scan.<br /><br />Click **Run a Full Malware Scan** or **Run a Quick Malware Scan**.|Start the [!INCLUDE[epshort](../Token/epshort_md.md)] client software from the Windows notification area.<br /><br />Select **Quick**, **Full**, or **Custom**, and then click **Scan now**.|\nYou can view the status of a remote task by clicking the **Remote Tasks** link in the bottom right corner of the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)].\n\nThe **Remote Task Status** dialog box lists current remote tasks, task status, device name, any reported errors, and provides a link to troubleshooting information, if appropriate.\n\n### <a name=\"BKMK_SCEPmon\"></a>How to monitor Endpoint Protection\nYou monitor the status of malware on your computers by using the **Protection** workspace of the [Microsoft Intune administration console](https://manage.microsoft.com/). This workspace contains two pages:\n\n|Page name|More information|\n|-------------|--------------------|\n|**Endpoint Protection Overview**|Displays important issues as links that you can click for more information. Issues that might be displayed include:<br /><br />**Malware instances that need follow-up** – Click the link to see a list of malware issues including the follow up action that needs to be taken to resolve the issue. You can further drill into this list to see which computers are affected.<br /><br />**Computers with malware that need follow-up** – Click the link to see all computers with unresolved malware issues including the follow up action that needs to be taken to resolve the issue.<br /><br />**Devices that are not protected** – Click the link to see computers that are not protected by any endpoint protection software, either because no software is installed, or because there is an error. Select a computer to view more details.<br /><br />**Devices with another endpoint protection application running** – Click the link to see computers that are running a third-party endpoint protection application.|\n|**All Malware**|Displays a list of all active malware found on your computers. You can drill into this list to see all computers that are affected by a particular piece of malware, or you can select one of the following tasks:<br /><br />**View Properties** – Opens a page with more information about the selected malware.<br /><br />**Learn About This Malware** – Opens a topic from the Microsoft Malware Protection Center with more information about the malware.|\n> [!IMPORTANT]\n> The **Protection** workspace is not displayed in the administrator console until you have installed the client on, and are successfully managing at least one computer client.\n\n### How to view Recent Detection Paths for malware on computers\nIntune can display the paths of up to 10 most recently detected instances of malware on a device. The **Recent Detection Path** is disabled by default. To enable this view:\n\n##### How to enable Recent Detection Paths for malware\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com/) go **Groups** &gt; **All Devices** . **Malware**.\n\n2.  Right-click a column header. A list of available columns appears.\n\n3.  Mark the **Recent Detection Paths** checkbox in the list. The **Recent Detection Paths** column appears and displays up to 10 most recent malware instances monitored on the device.\n\n## Need more help?\nFor further help and support, see [Troubleshoot Endpoint Protection in Microsoft Intune](../Topic/Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md).\n\n## See Also\n[Manage Windows PCs with Microsoft Intune](../Topic/Manage-Windows-PCs-with-Microsoft-Intune.md)\n\n"
+}

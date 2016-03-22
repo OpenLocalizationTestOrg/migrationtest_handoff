@@ -1,0 +1,1995 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - Get started with a 30-day trial of Microsoft Intune",
+      "pos": [
+        11,
+        78
+      ]
+    },
+    {
+      "content": "MD Conversion - Get started with a 30-day trial of Microsoft Intune",
+      "pos": [
+        213,
+        280
+      ]
+    },
+    {
+      "content": "Setting up a free Microsoft Intune 30-day trial to manage your mobile devices and computers is quick and easy.",
+      "pos": [
+        281,
+        391
+      ]
+    },
+    {
+      "content": "With just a few simple steps in the trial, you can add up to 100 users and devices, set up groups, configure compliance policies, and enroll and manage mobile devices and computers.",
+      "pos": [
+        392,
+        573
+      ]
+    },
+    {
+      "content": "In this topic, you'll learn the basics  to get an Intune trial up and running and get an overview of the service so you can evaluate Intune's features and capabilities.",
+      "pos": [
+        574,
+        742
+      ]
+    },
+    {
+      "content": "Watch this five-minute demo video to learn how easy it is to get started with a free trial of Microsoft Intune and to manage your devices:",
+      "pos": [
+        744,
+        882
+      ]
+    },
+    {
+      "content": "Before you begin",
+      "pos": [
+        929,
+        945
+      ]
+    },
+    {
+      "content": "Before you get started with Intune, you'll need the following:",
+      "pos": [
+        946,
+        1008
+      ]
+    },
+    {
+      "pos": [
+        1014,
+        1268
+      ],
+      "content": "A device with a Silverlight-enabled web browser that you can use to access the websites where you'll  create Intune user accounts (the <bpt id=\"p1\">**</bpt>Intune Account Portal<ept id=\"p1\">**</ept>) and where you manage devices, groups, and policies  (the <bpt id=\"p2\">**</bpt>Intune administration console<ept id=\"p2\">**</ept>)."
+    },
+    {
+      "content": "A second device with a web browser that you'll use  to test how <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> users will enroll and manage their devices using the company portal.",
+      "pos": [
+        1274,
+        1458
+      ]
+    },
+    {
+      "content": "You'll also test how users find and install apps and request help from administrators.",
+      "pos": [
+        1459,
+        1545
+      ]
+    },
+    {
+      "content": "If you don't have a second device, you can use the “privacy mode” setting on the same browser that you use for <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> administration (for example: in Internet Explorer, you can click <bpt id=\"p1\">**</bpt>Tools<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>InPrivate Browsing<ept id=\"p2\">**</ept>).",
+      "pos": [
+        1546,
+        1813
+      ]
+    },
+    {
+      "content": "If you have an existing Microsoft Online Services account, you'll need the  administrator credentials for that account.",
+      "pos": [
+        1819,
+        1938
+      ]
+    },
+    {
+      "content": "If you don’t have such an account, or if you want to use this Intune tenant for evaluation purposes only, you don't need these administrator credentials.",
+      "pos": [
+        1939,
+        2092
+      ]
+    },
+    {
+      "content": "If you'll manage iOS or Windows Phone devices with the Intune trial, you'll need certificates (or keys) and accounts to retrieve those certificates (see the following table).",
+      "pos": [
+        2098,
+        2272
+      ]
+    },
+    {
+      "content": "Android devices don't need any additional certificates.",
+      "pos": [
+        2273,
+        2328
+      ]
+    },
+    {
+      "content": "Platform",
+      "pos": [
+        2335,
+        2343
+      ]
+    },
+    {
+      "content": "Certificate Requirements",
+      "pos": [
+        2344,
+        2368
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        2369,
+        2385
+      ]
+    },
+    {
+      "pos": [
+        2461,
+        2548
+      ],
+      "content": "Windows Phone 8.1 and <ph id=\"ph1\">[!INCLUDE[winphone8_client_1](../Token/winphone8_client_1_md.md)]</ph>"
+    },
+    {
+      "content": "No certificate is required for Windows Phone 8.1 users who install the company portal app from the Store.",
+      "pos": [
+        2549,
+        2654
+      ]
+    },
+    {
+      "content": "A Symantec certificate is required for Windows Phone 8.0 or to use Intune to deploy the company portal app to Windows Phone 8.1 devices.",
+      "pos": [
+        2655,
+        2791
+      ]
+    },
+    {
+      "content": "This guidance assumes your users get the company portal app from the Store on a Windows Phone 8.1 or later device.",
+      "pos": [
+        2792,
+        2906
+      ]
+    },
+    {
+      "content": "For information about Windows Phone 8.0 support, see <bpt id=\"p1\">[</bpt>Set up Windows Phone management with Microsoft Intune<ept id=\"p1\">](../Topic/Set-up-Windows-Phone-management-with-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        2907,
+        3083
+      ]
+    },
+    {
+      "pos": [
+        3090,
+        3296
+      ],
+      "content": "Windows 10, <ph id=\"ph1\">[!INCLUDE[winblue_winrt_2](../Token/winblue_winrt_2_md.md)]</ph>, <ph id=\"ph2\">[!INCLUDE[win8RT_client_1](../Token/win8RT_client_1_md.md)]</ph>, or <ph id=\"ph3\">[!INCLUDE[winblue_client_2](../Token/winblue_client_2_md.md)]</ph> devices"
+    },
+    {
+      "content": "There are no certificate requirements for enrolling Windows RT and Windows devices.",
+      "pos": [
+        3297,
+        3380
+      ]
+    },
+    {
+      "pos": [
+        3381,
+        3500
+      ],
+      "content": "<bpt id=\"p1\">[</bpt>Install the Windows PC client with Microsoft Intune<ept id=\"p1\">](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "content": "iOS 7.1 or later",
+      "pos": [
+        3507,
+        3523
+      ]
+    },
+    {
+      "content": "Get an Apple Push Notification service certificate.",
+      "pos": [
+        3524,
+        3575
+      ]
+    },
+    {
+      "pos": [
+        3576,
+        3781
+      ],
+      "content": "Request an Apple Push Notification service certificate from Apple, as described here: <bpt id=\"p1\">[</bpt>Set up iOS and Mac management with Microsoft Intune<ept id=\"p1\">](../Topic/Set-up-iOS-and-Mac-management-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        3787,
+        3843
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"Step1\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Step 1: Sign up or sign in to Intune"
+    },
+    {
+      "content": "Before  you sign up or sign in to Intune,  you should consider the following:",
+      "pos": [
+        3844,
+        3921
+      ]
+    },
+    {
+      "content": "Whether your organization already has a Microsoft Online Services work or school account",
+      "pos": [
+        3927,
+        4015
+      ]
+    },
+    {
+      "content": "Whether you have an Enterprise Agreement or equivalent volume licensing agreement with Microsoft",
+      "pos": [
+        4021,
+        4117
+      ]
+    },
+    {
+      "content": "Whether you plan to use the Intune tenant after the 30-day trial",
+      "pos": [
+        4123,
+        4187
+      ]
+    },
+    {
+      "content": "Sign up for a NEW account if either of the following is true:",
+      "pos": [
+        4190,
+        4251
+      ]
+    },
+    {
+      "content": "Sign in with your WORK or SCHOOL account if:",
+      "pos": [
+        4252,
+        4296
+      ]
+    },
+    {
+      "content": "You don’t have a work or school account.",
+      "pos": [
+        4418,
+        4458
+      ]
+    },
+    {
+      "content": "A work or school account is provided when you sign a volume licensing agreement with Microsoft or subscribe to Office 365.",
+      "pos": [
+        4461,
+        4583
+      ]
+    },
+    {
+      "content": "If your organization has not signed an Enterprise Agreement or equivalent volume licensing agreement with Microsoft (or has an Office 365 account), then you do not have a Microsoft Online Services account that you can use to sign in to Microsoft Online Services.",
+      "pos": [
+        4584,
+        4846
+      ]
+    },
+    {
+      "content": "You will discard your Intune tenant after completing the 30-day trial.",
+      "pos": [
+        4860,
+        4930
+      ]
+    },
+    {
+      "content": "You should sign up for a new account if you are using your <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> free trial subscription for evaluation purposes only, and you plan to redo your <ph id=\"ph2\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> service setup and device provisioning after the trial.",
+      "pos": [
+        4933,
+        5230
+      ]
+    },
+    {
+      "content": "This is the recommended option if you plan to use <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> with System Center 2012 Configuration Manager.",
+      "pos": [
+        5231,
+        5379
+      ]
+    },
+    {
+      "content": "If you sign up for a new account, you cannot later use an existing work or school account to manage that account, or combine it with existing volume licensing agreements.",
+      "pos": [
+        5391,
+        5561
+      ]
+    },
+    {
+      "content": "You have a work or school account provided with a volume licensing agreement or Office 365 subscription, and you are using this trial to evaluate <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        5564,
+        5762
+      ]
+    },
+    {
+      "content": "If you are setting up <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> on an existing account, we recommend that you review <bpt id=\"p1\">[</bpt>Introduction to Microsoft Intune<ept id=\"p1\">](../Topic/Introduction-to-Microsoft-Intune.md)</ept> before continuing with these steps.",
+      "pos": [
+        5776,
+        6019
+      ]
+    },
+    {
+      "pos": [
+        6026,
+        6097
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_ToSignUpforSubscription\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Sign up or sign in to Intune"
+    },
+    {
+      "pos": [
+        6103,
+        6270
+      ],
+      "content": "First, <bpt id=\"p1\">[</bpt>click here to visit the Intune Sign up page<ept id=\"p1\">](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&amp;dl=INTUNE_A&amp;ali=1#0%20)</ept>."
+    },
+    {
+      "pos": [
+        6276,
+        6322
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Sign up<ept id=\"p1\">**</ept> page, you have two options:"
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Subscribe using your Microsoft Online Services work or school account<ept id=\"p1\">**</ept>: Click <bpt id=\"p2\">**</bpt>Sign in<ept id=\"p2\">**</ept> if you already have a work or school account, and you want to use the same account to subscribe to both services.",
+      "pos": [
+        6332,
+        6538
+      ]
+    },
+    {
+      "content": "When you use the same account for multiple services, those services use the same Azure AD infrastructure and are tenants of Azure AD.",
+      "pos": [
+        6539,
+        6672
+      ]
+    },
+    {
+      "content": "Azure AD provides the core directory and identity management capabilities for Microsoft cloud services.",
+      "pos": [
+        6673,
+        6776
+      ]
+    },
+    {
+      "pos": [
+        6786,
+        6970
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Subscribe to Intune only<ept id=\"p1\">**</ept>: If you do not yet subscribe to a cloud service, complete the form on the sign-up page to subscribe to <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>."
+    },
+    {
+      "pos": [
+        6982,
+        7291
+      ],
+      "content": "[!NOTE]\nBy default, the domain name is associated with your subscription and user accounts that you add to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. After you subscribe, you can add and use a custom domain name that you already own, or continue to use the free **onmicrosoft.com** domain.",
+      "leadings": [
+        "",
+        "        > "
+      ],
+      "nodes": [
+        {
+          "content": "By default, the domain name is associated with your subscription and user accounts that you add to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. After you subscribe, you can add and use a custom domain name that you already own, or continue to use the free **onmicrosoft.com** domain.",
+          "pos": [
+            8,
+            299
+          ],
+          "nodes": [
+            {
+              "content": "By default, the domain name is associated with your subscription and user accounts that you add to <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+              "pos": [
+                0,
+                151
+              ]
+            },
+            {
+              "content": "After you subscribe, you can add and use a custom domain name that you already own, or continue to use the free <bpt id=\"p1\">**</bpt>onmicrosoft.com<ept id=\"p1\">**</ept> domain.",
+              "pos": [
+                152,
+                291
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "After you complete the sign-up form and accept the Microsoft Online Subscription Agreement, you're automatically signed in to the <ph id=\"ph1\">[!INCLUDE[wit_icp_1](../Token/wit_icp_1_md.md)]</ph> with the tenant administrator account.",
+      "pos": [
+        7293,
+        7509
+      ]
+    },
+    {
+      "content": "An email message that contains your account information is also sent to the email address that you provided during sign-up.",
+      "pos": [
+        7510,
+        7633
+      ]
+    },
+    {
+      "content": "This email confirms that your subscription is active.",
+      "pos": [
+        7634,
+        7687
+      ]
+    },
+    {
+      "pos": [
+        7692,
+        7739
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"Step2\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Step 2: Add users to Intune"
+    },
+    {
+      "content": "Now that you have set up your account, you'll use either the <bpt id=\"p1\">**</bpt>New Users<ept id=\"p1\">**</ept> wizard to add individual user accounts to <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, or the <bpt id=\"p2\">**</bpt>Bulk add users<ept id=\"p2\">**</ept> wizard to add users in bulk (see the instructions in this section).",
+      "pos": [
+        7740,
+        8003
+      ]
+    },
+    {
+      "content": "Before you get started, it's important that you understand how Intune handles administrator accounts.",
+      "pos": [
+        8005,
+        8106
+      ]
+    },
+    {
+      "content": "A tenant administrator  uses the account portal to add  users to the Microsoft Intune <bpt id=\"p1\">**</bpt>Users Group<ept id=\"p1\">**</ept>.",
+      "pos": [
+        8108,
+        8210
+      ]
+    },
+    {
+      "content": "Adding users to the  <bpt id=\"p1\">**</bpt>Users Group<ept id=\"p1\">**</ept> assigns Intune subscription licenses to users and is also how you make those users to show up in the Microsoft Intune administration console.",
+      "pos": [
+        8211,
+        8389
+      ]
+    },
+    {
+      "content": "Administrator accounts for Intune aren't created in the account portal,  as regular user accounts are.",
+      "pos": [
+        8391,
+        8493
+      ]
+    },
+    {
+      "content": "Instead, you  assign  either read-only access or full access administrative rights to users by using the administration console in the <bpt id=\"p1\">**</bpt>Administration<ept id=\"p1\">**</ept> workspace under <bpt id=\"p2\">**</bpt>Administration Management<ept id=\"p2\">**</ept>.",
+      "pos": [
+        8494,
+        8694
+      ]
+    },
+    {
+      "content": "Service administrators that are assigned read-only access cannot change Intune settings, but they can view data and run reports.",
+      "pos": [
+        8695,
+        8823
+      ]
+    },
+    {
+      "content": "Service administrators with full access have all available administrative rights.",
+      "pos": [
+        8824,
+        8905
+      ]
+    },
+    {
+      "content": "You can view tenant administrator information by using the Intune administration console, but you cannot create tenant administrators there.",
+      "pos": [
+        8907,
+        9047
+      ]
+    },
+    {
+      "content": "By default, the subscription owner becomes a tenant administrator for your Microsoft Intune service and has full access to both the Intune account portal and the Intune administration console.",
+      "pos": [
+        9048,
+        9240
+      ]
+    },
+    {
+      "content": "We recommend that you create a least one extra tenant administrator account by using the account portal to help delegate tasks and to ensure that you don’t get locked out of your Intune service administrator account if you forget your password.",
+      "pos": [
+        9241,
+        9485
+      ]
+    },
+    {
+      "content": "Add individual user accounts",
+      "pos": [
+        9491,
+        9519
+      ]
+    },
+    {
+      "content": "Use the following steps to create additional user accounts in your trial tenant.",
+      "pos": [
+        9520,
+        9600
+      ]
+    },
+    {
+      "content": "Remember, each user account that you add counts as one of the 100 licenses that  you get as part of your <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> free trial.",
+      "pos": [
+        9601,
+        9769
+      ]
+    },
+    {
+      "pos": [
+        9775,
+        9938
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Office 365 admin center<ept id=\"p1\">](http://go.microsoft.com/fwlink/p/?LinkId=698854)</ept>, click <bpt id=\"p2\">**</bpt>Add Users<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>New<ept id=\"p3\">**</ept>&amp;gt; <bpt id=\"p4\">**</bpt>User<ept id=\"p4\">**</ept> to start the <bpt id=\"p5\">**</bpt>New users<ept id=\"p5\">**</ept> wizard."
+    },
+    {
+      "pos": [
+        9944,
+        9998
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Details<ept id=\"p1\">**</ept> page, complete the required fields."
+    },
+    {
+      "pos": [
+        10004,
+        10064
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> page, set the <bpt id=\"p2\">**</bpt>location<ept id=\"p2\">**</ept> for the user."
+    },
+    {
+      "pos": [
+        10070,
+        10229
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Group<ept id=\"p1\">**</ept> page, click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept> to accept the default and assign a license for <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> to the user’s account."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Email<ept id=\"p1\">**</ept> page, specify up to five email addresses that will receive notification of the user name and temporary password for the account.",
+      "pos": [
+        10235,
+        10380
+      ]
+    },
+    {
+      "content": "Separate multiple email addresses by semicolons (;).",
+      "pos": [
+        10381,
+        10433
+      ]
+    },
+    {
+      "content": "When you're done, click <bpt id=\"p1\">**</bpt>Create<ept id=\"p1\">**</ept> to add the user to your subscription.",
+      "pos": [
+        10434,
+        10506
+      ]
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Results<ept id=\"p1\">**</ept> page, you can view the new account name and its temporary password.",
+      "pos": [
+        10512,
+        10598
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> automatically creates the temporary password.",
+      "pos": [
+        10599,
+        10696
+      ]
+    },
+    {
+      "pos": [
+        10702,
+        10824
+      ],
+      "content": "When the new user  appears in the <bpt id=\"p1\">**</bpt>Users<ept id=\"p1\">**</ept> node of the account portal, verify that the new user was created successfully:"
+    },
+    {
+      "content": "In the <bpt id=\"p1\">[</bpt>Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Admin<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Company Portal<ept id=\"p3\">**</ept>, and then scroll to the bottom of the screen.",
+      "pos": [
+        10834,
+        10990
+      ]
+    },
+    {
+      "content": "Copy the URL shown under  <bpt id=\"p1\">**</bpt>Intune company portal<ept id=\"p1\">**</ept>.",
+      "pos": [
+        10991,
+        11043
+      ]
+    },
+    {
+      "content": "Open a new browser window in “privacy mode” (in Internet Explorer, click <bpt id=\"p1\">**</bpt>Tools<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>InPrivate Browsing<ept id=\"p2\">**</ept>), or open a new browser window on a different device, and then navigate to the URL that you copied in the previous step.",
+      "pos": [
+        11053,
+        11284
+      ]
+    },
+    {
+      "content": "When users sign in for the first time, they must provide a new password for the account.",
+      "pos": [
+        11285,
+        11373
+      ]
+    },
+    {
+      "content": "Add users in bulk",
+      "pos": [
+        11379,
+        11396
+      ]
+    },
+    {
+      "content": "To add users in bulk to Intune,  use the <bpt id=\"p1\">**</bpt>Bulk add users<ept id=\"p1\">**</ept> wizard to upload a comma-separated values (CSV) file that contains your user data.",
+      "pos": [
+        11397,
+        11539
+      ]
+    },
+    {
+      "content": "Links in the wizard enable you to download a blank template and sample CSV file.",
+      "pos": [
+        11540,
+        11620
+      ]
+    },
+    {
+      "content": "The first row of your CSV file must contain, in the correct order, each of the user data column labels.",
+      "pos": [
+        11621,
+        11724
+      ]
+    },
+    {
+      "content": "Then, for each user in the CSV file, you must include the <bpt id=\"p1\">**</bpt>user name<ept id=\"p1\">**</ept> (like <bpt id=\"p2\">**</bpt>bob@contoso.com<ept id=\"p2\">**</ept>) and a <bpt id=\"p3\">**</bpt>display name<ept id=\"p3\">**</ept> (like <bpt id=\"p4\">**</bpt>Bob Kelly<ept id=\"p4\">**</ept>).",
+      "pos": [
+        11725,
+        11868
+      ]
+    },
+    {
+      "pos": [
+        11874,
+        11986
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Office 365 admin center<ept id=\"p1\">](http://go.microsoft.com/fwlink/p/?LinkId=698854)</ept>, click <bpt id=\"p2\">**</bpt>Users<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>New<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        11992,
+        12046
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Bulk add<ept id=\"p1\">**</ept> to start the Bulk add users wizard."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Select file<ept id=\"p1\">**</ept> page, click <bpt id=\"p2\">**</bpt>Browse<ept id=\"p2\">**</ept> to specify and load an existing CSV file from your computer.",
+      "pos": [
+        12052,
+        12158
+      ]
+    },
+    {
+      "content": "You can also download a sample CSV file or blank template file by using the links in the wizard.",
+      "pos": [
+        12159,
+        12255
+      ]
+    },
+    {
+      "pos": [
+        12261,
+        12352
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Verification<ept id=\"p1\">**</ept> page, review the results, and then click <bpt id=\"p2\">**</bpt>View<ept id=\"p2\">**</ept> for more details."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> page, confirm that the sign-in status is <bpt id=\"p2\">**</bpt>Allowed<ept id=\"p2\">**</ept>, and set the <bpt id=\"p3\">**</bpt>location<ept id=\"p3\">**</ept>.",
+      "pos": [
+        12358,
+        12457
+      ]
+    },
+    {
+      "content": "These settings apply to all user accounts added by the CSV file.",
+      "pos": [
+        12458,
+        12522
+      ]
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Group<ept id=\"p1\">**</ept> page, click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept> to accept the default and assign a license for <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> to all user accounts added by the CSV file.",
+      "pos": [
+        12528,
+        12708
+      ]
+    },
+    {
+      "content": "By default, the check box is selected, which assigns a license for <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> to each account.",
+      "pos": [
+        12709,
+        12844
+      ]
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Email<ept id=\"p1\">**</ept> page, specify up to five email addresses to receive notification of the user names and temporary passwords that <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> creates for each account.",
+      "pos": [
+        12850,
+        13056
+      ]
+    },
+    {
+      "content": "Separate multiple email addresses with semicolons (;).",
+      "pos": [
+        13057,
+        13111
+      ]
+    },
+    {
+      "content": "When ready, click <bpt id=\"p1\">**</bpt>Create<ept id=\"p1\">**</ept> to add the users to your subscription.",
+      "pos": [
+        13112,
+        13179
+      ]
+    },
+    {
+      "pos": [
+        13185,
+        13286
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Results<ept id=\"p1\">**</ept> page, you can view the account names and temporary password for each user account."
+    },
+    {
+      "content": "Each user account that you added by importing it now appears in the <bpt id=\"p1\">**</bpt>Users<ept id=\"p1\">**</ept> node of the account portal.",
+      "pos": [
+        13288,
+        13393
+      ]
+    },
+    {
+      "content": "When new users sign in for the first time, they must specify a new password for their user account.",
+      "pos": [
+        13394,
+        13493
+      ]
+    },
+    {
+      "pos": [
+        13498,
+        13569
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"Step3\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Step 3: Create groups to organize users and devices"
+    },
+    {
+      "content": "Groups in <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> give you great flexibility for managing your devices and users.",
+      "pos": [
+        13570,
+        13695
+      ]
+    },
+    {
+      "content": "You can set up groups to suit your organizational needs (for example, by geographic location, department, or hardware characteristics) and use them to perform a variety of administrative tasks at scale, from setting policies for a set of users to deploying applications to a set of devices.",
+      "pos": [
+        13696,
+        13986
+      ]
+    },
+    {
+      "content": "Create a device group",
+      "pos": [
+        13992,
+        14013
+      ]
+    },
+    {
+      "content": "Use device groups to deploy software and updates, and configure Microsoft Intune Agent Settings and Windows Firewall Settings policies.",
+      "pos": [
+        14014,
+        14149
+      ]
+    },
+    {
+      "content": "For example, set up a \"My Trial Devices\" group using the following steps:",
+      "pos": [
+        14150,
+        14223
+      ]
+    },
+    {
+      "pos": [
+        14229,
+        14357
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Overview<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Create Group<ept id=\"p4\">**</ept>."
+    },
+    {
+      "pos": [
+        14363,
+        14492
+      ],
+      "content": "For the <bpt id=\"p1\">**</bpt>Group name<ept id=\"p1\">**</ept>, type “My Trial Devices” and, from the parent group list, select <bpt id=\"p2\">**</bpt>All Devices<ept id=\"p2\">**</ept>, and then click <bpt id=\"p3\">**</bpt>Next<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        14498,
+        14635
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Define Membership Criteria<ept id=\"p1\">**</ept> page, select <bpt id=\"p2\">**</bpt>All devices<ept id=\"p2\">**</ept> to indicate that the group includes both mobile devices and computers."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Define Direct Membership<ept id=\"p1\">**</ept> page, click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>.",
+      "pos": [
+        14641,
+        14698
+      ]
+    },
+    {
+      "content": "If you previously created a group that does not include all devices, and you wanted to add specific devices to your new group, you can do that here.",
+      "pos": [
+        14699,
+        14847
+      ]
+    },
+    {
+      "pos": [
+        14853,
+        14943
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Summary<ept id=\"p1\">**</ept> page, review the actions that will be taken, and then click <bpt id=\"p2\">**</bpt>Finish<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "You can find the newly created group in the <bpt id=\"p1\">**</bpt>Groups<ept id=\"p1\">**</ept> list, in the <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> workspace under <bpt id=\"p3\">**</bpt>All Devices<ept id=\"p3\">**</ept>.",
+      "pos": [
+        14945,
+        15056
+      ]
+    },
+    {
+      "content": "From here, you can also edit or delete the group.",
+      "pos": [
+        15057,
+        15106
+      ]
+    },
+    {
+      "content": "Create a user group",
+      "pos": [
+        15112,
+        15131
+      ]
+    },
+    {
+      "content": "Use user groups to deploy software and device policies.",
+      "pos": [
+        15132,
+        15187
+      ]
+    },
+    {
+      "content": "For example, set up a \"My Trial Users\" group using the following steps:",
+      "pos": [
+        15188,
+        15259
+      ]
+    },
+    {
+      "pos": [
+        15265,
+        15393
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Overview<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Create Group<ept id=\"p4\">**</ept>."
+    },
+    {
+      "pos": [
+        15399,
+        15524
+      ],
+      "content": "For the <bpt id=\"p1\">**</bpt>Group name<ept id=\"p1\">**</ept>, type “My Trial Users” and, from the parent group list, select <bpt id=\"p2\">**</bpt>All Users<ept id=\"p2\">**</ept>, and then click <bpt id=\"p3\">**</bpt>Next<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        15530,
+        15647
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Define Membership Criteria<ept id=\"p1\">**</ept> page, set <bpt id=\"p2\">**</bpt>Start group membership with<ept id=\"p2\">**</ept> to <bpt id=\"p3\">**</bpt>All users in the Parent group<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "Beside <bpt id=\"p1\">**</bpt>Exclude members from these security groups<ept id=\"p1\">**</ept>, click <bpt id=\"p2\">**</bpt>Browse<ept id=\"p2\">**</ept> and then select <bpt id=\"p3\">**</bpt>Company Administrator<ept id=\"p3\">**</ept>.",
+      "pos": [
+        15653,
+        15767
+      ]
+    },
+    {
+      "content": "This exclusion lets you manage the My Trial Users group without affecting the Company Administrator account (also known as the tenant administrator).",
+      "pos": [
+        15768,
+        15917
+      ]
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Define Direct Membership<ept id=\"p1\">**</ept> page, click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>.",
+      "pos": [
+        15923,
+        15980
+      ]
+    },
+    {
+      "content": "You don’t need to do anything here because you want the My Trial Users group to include all users, except for the Company Administrator.",
+      "pos": [
+        15981,
+        16117
+      ]
+    },
+    {
+      "pos": [
+        16123,
+        16213
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Summary<ept id=\"p1\">**</ept> page, review the actions that will be taken, and then click <bpt id=\"p2\">**</bpt>Finish<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "You can find the newly created group in the <bpt id=\"p1\">**</bpt>Groups<ept id=\"p1\">**</ept> list, in the <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> workspace under <bpt id=\"p3\">**</bpt>All Users<ept id=\"p3\">**</ept>.",
+      "pos": [
+        16215,
+        16324
+      ]
+    },
+    {
+      "content": "From here, you can also edit or delete the group.",
+      "pos": [
+        16325,
+        16374
+      ]
+    },
+    {
+      "pos": [
+        16376,
+        16551
+      ],
+      "content": "To learn more about using groups, see <bpt id=\"p1\">[</bpt>Use groups to manage users and devices with Microsoft Intune<ept id=\"p1\">](../Topic/Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        16556,
+        16618
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"Step4\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Step 4: Create policies and publish an app"
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> policies provide settings that help you control the security settings on mobile devices, maintain Windows Firewall and Endpoint Protection settings for computers, and deploy applications.",
+      "pos": [
+        16619,
+        16858
+      ]
+    },
+    {
+      "content": "If you are planning to use Intune for devices that you configure for production use after the trial, it's absolutely essential that you follow the instructions in <bpt id=\"p1\">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id=\"p1\">](../Topic/Manage-settings-and-features-on-your-devices-with-Microsoft-Intune-policies.md)</ept> and <bpt id=\"p2\">[</bpt>Help secure Windows PCs with Endpoint Protection for Microsoft Intune<ept id=\"p2\">](../Topic/Help-secure-Windows-PCs-with-Endpoint-Protection-for-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        16859,
+        17348
+      ]
+    },
+    {
+      "content": "You can perform two types of app installations using Intune.",
+      "pos": [
+        17350,
+        17410
+      ]
+    },
+    {
+      "content": "The first is a <bpt id=\"p1\">**</bpt>required install<ept id=\"p1\">**</ept>, which automatically deploys the app to managed computers.",
+      "pos": [
+        17411,
+        17505
+      ]
+    },
+    {
+      "content": "The other is an <bpt id=\"p1\">**</bpt>available install<ept id=\"p1\">**</ept>, which deploys the app, or a link to the app, to the Intune company portal so that users can choose whether to install it on their computers or on their mobile devices.",
+      "pos": [
+        17506,
+        17712
+      ]
+    },
+    {
+      "content": "Before using Intune to deploy apps, make sure that you have the appropriate licenses to publish, distribute, and use the app.",
+      "pos": [
+        17714,
+        17839
+      ]
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt>Licenses<ept id=\"p1\">**</ept> workspace lets you add and manage license agreement information for apps or software purchased through Microsoft Volume Licensing agreements, and for Microsoft or non-Microsoft apps or software purchased by other means.",
+      "pos": [
+        17840,
+        18076
+      ]
+    },
+    {
+      "content": "You can then create license reports, which display managed license usage information throughout your company, to stay informed of license usage activity.",
+      "pos": [
+        18077,
+        18230
+      ]
+    },
+    {
+      "content": "In these steps, you'll set up a mobile device configuration policy and a Windows computer firewall policy, and configure Skype as an available install for mobile devices after they're enrolled.",
+      "pos": [
+        18232,
+        18425
+      ]
+    },
+    {
+      "content": "After you add and deploy a new policy, all users or devices in the group to which you deployed the policy inherit the settings as their baseline policy.",
+      "pos": [
+        18426,
+        18578
+      ]
+    },
+    {
+      "content": "You can always review and edit the details of these policies later from the <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept> workspace in the administration console.",
+      "pos": [
+        18579,
+        18706
+      ]
+    },
+    {
+      "content": "Create and deploy a mobile device configuration policy",
+      "pos": [
+        18713,
+        18767
+      ]
+    },
+    {
+      "pos": [
+        18773,
+        18845
+      ],
+      "content": "Open the <bpt id=\"p1\">[</bpt>Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>."
+    },
+    {
+      "pos": [
+        18851,
+        18895
+      ],
+      "content": "In the left pane, click the <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept> icon."
+    },
+    {
+      "pos": [
+        18901,
+        18977
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Tasks<ept id=\"p1\">**</ept> list on the <bpt id=\"p2\">**</bpt>Policy Overview<ept id=\"p2\">**</ept> page, click <bpt id=\"p3\">**</bpt>Add Policy<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        18983,
+        19192
+      ],
+      "content": "In the policy list, expand the platform you want to create a policy for, select <bpt id=\"p1\">**</bpt>General Configuration<ept id=\"p1\">**</ept>, choose <bpt id=\"p2\">**</bpt>Create and Deploy a Policy with the Recommended Settings<ept id=\"p2\">**</ept>, and then click <bpt id=\"p3\">**</bpt>Create Policy<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        19198,
+        19349
+      ],
+      "content": "When prompted to <bpt id=\"p1\">**</bpt>Select the groups to which you want to deploy this policy<ept id=\"p1\">**</ept>, select <bpt id=\"p2\">**</bpt>My Trial Users<ept id=\"p2\">**</ept> from the list, and click <bpt id=\"p3\">**</bpt>Add<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>OK<ept id=\"p4\">**</ept>."
+    },
+    {
+      "content": "Your policy appears in the list of configuration policies, and has been deployed to the <bpt id=\"p1\">**</bpt>My Trial Users<ept id=\"p1\">**</ept> group.",
+      "pos": [
+        19351,
+        19464
+      ]
+    },
+    {
+      "content": "Double-click the policy to view its settings.",
+      "pos": [
+        19465,
+        19510
+      ]
+    },
+    {
+      "content": "Publish the Skype app for mobile devices",
+      "pos": [
+        19517,
+        19557
+      ]
+    },
+    {
+      "content": "In the <bpt id=\"p1\">[</bpt>Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click the <bpt id=\"p2\">**</bpt>Apps<ept id=\"p2\">**</ept> icon, then click <bpt id=\"p3\">**</bpt>Apps<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Add App<ept id=\"p4\">**</ept>.",
+      "pos": [
+        19563,
+        19696
+      ]
+    },
+    {
+      "content": "If prompted, enter your <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> credentials.",
+      "pos": [
+        19697,
+        19785
+      ]
+    },
+    {
+      "pos": [
+        19793,
+        19932
+      ],
+      "content": "[!NOTE]\nWhen you start the **Intune Software Publisher** for the first time, a short delay occurs while the application is installed.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "When you start the <bpt id=\"p1\">**</bpt>Intune Software Publisher<ept id=\"p1\">**</ept> for the first time, a short delay occurs while the application is installed.",
+          "pos": [
+            8,
+            133
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        19938,
+        19984
+      ],
+      "content": "Review the security warning and click <bpt id=\"p1\">**</bpt>Run<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        19990,
+        20039
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Before you begin<ept id=\"p1\">**</ept> page, click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        20045,
+        20163
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Software setup<ept id=\"p1\">**</ept> page in <bpt id=\"p2\">**</bpt>Select how this software is made available to devices<ept id=\"p2\">**</ept>, select <bpt id=\"p3\">**</bpt>External link<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "Enter the external link for the software in <bpt id=\"p1\">**</bpt>Specify the URL<ept id=\"p1\">**</ept>, and then click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>.",
+      "pos": [
+        20169,
+        20258
+      ]
+    },
+    {
+      "content": "Make sure that you preface the URL with <bpt id=\"p1\">**</bpt>http://<ept id=\"p1\">**</ept>.",
+      "pos": [
+        20259,
+        20311
+      ]
+    },
+    {
+      "content": "For the Skype app, use the link below that matches the mobile device platform you're using:",
+      "pos": [
+        20312,
+        20403
+      ]
+    },
+    {
+      "pos": [
+        20413,
+        20559
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>iOS:<ept id=\"p1\">**</ept><bpt id=\"p2\">[</bpt>https://itunes.apple.com/us/app/skype-for-iphone/id304878510?mt%3D8<ept id=\"p2\">](https://itunes.apple.com/us/app/skype-for-iphone/id304878510?mt%3D8)</ept>"
+    },
+    {
+      "pos": [
+        20569,
+        20709
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Android:<ept id=\"p1\">**</ept><bpt id=\"p2\">[</bpt>https://play.google.com/store/apps/details?id=com.skype.raider<ept id=\"p2\">](https://play.google.com/store/apps/details?id=com.skype.raider)</ept>"
+    },
+    {
+      "pos": [
+        20719,
+        20936
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Windows Phone 8 or Windows Phone 8.1:<ept id=\"p1\">**</ept><bpt id=\"p2\">[</bpt>http://www.windowsphone.com/en-us/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51<ept id=\"p2\">](http://www.windowsphone.com/en-us/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51)</ept>"
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Software description<ept id=\"p1\">**</ept> page, provide the information that you want users to see in the company portal for the software, and then click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>.",
+      "pos": [
+        20942,
+        21095
+      ]
+    },
+    {
+      "content": "The following settings are available (this example refers to Skype):",
+      "pos": [
+        21096,
+        21164
+      ]
+    },
+    {
+      "pos": [
+        21174,
+        21233
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Publisher:<ept id=\"p1\">**</ept> Enter the name of the publisher, \"Microsoft\""
+    },
+    {
+      "pos": [
+        21243,
+        21268
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Name:<ept id=\"p1\">**</ept> Enter <bpt id=\"p2\">**</bpt>Skype<ept id=\"p2\">**</ept>"
+    },
+    {
+      "pos": [
+        21278,
+        21368
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Description:<ept id=\"p1\">**</ept> Enter a description for the software, such as <bpt id=\"p2\">**</bpt>Skype communication app<ept id=\"p2\">**</ept>"
+    },
+    {
+      "pos": [
+        21378,
+        21467
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Category:<ept id=\"p1\">**</ept> Select the category that best fits this software, such as <bpt id=\"p2\">**</bpt>Collaboration<ept id=\"p2\">**</ept>"
+    },
+    {
+      "pos": [
+        21477,
+        21642
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Display this as a featured app and highlight it in the company portal:<ept id=\"p1\">**</ept> Select this option to display the app prominently in the company portal on mobile devices."
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Icon:<ept id=\"p1\">**</ept>  (Optional) Choose whether to associate an icon with the software.",
+      "pos": [
+        21652,
+        21728
+      ]
+    },
+    {
+      "content": "The maximum icon size is 250 x 250 pixels, but the recommended icon size is 32 x 32 pixels.",
+      "pos": [
+        21729,
+        21820
+      ]
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Summary<ept id=\"p1\">**</ept> page, verify the software information, and then click <bpt id=\"p2\">**</bpt>Upload<ept id=\"p2\">**</ept>.",
+      "pos": [
+        21826,
+        21910
+      ]
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>Close<ept id=\"p1\">**</ept> to exit the wizard.",
+      "pos": [
+        21911,
+        21946
+      ]
+    },
+    {
+      "pos": [
+        21952,
+        22094
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Apps<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Apps<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Skype<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>Manage Deployment<ept id=\"p5\">**</ept>."
+    },
+    {
+      "pos": [
+        22099,
+        22236
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Select Groups<ept id=\"p1\">**</ept> page, select <bpt id=\"p2\">**</bpt>My Trial Users<ept id=\"p2\">**</ept> to deploy the software to that user group, and then click <bpt id=\"p3\">**</bpt>Add<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Next<ept id=\"p4\">**</ept>."
+    },
+    {
+      "pos": [
+        22242,
+        22350
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Deployment Action<ept id=\"p1\">**</ept> page, select <bpt id=\"p2\">**</bpt>Available Install<ept id=\"p2\">**</ept> from the <bpt id=\"p3\">**</bpt>Approval<ept id=\"p3\">**</ept> column for your group."
+    },
+    {
+      "pos": [
+        22356,
+        22373
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Finish<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        22375,
+        22583
+      ],
+      "content": "The Skype app is now available to install on mobile devices from the company portal, but first you need to install <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> software on computers and mobile devices."
+    },
+    {
+      "pos": [
+        22588,
+        22642
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"Step5\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Step 5: Enroll computers in Intune"
+    },
+    {
+      "pos": [
+        22643,
+        22767
+      ],
+      "content": "You can install the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> client software on computers in  the following ways:"
+    },
+    {
+      "content": "Users can use an installer provided by the administrator to manually enroll",
+      "pos": [
+        22773,
+        22848
+      ]
+    },
+    {
+      "pos": [
+        22854,
+        22977
+      ],
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> software can be included in an OS image, or deployed using Group Policy"
+    },
+    {
+      "pos": [
+        22983,
+        23102
+      ],
+      "content": "End users can self-enroll their device through the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> company portal"
+    },
+    {
+      "content": "Each enrolled computer is linked to the user account that was used to install the client software.",
+      "pos": [
+        23104,
+        23202
+      ]
+    },
+    {
+      "content": "Microsoft Intune Endpoint Protection is also installed by default during Intune client installation on computers.",
+      "pos": [
+        23203,
+        23316
+      ]
+    },
+    {
+      "content": "Endpoint Protection helps to secure computers in your organization by providing real-time protection against potential threats, keeping malicious software definitions up to date, and automatically running scheduled scans.",
+      "pos": [
+        23317,
+        23538
+      ]
+    },
+    {
+      "content": "For added security, you can also use Intune policies to manage Windows Firewall settings on managed computers.",
+      "pos": [
+        23539,
+        23649
+      ]
+    },
+    {
+      "content": "What to know before you start:",
+      "pos": [
+        23651,
+        23681
+      ]
+    },
+    {
+      "content": "The user must be an administrator on the computer to install the client software.",
+      "pos": [
+        23687,
+        23768
+      ]
+    },
+    {
+      "content": "Self-enrolling requires that Internet Explorer is installed on the client computer.",
+      "pos": [
+        23774,
+        23857
+      ]
+    },
+    {
+      "pos": [
+        23863,
+        23976
+      ],
+      "content": "Each time a user self-enrolls a computer, a <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> license is used"
+    },
+    {
+      "content": "You must use a Microsoft Online Services work or school account to self-enroll a computer.",
+      "pos": [
+        23982,
+        24072
+      ]
+    },
+    {
+      "content": "This is the account that you used to sign in, or the administrator account that was created when you signed up for the free trial.",
+      "pos": [
+        24073,
+        24203
+      ]
+    },
+    {
+      "content": "For this trial, follow these steps, which use the self-enrollment approach:",
+      "pos": [
+        24205,
+        24280
+      ]
+    },
+    {
+      "content": "In the <bpt id=\"p1\">[</bpt>Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Admin<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Company Portal<ept id=\"p3\">**</ept>, and then scroll to the bottom of the screen.",
+      "pos": [
+        24286,
+        24442
+      ]
+    },
+    {
+      "content": "Copy the URL shown under <bpt id=\"p1\">**</bpt>Intune company portal<ept id=\"p1\">**</ept>.",
+      "pos": [
+        24443,
+        24494
+      ]
+    },
+    {
+      "content": "Use Internet Explorer to browse to the company portal URL that you acquired in the previous step, and log in with your administrator credentials.",
+      "pos": [
+        24500,
+        24645
+      ]
+    },
+    {
+      "pos": [
+        24651,
+        24672
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Add Device<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        24678,
+        24729
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Download Software<ept id=\"p1\">**</ept> and then click <bpt id=\"p2\">**</bpt>Run<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        24735,
+        24830
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept> to start the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> Setup wizard."
+    },
+    {
+      "pos": [
+        24836,
+        24890
+      ],
+      "content": "When the Setup wizard has completed, click <bpt id=\"p1\">**</bpt>Finish<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        24892,
+        25114
+      ],
+      "content": "To learn more about computer management using <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, see <bpt id=\"p1\">[</bpt>Install the Windows PC client with Microsoft Intune<ept id=\"p1\">](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        25116,
+        25330
+      ],
+      "content": "To learn more about software management using <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, see <bpt id=\"p1\">[</bpt>Deploy and configure apps with Microsoft Intune<ept id=\"p1\">](../Topic/Deploy-and-configure-apps-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        25335,
+        25403
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"Step6\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Step 6: Enroll mobile devices and install an app"
+    },
+    {
+      "content": "To set up mobile device management with Intune, you must  first set the mobile device management authority,  enable management for device platforms, and enroll your devices with the company portal app.",
+      "pos": [
+        25404,
+        25605
+      ]
+    },
+    {
+      "content": "You can then deploy the Microsoft Skype application that you published.",
+      "pos": [
+        25606,
+        25677
+      ]
+    },
+    {
+      "pos": [
+        25683,
+        25965
+      ],
+      "content": "**Make Intune your mobile device management authority**\nIn the [Intune administration console](https://manage.microsoft.com/), click **Admin** &gt; **Mobile Device Management**, and click **Set MDM Authority** under **Tasks**.  Click **Yes** in the **MDM Authority** dialog box.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Make Intune your mobile device management authority",
+          "pos": [
+            2,
+            53
+          ]
+        },
+        {
+          "content": "In the [Intune administration console](https://manage.microsoft.com/), click **Admin** &gt; **Mobile Device Management**, and click **Set MDM Authority** under **Tasks**.  Click **Yes** in the **MDM Authority** dialog box.",
+          "pos": [
+            56,
+            278
+          ],
+          "nodes": [
+            {
+              "content": "In the <bpt id=\"p1\">[</bpt>Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Admin<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Mobile Device Management<ept id=\"p3\">**</ept>, and click <bpt id=\"p4\">**</bpt>Set MDM Authority<ept id=\"p4\">**</ept> under <bpt id=\"p5\">**</bpt>Tasks<ept id=\"p5\">**</ept>.",
+              "pos": [
+                0,
+                170
+              ]
+            },
+            {
+              "content": "Click <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> in the <bpt id=\"p2\">**</bpt>MDM Authority<ept id=\"p2\">**</ept> dialog box.",
+              "pos": [
+                172,
+                222
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        25971,
+        26153
+      ],
+      "content": "**Enable MDM for your device platform**\nEnable mobile device management for the device platform you want to manage. Depending on your platform, different requirements are needed:",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Enable MDM for your device platform",
+          "pos": [
+            2,
+            37
+          ]
+        },
+        {
+          "content": "Enable mobile device management for the device platform you want to manage. Depending on your platform, different requirements are needed:",
+          "pos": [
+            40,
+            178
+          ],
+          "nodes": [
+            {
+              "content": "Enable mobile device management for the device platform you want to manage.",
+              "pos": [
+                0,
+                75
+              ]
+            },
+            {
+              "content": "Depending on your platform, different requirements are needed:",
+              "pos": [
+                76,
+                138
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        26163,
+        26308
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>iOS and Mac OS X<ept id=\"p1\">**</ept>: see <bpt id=\"p2\">[</bpt>Set up iOS and Mac management with Microsoft Intune<ept id=\"p2\">](../Topic/Set-up-iOS-and-Mac-management-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        26318,
+        26464
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Windows Phone<ept id=\"p1\">**</ept>: see <bpt id=\"p2\">[</bpt>Set up Windows Phone management with Microsoft Intune<ept id=\"p2\">](../Topic/Set-up-Windows-Phone-management-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Android<ept id=\"p1\">**</ept>: Android mobile devices allow users to enroll using the company portal app available from Google Play.",
+      "pos": [
+        26474,
+        26588
+      ]
+    },
+    {
+      "content": "No additional configuration in Intune is required.",
+      "pos": [
+        26589,
+        26639
+      ]
+    },
+    {
+      "content": "Enroll devices:",
+      "pos": [
+        26647,
+        26662
+      ]
+    },
+    {
+      "pos": [
+        26674,
+        26892
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Android<ept id=\"p1\">**</ept> - Install the <bpt id=\"p2\">**</bpt>Intune Company Portal<ept id=\"p2\">**</ept> app from Microsoft Corporation, available on <bpt id=\"p3\">[</bpt>Google Play<ept id=\"p3\">](http://go.microsoft.com/fwlink/p/?LinkId=386612)</ept>, and sign in with the Intune user credentials added above."
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>iOS and Mac OS X<ept id=\"p1\">**</ept> - Install the <bpt id=\"p2\">**</bpt>Microsoft Intune Company Portal<ept id=\"p2\">**</ept> app from Microsoft Corporation available in the App Store and sign in with Intune user credentials added above.",
+      "pos": [
+        26902,
+        27084
+      ]
+    },
+    {
+      "content": "View <bpt id=\"p1\">**</bpt>Enrolled devices<ept id=\"p1\">**</ept> to add your device.",
+      "pos": [
+        27085,
+        27130
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Windows Phone 8.1<ept id=\"p1\">**</ept>- Users install the <bpt id=\"p2\">**</bpt>Company Portal<ept id=\"p2\">**</ept> app from Microsoft Corporation, available in the Windows Phone store, and sign in with the Intune user credentials added above.",
+      "pos": [
+        27140,
+        27327
+      ]
+    },
+    {
+      "content": "View <bpt id=\"p1\">**</bpt>Enrolled devices<ept id=\"p1\">**</ept> to add your device.",
+      "pos": [
+        27329,
+        27374
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Windows Phone 8.0<ept id=\"p1\">**</ept>  - Users click <bpt id=\"p2\">**</bpt>system settings<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>company apps<ept id=\"p3\">**</ept>, and sign in with Intune user credentials added above.",
+      "pos": [
+        27384,
+        27517
+      ]
+    },
+    {
+      "content": "The company portal app is deployed to your phone.",
+      "pos": [
+        27518,
+        27567
+      ]
+    },
+    {
+      "pos": [
+        27573,
+        27639
+      ],
+      "content": "If prompted for a <bpt id=\"p1\">**</bpt>Server address<ept id=\"p1\">**</ept>, type “manage.microsoft.com”."
+    },
+    {
+      "pos": [
+        27645,
+        27745
+      ],
+      "content": "Open the company portal on the mobile device, choose <bpt id=\"p1\">**</bpt>Apps<ept id=\"p1\">**</ept>, and then install <bpt id=\"p2\">**</bpt>Microsoft Skype<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        27747,
+        27966
+      ],
+      "content": "To learn more about mobile device management using <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, see <bpt id=\"p1\">[</bpt>Get ready to enroll devices in Microsoft Intune<ept id=\"p1\">](../Topic/Get-ready-to-enroll-devices-in-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "content": "Intune options and extras",
+      "pos": [
+        27971,
+        27996
+      ]
+    },
+    {
+      "content": "Alerts, notifications and reports",
+      "pos": [
+        28002,
+        28035
+      ]
+    },
+    {
+      "content": "In the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> administration console, <bpt id=\"p1\">**</bpt>alerts<ept id=\"p1\">**</ept> are used to quickly assess the overall health of managed devices in your organization.",
+      "pos": [
+        28036,
+        28216
+      ]
+    },
+    {
+      "content": "You can configure and customize alerts so that they report and display only the information you need for your organization.",
+      "pos": [
+        28217,
+        28340
+      ]
+    },
+    {
+      "content": "You can set whether an alert is enabled or disabled, configure the severity, use the display threshold to determine how frequently an alert event must be triggered before an alert is displayed, and also configure settings that are specific to certain types of alerts.",
+      "pos": [
+        28341,
+        28608
+      ]
+    },
+    {
+      "pos": [
+        28610,
+        28731
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Notifications<ept id=\"p1\">**</ept> are emails used to inform administrators (and other users)  when certain types of alerts are triggered."
+    },
+    {
+      "pos": [
+        28733,
+        28950
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Reports<ept id=\"p1\">**</ept> are used to answer a range of questions, such as how many computers have a particular application or update installed, what malware was blocked, or which users needed Remote Assistance over the last month."
+    },
+    {
+      "pos": [
+        28952,
+        29117
+      ],
+      "content": "To learn more about alerts, notifications, and reports, see <bpt id=\"p1\">[</bpt>Monitoring and reports with Microsoft Intune<ept id=\"p1\">](../Topic/Monitoring-and-reports-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "content": "Intune capabilities",
+      "pos": [
+        29123,
+        29142
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> has a wide variety of capabilities beyond those shown in these short setup steps.",
+      "pos": [
+        29143,
+        29276
+      ]
+    },
+    {
+      "content": "A few examples of these capabilities include:",
+      "pos": [
+        29277,
+        29322
+      ]
+    },
+    {
+      "content": "Control access to Exchange and Office 365.",
+      "pos": [
+        29330,
+        29372
+      ]
+    },
+    {
+      "content": "For details, see <bpt id=\"p1\">[</bpt>Manage access to email and SharePoint with Microsoft Intune<ept id=\"p1\">](../Topic/Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        29375,
+        29527
+      ]
+    },
+    {
+      "content": "Management of corporate-owned iOS devices.",
+      "pos": [
+        29535,
+        29577
+      ]
+    },
+    {
+      "content": "For details, see <bpt id=\"p1\">[</bpt>Enroll corporate-owned iOS devices in Microsoft Intune<ept id=\"p1\">](../Topic/Enroll-corporate-owned-iOS-devices-in-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        29580,
+        29722
+      ]
+    },
+    {
+      "content": "Mobile application management.",
+      "pos": [
+        29730,
+        29760
+      ]
+    },
+    {
+      "content": "Managed mobile apps work with mobile application management policies to restrict certain app operations, such as copy and paste and screenshot functionality.",
+      "pos": [
+        29763,
+        29920
+      ]
+    },
+    {
+      "content": "For details, see <bpt id=\"p1\">[</bpt>Configure and deploy mobile application management policies in the Microsoft Intune console<ept id=\"p1\">](../Topic/Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md)</ept> and <bpt id=\"p2\">[</bpt>Manage Internet access using managed browser policies with Microsoft Intune<ept id=\"p2\">](../Topic/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        29921,
+        30308
+      ]
+    },
+    {
+      "content": "Control access to company resources.",
+      "pos": [
+        30316,
+        30352
+      ]
+    },
+    {
+      "content": "You can deploy certificates, e-mail profiles, VPN profiles and Wi-Fi profiles to mobile devices, making it easier to quickly set up mobile devices.",
+      "pos": [
+        30355,
+        30502
+      ]
+    },
+    {
+      "content": "For details, see <bpt id=\"p1\">[</bpt>Enable access to company resources with Microsoft Intune - deleted<ept id=\"p1\">](../Topic/Enable-access-to-company-resources-with-Microsoft-Intune---deleted.md)</ept>.",
+      "pos": [
+        30503,
+        30669
+      ]
+    },
+    {
+      "pos": [
+        30671,
+        31122
+      ],
+      "content": "To learn about the full capabilities of <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, see <bpt id=\"p1\">[</bpt>Mobile device management capabilities in Microsoft Intune<ept id=\"p1\">](../Topic/Mobile-device-management-capabilities-in-Microsoft-Intune.md)</ept>, <bpt id=\"p2\">[</bpt>Windows PC management capabilities in Microsoft Intune<ept id=\"p2\">](../Topic/Windows-PC-management-capabilities-in-Microsoft-Intune.md)</ept> and the <bpt id=\"p3\">[</bpt>Microsoft Intune Service Description<ept id=\"p3\">](../Topic/Microsoft-Intune-Service-Description.md)</ept>."
+    },
+    {
+      "pos": [
+        31124,
+        31324
+      ],
+      "content": "To learn more about capabilities that were recently introduced to <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, see <bpt id=\"p1\">[</bpt>What's new in Microsoft Intune<ept id=\"p1\">](../Topic/What-s-new-in-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        31326,
+        31653
+      ],
+      "content": "Support options are described in <bpt id=\"p1\">[</bpt>How to get support for Microsoft Intune<ept id=\"p1\">](../Topic/How-to-get-support-for-Microsoft-Intune.md)</ept>, and you can join discussions about <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> in <bpt id=\"p2\">[</bpt>Microsoft Intune forums<ept id=\"p2\">](https://social.technet.microsoft.com/Forums/en-US/home?forum=microsoftintuneprod)</ept>."
+    },
+    {
+      "pos": [
+        31658,
+        31732
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_BuyIntune\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Ready to move to an Intune paid subscription?"
+    },
+    {
+      "content": "If you purchase at least 150 licenses for Microsoft Intune in an eligible plan, you can use the \"FastTrack Center Benefit,\" a service where Microsoft specialists work with you to get your environment ready for Intune.",
+      "pos": [
+        31733,
+        31950
+      ]
+    },
+    {
+      "content": "See <bpt id=\"p1\">[</bpt>Microsoft Intune Service Benefit Description<ept id=\"p1\">](https://technet.microsoft.com/library/mt228265.aspx)</ept>.",
+      "pos": [
+        31951,
+        32055
+      ]
+    },
+    {
+      "content": "You can convert your free Intune trial to a paid subscription in the following ways:",
+      "pos": [
+        32057,
+        32141
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Intune Subscription<ept id=\"p1\">**</ept> - Licensed on a per-user basis.",
+      "pos": [
+        32147,
+        32202
+      ]
+    },
+    {
+      "content": "For more information, see <bpt id=\"p1\">[</bpt>How to buy Microsoft Intune<ept id=\"p1\">](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx)</ept>.",
+      "pos": [
+        32203,
+        32346
+      ]
+    },
+    {
+      "content": "After completing your purchase, follow the steps in  <bpt id=\"p1\">[</bpt>Get started with a paid subscription to Microsoft Intune<ept id=\"p1\">](../Topic/Get-started-with-a-paid-subscription-to-Microsoft-Intune.md)</ept> and review the additional configuration steps when you're getting started with Intune.",
+      "pos": [
+        32347,
+        32615
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Enterprise Mobility Suite<ept id=\"p1\">**</ept> - Provides <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, Azure Active Directory Premium, Azure RMS services.",
+      "pos": [
+        32621,
+        32766
+      ]
+    },
+    {
+      "content": "Contact your Microsoft account manager or local reseller for more details, or see <bpt id=\"p1\">[</bpt>information on the Enterprise Mobility Suite<ept id=\"p1\">](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx)</ept> or <bpt id=\"p2\">[</bpt>Enterprise Mobility Suite pricing<ept id=\"p2\">](http://www.microsoft.com/en-us/server-cloud/products/enterprise-mobility-suite/Purchasing.aspx)</ept>.",
+      "pos": [
+        32767,
+        33111
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Enterprise Agreement<ept id=\"p1\">**</ept> (&amp;gt;250 users) - The best licensing program for organizations with more than 250 users.",
+      "pos": [
+        33117,
+        33230
+      ]
+    },
+    {
+      "content": "The EA gives you the flexibility to choose among on-premises software and online services to best suit your user needs and help you optimize your technology spend.",
+      "pos": [
+        33231,
+        33394
+      ]
+    },
+    {
+      "content": "Contact your Microsoft account manager or local reseller for more details, or see the <bpt id=\"p1\">[</bpt>Enterprise Volume Licensing site<ept id=\"p1\">](http://www.microsoft.com/licensing/licensing-options/enterprise.aspx)</ept>.",
+      "pos": [
+        33395,
+        33586
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Online subscription program<ept id=\"p1\">**</ept> (&amp;lt;250 users) - <bpt id=\"p2\">[</bpt>Online Services volume licensing<ept id=\"p2\">](http://www.microsoft.com/licensing/online-services/default.aspx)</ept> program is designed specifically for organizations with less than 250 users.",
+      "pos": [
+        33592,
+        33818
+      ]
+    },
+    {
+      "content": "Use this program to subscribe, manage, and deploy your <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> services.",
+      "pos": [
+        33819,
+        33935
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        33940,
+        33948
+      ]
+    },
+    {
+      "content": "Get started with a paid subscription to Microsoft Intune",
+      "pos": [
+        33950,
+        34006
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - Get started with a 30-day trial of Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: dd94b988-fc35-402c-959d-fc5570ed8f3b\n---\n# MD Conversion - Get started with a 30-day trial of Microsoft Intune\nSetting up a free Microsoft Intune 30-day trial to manage your mobile devices and computers is quick and easy. With just a few simple steps in the trial, you can add up to 100 users and devices, set up groups, configure compliance policies, and enroll and manage mobile devices and computers. In this topic, you'll learn the basics  to get an Intune trial up and running and get an overview of the service so you can evaluate Intune's features and capabilities.\n\nWatch this five-minute demo video to learn how easy it is to get started with a free trial of Microsoft Intune and to manage your devices:\n\n![](../Image/EM_Intune_30_Day_Trial.PNG)\n\n## Before you begin\nBefore you get started with Intune, you'll need the following:\n\n-   A device with a Silverlight-enabled web browser that you can use to access the websites where you'll  create Intune user accounts (the **Intune Account Portal**) and where you manage devices, groups, and policies  (the **Intune administration console**).\n\n-   A second device with a web browser that you'll use  to test how [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] users will enroll and manage their devices using the company portal. You'll also test how users find and install apps and request help from administrators. If you don't have a second device, you can use the “privacy mode” setting on the same browser that you use for [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] administration (for example: in Internet Explorer, you can click **Tools** &gt; **InPrivate Browsing**).\n\n-   If you have an existing Microsoft Online Services account, you'll need the  administrator credentials for that account. If you don’t have such an account, or if you want to use this Intune tenant for evaluation purposes only, you don't need these administrator credentials.\n\n-   If you'll manage iOS or Windows Phone devices with the Intune trial, you'll need certificates (or keys) and accounts to retrieve those certificates (see the following table). Android devices don't need any additional certificates.\n\n    |Platform|Certificate Requirements|More information|\n    |------------|----------------------------|--------------------|\n    |Windows Phone 8.1 and [!INCLUDE[winphone8_client_1](../Token/winphone8_client_1_md.md)]|No certificate is required for Windows Phone 8.1 users who install the company portal app from the Store. A Symantec certificate is required for Windows Phone 8.0 or to use Intune to deploy the company portal app to Windows Phone 8.1 devices.|This guidance assumes your users get the company portal app from the Store on a Windows Phone 8.1 or later device. For information about Windows Phone 8.0 support, see [Set up Windows Phone management with Microsoft Intune](../Topic/Set-up-Windows-Phone-management-with-Microsoft-Intune.md).|\n    |Windows 10, [!INCLUDE[winblue_winrt_2](../Token/winblue_winrt_2_md.md)], [!INCLUDE[win8RT_client_1](../Token/win8RT_client_1_md.md)], or [!INCLUDE[winblue_client_2](../Token/winblue_client_2_md.md)] devices|There are no certificate requirements for enrolling Windows RT and Windows devices.|[Install the Windows PC client with Microsoft Intune](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md).|\n    |iOS 7.1 or later|Get an Apple Push Notification service certificate.|Request an Apple Push Notification service certificate from Apple, as described here: [Set up iOS and Mac management with Microsoft Intune](../Topic/Set-up-iOS-and-Mac-management-with-Microsoft-Intune.md).|\n\n## <a name=\"Step1\"></a>Step 1: Sign up or sign in to Intune\nBefore  you sign up or sign in to Intune,  you should consider the following:\n\n-   Whether your organization already has a Microsoft Online Services work or school account\n\n-   Whether you have an Enterprise Agreement or equivalent volume licensing agreement with Microsoft\n\n-   Whether you plan to use the Intune tenant after the 30-day trial\n\n|Sign up for a NEW account if either of the following is true:|Sign in with your WORK or SCHOOL account if:|\n|-----------------------------------------------------------------|------------------------------------------------|\n|**You don’t have a work or school account.** A work or school account is provided when you sign a volume licensing agreement with Microsoft or subscribe to Office 365. If your organization has not signed an Enterprise Agreement or equivalent volume licensing agreement with Microsoft (or has an Office 365 account), then you do not have a Microsoft Online Services account that you can use to sign in to Microsoft Online Services.<br /><br />**You will discard your Intune tenant after completing the 30-day trial.** You should sign up for a new account if you are using your [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] free trial subscription for evaluation purposes only, and you plan to redo your [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] service setup and device provisioning after the trial. This is the recommended option if you plan to use [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] with System Center 2012 Configuration Manager.<br /><br />If you sign up for a new account, you cannot later use an existing work or school account to manage that account, or combine it with existing volume licensing agreements.|**You have a work or school account provided with a volume licensing agreement or Office 365 subscription, and you are using this trial to evaluate [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].**<br /><br />If you are setting up [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] on an existing account, we recommend that you review [Introduction to Microsoft Intune](../Topic/Introduction-to-Microsoft-Intune.md) before continuing with these steps.|\n\n### <a name=\"BKMK_ToSignUpforSubscription\"></a>Sign up or sign in to Intune\n\n1.  First, [click here to visit the Intune Sign up page](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1#0%20).\n\n2.  On the **Sign up** page, you have two options:\n\n    -   **Subscribe using your Microsoft Online Services work or school account**: Click **Sign in** if you already have a work or school account, and you want to use the same account to subscribe to both services. When you use the same account for multiple services, those services use the same Azure AD infrastructure and are tenants of Azure AD. Azure AD provides the core directory and identity management capabilities for Microsoft cloud services.\n\n    -   **Subscribe to Intune only**: If you do not yet subscribe to a cloud service, complete the form on the sign-up page to subscribe to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n        > [!NOTE]\n        > By default, the domain name is associated with your subscription and user accounts that you add to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. After you subscribe, you can add and use a custom domain name that you already own, or continue to use the free **onmicrosoft.com** domain.\n\nAfter you complete the sign-up form and accept the Microsoft Online Subscription Agreement, you're automatically signed in to the [!INCLUDE[wit_icp_1](../Token/wit_icp_1_md.md)] with the tenant administrator account. An email message that contains your account information is also sent to the email address that you provided during sign-up. This email confirms that your subscription is active.\n\n## <a name=\"Step2\"></a>Step 2: Add users to Intune\nNow that you have set up your account, you'll use either the **New Users** wizard to add individual user accounts to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], or the **Bulk add users** wizard to add users in bulk (see the instructions in this section).  Before you get started, it's important that you understand how Intune handles administrator accounts.\n\nA tenant administrator  uses the account portal to add  users to the Microsoft Intune **Users Group**. Adding users to the  **Users Group** assigns Intune subscription licenses to users and is also how you make those users to show up in the Microsoft Intune administration console.\n\nAdministrator accounts for Intune aren't created in the account portal,  as regular user accounts are. Instead, you  assign  either read-only access or full access administrative rights to users by using the administration console in the **Administration** workspace under **Administration Management**. Service administrators that are assigned read-only access cannot change Intune settings, but they can view data and run reports. Service administrators with full access have all available administrative rights.\n\nYou can view tenant administrator information by using the Intune administration console, but you cannot create tenant administrators there. By default, the subscription owner becomes a tenant administrator for your Microsoft Intune service and has full access to both the Intune account portal and the Intune administration console. We recommend that you create a least one extra tenant administrator account by using the account portal to help delegate tasks and to ensure that you don’t get locked out of your Intune service administrator account if you forget your password.\n\n### Add individual user accounts\nUse the following steps to create additional user accounts in your trial tenant. Remember, each user account that you add counts as one of the 100 licenses that  you get as part of your [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] free trial.\n\n1.  In the [Office 365 admin center](http://go.microsoft.com/fwlink/p/?LinkId=698854), click **Add Users** &gt; **New**&gt; **User** to start the **New users** wizard.\n\n2.  On the **Details** page, complete the required fields.\n\n3.  On the **Settings** page, set the **location** for the user.\n\n4.  On the **Group** page, click **Next** to accept the default and assign a license for [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] to the user’s account.\n\n5.  On the **Email** page, specify up to five email addresses that will receive notification of the user name and temporary password for the account. Separate multiple email addresses by semicolons (;). When you're done, click **Create** to add the user to your subscription.\n\n6.  On the **Results** page, you can view the new account name and its temporary password. [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] automatically creates the temporary password.\n\n7.  When the new user  appears in the **Users** node of the account portal, verify that the new user was created successfully:\n\n    1.  In the [Intune administration console](https://manage.microsoft.com/), click **Admin** &gt; **Company Portal**, and then scroll to the bottom of the screen. Copy the URL shown under  **Intune company portal**.\n\n    2.  Open a new browser window in “privacy mode” (in Internet Explorer, click **Tools** &gt; **InPrivate Browsing**), or open a new browser window on a different device, and then navigate to the URL that you copied in the previous step. When users sign in for the first time, they must provide a new password for the account.\n\n### Add users in bulk\nTo add users in bulk to Intune,  use the **Bulk add users** wizard to upload a comma-separated values (CSV) file that contains your user data. Links in the wizard enable you to download a blank template and sample CSV file. The first row of your CSV file must contain, in the correct order, each of the user data column labels. Then, for each user in the CSV file, you must include the **user name** (like **bob@contoso.com**) and a **display name** (like **Bob Kelly**).\n\n1.  In the [Office 365 admin center](http://go.microsoft.com/fwlink/p/?LinkId=698854), click **Users** &gt; **New**.\n\n2.  Click **Bulk add** to start the Bulk add users wizard.\n\n3.  On the **Select file** page, click **Browse** to specify and load an existing CSV file from your computer. You can also download a sample CSV file or blank template file by using the links in the wizard.\n\n4.  On the **Verification** page, review the results, and then click **View** for more details.\n\n5.  On the **Settings** page, confirm that the sign-in status is **Allowed**, and set the **location**. These settings apply to all user accounts added by the CSV file.\n\n6.  On the **Group** page, click **Next** to accept the default and assign a license for [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] to all user accounts added by the CSV file. By default, the check box is selected, which assigns a license for [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] to each account.\n\n7.  On the **Email** page, specify up to five email addresses to receive notification of the user names and temporary passwords that [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] creates for each account. Separate multiple email addresses with semicolons (;). When ready, click **Create** to add the users to your subscription.\n\n8.  On the **Results** page, you can view the account names and temporary password for each user account.\n\nEach user account that you added by importing it now appears in the **Users** node of the account portal. When new users sign in for the first time, they must specify a new password for their user account.\n\n## <a name=\"Step3\"></a>Step 3: Create groups to organize users and devices\nGroups in [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] give you great flexibility for managing your devices and users. You can set up groups to suit your organizational needs (for example, by geographic location, department, or hardware characteristics) and use them to perform a variety of administrative tasks at scale, from setting policies for a set of users to deploying applications to a set of devices.\n\n### Create a device group\nUse device groups to deploy software and updates, and configure Microsoft Intune Agent Settings and Windows Firewall Settings policies. For example, set up a \"My Trial Devices\" group using the following steps:\n\n1.  In the [Intune administration console](https://manage.microsoft.com/), click **Groups** &gt; **Overview** &gt; **Create Group**.\n\n2.  For the **Group name**, type “My Trial Devices” and, from the parent group list, select **All Devices**, and then click **Next**.\n\n3.  On the **Define Membership Criteria** page, select **All devices** to indicate that the group includes both mobile devices and computers.\n\n4.  On the **Define Direct Membership** page, click **Next**. If you previously created a group that does not include all devices, and you wanted to add specific devices to your new group, you can do that here.\n\n5.  On the **Summary** page, review the actions that will be taken, and then click **Finish**.\n\nYou can find the newly created group in the **Groups** list, in the **Groups** workspace under **All Devices**. From here, you can also edit or delete the group.\n\n### Create a user group\nUse user groups to deploy software and device policies. For example, set up a \"My Trial Users\" group using the following steps:\n\n1.  In the [Intune administration console](https://manage.microsoft.com/), click **Groups** &gt; **Overview** &gt; **Create Group**.\n\n2.  For the **Group name**, type “My Trial Users” and, from the parent group list, select **All Users**, and then click **Next**.\n\n3.  On the **Define Membership Criteria** page, set **Start group membership with** to **All users in the Parent group**.\n\n4.  Beside **Exclude members from these security groups**, click **Browse** and then select **Company Administrator**. This exclusion lets you manage the My Trial Users group without affecting the Company Administrator account (also known as the tenant administrator).\n\n5.  On the **Define Direct Membership** page, click **Next**. You don’t need to do anything here because you want the My Trial Users group to include all users, except for the Company Administrator.\n\n6.  On the **Summary** page, review the actions that will be taken, and then click **Finish**.\n\nYou can find the newly created group in the **Groups** list, in the **Groups** workspace under **All Users**. From here, you can also edit or delete the group.\n\nTo learn more about using groups, see [Use groups to manage users and devices with Microsoft Intune](../Topic/Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md).\n\n## <a name=\"Step4\"></a>Step 4: Create policies and publish an app\n[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] policies provide settings that help you control the security settings on mobile devices, maintain Windows Firewall and Endpoint Protection settings for computers, and deploy applications. If you are planning to use Intune for devices that you configure for production use after the trial, it's absolutely essential that you follow the instructions in [Manage settings and features on your devices with Microsoft Intune policies](../Topic/Manage-settings-and-features-on-your-devices-with-Microsoft-Intune-policies.md) and [Help secure Windows PCs with Endpoint Protection for Microsoft Intune](../Topic/Help-secure-Windows-PCs-with-Endpoint-Protection-for-Microsoft-Intune.md).\n\nYou can perform two types of app installations using Intune. The first is a **required install**, which automatically deploys the app to managed computers. The other is an **available install**, which deploys the app, or a link to the app, to the Intune company portal so that users can choose whether to install it on their computers or on their mobile devices.\n\nBefore using Intune to deploy apps, make sure that you have the appropriate licenses to publish, distribute, and use the app. The **Licenses** workspace lets you add and manage license agreement information for apps or software purchased through Microsoft Volume Licensing agreements, and for Microsoft or non-Microsoft apps or software purchased by other means. You can then create license reports, which display managed license usage information throughout your company, to stay informed of license usage activity.\n\nIn these steps, you'll set up a mobile device configuration policy and a Windows computer firewall policy, and configure Skype as an available install for mobile devices after they're enrolled. After you add and deploy a new policy, all users or devices in the group to which you deployed the policy inherit the settings as their baseline policy. You can always review and edit the details of these policies later from the **Policy** workspace in the administration console.\n\n#### Create and deploy a mobile device configuration policy\n\n1.  Open the [Intune administration console](https://manage.microsoft.com/).\n\n2.  In the left pane, click the **Policy** icon.\n\n3.  In the **Tasks** list on the **Policy Overview** page, click **Add Policy**.\n\n4.  In the policy list, expand the platform you want to create a policy for, select **General Configuration**, choose **Create and Deploy a Policy with the Recommended Settings**, and then click **Create Policy**.\n\n5.  When prompted to **Select the groups to which you want to deploy this policy**, select **My Trial Users** from the list, and click **Add** &gt; **OK**.\n\nYour policy appears in the list of configuration policies, and has been deployed to the **My Trial Users** group. Double-click the policy to view its settings.\n\n#### Publish the Skype app for mobile devices\n\n1.  In the [Intune administration console](https://manage.microsoft.com/), click the **Apps** icon, then click **Apps** &gt; **Add App**. If prompted, enter your [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] credentials.\n\n    > [!NOTE]\n    > When you start the **Intune Software Publisher** for the first time, a short delay occurs while the application is installed.\n\n2.  Review the security warning and click **Run**.\n\n3.  On the **Before you begin** page, click **Next**.\n\n4.  On the **Software setup** page in **Select how this software is made available to devices**, select **External link**.\n\n5.  Enter the external link for the software in **Specify the URL**, and then click **Next**. Make sure that you preface the URL with **http://**. For the Skype app, use the link below that matches the mobile device platform you're using:\n\n    -   **iOS:**[https://itunes.apple.com/us/app/skype-for-iphone/id304878510?mt%3D8](https://itunes.apple.com/us/app/skype-for-iphone/id304878510?mt%3D8)\n\n    -   **Android:**[https://play.google.com/store/apps/details?id=com.skype.raider](https://play.google.com/store/apps/details?id=com.skype.raider)\n\n    -   **Windows Phone 8 or Windows Phone 8.1:**[http://www.windowsphone.com/en-us/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51](http://www.windowsphone.com/en-us/store/app/skype/c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51)\n\n6.  On the **Software description** page, provide the information that you want users to see in the company portal for the software, and then click **Next**. The following settings are available (this example refers to Skype):\n\n    -   **Publisher:** Enter the name of the publisher, \"Microsoft\"\n\n    -   **Name:** Enter **Skype**\n\n    -   **Description:** Enter a description for the software, such as **Skype communication app**\n\n    -   **Category:** Select the category that best fits this software, such as **Collaboration**\n\n    -   **Display this as a featured app and highlight it in the company portal:** Select this option to display the app prominently in the company portal on mobile devices.\n\n    -   **Icon:**  (Optional) Choose whether to associate an icon with the software. The maximum icon size is 250 x 250 pixels, but the recommended icon size is 32 x 32 pixels.\n\n7.  On the **Summary** page, verify the software information, and then click **Upload**. Click **Close** to exit the wizard.\n\n8.  In the [Intune administration console](https://manage.microsoft.com/), click **Apps** &gt; **Apps** &gt; **Skype** &gt; **Manage Deployment**.\n\n9. On the **Select Groups** page, select **My Trial Users** to deploy the software to that user group, and then click **Add** &gt; **Next**.\n\n10. On the **Deployment Action** page, select **Available Install** from the **Approval** column for your group.\n\n11. Click **Finish**.\n\nThe Skype app is now available to install on mobile devices from the company portal, but first you need to install [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] software on computers and mobile devices.\n\n## <a name=\"Step5\"></a>Step 5: Enroll computers in Intune\nYou can install the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] client software on computers in  the following ways:\n\n-   Users can use an installer provided by the administrator to manually enroll\n\n-   [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] software can be included in an OS image, or deployed using Group Policy\n\n-   End users can self-enroll their device through the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] company portal\n\nEach enrolled computer is linked to the user account that was used to install the client software. Microsoft Intune Endpoint Protection is also installed by default during Intune client installation on computers. Endpoint Protection helps to secure computers in your organization by providing real-time protection against potential threats, keeping malicious software definitions up to date, and automatically running scheduled scans. For added security, you can also use Intune policies to manage Windows Firewall settings on managed computers.\n\nWhat to know before you start:\n\n-   The user must be an administrator on the computer to install the client software.\n\n-   Self-enrolling requires that Internet Explorer is installed on the client computer.\n\n-   Each time a user self-enrolls a computer, a [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] license is used\n\n-   You must use a Microsoft Online Services work or school account to self-enroll a computer. This is the account that you used to sign in, or the administrator account that was created when you signed up for the free trial.\n\nFor this trial, follow these steps, which use the self-enrollment approach:\n\n1.  In the [Intune administration console](https://manage.microsoft.com/), click **Admin** &gt; **Company Portal**, and then scroll to the bottom of the screen. Copy the URL shown under **Intune company portal**.\n\n2.  Use Internet Explorer to browse to the company portal URL that you acquired in the previous step, and log in with your administrator credentials.\n\n3.  Click **Add Device**.\n\n4.  Click **Download Software** and then click **Run**.\n\n5.  Click **Next** to start the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] Setup wizard.\n\n6.  When the Setup wizard has completed, click **Finish**.\n\nTo learn more about computer management using [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], see [Install the Windows PC client with Microsoft Intune](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md).\n\nTo learn more about software management using [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], see [Deploy and configure apps with Microsoft Intune](../Topic/Deploy-and-configure-apps-with-Microsoft-Intune.md).\n\n## <a name=\"Step6\"></a>Step 6: Enroll mobile devices and install an app\nTo set up mobile device management with Intune, you must  first set the mobile device management authority,  enable management for device platforms, and enroll your devices with the company portal app. You can then deploy the Microsoft Skype application that you published.\n\n1.  **Make Intune your mobile device management authority**\n    In the [Intune administration console](https://manage.microsoft.com/), click **Admin** &gt; **Mobile Device Management**, and click **Set MDM Authority** under **Tasks**.  Click **Yes** in the **MDM Authority** dialog box.\n\n2.  **Enable MDM for your device platform**\n    Enable mobile device management for the device platform you want to manage. Depending on your platform, different requirements are needed:\n\n    -   **iOS and Mac OS X**: see [Set up iOS and Mac management with Microsoft Intune](../Topic/Set-up-iOS-and-Mac-management-with-Microsoft-Intune.md).\n\n    -   **Windows Phone**: see [Set up Windows Phone management with Microsoft Intune](../Topic/Set-up-Windows-Phone-management-with-Microsoft-Intune.md).\n\n    -   **Android**: Android mobile devices allow users to enroll using the company portal app available from Google Play. No additional configuration in Intune is required.\n\n3.  **Enroll devices:**\n\n    -   **Android** - Install the **Intune Company Portal** app from Microsoft Corporation, available on [Google Play](http://go.microsoft.com/fwlink/p/?LinkId=386612), and sign in with the Intune user credentials added above.\n\n    -   **iOS and Mac OS X** - Install the **Microsoft Intune Company Portal** app from Microsoft Corporation available in the App Store and sign in with Intune user credentials added above. View **Enrolled devices** to add your device.\n\n    -   **Windows Phone 8.1**- Users install the **Company Portal** app from Microsoft Corporation, available in the Windows Phone store, and sign in with the Intune user credentials added above.  View **Enrolled devices** to add your device.\n\n    -   **Windows Phone 8.0**  - Users click **system settings** &gt; **company apps**, and sign in with Intune user credentials added above. The company portal app is deployed to your phone.\n\n    If prompted for a **Server address**, type “manage.microsoft.com”.\n\n4.  Open the company portal on the mobile device, choose **Apps**, and then install **Microsoft Skype**.\n\nTo learn more about mobile device management using [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], see [Get ready to enroll devices in Microsoft Intune](../Topic/Get-ready-to-enroll-devices-in-Microsoft-Intune.md).\n\n## Intune options and extras\n\n### Alerts, notifications and reports\nIn the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] administration console, **alerts** are used to quickly assess the overall health of managed devices in your organization. You can configure and customize alerts so that they report and display only the information you need for your organization. You can set whether an alert is enabled or disabled, configure the severity, use the display threshold to determine how frequently an alert event must be triggered before an alert is displayed, and also configure settings that are specific to certain types of alerts.\n\n**Notifications** are emails used to inform administrators (and other users)  when certain types of alerts are triggered.\n\n**Reports** are used to answer a range of questions, such as how many computers have a particular application or update installed, what malware was blocked, or which users needed Remote Assistance over the last month.\n\nTo learn more about alerts, notifications, and reports, see [Monitoring and reports with Microsoft Intune](../Topic/Monitoring-and-reports-with-Microsoft-Intune.md).\n\n### Intune capabilities\n[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] has a wide variety of capabilities beyond those shown in these short setup steps. A few examples of these capabilities include:\n\n-   **Control access to Exchange and Office 365.** For details, see [Manage access to email and SharePoint with Microsoft Intune](../Topic/Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md).\n\n-   **Management of corporate-owned iOS devices.** For details, see [Enroll corporate-owned iOS devices in Microsoft Intune](../Topic/Enroll-corporate-owned-iOS-devices-in-Microsoft-Intune.md).\n\n-   **Mobile application management.** Managed mobile apps work with mobile application management policies to restrict certain app operations, such as copy and paste and screenshot functionality. For details, see [Configure and deploy mobile application management policies in the Microsoft Intune console](../Topic/Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md) and [Manage Internet access using managed browser policies with Microsoft Intune](../Topic/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md).\n\n-   **Control access to company resources.** You can deploy certificates, e-mail profiles, VPN profiles and Wi-Fi profiles to mobile devices, making it easier to quickly set up mobile devices. For details, see [Enable access to company resources with Microsoft Intune - deleted](../Topic/Enable-access-to-company-resources-with-Microsoft-Intune---deleted.md).\n\nTo learn about the full capabilities of [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], see [Mobile device management capabilities in Microsoft Intune](../Topic/Mobile-device-management-capabilities-in-Microsoft-Intune.md), [Windows PC management capabilities in Microsoft Intune](../Topic/Windows-PC-management-capabilities-in-Microsoft-Intune.md) and the [Microsoft Intune Service Description](../Topic/Microsoft-Intune-Service-Description.md).\n\nTo learn more about capabilities that were recently introduced to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], see [What's new in Microsoft Intune](../Topic/What-s-new-in-Microsoft-Intune.md).\n\nSupport options are described in [How to get support for Microsoft Intune](../Topic/How-to-get-support-for-Microsoft-Intune.md), and you can join discussions about [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] in [Microsoft Intune forums](https://social.technet.microsoft.com/Forums/en-US/home?forum=microsoftintuneprod).\n\n## <a name=\"BKMK_BuyIntune\"></a>Ready to move to an Intune paid subscription?\nIf you purchase at least 150 licenses for Microsoft Intune in an eligible plan, you can use the \"FastTrack Center Benefit,\" a service where Microsoft specialists work with you to get your environment ready for Intune. See [Microsoft Intune Service Benefit Description](https://technet.microsoft.com/library/mt228265.aspx).\n\nYou can convert your free Intune trial to a paid subscription in the following ways:\n\n-   **Intune Subscription** - Licensed on a per-user basis. For more information, see [How to buy Microsoft Intune](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx). After completing your purchase, follow the steps in  [Get started with a paid subscription to Microsoft Intune](../Topic/Get-started-with-a-paid-subscription-to-Microsoft-Intune.md) and review the additional configuration steps when you're getting started with Intune.\n\n-   **Enterprise Mobility Suite** - Provides [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], Azure Active Directory Premium, Azure RMS services. Contact your Microsoft account manager or local reseller for more details, or see [information on the Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx) or [Enterprise Mobility Suite pricing](http://www.microsoft.com/en-us/server-cloud/products/enterprise-mobility-suite/Purchasing.aspx).\n\n-   **Enterprise Agreement** (&gt;250 users) - The best licensing program for organizations with more than 250 users. The EA gives you the flexibility to choose among on-premises software and online services to best suit your user needs and help you optimize your technology spend. Contact your Microsoft account manager or local reseller for more details, or see the [Enterprise Volume Licensing site](http://www.microsoft.com/licensing/licensing-options/enterprise.aspx).\n\n-   **Online subscription program** (&lt;250 users) - [Online Services volume licensing](http://www.microsoft.com/licensing/online-services/default.aspx) program is designed specifically for organizations with less than 250 users. Use this program to subscribe, manage, and deploy your [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] services.\n\n## See Also\n[Get started with a paid subscription to Microsoft Intune](../Topic/Get-started-with-a-paid-subscription-to-Microsoft-Intune.md)\n\n"
+}

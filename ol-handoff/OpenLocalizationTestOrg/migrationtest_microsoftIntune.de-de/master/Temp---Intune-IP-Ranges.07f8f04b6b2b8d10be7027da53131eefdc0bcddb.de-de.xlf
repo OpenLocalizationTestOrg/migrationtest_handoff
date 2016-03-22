@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">d67dd2ee73f52e34cc7a1f31945bae8c35c0a1db</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Temp - Intune IP Ranges</source>
+          <target>Temp - Intune IP Ranges</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Temp - Intune IP Ranges</source>
+          <target>Temp - Intune IP Ranges</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](/Token/wit_firstref.xml)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The follwing table lists all domains and IP addresses that might be used by <ph dataRef="id1" id="ph1" />.</source>
+          <target>The follwing table lists all domains and IP addresses that might be used by <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Depending on your configuration, you might need to allow one or more of these addresses access through your company firewall.</source>
+          <target>Depending on your configuration, you might need to allow one or more of these addresses access through your company firewall.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following table lists the domains and services that the <ph dataRef="id1" id="ph1" /> client accesses.</source>
+          <target>The following table lists the domains and services that the <ph dataRef="id1" id="ph1" /> client accesses.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Purpose</source>
+          <target>Purpose</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Domain</source>
+          <target>Domain</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Ports</source>
+          <target>Ports</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>IP addresses</source>
+          <target>IP addresses</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Microsoft Intune and related services</source>
+          <target>Microsoft Intune and related services</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>&amp;#42;.manage.microsoft.com</source>
+          <target>&amp;#42;.manage.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>&amp;#42;manage.microsoft.com</source>
+          <target>&amp;#42;manage.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>manage.microsoft.com</source>
+          <target>manage.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>134.170.168.254</source>
+          <target>134.170.168.254</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>134.170.51.126</source>
+          <target>134.170.51.126</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>&amp;#42;.microsoftonline-p.com</source>
+          <target>&amp;#42;.microsoftonline-p.com</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>&amp;#42;.microsoftonline-p.net</source>
+          <target>&amp;#42;.microsoftonline-p.net</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>&amp;#42;.portal.office.com</source>
+          <target>&amp;#42;.portal.office.com</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>&amp;#42;.spynet2.microsoft.com</source>
+          <target>&amp;#42;.spynet2.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>443</source>
+          <target>443</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>c.microsoft.com</source>
+          <target>c.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>c1.microsoft.com</source>
+          <target>c1.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>blob.core.windows.net</source>
+          <target>blob.core.windows.net</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>ajax.aspnetcdn.com</source>
+          <target>ajax.aspnetcdn.com</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>&amp;#42;.googleapis.com</source>
+          <target>&amp;#42;.googleapis.com</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>This domain is required for JQuery support when you use the company portal website.</source>
+          <target>This domain is required for JQuery support when you use the company portal website.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>wustat.microsoft.com</source>
+          <target>wustat.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Microsoft Update Services</source>
+          <target>Microsoft Update Services</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>&amp;#42;.update.microsoft.com</source>
+          <target>&amp;#42;.update.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>download.microsoft.com</source>
+          <target>download.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>update.microsoft.com</source>
+          <target>update.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>&amp;#42;.download.windowsupdate.com</source>
+          <target>&amp;#42;.download.windowsupdate.com</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>download.windowsupdate.com</source>
+          <target>download.windowsupdate.com</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>&amp;#42;.windowsupdate.com</source>
+          <target>&amp;#42;.windowsupdate.com</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>windowsupdate.microsoft.com</source>
+          <target>windowsupdate.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>ntservicepack.microsoft.com</source>
+          <target>ntservicepack.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>DNS lookup requests</source>
+          <target>DNS lookup requests</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>manage.microsoft.com.nsatc.net</source>
+          <target>manage.microsoft.com.nsatc.net</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>80</source>
+          <target>80</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Samsung KNOX device communication through the firewall</source>
+          <target>Samsung KNOX device communication through the firewall</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://www.samsungknox.com/en/faq/our-corporate-devices-are-behind-firewall-how-do-i-enable-knox-devices-contact-samsung-servers)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To enable Samsung KNOX devices to contact KNOX servers through the firewall, follow the instructions on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Samsung KNOX FAQ</pc>.</source>
+          <target>To enable Samsung KNOX devices to contact KNOX servers through the firewall, follow the instructions on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Samsung KNOX FAQ</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://www.samsungknox.com/en/faq/our-corporate-devices-are-behind-firewall-how-do-i-enable-knox-devices-contact-samsung-servers)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To enable Samsung KNOX devices to contact KNOX servers through the firewall, follow the instructions on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Samsung KNOX FAQ</pc>.</source>
+          <target>To enable Samsung KNOX devices to contact KNOX servers through the firewall, follow the instructions on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Samsung KNOX FAQ</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Documentation, Help, and support</source>
+          <target>Documentation, Help, and support</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>&amp;#42;.livemeeting.com</source>
+          <target>&amp;#42;.livemeeting.com</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>&amp;#42;.microsoftonline.com</source>
+          <target>&amp;#42;.microsoftonline.com</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>&amp;#42;.social.technet.microsoft.com</source>
+          <target>&amp;#42;.social.technet.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>80</source>
+          <target>80</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>blogs.technet.com</source>
+          <target>blogs.technet.com</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>80</source>
+          <target>80</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>go.microsoft.com</source>
+          <target>go.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>80</source>
+          <target>80</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>onlinehelp.microsoft.com</source>
+          <target>onlinehelp.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>80</source>
+          <target>80</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>www.microsoft.com</source>
+          <target>www.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>80</source>
+          <target>80</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Introduction to Microsoft Intune</source>
+          <target>Introduction to Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

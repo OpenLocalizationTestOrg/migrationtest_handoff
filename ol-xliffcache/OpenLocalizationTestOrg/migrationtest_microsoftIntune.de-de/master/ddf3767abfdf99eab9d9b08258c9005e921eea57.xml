@@ -1,0 +1,390 @@
+{
+  "nodes": [
+    {
+      "content": "Microsoft Intune",
+      "pos": [
+        11,
+        27
+      ]
+    },
+    {
+      "content": "Microsoft Intune",
+      "pos": [
+        208,
+        224
+      ]
+    },
+    {
+      "content": "Welcome to the documentation library for <bpt id=\"p1\">**</bpt><ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ept id=\"p1\">**</ept>.",
+      "pos": [
+        225,
+        324
+      ]
+    },
+    {
+      "content": "The <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> cloud-based management service is a solution that helps you to manage your computers and mobile devices and to secure your company’s information.",
+      "pos": [
+        325,
+        526
+      ]
+    },
+    {
+      "pos": [
+        528,
+        649
+      ],
+      "content": "Use the following sections to help you evaluate, install and operate <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>."
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt><bpt id=\"p2\">[</bpt>Start using Microsoft Intune<ept id=\"p2\">](../Topic/Start-using-Microsoft-Intune.md)</ept><ept id=\"p1\">**</ept> guide helps you evaluate how <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> can help you to manage mobile devices and computers in your organization.",
+      "pos": [
+        659,
+        894
+      ]
+    },
+    {
+      "content": "Key topics include:",
+      "pos": [
+        895,
+        914
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Get started with a 30-day trial of Microsoft Intune<ept id=\"p1\">](../Topic/Get-started-with-a-30-day-trial-of-Microsoft-Intune.md)</ept>",
+      "pos": [
+        926,
+        1048
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Microsoft Intune Service Description<ept id=\"p1\">](../Topic/Microsoft-Intune-Service-Description.md)</ept>",
+      "pos": [
+        1054,
+        1146
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Microsoft Intune features<ept id=\"p1\">](../Topic/Microsoft-Intune-features.md)</ept>",
+      "pos": [
+        1152,
+        1222
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>How to get support for Microsoft Intune<ept id=\"p1\">](../Topic/How-to-get-support-for-Microsoft-Intune.md)</ept>",
+      "pos": [
+        1228,
+        1326
+      ]
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt><bpt id=\"p2\">[</bpt>Introduction to Microsoft Intune<ept id=\"p2\">](../Topic/Introduction-to-Microsoft-Intune.md)</ept><ept id=\"p1\">**</ept> guide takes you through the process of setting up and configuring <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        1329,
+        1536
+      ]
+    },
+    {
+      "content": "Key topics include:",
+      "pos": [
+        1537,
+        1556
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Network infrastructure requirements for Microsoft Intune<ept id=\"p1\">](../Topic/Network-infrastructure-requirements-for-Microsoft-Intune.md)</ept>",
+      "pos": [
+        1568,
+        1700
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Get started with a paid subscription to Microsoft Intune<ept id=\"p1\">](../Topic/Get-started-with-a-paid-subscription-to-Microsoft-Intune.md)</ept>",
+      "pos": [
+        1706,
+        1838
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Maintain Microsoft Intune<ept id=\"p1\">](../Topic/Maintain-Microsoft-Intune.md)</ept>",
+      "pos": [
+        1844,
+        1914
+      ]
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt><bpt id=\"p2\">[</bpt>Get ready to enroll devices in Microsoft Intune<ept id=\"p2\">](../Topic/Get-ready-to-enroll-devices-in-Microsoft-Intune.md)</ept><ept id=\"p1\">**</ept> and <bpt id=\"p3\">**</bpt><bpt id=\"p4\">[</bpt>Manage Windows PCs with Microsoft Intune<ept id=\"p4\">](../Topic/Manage-Windows-PCs-with-Microsoft-Intune.md)</ept><ept id=\"p3\">**</ept> guides give you all the information you need to get both your computers and mobile devices managed by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        1917,
+        2295
+      ]
+    },
+    {
+      "content": "Key topics include:",
+      "pos": [
+        2296,
+        2315
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Mobile device management capabilities in Microsoft Intune<ept id=\"p1\">](../Topic/Mobile-device-management-capabilities-in-Microsoft-Intune.md)</ept>",
+      "pos": [
+        2327,
+        2461
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Set up Android management with Microsoft Intune<ept id=\"p1\">](../Topic/Set-up-Android-management-with-Microsoft-Intune.md)</ept>",
+      "pos": [
+        2467,
+        2581
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Set up iOS and Mac management with Microsoft Intune<ept id=\"p1\">](../Topic/Set-up-iOS-and-Mac-management-with-Microsoft-Intune.md)</ept>",
+      "pos": [
+        2587,
+        2709
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Set up Windows Phone management with Microsoft Intune<ept id=\"p1\">](../Topic/Set-up-Windows-Phone-management-with-Microsoft-Intune.md)</ept>",
+      "pos": [
+        2715,
+        2841
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id=\"p1\">](../Topic/Manage-settings-and-features-on-your-devices-with-Microsoft-Intune-policies.md)</ept>",
+      "pos": [
+        2847,
+        3017
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Windows PC management capabilities in Microsoft Intune<ept id=\"p1\">](../Topic/Windows-PC-management-capabilities-in-Microsoft-Intune.md)</ept>",
+      "pos": [
+        3023,
+        3151
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Install the Windows PC client with Microsoft Intune<ept id=\"p1\">](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md)</ept>",
+      "pos": [
+        3157,
+        3279
+      ]
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt><bpt id=\"p2\">[</bpt>Enable access to company resources with Microsoft Intune - deleted<ept id=\"p2\">](../Topic/Enable-access-to-company-resources-with-Microsoft-Intune---deleted.md)</ept><ept id=\"p1\">**</ept> guide gives you information about how you can let your users access their work from their mobile devices.",
+      "pos": [
+        3282,
+        3544
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Enable access to company resources using certificate profiles with Microsoft Intune<ept id=\"p1\">](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md)</ept>",
+      "pos": [
+        3556,
+        3742
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Help users connect to company networks using Wi-Fi profiles with Microsoft Intune<ept id=\"p1\">](../Topic/Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft-Intune.md)</ept>",
+      "pos": [
+        3748,
+        3930
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Help users connect to their work using VPN profiles with Microsoft Intune<ept id=\"p1\">](../Topic/Help-users-connect-to-their-work-using-VPN-profiles-with-Microsoft-Intune.md)</ept>",
+      "pos": [
+        3936,
+        4102
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Configure access to corporate email using email profiles with Microsoft Intune<ept id=\"p1\">](../Topic/Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md)</ept>",
+      "pos": [
+        4108,
+        4284
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Manage access to email and SharePoint with Microsoft Intune<ept id=\"p1\">](../Topic/Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md)</ept>",
+      "pos": [
+        4290,
+        4428
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>iOS configuration policy settings in Microsoft Intune<ept id=\"p1\">](../Topic/iOS-configuration-policy-settings-in-Microsoft-Intune.md)</ept>",
+      "pos": [
+        4434,
+        4560
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Manage Internet access using managed browser policies with Microsoft Intune<ept id=\"p1\">](../Topic/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md)</ept>",
+      "pos": [
+        4566,
+        4736
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Protect Windows devices with multi-factor authentication<ept id=\"p1\">](../Topic/Protect-Windows-devices-with-multi-factor-authentication.md)</ept>",
+      "pos": [
+        4742,
+        4874
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Prepare iOS apps for mobile application management with the Microsoft Intune App Wrapping Tool<ept id=\"p1\">](../Topic/Prepare-iOS-apps-for-mobile-application-management-with-the-Microsoft-Intune-App-Wrapping-Tool.md)</ept>",
+      "pos": [
+        4880,
+        5088
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Configure and deploy mobile application management policies in the Microsoft Intune console<ept id=\"p1\">](../Topic/Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md)</ept>",
+      "pos": [
+        5094,
+        5296
+      ]
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt><bpt id=\"p2\">[</bpt>Deploy and configure apps with Microsoft Intune<ept id=\"p2\">](../Topic/Deploy-and-configure-apps-with-Microsoft-Intune.md)</ept><ept id=\"p1\">**</ept> guide helps you to deploy software to computers and mobile devices and also helps you work with license agreements.",
+      "pos": [
+        5299,
+        5533
+      ]
+    },
+    {
+      "content": "Key topics include:",
+      "pos": [
+        5534,
+        5553
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Plan for app deployment in Microsoft Intune<ept id=\"p1\">](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md)</ept>",
+      "pos": [
+        5565,
+        5671
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Deploy apps to mobile devices in Microsoft Intune - deleted<ept id=\"p1\">](../Topic/Deploy-apps-to-mobile-devices-in-Microsoft-Intune---deleted.md)</ept>",
+      "pos": [
+        5677,
+        5815
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Deploy apps to Windows PCs in Microsoft Intune<ept id=\"p1\">](../Topic/Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md)</ept>",
+      "pos": [
+        5821,
+        5933
+      ]
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt><bpt id=\"p2\">[</bpt>Monitoring and reports with Microsoft Intune<ept id=\"p2\">](../Topic/Monitoring-and-reports-with-Microsoft-Intune.md)</ept><ept id=\"p1\">**</ept> guide gives you the information you’ll need to understand alerts that inform you of problems and events and to generate reports that help you understand your IT infrastructure.",
+      "pos": [
+        5936,
+        6225
+      ]
+    },
+    {
+      "content": "Key topics include:",
+      "pos": [
+        6226,
+        6245
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Prepare for monitoring and reporting in Microsoft Intune<ept id=\"p1\">](http://msdn.microsoft.com/en-us/library/957b730c-c4b0-4755-8d2e-f6bdcb38723f)</ept>",
+      "pos": [
+        6257,
+        6397
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Manage alerts in Microsoft Intune<ept id=\"p1\">](../Topic/Manage-alerts-in-Microsoft-Intune.md)</ept>",
+      "pos": [
+        6403,
+        6489
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Understand Microsoft Intune operations by using reports<ept id=\"p1\">](../Topic/Understand-Microsoft-Intune-operations-by-using-reports.md)</ept>",
+      "pos": [
+        6495,
+        6625
+      ]
+    },
+    {
+      "content": "Further help and resources",
+      "pos": [
+        6631,
+        6657
+      ]
+    },
+    {
+      "content": "What's new in Microsoft Intune",
+      "pos": [
+        6664,
+        6694
+      ]
+    },
+    {
+      "content": "Release notes for Microsoft Intune",
+      "pos": [
+        6746,
+        6780
+      ]
+    },
+    {
+      "pos": [
+        6835,
+        6914
+      ],
+      "content": "Connect with the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> community:"
+    },
+    {
+      "content": "The Microsoft Intune Wiki on TechNet",
+      "pos": [
+        6925,
+        6961
+      ]
+    },
+    {
+      "content": "The Microsoft Intune blog",
+      "pos": [
+        7069,
+        7094
+      ]
+    },
+    {
+      "content": "The Microsoft Intune Twitter feed",
+      "pos": [
+        7151,
+        7184
+      ]
+    },
+    {
+      "content": "The Microsoft Intune forums",
+      "pos": [
+        7226,
+        7253
+      ]
+    },
+    {
+      "content": "Open a support request",
+      "pos": [
+        7335,
+        7357
+      ]
+    }
+  ],
+  "content": "---\ntitle: Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: f2f0af3c-1a95-4cb9-8a57-0bbd4ef3d1bf\nauthor: Brenduns\n---\n# Microsoft Intune\nWelcome to the documentation library for **[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]**. The [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] cloud-based management service is a solution that helps you to manage your computers and mobile devices and to secure your company’s information.\n\nUse the following sections to help you evaluate, install and operate [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n||\n|-|\n|The **[Start using Microsoft Intune](../Topic/Start-using-Microsoft-Intune.md)** guide helps you evaluate how [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] can help you to manage mobile devices and computers in your organization. Key topics include:<br /><br />-   [Get started with a 30-day trial of Microsoft Intune](../Topic/Get-started-with-a-30-day-trial-of-Microsoft-Intune.md)<br />-   [Microsoft Intune Service Description](../Topic/Microsoft-Intune-Service-Description.md)<br />-   [Microsoft Intune features](../Topic/Microsoft-Intune-features.md)<br />-   [How to get support for Microsoft Intune](../Topic/How-to-get-support-for-Microsoft-Intune.md)|\n|The **[Introduction to Microsoft Intune](../Topic/Introduction-to-Microsoft-Intune.md)** guide takes you through the process of setting up and configuring [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. Key topics include:<br /><br />-   [Network infrastructure requirements for Microsoft Intune](../Topic/Network-infrastructure-requirements-for-Microsoft-Intune.md)<br />-   [Get started with a paid subscription to Microsoft Intune](../Topic/Get-started-with-a-paid-subscription-to-Microsoft-Intune.md)<br />-   [Maintain Microsoft Intune](../Topic/Maintain-Microsoft-Intune.md)|\n|The **[Get ready to enroll devices in Microsoft Intune](../Topic/Get-ready-to-enroll-devices-in-Microsoft-Intune.md)** and **[Manage Windows PCs with Microsoft Intune](../Topic/Manage-Windows-PCs-with-Microsoft-Intune.md)** guides give you all the information you need to get both your computers and mobile devices managed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. Key topics include:<br /><br />-   [Mobile device management capabilities in Microsoft Intune](../Topic/Mobile-device-management-capabilities-in-Microsoft-Intune.md)<br />-   [Set up Android management with Microsoft Intune](../Topic/Set-up-Android-management-with-Microsoft-Intune.md)<br />-   [Set up iOS and Mac management with Microsoft Intune](../Topic/Set-up-iOS-and-Mac-management-with-Microsoft-Intune.md)<br />-   [Set up Windows Phone management with Microsoft Intune](../Topic/Set-up-Windows-Phone-management-with-Microsoft-Intune.md)<br />-   [Manage settings and features on your devices with Microsoft Intune policies](../Topic/Manage-settings-and-features-on-your-devices-with-Microsoft-Intune-policies.md)<br />-   [Windows PC management capabilities in Microsoft Intune](../Topic/Windows-PC-management-capabilities-in-Microsoft-Intune.md)<br />-   [Install the Windows PC client with Microsoft Intune](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md)|\n|The **[Enable access to company resources with Microsoft Intune - deleted](../Topic/Enable-access-to-company-resources-with-Microsoft-Intune---deleted.md)** guide gives you information about how you can let your users access their work from their mobile devices.<br /><br />-   [Enable access to company resources using certificate profiles with Microsoft Intune](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md)<br />-   [Help users connect to company networks using Wi-Fi profiles with Microsoft Intune](../Topic/Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft-Intune.md)<br />-   [Help users connect to their work using VPN profiles with Microsoft Intune](../Topic/Help-users-connect-to-their-work-using-VPN-profiles-with-Microsoft-Intune.md)<br />-   [Configure access to corporate email using email profiles with Microsoft Intune](../Topic/Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md)<br />-   [Manage access to email and SharePoint with Microsoft Intune](../Topic/Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md)<br />-   [iOS configuration policy settings in Microsoft Intune](../Topic/iOS-configuration-policy-settings-in-Microsoft-Intune.md)<br />-   [Manage Internet access using managed browser policies with Microsoft Intune](../Topic/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md)<br />-   [Protect Windows devices with multi-factor authentication](../Topic/Protect-Windows-devices-with-multi-factor-authentication.md)<br />-   [Prepare iOS apps for mobile application management with the Microsoft Intune App Wrapping Tool](../Topic/Prepare-iOS-apps-for-mobile-application-management-with-the-Microsoft-Intune-App-Wrapping-Tool.md)<br />-   [Configure and deploy mobile application management policies in the Microsoft Intune console](../Topic/Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md)|\n|The **[Deploy and configure apps with Microsoft Intune](../Topic/Deploy-and-configure-apps-with-Microsoft-Intune.md)** guide helps you to deploy software to computers and mobile devices and also helps you work with license agreements. Key topics include:<br /><br />-   [Plan for app deployment in Microsoft Intune](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md)<br />-   [Deploy apps to mobile devices in Microsoft Intune - deleted](../Topic/Deploy-apps-to-mobile-devices-in-Microsoft-Intune---deleted.md)<br />-   [Deploy apps to Windows PCs in Microsoft Intune](../Topic/Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md)|\n|The **[Monitoring and reports with Microsoft Intune](../Topic/Monitoring-and-reports-with-Microsoft-Intune.md)** guide gives you the information you’ll need to understand alerts that inform you of problems and events and to generate reports that help you understand your IT infrastructure. Key topics include:<br /><br />-   [Prepare for monitoring and reporting in Microsoft Intune](http://msdn.microsoft.com/en-us/library/957b730c-c4b0-4755-8d2e-f6bdcb38723f)<br />-   [Manage alerts in Microsoft Intune](../Topic/Manage-alerts-in-Microsoft-Intune.md)<br />-   [Understand Microsoft Intune operations by using reports](../Topic/Understand-Microsoft-Intune-operations-by-using-reports.md)|\n\n## Further help and resources\n\n-   [What's new in Microsoft Intune](../Topic/What-s-new-in-Microsoft-Intune.md)\n\n-   [Release notes for Microsoft Intune](../Topic/Release-notes-for-Microsoft-Intune.md)\n\n-   Connect with the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] community:\n\n    -   [The Microsoft Intune Wiki on TechNet](http://social.technet.microsoft.com/wiki/contents/articles/6526.microsoft-intune-overview.aspx)\n\n    -   [The Microsoft Intune blog](http://blogs.technet.com/b/microsoftintune/)\n\n    -   [The Microsoft Intune Twitter feed](https://twitter.com/MSIntune)\n\n    -   [The Microsoft Intune forums](http://social.technet.microsoft.com/Forums/home?category=microsoftintune)\n\n-   [Open a support request](https://support.microsoftonline.com/default.aspx?productkey=intunesupp&scrx=1)\n\n"
+}

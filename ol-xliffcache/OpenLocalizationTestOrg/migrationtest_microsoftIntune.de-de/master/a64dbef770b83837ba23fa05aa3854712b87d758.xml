@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "content": "Manage access to apps using Microsoft Intune configuration policies - deleted",
+      "pos": [
+        11,
+        88
+      ]
+    },
+    {
+      "content": "Manage access to apps using Microsoft Intune configuration policies - deleted",
+      "pos": [
+        244,
+        321
+      ]
+    },
+    {
+      "content": "Insert introduction here.",
+      "pos": [
+        322,
+        347
+      ]
+    },
+    {
+      "content": "Section Heading",
+      "pos": [
+        352,
+        367
+      ]
+    },
+    {
+      "content": "Insert section body here.",
+      "pos": [
+        368,
+        393
+      ]
+    },
+    {
+      "content": "Subsection Heading",
+      "pos": [
+        399,
+        417
+      ]
+    },
+    {
+      "content": "Insert subsection body here.",
+      "pos": [
+        418,
+        446
+      ]
+    }
+  ],
+  "content": "---\ntitle: Manage access to apps using Microsoft Intune configuration policies - deleted\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: a5290042-0cef-47dd-bd30-066c14621fa7\nauthor: robstackmsft\n---\n# Manage access to apps using Microsoft Intune configuration policies - deleted\nInsert introduction here.\n\n## Section Heading\nInsert section body here.\n\n### Subsection Heading\nInsert subsection body here.\n\n"
+}

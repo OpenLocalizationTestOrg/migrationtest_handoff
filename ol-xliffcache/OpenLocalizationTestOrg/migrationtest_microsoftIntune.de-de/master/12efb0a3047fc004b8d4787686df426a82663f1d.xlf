@@ -1,0 +1,728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">12efb0a3047fc004b8d4787686df426a82663f1d</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Mac OS X configuration policy settings in Microsoft Intune</source>
+          <target>MD Mac OS X configuration policy settings in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Mac OS X configuration policy settings in Microsoft Intune</source>
+          <target>MD Mac OS X configuration policy settings in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">Mac OS X general configuration policy</pc> to configure settings for:</source>
+          <target>Use the <ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">Mac OS X general configuration policy</pc> to configure settings for:</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device security settings</pc> - Choose from a list of predefined settings that let you control a range of features and functionality on the device.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device security settings</pc> - Choose from a list of predefined settings that let you control a range of features and functionality on the device.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compliant and noncompliant apps</pc> - Specify a list of apps that are compliant, or not compliant in your company.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compliant and noncompliant apps</pc> - Specify a list of apps that are compliant, or not compliant in your company.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>The Noncompliant Apps Report can be used to view the compliance of apps you specified in the list against the apps that users have installed (but cannot actually block the installation of the app).</source>
+          <target>The Noncompliant Apps Report can be used to view the compliance of apps you specified in the list against the apps that users have installed (but cannot actually block the installation of the app).</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Create an Mac OS X general configuration policy</source>
+          <target>Create an Mac OS X general configuration policy</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>To provide basic settings for the configuration policy</source>
+          <target>To provide basic settings for the configuration policy</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Overview</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add Policy</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Overview</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mac OS X</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">General Configuration</pc> and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create Policy</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mac OS X</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">General Configuration</pc> and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>You cannot create a configuration policy using recommended settings.</source>
+          <target>You cannot create a configuration policy using recommended settings.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>You must create a custom policy.</source>
+          <target>You must create a custom policy.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> section of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create Policy</pc> page, specify a name and a description for the new policy.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> section of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create Policy</pc> page, specify a name and a description for the new policy.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Use the information in the following sections to help you supply settings for the policy.</source>
+          <target>Use the information in the following sections to help you supply settings for the policy.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</source>
+          <target>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Policies</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace.</source>
+          <target>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Policies</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Settings for Mac OS X devices</source>
+          <target>Settings for Mac OS X devices</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>If the setting you are looking for does not appear in this list, you might be able to create it using a Mac OS X custom policy that lets you import settings you created using the Apple Configurator Tool.</source>
+          <target>If the setting you are looking for does not appear in this list, you might be able to create it using a Mac OS X custom policy that lets you import settings you created using the Apple Configurator Tool.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Mac-OS-X-custom-policy-settings-in-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mac OS X custom policy settings in Microsoft Intune</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mac OS X custom policy settings in Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Password settings</source>
+          <target>Password settings</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Require a password to unlock devices</source>
+          <target>Require a password to unlock devices</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Specifies whether the use must use a password to access their Mac computer.</source>
+          <target>Specifies whether the use must use a password to access their Mac computer.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Unlike iOS devices, on Mac OS X devices, the user is not immediately notified to update their password to comply with this setting.</source>
+          <target>Unlike iOS devices, on Mac OS X devices, the user is not immediately notified to update their password to comply with this setting.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Required password type</source>
+          <target>Required password type</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies whether the password used can be Numeric only, or whether it must be <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Alphanumeric</pc> (contain letters and numbers).</source>
+          <target>Specifies whether the password used can be Numeric only, or whether it must be <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Alphanumeric</pc> (contain letters and numbers).</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>This setting is only supported on Mac OS X version 10.10.3 and later.</source>
+          <target>This setting is only supported on Mac OS X version 10.10.3 and later.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Number of complex characters required in password</source>
+          <target>Number of complex characters required in password</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies the number of complex characters required in the password (from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">0</pc> - <pc dataRefEnd="id4" dataRefStart="id3" id="p2">4</pc>).</source>
+          <target>Specifies the number of complex characters required in the password (from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">0</pc> - <pc dataRefEnd="id4" dataRefStart="id3" id="p2">4</pc>).</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>A complex character is a symbol, such as '<pc dataRefEnd="id2" dataRefStart="id1" id="p1">?</pc>'</source>
+          <target>A complex character is a symbol, such as '<pc dataRefEnd="id2" dataRefStart="id1" id="p1">?</pc>'</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Minimum password length</source>
+          <target>Minimum password length</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies the minimum length for the password (between <pc dataRefEnd="id2" dataRefStart="id1" id="p1">4</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">14</pc> characters).</source>
+          <target>Specifies the minimum length for the password (between <pc dataRefEnd="id2" dataRefStart="id1" id="p1">4</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">14</pc> characters).</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Allow simple passwords</source>
+          <target>Allow simple passwords</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Allows the use of simple passwords such as '<pc dataRefEnd="id2" dataRefStart="id1" id="p1">0000</pc>' or '<pc dataRefEnd="id4" dataRefStart="id3" id="p2">1234</pc>'.</source>
+          <target>Allows the use of simple passwords such as '<pc dataRefEnd="id2" dataRefStart="id1" id="p1">0000</pc>' or '<pc dataRefEnd="id4" dataRefStart="id3" id="p2">1234</pc>'.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Minutes of inactivity before password is required</source>
+          <target>Minutes of inactivity before password is required</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Specifies how long the computer must be inactive before a password is required to unlock it.</source>
+          <target>Specifies how long the computer must be inactive before a password is required to unlock it.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Password expiration (days)</source>
+          <target>Password expiration (days)</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies how many days elapse before the user must change the password (from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1</pc> - <pc dataRefEnd="id4" dataRefStart="id3" id="p2">255</pc> days).</source>
+          <target>Specifies how many days elapse before the user must change the password (from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1</pc> - <pc dataRefEnd="id4" dataRefStart="id3" id="p2">255</pc> days).</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Remember password history</source>
+          <target>Remember password history</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>This setting is used to prevent the user from using a previously used password.</source>
+          <target>This setting is used to prevent the user from using a previously used password.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When it is set, you can also set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prevent reuse of previous passwords</pc> to specify the number of previously used passwords that cannot be reused (from <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1</pc> - <pc dataRefEnd="id6" dataRefStart="id5" id="p3">24</pc>).</source>
+          <target>When it is set, you can also set <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prevent reuse of previous passwords</pc> to specify the number of previously used passwords that cannot be reused (from <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1</pc> - <pc dataRefEnd="id6" dataRefStart="id5" id="p3">24</pc>).</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Minutes of inactivity before screensaver activates</source>
+          <target>Minutes of inactivity before screensaver activates</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Specifies the length of time the computer must be idle before the screensaver activates.</source>
+          <target>Specifies the length of time the computer must be idle before the screensaver activates.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Settings for compliant and noncompliant apps</source>
+          <target>Settings for compliant and noncompliant apps</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compliant &amp;amp; Noncompliant Apps list for Mac OS X</pc>, enable <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Managed settings for devices</pc>, and then specify a list of compliant or noncompliant apps using the following information:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compliant &amp;amp; Noncompliant Apps list for Mac OS X</pc>, enable <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Managed settings for devices</pc>, and then specify a list of compliant or noncompliant apps using the following information:</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>A single policy can only contain a list of compliant, or a list of noncompliant apps.</source>
+          <target>A single policy can only contain a list of compliant, or a list of noncompliant apps.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>You cannot specify both in the same policy.</source>
+          <target>You cannot specify both in the same policy.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> lets you report devices with noncompliant apps.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> lets you report devices with noncompliant apps.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>It does not block installation, or remove noncompliant apps.</source>
+          <target>It does not block installation, or remove noncompliant apps.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Report noncompliance when users install the listed apps</source>
+          <target>Report noncompliance when users install the listed apps</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Lists the Mac OS X apps that users are not allowed to install.</source>
+          <target>Lists the Mac OS X apps that users are not allowed to install.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If users install any of these apps, they will be reported in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Noncompliant Apps Reports</pc>.</source>
+          <target>If users install any of these apps, they will be reported in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Noncompliant Apps Reports</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Report noncompliance when users install apps which are not listed</source>
+          <target>Report noncompliance when users install apps which are not listed</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Lists the Mac OS X apps that users are allowed to install.</source>
+          <target>Lists the Mac OS X apps that users are allowed to install.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If users install any other apps, they will be reported in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Noncompliant Apps Reports</pc>.</source>
+          <target>If users install any other apps, they will be reported in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Noncompliant Apps Reports</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Add</source>
+          <target>Add</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Adds an app to the selected list.</source>
+          <target>Adds an app to the selected list.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Specify a name of your choice, optionally the app publisher, and the  bundle ID of the app.</source>
+          <target>Specify a name of your choice, optionally the app publisher, and the  bundle ID of the app.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Import Apps</source>
+          <target>Import Apps</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Imports a list of apps you have specified in a comma-separated values file.</source>
+          <target>Imports a list of apps you have specified in a comma-separated values file.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Use the format, app name, publisher, app bundle ID in the file.</source>
+          <target>Use the format, app name, publisher, app bundle ID in the file.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Edit</source>
+          <target>Edit</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Let’s you edit the name, publisher and app bundle ID of the selected app.</source>
+          <target>Let’s you edit the name, publisher and app bundle ID of the selected app.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Delete</source>
+          <target>Delete</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Deletes the selected app from the list.</source>
+          <target>Deletes the selected app from the list.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>To find the bundle ID of an app, use the following steps on a Mac computer that has the app installed:</source>
+          <target>To find the bundle ID of an app, use the following steps on a Mac computer that has the app installed:</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the folder in which the app is installed (for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Applications</pc>)</source>
+          <target>Open the folder in which the app is installed (for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/Applications</pc>)</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">&amp;lt;App Name&amp;gt;</pc><pc dataRefEnd="id4" dataRefStart="id3" id="p2">.app</pc> bundle, and choose <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Show Package Contents</pc></source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">&amp;lt;App Name&amp;gt;</pc><pc dataRefEnd="id4" dataRefStart="id3" id="p2">.app</pc> bundle, and choose <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Show Package Contents</pc></target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Info.plist</pc> file</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Info.plist</pc> file</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Check the value associated with the key <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CFBundleIdentifier</pc></source>
+          <target>Check the value associated with the key <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CFBundleIdentifier</pc></target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The format for Bundle ID is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">com.contoso.appname</pc></source>
+          <target>The format for Bundle ID is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">com.contoso.appname</pc></target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](../Topic/Understand-Microsoft-Intune-operations-by-using-reports.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about <ph dataRef="id1" id="ph1" /> reports, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Understand Microsoft Intune operations by using reports</pc>.</source>
+          <target>For more information about <ph dataRef="id1" id="ph1" /> reports, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Understand Microsoft Intune operations by using reports</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Deploy the configuration policy</source>
+          <target>Deploy the configuration policy</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Deploy the configuration policy to one or more groups of users or devices in your organization.</source>
+          <target>Deploy the configuration policy to one or more groups of users or devices in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to deploy policies, see U<pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</source>
+          <target>For more information about how to deploy policies, see U<pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>A status summary and alerts In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> workspace identify issues with the policy that require your attention.</source>
+          <target>A status summary and alerts In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> workspace identify issues with the policy that require your attention.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Additionally, a status summary appears in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace.</source>
+          <target>Additionally, a status summary appears in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>When a Mac OS X device is in Sleep mode, policies and profiles cannot be delivered or inventoried.</source>
+          <target>When a Mac OS X device is in Sleep mode, policies and profiles cannot be delivered or inventoried.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>As a result, the <ph dataRef="id1" id="ph1" /> console might temporarily display the status <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Policy settings in error</pc> until the next time the device wakes from Sleep mode.</source>
+          <target>As a result, the <ph dataRef="id1" id="ph1" /> console might temporarily display the status <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Policy settings in error</pc> until the next time the device wakes from Sleep mode.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Monitor compliant and noncompliant apps</source>
+          <target>Monitor compliant and noncompliant apps</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Noncompliant Apps Reports</pc> to view the compliance of apps you specified.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Noncompliant Apps Reports</pc> to view the compliance of apps you specified.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>To run the report</source>
+          <target>To run the report</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reports</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Noncompliant Apps Reports</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reports</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Noncompliant Apps Reports</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the device groups that you would like to check, whether you want to check for compliant apps, noncompliant apps, or both, then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View Report</pc>.</source>
+          <target>Select the device groups that you would like to check, whether you want to check for compliant apps, noncompliant apps, or both, then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View Report</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Use policies to manage computers and mobile devices with Microsoft Intune</source>
+          <target>Use policies to manage computers and mobile devices with Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

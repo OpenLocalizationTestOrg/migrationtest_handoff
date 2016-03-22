@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">17dfe91965538c4bb46d18a76fe51ef048d83e4c</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Project scope</source>
+          <target>Project scope</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Project scope</source>
+          <target>Project scope</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the project scope phase, you will outline your goals, timeline and success metrics, define key organizational readiness factors, assemble your project team, and begin initial preparations for all phases involved with successfully rolling out <ph dataRef="id1" id="ph1" /> across your organization and ensuring a great experience for end users.</source>
+          <target>In the project scope phase, you will outline your goals, timeline and success metrics, define key organizational readiness factors, assemble your project team, and begin initial preparations for all phases involved with successfully rolling out <ph dataRef="id1" id="ph1" /> across your organization and ensuring a great experience for end users.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Invest the right time and effort to define what long-term success looks like so that your plan reflects all the right steps along the way to achieve that vision.</source>
+          <target>Invest the right time and effort to define what long-term success looks like so that your plan reflects all the right steps along the way to achieve that vision.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>While there is always opportunity to fine tune along the way, having a comprehensive readiness plan that's tightly aligned with the core technical deployment is a key factor to overall success.</source>
+          <target>While there is always opportunity to fine tune along the way, having a comprehensive readiness plan that's tightly aligned with the core technical deployment is a key factor to overall success.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Why is this important?</source>
+          <target>Why is this important?</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Change management often presents the biggest obstacle when rolling out new technology.</source>
+          <target>Change management often presents the biggest obstacle when rolling out new technology.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Driving positive change involves careful planning, from the very first messaging about what's coming to users' first experience and through the entire adoption cycle.</source>
+          <target>Driving positive change involves careful planning, from the very first messaging about what's coming to users' first experience and through the entire adoption cycle.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Utilization is the key to realizing the full impact of your investment and end users are the key to achieving successful utilization.</source>
+          <target>Utilization is the key to realizing the full impact of your investment and end users are the key to achieving successful utilization.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Begin by reviewing the discovery questions below to help scope and define your rollout project</source>
+          <target>Begin by reviewing the discovery questions below to help scope and define your rollout project</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Discovery questions</source>
+          <target>Discovery questions</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Discuss these questions with your project team to help scope your project details, uncover potential risks, and define actionable tasks which can be documented in the  Rollout Planning Guide and Project Plan.</source>
+          <target>Discuss these questions with your project team to help scope your project details, uncover potential risks, and define actionable tasks which can be documented in the  Rollout Planning Guide and Project Plan.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>What are the core drivers behind your organization's decision to deploy <ph dataRef="id1" id="ph1" />?</source>
+          <target>What are the core drivers behind your organization's decision to deploy <ph dataRef="id1" id="ph1" />?</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>What is the scope of your deployment (number of users, devices)?</source>
+          <target>What is the scope of your deployment (number of users, devices)?</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>What is your timeline for completing this rollout?</source>
+          <target>What is your timeline for completing this rollout?</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>What are your most important goals to indicate a successful rollout and how will you measure success?</source>
+          <target>What are your most important goals to indicate a successful rollout and how will you measure success?</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Who are your core user groups and how will you organize around them (by role, by line of business, by subsidiary, by location, other)?</source>
+          <target>Who are your core user groups and how will you organize around them (by role, by line of business, by subsidiary, by location, other)?</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Can you identify users or groups that could be early adopters or key influencers to support the rollout?</source>
+          <target>Can you identify users or groups that could be early adopters or key influencers to support the rollout?</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>How big a change does this present for your organization and user communities?</source>
+          <target>How big a change does this present for your organization and user communities?</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>What are the expected benefits and pain points relative to this change?</source>
+          <target>What are the expected benefits and pain points relative to this change?</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Do you have any current blockers or challenges that should be accounted for?</source>
+          <target>Do you have any current blockers or challenges that should be accounted for?</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Who makes up your core, accountable rollout project team?</source>
+          <target>Who makes up your core, accountable rollout project team?</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Who is the executive sponsor, funding this project and driving core messaging?</source>
+          <target>Who is the executive sponsor, funding this project and driving core messaging?</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Focus area goals</source>
+          <target>Focus area goals</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Review this section for guidance on focus-area activities for this stated phase of your rollout.</source>
+          <target>Review this section for guidance on focus-area activities for this stated phase of your rollout.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Planning</source>
+          <target>Planning</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Goals</source>
+          <target>Goals</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The majority of your efforts in the Scope phase revolve around planning and preparation.</source>
+          <target>The majority of your efforts in the Scope phase revolve around planning and preparation.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>When scoping your rolling project, consider both technology and organizational issues, as well as how users work today and the behavior change required.</source>
+          <target>When scoping your rolling project, consider both technology and organizational issues, as well as how users work today and the behavior change required.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Start with your "big picture" end goal in mind, then create smaller goals in subsequent phases to stay on track.</source>
+          <target>Start with your "big picture" end goal in mind, then create smaller goals in subsequent phases to stay on track.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Help desk</source>
+          <target>Help desk</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>In order for knowledge workers to benefit from a productive <ph dataRef="id1" id="ph1" /> experience, the Help Desk should be well-prepared.</source>
+          <target>In order for knowledge workers to benefit from a productive <ph dataRef="id1" id="ph1" /> experience, the Help Desk should be well-prepared.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>As you scope your project, consider how help desk will play a part in each phase, and what resources you will need to execute and ensure your help desk is ready to support end users.</source>
+          <target>As you scope your project, consider how help desk will play a part in each phase, and what resources you will need to execute and ensure your help desk is ready to support end users.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Awareness</source>
+          <target>Awareness</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>A well-defined awareness campaign is essential for driving change and sustained adoption.</source>
+          <target>A well-defined awareness campaign is essential for driving change and sustained adoption.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>While defining your project scope, consider your target audiences for each phase and what messaging is required.</source>
+          <target>While defining your project scope, consider your target audiences for each phase and what messaging is required.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Begin identifying resources from your marketing and communications teams, as well as any potential budget you may need to help execute the plan.</source>
+          <target>Begin identifying resources from your marketing and communications teams, as well as any potential budget you may need to help execute the plan.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Training</source>
+          <target>Training</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Instilling end-user confidence in using a new solution is a key component in supporting long term usage and adoption.</source>
+          <target>Instilling end-user confidence in using a new solution is a key component in supporting long term usage and adoption.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>As with awareness, understanding training needs for each phase of our rollout, will help ensure a successful execution and adoption from your end-user.</source>
+          <target>As with awareness, understanding training needs for each phase of our rollout, will help ensure a successful execution and adoption from your end-user.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Operations</source>
+          <target>Operations</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Now is the time to outline your long-term plan.</source>
+          <target>Now is the time to outline your long-term plan.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Scoping your operations plan includes understanding how you will manage, support and ensure both your technical aspects and user readiness aspects stay up-to-date, and that your goals continue to be met.</source>
+          <target>Scoping your operations plan includes understanding how you will manage, support and ensure both your technical aspects and user readiness aspects stay up-to-date, and that your goals continue to be met.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Get started checklist</source>
+          <target>Get started checklist</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Here is a list of steps to get you started with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Project scope</pc> phase.</source>
+          <target>Here is a list of steps to get you started with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Project scope</pc> phase.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Develop clearly articulated goals, success criteria, and a timeline, and account for potential risks or blockers.</source>
+          <target>Develop clearly articulated goals, success criteria, and a timeline, and account for potential risks or blockers.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Assemble a rollout planning team comprised of coordinated work streams to focus on core technical, change management, end-user experience, and operational focus areas, across all phases.</source>
+          <target>Assemble a rollout planning team comprised of coordinated work streams to focus on core technical, change management, end-user experience, and operational focus areas, across all phases.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Incorporate the needs of key stakeholders, as well as end users when developing your timeline and top-line messaging.</source>
+          <target>Incorporate the needs of key stakeholders, as well as end users when developing your timeline and top-line messaging.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Identify any considerations/risks/mitigations that may impact your project.</source>
+          <target>Identify any considerations/risks/mitigations that may impact your project.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Finalize your project plan</source>
+          <target>Finalize your project plan</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Obtain approval of plan from key stakeholders.</source>
+          <target>Obtain approval of plan from key stakeholders.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Common challenges</source>
+          <target>Common challenges</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Here are some  challenges that you may encounter in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Project scope</pc> phase.</source>
+          <target>Here are some  challenges that you may encounter in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Project scope</pc> phase.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Organizational readiness and end-user experience is an afterthought or not considered in initial project scope.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Organizational readiness and end-user experience is an afterthought or not considered in initial project scope.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Organization takes a "deploy it and they will come" approach, resulting in poor usage and adoption.</source>
+          <target>Organization takes a "deploy it and they will come" approach, resulting in poor usage and adoption.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> Begin your rollout and adoption planning from day one, in conjunction with your technical deployment efforts.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> Begin your rollout and adoption planning from day one, in conjunction with your technical deployment efforts.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Lack of clearly defined goals and success metrics result in intangible results, as well as reactive mode once issues arise:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Lack of clearly defined goals and success metrics result in intangible results, as well as reactive mode once issues arise:</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> Define your goals and metrics early in your project scope, and use these data points to flesh out your other rollout phases.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> Define your goals and metrics early in your project scope, and use these data points to flesh out your other rollout phases.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Make sure goals are SMART (Specific, Measurable, Attainable, Realistic, and Timely) and plan to measure against your goals at each phase and plan to ensure your rollout project stays on track.</source>
+          <target>Make sure goals are SMART (Specific, Measurable, Attainable, Realistic, and Timely) and plan to measure against your goals at each phase and plan to ensure your rollout project stays on track.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Neglecting to create, validate, and aggressively share a clear value prop that resonates for your organization, often results in limited adoption and lack of ROI.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Neglecting to create, validate, and aggressively share a clear value prop that resonates for your organization, often results in limited adoption and lack of ROI.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> While you may be excited to jump into your project, ensure you have a clearly-defined value message.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> While you may be excited to jump into your project, ensure you have a clearly-defined value message.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Include this value messaging in all awareness and training activities to help ensure users understand why your organization selected <ph dataRef="id1" id="ph1" />.</source>
+          <target>Include this value messaging in all awareness and training activities to help ensure users understand why your organization selected <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

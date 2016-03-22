@@ -1,0 +1,439 @@
+{
+  "nodes": [
+    {
+      "content": "Old - Computer capabilities in Intune",
+      "pos": [
+        11,
+        48
+      ]
+    },
+    {
+      "content": "Old - Computer capabilities in Intune",
+      "pos": [
+        200,
+        237
+      ]
+    },
+    {
+      "content": "Devices that run Windows 8.1 and Windows 10 can be managed using the Intune client.",
+      "pos": [
+        238,
+        321
+      ]
+    },
+    {
+      "content": "You can deploy software to your managed computers in a variety of different formats like a Windows Installer, or Windows app package file.",
+      "pos": [
+        322,
+        460
+      ]
+    },
+    {
+      "content": "You can also deploy links to applications in a store, or links to Web applications.",
+      "pos": [
+        461,
+        544
+      ]
+    },
+    {
+      "pos": [
+        549,
+        598
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_ClientReqs\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Supported computers"
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Operating Systems<ept id=\"p1\">**</ept>:",
+      "pos": [
+        599,
+        621
+      ]
+    },
+    {
+      "content": "You can install the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> client on computers that run the following operating systems:",
+      "pos": [
+        623,
+        756
+      ]
+    },
+    {
+      "content": "Operating system",
+      "pos": [
+        759,
+        775
+      ]
+    },
+    {
+      "content": "System architecture",
+      "pos": [
+        776,
+        795
+      ]
+    },
+    {
+      "content": "-   Business",
+      "pos": [
+        910,
+        922
+      ]
+    },
+    {
+      "content": "-   Enterprise",
+      "pos": [
+        928,
+        942
+      ]
+    },
+    {
+      "content": "-   Ultimate",
+      "pos": [
+        948,
+        960
+      ]
+    },
+    {
+      "content": "x86, x64",
+      "pos": [
+        961,
+        969
+      ]
+    },
+    {
+      "content": "-   Professional (with no service pack, or with SP1)",
+      "pos": [
+        1045,
+        1097
+      ]
+    },
+    {
+      "content": "-   Enterprise (with no service pack, or with SP1)",
+      "pos": [
+        1103,
+        1153
+      ]
+    },
+    {
+      "content": "-   Ultimate (with no service pack, or with SP1)",
+      "pos": [
+        1159,
+        1207
+      ]
+    },
+    {
+      "content": "x86, x64",
+      "pos": [
+        1208,
+        1216
+      ]
+    },
+    {
+      "content": "-   Pro",
+      "pos": [
+        1286,
+        1293
+      ]
+    },
+    {
+      "content": "-   Enterprise",
+      "pos": [
+        1299,
+        1313
+      ]
+    },
+    {
+      "content": "x86, x64",
+      "pos": [
+        1314,
+        1322
+      ]
+    },
+    {
+      "content": "-   Pro",
+      "pos": [
+        1398,
+        1405
+      ]
+    },
+    {
+      "content": "-   Enterprise",
+      "pos": [
+        1411,
+        1425
+      ]
+    },
+    {
+      "content": "X86, x64",
+      "pos": [
+        1426,
+        1434
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Hardware<ept id=\"p1\">**</ept>:",
+      "pos": [
+        1436,
+        1449
+      ]
+    },
+    {
+      "content": "The following are minimum hardware requirements for installing the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> client:",
+      "pos": [
+        1450,
+        1576
+      ]
+    },
+    {
+      "content": "Requirement",
+      "pos": [
+        1579,
+        1590
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        1591,
+        1607
+      ]
+    },
+    {
+      "content": "Network",
+      "pos": [
+        1649,
+        1656
+      ]
+    },
+    {
+      "pos": [
+        1657,
+        1895
+      ],
+      "content": "The client requires the computer to have Internet connectivity and access to the domains defined in the <bpt id=\"p1\">[</bpt>Network infrastructure<ept id=\"p1\">](../Topic/Network-infrastructure-requirements-for-Microsoft-Intune.md#BKMK_NetworkReqs)</ept> section of this topic."
+    },
+    {
+      "content": "Processor and Memory",
+      "pos": [
+        1898,
+        1918
+      ]
+    },
+    {
+      "content": "Refer to the processor and RAM requirements for the computer's operating system.",
+      "pos": [
+        1919,
+        1999
+      ]
+    },
+    {
+      "content": "Disk space",
+      "pos": [
+        2002,
+        2012
+      ]
+    },
+    {
+      "content": "200 MB available disk space before the client software is installed.",
+      "pos": [
+        2013,
+        2081
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Software<ept id=\"p1\">**</ept>:",
+      "pos": [
+        2083,
+        2096
+      ]
+    },
+    {
+      "content": "The following are software requirements for installing the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> client:",
+      "pos": [
+        2098,
+        2216
+      ]
+    },
+    {
+      "content": "Requirement",
+      "pos": [
+        2219,
+        2230
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        2231,
+        2247
+      ]
+    },
+    {
+      "content": "Administrative permissions",
+      "pos": [
+        2289,
+        2315
+      ]
+    },
+    {
+      "content": "The account that installs the client software must have local administrator permissions to that computer.",
+      "pos": [
+        2316,
+        2421
+      ]
+    },
+    {
+      "content": "Windows Installer 3.1",
+      "pos": [
+        2424,
+        2445
+      ]
+    },
+    {
+      "content": "The computer must have, at a minimum, Windows Installer 3.1.",
+      "pos": [
+        2446,
+        2506
+      ]
+    },
+    {
+      "content": "To view the version of Windows Installer on a client computer:",
+      "pos": [
+        2518,
+        2580
+      ]
+    },
+    {
+      "content": "-   On the computer, right-click <bpt id=\"p1\">**</bpt>%windir%\\System32\\msiexec.exe<ept id=\"p1\">**</ept>, and then click <bpt id=\"p2\">**</bpt>Properties<ept id=\"p2\">**</ept>.",
+      "pos": [
+        2592,
+        2690
+      ]
+    },
+    {
+      "content": "You can download the latest version of Windows Installer from <bpt id=\"p1\">[</bpt>Windows Installer Redistributables<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkID=234258)</ept> on the Microsoft Developer Network website.",
+      "pos": [
+        2702,
+        2891
+      ]
+    },
+    {
+      "content": "Remove incompatible client software",
+      "pos": [
+        2894,
+        2929
+      ]
+    },
+    {
+      "content": "Before you install the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> client software, you must uninstall the following client software from that computer:",
+      "pos": [
+        2930,
+        3090
+      ]
+    },
+    {
+      "content": "-   Any version of <ph id=\"ph1\">[!INCLUDE[cm5short](../Token/cm5short_md.md)]</ph>",
+      "pos": [
+        3102,
+        3166
+      ]
+    },
+    {
+      "content": "-   Any version of <ph id=\"ph1\">[!INCLUDE[sccmshortname](../Token/sccmshortname_md.md)]</ph>",
+      "pos": [
+        3172,
+        3246
+      ]
+    },
+    {
+      "content": "-   Any version of Systems Management Server",
+      "pos": [
+        3252,
+        3296
+      ]
+    },
+    {
+      "pos": [
+        3302,
+        3352
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"WIT_Cap\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Computer management features"
+    },
+    {
+      "content": "Intune computer management capabilities:",
+      "pos": [
+        3355,
+        3395
+      ]
+    },
+    {
+      "content": "Manage software updates.",
+      "pos": [
+        3405,
+        3429
+      ]
+    },
+    {
+      "content": "You can keep computers up-to-date, and manage when updates are applied.",
+      "pos": [
+        3432,
+        3503
+      ]
+    },
+    {
+      "content": "Set Windows firewall policy.",
+      "pos": [
+        3511,
+        3539
+      ]
+    },
+    {
+      "content": "This helps to ensure that no computer used by your company has an inactive or improperly-configured firewall.",
+      "pos": [
+        3542,
+        3651
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Anti-malware protection.<ept id=\"p1\">**</ept><ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>",
+      "pos": [
+        3657,
+        3736
+      ]
+    },
+    {
+      "content": "includes <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> Endpoint Protection, and allows you to set policies to ensure that computers are kept up-to-date with the latest anti-malware definition updates.",
+      "pos": [
+        3737,
+        3943
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Remote assistance.<ept id=\"p1\">**</ept><ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>",
+      "pos": [
+        3949,
+        4022
+      ]
+    },
+    {
+      "content": "allows users to contact IT support staff, who can then provide assistance using a remote desktop feature that is included with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        4023,
+        4202
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Software license<ept id=\"p1\">**</ept> management.",
+      "pos": [
+        4208,
+        4240
+      ]
+    },
+    {
+      "content": "Track how many software licenses are available, and how many available licenses are being used.",
+      "pos": [
+        4242,
+        4337
+      ]
+    }
+  ],
+  "content": "---\ntitle: Old - Computer capabilities in Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 7fe70f6c-3d8d-4041-a2cf-04d33af11a68\nauthor: NathBarn\n---\n# Old - Computer capabilities in Intune\nDevices that run Windows 8.1 and Windows 10 can be managed using the Intune client. You can deploy software to your managed computers in a variety of different formats like a Windows Installer, or Windows app package file. You can also deploy links to applications in a store, or links to Web applications.\n\n## <a name=\"BKMK_ClientReqs\"></a>Supported computers\n**Operating Systems**: \nYou can install the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] client on computers that run the following operating systems:\n\n|Operating system|System architecture|\n|--------------------|-----------------------|\n|[!INCLUDE[windowsvista](../Token/windowsvista_md.md)]<br /><br />-   Business<br />-   Enterprise<br />-   Ultimate|x86, x64|\n|[!INCLUDE[nextref_client_7](../Token/nextref_client_7_md.md)]<br /><br />-   Professional (with no service pack, or with SP1)<br />-   Enterprise (with no service pack, or with SP1)<br />-   Ultimate (with no service pack, or with SP1)|x86, x64|\n|[!INCLUDE[win8_client_2](../Token/win8_client_2_md.md)]<br /><br />-   Pro<br />-   Enterprise|x86, x64|\n|[!INCLUDE[winblue_client_2](../Token/winblue_client_2_md.md)]<br /><br />-   Pro<br />-   Enterprise|X86, x64|\n**Hardware**:\nThe following are minimum hardware requirements for installing the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] client:\n\n|Requirement|More information|\n|---------------|--------------------|\n|Network|The client requires the computer to have Internet connectivity and access to the domains defined in the [Network infrastructure](../Topic/Network-infrastructure-requirements-for-Microsoft-Intune.md#BKMK_NetworkReqs) section of this topic.|\n|Processor and Memory|Refer to the processor and RAM requirements for the computer's operating system.|\n|Disk space|200 MB available disk space before the client software is installed.|\n**Software**: \nThe following are software requirements for installing the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] client:\n\n|Requirement|More information|\n|---------------|--------------------|\n|Administrative permissions|The account that installs the client software must have local administrator permissions to that computer.|\n|Windows Installer 3.1|The computer must have, at a minimum, Windows Installer 3.1.<br /><br />To view the version of Windows Installer on a client computer:<br /><br />-   On the computer, right-click **%windir%\\System32\\msiexec.exe**, and then click **Properties**.<br /><br />You can download the latest version of Windows Installer from [Windows Installer Redistributables](http://go.microsoft.com/fwlink/?LinkID=234258) on the Microsoft Developer Network website.|\n|Remove incompatible client software|Before you install the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] client software, you must uninstall the following client software from that computer:<br /><br />-   Any version of [!INCLUDE[cm5short](../Token/cm5short_md.md)]<br />-   Any version of [!INCLUDE[sccmshortname](../Token/sccmshortname_md.md)]<br />-   Any version of Systems Management Server|\n\n## <a name=\"WIT_Cap\"></a>Computer management features\n**Intune computer management capabilities:**\n\n-   **Manage software updates.** You can keep computers up-to-date, and manage when updates are applied.\n\n-   **Set Windows firewall policy.** This helps to ensure that no computer used by your company has an inactive or improperly-configured firewall.\n\n-   **Anti-malware protection.**[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] includes [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] Endpoint Protection, and allows you to set policies to ensure that computers are kept up-to-date with the latest anti-malware definition updates.\n\n-   **Remote assistance.**[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] allows users to contact IT support staff, who can then provide assistance using a remote desktop feature that is included with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n-   **Software license** management.  Track how many software licenses are available, and how many available licenses are being used.\n\n"
+}

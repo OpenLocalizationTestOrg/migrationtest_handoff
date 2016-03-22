@@ -1,0 +1,1783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">618dedfcfbf209d52b62dc0788a65920ab4b6acb</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - Manage device compliance policies for Microsoft Intune</source>
+          <target>MD Conversion - Manage device compliance policies for Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - Manage device compliance policies for Microsoft Intune</source>
+          <target>MD Conversion - Manage device compliance policies for Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compliance policies</pc> define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compliance policies</pc> define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You can also use compliance policies to monitor and remediate compliant issues with devices independently of conditional access.</source>
+          <target>You can also use compliance policies to monitor and remediate compliant issues with devices independently of conditional access.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>These rules include:</source>
+          <target>These rules include:</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>PIN and passwords</source>
+          <target>PIN and passwords</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Encryption</source>
+          <target>Encryption</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Whether the device is jailbroken or rooted, or if the device is reported as unhealthy by the Windows device health attestation service.</source>
+          <target>Whether the device is jailbroken or rooted, or if the device is reported as unhealthy by the Windows device health attestation service.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Whether email on the device is managed by an <ph dataRef="id1" id="ph1" /> policy</source>
+          <target>Whether email on the device is managed by an <ph dataRef="id1" id="ph1" /> policy</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Minimum OS version required - Typically this depends on your company compliance policies and security requirements.</source>
+          <target>Minimum OS version required - Typically this depends on your company compliance policies and security requirements.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>This helps to prevent access to devices that might have security vulnerabilities because they are using an older OS version.</source>
+          <target>This helps to prevent access to devices that might have security vulnerabilities because they are using an older OS version.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Maximum OS version allowed - You may choose not to support the latest OS version available before testing or other reasons.</source>
+          <target>Maximum OS version allowed - You may choose not to support the latest OS version available before testing or other reasons.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>You can choose to block devices that have a version later than the one you have specified.</source>
+          <target>You can choose to block devices that have a version later than the one you have specified.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The device will not be able to access company resources until the policy is changed.</source>
+          <target>The device will not be able to access company resources until the policy is changed.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>On Windows PCs, Windows Operating System version 8.1, is reported as 6.3 instead of 8.1.</source>
+          <target>On Windows PCs, Windows Operating System version 8.1, is reported as 6.3 instead of 8.1.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>If the OS version rule is set to Windows 8.1 for Windows, then the device will be reported as non-compliant even if the device has Windows OS 8.1.</source>
+          <target>If the OS version rule is set to Windows 8.1 for Windows, then the device will be reported as non-compliant even if the device has Windows OS 8.1.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Make sure you are setting the right <pc dataRefEnd="id2" dataRefStart="id1" id="p1">reported</pc> version of Windows for the Minimum and Maximum OS rules.</source>
+          <target>Make sure you are setting the right <pc dataRefEnd="id2" dataRefStart="id1" id="p1">reported</pc> version of Windows for the Minimum and Maximum OS rules.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>The version number must match the version returned by the winver command.</source>
+          <target>The version number must match the version returned by the winver command.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Windows Phones do not have this issue, the version is reported as 8.1 as expected.</source>
+          <target>Windows Phones do not have this issue, the version is reported as 8.1 as expected.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>You deploy compliance policies to users and devices.</source>
+          <target>You deploy compliance policies to users and devices.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>When a compliance policy is deployed to a user, then all of the users devices are checked for compliance.</source>
+          <target>When a compliance policy is deployed to a user, then all of the users devices are checked for compliance.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The following table lists the device types supported by compliance policies and how noncompliant settings are managed when the policy is used with a conditional access policy.</source>
+          <target>The following table lists the device types supported by compliance policies and how noncompliant settings are managed when the policy is used with a conditional access policy.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Device type</source>
+          <target>Device type</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>PIN or password configuration</source>
+          <target>PIN or password configuration</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Device encryption</source>
+          <target>Device encryption</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Jailbroken or rooted device</source>
+          <target>Jailbroken or rooted device</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Email profile</source>
+          <target>Email profile</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Minimum OS version</source>
+          <target>Minimum OS version</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Maximum OS version</source>
+          <target>Maximum OS version</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Windows 8.1 and later</source>
+          <target>Windows 8.1 and later</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Remediated</source>
+          <target>Remediated</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Windows Phone 8.1 and later</source>
+          <target>Windows Phone 8.1 and later</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Remediated</source>
+          <target>Remediated</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Remediated</source>
+          <target>Remediated</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>iOS 6.0 and later</source>
+          <target>iOS 6.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Remediated</source>
+          <target>Remediated</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Remediated (by setting PIN)</source>
+          <target>Remediated (by setting PIN)</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Quarantined (not a setting)</source>
+          <target>Quarantined (not a setting)</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Quarantined (not a setting)</source>
+          <target>Quarantined (not a setting)</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target>Samsung KNOX Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Quarantined (not a setting)</source>
+          <target>Quarantined (not a setting)</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>N/A</source>
+          <target>N/A</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Quarantined</source>
+          <target>Quarantined</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remediated</pc> = Compliance is enforced by the device operating system (for example, the user is forced to set a PIN).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remediated</pc> = Compliance is enforced by the device operating system (for example, the user is forced to set a PIN).</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>There is never a case when the setting will be noncompliant.</source>
+          <target>There is never a case when the setting will be noncompliant.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Quarantined</pc> = The device operating system does not enforce compliance (for example, Android devices do not force the user to encrypt the device).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Quarantined</pc> = The device operating system does not enforce compliance (for example, Android devices do not force the user to encrypt the device).</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>In this case:</source>
+          <target>In this case:</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>The device will be blocked if the user is targeted by a conditional access policy.</source>
+          <target>The device will be blocked if the user is targeted by a conditional access policy.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>The company portal or web portal will notify the user about any compliance issues.</source>
+          <target>The company portal or web portal will notify the user about any compliance issues.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Compliance"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Step 1: Create a compliance policy</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Step 1: Create a compliance policy</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Compliance Policies</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Compliance Policies</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create Policy</pc> page, configure the settings you require:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create Policy</pc> page, configure the settings you require:</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Supported platforms</source>
+          <target>Supported platforms</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Enter a unique name for the compliance policy.</source>
+          <target>Enter a unique name for the compliance policy.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Provide a description that gives an overview of the compliance policy.</source>
+          <target>Provide a description that gives an overview of the compliance policy.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>All</source>
+          <target>All</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Require a password to unlock mobile devices</source>
+          <target>Require a password to unlock mobile devices</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Require users to enter a password before they can access their device.</source>
+          <target>Require users to enter a password before they can access their device.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Windows Phone 8 and later</source>
+          <target>Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target>Samsung KNOX Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Allow simple passwords</source>
+          <target>Allow simple passwords</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Let users create simple passwords such as ‘<pc dataRefEnd="id2" dataRefStart="id1" id="p1">1234</pc>’ or ‘<pc dataRefEnd="id4" dataRefStart="id3" id="p2">1111</pc>’.</source>
+          <target>Let users create simple passwords such as ‘<pc dataRefEnd="id2" dataRefStart="id1" id="p1">1234</pc>’ or ‘<pc dataRefEnd="id4" dataRefStart="id3" id="p2">1111</pc>’.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Windows Phone 8 and later</source>
+          <target>Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Minimum password length</source>
+          <target>Minimum password length</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Specifies the minimum number of digits or characters that the user’s password must contain.</source>
+          <target>Specifies the minimum number of digits or characters that the user’s password must contain.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For devices that run Windows and are secured with a Microsoft Account, the compliance policy will fail to evaluate correctly if <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minimum password length</pc> is greater than 8 characters.</source>
+          <target>For devices that run Windows and are secured with a Microsoft Account, the compliance policy will fail to evaluate correctly if <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minimum password length</pc> is greater than 8 characters.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Windows Phone 8 and later</source>
+          <target>Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target>Samsung KNOX Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Required password type</source>
+          <target>Required password type</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies whether users must create an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Alphanumeric</pc>, or a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Numeric</pc> password.</source>
+          <target>Specifies whether users must create an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Alphanumeric</pc>, or a <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Numeric</pc> password.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Windows Phone 8 and later</source>
+          <target>Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Windows RT and Windows RT 8.1</source>
+          <target>Windows RT and Windows RT 8.1</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Minimum number of character sets</source>
+          <target>Minimum number of character sets</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required password type</pc> is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Alphanumeric</pc>, this setting specifies the minimum number of character sets that the password must contain.</source>
+          <target>If <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required password type</pc> is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Alphanumeric</pc>, this setting specifies the minimum number of character sets that the password must contain.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>The four character sets are lowercase letters, uppercase letters, symbols, and numbers.</source>
+          <target>The four character sets are lowercase letters, uppercase letters, symbols, and numbers.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Setting a higher number for this setting will require users to create more complex passwords.</source>
+          <target>Setting a higher number for this setting will require users to create more complex passwords.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For devices that run Windows and are secured with a Microsoft Account, the compliance policy will fail to evaluate correctly if <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minimum number of character sets</pc> is more than 2.</source>
+          <target>For devices that run Windows and are secured with a Microsoft Account, the compliance policy will fail to evaluate correctly if <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minimum number of character sets</pc> is more than 2.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For iOS devices, this setting refers to the number of special characters (for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">!</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">#</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">&amp;amp;</pc>) that must be included in the password.</source>
+          <target>For iOS devices, this setting refers to the number of special characters (for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">!</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">#</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">&amp;amp;</pc>) that must be included in the password.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Windows Phone 8 and later</source>
+          <target>Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Windows RT and Windows RT 8.1</source>
+          <target>Windows RT and Windows RT 8.1</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Password quality</source>
+          <target>Password quality</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Configures password requirements for Android devices.</source>
+          <target>Configures password requirements for Android devices.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Choose from:</source>
+          <target>Choose from:</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Low security biometric</pc>,</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Low security biometric</pc>,</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required</pc>,</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required</pc>,</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">At least numeric</pc>,</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">At least numeric</pc>,</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">At least alphabetic</pc>,</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">At least alphabetic</pc>,</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">At least alphanumeric</pc>, and</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">At least alphanumeric</pc>, and</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Alphanumeric with symbols</source>
+          <target>Alphanumeric with symbols</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target>Samsung KNOX Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Minutes of inactivity before password is required</source>
+          <target>Minutes of inactivity before password is required</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Specifies the idle time before the user must re-enter their password.</source>
+          <target>Specifies the idle time before the user must re-enter their password.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Windows Phone 8 and later</source>
+          <target>Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Windows RT and Windows RT 8.1</source>
+          <target>Windows RT and Windows RT 8.1</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target>Samsung KNOX Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Password expiration (days)</source>
+          <target>Password expiration (days)</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Select the number of days before the user’s password expires and they must create a new one.</source>
+          <target>Select the number of days before the user’s password expires and they must create a new one.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Windows Phone 8 and later</source>
+          <target>Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Windows RT and Windows RT 8.1</source>
+          <target>Windows RT and Windows RT 8.1</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target>Samsung KNOX Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Remember password history</source>
+          <target>Remember password history</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use this setting in conjunction with <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prevent reuse of previous passwords</pc> to restrict the user from creating previously used passwords.</source>
+          <target>Use this setting in conjunction with <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prevent reuse of previous passwords</pc> to restrict the user from creating previously used passwords.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Windows Phone 8 and later</source>
+          <target>Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Windows RT and Windows RT 8.1</source>
+          <target>Windows RT and Windows RT 8.1</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target>Samsung KNOX Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Prevent reuse of previous passwords</source>
+          <target>Prevent reuse of previous passwords</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remember password history</pc> is selected, specify the number of previously used passwords that cannot be re-used.</source>
+          <target>If <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remember password history</pc> is selected, specify the number of previously used passwords that cannot be re-used.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Windows Phone 8 and later</source>
+          <target>Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Windows RT and Windows RT 8.1</source>
+          <target>Windows RT and Windows RT 8.1</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target>Samsung KNOX Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Require a password when the device returns from an idle state</source>
+          <target>Require a password when the device returns from an idle state</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This setting should be used together with the in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minutes of inactivity before password is required</pc> setting.</source>
+          <target>This setting should be used together with the in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minutes of inactivity before password is required</pc> setting.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The end-users will be prompted to enter a password to access a device that has been inactive for the time specified in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minutes of inactivity before password is required</pc> setting.</source>
+          <target>The end-users will be prompted to enter a password to access a device that has been inactive for the time specified in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Minutes of inactivity before password is required</pc> setting.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>Require encryption on mobile device</source>
+          <target>Require encryption on mobile device</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>Requires the device to be encrypted in order to connect to resources.</source>
+          <target>Requires the device to be encrypted in order to connect to resources.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>Devices that run Windows Phone 8 are automatically encrypted.</source>
+          <target>Devices that run Windows Phone 8 are automatically encrypted.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Devices that run iOS are encrypted when you configure the setting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require a password to unlock mobile devices</pc>.</source>
+          <target>Devices that run iOS are encrypted when you configure the setting <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require a password to unlock mobile devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Windows Phone 8 and later</source>
+          <target>Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target>Samsung KNOX Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>Require devices to be reported as healthy</source>
+          <target>Require devices to be reported as healthy</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>You can set a rule to require that Windows 10 devices must be reported as healthy in new or existing Compliance Policies.</source>
+          <target>You can set a rule to require that Windows 10 devices must be reported as healthy in new or existing Compliance Policies.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>If this setting is enabled, Windows 10 devices will be evaluated via the Health Attestation Service (HAS) for  the following data points:</source>
+          <target>If this setting is enabled, Windows 10 devices will be evaluated via the Health Attestation Service (HAS) for  the following data points:</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>BitLocker is enabled</source>
+          <target>BitLocker is enabled</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>When Bitlocker is on, the device is able to protect data that is stored on the drive from unauthorized access, when the system is turned off or goes to hibernation.</source>
+          <target>When Bitlocker is on, the device is able to protect data that is stored on the drive from unauthorized access, when the system is turned off or goes to hibernation.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Windows BitLocker Drive Encryption encrypts all data stored on the Windows operating system volume.</source>
+          <target>Windows BitLocker Drive Encryption encrypts all data stored on the Windows operating system volume.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>BitLocker uses the TPM to help protect the Windows operating system and user data and helps to ensure that a computer is not tampered with, even if it is left unattended, lost, or stolen.</source>
+          <target>BitLocker uses the TPM to help protect the Windows operating system and user data and helps to ensure that a computer is not tampered with, even if it is left unattended, lost, or stolen.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>If the computer is equipped with a compatible TPM, BitLocker uses the TPM to lock the encryption keys that protect the data.</source>
+          <target>If the computer is equipped with a compatible TPM, BitLocker uses the TPM to lock the encryption keys that protect the data.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>As a result, the keys cannot be accessed until the TPM has verified the state of the computer.</source>
+          <target>As a result, the keys cannot be accessed until the TPM has verified the state of the computer.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>Code integrity is enabled</source>
+          <target>Code integrity is enabled</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>Code integrity is a feature that validates the integrity of a driver or system file each time it is loaded into memory.</source>
+          <target>Code integrity is a feature that validates the integrity of a driver or system file each time it is loaded into memory.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Code integrity detects whether an unsigned driver or system file is being loaded into the kernel, or whether a system file has been modified by malicious software that is being run by a user account with administrator privileges.</source>
+          <target>Code integrity detects whether an unsigned driver or system file is being loaded into the kernel, or whether a system file has been modified by malicious software that is being run by a user account with administrator privileges.</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>Secure boot is enabled</source>
+          <target>Secure boot is enabled</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>When Secure Boot is enabled, the system is forced to boot to a factory trusted state.</source>
+          <target>When Secure Boot is enabled, the system is forced to boot to a factory trusted state.</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>Also, when Secure Boot is enabled, the core components used to boot the machine must have correct cryptographic signatures that are trusted by the organization that manufactured the device.</source>
+          <target>Also, when Secure Boot is enabled, the core components used to boot the machine must have correct cryptographic signatures that are trusted by the organization that manufactured the device.</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>The UEFI firmware verifies this before it lets the machine start.</source>
+          <target>The UEFI firmware verifies this before it lets the machine start.</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>If any files have been tampered with, breaking their signature, the system will not boot.</source>
+          <target>If any files have been tampered with, breaking their signature, the system will not boot.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Early-launch antimalware is enabled</pc> (this setting only applies to PCs.)</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Early-launch antimalware is enabled</pc> (this setting only applies to PCs.)</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>Early launch anti-malware (ELAM) provides protection for the computers in your network when they start up and before third-party drivers initialize.</source>
+          <target>Early launch anti-malware (ELAM) provides protection for the computers in your network when they start up and before third-party drivers initialize.</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>This rule is turned off by default.</source>
+          <target>This rule is turned off by default.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/en-us/library/dn934876.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information on how the HAS service works, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Health Attestation CSP</pc>.</source>
+          <target>For information on how the HAS service works, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Health Attestation CSP</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>Device must not be jailbroken or rooted</source>
+          <target>Device must not be jailbroken or rooted</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>If enabled, jailbroken (iOS), or rooted (Android) devices will not be compliant.</source>
+          <target>If enabled, jailbroken (iOS), or rooted (Android) devices will not be compliant.</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target>Samsung KNOX Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>Email account must be managed by Intune</source>
+          <target>Email account must be managed by Intune</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>When this option is selected, the device will be reported as noncompliant if the user has set up an email account on the device that matches an Intune email profile that was deployed to the device by an IT admin.</source>
+          <target>When this option is selected, the device will be reported as noncompliant if the user has set up an email account on the device that matches an Intune email profile that was deployed to the device by an IT admin.</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>Intune cannot overwrite the user-provisioned profile, and therefore cannot manage it.</source>
+          <target>Intune cannot overwrite the user-provisioned profile, and therefore cannot manage it.</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>To ensure compliance, the user must remove the existing email settings, then, Intune can install the managed email profile.</source>
+          <target>To ensure compliance, the user must remove the existing email settings, then, Intune can install the managed email profile.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For details about email profiles, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure access to corporate email using email profiles with Microsoft Intune</pc>.</source>
+          <target>For details about email profiles, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure access to corporate email using email profiles with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>Select the email profile that must be managed by Intune</source>
+          <target>Select the email profile that must be managed by Intune</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Email account must be managed by Intune</pc> is selected, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Select</pc> to choose the Intune email profile that devices must be managed by.</source>
+          <target>If <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Email account must be managed by Intune</pc> is selected, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Select</pc> to choose the Intune email profile that devices must be managed by.</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>The email profile must be present on the device.</source>
+          <target>The email profile must be present on the device.</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>Require automatic updates</source>
+          <target>Require automatic updates</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to require automatic updates.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to require automatic updates.</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>Windows 8.1 and later</source>
+          <target>Windows 8.1 and later</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>Require automatic updates – Minimum classification of updates to install automatically</source>
+          <target>Require automatic updates – Minimum classification of updates to install automatically</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>Choose the classification of updates that will be installed automatically:</source>
+          <target>Choose the classification of updates that will be installed automatically:</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc> – Installs all updates classified as important.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important</pc> – Installs all updates classified as important.</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recommended</pc> – Installs all updates classified as important or recommended</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recommended</pc> – Installs all updates classified as important or recommended</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>Windows 8.1 and later</source>
+          <target>Windows 8.1 and later</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Minimum OS required (one for each platform)</source>
+          <target>Minimum OS required (one for each platform)</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>When  a device does not meet the minimum OS version requirement, it will be reported as non-compliant.</source>
+          <target>When  a device does not meet the minimum OS version requirement, it will be reported as non-compliant.</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>A link with information on how to upgrade will be displayed.</source>
+          <target>A link with information on how to upgrade will be displayed.</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>The end-user can choose to upgrade their device after which they will be able to access company resources.</source>
+          <target>The end-user can choose to upgrade their device after which they will be able to access company resources.</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>Windows Phone 8 and later</source>
+          <target>Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target>Samsung KNOX Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>Maximum OS version allowed (one for each platform)</source>
+          <target>Maximum OS version allowed (one for each platform)</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>When a device is using an OS version later than the one specified in the rule, access to company resources is blocked and the user is asked to contact their IT admin.</source>
+          <target>When a device is using an OS version later than the one specified in the rule, access to company resources is blocked and the user is asked to contact their IT admin.</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>Until there is a change in rule to allow the OS version, this device cannot be used to access company resources.</source>
+          <target>Until there is a change in rule to allow the OS version, this device cannot be used to access company resources.</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>Windows Phone 8 and later</source>
+          <target>Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>iOS 6 and later</source>
+          <target>iOS 6 and later</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>Samsung KNOX Standard 4.0 and later</source>
+          <target>Samsung KNOX Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</source>
+          <target>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compliance Policies</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace.</source>
+          <target>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compliance Policies</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>Deploy a compliance policy</source>
+          <target>Deploy a compliance policy</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>Deploy the compliance policy to one or more groups of users or devices in your organization.</source>
+          <target>Deploy the compliance policy to one or more groups of users or devices in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to deploy policies, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</source>
+          <target>For more information about how to deploy policies, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the status summary and alerts on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overview</pc> page of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace to identify issues with the policy that require your attention.</source>
+          <target>Use the status summary and alerts on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overview</pc> page of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace to identify issues with the policy that require your attention.</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Additionally, a status summary appears in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace.</source>
+          <target>Additionally, a status summary appears in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>Monitor the compliance policy</source>
+          <target>Monitor the compliance policy</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>To view devices that do not conform to a compliance policy</source>
+          <target>To view devices that do not conform to a compliance policy</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Groups</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Groups</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> tab for any device that is compatible with compliance policies.</source>
+          <target>Open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> tab for any device that is compatible with compliance policies.</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filters</pc> drop-down list, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Does not conform to compliance policy</pc>.</source>
+          <target>From the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filters</pc> drop-down list, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Does not conform to compliance policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>To view the Health Attestation Reports</source>
+          <target>To view the Health Attestation Reports</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reports</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reports</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Health Attestation Report - Create a new report</pc> page, you can view a report with all the Windows 10 health attestation data collected by Intune.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Health Attestation Report - Create a new report</pc> page, you can view a report with all the Windows 10 health attestation data collected by Intune.</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>You can also create a report with a subset of the data using filters.</source>
+          <target>You can also create a report with a subset of the data using filters.</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <segment state="initial">
+          <source>The filters can be based on the type of device, operating system, or only a subset of data points.</source>
+          <target>The filters can be based on the type of device, operating system, or only a subset of data points.</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>How Intune policy conflicts are resolved</source>
+          <target>How Intune policy conflicts are resolved</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>When conflicts occur due to multiple Intune settings being applied to a device, the following rules apply:</source>
+          <target>When conflicts occur due to multiple Intune settings being applied to a device, the following rules apply:</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>If the conflicting settings are from an Intune configuration policy and a compliance policy, the settings in the compliance policy take precedence over the settings in the configuration policy, even if the settings in the configuration policy are more secure.</source>
+          <target>If the conflicting settings are from an Intune configuration policy and a compliance policy, the settings in the compliance policy take precedence over the settings in the configuration policy, even if the settings in the configuration policy are more secure.</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>If you have deployed multiple compliance policies, the most secure of these policies will be used.</source>
+          <target>If you have deployed multiple compliance policies, the most secure of these policies will be used.</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>Next Steps</source>
+          <target>Next Steps</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <segment state="initial">
+          <source>You can now use the compliance policy with conditional access policies to control access to services in your organization.</source>
+          <target>You can now use the compliance policy with conditional access policies to control access to services in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>Manage access to email and SharePoint with Microsoft Intune</source>
+          <target>Manage access to email and SharePoint with Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,509 @@
+{
+  "nodes": [
+    {
+      "content": "Control Microsoft Passport settings on devices with Microsoft Intune",
+      "pos": [
+        11,
+        79
+      ]
+    },
+    {
+      "content": "Control Microsoft Passport settings on devices with Microsoft Intune",
+      "pos": [
+        460,
+        528
+      ]
+    },
+    {
+      "pos": [
+        529,
+        796
+      ],
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> lets you integrate with Microsoft Passport for Work which is an alternative sign-in method that uses Active Directory, or an Azure Active Directory account to replace a password, smart card, or virtual smart card."
+    },
+    {
+      "content": "Passport lets you use a <bpt id=\"p1\">**</bpt>user gesture<ept id=\"p1\">**</ept> to login, instead of a password.",
+      "pos": [
+        798,
+        871
+      ]
+    },
+    {
+      "content": "A user gesture might be a simple PIN, biometric authentication such as Windows Hello, or an external device such as a fingerprint reader.",
+      "pos": [
+        872,
+        1009
+      ]
+    },
+    {
+      "pos": [
+        1011,
+        1109
+      ],
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> integrates with Passport for Work in two ways:"
+    },
+    {
+      "pos": [
+        1115,
+        1245
+      ],
+      "content": "You can use <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> policy to control which gestures users can and cannot use to login"
+    },
+    {
+      "content": "You can store authentication certificates in the Passport for Work key storage provider (KSP).",
+      "pos": [
+        1251,
+        1345
+      ]
+    },
+    {
+      "content": "For more information, see <bpt id=\"p1\">[</bpt>Enable access to company resources using certificate profiles with Microsoft Intune<ept id=\"p1\">](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        1346,
+        1555
+      ]
+    },
+    {
+      "content": "To create a Passport for Work policy",
+      "pos": [
+        1560,
+        1596
+      ]
+    },
+    {
+      "pos": [
+        1602,
+        1776
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com)</ept>, click <bpt id=\"p2\">**</bpt>Admin<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Mobile Device Management<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Windows<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>Passport for Work<ept id=\"p5\">**</ept>."
+    },
+    {
+      "content": "Choose from the following values that will affect all enrolled Windows 10 and Windows 10 Mobile devices:",
+      "pos": [
+        1782,
+        1886
+      ]
+    },
+    {
+      "content": "Setting",
+      "pos": [
+        1893,
+        1900
+      ]
+    },
+    {
+      "content": "Description",
+      "pos": [
+        1901,
+        1912
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Disable Passport for Work on enrolled devices<ept id=\"p1\">**</ept>",
+      "pos": [
+        1953,
+        2006
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Enable Passport for Work on enrolled devices<ept id=\"p1\">**</ept>",
+      "pos": [
+        2012,
+        2064
+      ]
+    },
+    {
+      "content": "Enables or disables the use of Passport for work on all enrolled Windows 10 and Windows 10 mobile devices.",
+      "pos": [
+        2065,
+        2171
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Important:<ept id=\"p1\">**</ept> This policy is enabled by default and applied to all Windows 10 devices when they enroll.",
+      "pos": [
+        2172,
+        2276
+      ]
+    },
+    {
+      "content": "Use a Trusted Platform Module (TPM)",
+      "pos": [
+        2285,
+        2320
+      ]
+    },
+    {
+      "content": "A Trusted Platform Module (TPM) chip provides an additional layer of data security.",
+      "pos": [
+        2323,
+        2406
+      ]
+    },
+    {
+      "content": "Choose one of the following values:",
+      "pos": [
+        2418,
+        2453
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Required<ept id=\"p1\">**</ept> (default) - Only devices with an accessible TPM can provision Passport for Work.",
+      "pos": [
+        2465,
+        2562
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Preferred<ept id=\"p1\">**</ept> - Devices first attempt to use a TPM.",
+      "pos": [
+        2568,
+        2623
+      ]
+    },
+    {
+      "content": "If this is not available, they can use software encryption",
+      "pos": [
+        2624,
+        2682
+      ]
+    },
+    {
+      "content": "Require minimum PIN length",
+      "pos": [
+        2691,
+        2717
+      ]
+    },
+    {
+      "content": "Specify the minimum number of characters required for the Passport for Work PIN.",
+      "pos": [
+        2720,
+        2800
+      ]
+    },
+    {
+      "content": "You must use at least 4 characters (the default value is 6 characters).",
+      "pos": [
+        2801,
+        2872
+      ]
+    },
+    {
+      "content": "​",
+      "pos": [
+        2873,
+        2874
+      ]
+    },
+    {
+      "content": "Require maximum PIN length",
+      "pos": [
+        2883,
+        2909
+      ]
+    },
+    {
+      "content": "Specify the maximum number of characters allowed for the Passport for Work PIN.",
+      "pos": [
+        2912,
+        2991
+      ]
+    },
+    {
+      "content": "You can use up to 127 characters.",
+      "pos": [
+        2992,
+        3025
+      ]
+    },
+    {
+      "content": "Require lowercase letters in PIN",
+      "pos": [
+        3034,
+        3066
+      ]
+    },
+    {
+      "content": "Specifies whether lowercase letters must be used  in the Passport for Work PIN.",
+      "pos": [
+        3069,
+        3148
+      ]
+    },
+    {
+      "content": "Choose from:",
+      "pos": [
+        3149,
+        3161
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Allowed<ept id=\"p1\">**</ept> - Users can use lowercase characters in their PIN.",
+      "pos": [
+        3173,
+        3239
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Required<ept id=\"p1\">**</ept> - Users must include at least one lowercase character in their PIN.",
+      "pos": [
+        3245,
+        3329
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Not allowed<ept id=\"p1\">**</ept> (default) - Users must not use lowercase characters in their PIN.",
+      "pos": [
+        3335,
+        3420
+      ]
+    },
+    {
+      "content": "Require uppercase letters in PIN",
+      "pos": [
+        3429,
+        3461
+      ]
+    },
+    {
+      "content": "Specifies whether uppercase letters must be used  in the Passport for Work PIN.",
+      "pos": [
+        3464,
+        3543
+      ]
+    },
+    {
+      "content": "Choose from:",
+      "pos": [
+        3544,
+        3556
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Allowed<ept id=\"p1\">**</ept> - Users can use uppercase characters in their PIN.",
+      "pos": [
+        3568,
+        3634
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Required<ept id=\"p1\">**</ept> - Users must include at least one uppercase character in their PIN.",
+      "pos": [
+        3640,
+        3724
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Not allowed<ept id=\"p1\">**</ept> (default) - Users must not use uppercase characters in their PIN.",
+      "pos": [
+        3730,
+        3815
+      ]
+    },
+    {
+      "content": "Require special characters in PIN",
+      "pos": [
+        3824,
+        3857
+      ]
+    },
+    {
+      "content": "Specifies the use of special characters in the PIN.",
+      "pos": [
+        3860,
+        3911
+      ]
+    },
+    {
+      "content": "Choose from:",
+      "pos": [
+        3912,
+        3924
+      ]
+    },
+    {
+      "content": "Special characters include: <bpt id=\"p1\">**</bpt>! \" # $ % &amp;amp; ' ( ) &amp;#42; + , - . / : ; &amp;lt; = &amp;gt; ? @ [ \\ ] ^ _ &amp;#96; { &amp;#124; } ~<ept id=\"p1\">**</ept>.",
+      "pos": [
+        3936,
+        4055
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Allowed<ept id=\"p1\">**</ept> - Users can use special characters in their PIN.",
+      "pos": [
+        4067,
+        4131
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Required<ept id=\"p1\">**</ept> - Users must include at least one special character in their PIN.",
+      "pos": [
+        4137,
+        4219
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Not allowed<ept id=\"p1\">**</ept> (default) - Users must not use special characters in their PIN (this is also the behavior if the setting is not configured).",
+      "pos": [
+        4225,
+        4369
+      ]
+    },
+    {
+      "content": "PIN expiration (days)",
+      "pos": [
+        4378,
+        4399
+      ]
+    },
+    {
+      "content": "Specifies the number of days before the device PIN must be changed.",
+      "pos": [
+        4402,
+        4469
+      ]
+    },
+    {
+      "content": "The default is 41 days.",
+      "pos": [
+        4470,
+        4493
+      ]
+    },
+    {
+      "content": "Remember PIN history",
+      "pos": [
+        4502,
+        4522
+      ]
+    },
+    {
+      "content": "Use this setting to restrict the re-use of previously used PINS.",
+      "pos": [
+        4525,
+        4589
+      ]
+    },
+    {
+      "content": "The default is the last 5 PINS used cannot be reused.",
+      "pos": [
+        4590,
+        4643
+      ]
+    },
+    {
+      "content": "Allow biometric authentication",
+      "pos": [
+        4652,
+        4682
+      ]
+    },
+    {
+      "content": "Enables biometric authentication such as facial recognition or fingerprint as an alternative to a PIN for Passport for Work.",
+      "pos": [
+        4685,
+        4809
+      ]
+    },
+    {
+      "content": "Users must still configure a work PIN in case biometric authentication fails.",
+      "pos": [
+        4810,
+        4887
+      ]
+    },
+    {
+      "content": "If set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>, Passport for Work allows biometric authentication.",
+      "pos": [
+        4899,
+        4968
+      ]
+    },
+    {
+      "content": "If set to <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>, Passport for Work prevents biometric authentication (for all account types).",
+      "pos": [
+        4970,
+        5064
+      ]
+    },
+    {
+      "content": "Use enhanced anti-spoofing, when available",
+      "pos": [
+        5073,
+        5115
+      ]
+    },
+    {
+      "content": "Configures whether enhanced anti-spoofing is used on devices that support it.",
+      "pos": [
+        5118,
+        5195
+      ]
+    },
+    {
+      "content": "If set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>, Windows requires all users to use anti-spoofing for facial features when supported.",
+      "pos": [
+        5207,
+        5309
+      ]
+    },
+    {
+      "content": "Use Remote Passport",
+      "pos": [
+        5318,
+        5337
+      ]
+    },
+    {
+      "content": "If this option is set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>, users can use a remote passport to serve as a portable companion device for desktop computer authentication.",
+      "pos": [
+        5340,
+        5482
+      ]
+    },
+    {
+      "content": "The desktop computer must be Azure Active Directory joined, and the companion device must be configured with a Passport for Work PIN.",
+      "pos": [
+        5483,
+        5616
+      ]
+    },
+    {
+      "pos": [
+        5623,
+        5661
+      ],
+      "content": "When you are finished, click <bpt id=\"p1\">**</bpt>Save<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "Further information",
+      "pos": [
+        5666,
+        5685
+      ]
+    },
+    {
+      "pos": [
+        5686,
+        5858
+      ],
+      "content": "For more information about Microsoft Passport, see <bpt id=\"p1\">[</bpt>Microsoft Passport guide<ept id=\"p1\">](https://technet.microsoft.com/library/mt589441(v=vs.85).aspx)</ept> in the Windows 10 documentation."
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        5863,
+        5871
+      ]
+    },
+    {
+      "content": "Protect data and devices with Microsoft Intune",
+      "pos": [
+        5873,
+        5919
+      ]
+    }
+  ],
+  "content": "---\ntitle: Control Microsoft Passport settings on devices with Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 402bc5a1-ada3-4c4c-a0de-292d026b4444\nauthor: robstackmsft\ntranslation.priority.ht: \n  - cs-cz\n  - de-de\n  - es-es\n  - fr-fr\n  - hu-hu\n  - it-it\n  - ja-jp\n  - ko-kr\n  - nl-nl\n  - pl-pl\n  - pt-br\n  - pt-pt\n  - ru-ru\n  - sv-se\n  - tr-tr\n  - zh-cn\n  - zh-tw\n---\n# Control Microsoft Passport settings on devices with Microsoft Intune\n[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] lets you integrate with Microsoft Passport for Work which is an alternative sign-in method that uses Active Directory, or an Azure Active Directory account to replace a password, smart card, or virtual smart card.\n\nPassport lets you use a **user gesture** to login, instead of a password. A user gesture might be a simple PIN, biometric authentication such as Windows Hello, or an external device such as a fingerprint reader.\n\n[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] integrates with Passport for Work in two ways:\n\n-   You can use [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] policy to control which gestures users can and cannot use to login\n\n-   You can store authentication certificates in the Passport for Work key storage provider (KSP). For more information, see [Enable access to company resources using certificate profiles with Microsoft Intune](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md).\n\n## To create a Passport for Work policy\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com), click **Admin** &gt; **Mobile Device Management** &gt; **Windows** &gt; **Passport for Work**.\n\n2.  Choose from the following values that will affect all enrolled Windows 10 and Windows 10 Mobile devices:\n\n    |Setting|Description|\n    |-----------|---------------|\n    |-   **Disable Passport for Work on enrolled devices**<br />-   **Enable Passport for Work on enrolled devices**|Enables or disables the use of Passport for work on all enrolled Windows 10 and Windows 10 mobile devices. **Important:** This policy is enabled by default and applied to all Windows 10 devices when they enroll.|\n    |**Use a Trusted Platform Module (TPM)**|A Trusted Platform Module (TPM) chip provides an additional layer of data security.<br /><br />Choose one of the following values:<br /><br />-   **Required** (default) - Only devices with an accessible TPM can provision Passport for Work.<br />-   **Preferred** - Devices first attempt to use a TPM. If this is not available, they can use software encryption|\n    |**Require minimum PIN length**|Specify the minimum number of characters required for the Passport for Work PIN. You must use at least 4 characters (the default value is 6 characters). ​|\n    |**Require maximum PIN length**|Specify the maximum number of characters allowed for the Passport for Work PIN. You can use up to 127 characters.|\n    |**Require lowercase letters in PIN**|Specifies whether lowercase letters must be used  in the Passport for Work PIN. Choose from:<br /><br />-   **Allowed** - Users can use lowercase characters in their PIN.<br />-   **Required** - Users must include at least one lowercase character in their PIN.<br />-   **Not allowed** (default) - Users must not use lowercase characters in their PIN.|\n    |**Require uppercase letters in PIN**|Specifies whether uppercase letters must be used  in the Passport for Work PIN. Choose from:<br /><br />-   **Allowed** - Users can use uppercase characters in their PIN.<br />-   **Required** - Users must include at least one uppercase character in their PIN.<br />-   **Not allowed** (default) - Users must not use uppercase characters in their PIN.|\n    |**Require special characters in PIN**|Specifies the use of special characters in the PIN. Choose from:<br /><br />Special characters include: **! \" # $ % &amp; ' ( ) &#42; + , - . / : ; &lt; = &gt; ? @ [ \\ ] ^ _ &#96; { &#124; } ~**.<br /><br />-   **Allowed** - Users can use special characters in their PIN.<br />-   **Required** - Users must include at least one special character in their PIN.<br />-   **Not allowed** (default) - Users must not use special characters in their PIN (this is also the behavior if the setting is not configured).|\n    |**PIN expiration (days)**|Specifies the number of days before the device PIN must be changed. The default is 41 days.|\n    |**Remember PIN history**|Use this setting to restrict the re-use of previously used PINS. The default is the last 5 PINS used cannot be reused.|\n    |**Allow biometric authentication**|Enables biometric authentication such as facial recognition or fingerprint as an alternative to a PIN for Passport for Work. Users must still configure a work PIN in case biometric authentication fails.<br /><br />If set to **Yes**, Passport for Work allows biometric authentication.  If set to **No**, Passport for Work prevents biometric authentication (for all account types).|\n    |**Use enhanced anti-spoofing, when available**|Configures whether enhanced anti-spoofing is used on devices that support it.<br /><br />If set to **Yes**, Windows requires all users to use anti-spoofing for facial features when supported.|\n    |**Use Remote Passport**|If this option is set to **Yes**, users can use a remote passport to serve as a portable companion device for desktop computer authentication. The desktop computer must be Azure Active Directory joined, and the companion device must be configured with a Passport for Work PIN.|\n\n3.  When you are finished, click **Save**.\n\n## Further information\nFor more information about Microsoft Passport, see [Microsoft Passport guide](https://technet.microsoft.com/library/mt589441(v=vs.85).aspx) in the Windows 10 documentation.\n\n## See Also\n[Protect data and devices with Microsoft Intune](../Topic/Protect-data-and-devices-with-Microsoft-Intune.md)\n\n"
+}

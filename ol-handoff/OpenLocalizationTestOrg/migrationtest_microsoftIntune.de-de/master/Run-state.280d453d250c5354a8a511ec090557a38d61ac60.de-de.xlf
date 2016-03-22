@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">454cf2f47049ff3483b693f86ca6238f5b035e76</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Run state</source>
+          <target>Run state</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Run state</source>
+          <target>Run state</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Now that your <ph dataRef="id1" id="ph1" /> system is operational, and you depend on it for business-critical functions and for secure device usage, maintain a robust system.</source>
+          <target>Now that your <ph dataRef="id1" id="ph1" /> system is operational, and you depend on it for business-critical functions and for secure device usage, maintain a robust system.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Why is this important?</source>
+          <target>Why is this important?</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> provides a dashboard that enables you to monitor the health of your managed devices, including Endpoint Protection status and warnings.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> provides a dashboard that enables you to monitor the health of your managed devices, including Endpoint Protection status and warnings.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You should have organizational practices in place to react to <ph dataRef="id1" id="ph1" /> alerts.</source>
+          <target>You should have organizational practices in place to react to <ph dataRef="id1" id="ph1" /> alerts.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> is frequently updated with new features and functionality.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> is frequently updated with new features and functionality.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>It's important that the you pay close attention to notices regarding these changes.</source>
+          <target>It's important that the you pay close attention to notices regarding these changes.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Communicating and training for updates, establishing a plan for new hires and ensuring your help desk has the most current troubleshooting resources are all key to maximizing the rewards of your investment.</source>
+          <target>Communicating and training for updates, establishing a plan for new hires and ensuring your help desk has the most current troubleshooting resources are all key to maximizing the rewards of your investment.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Begin by reviewing the discovery questions to help scope and define your ongoing operational plan.</source>
+          <target>Begin by reviewing the discovery questions to help scope and define your ongoing operational plan.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Discovery questions</source>
+          <target>Discovery questions</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Discuss these questions with your project team to help scope your project details, uncover potential risks, and define actionable tasks which can be documented in the  Rollout Planning Guide and Project Plan.</source>
+          <target>Discuss these questions with your project team to help scope your project details, uncover potential risks, and define actionable tasks which can be documented in the  Rollout Planning Guide and Project Plan.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Who makes up your  run-state team?</source>
+          <target>Who makes up your  run-state team?</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>How will you report to key stakeholders?</source>
+          <target>How will you report to key stakeholders?</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Who will be responsible for update awareness?</source>
+          <target>Who will be responsible for update awareness?</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Focus area goals</source>
+          <target>Focus area goals</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Review this section for guidance on focus-area activities for this stated phase of your rollout.</source>
+          <target>Review this section for guidance on focus-area activities for this stated phase of your rollout.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Planning</source>
+          <target>Planning</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Ensure your rollout is set up for long-term success and sustained adoption.</source>
+          <target>Ensure your rollout is set up for long-term success and sustained adoption.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Help desk</source>
+          <target>Help desk</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>During the run-state phase, inform your help desk of service updates, or  when issues arise, to ensure they are prepared to address questions from end-users.</source>
+          <target>During the run-state phase, inform your help desk of service updates, or  when issues arise, to ensure they are prepared to address questions from end-users.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Stay familiar with Microsoft content and community resources to be able to solve issues as they arise.</source>
+          <target>Stay familiar with Microsoft content and community resources to be able to solve issues as they arise.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Awareness</source>
+          <target>Awareness</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Awareness does not stop once your rollout is complete.</source>
+          <target>Awareness does not stop once your rollout is complete.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>If a service update or changes to an operating system will affect the user experience, communicate that effect to the users promptly.</source>
+          <target>If a service update or changes to an operating system will affect the user experience, communicate that effect to the users promptly.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>New users will have to be educated about the corporate device management approach.</source>
+          <target>New users will have to be educated about the corporate device management approach.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Training</source>
+          <target>Training</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>As new features are enabled ensure your training materials are updated.</source>
+          <target>As new features are enabled ensure your training materials are updated.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Operations</source>
+          <target>Operations</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Monitor your <ph dataRef="id1" id="ph1" /> console for alerts and user or device issues, and to ensure that polices and application distribution are performing according to your organizational plan.</source>
+          <target>Monitor your <ph dataRef="id1" id="ph1" /> console for alerts and user or device issues, and to ensure that polices and application distribution are performing according to your organizational plan.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Get started checklist</source>
+          <target>Get started checklist</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Here is a list of steps to get you started with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run state</pc> phase.</source>
+          <target>Here is a list of steps to get you started with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run state</pc> phase.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Ensure that your monitoring procedures are in place.</source>
+          <target>Ensure that your monitoring procedures are in place.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Be prepared to react to important alerts.</source>
+          <target>Be prepared to react to important alerts.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>All admins are aware of feature and functionality updates</source>
+          <target>All admins are aware of feature and functionality updates</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Help desk is aware of changes to wit_nextref, including changes related to the functionality of devices of varying operating systems.</source>
+          <target>Help desk is aware of changes to wit_nextref, including changes related to the functionality of devices of varying operating systems.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Common challenges</source>
+          <target>Common challenges</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Here are some  challenges that you may encounter in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run state</pc> phase.</source>
+          <target>Here are some  challenges that you may encounter in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run state</pc> phase.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Admins know that their environment needs to be monitored regularly.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Admins know that their environment needs to be monitored regularly.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, they are not experienced with the <ph dataRef="id1" id="ph1" /> consoles.</source>
+          <target>However, they are not experienced with the <ph dataRef="id1" id="ph1" /> consoles.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> Invest in quality training.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> Invest in quality training.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Admins should become intimately familiar with the <ph dataRef="id1" id="ph1" /> consoles, so that they will be able to update policies, dstribute software, and diagnose and troubleshoot issues with higher confidence.</source>
+          <target>Admins should become intimately familiar with the <ph dataRef="id1" id="ph1" /> consoles, so that they will be able to update policies, dstribute software, and diagnose and troubleshoot issues with higher confidence.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Users encounter issues with enrollment and with app installation.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Users encounter issues with enrollment and with app installation.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> Prepare your help desk with troubleshooting content that can enable quick resolution of common problems.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> Prepare your help desk with troubleshooting content that can enable quick resolution of common problems.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

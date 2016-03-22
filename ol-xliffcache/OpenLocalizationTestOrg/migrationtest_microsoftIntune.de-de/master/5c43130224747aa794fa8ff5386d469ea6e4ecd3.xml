@@ -1,0 +1,826 @@
+{
+  "nodes": [
+    {
+      "content": "Use conditional access with Intune",
+      "pos": [
+        11,
+        45
+      ]
+    },
+    {
+      "content": "Use conditional access with Intune",
+      "pos": [
+        405,
+        439
+      ]
+    },
+    {
+      "content": "This solution lets you use conditional access in Intune to help secure email and other services depending on conditions you specify.",
+      "pos": [
+        441,
+        573
+      ]
+    },
+    {
+      "pos": [
+        575,
+        811
+      ],
+      "content": "See <bpt id=\"p1\">[</bpt>Manage access to email and SharePoint with Microsoft Intune<ept id=\"p1\">](Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md)</ept> for more information, including a video, about how you can use the conditional access feature with Intune."
+    },
+    {
+      "content": "Prerequisites",
+      "pos": [
+        817,
+        830
+      ]
+    },
+    {
+      "content": "You can control access to Exchange Online and Exchange on-premises from the following mail apps:",
+      "pos": [
+        831,
+        927
+      ]
+    },
+    {
+      "content": "The built-in app for Android 4.0 and later, Samsung Knox 4.0 Standard and later",
+      "pos": [
+        933,
+        1012
+      ]
+    },
+    {
+      "content": "The built-in app for iOS 7.1 and later",
+      "pos": [
+        1018,
+        1056
+      ]
+    },
+    {
+      "content": "The built-in app for Windows Phone 8.1 and later",
+      "pos": [
+        1062,
+        1110
+      ]
+    },
+    {
+      "content": "The mail application on Windows 8.1 and later",
+      "pos": [
+        1116,
+        1161
+      ]
+    },
+    {
+      "content": "The Microsoft Outlook app for Android and iOS (for Exchange Online only)",
+      "pos": [
+        1167,
+        1239
+      ]
+    },
+    {
+      "content": "Before you start using conditional access, ensure that you have the correct requirements in place:",
+      "pos": [
+        1241,
+        1339
+      ]
+    },
+    {
+      "content": "For Exchange Server on-premises",
+      "pos": [
+        1346,
+        1377
+      ]
+    },
+    {
+      "content": "Conditional access to Exchange on-premises supports:",
+      "pos": [
+        1378,
+        1430
+      ]
+    },
+    {
+      "content": "Windows 8 and later (when enrolled with Intune)",
+      "pos": [
+        1436,
+        1483
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and later",
+      "pos": [
+        1489,
+        1514
+      ]
+    },
+    {
+      "content": "Any iOS device that uses an Exchange ActiveSync (EAS) email client",
+      "pos": [
+        1520,
+        1586
+      ]
+    },
+    {
+      "content": "Android 4 and later",
+      "pos": [
+        1592,
+        1611
+      ]
+    },
+    {
+      "content": "Additionally:",
+      "pos": [
+        1613,
+        1626
+      ]
+    },
+    {
+      "content": "Your Exchange version must be Exchange 2010 or later.",
+      "pos": [
+        1632,
+        1685
+      ]
+    },
+    {
+      "content": "Exchange server Client Access Server (CAS) configuration is supported.",
+      "pos": [
+        1686,
+        1756
+      ]
+    },
+    {
+      "pos": [
+        1764,
+        1938
+      ],
+      "content": "[!TIP]\nIf your Exchange environment is in a CAS server configuration, then you must configure the on-premises Exchange connector to point to any one of the CAS servers.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "If your Exchange environment is in a CAS server configuration, then you must configure the on-premises Exchange connector to point to any one of the CAS servers.",
+          "pos": [
+            7,
+            168
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Exchange ActiveSync can be configured with certificate based authentication, or user credential entry.",
+      "pos": [
+        1944,
+        2046
+      ]
+    },
+    {
+      "content": "You must use the <bpt id=\"p1\">**</bpt>on-premises Exchange connector<ept id=\"p1\">**</ept> which connects Intune to Microsoft Exchange Server on-premises.",
+      "pos": [
+        2052,
+        2167
+      ]
+    },
+    {
+      "content": "This lets you manage devices through the Intune console (see <bpt id=\"p1\">[</bpt>Mobile device management with Exchange ActiveSync and Microsoft Intune<ept id=\"p1\">](Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md)</ept>).",
+      "pos": [
+        2168,
+        2378
+      ]
+    },
+    {
+      "pos": [
+        2382,
+        2765
+      ],
+      "content": "[!IMPORTANT]\nMake sure that you are using the latest version of the on-premises Exchange connector. The on-premise Exchange connector available to you in the Intune console is specific to your Intune tenant and cannot be used with any other tenant. You should also ensure that the exchange connector for your tenant is installed on exactly one machine and not on multiple machines.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "Make sure that you are using the latest version of the on-premises Exchange connector. The on-premise Exchange connector available to you in the Intune console is specific to your Intune tenant and cannot be used with any other tenant. You should also ensure that the exchange connector for your tenant is installed on exactly one machine and not on multiple machines.",
+          "pos": [
+            13,
+            381
+          ],
+          "nodes": [
+            {
+              "content": "Make sure that you are using the latest version of the on-premises Exchange connector.",
+              "pos": [
+                0,
+                86
+              ]
+            },
+            {
+              "content": "The on-premise Exchange connector available to you in the Intune console is specific to your Intune tenant and cannot be used with any other tenant.",
+              "pos": [
+                87,
+                235
+              ]
+            },
+            {
+              "content": "You should also ensure that the exchange connector for your tenant is installed on exactly one machine and not on multiple machines.",
+              "pos": [
+                236,
+                368
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "For Exchange Online",
+      "pos": [
+        2771,
+        2790
+      ]
+    },
+    {
+      "content": "Conditional access to Exchange Online supports devices that run:",
+      "pos": [
+        2791,
+        2855
+      ]
+    },
+    {
+      "content": "Windows 8.1 and later (when enrolled with Intune)",
+      "pos": [
+        2861,
+        2910
+      ]
+    },
+    {
+      "content": "Windows 7.0 or later (when domain joined)",
+      "pos": [
+        2916,
+        2957
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 and later",
+      "pos": [
+        2963,
+        2990
+      ]
+    },
+    {
+      "content": "iOS 7.1 and later",
+      "pos": [
+        2996,
+        3013
+      ]
+    },
+    {
+      "content": "Android 4.0 and later, Samsung Knox Standard 4.0 and later",
+      "pos": [
+        3019,
+        3077
+      ]
+    },
+    {
+      "content": "Additionally, devices must be registered with the Azure Active Directory Device Registration Service (AAD DRS).",
+      "pos": [
+        3079,
+        3190
+      ]
+    },
+    {
+      "content": "AAD DRS will be activated automatically for Intune and Office 365 customers.",
+      "pos": [
+        3192,
+        3268
+      ]
+    },
+    {
+      "content": "Customers who have already deployed the ADFS Device Registration Service will not see registered devices in their on-premises Active Directory.",
+      "pos": [
+        3269,
+        3412
+      ]
+    },
+    {
+      "content": "You must use an Office 365 subscription that includes Exchange Online (such as E3) and users must be licensed for Exchange Online.",
+      "pos": [
+        3418,
+        3548
+      ]
+    },
+    {
+      "content": "The optional <bpt id=\"p1\">**</bpt>Microsoft Intune service to service connector<ept id=\"p1\">**</ept> connects Intune to Microsoft Exchange Online and helps you manage device information through the Intune console (see <bpt id=\"p2\">[</bpt>Mobile device management with Exchange ActiveSync and Microsoft Intune<ept id=\"p2\">](Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md)</ept>).",
+      "pos": [
+        3554,
+        3883
+      ]
+    },
+    {
+      "content": "You do not need to use the connector to use compliance policies or conditional access policies, but is required to run reports that help evaluate the impact of conditional access.",
+      "pos": [
+        3884,
+        4063
+      ]
+    },
+    {
+      "content": "If you configure the connector, some Exchange ActiveSync policies from Intune might be visible in the Office console but are not set as default policies and do not affect devices.",
+      "pos": [
+        4069,
+        4248
+      ]
+    },
+    {
+      "pos": [
+        4256,
+        4415
+      ],
+      "content": "[!IMPORTANT]\nDo not configure the service to service connector if you intend to use conditional access for both Exchange Online and Exchange on-premises.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "Do not configure the service to service connector if you intend to use conditional access for both Exchange Online and Exchange on-premises.",
+          "pos": [
+            13,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Deployment Steps for using Exchange on-premises with Intune",
+      "pos": [
+        4420,
+        4479
+      ]
+    },
+    {
+      "content": "For Intune to directly manage mobile devices, users need to enroll devices into Intune.",
+      "pos": [
+        4481,
+        4568
+      ]
+    },
+    {
+      "content": "Follow these steps to deploy the Exchange on-premises with Intune solution:",
+      "pos": [
+        4569,
+        4644
+      ]
+    },
+    {
+      "content": "Step 1: Install and configure the Microsoft Intune on-premises Exchange Server connector.",
+      "pos": [
+        4650,
+        4739
+      ]
+    },
+    {
+      "content": "For mobile devices that users have not enrolled you can enable Exchange ActiveSync management using the Exchange connector.",
+      "pos": [
+        4741,
+        4864
+      ]
+    },
+    {
+      "content": "The Exchange connector connects you with your Exchange deployment and lets you manage mobile devices through the Intune console.",
+      "pos": [
+        4865,
+        4993
+      ]
+    },
+    {
+      "pos": [
+        4995,
+        5262
+      ],
+      "content": "Follow the steps at <bpt id=\"p1\">[</bpt>Configure Microsoft Intune on-premises connector for on-premises or hosted Exchange<ept id=\"p1\">](Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md#bkmk_EX_OP)</ept> to download, install and configure the Microsoft Intune Exchange Connector."
+    },
+    {
+      "pos": [
+        5266,
+        5447
+      ],
+      "content": "[!NOTE]\nYou can only set up one Exchange connection per Intune account. If you try to configure an additional connection, it will replace the original connection with the new one.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "You can only set up one Exchange connection per Intune account. If you try to configure an additional connection, it will replace the original connection with the new one.",
+          "pos": [
+            8,
+            179
+          ],
+          "nodes": [
+            {
+              "content": "You can only set up one Exchange connection per Intune account.",
+              "pos": [
+                0,
+                63
+              ]
+            },
+            {
+              "content": "If you try to configure an additional connection, it will replace the original connection with the new one.",
+              "pos": [
+                64,
+                171
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Step 2: Create compliance policies and deploy to users.",
+      "pos": [
+        5453,
+        5508
+      ]
+    },
+    {
+      "content": "Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices.",
+      "pos": [
+        5509,
+        5656
+      ]
+    },
+    {
+      "content": "Follow the steps at <bpt id=\"p1\">[</bpt>Create a compliance policy<ept id=\"p1\">](Manage-device-compliance-policies-for-Microsoft-Intune.md#BKMK_Compliance)</ept> to create and deploy compliance policies.",
+      "pos": [
+        5657,
+        5822
+      ]
+    },
+    {
+      "pos": [
+        5825,
+        6240
+      ],
+      "content": "[!NOTE]\nIf you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.\n![](../Image/HybridOnpremExchSrvrWizard6.PNG)",
+      "leadings": [
+        "",
+        "> ",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.",
+          "pos": [
+            8,
+            365
+          ],
+          "nodes": [
+            {
+              "content": "If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune.",
+              "pos": [
+                0,
+                253
+              ]
+            },
+            {
+              "content": "You must deploy the email profile to the same set of users that you target with this compliance policy.",
+              "pos": [
+                254,
+                357
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        6246,
+        6540
+      ],
+      "content": "If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in <bpt id=\"p1\">[</bpt>End-user experience of conditional access<ept id=\"p1\">](../Topic/End-user-experience-of-conditional-access.md)</ept>."
+    },
+    {
+      "pos": [
+        6544,
+        6703
+      ],
+      "content": "[!IMPORTANT]\nIf you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.",
+          "pos": [
+            13,
+            157
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Step 3: Identify users who will be impacted by conditional access policy.",
+      "pos": [
+        6709,
+        6782
+      ]
+    },
+    {
+      "content": "After the Exchange Server connector is successfully configured, it begins to inventory devices that are not yet enrolled to Intune, but are connecting to your organization’s Exchange resources using Exchange Active Sync.",
+      "pos": [
+        6783,
+        7003
+      ]
+    },
+    {
+      "pos": [
+        7007,
+        7226
+      ],
+      "content": "Follow the instructions at <bpt id=\"p1\">[</bpt>Evaluate the effect of the conditional access policy<ept id=\"p1\">](Manage-email-access-with-Microsoft-Intune.md#bkmk_Eval_FX_CAP)</ept> to identify those users who will be impacted by conditional access policy."
+    },
+    {
+      "content": "Step 4: Configure user groups for the conditional access policy.",
+      "pos": [
+        7233,
+        7297
+      ]
+    },
+    {
+      "content": "You target conditional access policies to different groups of users depending on the policy types.",
+      "pos": [
+        7298,
+        7396
+      ]
+    },
+    {
+      "content": "These groups contain the users that will be targeted, or exempt from the policy.",
+      "pos": [
+        7397,
+        7477
+      ]
+    },
+    {
+      "content": "When a user is targeted by a policy, each device they use must be compliant in order to access email.",
+      "pos": [
+        7478,
+        7579
+      ]
+    },
+    {
+      "pos": [
+        7581,
+        7733
+      ],
+      "content": "For more information, see <bpt id=\"p1\">[</bpt>Configure user groups for the conditional access policy<ept id=\"p1\">](Manage-email-access-with-Microsoft-Intune.md#BKMK_configUserGroups)</ept>."
+    },
+    {
+      "content": "Step 5: Configure conditional access policy.",
+      "pos": [
+        7739,
+        7783
+      ]
+    },
+    {
+      "content": "The following flow is used by conditional access policies for an Exchange on-premises environment to evaluate whether to allow or block devices.",
+      "pos": [
+        7784,
+        7928
+      ]
+    },
+    {
+      "pos": [
+        7970,
+        8162
+      ],
+      "content": "Follow the information provided under <bpt id=\"p1\">[</bpt>To enable the Exchange On-premises policy<ept id=\"p1\">](Manage-email-access-with-Microsoft-Intune.md#BKMK_enableXchngOnprem)</ept> to set up your conditional access policy."
+    },
+    {
+      "content": "Deployment Steps for using Exchange Online with Intune",
+      "pos": [
+        8167,
+        8221
+      ]
+    },
+    {
+      "content": "Step 1: Create compliance policies and deploy to users.",
+      "pos": [
+        8227,
+        8282
+      ]
+    },
+    {
+      "content": "Compliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices.",
+      "pos": [
+        8283,
+        8430
+      ]
+    },
+    {
+      "content": "Follow the steps at <bpt id=\"p1\">[</bpt>Create a compliance policy<ept id=\"p1\">](Manage-device-compliance-policies-for-Microsoft-Intune.md#BKMK_Compliance)</ept> to create and deploy compliance policies.",
+      "pos": [
+        8431,
+        8596
+      ]
+    },
+    {
+      "pos": [
+        8599,
+        9014
+      ],
+      "content": "[!NOTE]\nIf you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.\n![](../Image/HybridOnpremExchSrvrWizard6.PNG)",
+      "leadings": [
+        "",
+        "> ",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.",
+          "pos": [
+            8,
+            365
+          ],
+          "nodes": [
+            {
+              "content": "If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune.",
+              "pos": [
+                0,
+                253
+              ]
+            },
+            {
+              "content": "You must deploy the email profile to the same set of users that you target with this compliance policy.",
+              "pos": [
+                254,
+                357
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        9020,
+        9314
+      ],
+      "content": "If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in <bpt id=\"p1\">[</bpt>End-user experience of conditional access<ept id=\"p1\">](../Topic/End-user-experience-of-conditional-access.md)</ept>."
+    },
+    {
+      "pos": [
+        9318,
+        9477
+      ],
+      "content": "[!IMPORTANT]\nIf you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.",
+          "pos": [
+            13,
+            157
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Step 2: Evaluate the effect of the conditional access policy.",
+      "pos": [
+        9483,
+        9544
+      ]
+    },
+    {
+      "pos": [
+        9545,
+        9976
+      ],
+      "content": "If you have configured a connection between <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> and Exchange by using the <bpt id=\"p1\">[</bpt>Microsoft Intune service to service connector<ept id=\"p1\">](Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md#bkmk_S_S)</ept>, you can use the <bpt id=\"p2\">**</bpt>Mobile Device Inventory Reports<ept id=\"p2\">**</ept> to identify EAS mail clients that will be blocked from accessing Exchange after you configure the conditional access policy."
+    },
+    {
+      "pos": [
+        9978,
+        10197
+      ],
+      "content": "Follow the instructions at <bpt id=\"p1\">[</bpt>Evaluate the effect of the conditional access policy<ept id=\"p1\">](Manage-email-access-with-Microsoft-Intune.md#bkmk_Eval_FX_CAP)</ept> to identify those users who will be impacted by conditional access policy."
+    },
+    {
+      "content": "Step 3: Configure user groups for the conditional access policy.",
+      "pos": [
+        10203,
+        10267
+      ]
+    },
+    {
+      "content": "You target conditional access policies to different groups of users depending on the policy types.",
+      "pos": [
+        10268,
+        10366
+      ]
+    },
+    {
+      "content": "These groups contain the users that will be targeted, or exempt from the policy.",
+      "pos": [
+        10367,
+        10447
+      ]
+    },
+    {
+      "content": "When a user is targeted by a policy, each device they use must be compliant in order to access email.",
+      "pos": [
+        10448,
+        10549
+      ]
+    },
+    {
+      "pos": [
+        10551,
+        10703
+      ],
+      "content": "For more information, see <bpt id=\"p1\">[</bpt>Configure user groups for the conditional access policy<ept id=\"p1\">](Manage-email-access-with-Microsoft-Intune.md#BKMK_configUserGroups)</ept>."
+    },
+    {
+      "content": "Step 4: Configure conditional access policy.",
+      "pos": [
+        10709,
+        10753
+      ]
+    },
+    {
+      "content": "The following flow is used by conditional access policies for Exchange Online to evaluate whether to allow or block devices.",
+      "pos": [
+        10754,
+        10878
+      ]
+    },
+    {
+      "pos": [
+        10920,
+        11095
+      ],
+      "content": "Follow the information provided under <bpt id=\"p1\">[</bpt>To enable the Exchange Online policy<ept id=\"p1\">](Manage-email-access-with-Microsoft-Intune.md#BKMK_ExoCA)</ept> to set up your conditional access policy."
+    },
+    {
+      "content": "Reporting",
+      "pos": [
+        11102,
+        11111
+      ]
+    },
+    {
+      "content": "Monitor the compliance and conditional access policies",
+      "pos": [
+        11117,
+        11171
+      ]
+    },
+    {
+      "content": "To view devices that are blocked from Exchange:",
+      "pos": [
+        11172,
+        11219
+      ]
+    },
+    {
+      "content": "On the Intune dashboard, click the <bpt id=\"p1\">**</bpt>Blocked Devices from Exchange<ept id=\"p1\">**</ept> tile to show the number of blocked devices and links to more information.",
+      "pos": [
+        11221,
+        11363
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">![</ph>IntuneSA6BlockedDevices<ph id=\"ph2\">](/Image/IntuneSA6BlockedDevices.PNG)</ph>",
+      "pos": [
+        11364,
+        11426
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        11433,
+        11441
+      ]
+    },
+    {
+      "content": "Use conditional access with Intune and Configuration Manager",
+      "pos": [
+        11443,
+        11503
+      ]
+    },
+    {
+      "content": "End-user experience of conditional access",
+      "pos": [
+        11580,
+        11621
+      ]
+    }
+  ],
+  "content": "---\ntitle: Use conditional access with Intune\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 1d876fb1-a857-4350-8970-3eb38c483111\ntranslation.priority.ht: \n  - cs-cz\n  - de-de\n  - es-es\n  - fr-fr\n  - hu-hu\n  - it-it\n  - ja-jp\n  - ko-kr\n  - nl-nl\n  - pl-pl\n  - pt-br\n  - pt-pt\n  - ru-ru\n  - sv-se\n  - tr-tr\n  - zh-cn\n  - zh-tw\n---\n# Use conditional access with Intune\n\nThis solution lets you use conditional access in Intune to help secure email and other services depending on conditions you specify.\n\nSee [Manage access to email and SharePoint with Microsoft Intune](Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md) for more information, including a video, about how you can use the conditional access feature with Intune.\n\n### Prerequisites\nYou can control access to Exchange Online and Exchange on-premises from the following mail apps:\n\n-   The built-in app for Android 4.0 and later, Samsung Knox 4.0 Standard and later\n\n-   The built-in app for iOS 7.1 and later\n\n-   The built-in app for Windows Phone 8.1 and later\n\n-   The mail application on Windows 8.1 and later\n\n-   The Microsoft Outlook app for Android and iOS (for Exchange Online only)\n\nBefore you start using conditional access, ensure that you have the correct requirements in place:\n\n#### For Exchange Server on-premises\nConditional access to Exchange on-premises supports:\n\n-   Windows 8 and later (when enrolled with Intune)\n\n-   Windows Phone 8 and later\n\n-   Any iOS device that uses an Exchange ActiveSync (EAS) email client\n\n-   Android 4 and later\n\nAdditionally:\n\n-   Your Exchange version must be Exchange 2010 or later. Exchange server Client Access Server (CAS) configuration is supported.\n\n    > [!TIP]\n    > If your Exchange environment is in a CAS server configuration, then you must configure the on-premises Exchange connector to point to any one of the CAS servers.\n\n-   Exchange ActiveSync can be configured with certificate based authentication, or user credential entry.\n\n-   You must use the **on-premises Exchange connector** which connects Intune to Microsoft Exchange Server on-premises. This lets you manage devices through the Intune console (see [Mobile device management with Exchange ActiveSync and Microsoft Intune](Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md)).\n\n> [!IMPORTANT]\n> Make sure that you are using the latest version of the on-premises Exchange connector. The on-premise Exchange connector available to you in the Intune console is specific to your Intune tenant and cannot be used with any other tenant. You should also ensure that the exchange connector for your tenant is installed on exactly one machine and not on multiple machines.\n\n### For Exchange Online\nConditional access to Exchange Online supports devices that run:\n\n-   Windows 8.1 and later (when enrolled with Intune)\n\n-   Windows 7.0 or later (when domain joined)\n\n-   Windows Phone 8.1 and later\n\n-   iOS 7.1 and later\n\n-   Android 4.0 and later, Samsung Knox Standard 4.0 and later\n\nAdditionally, devices must be registered with the Azure Active Directory Device Registration Service (AAD DRS).\n\nAAD DRS will be activated automatically for Intune and Office 365 customers. Customers who have already deployed the ADFS Device Registration Service will not see registered devices in their on-premises Active Directory.\n\n-   You must use an Office 365 subscription that includes Exchange Online (such as E3) and users must be licensed for Exchange Online.\n\n-   The optional **Microsoft Intune service to service connector** connects Intune to Microsoft Exchange Online and helps you manage device information through the Intune console (see [Mobile device management with Exchange ActiveSync and Microsoft Intune](Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md)). You do not need to use the connector to use compliance policies or conditional access policies, but is required to run reports that help evaluate the impact of conditional access.\n\n    If you configure the connector, some Exchange ActiveSync policies from Intune might be visible in the Office console but are not set as default policies and do not affect devices.\n\n    > [!IMPORTANT]\n    > Do not configure the service to service connector if you intend to use conditional access for both Exchange Online and Exchange on-premises.\n\n## Deployment Steps for using Exchange on-premises with Intune\n\nFor Intune to directly manage mobile devices, users need to enroll devices into Intune. Follow these steps to deploy the Exchange on-premises with Intune solution:\n\n### Step 1: Install and configure the Microsoft Intune on-premises Exchange Server connector.\n\nFor mobile devices that users have not enrolled you can enable Exchange ActiveSync management using the Exchange connector. The Exchange connector connects you with your Exchange deployment and lets you manage mobile devices through the Intune console.\n\nFollow the steps at [Configure Microsoft Intune on-premises connector for on-premises or hosted Exchange](Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md#bkmk_EX_OP) to download, install and configure the Microsoft Intune Exchange Connector.\n\n> [!NOTE]\n> You can only set up one Exchange connection per Intune account. If you try to configure an additional connection, it will replace the original connection with the new one.\n\n### Step 2: Create compliance policies and deploy to users.\nCompliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Create a compliance policy](Manage-device-compliance-policies-for-Microsoft-Intune.md#BKMK_Compliance) to create and deploy compliance policies.\n> [!NOTE]\n> If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.\n> ![](../Image/HybridOnpremExchSrvrWizard6.PNG)\n> \n> If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md).\n\n> [!IMPORTANT]\n> If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.\n\n### Step 3: Identify users who will be impacted by conditional access policy.\nAfter the Exchange Server connector is successfully configured, it begins to inventory devices that are not yet enrolled to Intune, but are connecting to your organization’s Exchange resources using Exchange Active Sync.  \n\nFollow the instructions at [Evaluate the effect of the conditional access policy](Manage-email-access-with-Microsoft-Intune.md#bkmk_Eval_FX_CAP) to identify those users who will be impacted by conditional access policy.\n\n\n### Step 4: Configure user groups for the conditional access policy.\nYou target conditional access policies to different groups of users depending on the policy types. These groups contain the users that will be targeted, or exempt from the policy. When a user is targeted by a policy, each device they use must be compliant in order to access email.\n\nFor more information, see [Configure user groups for the conditional access policy](Manage-email-access-with-Microsoft-Intune.md#BKMK_configUserGroups).\n\n### Step 5: Configure conditional access policy.\nThe following flow is used by conditional access policies for an Exchange on-premises environment to evaluate whether to allow or block devices.\n\n![](../Image/ConditionalAccess8-2.png)\n\nFollow the information provided under [To enable the Exchange On-premises policy](Manage-email-access-with-Microsoft-Intune.md#BKMK_enableXchngOnprem) to set up your conditional access policy.\n\n## Deployment Steps for using Exchange Online with Intune\n\n### Step 1: Create compliance policies and deploy to users.\nCompliance policies define the rules and settings that a device must comply with in order to be considered compliant by conditional access polices. Follow the steps at [Create a compliance policy](Manage-device-compliance-policies-for-Microsoft-Intune.md#BKMK_Compliance) to create and deploy compliance policies.\n> [!NOTE]\n> If you want the ability to remove all corporate email from an iOS device after it is no longer part of your company, you must create and deploy an email profile and then set the compliance policy that specifies that email profiles are managed by Intune. You must deploy the email profile to the same set of users that you target with this compliance policy.\n> ![](../Image/HybridOnpremExchSrvrWizard6.PNG)\n> \n> If you specify this compliance policy, a user who has already set up their email account must manually remove it and then Intune will add it back in through the registration process described in [End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md).\n\n> [!IMPORTANT]\n> If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.\n\n### Step 2: Evaluate the effect of the conditional access policy.\nIf you have configured a connection between [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] and Exchange by using the [Microsoft Intune service to service connector](Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md#bkmk_S_S), you can use the **Mobile Device Inventory Reports** to identify EAS mail clients that will be blocked from accessing Exchange after you configure the conditional access policy.\n\nFollow the instructions at [Evaluate the effect of the conditional access policy](Manage-email-access-with-Microsoft-Intune.md#bkmk_Eval_FX_CAP) to identify those users who will be impacted by conditional access policy.\n\n### Step 3: Configure user groups for the conditional access policy.\nYou target conditional access policies to different groups of users depending on the policy types. These groups contain the users that will be targeted, or exempt from the policy. When a user is targeted by a policy, each device they use must be compliant in order to access email.\n\nFor more information, see [Configure user groups for the conditional access policy](Manage-email-access-with-Microsoft-Intune.md#BKMK_configUserGroups).\n\n### Step 4: Configure conditional access policy.\nThe following flow is used by conditional access policies for Exchange Online to evaluate whether to allow or block devices.\n\n![](../Image/ConditionalAccess8-1.png)\n\nFollow the information provided under [To enable the Exchange Online policy](Manage-email-access-with-Microsoft-Intune.md#BKMK_ExoCA) to set up your conditional access policy.\n\n\n\n## Reporting\n\n### Monitor the compliance and conditional access policies\nTo view devices that are blocked from Exchange:\n\nOn the Intune dashboard, click the **Blocked Devices from Exchange** tile to show the number of blocked devices and links to more information.\n![IntuneSA6BlockedDevices](/Image/IntuneSA6BlockedDevices.PNG)\n\n\n\n## See Also\n[Use conditional access with Intune and Configuration Manager](../Topic/Use-conditional-access-with-Intune-and-Configuration-Manager.md)\n[End-user experience of conditional access](../Topic/End-user-experience-of-conditional-access.md)\n\n"
+}

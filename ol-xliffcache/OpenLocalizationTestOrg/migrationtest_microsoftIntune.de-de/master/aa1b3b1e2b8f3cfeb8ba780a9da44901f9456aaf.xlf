@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">aa1b3b1e2b8f3cfeb8ba780a9da44901f9456aaf</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Unenroll your device</source>
+          <target>Unenroll your device</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Unenroll your device</source>
+          <target>Unenroll your device</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>You can unenroll (remove) your device from the corporate environment.</source>
+          <target>You can unenroll (remove) your device from the corporate environment.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>How to remove a device</source>
+          <target>How to remove a device</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Open the company portal app.</source>
+          <target>Open the company portal app.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Depending on the device:</source>
+          <target>Depending on the device:</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Android</pc>: Tap the trash can icon and follow the instructions provided.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Android</pc>: Tap the trash can icon and follow the instructions provided.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">iOS</pc>: Tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Retire</pc> and follow the instructions provided.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">iOS</pc>: Tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Retire</pc> and follow the instructions provided.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows</pc>: Tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Remove</pc> and follow the instructions provided.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows</pc>: Tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Remove</pc> and follow the instructions provided.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

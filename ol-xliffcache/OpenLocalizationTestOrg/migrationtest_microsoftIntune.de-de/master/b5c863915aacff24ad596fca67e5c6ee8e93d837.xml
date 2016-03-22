@@ -1,0 +1,341 @@
+{
+  "nodes": [
+    {
+      "content": "Rolling out Microsoft Intune policies",
+      "pos": [
+        11,
+        48
+      ]
+    },
+    {
+      "content": "Rolling out Microsoft Intune policies",
+      "pos": [
+        199,
+        236
+      ]
+    },
+    {
+      "content": "This topic provide specific recommendations for a phased rollout of policies in <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph>.",
+      "pos": [
+        237,
+        371
+      ]
+    },
+    {
+      "content": "This approach applies to the first policies you apply in a new <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> deployment, or policies you add to an existing deployment.",
+      "pos": [
+        372,
+        545
+      ]
+    },
+    {
+      "pos": [
+        547,
+        706
+      ],
+      "content": "For general information about rollout phases, see <bpt id=\"p1\">[</bpt>Rollout phases for Microsoft Intune deployment<ept id=\"p1\">](../Topic/Rollout-phases-for-Microsoft-Intune-deployment.md)</ept>."
+    },
+    {
+      "content": "Phases of policy rollout",
+      "pos": [
+        711,
+        735
+      ]
+    },
+    {
+      "content": "The phases of policy rollout are:",
+      "pos": [
+        736,
+        769
+      ]
+    },
+    {
+      "content": "Project scope",
+      "pos": [
+        775,
+        788
+      ]
+    },
+    {
+      "content": "Proof of concept",
+      "pos": [
+        794,
+        810
+      ]
+    },
+    {
+      "content": "Pilot",
+      "pos": [
+        816,
+        821
+      ]
+    },
+    {
+      "content": "Enterprise rollout",
+      "pos": [
+        827,
+        845
+      ]
+    },
+    {
+      "content": "Operations and maintenance",
+      "pos": [
+        851,
+        877
+      ]
+    },
+    {
+      "content": "Project scope",
+      "pos": [
+        883,
+        896
+      ]
+    },
+    {
+      "pos": [
+        897,
+        992
+      ],
+      "content": "Define the scope of your <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> policy deployment:"
+    },
+    {
+      "content": "For a new implementation, this will require defining all of the desired device behaviors and security requirements that you want to create with your policy set.",
+      "pos": [
+        998,
+        1158
+      ]
+    },
+    {
+      "content": "Decide what users and devices  you want to impact with these policies.",
+      "pos": [
+        1164,
+        1234
+      ]
+    },
+    {
+      "content": "Design your user and device groups to enable you to apply the new policies appropriately.",
+      "pos": [
+        1240,
+        1329
+      ]
+    },
+    {
+      "content": "Determine whether  there are limitations or requirements associated with each operating system that will affect the intentions of your policy.",
+      "pos": [
+        1335,
+        1477
+      ]
+    },
+    {
+      "content": "Consider policy design specifics, such as policy type and template to be used.",
+      "pos": [
+        1483,
+        1561
+      ]
+    },
+    {
+      "content": "Whether you are launching your first set of policies or adding new policies to an existing policy set, consider how various policies interact, and what the likely device behavior will be.",
+      "pos": [
+        1567,
+        1754
+      ]
+    },
+    {
+      "content": "Issues with policy interactions and conflicts can be discovered in the Pilot phase, but catching policy conflicts in early planning will simplify execution of the Pilot.",
+      "pos": [
+        1755,
+        1924
+      ]
+    },
+    {
+      "content": "Proof of concept",
+      "pos": [
+        1930,
+        1946
+      ]
+    },
+    {
+      "content": "In the Proof of concept phase, test your policy deployment in a laboratory environment on devices and users that you've configured strictly for testing purposes.",
+      "pos": [
+        1947,
+        2108
+      ]
+    },
+    {
+      "content": "Have your help desk participate in this phase to learn what issues can arise during pilot and production deployment.",
+      "pos": [
+        2114,
+        2230
+      ]
+    },
+    {
+      "content": "Troubleshooting information is available in <bpt id=\"p1\">[</bpt>Troubleshoot policies in Microsoft Intune - deleted<ept id=\"p1\">](../Topic/Troubleshoot-policies-in-Microsoft-Intune---deleted.md)</ept>.",
+      "pos": [
+        2232,
+        2395
+      ]
+    },
+    {
+      "content": "At this point in the process you should develop communication plans for pilot and production users.",
+      "pos": [
+        2401,
+        2500
+      ]
+    },
+    {
+      "content": "At a minimum the plan should include  what device behaviors will change and when, and the business purpose for the change, and what to do if they encounter issues, both self-help information and how to contact the help desk.",
+      "pos": [
+        2501,
+        2725
+      ]
+    },
+    {
+      "content": "Pilot",
+      "pos": [
+        2731,
+        2736
+      ]
+    },
+    {
+      "content": "During the pilot you will deploy the policy to a small group of test users and devices.",
+      "pos": [
+        2737,
+        2824
+      ]
+    },
+    {
+      "content": "There are specific considerations for piloting policy in <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>:",
+      "pos": [
+        2825,
+        2934
+      ]
+    },
+    {
+      "content": "The test  group should be representative of the group to which the policy will be applied for production rollout.",
+      "pos": [
+        2940,
+        3053
+      ]
+    },
+    {
+      "content": "Educate the help desk  regarding the changes in policy, and ensure they are prepared to help users in the test group.",
+      "pos": [
+        3059,
+        3176
+      ]
+    },
+    {
+      "content": "Activate your pilot user communication plan.",
+      "pos": [
+        3182,
+        3226
+      ]
+    },
+    {
+      "content": "The pilot can first be done in isolated mode, where the device is not subject to other policies that may cause conflict and unintended behavior.",
+      "pos": [
+        3232,
+        3376
+      ]
+    },
+    {
+      "content": "The final test must consider the new policy and all the existing policies that will be applied to the same device.",
+      "pos": [
+        3382,
+        3496
+      ]
+    },
+    {
+      "content": "Enterprise rollout",
+      "pos": [
+        3502,
+        3520
+      ]
+    },
+    {
+      "content": "Based on the results of the pilot, adjust your planned policy to correct for policy conflicts and unanticipated behavior.",
+      "pos": [
+        3526,
+        3647
+      ]
+    },
+    {
+      "content": "Notify your help desk of the enterprise rollout schedule.",
+      "pos": [
+        3653,
+        3710
+      ]
+    },
+    {
+      "content": "Have mechanisms in place to respond to help requests, and to adjust the rollout as necessary.",
+      "pos": [
+        3711,
+        3804
+      ]
+    },
+    {
+      "content": "Be prepared to troubleshoot the policy if issues arise.",
+      "pos": [
+        3810,
+        3865
+      ]
+    },
+    {
+      "content": "Activate your production user communication plan.",
+      "pos": [
+        3871,
+        3920
+      ]
+    },
+    {
+      "content": "Apply the policies incrementally to additional groups, monitoring the policy state for affected devices and tracking help desk requests that may be related to the new policy.",
+      "pos": [
+        3926,
+        4100
+      ]
+    },
+    {
+      "content": "Operations and maintenance",
+      "pos": [
+        4106,
+        4132
+      ]
+    },
+    {
+      "pos": [
+        4133,
+        4340
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Operations:<ept id=\"p1\">**</ept> Monitor your <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> console for alerts and user or device issues, and to ensure that polices are performing according to your organizational plan."
+    },
+    {
+      "pos": [
+        4342,
+        4498
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Help desk:<ept id=\"p1\">**</ept> Ensure that your help desk is aware of any changes to policies that will affect the user experience, as these may result in support requests."
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        4503,
+        4511
+      ]
+    },
+    {
+      "content": "Troubleshoot policies in Microsoft Intune - deleted",
+      "pos": [
+        4513,
+        4564
+      ]
+    },
+    {
+      "content": "Use policies to manage computers and mobile devices with Microsoft Intune",
+      "pos": [
+        4632,
+        4705
+      ]
+    }
+  ],
+  "content": "---\ntitle: Rolling out Microsoft Intune policies\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: c505adcc-463f-463f-ad66-190b3cd0a881\nauthor: Nbigman\n---\n# Rolling out Microsoft Intune policies\nThis topic provide specific recommendations for a phased rollout of policies in [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]. This approach applies to the first policies you apply in a new [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] deployment, or policies you add to an existing deployment.\n\nFor general information about rollout phases, see [Rollout phases for Microsoft Intune deployment](../Topic/Rollout-phases-for-Microsoft-Intune-deployment.md).\n\n## Phases of policy rollout\nThe phases of policy rollout are:\n\n-   Project scope\n\n-   Proof of concept\n\n-   Pilot\n\n-   Enterprise rollout\n\n-   Operations and maintenance\n\n### Project scope\nDefine the scope of your [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] policy deployment:\n\n-   For a new implementation, this will require defining all of the desired device behaviors and security requirements that you want to create with your policy set.\n\n-   Decide what users and devices  you want to impact with these policies.\n\n-   Design your user and device groups to enable you to apply the new policies appropriately.\n\n-   Determine whether  there are limitations or requirements associated with each operating system that will affect the intentions of your policy.\n\n-   Consider policy design specifics, such as policy type and template to be used.\n\n-   Whether you are launching your first set of policies or adding new policies to an existing policy set, consider how various policies interact, and what the likely device behavior will be. Issues with policy interactions and conflicts can be discovered in the Pilot phase, but catching policy conflicts in early planning will simplify execution of the Pilot.\n\n### Proof of concept\nIn the Proof of concept phase, test your policy deployment in a laboratory environment on devices and users that you've configured strictly for testing purposes.\n\n-   Have your help desk participate in this phase to learn what issues can arise during pilot and production deployment.  Troubleshooting information is available in [Troubleshoot policies in Microsoft Intune - deleted](../Topic/Troubleshoot-policies-in-Microsoft-Intune---deleted.md).\n\n-   At this point in the process you should develop communication plans for pilot and production users. At a minimum the plan should include  what device behaviors will change and when, and the business purpose for the change, and what to do if they encounter issues, both self-help information and how to contact the help desk.\n\n### Pilot\nDuring the pilot you will deploy the policy to a small group of test users and devices. There are specific considerations for piloting policy in [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]:\n\n-   The test  group should be representative of the group to which the policy will be applied for production rollout.\n\n-   Educate the help desk  regarding the changes in policy, and ensure they are prepared to help users in the test group.\n\n-   Activate your pilot user communication plan.\n\n-   The pilot can first be done in isolated mode, where the device is not subject to other policies that may cause conflict and unintended behavior.\n\n-   The final test must consider the new policy and all the existing policies that will be applied to the same device.\n\n### Enterprise rollout\n\n-   Based on the results of the pilot, adjust your planned policy to correct for policy conflicts and unanticipated behavior.\n\n-   Notify your help desk of the enterprise rollout schedule. Have mechanisms in place to respond to help requests, and to adjust the rollout as necessary.\n\n-   Be prepared to troubleshoot the policy if issues arise.\n\n-   Activate your production user communication plan.\n\n-   Apply the policies incrementally to additional groups, monitoring the policy state for affected devices and tracking help desk requests that may be related to the new policy.\n\n### Operations and maintenance\n**Operations:** Monitor your [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] console for alerts and user or device issues, and to ensure that polices are performing according to your organizational plan.\n\n**Help desk:** Ensure that your help desk is aware of any changes to policies that will affect the user experience, as these may result in support requests.\n\n## See Also\n[Troubleshoot policies in Microsoft Intune - deleted](../Topic/Troubleshoot-policies-in-Microsoft-Intune---deleted.md)\n[Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)\n\n"
+}

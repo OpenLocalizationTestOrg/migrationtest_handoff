@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "content": "robstack - V2 of Update and retire apps using Intune",
+      "pos": [
+        11,
+        63
+      ]
+    },
+    {
+      "content": "robstack - V2 of Update and retire apps using Intune",
+      "pos": [
+        219,
+        271
+      ]
+    },
+    {
+      "content": "Insert introduction here.",
+      "pos": [
+        272,
+        297
+      ]
+    },
+    {
+      "content": "Section Heading",
+      "pos": [
+        302,
+        317
+      ]
+    },
+    {
+      "content": "Insert section body here.",
+      "pos": [
+        318,
+        343
+      ]
+    },
+    {
+      "content": "Subsection Heading",
+      "pos": [
+        349,
+        367
+      ]
+    },
+    {
+      "content": "Insert subsection body here.",
+      "pos": [
+        368,
+        396
+      ]
+    }
+  ],
+  "content": "---\ntitle: robstack - V2 of Update and retire apps using Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 2e07546a-7108-4046-880c-2ce359b9171b\nauthor: robstackmsft\n---\n# robstack - V2 of Update and retire apps using Intune\nInsert introduction here.\n\n## Section Heading\nInsert section body here.\n\n### Subsection Heading\nInsert subsection body here.\n\n"
+}

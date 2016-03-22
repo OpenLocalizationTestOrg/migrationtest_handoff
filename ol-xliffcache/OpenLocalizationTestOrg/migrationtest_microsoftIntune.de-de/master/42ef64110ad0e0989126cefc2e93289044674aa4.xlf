@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">42ef64110ad0e0989126cefc2e93289044674aa4</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Old - Computer capabilities in Intune</source>
+          <target>Old - Computer capabilities in Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Old - Computer capabilities in Intune</source>
+          <target>Old - Computer capabilities in Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Devices that run Windows 8.1 and Windows 10 can be managed using the Intune client.</source>
+          <target>Devices that run Windows 8.1 and Windows 10 can be managed using the Intune client.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You can deploy software to your managed computers in a variety of different formats like a Windows Installer, or Windows app package file.</source>
+          <target>You can deploy software to your managed computers in a variety of different formats like a Windows Installer, or Windows app package file.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>You can also deploy links to applications in a store, or links to Web applications.</source>
+          <target>You can also deploy links to applications in a store, or links to Web applications.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ClientReqs"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Supported computers</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Supported computers</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating Systems</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can install the <ph dataRef="id1" id="ph1" /> client on computers that run the following operating systems:</source>
+          <target>You can install the <ph dataRef="id1" id="ph1" /> client on computers that run the following operating systems:</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Operating system</source>
+          <target>Operating system</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>System architecture</source>
+          <target>System architecture</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>-   Business</source>
+          <target>-   Business</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>-   Enterprise</source>
+          <target>-   Enterprise</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>-   Ultimate</source>
+          <target>-   Ultimate</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>x86, x64</source>
+          <target>x86, x64</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>-   Professional (with no service pack, or with SP1)</source>
+          <target>-   Professional (with no service pack, or with SP1)</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>-   Enterprise (with no service pack, or with SP1)</source>
+          <target>-   Enterprise (with no service pack, or with SP1)</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>-   Ultimate (with no service pack, or with SP1)</source>
+          <target>-   Ultimate (with no service pack, or with SP1)</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>x86, x64</source>
+          <target>x86, x64</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>-   Pro</source>
+          <target>-   Pro</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>-   Enterprise</source>
+          <target>-   Enterprise</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>x86, x64</source>
+          <target>x86, x64</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>-   Pro</source>
+          <target>-   Pro</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>-   Enterprise</source>
+          <target>-   Enterprise</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>X86, x64</source>
+          <target>X86, x64</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Hardware</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Hardware</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following are minimum hardware requirements for installing the <ph dataRef="id1" id="ph1" /> client:</source>
+          <target>The following are minimum hardware requirements for installing the <ph dataRef="id1" id="ph1" /> client:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Requirement</source>
+          <target>Requirement</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Network</source>
+          <target>Network</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Network-infrastructure-requirements-for-Microsoft-Intune.md#BKMK_NetworkReqs)</data>
+        </originalData>
+        <segment state="initial">
+          <source>The client requires the computer to have Internet connectivity and access to the domains defined in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network infrastructure</pc> section of this topic.</source>
+          <target>The client requires the computer to have Internet connectivity and access to the domains defined in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network infrastructure</pc> section of this topic.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Processor and Memory</source>
+          <target>Processor and Memory</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Refer to the processor and RAM requirements for the computer's operating system.</source>
+          <target>Refer to the processor and RAM requirements for the computer's operating system.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Disk space</source>
+          <target>Disk space</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>200 MB available disk space before the client software is installed.</source>
+          <target>200 MB available disk space before the client software is installed.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Software</pc>:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Software</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following are software requirements for installing the <ph dataRef="id1" id="ph1" /> client:</source>
+          <target>The following are software requirements for installing the <ph dataRef="id1" id="ph1" /> client:</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Requirement</source>
+          <target>Requirement</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Administrative permissions</source>
+          <target>Administrative permissions</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>The account that installs the client software must have local administrator permissions to that computer.</source>
+          <target>The account that installs the client software must have local administrator permissions to that computer.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Windows Installer 3.1</source>
+          <target>Windows Installer 3.1</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>The computer must have, at a minimum, Windows Installer 3.1.</source>
+          <target>The computer must have, at a minimum, Windows Installer 3.1.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>To view the version of Windows Installer on a client computer:</source>
+          <target>To view the version of Windows Installer on a client computer:</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   On the computer, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">%windir%\System32\msiexec.exe</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</source>
+          <target>-   On the computer, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">%windir%\System32\msiexec.exe</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkID=234258)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can download the latest version of Windows Installer from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Installer Redistributables</pc> on the Microsoft Developer Network website.</source>
+          <target>You can download the latest version of Windows Installer from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Installer Redistributables</pc> on the Microsoft Developer Network website.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Remove incompatible client software</source>
+          <target>Remove incompatible client software</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before you install the <ph dataRef="id1" id="ph1" /> client software, you must uninstall the following client software from that computer:</source>
+          <target>Before you install the <ph dataRef="id1" id="ph1" /> client software, you must uninstall the following client software from that computer:</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">[!INCLUDE[cm5short](../Token/cm5short_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   Any version of <ph dataRef="id1" id="ph1" /></source>
+          <target>-   Any version of <ph dataRef="id1" id="ph1" /></target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">[!INCLUDE[sccmshortname](../Token/sccmshortname_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   Any version of <ph dataRef="id1" id="ph1" /></source>
+          <target>-   Any version of <ph dataRef="id1" id="ph1" /></target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>-   Any version of Systems Management Server</source>
+          <target>-   Any version of Systems Management Server</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">&lt;a name="WIT_Cap"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Computer management features</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Computer management features</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Intune computer management capabilities:</source>
+          <target>Intune computer management capabilities:</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Manage software updates.</source>
+          <target>Manage software updates.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>You can keep computers up-to-date, and manage when updates are applied.</source>
+          <target>You can keep computers up-to-date, and manage when updates are applied.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Set Windows firewall policy.</source>
+          <target>Set Windows firewall policy.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>This helps to ensure that no computer used by your company has an inactive or improperly-configured firewall.</source>
+          <target>This helps to ensure that no computer used by your company has an inactive or improperly-configured firewall.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Anti-malware protection.</pc>
+            <ph dataRef="id3" id="ph1" />
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Anti-malware protection.</pc>
+            <ph dataRef="id3" id="ph1" />
+          </target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>includes <ph dataRef="id1" id="ph1" /> Endpoint Protection, and allows you to set policies to ensure that computers are kept up-to-date with the latest anti-malware definition updates.</source>
+          <target>includes <ph dataRef="id1" id="ph1" /> Endpoint Protection, and allows you to set policies to ensure that computers are kept up-to-date with the latest anti-malware definition updates.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote assistance.</pc>
+            <ph dataRef="id3" id="ph1" />
+          </source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote assistance.</pc>
+            <ph dataRef="id3" id="ph1" />
+          </target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>allows users to contact IT support staff, who can then provide assistance using a remote desktop feature that is included with <ph dataRef="id1" id="ph1" />.</source>
+          <target>allows users to contact IT support staff, who can then provide assistance using a remote desktop feature that is included with <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Software license</pc> management.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Software license</pc> management.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Track how many software licenses are available, and how many available licenses are being used.</source>
+          <target>Track how many software licenses are available, and how many available licenses are being used.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

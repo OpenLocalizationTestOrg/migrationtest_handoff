@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "content": "Remove access to company resources",
+      "pos": [
+        11,
+        45
+      ]
+    },
+    {
+      "content": "Remove access to company resources",
+      "pos": [
+        258,
+        292
+      ]
+    },
+    {
+      "content": "Insert introduction here.",
+      "pos": [
+        293,
+        318
+      ]
+    },
+    {
+      "content": "Section Heading",
+      "pos": [
+        323,
+        338
+      ]
+    },
+    {
+      "content": "Insert section body here.",
+      "pos": [
+        339,
+        364
+      ]
+    },
+    {
+      "content": "Subsection Heading",
+      "pos": [
+        370,
+        388
+      ]
+    },
+    {
+      "content": "Insert subsection body here.",
+      "pos": [
+        389,
+        417
+      ]
+    }
+  ],
+  "content": "---\ntitle: Remove access to company resources\nms.custom: na\nms.reviewer: na\nms.service: mobile-device-management\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: f629f53a-811d-45b0-8516-42986bab8fa0\nauthor: Lindavr\nrobots: noindex,nofollow\n---\n# Remove access to company resources\nInsert introduction here.\n\n## Section Heading\nInsert section body here.\n\n### Subsection Heading\nInsert subsection body here.\n\n"
+}

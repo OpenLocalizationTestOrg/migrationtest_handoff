@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "content": "Mobile app management - deleted",
+      "pos": [
+        11,
+        42
+      ]
+    },
+    {
+      "content": "Mobile app management - deleted",
+      "pos": [
+        199,
+        230
+      ]
+    },
+    {
+      "content": "Insert introduction here.",
+      "pos": [
+        231,
+        256
+      ]
+    },
+    {
+      "content": "Section Heading",
+      "pos": [
+        261,
+        276
+      ]
+    },
+    {
+      "content": "Insert section body here.",
+      "pos": [
+        277,
+        302
+      ]
+    },
+    {
+      "content": "Subsection Heading",
+      "pos": [
+        308,
+        326
+      ]
+    },
+    {
+      "content": "Insert subsection body here.",
+      "pos": [
+        327,
+        355
+      ]
+    }
+  ],
+  "content": "---\ntitle: Mobile app management - deleted\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: fe572991-0d63-45c2-87f7-59d5d828fa57\nauthor: karthikaraman\n---\n# Mobile app management - deleted\nInsert introduction here.\n\n## Section Heading\nInsert section body here.\n\n### Subsection Heading\nInsert subsection body here.\n\n"
+}

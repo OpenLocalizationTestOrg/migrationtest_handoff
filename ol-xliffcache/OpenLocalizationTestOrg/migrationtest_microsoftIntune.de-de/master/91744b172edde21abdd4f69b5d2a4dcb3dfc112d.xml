@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "content": "Mobile app management policies in the Intune Console",
+      "pos": [
+        11,
+        63
+      ]
+    },
+    {
+      "content": "Mobile app management policies in the Intune Console",
+      "pos": [
+        220,
+        272
+      ]
+    },
+    {
+      "content": "Insert introduction here.",
+      "pos": [
+        273,
+        298
+      ]
+    },
+    {
+      "content": "Section Heading",
+      "pos": [
+        303,
+        318
+      ]
+    },
+    {
+      "content": "Insert section body here.",
+      "pos": [
+        319,
+        344
+      ]
+    },
+    {
+      "content": "Subsection Heading",
+      "pos": [
+        350,
+        368
+      ]
+    },
+    {
+      "content": "Insert subsection body here.",
+      "pos": [
+        369,
+        397
+      ]
+    }
+  ],
+  "content": "---\ntitle: Mobile app management policies in the Intune Console\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 643ffcdd-7040-4fa8-bb58-c99f52efad4f\nauthor: karthikaraman\n---\n# Mobile app management policies in the Intune Console\nInsert introduction here.\n\n## Section Heading\nInsert section body here.\n\n### Subsection Heading\nInsert subsection body here.\n\n"
+}

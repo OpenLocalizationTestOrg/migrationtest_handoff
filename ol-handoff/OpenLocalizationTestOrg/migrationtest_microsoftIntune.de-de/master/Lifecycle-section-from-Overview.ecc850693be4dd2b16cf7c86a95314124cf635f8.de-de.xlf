@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">cc164ae36489523a3f41bb8aada74ec13962409f</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Lifecycle section from Overview</source>
+          <target>Lifecycle section from Overview</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Lifecycle section from Overview</source>
+          <target>Lifecycle section from Overview</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Insert introduction here.</source>
+          <target>Insert introduction here.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Section Heading</source>
+          <target>Section Heading</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Insert section body here.</source>
+          <target>Insert section body here.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Subsection Heading</source>
+          <target>Subsection Heading</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Get started: <ph dataRef="id1" id="ph1" /> is a cloud service to which you subscribe.</source>
+          <target>Get started: <ph dataRef="id1" id="ph1" /> is a cloud service to which you subscribe.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>You then add users and manage devices through and administration console.</source>
+          <target>You then add users and manage devices through and administration console.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/dn646967.aspx)</data>
+          <data id="id3">[</data>
+          <data id="id4">](https://technet.microsoft.com/library/dn957912.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can <pc dataRefEnd="id2" dataRefStart="id1" id="p1">try a free subscription</pc> and you may also want to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">review different ways to manage devices</pc>.</source>
+          <target>You can <pc dataRefEnd="id2" dataRefStart="id1" id="p1">try a free subscription</pc> and you may also want to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">review different ways to manage devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/dn646966.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>There's also some <pc dataRefEnd="id2" dataRefStart="id1" id="p1">useful information to know before you start</pc>.</source>
+          <target>There's also some <pc dataRefEnd="id2" dataRefStart="id1" id="p1">useful information to know before you start</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Enroll devices: Whether your users are bringing their own devices (BYOD) or you distribute company-owned devices (COD), enrollment lets users access information such as email, business apps, and company data while you retain control of its management and security.</source>
+          <target>Enroll devices: Whether your users are bringing their own devices (BYOD) or you distribute company-owned devices (COD), enrollment lets users access information such as email, business apps, and company data while you retain control of its management and security.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> can also manage Windows computers as mobile devices or with the <ph dataRef="id2" id="ph2" /> client software.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> can also manage Windows computers as mobile devices or with the <ph dataRef="id2" id="ph2" /> client software.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Get-ready-to-enroll-devices-in-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get ready to enroll devices in Microsoft Intune</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Get ready to enroll devices in Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](http://technet.microsoft.com/library/mt313202.aspx)</data>
+          <data id="id4">[</data>
+          <data id="id5">](http://technet.microsoft.com/library/mt313202.aspx)</data>
+          <data id="id6">[</data>
+          <data id="id7">](http://technet.microsoft.com/en-US/library/dn646965.aspx)</data>
+          <data id="id8">[</data>
+          <data id="id9">](http://technet.microsoft.com/library/jj676679.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Manage and protect resources: <ph dataRef="id1" id="ph1" /> lets you <pc dataRefEnd="id3" dataRefStart="id2" id="p1">configure devices</pc>, <pc dataRefEnd="id5" dataRefStart="id4" id="p2">manage policies to ensure security and compliance</pc>, <pc dataRefEnd="id7" dataRefStart="id6" id="p3">manage apps and data</pc>, <pc dataRefEnd="id9" dataRefStart="id8" id="p4">remote lock or reset devices</pc>, and much more.</source>
+          <target>Manage and protect resources: <ph dataRef="id1" id="ph1" /> lets you <pc dataRefEnd="id3" dataRefStart="id2" id="p1">configure devices</pc>, <pc dataRefEnd="id5" dataRefStart="id4" id="p2">manage policies to ensure security and compliance</pc>, <pc dataRefEnd="id7" dataRefStart="id6" id="p3">manage apps and data</pc>, <pc dataRefEnd="id9" dataRefStart="id8" id="p4">remote lock or reset devices</pc>, and much more.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Retire devices and reclaim licenses: Whenever a device is lost or a user leaves the company, you need to be able to act to protect company assets, recycle licenses, and redistribute devices.</source>
+          <target>Retire devices and reclaim licenses: Whenever a device is lost or a user leaves the company, you need to be able to act to protect company assets, recycle licenses, and redistribute devices.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> lets you lock, monitor, and reset devices to their factory settings or selectively wipe devices of company assets while leaving the user's personal data in place.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> lets you lock, monitor, and reset devices to their factory settings or selectively wipe devices of company assets while leaving the user's personal data in place.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/mt313204.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Read more about <pc dataRefEnd="id2" dataRefStart="id1" id="p1">retiring data and devices</pc>.</source>
+          <target>Read more about <pc dataRefEnd="id2" dataRefStart="id1" id="p1">retiring data and devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Insert subsection body here.</source>
+          <target>Insert subsection body here.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

@@ -1,0 +1,798 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">5ba806fc4315d8a5ee79a9b6269518e9d5a9d0c8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Set your MDM Management Authority</source>
+          <target>Set your MDM Management Authority</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Set your MDM Management Authority</source>
+          <target>Set your MDM Management Authority</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before you can enroll mobile devices, you must declare <ph dataRef="id1" id="ph1" /> or <ph dataRef="id2" id="ph2" /> as your <pc dataRefEnd="id4" dataRefStart="id3" id="p1">mobile device management authority</pc>.</source>
+          <target>Before you can enroll mobile devices, you must declare <ph dataRef="id1" id="ph1" /> or <ph dataRef="id2" id="ph2" /> as your <pc dataRefEnd="id4" dataRefStart="id3" id="p1">mobile device management authority</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>A  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">mobile device management authority</pc> defines the single management service with permission to manage a set of devices.</source>
+          <target>A  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">mobile device management authority</pc> defines the single management service with permission to manage a set of devices.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Solutions for the mobile device management authority include <ph dataRef="id1" id="ph1" />, Configuration Manager with <ph dataRef="id2" id="ph2" />, or Office 365 MDM solutions.</source>
+          <target>Solutions for the mobile device management authority include <ph dataRef="id1" id="ph1" />, Configuration Manager with <ph dataRef="id2" id="ph2" />, or Office 365 MDM solutions.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Consider carefully whether you want to manage mobile devices using Intune only, System Center Configuration Manager with Intune integration, or using Office 365.</source>
+          <target>Consider carefully whether you want to manage mobile devices using Intune only, System Center Configuration Manager with Intune integration, or using Office 365.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>After you set the mobile device management authority to either of these options, it cannot be changed again.</source>
+          <target>After you set the mobile device management authority to either of these options, it cannot be changed again.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Ways-to-do-enterprise-mobility.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you're unsure of your options, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ways to do enterprise mobility</pc>.</source>
+          <target>If you're unsure of your options, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Ways to do enterprise mobility</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Make Intune your MDM authority</source>
+          <target>Make Intune your MDM authority</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Set mobile device management authority</source>
+          <target>Set mobile device management authority</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Set_MDM_Authority"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Set mobile device management authority as Intune</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Set mobile device management authority as Intune</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc> click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Mobile Device Management</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc> click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Mobile Device Management</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tasks</pc> list, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Set Mobile Device Management Authority</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tasks</pc> list, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Set Mobile Device Management Authority</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set MDM Authority</pc> dialog box opens.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set MDM Authority</pc> dialog box opens.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Intune requests confirmation that you want Intune as your MDM authority.</source>
+          <target>Intune requests confirmation that you want Intune as your MDM authority.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Check the box and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to use Microsoft Intune to manage mobile devices.</source>
+          <target>Check the box and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to use Microsoft Intune to manage mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Make Configuration Manager your MDM authority</source>
+          <target>Make Configuration Manager your MDM authority</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</data>
+          <data id="id2">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>To set <ph dataRef="id1" id="ph1" /> as your mobile device management authority and begin managing devices with <ph dataRef="id2" id="ph2" />, you must complete the following steps:</source>
+          <target>To set <ph dataRef="id1" id="ph1" /> as your mobile device management authority and begin managing devices with <ph dataRef="id2" id="ph2" />, you must complete the following steps:</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Subscribe to <ph dataRef="id1" id="ph1" /></source>
+          <target>Subscribe to <ph dataRef="id1" id="ph1" /></target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set <ph dataRef="id1" id="ph1" /> as your MDM authority</source>
+          <target>Set <ph dataRef="id1" id="ph1" /> as your MDM authority</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Configure the Microsoft Intune Connector role</source>
+          <target>Configure the Microsoft Intune Connector role</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">&lt;a name="bkmk_witsub"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Configuring the Microsoft Intune Subscription</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Configuring the Microsoft Intune Subscription</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> subscription lets you specify your configuration settings for the <ph dataRef="id2" id="ph2" /> service.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> subscription lets you specify your configuration settings for the <ph dataRef="id2" id="ph2" /> service.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>This includes specifying which users can enroll their devices and defining which mobile device platforms to manage.</source>
+          <target>This includes specifying which users can enroll their devices and defining which mobile device platforms to manage.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you have created your subscription, you can then install the Microsoft Intune connector site system role that lets you connect to the <ph dataRef="id1" id="ph1" /> service.</source>
+          <target>When you have created your subscription, you can then install the Microsoft Intune connector site system role that lets you connect to the <ph dataRef="id1" id="ph1" /> service.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This connector site system role will push settings and applications to the <ph dataRef="id1" id="ph1" /> service.</source>
+          <target>This connector site system role will push settings and applications to the <ph dataRef="id1" id="ph1" /> service.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> subscription performs the following:</source>
+          <target>The <ph dataRef="id1" id="ph1" /> subscription performs the following:</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Retrieves the certificate that the Microsoft Intune connector requires to connect to the <ph dataRef="id1" id="ph1" /> service.</source>
+          <target>Retrieves the certificate that the Microsoft Intune connector requires to connect to the <ph dataRef="id1" id="ph1" /> service.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Defines the user collection that enables users to enroll mobile devices.</source>
+          <target>Defines the user collection that enables users to enroll mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Defines and configures the mobile platforms that you want to support.</source>
+          <target>Defines and configures the mobile platforms that you want to support.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">&lt;a name="bkmk_subscription"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />To create the Microsoft Intune subscription</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />To create the Microsoft Intune subscription</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <ph dataRef="id1" id="ph1" /> console, click <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Administration</pc>.</source>
+          <target>In the <ph dataRef="id1" id="ph1" /> console, click <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Administration</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Choose the steps that are appropriate for your version of <ph dataRef="id1" id="ph1" />:</source>
+          <target>Choose the steps that are appropriate for your version of <ph dataRef="id1" id="ph1" />:</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">[!INCLUDE[cm5short](../Token/cm5short_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <ph dataRef="id1" id="ph1" /> SP1:</source>
+          <target>For <ph dataRef="id1" id="ph1" /> SP1:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administration</pc> workspace, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Hierarchy Configuration</pc>, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Microsoft Intune Subscriptions</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administration</pc> workspace, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Hierarchy Configuration</pc>, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Microsoft Intune Subscriptions</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Home</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create Microsoft Intune Subscription</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Home</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create Microsoft Intune Subscription</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">[!INCLUDE[cm5long](../Token/cm5long_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <ph dataRef="id1" id="ph1" /> SP2 and</source>
+          <target>For <ph dataRef="id1" id="ph1" /> SP2 and</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>System Center R2 Configuration Manager 2012 SP1:</source>
+          <target>System Center R2 Configuration Manager 2012 SP1:</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administration</pc> workspace, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Cloud Services</pc>, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Microsoft Intune Subscriptions</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administration</pc> workspace, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Cloud Services</pc>, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Microsoft Intune Subscriptions</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Home</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Microsoft Intune Subscription</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Home</pc> tab, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add Microsoft Intune Subscription</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Introduction</pc> page of the Create Microsoft Intune Subscription Wizard, review the text and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Introduction</pc> page of the Create Microsoft Intune Subscription Wizard, review the text and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subscription</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Sign in</pc> and sign in by using your work or school account.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Subscription</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Sign in</pc> and sign in by using your work or school account.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id4">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set the Mobile Device Management Authority</pc> dialog, select the check box to only manage mobile devices by using <ph dataRef="id3" id="ph1" /> through the <ph dataRef="id4" id="ph2" /> console.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set the Mobile Device Management Authority</pc> dialog, select the check box to only manage mobile devices by using <ph dataRef="id3" id="ph1" /> through the <ph dataRef="id4" id="ph2" /> console.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>To continue with your subscription, you must select this option.</source>
+          <target>To continue with your subscription, you must select this option.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</data>
+          <data id="id2">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Once you select <ph dataRef="id1" id="ph1" /> as your management authority, you cannot change the management authority to <ph dataRef="id2" id="ph2" /> in the future.</source>
+          <target>Once you select <ph dataRef="id1" id="ph1" /> as your management authority, you cannot change the management authority to <ph dataRef="id2" id="ph2" /> in the future.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the privacy links to review them, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click the privacy links to review them, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> page, specify the following options, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> page, specify the following options, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Collection</pc>: Specify a user collection that contains users who will enroll their mobile devices.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Collection</pc>: Specify a user collection that contains users who will enroll their mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>If a user is removed from the collection, the user’s device will continue to be managed for up to 24 hours when the user record is removed from the user database.</source>
+          <target>If a user is removed from the collection, the user’s device will continue to be managed for up to 24 hours when the user record is removed from the user database.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company name</pc>: Specify your company name.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company name</pc>: Specify your company name.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">URL to company privacy documentation</pc>: If you publish your company privacy information to a link that is accessible from the Internet, provide a link that users can access from the company portal, for example http://www.contoso.com/CP_privacy.html.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">URL to company privacy documentation</pc>: If you publish your company privacy information to a link that is accessible from the Internet, provide a link that users can access from the company portal, for example http://www.contoso.com/CP_privacy.html.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Privacy information can clarify what information users are sharing with your company.</source>
+          <target>Privacy information can clarify what information users are sharing with your company.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Color scheme for company portal</pc>: Optionally, change the default color of blue for the company portals.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Color scheme for company portal</pc>: Optionally, change the default color of blue for the company portals.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Manager site code</pc>: Specify a site code for a primary site to manage the mobile devices.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Manager site code</pc>: Specify a site code for a primary site to manage the mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Changing the site code affects only new enrollments and does not affect existing enrolled devices.</source>
+          <target>Changing the site code affects only new enrollments and does not affect existing enrolled devices.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Contact Information</pc> page, specify the company contact information that is displayed in the company portal, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Contact Information</pc> page, specify the company contact information that is displayed in the company portal, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Logo</pc> page, choose whether to display a logo in the company portal, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Logo</pc> page, choose whether to display a logo in the company portal, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Prior to <ph dataRef="id1" id="ph1" /> SP2, on the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Platforms</pc> page, select the device types that you want to manage and review the platform requirements, and then click <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</source>
+          <target>Prior to <ph dataRef="id1" id="ph1" /> SP2, on the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Platforms</pc> page, select the device types that you want to manage and review the platform requirements, and then click <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>For each device type that you select, you must configure additional options.</source>
+          <target>For each device type that you select, you must configure additional options.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Use the procedures that follow for more information about those options.</source>
+          <target>Use the procedures that follow for more information about those options.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After you have configured these additional options, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>After you have configured these additional options, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Complete the wizard.</source>
+          <target>Complete the wizard.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">&lt;a name="bkmk_WITconn"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />The Microsoft Intune Connector Site System Role</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />The Microsoft Intune Connector Site System Role</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The Microsoft Intune connector sends settings and software deployment information to <ph dataRef="id1" id="ph1" /> and retrieves status and inventory messages from mobile devices.</source>
+          <target>The Microsoft Intune connector sends settings and software deployment information to <ph dataRef="id1" id="ph1" /> and retrieves status and inventory messages from mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> service acts as a gateway that communicates with mobile devices and stores settings.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> service acts as a gateway that communicates with mobile devices and stores settings.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>The Microsoft Intune connector site system role may only be installed on a central administration site or stand-alone primary site.</source>
+          <target>The Microsoft Intune connector site system role may only be installed on a central administration site or stand-alone primary site.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">&lt;a name="bkm_connector"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />To configure the Microsoft Intune Connector role</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />To configure the Microsoft Intune Connector role</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <ph dataRef="id1" id="ph1" /> console, click <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Administration</pc>.</source>
+          <target>In the <ph dataRef="id1" id="ph1" /> console, click <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Administration</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administration</pc> workspace, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Site Configuration</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Servers and Site System Roles</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administration</pc> workspace, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Site Configuration</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Servers and Site System Roles</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Add the <ph dataRef="id1" id="ph1" /> connector role to a new or existing site system server by using the associated step:</source>
+          <target>Add the <ph dataRef="id1" id="ph1" /> connector role to a new or existing site system server by using the associated step:</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>New site system server: On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Home</pc> tab, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create</pc> group, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create Site System Server</pc> to start the Create Site System Server Wizard.</source>
+          <target>New site system server: On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Home</pc> tab, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create</pc> group, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create Site System Server</pc> to start the Create Site System Server Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Existing site system server: Click the server on which you want to install the Microsoft Intune connector role.</source>
+          <target>Existing site system server: Click the server on which you want to install the Microsoft Intune connector role.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Then, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Home</pc> tab, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Server</pc> group, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Site System Roles</pc> to start the Add Site system Roles Wizard.</source>
+          <target>Then, on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Home</pc> tab, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Server</pc> group, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Site System Roles</pc> to start the Add Site system Roles Wizard.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">System Role Selection</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Intune Connector</pc>, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">System Role Selection</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Intune Connector</pc>, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Complete the wizard.</source>
+          <target>Complete the wizard.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>How does the Microsoft Intune Connector Authenticate with the Microsoft Intune Service?</source>
+          <target>How does the Microsoft Intune Connector Authenticate with the Microsoft Intune Service?</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</data>
+          <data id="id2">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The Microsoft Intune Connector extends <ph dataRef="id1" id="ph1" /> by establishing a connection to the cloud-based <ph dataRef="id2" id="ph2" /> service that manages mobile devices over the Internet.</source>
+          <target>The Microsoft Intune Connector extends <ph dataRef="id1" id="ph1" /> by establishing a connection to the cloud-based <ph dataRef="id2" id="ph2" /> service that manages mobile devices over the Internet.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The Microsoft Intune Connection authenticates with the <ph dataRef="id1" id="ph1" /> service as follows:</source>
+          <target>The Microsoft Intune Connection authenticates with the <ph dataRef="id1" id="ph1" /> service as follows:</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you create a <ph dataRef="id1" id="ph1" /> subscription in the <ph dataRef="id2" id="ph2" /> console, the <ph dataRef="id3" id="ph3" /> admin is authenticated by connecting to Azure Active Directory, which redirects to the respective ADFS server to prompt for user name and password.</source>
+          <target>When you create a <ph dataRef="id1" id="ph1" /> subscription in the <ph dataRef="id2" id="ph2" /> console, the <ph dataRef="id3" id="ph3" /> admin is authenticated by connecting to Azure Active Directory, which redirects to the respective ADFS server to prompt for user name and password.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Then, <ph dataRef="id1" id="ph1" /> issues a certificate to the tenant.</source>
+          <target>Then, <ph dataRef="id1" id="ph1" /> issues a certificate to the tenant.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>The certificate from step 1 is installed on the Microsoft Intune Connector site role and is used to authenticate and authorize all further communication with the Microsoft Intune service.</source>
+          <target>The certificate from step 1 is installed on the Microsoft Intune Connector site role and is used to authenticate and authorize all further communication with the Microsoft Intune service.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

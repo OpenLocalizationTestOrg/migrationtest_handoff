@@ -1,0 +1,1841 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">054d9bbb3526d0de556543063466e74b0f38b7e7</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - Keep Windows PCs up to date with software updates in Microsoft Intune</source>
+          <target>MD Conversion - Keep Windows PCs up to date with software updates in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - Keep Windows PCs up to date with software updates in Microsoft Intune</source>
+          <target>MD Conversion - Keep Windows PCs up to date with software updates in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> can help you to secure your managed computers in a number of ways, including the management of software updates that keep your computers up to date by ensuring the latest patches and software updates are quickly installed.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> can help you to secure your managed computers in a number of ways, including the management of software updates that keep your computers up to date by ensuring the latest patches and software updates are quickly installed.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you have not yet installed the <ph dataRef="id1" id="ph1" /> client on your computers, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Install the Windows PC client with Microsoft Intune</pc>.</source>
+          <target>If you have not yet installed the <ph dataRef="id1" id="ph1" /> client on your computers, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Install the Windows PC client with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When new updates are available from Microsoft Update, or you have created a third-party update, and they are applicable to your managed computers, a notification is displayed on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overview</pc> page of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Updates</pc> workspace.</source>
+          <target>When new updates are available from Microsoft Update, or you have created a third-party update, and they are applicable to your managed computers, a notification is displayed on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overview</pc> page of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Updates</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>After you click this notification link, you can then perform various operations like viewing more information about the update, approving or declining the update, and viewing the computers that will install the update if it is approved.</source>
+          <target>After you click this notification link, you can then perform various operations like viewing more information about the update, approving or declining the update, and viewing the computers that will install the update if it is approved.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Updates</pc> workspace is not displayed in the administrator console until you have installed the client on, and are successfully managing at least one computer client.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Updates</pc> workspace is not displayed in the administrator console until you have installed the client on, and are successfully managing at least one computer client.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>As updates are approved and installed, you can examine the success or failure of the installation in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Updates</pc> workspace of the <ph dataRef="id3" id="ph1" /> console.</source>
+          <target>As updates are approved and installed, you can examine the success or failure of the installation in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Updates</pc> workspace of the <ph dataRef="id3" id="ph1" /> console.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The following sections will help you to keep software up to date on your managed computers.</source>
+          <target>The following sections will help you to keep software up to date on your managed computers.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Before you start</source>
+          <target>Before you start</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Before you begin to create and approve software updates, configure and deploy polices to your computers that control when and how the updates are installed.</source>
+          <target>Before you begin to create and approve software updates, configure and deploy polices to your computers that control when and how the updates are installed.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>To configure update policy settings</source>
+          <target>To configure update policy settings</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com/)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Overview</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add Policy</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Overview</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configure and deploy a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune Agent Settings</pc> policy for the update settings.</source>
+          <target>Configure and deploy a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune Agent Settings</pc> policy for the update settings.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>You can use recommended settings or customize the settings.</source>
+          <target>You can use recommended settings or customize the settings.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you need more information about how to create and deploy policies, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Common Windows PC management tasks with the Microsoft Intune computer client</pc> topic.</source>
+          <target>If you need more information about how to create and deploy policies, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Common Windows PC management tasks with the Microsoft Intune computer client</pc> topic.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>The following table shows the values you can configure in the policy and also the recommended values that will be used if you don’t customize the policy.</source>
+          <target>The following table shows the values you can configure in the policy and also the recommended values that will be used if you don’t customize the policy.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can find these settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Updates</pc> section.</source>
+          <target>You can find these settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Updates</pc> section.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Policy setting</source>
+          <target>Policy setting</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Update and application detection frequency (hours)</source>
+          <target>Update and application detection frequency (hours)</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies how frequently (from 8-22 hours) <ph dataRef="id1" id="ph1" /> checks for new updates and applications.</source>
+          <target>Specifies how frequently (from 8-22 hours) <ph dataRef="id1" id="ph1" /> checks for new updates and applications.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">8</pc> hours.</source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">8</pc> hours.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Automated or prompted installation of updates and applications</source>
+          <target>Automated or prompted installation of updates and applications</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Specifies whether updates are installed automatically or whether the user is prompted before installation.</source>
+          <target>Specifies whether updates are installed automatically or whether the user is prompted before installation.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Additionally, this setting lets you schedule the installation of updates and applications.</source>
+          <target>Additionally, this setting lets you schedule the installation of updates and applications.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install updates and applications automatically as scheduled</pc>  installs updates and applications using the specified schedule.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install updates and applications automatically as scheduled</pc>  installs updates and applications using the specified schedule.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>As a dependent policy setting, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use Automatic Maintenance for Windows computers</pc>  specifies that updates and applications are installed during the Windows Automatic maintenance window.</source>
+          <target>As a dependent policy setting, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use Automatic Maintenance for Windows computers</pc>  specifies that updates and applications are installed during the Windows Automatic maintenance window.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prompt user for installation</pc> prompts the user to install updates when they are ready.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prompt user for installation</pc> prompts the user to install updates when they are ready.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Recommended values:</source>
+          <target>Recommended values:</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install updates and applications automatically as scheduled</pc> selected</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install updates and applications automatically as scheduled</pc> selected</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Day scheduled: Every day</source>
+          <target>Day scheduled: Every day</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Time scheduled: 3:00 AM</source>
+          <target>Time scheduled: 3:00 AM</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use Automatic Maintenance for Windows computers</pc> selected</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use Automatic Maintenance for Windows computers</pc> selected</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Allow immediate installation of updates that do not interrupt Windows</source>
+          <target>Allow immediate installation of updates that do not interrupt Windows</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow</pc> installs updates immediately after they are downloaded, except for updates that would interrupt or restart Windows.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow</pc> installs updates immediately after they are downloaded, except for updates that would interrupt or restart Windows.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Those updates are installed according to the configuration of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automated or prompted installation of updates</pc> setting.</source>
+          <target>Those updates are installed according to the configuration of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automated or prompted installation of updates</pc> setting.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Do not allow</pc> installs updates according to the configuration of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Automated or prompted installation of updates</pc> setting.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Do not allow</pc> installs updates according to the configuration of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Automated or prompted installation of updates</pc> setting.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow</pc></target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Delay to restart Windows after installation of scheduled updates and applications (minutes)</source>
+          <target>Delay to restart Windows after installation of scheduled updates and applications (minutes)</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Specifies (from 1-30 minutes), the time to wait to restart Windows after the installation of scheduled updates and applications.</source>
+          <target>Specifies (from 1-30 minutes), the time to wait to restart Windows after the installation of scheduled updates and applications.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">15 minutes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">15 minutes</pc></target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Delay following Windows restart to begin installing missed scheduled updates and applications (minutes)</source>
+          <target>Delay following Windows restart to begin installing missed scheduled updates and applications (minutes)</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Specifies (from 1-60 minutes), how long to wait to start the installation of updates and applications after Windows is restarted when a scheduled update was missed.</source>
+          <target>Specifies (from 1-60 minutes), how long to wait to start the installation of updates and applications after Windows is restarted when a scheduled update was missed.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">5 minutes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">5 minutes</pc></target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Allow logged-on user to control Windows restart after installation of scheduled updates and applications</source>
+          <target>Allow logged-on user to control Windows restart after installation of scheduled updates and applications</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies whether the logged-on user can delay restarting Windows (if set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>), or be notified of the automatic Windows restart (if set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">No</pc>).</source>
+          <target>Specifies whether the logged-on user can delay restarting Windows (if set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>), or be notified of the automatic Windows restart (if set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">No</pc>).</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>If no user is logged on when the scheduled installation of updates and applications is completed, Windows is restarted automatically when required.</source>
+          <target>If no user is logged on when the scheduled installation of updates and applications is completed, Windows is restarted automatically when required.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc>, by default, the time before Windows restarts is set to 5 minutes.</source>
+          <target>When set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc>, by default, the time before Windows restarts is set to 5 minutes.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Prompt user to restart Windows during <ph dataRef="id1" id="ph1" /> client agent mandatory updates</source>
+          <target>Prompt user to restart Windows during <ph dataRef="id1" id="ph1" /> client agent mandatory updates</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies whether the logged on users is prompted to restart Windows when a <ph dataRef="id1" id="ph1" /> client mandatory update requires Windows to restart.</source>
+          <target>Specifies whether the logged on users is prompted to restart Windows when a <ph dataRef="id1" id="ph1" /> client mandatory update requires Windows to restart.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Microsoft Intune client agent mandatory updates installation schedule</source>
+          <target>Microsoft Intune client agent mandatory updates installation schedule</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Schedules when the installation of client updates occur.</source>
+          <target>Schedules when the installation of client updates occur.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Recommended value: not configured</source>
+          <target>Recommended value: not configured</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Delay between prompts to restart Windows after installation of scheduled updates and applications (minutes)</source>
+          <target>Delay between prompts to restart Windows after installation of scheduled updates and applications (minutes)</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Specifies how frequently (from 1-1440 minutes) the user is prompted to restart Windows when a scheduled update or application that requires restarting Windows is installed, and the user delays the restart.</source>
+          <target>Specifies how frequently (from 1-1440 minutes) the user is prompted to restart Windows when a scheduled update or application that requires restarting Windows is installed, and the user delays the restart.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">30 minutes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">30 minutes</pc></target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Updating software made by Microsoft</source>
+          <target>Updating software made by Microsoft</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Updating Microsoft software requires very little work from you.</source>
+          <target>Updating Microsoft software requires very little work from you.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>However, before you start, there are two things you should configure:</source>
+          <target>However, before you start, there are two things you should configure:</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Product categories and update classifications</pc> – Defines the categories and classifications of the updates you want to make available to computers.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Product categories and update classifications</pc> – Defines the categories and classifications of the updates you want to make available to computers.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>For example, you might decide that you only want critical updates for Microsoft Office to be installed.</source>
+          <target>For example, you might decide that you only want critical updates for Microsoft Office to be installed.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic approval rules</pc> – These rules automatically approve specified types of update and reduce your administrative overhead.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic approval rules</pc> – These rules automatically approve specified types of update and reduce your administrative overhead.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>For example, you might want to automatically approve all critical software updates.</source>
+          <target>For example, you might want to automatically approve all critical software updates.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Use the following two procedures to help you get ready to use software updates:</source>
+          <target>Use the following two procedures to help you get ready to use software updates:</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Configure the product categories and update classifications you want to make available to managed computers</source>
+          <target>Configure the product categories and update classifications you want to make available to managed computers</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com/)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Updates</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Updates</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Service Settings: Updates</pc> page, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Product Category</pc> list, select the update categories that you want to make available to computers.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Service Settings: Updates</pc> page, in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Product Category</pc> list, select the update categories that you want to make available to computers.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Note that the most common updates are selected by default.</source>
+          <target>Note that the most common updates are selected by default.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>To ensure that computers receive the updates that have been approved by the admin, the Windows Server Update Services (WSUS) Group Policy setting, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specify Intranet Microsoft update service location</pc> must not be applied to computers that have been enrolled with <ph dataRef="id3" id="ph1" />.</source>
+          <target>To ensure that computers receive the updates that have been approved by the admin, the Windows Server Update Services (WSUS) Group Policy setting, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specify Intranet Microsoft update service location</pc> must not be applied to computers that have been enrolled with <ph dataRef="id3" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update Classification</pc> list, select the classes of update that you want to make available to managed computers.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update Classification</pc> list, select the classes of update that you want to make available to managed computers.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Again, the most common options are selected by default.</source>
+          <target>Again, the most common options are selected by default.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc> to store your selections.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc> to store your selections.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>To configure automatic approval rules for software updates</source>
+          <target>To configure automatic approval rules for software updates</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com/)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Updates</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Updates</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic Approval Rules</pc> section of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Server Settings: Updates</pc> page, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">New</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic Approval Rules</pc> section of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Server Settings: Updates</pc> page, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">New</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> page of the Create Automatic Approval Rule Wizard, specify a name and optional description for the rule.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> page of the Create Automatic Approval Rule Wizard, specify a name and optional description for the rule.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Product Categories</pc> page, select any products for which you want to have updates approved automatically.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Product Categories</pc> page, select any products for which you want to have updates approved automatically.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update Classifications</pc> page, specify the update classifications that you want to have approved automatically.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update Classifications</pc> page, specify the update classifications that you want to have approved automatically.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment</pc> page, do the following:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment</pc> page, do the following:</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the computer groups to which you want to deploy the new rule, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>.</source>
+          <target>Select the computer groups to which you want to deploy the new rule, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To specify an installation deadline for the updates, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce an installation deadline for these updates</pc> check box, and then on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Installation deadline</pc> list, select the installation deadline.</source>
+          <target>To specify an installation deadline for the updates, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enforce an installation deadline for these updates</pc> check box, and then on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Installation deadline</pc> list, select the installation deadline.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>If you specify an installation deadline, the managed computer might require one or more restarts after the deadline interval has passed.</source>
+          <target>If you specify an installation deadline, the managed computer might require one or more restarts after the deadline interval has passed.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Summary</pc> page, review the settings for the new rule, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Summary</pc> page, review the settings for the new rule, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Finish</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new rule is shown in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic Approval Rules</pc> section of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Service Settings: Updates</pc> page.</source>
+          <target>The new rule is shown in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic Approval Rules</pc> section of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Service Settings: Updates</pc> page.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you create an automatic approval rule, it only approves future updates, and does not automatically approve previously existing updates that already exist in <ph dataRef="id1" id="ph1" />.</source>
+          <target>When you create an automatic approval rule, it only approves future updates, and does not automatically approve previously existing updates that already exist in <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>To approve these updates you need to run the automatic approval rule.</source>
+          <target>To approve these updates you need to run the automatic approval rule.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md#BKMK_editrun)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">To edit, run, or delete an automatically approved update rule</pc> below.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">To edit, run, or delete an automatically approved update rule</pc> below.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_editrun"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />To edit, run, or delete an automatically approved update rule</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />To edit, run, or delete an automatically approved update rule</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com/)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Updates</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Updates</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic Approval Rules</pc> section, select a rule, and then do one of the following:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic Approval Rules</pc> section, select a rule, and then do one of the following:</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To edit the rule, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit</pc>, and then change the rule’s parameters in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update Auto Approval Rule Wizard</pc>.</source>
+          <target>To edit the rule, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit</pc>, and then change the rule’s parameters in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update Auto Approval Rule Wizard</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To run the rule, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run Selected</pc>.</source>
+          <target>To run the rule, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run Selected</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To delete the rule, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Delete</pc>.</source>
+          <target>To delete the rule, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Delete</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Deleting a rule does not affect previous updates that were approved by the deleted rule.</source>
+          <target>Deleting a rule does not affect previous updates that were approved by the deleted rule.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Updating software not made by Microsoft</source>
+          <target>Updating software not made by Microsoft</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>You can deploy updates for software that is not made by Microsoft.</source>
+          <target>You can deploy updates for software that is not made by Microsoft.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You do this by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload Update</pc> wizard to get the update into your Cloud Storage space, after which you can approve or decline the update just like with Microsoft software.</source>
+          <target>You do this by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload Update</pc> wizard to get the update into your Cloud Storage space, after which you can approve or decline the update just like with Microsoft software.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">&lt;a name="procstartwiz"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />To upload and configure a third-party update</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />To upload and configure a third-party update</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com/)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Updates</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Overview</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Upload</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Updates</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Overview</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Upload</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update files</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> to select the setup files that are required to install the update package.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update files</pc> page, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> to select the setup files that are required to install the update package.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>The file can be a Windows Installer (.msi) file, a Windows Installer patch (.msp) file, or a .exe program file.</source>
+          <target>The file can be a Windows Installer (.msi) file, a Windows Installer patch (.msp) file, or a .exe program file.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>You can also include any additional files or folders that are in the same folder as the setup file.</source>
+          <target>You can also include any additional files or folders that are in the same folder as the setup file.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>The total size of the selected files to upload is displayed.</source>
+          <target>The total size of the selected files to upload is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Note that this size does not include the uncompressed or expanded sizes of installation files.</source>
+          <target>Note that this size does not include the uncompressed or expanded sizes of installation files.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>After you specify the setup files, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update description</pc> page displays the name, description, and classification for software information that <ph dataRef="id3" id="ph1" /> extracted from the software setup files.</source>
+          <target>After you specify the setup files, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update description</pc> page displays the name, description, and classification for software information that <ph dataRef="id3" id="ph1" /> extracted from the software setup files.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>You can select a classification to label the type of update you are deploying (Updates, Critical Updates, Security Updates, Update Rollups or Service Packs).</source>
+          <target>You can select a classification to label the type of update you are deploying (Updates, Critical Updates, Security Updates, Update Rollups or Service Packs).</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> when you are done.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc> when you are done.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Requirements</pc> page of the wizard, choose the architecture (32-bit, 64-bit, or both), and the operating systems of the managed computers to which this update will be applicable.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Requirements</pc> page of the wizard, choose the architecture (32-bit, 64-bit, or both), and the operating systems of the managed computers to which this update will be applicable.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Detection rules</pc> page, specify how <ph dataRef="id3" id="ph1" /> determines whether the update already exists on managed computers.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Detection rules</pc> page, specify how <ph dataRef="id3" id="ph1" /> determines whether the update already exists on managed computers.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you use the default option, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the default detection rules</pc>, <ph dataRef="id3" id="ph1" /> always installs the update package on each targeted computer once.</source>
+          <target>If you use the default option, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use the default detection rules</pc>, <ph dataRef="id3" id="ph1" /> always installs the update package on each targeted computer once.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the update setup file that you specified is a Windows Installer or .msp file, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Detection rules</pc> page of the wizard does not appear.</source>
+          <target>If the update setup file that you specified is a Windows Installer or .msp file, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Detection rules</pc> page of the wizard does not appear.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>This is because Windows Installer and .msp files contain their own instructions for detecting previous update installations.</source>
+          <target>This is because Windows Installer and .msp files contain their own instructions for detecting previous update installations.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Select one or more of the following rules to determine whether the update is already installed on managed computers:</source>
+          <target>Select one or more of the following rules to determine whether the update is already installed on managed computers:</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>File exists</source>
+          <target>File exists</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>MSI product code exists</source>
+          <target>MSI product code exists</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Registry key exists</source>
+          <target>Registry key exists</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Provide any further information that is required to configure the detection rule such as a file path and name, Windows Installer product code, or a registry key, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Provide any further information that is required to configure the detection rule such as a file path and name, Windows Installer product code, or a registry key, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prerequisites</pc> page of the wizard, you specify any software that must already be installed before this update can be installed.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Prerequisites</pc> page of the wizard, you specify any software that must already be installed before this update can be installed.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can specify <pc dataRefEnd="id2" dataRefStart="id1" id="p1">None</pc>, select a software package that has already been added to, and is managed by <ph dataRef="id3" id="ph1" />, or you can specify one of the following rules to describe the software:</source>
+          <target>You can specify <pc dataRefEnd="id2" dataRefStart="id1" id="p1">None</pc>, select a software package that has already been added to, and is managed by <ph dataRef="id3" id="ph1" />, or you can specify one of the following rules to describe the software:</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>File exists</source>
+          <target>File exists</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>MSI product code exists</source>
+          <target>MSI product code exists</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Registry key exists</source>
+          <target>Registry key exists</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Provide any further information that is required to configure the detection rule like a file path and name, Windows Installer product code, or a registry key, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Provide any further information that is required to configure the detection rule like a file path and name, Windows Installer product code, or a registry key, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command line arguments</pc> page of the wizard, you can add any required installation properties to the installation command line to modify the behavior of the setup file.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Command line arguments</pc> page of the wizard, you can add any required installation properties to the installation command line to modify the behavior of the setup file.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, some software supports the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/q</pc> property to enable silent installation.</source>
+          <target>For example, some software supports the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/q</pc> property to enable silent installation.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Refer to the documentation for your software package to learn about any supported command line arguments.</source>
+          <target>Refer to the documentation for your software package to learn about any supported command line arguments.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify any command line arguments you need and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Specify any command line arguments you need and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the update does not support silent installation, you cannot install the update by using <ph dataRef="id1" id="ph1" />.</source>
+          <target>If the update does not support silent installation, you cannot install the update by using <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Return codes</pc> page of the wizard, you can specify how return codes from the update installation are interpreted.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Return codes</pc> page of the wizard, you can specify how return codes from the update installation are interpreted.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>By default, <ph dataRef="id1" id="ph1" /> uses industry-standard return codes to report a failed or successful installation of an update package.</source>
+          <target>By default, <ph dataRef="id1" id="ph1" /> uses industry-standard return codes to report a failed or successful installation of an update package.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>The supplied return codes are:</source>
+          <target>The supplied return codes are:</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Return code</source>
+          <target>Return code</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Interpretation</source>
+          <target>Interpretation</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>0</source>
+          <target>0</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Success</source>
+          <target>Success</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>3010</source>
+          <target>3010</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Success with restart</source>
+          <target>Success with restart</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Any return code that is not listed is considered a failure.</source>
+          <target>Any return code that is not listed is considered a failure.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Some updates use nonstandard interpretations for return codes.</source>
+          <target>Some updates use nonstandard interpretations for return codes.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>In this case, you can specify your own return code interpretations.</source>
+          <target>In this case, you can specify your own return code interpretations.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify or edit the required return codes and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Specify or edit the required return codes and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Summary</pc> page of the wizard, review the actions that will be taken, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Upload</pc> to complete the wizard.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Summary</pc> page of the wizard, review the actions that will be taken, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Upload</pc> to complete the wizard.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The uploaded update is stored in the <ph dataRef="id1" id="ph1" /> Cloud Storage that you purchased.</source>
+          <target>The uploaded update is stored in the <ph dataRef="id1" id="ph1" /> Cloud Storage that you purchased.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>If you have insufficient free space to upload the update package, you are notified of this during the upload process.</source>
+          <target>If you have insufficient free space to upload the update package, you are notified of this during the upload process.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> cannot determine sufficient free space until after the update upload has started, because compressed setup and installation files require more space when they are uncompressed.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> cannot determine sufficient free space until after the update upload has started, because compressed setup and installation files require more space when they are uncompressed.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After it is uploaded into <ph dataRef="id1" id="ph1" />, a third-party update is displayed in the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Updates</pc> workspace in the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">All Updates</pc> pane.</source>
+          <target>After it is uploaded into <ph dataRef="id1" id="ph1" />, a third-party update is displayed in the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Updates</pc> workspace in the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">All Updates</pc> pane.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>You can then approve and deploy the update.</source>
+          <target>You can then approve and deploy the update.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md#BKMK_Approve1)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Approving and declining updates</pc> section in this topic.</source>
+          <target>For more information, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Approving and declining updates</pc> section in this topic.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Approve1"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Approving and declining updates</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Approving and declining updates</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When updates are ready to install, a message is shown on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Updates Overview</pc> page of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Updates</pc> workspace, under <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Update Status</pc>.</source>
+          <target>When updates are ready to install, a message is shown on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Updates Overview</pc> page of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Updates</pc> workspace, under <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Update Status</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click this message to open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Updates</pc> page to see which updates are ready for approval.</source>
+          <target>Click this message to open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Updates</pc> page to see which updates are ready for approval.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filters</pc> list to make it easier to find updates.</source>
+          <target>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filters</pc> list to make it easier to find updates.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>For example, you can display only updates that failed, or updates that are superseded.</source>
+          <target>For example, you can display only updates that failed, or updates that are superseded.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>When you select an update from the list, further commands are available that let you manage updates as shown in the following table:</source>
+          <target>When you select an update from the list, further commands are available that let you manage updates as shown in the following table:</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Task</source>
+          <target>Task</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>View Properties</source>
+          <target>View Properties</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Displays detailed information about the update including the number of computers to which it is applicable.</source>
+          <target>Displays detailed information about the update including the number of computers to which it is applicable.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Edit</source>
+          <target>Edit</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>For non-Microsoft updates only.</source>
+          <target>For non-Microsoft updates only.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>Allows you to edit the properties of the update.</source>
+          <target>Allows you to edit the properties of the update.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>Approve</source>
+          <target>Approve</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>Approves the selected update and allows you to configure which groups is will be deployed to.</source>
+          <target>Approves the selected update and allows you to configure which groups is will be deployed to.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md#BKMK_Approve)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see the procedure <pc dataRefEnd="id2" dataRefStart="id1" id="p1">To approve updates</pc> in this topic.</source>
+          <target>For more information, see the procedure <pc dataRefEnd="id2" dataRefStart="id1" id="p1">To approve updates</pc> in this topic.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Decline</source>
+          <target>Decline</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Removes any previous approvals for the update and hides the update from the default views.</source>
+          <target>Removes any previous approvals for the update and hides the update from the default views.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>Additionally, any report data for the update will be removed.</source>
+          <target>Additionally, any report data for the update will be removed.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you later want to locate a declined update, set the filter on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Updates</pc> page to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Declined</pc>.</source>
+          <target>If you later want to locate a declined update, set the filter on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Updates</pc> page to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Declined</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>You can then approve this update as required.</source>
+          <target>You can then approve this update as required.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If an update was declined because the update was expired in Microsoft Update, that update cannot be approved in the <ph dataRef="id1" id="ph1" />.</source>
+          <target>If an update was declined because the update was expired in Microsoft Update, that update cannot be approved in the <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>If you delete an updates policy that is deployed to computers, the values of those updates policy settings are reset to the default state for the operating system that is installed on the computers.</source>
+          <target>If you delete an updates policy that is deployed to computers, the values of those updates policy settings are reset to the default state for the operating system that is installed on the computers.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Delete</source>
+          <target>Delete</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>For non-Microsoft updates only.</source>
+          <target>For non-Microsoft updates only.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Deletes the selected update.</source>
+          <target>Deletes the selected update.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>Upload</source>
+          <target>Upload</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Starts the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload Update</pc> wizard that allows you to upload non-Microsoft updates that you want to deploy.</source>
+          <target>Starts the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload Update</pc> wizard that allows you to upload non-Microsoft updates that you want to deploy.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Approve"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />To approve updates</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />To approve updates</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com/)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Updates</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Overview</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">New updates to approve</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Updates</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Overview</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">New updates to approve</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Updates</pc> workspace, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Overview</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">New updates to approve</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Updates</pc> workspace, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Overview</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">New updates to approve</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New updates to approve</pc> link appears in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Updates Status</pc> area only when there is at least one managed computer that needs an update to be approved.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">New updates to approve</pc> link appears in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Updates Status</pc> area only when there is at least one managed computer that needs an update to be approved.</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select an update, review the update properties at the bottom of the page to ensure that you want to approve the update, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Approve</pc>.</source>
+          <target>Select an update, review the update properties at the bottom of the page to ensure that you want to approve the update, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Approve</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can select multiple updates by holding down the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CTRL</pc> key as you select each item.</source>
+          <target>You can select multiple updates by holding down the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CTRL</pc> key as you select each item.</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Groups</pc> page, select a group that you want to deploy the updates to, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select Groups</pc> page, select a group that you want to deploy the updates to, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Add</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you have finished specifying groups, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>When you have finished specifying groups, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Action</pc> page, do the following for each group in the list:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Action</pc> page, do the following for each group in the list:</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Approval</pc> list, select one of the following:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Approval</pc> list, select one of the following:</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required Install</pc> - Installs the update on computers in the specified group.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required Install</pc> - Installs the update on computers in the specified group.</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Do Not Install</pc> - Reports applicability only and does not install the update.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Do Not Install</pc> - Reports applicability only and does not install the update.</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available Install</pc> – The user can install the application on demand from the Company Portal.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available Install</pc> – The user can install the application on demand from the Company Portal.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Uninstall</pc> - Removes updates from computers in the targeted group.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Uninstall</pc> - Removes updates from computers in the targeted group.</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The update is removed even if it was not installed by <ph dataRef="id1" id="ph1" />.</source>
+          <target>The update is removed even if it was not installed by <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deadline</pc> list, select one of the following:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deadline</pc> list, select one of the following:</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">None</pc> - Indicates that no deadline is enforced for the installation of the update and users may decline the update continually.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">None</pc> - Indicates that no deadline is enforced for the installation of the update and users may decline the update continually.</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">As soon as possible</pc> - Installs the update at the next opportunity on targeted computers.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">As soon as possible</pc> - Installs the update at the next opportunity on targeted computers.</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Custom</pc> - Specifies the date and time that approved updates are installed.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Custom</pc> - Specifies the date and time that approved updates are installed.</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">One week</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Two weeks</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">One month</pc> – Installs the update within the specified time period.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">One week</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Two weeks</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">One month</pc> – Installs the update within the specified time period.</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc> to save the settings, or click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Cancel</pc> to discard the settings and return to the updates list.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc> to save the settings, or click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Cancel</pc> to discard the settings and return to the updates list.</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Unless the action <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Do Not Install</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Required Install</pc>, or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Uninstall</pc> was explicitly configured for a child group, an action configured for a parent group is inherited by all its children.</source>
+          <target>Unless the action <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Do Not Install</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Required Install</pc>, or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Uninstall</pc> was explicitly configured for a child group, an action configured for a parent group is inherited by all its children.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can check the details pane at the bottom of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Updates</pc> page for reminder messages about the update.</source>
+          <target>You can check the details pane at the bottom of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Updates</pc> page for reminder messages about the update.</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Need more help?</source>
+          <target>Need more help?</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For further help and support, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Troubleshoot Endpoint Protection in Microsoft Intune</pc>.</source>
+          <target>For further help and support, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Troubleshoot Endpoint Protection in Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>Manage Windows PCs with Microsoft Intune</source>
+          <target>Manage Windows PCs with Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

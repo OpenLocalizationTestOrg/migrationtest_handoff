@@ -1,0 +1,1607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">c88f276bfdd3a329214c350b77263e1341563ba6</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - Windows 10 configuration policy settings in Microsoft Intune</source>
+          <target>MD Conversion - Windows 10 configuration policy settings in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - Windows 10 configuration policy settings in Microsoft Intune</source>
+          <target>MD Conversion - Windows 10 configuration policy settings in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">general configuration policy</pc> for Windows 10 to configure settings for enrolled Windows 10 desktop, and Windows 10 Mobile devices:</source>
+          <target>Use the <ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">general configuration policy</pc> for Windows 10 to configure settings for enrolled Windows 10 desktop, and Windows 10 Mobile devices:</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Create a Windows 10 general configuration policy</source>
+          <target>Create a Windows 10 general configuration policy</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>To provide basic settings for the configuration policy</source>
+          <target>To provide basic settings for the configuration policy</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Overview</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add Policy</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Overview</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">General Configuration (Windows 10 Desktop and Mobile and later)</pc> and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create Policy</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">General Configuration (Windows 10 Desktop and Mobile and later)</pc> and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>You cannot create a configuration policy using recommended settings.</source>
+          <target>You cannot create a configuration policy using recommended settings.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>You must create a custom policy.</source>
+          <target>You must create a custom policy.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> section of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create Policy</pc> page, specify a name and a description for the new policy.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> section of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create Policy</pc> page, specify a name and a description for the new policy.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Use the information in the following sections to help you supply settings for the policy.</source>
+          <target>Use the information in the following sections to help you supply settings for the policy.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</source>
+          <target>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Policies</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace.</source>
+          <target>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Policies</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Security settings</source>
+          <target>Security settings</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Password</source>
+          <target>Password</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Windows 10 Desktop</source>
+          <target>Windows 10 Desktop</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Require a password to unlock devices</source>
+          <target>Require a password to unlock devices</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Required password type</source>
+          <target>Required password type</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>(Specifies the type of password that will be required, such as numeric only, or alphanumeric)</source>
+          <target>(Specifies the type of password that will be required, such as numeric only, or alphanumeric)</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required password type</pc> - <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Minimum number of character sets</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required password type</pc> - <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Minimum number of character sets</pc></target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>(There are four character sets, lowercase letters, uppercase letters, numbers, and symbols.</source>
+          <target>(There are four character sets, lowercase letters, uppercase letters, numbers, and symbols.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>This setting specifies how many different character sets must be included in the password).</source>
+          <target>This setting specifies how many different character sets must be included in the password).</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Minimum password length (Windows 10 Desktop only)</source>
+          <target>Minimum password length (Windows 10 Desktop only)</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>This setting is no longer supported and will be removed in the future.</source>
+          <target>This setting is no longer supported and will be removed in the future.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>You can use the setting for Windows 10 Mobile below for desktop computers.</source>
+          <target>You can use the setting for Windows 10 Mobile below for desktop computers.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Minimum password length (Windows 10 Mobile only)</source>
+          <target>Minimum password length (Windows 10 Mobile only)</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Number of repeated sign-in failures to allow before the device is wiped</source>
+          <target>Number of repeated sign-in failures to allow before the device is wiped</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Minutes of inactivity before screen turns off</source>
+          <target>Minutes of inactivity before screen turns off</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Password expiration (days)</source>
+          <target>Password expiration (days)</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Remember password history</source>
+          <target>Remember password history</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remember password history</pc> - <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Prevent reuse of previous passwords</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remember password history</pc> - <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Prevent reuse of previous passwords</pc></target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Allow picture password and PIN</source>
+          <target>Allow picture password and PIN</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Lets you use simple gestures on a picture, or a simple PIN to login.</source>
+          <target>Lets you use simple gestures on a picture, or a simple PIN to login.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Require a password when the device returns from an idle state</source>
+          <target>Require a password when the device returns from an idle state</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Encryption</source>
+          <target>Encryption</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Windows 10 Desktop</source>
+          <target>Windows 10 Desktop</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Require encryption on mobile device</source>
+          <target>Require encryption on mobile device</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>System</source>
+          <target>System</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Windows 10 Desktop</source>
+          <target>Windows 10 Desktop</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Allow screen capture</source>
+          <target>Allow screen capture</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Allow manual unenrollment</source>
+          <target>Allow manual unenrollment</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Lets the user manually delete the workplace account from the device.</source>
+          <target>Lets the user manually delete the workplace account from the device.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Allow manual root certificate installation</source>
+          <target>Allow manual root certificate installation</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Specifies whether the user can manually install root certificates</source>
+          <target>Specifies whether the user can manually install root certificates</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Allow diagnostic and usage data to be sent to Microsoft</source>
+          <target>Allow diagnostic and usage data to be sent to Microsoft</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Cloud settings</source>
+          <target>Cloud settings</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Account and synchronization</source>
+          <target>Account and synchronization</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Windows 10 Desktop</source>
+          <target>Windows 10 Desktop</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Allow Microsoft account</source>
+          <target>Allow Microsoft account</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Allow adding non-Microsoft accounts manually</source>
+          <target>Allow adding non-Microsoft accounts manually</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Allow settings synchronization for Microsoft accounts</source>
+          <target>Allow settings synchronization for Microsoft accounts</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Email settings</source>
+          <target>Email settings</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Windows 10 Desktop</source>
+          <target>Windows 10 Desktop</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Make Microsoft account optional in Windows Mail application</source>
+          <target>Make Microsoft account optional in Windows Mail application</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Application settings</source>
+          <target>Application settings</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Microsoft Edge</source>
+          <target>Microsoft Edge</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Windows 10 Desktop</source>
+          <target>Windows 10 Desktop</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Allow web browser</source>
+          <target>Allow web browser</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Allow search suggestions in address bar</source>
+          <target>Allow search suggestions in address bar</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Allow sending intranet traffic to Internet Explorer</source>
+          <target>Allow sending intranet traffic to Internet Explorer</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Allow do not track</source>
+          <target>Allow do not track</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Enable SmartScreen</source>
+          <target>Enable SmartScreen</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Allow active scripting</source>
+          <target>Allow active scripting</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Allow pop-ups</source>
+          <target>Allow pop-ups</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>Allow cookies</source>
+          <target>Allow cookies</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Allow Autofill</source>
+          <target>Allow Autofill</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Allow Password Manager</source>
+          <target>Allow Password Manager</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Enterprise Mode site list location</source>
+          <target>Enterprise Mode site list location</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Specifies where to find the list of web sites that will open in Enterprise mode.</source>
+          <target>Specifies where to find the list of web sites that will open in Enterprise mode.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Users cannot edit this list.</source>
+          <target>Users cannot edit this list.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Apps</source>
+          <target>Apps</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Windows 10 Desktop</source>
+          <target>Windows 10 Desktop</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Allow application store</source>
+          <target>Allow application store</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Device capability settings</source>
+          <target>Device capability settings</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Cellular</source>
+          <target>Cellular</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>Windows 10 Desktop</source>
+          <target>Windows 10 Desktop</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Allow data roaming</source>
+          <target>Allow data roaming</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Allow VPN over cellular</source>
+          <target>Allow VPN over cellular</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>Allow VPN roaming over cellular</source>
+          <target>Allow VPN roaming over cellular</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Hardware</source>
+          <target>Hardware</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Windows 10 Desktop</source>
+          <target>Windows 10 Desktop</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>Allow camera</source>
+          <target>Allow camera</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>Allow removable storage</source>
+          <target>Allow removable storage</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Allow Wi-Fi</source>
+          <target>Allow Wi-Fi</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>Allow internet sharing</source>
+          <target>Allow internet sharing</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>Allow manual Wi-Fi configuration</source>
+          <target>Allow manual Wi-Fi configuration</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>Allow automatic connection to free Wi-Fi hotspots</source>
+          <target>Allow automatic connection to free Wi-Fi hotspots</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>Allow geolocation</source>
+          <target>Allow geolocation</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>Specifies whether the device can use location services information.</source>
+          <target>Specifies whether the device can use location services information.</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>Allow NFC</source>
+          <target>Allow NFC</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>Allow Bluetooth</source>
+          <target>Allow Bluetooth</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>Allow Bluetooth discoverable mode</source>
+          <target>Allow Bluetooth discoverable mode</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>Allow Bluetooth advertising</source>
+          <target>Allow Bluetooth advertising</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Allows devices to receive advertisements over Bluetooth.</source>
+          <target>Allows devices to receive advertisements over Bluetooth.</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow Bluetooth connectable mode</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Important:</pc> This setting is no longer supported by Windows 10 and will be removed in the future.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow Bluetooth connectable mode</pc>
+            <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Important:</pc> This setting is no longer supported by Windows 10 and will be removed in the future.</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>Allow phone reset</source>
+          <target>Allow phone reset</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>Allow USB connection</source>
+          <target>Allow USB connection</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>Allow AntiTheft mode</source>
+          <target>Allow AntiTheft mode</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Configure whether Windows Antitheft mode is enabled.</source>
+          <target>Configure whether Windows Antitheft mode is enabled.</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <segment state="initial">
+          <source>Features</source>
+          <target>Features</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>Windows 10 Desktop</source>
+          <target>Windows 10 Desktop</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>Allow copy and paste</source>
+          <target>Allow copy and paste</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>Allow voice recording</source>
+          <target>Allow voice recording</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>Allow Cortana</source>
+          <target>Allow Cortana</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>Allow action center notifications</source>
+          <target>Allow action center notifications</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>Updates settings</source>
+          <target>Updates settings</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>Windows 10 Desktop</source>
+          <target>Windows 10 Desktop</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>Windows 10 Mobile</source>
+          <target>Windows 10 Mobile</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>Allow automatic updates</source>
+          <target>Allow automatic updates</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>Enable this setting to allow automatic updates.</source>
+          <target>Enable this setting to allow automatic updates.</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <segment state="initial">
+          <source>Then, configure one of several settings to control update behavior.</source>
+          <target>Then, configure one of several settings to control update behavior.</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>Deploy the Configuration Policy</source>
+          <target>Deploy the Configuration Policy</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>Deploy the configuration policy to one or more groups of users or devices in your organization.</source>
+          <target>Deploy the configuration policy to one or more groups of users or devices in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to deploy policies, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</source>
+          <target>For more information about how to deploy policies, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>A status summary and alerts In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> workspace identify issues with the policy that require your attention.</source>
+          <target>A status summary and alerts In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> workspace identify issues with the policy that require your attention.</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Additionally, a status summary appears in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace.</source>
+          <target>Additionally, a status summary appears in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>Use policies to manage computers and mobile devices with Microsoft Intune</source>
+          <target>Use policies to manage computers and mobile devices with Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

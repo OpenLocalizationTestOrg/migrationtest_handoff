@@ -1,0 +1,985 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">6186e734bdae3c46ef97957f00c27e6718c8e10b</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>robstack - V2 of Deploy apps to computers</source>
+          <target>robstack - V2 of Deploy apps to computers</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>robstack - V2 of Deploy apps to computers</source>
+          <target>robstack - V2 of Deploy apps to computers</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/dn646955.aspx)</data>
+          <data id="id3">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Now that you've <pc dataRefEnd="id2" dataRefStart="id1" id="p1">learned the basics</pc> about <ph dataRef="id3" id="ph1" /> app deployment, in this topic, you'll learn how to actually configure and deploy apps to Windows PCs you manage.</source>
+          <target>Now that you've <pc dataRefEnd="id2" dataRefStart="id1" id="p1">learned the basics</pc> about <ph dataRef="id3" id="ph1" /> app deployment, in this topic, you'll learn how to actually configure and deploy apps to Windows PCs you manage.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This generally involves three steps:</source>
+          <target>This generally involves three steps:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Configure the app</source>
+          <target>Configure the app</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Deploy the app</source>
+          <target>Deploy the app</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Monitor the app</source>
+          <target>Monitor the app</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Update-apps-using-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about how to update and retire apps, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update apps using Microsoft Intune</pc>.</source>
+          <target>For information about how to update and retire apps, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update apps using Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/dn646959.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>The information in this topic helps you to deploy apps to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows PCs that you manage using the client software</pc>.</source>
+          <target>The information in this topic helps you to deploy apps to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows PCs that you manage using the client software</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/mt346003.aspx)</data>
+          <data id="id3">[</data>
+          <data id="id4">](../Topic/Deploy-apps-to-mobile-devices-in-Microsoft-Intune---deleted.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you want to deploy apps to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">enrolled Windows PCs</pc> and other mobile devices, see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Deploy apps to mobile devices in Microsoft Intune - deleted</pc>.</source>
+          <target>If you want to deploy apps to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">enrolled Windows PCs</pc> and other mobile devices, see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Deploy apps to mobile devices in Microsoft Intune - deleted</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Conf"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Configure the app</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Configure the app</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>In this procedure, you'll use the Intune Software Publisher to configure the properties of the app and upload it to your cloud storage space.</source>
+          <target>In this procedure, you'll use the Intune Software Publisher to configure the properties of the app and upload it to your cloud storage space.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>To configure an app</source>
+          <target>To configure an app</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administrator console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apps</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Apps</pc> to start the Intune software publisher.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administrator console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apps</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Apps</pc> to start the Intune software publisher.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>You might need to enter your Intune username and password before the publisher starts.</source>
+          <target>You might need to enter your Intune username and password before the publisher starts.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Software setup</pc> page of the software publisher, configure the following:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Software setup</pc> page of the software publisher, configure the following:</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select how this software is made available to devices</pc> - Choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Software installer</pc>, then specify:</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select how this software is made available to devices</pc> - Choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Software installer</pc>, then specify:</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Setting</source>
+          <target>Setting</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Select the software installer file type</source>
+          <target>Select the software installer file type</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>This indicates the type of software you want to deploy.</source>
+          <target>This indicates the type of software you want to deploy.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a Windows PC, choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Installer</pc>.</source>
+          <target>For a Windows PC, choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Installer</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Specify the location of the software setup files</source>
+          <target>Specify the location of the software setup files</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the location of the installation files or click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse</pc> to select the location from a list.</source>
+          <target>Enter the location of the installation files or click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse</pc> to select the location from a list.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Include additional files and subfolders from the same folder</source>
+          <target>Include additional files and subfolders from the same folder</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Some software that uses Windows Installer requires supporting files which are typically found in the same folder as the installation files.</source>
+          <target>Some software that uses Windows Installer requires supporting files which are typically found in the same folder as the installation files.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Select this option if you also want to deploy these supporting files.</source>
+          <target>Select this option if you also want to deploy these supporting files.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>This installation type uses some of your cloud storage space.</source>
+          <target>This installation type uses some of your cloud storage space.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Software description</pc> page, configure the following:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Software description</pc> page, configure the following:</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Depending on the installer file you are using, some of these values might have been automatically entered, or might not appear.</source>
+          <target>Depending on the installer file you are using, some of these values might have been automatically entered, or might not appear.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Setting</source>
+          <target>Setting</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Publisher</source>
+          <target>Publisher</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Enter the name of the publisher of the app.</source>
+          <target>Enter the name of the publisher of the app.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Enter the name of the app as it will be displayed in the company portal.</source>
+          <target>Enter the name of the app as it will be displayed in the company portal.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tip:</pc> Make sure all app names you use are unique.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tip:</pc> Make sure all app names you use are unique.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>If the same app name exists twice, only one of the apps will be displayed to users in the company portal.</source>
+          <target>If the same app name exists twice, only one of the apps will be displayed to users in the company portal.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Enter a description for the app.</source>
+          <target>Enter a description for the app.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>This will be displayed to users in the company portal.</source>
+          <target>This will be displayed to users in the company portal.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>URL for software information</source>
+          <target>URL for software information</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>(optional) Enter a URL to a website that contains information about this app.</source>
+          <target>(optional) Enter a URL to a website that contains information about this app.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>The URL will be displayed to users in the company portal.</source>
+          <target>The URL will be displayed to users in the company portal.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Privacy URL</source>
+          <target>Privacy URL</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>(optional) Enter a URL to a website that contains privacy information for this app.</source>
+          <target>(optional) Enter a URL to a website that contains privacy information for this app.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>The URL will be displayed to users in the company portal.</source>
+          <target>The URL will be displayed to users in the company portal.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Category</source>
+          <target>Category</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>(optional) Select one of the built-in app categories.</source>
+          <target>(optional) Select one of the built-in app categories.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>This will make it easier for users to find the app when they browse the company portal.</source>
+          <target>This will make it easier for users to find the app when they browse the company portal.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Icon</source>
+          <target>Icon</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>(optional) Upload an icon that will be associated with the app.</source>
+          <target>(optional) Upload an icon that will be associated with the app.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>This is the icon that will be displayed with the app when users browse the company portal.</source>
+          <target>This is the icon that will be displayed with the app when users browse the company portal.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Requirements</pc> page, select the requirements that must be met before the app can start to install on a device from:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Requirements</pc> page, select the requirements that must be met before the app can start to install on a device from:</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Architecture</pc> - Select whether this app can be installed on 32-bit, 64-bit, or both operating systems.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Architecture</pc> - Select whether this app can be installed on 32-bit, 64-bit, or both operating systems.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating System</pc> - Select the minimum operating system on which this app can be installed.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operating System</pc> - Select the minimum operating system on which this app can be installed.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Installer</pc> file type only (exe only): On the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Detection rules</pc> page, you can configure rules to detect if the app you are configuring is already installed on a PC, or  you can use the default detection rules to automatically overwrite any previously installed versions of the app.</source>
+          <target>For the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Installer</pc> file type only (exe only): On the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Detection rules</pc> page, you can configure rules to detect if the app you are configuring is already installed on a PC, or  you can use the default detection rules to automatically overwrite any previously installed versions of the app.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>The rules you can configure are:</source>
+          <target>The rules you can configure are:</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File exists</pc> - Specify the path to the file you want to detect.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">File exists</pc> - Specify the path to the file you want to detect.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can search under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">%ProgramFiles%</pc> (which searches <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Program Files</pc>\*&amp;lt;path&amp;gt;* and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Program Files (x86)</pc>\*&amp;lt;path&amp;gt;*) on the PC or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">%SystemDrive%</pc> (which searches from the root drive of the PC, typically C:)</source>
+          <target>You can search under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">%ProgramFiles%</pc> (which searches <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Program Files</pc>\*&amp;lt;path&amp;gt;* and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Program Files (x86)</pc>\*&amp;lt;path&amp;gt;*) on the PC or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">%SystemDrive%</pc> (which searches from the root drive of the PC, typically C:)</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MSI product code exists</pc> - Click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> to choose the Windows Installer (msi) file you want to detect.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MSI product code exists</pc> - Click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Browse</pc> to choose the Windows Installer (msi) file you want to detect.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Registry key exists</pc> - Specify a registry key that begins with *<pc dataRefEnd="id4" dataRefStart="id3" id="p2">HKEY_LOCAL_MACHINE\*</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Registry key exists</pc> - Specify a registry key that begins with *<pc dataRefEnd="id4" dataRefStart="id3" id="p2">HKEY_LOCAL_MACHINE\*</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Both 32-bit and 64-bit registry paths are searched.</source>
+          <target>Both 32-bit and 64-bit registry paths are searched.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>If the key you specified exists in either location, the detection rule is satisfied.</source>
+          <target>If the key you specified exists in either location, the detection rule is satisfied.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>If the app satisfies any of the rules you have configured, it will not be installed.</source>
+          <target>If the app satisfies any of the rules you have configured, it will not be installed.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Installer</pc> file type only (msi and exe): On the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Command line arguments</pc> page, choose whether you want to supply optional command-line arguments for the installer.</source>
+          <target>For the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Installer</pc> file type only (msi and exe): On the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Command line arguments</pc> page, choose whether you want to supply optional command-line arguments for the installer.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, some installers might support the argument <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/q</pc> to install silently with no user intervention.</source>
+          <target>For example, some installers might support the argument <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/q</pc> to install silently with no user intervention.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Installer</pc> file type only (exe only): On the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Return codes</pc> page, you can add new error codes that are interpreted by Intune when the app installs on a managed Windows PC.</source>
+          <target>For the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Installer</pc> file type only (exe only): On the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Return codes</pc> page, you can add new error codes that are interpreted by Intune when the app installs on a managed Windows PC.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>By default, <ph dataRef="id1" id="ph1" /> uses industry-standard return codes to report the failure or success of an app package installation:</source>
+          <target>By default, <ph dataRef="id1" id="ph1" /> uses industry-standard return codes to report the failure or success of an app package installation:</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">0</pc> - Success</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">0</pc> - Success</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">3010</pc> - Success with restart</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">3010</pc> - Success with restart</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>You can also add your own return codes to this list.</source>
+          <target>You can also add your own return codes to this list.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>If you specify a list of return codes and the app installation returns a code that isn't on the list, it is interpreted as a failure.</source>
+          <target>If you specify a list of return codes and the app installation returns a code that isn't on the list, it is interpreted as a failure.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Summary</pc> page, review the information you specified.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Summary</pc> page, review the information you specified.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Once you are ready, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload</pc>.</source>
+          <target>Once you are ready, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Close</pc> to finish.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Close</pc> to finish.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The app is displayed on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apps</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apps</pc> workspace.</source>
+          <target>The app is displayed on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apps</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apps</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Depl"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Deploy the app</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Deploy the app</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>In this procedure, you'll deploy the app to selected devices or users.</source>
+          <target>In this procedure, you'll deploy the app to selected devices or users.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>To deploy the app</source>
+          <target>To deploy the app</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administrator console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apps</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Apps</pc> to view the list of apps you manage.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administrator console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apps</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Apps</pc> to view the list of apps you manage.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the app you want to deploy, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manage Deployment</pc>.</source>
+          <target>Select the app you want to deploy, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manage Deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">&amp;lt;app name&amp;gt;</pc> dialog box, first, on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Select Groups</pc> page, choose the user or device groups to which you want to deploy the app.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">&amp;lt;app name&amp;gt;</pc> dialog box, first, on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Select Groups</pc> page, choose the user or device groups to which you want to deploy the app.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Action</pc> page, configure the following:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deployment Action</pc> page, configure the following:</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Setting</source>
+          <target>Setting</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Approval</source>
+          <target>Approval</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Choose whether the deployment is:</source>
+          <target>Choose whether the deployment is:</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required</pc> (mandatory install)</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required</pc> (mandatory install)</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available</pc> (users install from the company portal on demand)</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available</pc> (users install from the company portal on demand)</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Not Applicable</pc> (the app is not installed or shown in the company portal)</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Not Applicable</pc> (the app is not installed or shown in the company portal)</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Uninstall</pc> (the app will be uninstalled from targeted devices)</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Uninstall</pc> (the app will be uninstalled from targeted devices)</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Deadline</source>
+          <target>Deadline</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>For required installations, choose how soon the app will be deployed.</source>
+          <target>For required installations, choose how soon the app will be deployed.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can choose from the predefined values, or select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Custom</pc> to configure your own deadline.</source>
+          <target>You can choose from the predefined values, or select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Custom</pc> to configure your own deadline.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Monitor"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Monitor the app</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Monitor the app</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can see the apps you manage, and their deployment status in the <ph dataRef="id1" id="ph1" /> console.</source>
+          <target>You can see the apps you manage, and their deployment status in the <ph dataRef="id1" id="ph1" /> console.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>To view the apps you manage and their status</source>
+          <target>To view the apps you manage and their status</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apps</pc> workspace, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apps</pc> node.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apps</pc> workspace, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Apps</pc> node.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>The list of apps you manage will be displayed.</source>
+          <target>The list of apps you manage will be displayed.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>You can click on any app to see an installation status in the lower pane of the console windows.</source>
+          <target>You can click on any app to see an installation status in the lower pane of the console windows.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Click on this status to see further details.</source>
+          <target>Click on this status to see further details.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, if the status shows <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1 user has this software available</pc>, you can click the message to see the name of the user.</source>
+          <target>For example, if the status shows <pc dataRefEnd="id2" dataRefStart="id1" id="p1">1 user has this software available</pc>, you can click the message to see the name of the user.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filters</pc> drop-down list to show only apps that meet the criteria you specify, like apps that failed to install, or apps that were successfully deployed.</source>
+          <target>You can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filters</pc> drop-down list to show only apps that meet the criteria you specify, like apps that failed to install, or apps that were successfully deployed.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Additionally, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace shows an overview of the status of your apps.</source>
+          <target>Additionally, the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace shows an overview of the status of your apps.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>If you click anywhere in the overview, you'll be taken to the list of apps.</source>
+          <target>If you click anywhere in the overview, you'll be taken to the list of apps.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>To view more detailed information about an app</source>
+          <target>To view more detailed information about an app</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the list of apps, select any app, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View Properties</pc>.</source>
+          <target>In the list of apps, select any app, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View Properties</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Software Properties</pc> page for the app, click one of these tabs:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Software Properties</pc> page for the app, click one of these tabs:</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> - Shows general information about the app and it's installation status.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> - Shows general information about the app and it's installation status.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Devices</pc> - Shows the devices that successfully installed a targeted deployment of the app.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Devices</pc> - Shows the devices that successfully installed a targeted deployment of the app.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Users</pc> - Shows the users who's devices successfully installed a targeted deployment of the app.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Users</pc> - Shows the users who's devices successfully installed a targeted deployment of the app.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>As before, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filters</pc> drop-down list to configure the values shown on each of the tabs.</source>
+          <target>As before, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filters</pc> drop-down list to configure the values shown on each of the tabs.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Deploy and configure apps with Microsoft Intune</source>
+          <target>Deploy and configure apps with Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

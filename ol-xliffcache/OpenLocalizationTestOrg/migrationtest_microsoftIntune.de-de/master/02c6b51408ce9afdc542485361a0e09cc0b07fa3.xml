@@ -1,0 +1,201 @@
+{
+  "nodes": [
+    {
+      "content": "Help for Managed Apps",
+      "pos": [
+        11,
+        32
+      ]
+    },
+    {
+      "content": "Help for Managed Apps",
+      "pos": [
+        238,
+        259
+      ]
+    },
+    {
+      "content": "What are managed apps?",
+      "pos": [
+        264,
+        286
+      ]
+    },
+    {
+      "pos": [
+        287,
+        451
+      ],
+      "content": "To help protect company data on a device that has been enrolled with <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph>, your IT department can use managed apps."
+    },
+    {
+      "content": "Managed apps work similar to other apps, but must be installed by your IT department after your device enrolls with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        453,
+        621
+      ]
+    },
+    {
+      "content": "A managed app that you install directly on a device will not work with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> and will need to be removed and then reinstalled by your IT department using <ph id=\"ph2\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        622,
+        874
+      ]
+    },
+    {
+      "content": "How do they work?",
+      "pos": [
+        879,
+        896
+      ]
+    },
+    {
+      "content": "When data, for example a document, spreadsheet, etc., is protected by managed apps, you must use a managed app to access that data.",
+      "pos": [
+        897,
+        1028
+      ]
+    },
+    {
+      "content": "If a managed app is required (and installed), it will open automatically.",
+      "pos": [
+        1029,
+        1102
+      ]
+    },
+    {
+      "content": "If a required app is not available, certain operations, like opening a document or accessing a web link from within a managed document, might not be available.",
+      "pos": [
+        1103,
+        1262
+      ]
+    },
+    {
+      "content": "When might I use them?",
+      "pos": [
+        1267,
+        1289
+      ]
+    },
+    {
+      "content": "The following list includes common configurations and options that can be managed and that could affect your interactions with content and company resources from your device:",
+      "pos": [
+        1290,
+        1464
+      ]
+    },
+    {
+      "content": "Access to specific websites",
+      "pos": [
+        1470,
+        1497
+      ]
+    },
+    {
+      "content": "Transfers of data between apps",
+      "pos": [
+        1503,
+        1533
+      ]
+    },
+    {
+      "pos": [
+        1539,
+        1561
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Save as<ept id=\"p1\">**</ept> operations"
+    },
+    {
+      "pos": [
+        1567,
+        1600
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Copy<ept id=\"p1\">**</ept> and <bpt id=\"p2\">**</bpt>paste<ept id=\"p2\">**</ept> operations"
+    },
+    {
+      "content": "PIN access requirements",
+      "pos": [
+        1606,
+        1629
+      ]
+    },
+    {
+      "content": "Login using company credentials",
+      "pos": [
+        1635,
+        1666
+      ]
+    },
+    {
+      "content": "Backup to the cloud",
+      "pos": [
+        1672,
+        1691
+      ]
+    },
+    {
+      "content": "Screen capture events",
+      "pos": [
+        1697,
+        1718
+      ]
+    },
+    {
+      "content": "Data encryption requirements",
+      "pos": [
+        1724,
+        1752
+      ]
+    },
+    {
+      "content": "The following are common apps that your IT department might manage:",
+      "pos": [
+        1754,
+        1821
+      ]
+    },
+    {
+      "content": "Managed web browser",
+      "pos": [
+        1827,
+        1846
+      ]
+    },
+    {
+      "content": "Managed image viewer",
+      "pos": [
+        1852,
+        1872
+      ]
+    },
+    {
+      "content": "Managed PDF viewer",
+      "pos": [
+        1878,
+        1896
+      ]
+    },
+    {
+      "content": "Managed AV player",
+      "pos": [
+        1902,
+        1919
+      ]
+    },
+    {
+      "content": "Do I have to do anything to use them?",
+      "pos": [
+        1924,
+        1961
+      ]
+    },
+    {
+      "content": "Contact your IT department for more information about the managed apps on your device.",
+      "pos": [
+        1962,
+        2048
+      ]
+    }
+  ],
+  "content": "---\ntitle: Help for Managed Apps\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 48e0ce4a-d630-4349-bdbb-7b90e69ea5fd\nauthor: Brenduns\nrobots: noindex,nofollow\n---\n# Help for Managed Apps\n\n## What are managed apps?\nTo help protect company data on a device that has been enrolled with [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)], your IT department can use managed apps.\n\nManaged apps work similar to other apps, but must be installed by your IT department after your device enrolls with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. A managed app that you install directly on a device will not work with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] and will need to be removed and then reinstalled by your IT department using [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n## How do they work?\nWhen data, for example a document, spreadsheet, etc., is protected by managed apps, you must use a managed app to access that data. If a managed app is required (and installed), it will open automatically. If a required app is not available, certain operations, like opening a document or accessing a web link from within a managed document, might not be available.\n\n## When might I use them?\nThe following list includes common configurations and options that can be managed and that could affect your interactions with content and company resources from your device:\n\n-   Access to specific websites\n\n-   Transfers of data between apps\n\n-   **Save as** operations\n\n-   **Copy** and **paste** operations\n\n-   PIN access requirements\n\n-   Login using company credentials\n\n-   Backup to the cloud\n\n-   Screen capture events\n\n-   Data encryption requirements\n\nThe following are common apps that your IT department might manage:\n\n-   Managed web browser\n\n-   Managed image viewer\n\n-   Managed PDF viewer\n\n-   Managed AV player\n\n## Do I have to do anything to use them?\nContact your IT department for more information about the managed apps on your device.\n\n"
+}

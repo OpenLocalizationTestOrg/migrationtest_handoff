@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "content": "Configure mobile device management for Microsoft Intune",
+      "pos": [
+        11,
+        66
+      ]
+    },
+    {
+      "content": "Configure mobile device management for Microsoft Intune",
+      "pos": [
+        218,
+        273
+      ]
+    },
+    {
+      "content": "Insert introduction here.",
+      "pos": [
+        274,
+        299
+      ]
+    },
+    {
+      "content": "Section Heading",
+      "pos": [
+        304,
+        319
+      ]
+    },
+    {
+      "content": "Insert section body here.",
+      "pos": [
+        320,
+        345
+      ]
+    },
+    {
+      "content": "Subsection Heading",
+      "pos": [
+        351,
+        369
+      ]
+    },
+    {
+      "content": "Insert subsection body here.",
+      "pos": [
+        370,
+        398
+      ]
+    }
+  ],
+  "content": "---\ntitle: Configure mobile device management for Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: c2cf8265-1cce-44b2-9f73-ba7fc80c253a\nauthor: NathBarn\n---\n# Configure mobile device management for Microsoft Intune\nInsert introduction here.\n\n## Section Heading\nInsert section body here.\n\n### Subsection Heading\nInsert subsection body here.\n\n"
+}

@@ -1,0 +1,1203 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - Windows configuration policy settings in Microsoft Intune",
+      "pos": [
+        11,
+        84
+      ]
+    },
+    {
+      "content": "MD Conversion - Windows configuration policy settings in Microsoft Intune",
+      "pos": [
+        219,
+        292
+      ]
+    },
+    {
+      "pos": [
+        293,
+        465
+      ],
+      "content": "Use the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><bpt id=\"p1\">**</bpt>Windows general configuration policy<ept id=\"p1\">**</ept> to configure settings for enrolled Windows 8, and Windows 8.1 devices:"
+    },
+    {
+      "content": "Create a Windows general configuration policy",
+      "pos": [
+        470,
+        515
+      ]
+    },
+    {
+      "content": "To provide basic settings for the configuration policy",
+      "pos": [
+        522,
+        576
+      ]
+    },
+    {
+      "pos": [
+        582,
+        717
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com)</ept>, click <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Overview<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Add Policy<ept id=\"p4\">**</ept>."
+    },
+    {
+      "pos": [
+        723,
+        829
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Windows<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>General Configuration (Windows 8.1 and later)<ept id=\"p2\">**</ept> and then click <bpt id=\"p3\">**</bpt>Create Policy<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        837,
+        952
+      ],
+      "content": "[!NOTE]\nYou cannot create a configuration policy using recommended settings. You must create a custom policy.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "You cannot create a configuration policy using recommended settings. You must create a custom policy.",
+          "pos": [
+            8,
+            109
+          ],
+          "nodes": [
+            {
+              "content": "You cannot create a configuration policy using recommended settings.",
+              "pos": [
+                0,
+                68
+              ]
+            },
+            {
+              "content": "You must create a custom policy.",
+              "pos": [
+                69,
+                101
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        958,
+        1068
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>General<ept id=\"p1\">**</ept> section of the <bpt id=\"p2\">**</bpt>Create Policy<ept id=\"p2\">**</ept> page, specify a name and a description for the new policy."
+    },
+    {
+      "content": "Use the information in the following sections to help you supply settings for the policy.",
+      "pos": [
+        1074,
+        1163
+      ]
+    },
+    {
+      "pos": [
+        1169,
+        1214
+      ],
+      "content": "When you are finished, click <bpt id=\"p1\">**</bpt>Save Policy<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        1216,
+        1307
+      ],
+      "content": "The new policy displays in the <bpt id=\"p1\">**</bpt>Configuration Policies<ept id=\"p1\">**</ept> node of the <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> workspace."
+    },
+    {
+      "pos": [
+        1312,
+        1377
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_Settings\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Settings for enrolled Windows devices"
+    },
+    {
+      "pos": [
+        1383,
+        1423
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_sec\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Security settings"
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        1426,
+        1438
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        1439,
+        1469
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        1470,
+        1480
+      ]
+    },
+    {
+      "content": "Required password type",
+      "pos": [
+        1554,
+        1576
+      ]
+    },
+    {
+      "content": "(specifies the type of password that will be required, such as numeric only, or alphanumeric)",
+      "pos": [
+        1590,
+        1683
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        1684,
+        1687
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        1688,
+        1691
+      ]
+    },
+    {
+      "content": "Required password type – Minimum number of character sets",
+      "pos": [
+        1696,
+        1753
+      ]
+    },
+    {
+      "content": "There are four character sets, lowercase letters, uppercase letters, numbers, and symbols.",
+      "pos": [
+        1767,
+        1857
+      ]
+    },
+    {
+      "content": "This setting specifies how many different character sets must be included in the password).",
+      "pos": [
+        1858,
+        1949
+      ]
+    },
+    {
+      "content": "However, for iOS devices, this specifies the number of symbol characters must be included in the password)",
+      "pos": [
+        1950,
+        2056
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2057,
+        2060
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2061,
+        2064
+      ]
+    },
+    {
+      "content": "Minimum password length",
+      "pos": [
+        2069,
+        2092
+      ]
+    },
+    {
+      "content": "When you set deploy a password length policy to devices that run Windows RT, users will be forced to reset their password, even if their current password complies with the policy requirements.",
+      "pos": [
+        2106,
+        2298
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2299,
+        2302
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2303,
+        2306
+      ]
+    },
+    {
+      "content": "Number of repeated sign-in failures to allow before the device is wiped",
+      "pos": [
+        2311,
+        2382
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2385,
+        2388
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2389,
+        2392
+      ]
+    },
+    {
+      "content": "Minutes of inactivity before screen turns off",
+      "pos": [
+        2397,
+        2442
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2445,
+        2448
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2449,
+        2452
+      ]
+    },
+    {
+      "content": "Password expiration (days)",
+      "pos": [
+        2457,
+        2483
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2486,
+        2489
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2490,
+        2493
+      ]
+    },
+    {
+      "content": "Remember password history",
+      "pos": [
+        2498,
+        2523
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2526,
+        2529
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2530,
+        2533
+      ]
+    },
+    {
+      "pos": [
+        2536,
+        2607
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Remember password history<ept id=\"p1\">**</ept> – <bpt id=\"p2\">**</bpt>Prevent reuse of previous passwords<ept id=\"p2\">**</ept>"
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2608,
+        2611
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2612,
+        2615
+      ]
+    },
+    {
+      "content": "Allow picture password and PIN",
+      "pos": [
+        2620,
+        2650
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2653,
+        2656
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2657,
+        2660
+      ]
+    },
+    {
+      "content": "Encryption settings",
+      "pos": [
+        2667,
+        2686
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        2689,
+        2701
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        2702,
+        2732
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        2733,
+        2743
+      ]
+    },
+    {
+      "content": "Require encryption on mobile device",
+      "pos": [
+        2817,
+        2852
+      ]
+    },
+    {
+      "content": "For Windows Phone 8 devices, you must set this to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>.",
+      "pos": [
+        2866,
+        2924
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        2925,
+        2928
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        2929,
+        2931
+      ]
+    },
+    {
+      "content": "Additional information for devices that run Windows 8.1",
+      "pos": [
+        2933,
+        2988
+      ]
+    },
+    {
+      "pos": [
+        2994,
+        3172
+      ],
+      "content": "To enforce encryption on devices that run Windows 8.1, you must install the <bpt id=\"p1\">[</bpt>December 2014 MDM client update for Windows<ept id=\"p1\">](http://support.microsoft.com/kb/3013816)</ept> on each device."
+    },
+    {
+      "content": "If you enable this setting for Windows 8.1 devices, all users of the device must have a Microsoft Account.",
+      "pos": [
+        3178,
+        3284
+      ]
+    },
+    {
+      "pos": [
+        3290,
+        3483
+      ],
+      "content": "For encryption to work, the device must meet the Microsoft <bpt id=\"p1\">[</bpt>InstantGo<ept id=\"p1\">](http://blogs.windows.com/bloggingwindows/2014/06/19/instantgo-a-better-way-to-sleep/)</ept> hardware certification requirements."
+    },
+    {
+      "content": "When you enforce encryption on a device, the recovery key is only accessible from the users Microsoft Account, accessed from their OneDrive account.",
+      "pos": [
+        3489,
+        3637
+      ]
+    },
+    {
+      "content": "You cannot recover this key on behalf of a user.",
+      "pos": [
+        3638,
+        3686
+      ]
+    },
+    {
+      "content": "Malware settings",
+      "pos": [
+        3692,
+        3708
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        3711,
+        3723
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        3724,
+        3754
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        3755,
+        3765
+      ]
+    },
+    {
+      "content": "Require network firewall",
+      "pos": [
+        3839,
+        3863
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        3866,
+        3869
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        3870,
+        3872
+      ]
+    },
+    {
+      "content": "Enable SmartScreen",
+      "pos": [
+        3877,
+        3895
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        3898,
+        3901
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        3902,
+        3904
+      ]
+    },
+    {
+      "content": "System settings",
+      "pos": [
+        3911,
+        3926
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        3929,
+        3941
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        3942,
+        3972
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        3973,
+        3983
+      ]
+    },
+    {
+      "content": "Require automatic updates",
+      "pos": [
+        4057,
+        4082
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4085,
+        4088
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4089,
+        4091
+      ]
+    },
+    {
+      "content": "Require automatic updates – Minimum classification of updates to install automatically",
+      "pos": [
+        4096,
+        4182
+      ]
+    },
+    {
+      "content": "To enforce encryption on devices that run Windows 8.1, you must install the <bpt id=\"p1\">[</bpt>December 2014 MDM client update for Windows<ept id=\"p1\">](http://support.microsoft.com/kb/3013816)</ept> on each device.",
+      "pos": [
+        4196,
+        4374
+      ]
+    },
+    {
+      "content": "Choose the classification of updates that will be installed automatically:  <bpt id=\"p1\">**</bpt>Important<ept id=\"p1\">**</ept>, which installs all updates classified as important or <bpt id=\"p2\">**</bpt>Recommended<ept id=\"p2\">**</ept>, which installs all updates classified as important or recommended.",
+      "pos": [
+        4386,
+        4614
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4615,
+        4618
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4619,
+        4621
+      ]
+    },
+    {
+      "content": "User Account Control",
+      "pos": [
+        4626,
+        4646
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4649,
+        4652
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4653,
+        4655
+      ]
+    },
+    {
+      "content": "Allow diagnostic data submission",
+      "pos": [
+        4660,
+        4692
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4695,
+        4698
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4699,
+        4701
+      ]
+    },
+    {
+      "pos": [
+        4708,
+        4768
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_cloud\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Cloud settings – documents and data"
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        4771,
+        4783
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        4784,
+        4814
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        4815,
+        4825
+      ]
+    },
+    {
+      "content": "Work Folders URL",
+      "pos": [
+        4899,
+        4915
+      ]
+    },
+    {
+      "content": "(sets the URL of the work folder to allow documents to be synchronized across devices)",
+      "pos": [
+        4929,
+        5015
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5016,
+        5019
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5020,
+        5022
+      ]
+    },
+    {
+      "pos": [
+        5029,
+        5068
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_email\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Email settings"
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        5071,
+        5083
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        5084,
+        5114
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        5115,
+        5125
+      ]
+    },
+    {
+      "content": "Make Microsoft account optional in Windows Mail application",
+      "pos": [
+        5199,
+        5258
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5261,
+        5264
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5265,
+        5267
+      ]
+    },
+    {
+      "pos": [
+        5274,
+        5331
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_browser\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Application settings - browser"
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        5334,
+        5346
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        5347,
+        5377
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        5378,
+        5388
+      ]
+    },
+    {
+      "content": "Allow autofill",
+      "pos": [
+        5462,
+        5476
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5479,
+        5482
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5483,
+        5485
+      ]
+    },
+    {
+      "content": "Allow pop-up blocker",
+      "pos": [
+        5490,
+        5510
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5513,
+        5516
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5517,
+        5519
+      ]
+    },
+    {
+      "content": "Allow plug-ins",
+      "pos": [
+        5524,
+        5538
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5541,
+        5544
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5545,
+        5547
+      ]
+    },
+    {
+      "content": "Allow active scripting",
+      "pos": [
+        5552,
+        5574
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5577,
+        5580
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5581,
+        5583
+      ]
+    },
+    {
+      "content": "Allow fraud warning",
+      "pos": [
+        5588,
+        5607
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5610,
+        5613
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5614,
+        5616
+      ]
+    },
+    {
+      "content": "Allow intranet site for single word entry",
+      "pos": [
+        5621,
+        5662
+      ]
+    },
+    {
+      "content": "(allows use of a single word to direct Internet Explorer to a web site, such as ‘Bing’)",
+      "pos": [
+        5676,
+        5763
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5764,
+        5767
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5768,
+        5770
+      ]
+    },
+    {
+      "content": "Allow automatic detection of intranet network",
+      "pos": [
+        5775,
+        5820
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5823,
+        5826
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5827,
+        5829
+      ]
+    },
+    {
+      "content": "Security level for Internet",
+      "pos": [
+        5834,
+        5861
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5864,
+        5867
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5868,
+        5870
+      ]
+    },
+    {
+      "content": "Security level for intranet",
+      "pos": [
+        5875,
+        5902
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5905,
+        5908
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5909,
+        5911
+      ]
+    },
+    {
+      "content": "Security level for trusted sites",
+      "pos": [
+        5916,
+        5948
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5951,
+        5954
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5955,
+        5957
+      ]
+    },
+    {
+      "content": "Security level for restricted sites",
+      "pos": [
+        5962,
+        5997
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6000,
+        6003
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        6004,
+        6006
+      ]
+    },
+    {
+      "content": "Send Do Not Track header",
+      "pos": [
+        6011,
+        6035
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6038,
+        6041
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        6042,
+        6044
+      ]
+    },
+    {
+      "content": "Allow Enterprise Mode menu access",
+      "pos": [
+        6049,
+        6082
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6085,
+        6088
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        6089,
+        6091
+      ]
+    },
+    {
+      "content": "Enterprise Mode site list location",
+      "pos": [
+        6096,
+        6130
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6133,
+        6136
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        6137,
+        6139
+      ]
+    },
+    {
+      "content": "Device capabilities settings - cellular",
+      "pos": [
+        6146,
+        6185
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        6188,
+        6200
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        6201,
+        6231
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        6232,
+        6242
+      ]
+    },
+    {
+      "content": "Allow data roaming",
+      "pos": [
+        6316,
+        6334
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6337,
+        6340
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        6341,
+        6343
+      ]
+    },
+    {
+      "content": "Deploy the Configuration Policy",
+      "pos": [
+        6349,
+        6380
+      ]
+    },
+    {
+      "content": "Deploy the configuration policy to one or more groups of users or devices in your organization.",
+      "pos": [
+        6386,
+        6481
+      ]
+    },
+    {
+      "pos": [
+        6483,
+        6701
+      ],
+      "content": "For more information about how to deploy policies, see <bpt id=\"p1\">[</bpt>Use policies to manage computers and mobile devices with Microsoft Intune<ept id=\"p1\">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "content": "A status summary and alerts in the <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept> workspace identify issues with the policy that require your attention.",
+      "pos": [
+        6703,
+        6819
+      ]
+    },
+    {
+      "content": "Additionally, a status summary appears in the <bpt id=\"p1\">**</bpt>Dashboard<ept id=\"p1\">**</ept> workspace.",
+      "pos": [
+        6820,
+        6890
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        6895,
+        6903
+      ]
+    },
+    {
+      "content": "Use policies to manage computers and mobile devices with Microsoft Intune",
+      "pos": [
+        6905,
+        6978
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - Windows configuration policy settings in Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 4b92074a-fe83-4cc9-a449-78b6834e2af7\n---\n# MD Conversion - Windows configuration policy settings in Microsoft Intune\nUse the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]**Windows general configuration policy** to configure settings for enrolled Windows 8, and Windows 8.1 devices:\n\n## Create a Windows general configuration policy\n\n#### To provide basic settings for the configuration policy\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com), click **Policy** &gt; **Overview** &gt; **Add Policy**.\n\n2.  Click **Windows** &gt; **General Configuration (Windows 8.1 and later)** and then click **Create Policy**.\n\n    > [!NOTE]\n    > You cannot create a configuration policy using recommended settings. You must create a custom policy.\n\n3.  In the **General** section of the **Create Policy** page, specify a name and a description for the new policy.\n\n4.  Use the information in the following sections to help you supply settings for the policy.\n\n5.  When you are finished, click **Save Policy**.\n\nThe new policy displays in the **Configuration Policies** node of the **Policy** workspace.\n\n## <a name=\"BKMK_Settings\"></a>Settings for enrolled Windows devices\n\n### <a name=\"BKMK_sec\"></a>Security settings\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|\n|----------------|----------------------------------|--------------|\n|**Required password type**<br /><br />(specifies the type of password that will be required, such as numeric only, or alphanumeric)|Yes|Yes|\n|**Required password type – Minimum number of character sets**<br /><br />There are four character sets, lowercase letters, uppercase letters, numbers, and symbols. This setting specifies how many different character sets must be included in the password). However, for iOS devices, this specifies the number of symbol characters must be included in the password)|Yes|Yes|\n|**Minimum password length**<br /><br />When you set deploy a password length policy to devices that run Windows RT, users will be forced to reset their password, even if their current password complies with the policy requirements.|Yes|Yes|\n|**Number of repeated sign-in failures to allow before the device is wiped**|Yes|Yes|\n|**Minutes of inactivity before screen turns off**|Yes|Yes|\n|**Password expiration (days)**|Yes|Yes|\n|**Remember password history**|Yes|Yes|\n|**Remember password history** – **Prevent reuse of previous passwords**|Yes|Yes|\n|**Allow picture password and PIN**|Yes|Yes|\n\n### Encryption settings\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|\n|----------------|----------------------------------|--------------|\n|**Require encryption on mobile device**<br /><br />For Windows Phone 8 devices, you must set this to **Yes**.|Yes|No|\nAdditional information for devices that run Windows 8.1\n\n-   To enforce encryption on devices that run Windows 8.1, you must install the [December 2014 MDM client update for Windows](http://support.microsoft.com/kb/3013816) on each device.\n\n-   If you enable this setting for Windows 8.1 devices, all users of the device must have a Microsoft Account.\n\n-   For encryption to work, the device must meet the Microsoft [InstantGo](http://blogs.windows.com/bloggingwindows/2014/06/19/instantgo-a-better-way-to-sleep/) hardware certification requirements.\n\n-   When you enforce encryption on a device, the recovery key is only accessible from the users Microsoft Account, accessed from their OneDrive account. You cannot recover this key on behalf of a user.\n\n### Malware settings\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|\n|----------------|----------------------------------|--------------|\n|**Require network firewall**|Yes|No|\n|**Enable SmartScreen**|Yes|No|\n\n### System settings\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|\n|----------------|----------------------------------|--------------|\n|**Require automatic updates**|Yes|No|\n|**Require automatic updates – Minimum classification of updates to install automatically**<br /><br />To enforce encryption on devices that run Windows 8.1, you must install the [December 2014 MDM client update for Windows](http://support.microsoft.com/kb/3013816) on each device.<br /><br />Choose the classification of updates that will be installed automatically:  **Important**, which installs all updates classified as important or **Recommended**, which installs all updates classified as important or recommended.|Yes|No|\n|**User Account Control**|Yes|No|\n|**Allow diagnostic data submission**|Yes|No|\n\n### <a name=\"BKMK_cloud\"></a>Cloud settings – documents and data\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|\n|----------------|----------------------------------|--------------|\n|**Work Folders URL**<br /><br />(sets the URL of the work folder to allow documents to be synchronized across devices)|Yes|No|\n\n### <a name=\"BKMK_email\"></a>Email settings\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|\n|----------------|----------------------------------|--------------|\n|**Make Microsoft account optional in Windows Mail application**|Yes|No|\n\n### <a name=\"BKMK_browser\"></a>Application settings - browser\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|\n|----------------|----------------------------------|--------------|\n|**Allow autofill**|Yes|No|\n|**Allow pop-up blocker**|Yes|No|\n|**Allow plug-ins**|Yes|No|\n|**Allow active scripting**|Yes|No|\n|**Allow fraud warning**|Yes|No|\n|**Allow intranet site for single word entry**<br /><br />(allows use of a single word to direct Internet Explorer to a web site, such as ‘Bing’)|Yes|No|\n|**Allow automatic detection of intranet network**|Yes|No|\n|**Security level for Internet**|Yes|No|\n|**Security level for intranet**|Yes|No|\n|**Security level for trusted sites**|Yes|No|\n|**Security level for restricted sites**|Yes|No|\n|**Send Do Not Track header**|Yes|No|\n|**Allow Enterprise Mode menu access**|Yes|No|\n|**Enterprise Mode site list location**|Yes|No|\n\n### Device capabilities settings - cellular\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|\n|----------------|----------------------------------|--------------|\n|**Allow data roaming**|Yes|No|\n\n## Deploy the Configuration Policy\n\n1.  Deploy the configuration policy to one or more groups of users or devices in your organization.\n\nFor more information about how to deploy policies, see [Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md).\n\nA status summary and alerts in the **Policy** workspace identify issues with the policy that require your attention. Additionally, a status summary appears in the **Dashboard** workspace.\n\n## See Also\n[Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)\n\n"
+}

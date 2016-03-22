@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "content": "Unenroll your device",
+      "pos": [
+        11,
+        31
+      ]
+    },
+    {
+      "content": "Unenroll your device",
+      "pos": [
+        241,
+        261
+      ]
+    },
+    {
+      "content": "You can unenroll (remove) your device from the corporate environment.",
+      "pos": [
+        262,
+        331
+      ]
+    },
+    {
+      "content": "How to remove a device",
+      "pos": [
+        336,
+        358
+      ]
+    },
+    {
+      "content": "Open the company portal app.",
+      "pos": [
+        364,
+        392
+      ]
+    },
+    {
+      "content": "Depending on the device:",
+      "pos": [
+        398,
+        422
+      ]
+    },
+    {
+      "pos": [
+        432,
+        505
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Android<ept id=\"p1\">**</ept>: Tap the trash can icon and follow the instructions provided."
+    },
+    {
+      "pos": [
+        515,
+        576
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>iOS<ept id=\"p1\">**</ept>: Tap <bpt id=\"p2\">**</bpt>Retire<ept id=\"p2\">**</ept> and follow the instructions provided."
+    },
+    {
+      "pos": [
+        586,
+        651
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Windows<ept id=\"p1\">**</ept>: Tap <bpt id=\"p2\">**</bpt>Remove<ept id=\"p2\">**</ept> and follow the instructions provided."
+    }
+  ],
+  "content": "---\ntitle: Unenroll your device\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 0d98b7e1-baac-47e6-b122-d5a453c4db24\nauthor: Staciebarker\nrobots: noindex,nofollow\n---\n# Unenroll your device\nYou can unenroll (remove) your device from the corporate environment.\n\n## How to remove a device\n\n1.  Open the company portal app.\n\n2.  Depending on the device:\n\n    -   **Android**: Tap the trash can icon and follow the instructions provided.\n\n    -   **iOS**: Tap **Retire** and follow the instructions provided.\n\n    -   **Windows**: Tap **Remove** and follow the instructions provided.\n\n"
+}

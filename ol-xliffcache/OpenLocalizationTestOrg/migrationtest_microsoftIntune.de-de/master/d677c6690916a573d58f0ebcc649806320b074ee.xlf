@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">d677c6690916a573d58f0ebcc649806320b074ee</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers</source>
+          <target>Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers</source>
+          <target>Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Microsoft Intune enables administrators to import international mobile equipment identity (IMEI) numbers for mobile device platforms with an IMEI numbers to help identify corporate-owned mobile devices.</source>
+          <target>Microsoft Intune enables administrators to import international mobile equipment identity (IMEI) numbers for mobile device platforms with an IMEI numbers to help identify corporate-owned mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Once enrolled in Intune, devices with imported IMEI numbers are tagged as Corporate which can be used for applying policies that are different than those applied to personally owned devices.</source>
+          <target>Once enrolled in Intune, devices with imported IMEI numbers are tagged as Corporate which can be used for applying policies that are different than those applied to personally owned devices.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Add International Mobile Equipment Identity (IMEI) Numbers to Intune</source>
+          <target>Add International Mobile Equipment Identity (IMEI) Numbers to Intune</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">**</data>
+          <data id="id12">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc> go <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Groups</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">All Devices</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">All Corporate Pre-enrolled Devices</pc> &amp;gt; <pc dataRefEnd="id10" dataRefStart="id9" id="p5">By IMEI (All platforms)</pc>, and then click <pc dataRefEnd="id12" dataRefStart="id11" id="p6">Add devices…</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc> go <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Groups</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">All Devices</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">All Corporate Pre-enrolled Devices</pc> &amp;gt; <pc dataRefEnd="id10" dataRefStart="id9" id="p5">By IMEI (All platforms)</pc>, and then click <pc dataRefEnd="id12" dataRefStart="id11" id="p6">Add devices…</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>You can add devices in two ways:</source>
+          <target>You can add devices in two ways:</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload a CSV file containing serial numbers</pc> – Create a comma-separated value (.csv) list of two columns without a header, limited to 5000 devices or 5MB per csv file.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload a CSV file containing serial numbers</pc> – Create a comma-separated value (.csv) list of two columns without a header, limited to 5000 devices or 5MB per csv file.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>&amp;lt;IMEI #1&amp;gt;</source>
+          <target>&amp;lt;IMEI #1&amp;gt;</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>&amp;lt;Device #1 Details&amp;gt;</source>
+          <target>&amp;lt;Device #1 Details&amp;gt;</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>&amp;lt;IMEI #2&amp;gt;</source>
+          <target>&amp;lt;IMEI #2&amp;gt;</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>&amp;lt;Device #2 Details&amp;gt;</source>
+          <target>&amp;lt;Device #2 Details&amp;gt;</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>This .csv file when viewed in a text editor appears as:</source>
+          <target>This .csv file when viewed in a text editor appears as:</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manually add device details</pc> - Enter the IMEI number and device details of up to five devices</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manually add device details</pc> - Enter the IMEI number and device details of up to five devices</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Details</pc> are for administrative use so you can identify which IMEI number is associated with a device.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Details</pc> are for administrative use so you can identify which IMEI number is associated with a device.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>This information is not sent to the device but will appear in the Intune console.</source>
+          <target>This information is not sent to the device but will appear in the Intune console.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Review Devices</pc> pane you can confirm which device IMEI numbers are imported.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Review Devices</pc> pane you can confirm which device IMEI numbers are imported.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also decide whether to overwrite the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Details</pc> for IMEI numbers being re-imported.</source>
+          <target>You can also decide whether to overwrite the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Details</pc> for IMEI numbers being re-imported.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can uncheck the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overwrite</pc> checkbox to preserve the Current details.</source>
+          <target>You can uncheck the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overwrite</pc> checkbox to preserve the Current details.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc> to import the IMEI numbers.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc> to import the IMEI numbers.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The added IMEI numbers and descriptions are added to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">By IMEI (All platforms)</pc> list.</source>
+          <target>The added IMEI numbers and descriptions are added to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">By IMEI (All platforms)</pc> list.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the device with that IMEI number enrolls, usually when a user installs the Company Portal app and completes the enrollment process, the device will be tagged as Corporate owned and appear as enrolled in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">IMEI Devices</pc> group.</source>
+          <target>When the device with that IMEI number enrolls, usually when a user installs the Company Portal app and completes the enrollment process, the device will be tagged as Corporate owned and appear as enrolled in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">IMEI Devices</pc> group.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>
