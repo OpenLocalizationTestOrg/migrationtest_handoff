@@ -1,0 +1,649 @@
+{
+  "nodes": [
+    {
+      "content": "Microsoft Intune Documentation Library Site Map",
+      "pos": [
+        11,
+        58
+      ]
+    },
+    {
+      "content": "Microsoft Intune Documentation Library Site Map",
+      "pos": [
+        239,
+        286
+      ]
+    },
+    {
+      "content": "You can use this site map to help you to navigate the Microsoft Intune documentation library and other Intune documentation provided on TechNet.",
+      "pos": [
+        287,
+        431
+      ]
+    },
+    {
+      "content": "Documentation for Microsoft Intune",
+      "pos": [
+        434,
+        468
+      ]
+    },
+    {
+      "content": "Microsoft Intune Service Description",
+      "pos": [
+        524,
+        560
+      ]
+    },
+    {
+      "content": "Start using Microsoft Intune",
+      "pos": [
+        618,
+        646
+      ]
+    },
+    {
+      "content": "Microsoft Intune features",
+      "pos": [
+        700,
+        725
+      ]
+    },
+    {
+      "content": "Ways to do enterprise mobility",
+      "pos": [
+        776,
+        806
+      ]
+    },
+    {
+      "content": "Deleted topic",
+      "pos": [
+        862,
+        875
+      ]
+    },
+    {
+      "content": "Move from a Microsoft Intune free trial to a paid subscription",
+      "pos": [
+        914,
+        976
+      ]
+    },
+    {
+      "content": "Get started with a 30-day trial of Microsoft Intune",
+      "pos": [
+        1064,
+        1115
+      ]
+    },
+    {
+      "content": "How to get support for Microsoft Intune",
+      "pos": [
+        1192,
+        1231
+      ]
+    },
+    {
+      "content": "Introduction to Microsoft Intune",
+      "pos": [
+        1292,
+        1324
+      ]
+    },
+    {
+      "content": "What to know before setting up Microsoft Intune",
+      "pos": [
+        1382,
+        1429
+      ]
+    },
+    {
+      "content": "Network infrastructure requirements for Microsoft Intune",
+      "pos": [
+        1502,
+        1558
+      ]
+    },
+    {
+      "content": "Get started with a paid subscription to Microsoft Intune",
+      "pos": [
+        1640,
+        1696
+      ]
+    },
+    {
+      "content": "Use groups to manage users and devices with Microsoft Intune",
+      "pos": [
+        1778,
+        1838
+      ]
+    },
+    {
+      "content": "Use policies to manage computers and mobile devices with Microsoft Intune",
+      "pos": [
+        1924,
+        1997
+      ]
+    },
+    {
+      "content": "Maintain Microsoft Intune",
+      "pos": [
+        2096,
+        2121
+      ]
+    },
+    {
+      "content": "Resources to help you solve problems during setup of Microsoft Intune",
+      "pos": [
+        2172,
+        2241
+      ]
+    },
+    {
+      "content": "Release notes for Microsoft Intune",
+      "pos": [
+        2336,
+        2370
+      ]
+    },
+    {
+      "content": "What's new in Microsoft Intune",
+      "pos": [
+        2430,
+        2460
+      ]
+    },
+    {
+      "content": "Reference for the Microsoft Intune administrative consoles",
+      "pos": [
+        2516,
+        2574
+      ]
+    },
+    {
+      "content": "Control what admins can see in the Microsoft Intune admin console",
+      "pos": [
+        2658,
+        2723
+      ]
+    },
+    {
+      "content": "Reference for Tenant Administrator accounts for Microsoft Intune",
+      "pos": [
+        2814,
+        2878
+      ]
+    },
+    {
+      "content": "Get ready to enroll devices in Microsoft Intune",
+      "pos": [
+        2964,
+        3011
+      ]
+    },
+    {
+      "content": "Mobile device management capabilities in Microsoft Intune",
+      "pos": [
+        3084,
+        3141
+      ]
+    },
+    {
+      "content": "Set up iOS and Mac management with Microsoft Intune",
+      "pos": [
+        3224,
+        3275
+      ]
+    },
+    {
+      "content": "Set up Android management with Microsoft Intune",
+      "pos": [
+        3352,
+        3399
+      ]
+    },
+    {
+      "content": "Set up Windows Phone management with Microsoft Intune",
+      "pos": [
+        3472,
+        3525
+      ]
+    },
+    {
+      "content": "Enable mobile device enrollment with the Microsoft Intune Account Portal",
+      "pos": [
+        3604,
+        3676
+      ]
+    },
+    {
+      "content": "Enroll corporate-owned devices with the Device Enrollment Manager in Microsoft Intune",
+      "pos": [
+        3774,
+        3859
+      ]
+    },
+    {
+      "content": "Enroll corporate-owned iOS devices in Microsoft Intune",
+      "pos": [
+        3970,
+        4024
+      ]
+    },
+    {
+      "content": "Manage settings and features on your devices with Microsoft Intune policies",
+      "pos": [
+        4104,
+        4179
+      ]
+    },
+    {
+      "content": "Mobile device security policy settings in Microsoft Intune",
+      "pos": [
+        4284,
+        4342
+      ]
+    },
+    {
+      "content": "iOS configuration policy settings in Microsoft Intune",
+      "pos": [
+        4430,
+        4483
+      ]
+    },
+    {
+      "content": "iOS custom policy settings in Microsoft Intune",
+      "pos": [
+        4566,
+        4612
+      ]
+    },
+    {
+      "content": "Android configuration policy settings in Microsoft Intune",
+      "pos": [
+        4688,
+        4745
+      ]
+    },
+    {
+      "content": "Android custom policy settings in Microsoft Intune",
+      "pos": [
+        4832,
+        4882
+      ]
+    },
+    {
+      "content": "Windows configuration policy settings in Microsoft Intune",
+      "pos": [
+        4962,
+        5019
+      ]
+    },
+    {
+      "content": "Windows Phone configuration policy settings in Microsoft Intune",
+      "pos": [
+        5106,
+        5169
+      ]
+    },
+    {
+      "content": "Windows Phone custom policy settings in Microsoft Intune",
+      "pos": [
+        5262,
+        5318
+      ]
+    },
+    {
+      "content": "Windows 10 custom policy settings in Microsoft Intune",
+      "pos": [
+        5404,
+        5457
+      ]
+    },
+    {
+      "content": "Custom URI settings for Windows 10 devices",
+      "pos": [
+        5544,
+        5586
+      ]
+    },
+    {
+      "content": "Exchange ActiveSync policy settings in Microsoft Intune",
+      "pos": [
+        5658,
+        5713
+      ]
+    },
+    {
+      "content": "Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune",
+      "pos": [
+        5794,
+        5888
+      ]
+    },
+    {
+      "content": "Deploy apps to mobile devices in Microsoft Intune - deleted",
+      "pos": [
+        6008,
+        6067
+      ]
+    },
+    {
+      "content": "Mobile device management with Exchange ActiveSync and Microsoft Intune",
+      "pos": [
+        6152,
+        6222
+      ]
+    },
+    {
+      "content": "Understand your devices with inventory in Microsoft Intune",
+      "pos": [
+        6318,
+        6376
+      ]
+    },
+    {
+      "content": "What to tell your end users about using Microsoft Intune",
+      "pos": [
+        6460,
+        6516
+      ]
+    },
+    {
+      "content": "Fix issues with mobile device enrollment",
+      "pos": [
+        6598,
+        6638
+      ]
+    },
+    {
+      "content": "Manage Windows PCs with Microsoft Intune",
+      "pos": [
+        6700,
+        6740
+      ]
+    },
+    {
+      "content": "Windows PC management capabilities in Microsoft Intune",
+      "pos": [
+        6806,
+        6860
+      ]
+    },
+    {
+      "content": "Resolve GPO and Microsoft Intune policy conflicts",
+      "pos": [
+        6940,
+        6989
+      ]
+    },
+    {
+      "content": "Install the Windows PC client with Microsoft Intune",
+      "pos": [
+        7064,
+        7115
+      ]
+    },
+    {
+      "content": "Common Windows PC management tasks with the Microsoft Intune computer client",
+      "pos": [
+        7192,
+        7268
+      ]
+    },
+    {
+      "content": "Keep Windows PCs up to date with software updates in Microsoft Intune",
+      "pos": [
+        7370,
+        7439
+      ]
+    },
+    {
+      "content": "Help secure Windows PCs with Endpoint Protection for Microsoft Intune",
+      "pos": [
+        7534,
+        7603
+      ]
+    },
+    {
+      "content": "Troubleshoot Endpoint Protection in Microsoft Intune",
+      "pos": [
+        7698,
+        7750
+      ]
+    },
+    {
+      "content": "Enable access to company resources with Microsoft Intune - deleted",
+      "pos": [
+        7824,
+        7890
+      ]
+    },
+    {
+      "content": "Enable access to company resources with Microsoft Intune",
+      "pos": [
+        7982,
+        8038
+      ]
+    },
+    {
+      "content": "Enable access to company resources using certificate profiles with Microsoft Intune",
+      "pos": [
+        8124,
+        8207
+      ]
+    },
+    {
+      "content": "Help users connect to company networks using Wi-Fi profiles with Microsoft Intune",
+      "pos": [
+        8320,
+        8401
+      ]
+    },
+    {
+      "content": "Help users connect to their work using VPN profiles with Microsoft Intune",
+      "pos": [
+        8512,
+        8585
+      ]
+    },
+    {
+      "content": "Configure access to corporate email using email profiles with Microsoft Intune",
+      "pos": [
+        8688,
+        8766
+      ]
+    },
+    {
+      "content": "Manage access to email and SharePoint with Microsoft Intune",
+      "pos": [
+        8870,
+        8929
+      ]
+    },
+    {
+      "content": "Manage device compliance policies for Microsoft Intune",
+      "pos": [
+        9018,
+        9072
+      ]
+    },
+    {
+      "content": "Manage email access with Microsoft Intune",
+      "pos": [
+        9156,
+        9197
+      ]
+    },
+    {
+      "content": "Manage SharePoint Online access with Microsoft Intune",
+      "pos": [
+        9268,
+        9321
+      ]
+    },
+    {
+      "content": "Manage Internet access using managed browser policies with Microsoft Intune",
+      "pos": [
+        9400,
+        9475
+      ]
+    },
+    {
+      "content": "Protect Windows devices with multi-factor authentication",
+      "pos": [
+        9576,
+        9632
+      ]
+    },
+    {
+      "content": "Configure and deploy mobile application management policies in the Microsoft Intune console",
+      "pos": [
+        9714,
+        9805
+      ]
+    },
+    {
+      "content": "Microsoft apps you can use with Microsoft Intune mobile application management policies",
+      "pos": [
+        9926,
+        10013
+      ]
+    },
+    {
+      "content": "Prepare iOS apps for mobile application management with the Microsoft Intune App Wrapping Tool",
+      "pos": [
+        10130,
+        10224
+      ]
+    },
+    {
+      "content": "Prepare Android apps for mobile application management with the Microsoft Intune App Wrapping Tool",
+      "pos": [
+        10348,
+        10446
+      ]
+    },
+    {
+      "content": "Troubleshoot company resource access problems with Microsoft Intune",
+      "pos": [
+        10570,
+        10637
+      ]
+    },
+    {
+      "content": "Deploy and configure apps with Microsoft Intune",
+      "pos": [
+        10726,
+        10773
+      ]
+    },
+    {
+      "content": "Plan for app deployment in Microsoft Intune",
+      "pos": [
+        10846,
+        10889
+      ]
+    },
+    {
+      "content": "Deploy apps to mobile devices in Microsoft Intune - deleted",
+      "pos": [
+        10958,
+        11017
+      ]
+    },
+    {
+      "content": "Deploy apps to Windows PCs in Microsoft Intune",
+      "pos": [
+        11102,
+        11148
+      ]
+    },
+    {
+      "content": "Manage license agreements for Windows PC software in Microsoft Intune",
+      "pos": [
+        11220,
+        11289
+      ]
+    },
+    {
+      "content": "Troubleshoot app deployment problems in Microsoft Intune",
+      "pos": [
+        11384,
+        11440
+      ]
+    },
+    {
+      "content": "Monitoring and reports with Microsoft Intune",
+      "pos": [
+        11518,
+        11562
+      ]
+    },
+    {
+      "content": "Get notified by Microsoft Intune alerts",
+      "pos": [
+        11632,
+        11671
+      ]
+    },
+    {
+      "content": "Manage alerts in Microsoft Intune",
+      "pos": [
+        11736,
+        11769
+      ]
+    },
+    {
+      "content": "Understand Microsoft Intune operations by using reports",
+      "pos": [
+        11828,
+        11883
+      ]
+    },
+    {
+      "content": "Real-world solutions to help you manage mobile devices",
+      "pos": [
+        11960,
+        12014
+      ]
+    },
+    {
+      "content": "Bring Your Own Device (BYOD) Design Considerations Guide",
+      "pos": [
+        12094,
+        12150
+      ]
+    },
+    {
+      "content": "Secure access to company resources from any location on any device",
+      "pos": [
+        12221,
+        12287
+      ]
+    },
+    {
+      "content": "Streamlined management for mobile devices and computers in a hybrid environment",
+      "pos": [
+        12358,
+        12437
+      ]
+    },
+    {
+      "content": "Manage mobile devices and PCs from the cloud",
+      "pos": [
+        12508,
+        12552
+      ]
+    },
+    {
+      "content": "Automate and manage Windows operating system deployments",
+      "pos": [
+        12623,
+        12679
+      ]
+    }
+  ],
+  "content": "---\ntitle: Microsoft Intune Documentation Library Site Map\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 60f790a5-a370-4b9a-8fd2-bd17068fadc7\nauthor: Brenduns\n---\n# Microsoft Intune Documentation Library Site Map\nYou can use this site map to help you to navigate the Microsoft Intune documentation library and other Intune documentation provided on TechNet.\n\n[Documentation for Microsoft Intune](../Topic/Documentation-for-Microsoft-Intune.md)\n\n-   [Microsoft Intune Service Description](../Topic/Microsoft-Intune-Service-Description.md)\n\n-   [Start using Microsoft Intune](../Topic/Start-using-Microsoft-Intune.md)\n\n    -   [Microsoft Intune features](../Topic/Microsoft-Intune-features.md)\n\n    -   [Ways to do enterprise mobility](../Topic/Ways-to-do-enterprise-mobility.md)\n\n    -   [Deleted topic](../Topic/Deleted-topic.md)\n\n    -   [Move from a Microsoft Intune free trial to a paid subscription](../Topic/Move-from-a-Microsoft-Intune-free-trial-to-a-paid-subscription.md)\n\n    -   [Get started with a 30-day trial of Microsoft Intune](../Topic/Get-started-with-a-30-day-trial-of-Microsoft-Intune.md)\n\n    -   [How to get support for Microsoft Intune](../Topic/How-to-get-support-for-Microsoft-Intune.md)\n\n-   [Introduction to Microsoft Intune](../Topic/Introduction-to-Microsoft-Intune.md)\n\n    -   [What to know before setting up Microsoft Intune](../Topic/What-to-know-before-setting-up-Microsoft-Intune.md)\n\n    -   [Network infrastructure requirements for Microsoft Intune](../Topic/Network-infrastructure-requirements-for-Microsoft-Intune.md)\n\n    -   [Get started with a paid subscription to Microsoft Intune](../Topic/Get-started-with-a-paid-subscription-to-Microsoft-Intune.md)\n\n    -   [Use groups to manage users and devices with Microsoft Intune](../Topic/Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md)\n\n    -   [Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)\n\n    -   [Maintain Microsoft Intune](../Topic/Maintain-Microsoft-Intune.md)\n\n    -   [Resources to help you solve problems during setup of Microsoft Intune](../Topic/Resources-to-help-you-solve-problems-during-setup-of-Microsoft-Intune.md)\n\n    -   [Release notes for Microsoft Intune](../Topic/Release-notes-for-Microsoft-Intune.md)\n\n    -   [What's new in Microsoft Intune](../Topic/What-s-new-in-Microsoft-Intune.md)\n\n    -   [Reference for the Microsoft Intune administrative consoles](../Topic/Reference-for-the-Microsoft-Intune-administrative-consoles.md)\n\n    -   [Control what admins can see in the Microsoft Intune admin console](../Topic/Control-what-admins-can-see-in-the-Microsoft-Intune-admin-console.md)\n\n    -   [Reference for Tenant Administrator accounts for Microsoft Intune](../Topic/Reference-for-Tenant-Administrator-accounts-for-Microsoft-Intune.md)\n\n-   [Get ready to enroll devices in Microsoft Intune](../Topic/Get-ready-to-enroll-devices-in-Microsoft-Intune.md)\n\n    -   [Mobile device management capabilities in Microsoft Intune](../Topic/Mobile-device-management-capabilities-in-Microsoft-Intune.md)\n\n    -   [Set up iOS and Mac management with Microsoft Intune](../Topic/Set-up-iOS-and-Mac-management-with-Microsoft-Intune.md)\n\n    -   [Set up Android management with Microsoft Intune](../Topic/Set-up-Android-management-with-Microsoft-Intune.md)\n\n    -   [Set up Windows Phone management with Microsoft Intune](../Topic/Set-up-Windows-Phone-management-with-Microsoft-Intune.md)\n\n    -   [Enable mobile device enrollment with the Microsoft Intune Account Portal](../Topic/Enable-mobile-device-enrollment-with-the-Microsoft-Intune-Account-Portal.md)\n\n    -   [Enroll corporate-owned devices with the Device Enrollment Manager in Microsoft Intune](../Topic/Enroll-corporate-owned-devices-with-the-Device-Enrollment-Manager-in-Microsoft-Intune.md)\n\n    -   [Enroll corporate-owned iOS devices in Microsoft Intune](../Topic/Enroll-corporate-owned-iOS-devices-in-Microsoft-Intune.md)\n\n    -   [Manage settings and features on your devices with Microsoft Intune policies](../Topic/Manage-settings-and-features-on-your-devices-with-Microsoft-Intune-policies.md)\n\n        -   [Mobile device security policy settings in Microsoft Intune](../Topic/Mobile-device-security-policy-settings-in-Microsoft-Intune.md)\n\n        -   [iOS configuration policy settings in Microsoft Intune](../Topic/iOS-configuration-policy-settings-in-Microsoft-Intune.md)\n\n        -   [iOS custom policy settings in Microsoft Intune](../Topic/iOS-custom-policy-settings-in-Microsoft-Intune.md)\n\n        -   [Android configuration policy settings in Microsoft Intune](../Topic/Android-configuration-policy-settings-in-Microsoft-Intune.md)\n\n        -   [Android custom policy settings in Microsoft Intune](../Topic/Android-custom-policy-settings-in-Microsoft-Intune.md)\n\n        -   [Windows configuration policy settings in Microsoft Intune](../Topic/Windows-configuration-policy-settings-in-Microsoft-Intune.md)\n\n        -   [Windows Phone configuration policy settings in Microsoft Intune](../Topic/Windows-Phone-configuration-policy-settings-in-Microsoft-Intune.md)\n\n        -   [Windows Phone custom policy settings in Microsoft Intune](../Topic/Windows-Phone-custom-policy-settings-in-Microsoft-Intune.md)\n\n        -   [Windows 10 custom policy settings in Microsoft Intune](../Topic/Windows-10-custom-policy-settings-in-Microsoft-Intune.md)\n\n            -   [Custom URI settings for Windows 10 devices](../Topic/Custom-URI-settings-for-Windows-10-devices.md)\n\n        -   [Exchange ActiveSync policy settings in Microsoft Intune](../Topic/Exchange-ActiveSync-policy-settings-in-Microsoft-Intune.md)\n\n    -   [Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune](../Topic/Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md)\n\n    -   [Deploy apps to mobile devices in Microsoft Intune - deleted](../Topic/Deploy-apps-to-mobile-devices-in-Microsoft-Intune---deleted.md)\n\n    -   [Mobile device management with Exchange ActiveSync and Microsoft Intune](../Topic/Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md)\n\n    -   [Understand your devices with inventory in Microsoft Intune](../Topic/Understand-your-devices-with-inventory-in-Microsoft-Intune.md)\n\n    -   [What to tell your end users about using Microsoft Intune](../Topic/What-to-tell-your-end-users-about-using-Microsoft-Intune.md)\n\n    -   [Fix issues with mobile device enrollment](../Topic/Fix-issues-with-mobile-device-enrollment.md)\n\n-   [Manage Windows PCs with Microsoft Intune](../Topic/Manage-Windows-PCs-with-Microsoft-Intune.md)\n\n    -   [Windows PC management capabilities in Microsoft Intune](../Topic/Windows-PC-management-capabilities-in-Microsoft-Intune.md)\n\n    -   [Resolve GPO and Microsoft Intune policy conflicts](../Topic/Resolve-GPO-and-Microsoft-Intune-policy-conflicts.md)\n\n    -   [Install the Windows PC client with Microsoft Intune](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md)\n\n    -   [Common Windows PC management tasks with the Microsoft Intune computer client](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md)\n\n    -   [Keep Windows PCs up to date with software updates in Microsoft Intune](../Topic/Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md)\n\n    -   [Help secure Windows PCs with Endpoint Protection for Microsoft Intune](../Topic/Help-secure-Windows-PCs-with-Endpoint-Protection-for-Microsoft-Intune.md)\n\n    -   [Troubleshoot Endpoint Protection in Microsoft Intune](../Topic/Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md)\n\n-   [Enable access to company resources with Microsoft Intune - deleted](../Topic/Enable-access-to-company-resources-with-Microsoft-Intune---deleted.md)\n\n    -   [Enable access to company resources with Microsoft Intune](../Topic/Enable-access-to-company-resources-with-Microsoft-Intune.md)\n\n        -   [Enable access to company resources using certificate profiles with Microsoft Intune](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md)\n\n        -   [Help users connect to company networks using Wi-Fi profiles with Microsoft Intune](../Topic/Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft-Intune.md)\n\n        -   [Help users connect to their work using VPN profiles with Microsoft Intune](../Topic/Help-users-connect-to-their-work-using-VPN-profiles-with-Microsoft-Intune.md)\n\n        -   [Configure access to corporate email using email profiles with Microsoft Intune](../Topic/Configure-access-to-corporate-email-using-email-profiles-with-Microsoft-Intune.md)\n\n    -   [Manage access to email and SharePoint with Microsoft Intune](../Topic/Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md)\n\n        -   [Manage device compliance policies for Microsoft Intune](../Topic/Manage-device-compliance-policies-for-Microsoft-Intune.md)\n\n        -   [Manage email access with Microsoft Intune](../Topic/Manage-email-access-with-Microsoft-Intune.md)\n\n        -   [Manage SharePoint Online access with Microsoft Intune](../Topic/Manage-SharePoint-Online-access-with-Microsoft-Intune.md)\n\n    -   [Manage Internet access using managed browser policies with Microsoft Intune](../Topic/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md)\n\n    -   [Protect Windows devices with multi-factor authentication](../Topic/Protect-Windows-devices-with-multi-factor-authentication.md)\n\n    -   [Configure and deploy mobile application management policies in the Microsoft Intune console](../Topic/Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md)\n\n        -   [Microsoft apps you can use with Microsoft Intune mobile application management policies](../Topic/Microsoft-apps-you-can-use-with-Microsoft-Intune-mobile-application-management-policies.md)\n\n        -   [Prepare iOS apps for mobile application management with the Microsoft Intune App Wrapping Tool](../Topic/Prepare-iOS-apps-for-mobile-application-management-with-the-Microsoft-Intune-App-Wrapping-Tool.md)\n\n        -   [Prepare Android apps for mobile application management with the Microsoft Intune App Wrapping Tool](../Topic/Prepare-Android-apps-for-mobile-application-management-with-the-Microsoft-Intune-App-Wrapping-Tool.md)\n\n    -   [Troubleshoot company resource access problems with Microsoft Intune](../Topic/Troubleshoot-company-resource-access-problems-with-Microsoft-Intune.md)\n\n-   [Deploy and configure apps with Microsoft Intune](../Topic/Deploy-and-configure-apps-with-Microsoft-Intune.md)\n\n    -   [Plan for app deployment in Microsoft Intune](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md)\n\n    -   [Deploy apps to mobile devices in Microsoft Intune - deleted](../Topic/Deploy-apps-to-mobile-devices-in-Microsoft-Intune---deleted.md)\n\n    -   [Deploy apps to Windows PCs in Microsoft Intune](../Topic/Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md)\n\n    -   [Manage license agreements for Windows PC software in Microsoft Intune](../Topic/Manage-license-agreements-for-Windows-PC-software-in-Microsoft-Intune.md)\n\n    -   [Troubleshoot app deployment problems in Microsoft Intune](../Topic/Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md)\n\n-   [Monitoring and reports with Microsoft Intune](../Topic/Monitoring-and-reports-with-Microsoft-Intune.md)\n\n    -   [Get notified by Microsoft Intune alerts](../Topic/Get-notified-by-Microsoft-Intune-alerts.md)\n\n    -   [Manage alerts in Microsoft Intune](../Topic/Manage-alerts-in-Microsoft-Intune.md)\n\n    -   [Understand Microsoft Intune operations by using reports](../Topic/Understand-Microsoft-Intune-operations-by-using-reports.md)\n\n-   [Real-world solutions to help you manage mobile devices](../Topic/Real-world-solutions-to-help-you-manage-mobile-devices.md)\n\n    -   [Bring Your Own Device (BYOD) Design Considerations Guide](https://technet.microsoft.com/en-us/library/dn656905.aspx)\n\n    -   [Secure access to company resources from any location on any device](https://technet.microsoft.com/en-us/library/dn550982.aspx)\n\n    -   [Streamlined management for mobile devices and computers in a hybrid environment](https://technet.microsoft.com/en-us/library/dn582037.aspx)\n\n    -   [Manage mobile devices and PCs from the cloud](https://technet.microsoft.com/en-us/library/dn715906.aspx)\n\n    -   [Automate and manage Windows operating system deployments](https://technet.microsoft.com/en-us/library/dn818437.aspx)\n\n"
+}

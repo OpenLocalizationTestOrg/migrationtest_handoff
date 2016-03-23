@@ -1,0 +1,775 @@
+{
+  "nodes": [
+    {
+      "content": "MD Maintain Microsoft Intune",
+      "pos": [
+        11,
+        39
+      ]
+    },
+    {
+      "content": "MD Maintain Microsoft Intune",
+      "pos": [
+        174,
+        202
+      ]
+    },
+    {
+      "content": "As a cloud service hosted by Microsoft, the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> service is maintained automatically with little maintenance required by you.",
+      "pos": [
+        203,
+        377
+      ]
+    },
+    {
+      "content": "However, you should be familiar with the following maintenance tasks that might be required to maintain your service:",
+      "pos": [
+        378,
+        495
+      ]
+    },
+    {
+      "content": "Common maintenance tasks",
+      "pos": [
+        502,
+        526
+      ]
+    },
+    {
+      "content": "Change your contact preferences",
+      "pos": [
+        590,
+        621
+      ]
+    },
+    {
+      "content": "Manage partner relationships",
+      "pos": [
+        691,
+        719
+      ]
+    },
+    {
+      "content": "Decommission your subscription",
+      "pos": [
+        786,
+        816
+      ]
+    },
+    {
+      "pos": [
+        885,
+        940
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_Maintenance\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Common maintenance tasks"
+    },
+    {
+      "content": "Task",
+      "pos": [
+        943,
+        947
+      ]
+    },
+    {
+      "content": "Details",
+      "pos": [
+        948,
+        955
+      ]
+    },
+    {
+      "pos": [
+        983,
+        1055
+      ],
+      "content": "Update the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> service"
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> is a cloud service, and Microsoft manages service updates for you.",
+      "pos": [
+        1058,
+        1178
+      ]
+    },
+    {
+      "content": "Each time you connect to an administrative web portal, you connect to the most current version available.",
+      "pos": [
+        1179,
+        1284
+      ]
+    },
+    {
+      "content": "Typically, service updates do not cause a visible change.",
+      "pos": [
+        1296,
+        1353
+      ]
+    },
+    {
+      "content": "However, important updates are detailed in the <bpt id=\"p1\">**</bpt>Notice<ept id=\"p1\">**</ept> board, which is displayed when you connect to the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> after a service update.",
+      "pos": [
+        1354,
+        1547
+      ]
+    },
+    {
+      "content": "You can also view notices on the <bpt id=\"p1\">**</bpt>Notice<ept id=\"p1\">**</ept> page of the <bpt id=\"p2\">**</bpt>Alerts<ept id=\"p2\">**</ept> workspace of the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph>.",
+      "pos": [
+        1548,
+        1694
+      ]
+    },
+    {
+      "content": "When there are updates to the client software, you might be prompted to download and deploy the updated client.",
+      "pos": [
+        1706,
+        1817
+      ]
+    },
+    {
+      "content": "See <bpt id=\"p1\">[</bpt>Microsoft Intune Service Updates<ept id=\"p1\">](http://technet.microsoft.com/library/dn292747.aspx)</ept>.",
+      "pos": [
+        1829,
+        1920
+      ]
+    },
+    {
+      "pos": [
+        1925,
+        2016
+      ],
+      "content": "Back up and recover <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> data in the cloud"
+    },
+    {
+      "content": "As part of the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> service, the infrastructure and data that is managed for you includes configurations you make for your instance of, data and status from the devices you manage, data you upload to the cloud storage, such as software you deploy and license information, and user accounts that you add to your instance of Microsoft Azure AD.",
+      "pos": [
+        2019,
+        2408
+      ]
+    },
+    {
+      "content": "Data you upload for use with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> is maintained in the cloud but does not replace the need to maintain an on-premises backup for the source of that information.",
+      "pos": [
+        2420,
+        2627
+      ]
+    },
+    {
+      "content": "For information about how Microsoft manages your data, download the <bpt id=\"p1\">[</bpt>Microsoft Intune Privacy and Data Protection Overview<ept id=\"p1\">](http://download.microsoft.com/download/C/C/8/CC8065C4-829F-4635-B731-1D39287444C0/Windows_Intune_Privacy_and_Data_Protection_Overview.pdf)</ept> white paper.",
+      "pos": [
+        2639,
+        2914
+      ]
+    },
+    {
+      "content": "Reinstall the On-Premises Exchange Connector",
+      "pos": [
+        2919,
+        2963
+      ]
+    },
+    {
+      "content": "There are no options to back up or restore this connector.",
+      "pos": [
+        2966,
+        3024
+      ]
+    },
+    {
+      "content": "When you install or reinstall this connector, the new instance replaces any previously configured connector.",
+      "pos": [
+        3025,
+        3133
+      ]
+    },
+    {
+      "content": "Reinstall the Service to Service Connector",
+      "pos": [
+        3138,
+        3180
+      ]
+    },
+    {
+      "content": "The configuration of this connector is maintained in your cloud storage and does not require backup or restoration.",
+      "pos": [
+        3183,
+        3298
+      ]
+    },
+    {
+      "content": "When you configure this connector, the new instance replaces any previously configured connector.",
+      "pos": [
+        3299,
+        3396
+      ]
+    },
+    {
+      "content": "Back up individual devices and computers",
+      "pos": [
+        3401,
+        3441
+      ]
+    },
+    {
+      "pos": [
+        3444,
+        3635
+      ],
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> does not manage the backup or recovery for data, settings, or applications on mobile devices or computers that you manage with the service."
+    },
+    {
+      "pos": [
+        3641,
+        3709
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_ManagePreferences\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Change your contact preferences"
+    },
+    {
+      "pos": [
+        3710,
+        3856
+      ],
+      "content": "Administrators for <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> have the option to receive product-related communications from Microsoft:"
+    },
+    {
+      "pos": [
+        3858,
+        3903
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>To manage the communications you receive<ept id=\"p1\">**</ept>:"
+    },
+    {
+      "pos": [
+        3909,
+        4023
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune account portal<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkId=698854)</ept>, click <bpt id=\"p2\">**</bpt>Message Center<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        4029,
+        4155
+      ],
+      "content": "Edit the <bpt id=\"p1\">**</bpt>Contact preferences<ept id=\"p1\">**</ept> section to provide your contact details and to select the communications you want to receive."
+    },
+    {
+      "pos": [
+        4161,
+        4176
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Save<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "You will continue to receive email messages related to your billing and service accounts even if you choose not to receive additional product information.",
+      "pos": [
+        4178,
+        4332
+      ]
+    },
+    {
+      "pos": [
+        4337,
+        4399
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_ManagePartners\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Manage partner relationships"
+    },
+    {
+      "content": "If you do not currently work with a partner, you can find one on the <bpt id=\"p1\">[</bpt>Microsoft Pinpoint<ept id=\"p1\">](http://go.microsoft.com/fwlink/?linkid=235605)</ept> website.",
+      "pos": [
+        4400,
+        4545
+      ]
+    },
+    {
+      "content": "Partner availability depends on the services you use and the country or region where you will use those services.",
+      "pos": [
+        4546,
+        4659
+      ]
+    },
+    {
+      "content": "Manage a Partner for your subscription",
+      "pos": [
+        4663,
+        4701
+      ]
+    },
+    {
+      "content": "Partners are advisors who can provide sales, support, and technical expertise to help you set up and maintain your subscription.",
+      "pos": [
+        4705,
+        4833
+      ]
+    },
+    {
+      "content": "You can add, change, or remove a Microsoft partner from your subscription at any time.",
+      "pos": [
+        4834,
+        4920
+      ]
+    },
+    {
+      "content": "Before you add or change a partner for your subscription, you must have the partner’s Microsoft Partner ID.",
+      "pos": [
+        4922,
+        5029
+      ]
+    },
+    {
+      "pos": [
+        5031,
+        5074
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>To manage a partner for a subscription<ept id=\"p1\">**</ept>:"
+    },
+    {
+      "pos": [
+        5080,
+        5186
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune account portal<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkId=698854)</ept>, click <bpt id=\"p2\">**</bpt>Manage<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        5192,
+        5252
+      ],
+      "content": "Click <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph>."
+    },
+    {
+      "pos": [
+        5258,
+        5351
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Subscription details<ept id=\"p1\">**</ept> page, in the right pane under <bpt id=\"p2\">**</bpt>Partner information<ept id=\"p2\">**</ept>, click:"
+    },
+    {
+      "pos": [
+        5361,
+        5418
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Add<ept id=\"p1\">**</ept> if you are adding a partner to your subscription."
+    },
+    {
+      "pos": [
+        5428,
+        5479
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Edit<ept id=\"p1\">**</ept> if you are changing or removing a partner."
+    },
+    {
+      "pos": [
+        5485,
+        5537
+      ],
+      "content": "Update the information for <bpt id=\"p1\">**</bpt>Microsoft partner ID<ept id=\"p1\">**</ept>:"
+    },
+    {
+      "content": "To add or change a partner, enter the Partner ID of the partner you want to work with.",
+      "pos": [
+        5547,
+        5633
+      ]
+    },
+    {
+      "content": "To remove a partner, clear the Partner ID",
+      "pos": [
+        5643,
+        5684
+      ]
+    },
+    {
+      "pos": [
+        5690,
+        5722
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>OK<ept id=\"p1\">**</ept> to save the change."
+    },
+    {
+      "content": "Manage a delegated administrator",
+      "pos": [
+        5726,
+        5758
+      ]
+    },
+    {
+      "content": "When you subscribe to <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, you are given administrator permissions and can assign administrator permissions to other users in your company.",
+      "pos": [
+        5762,
+        5949
+      ]
+    },
+    {
+      "content": "However, when you want someone else to administer the service, you can delegate this role to a Microsoft partner.",
+      "pos": [
+        5950,
+        6063
+      ]
+    },
+    {
+      "content": "When you authorize a partner to take on this role, the partner is referred to as a <bpt id=\"p1\">*</bpt>delegated administrator<ept id=\"p1\">*</ept>.",
+      "pos": [
+        6064,
+        6173
+      ]
+    },
+    {
+      "pos": [
+        6175,
+        6267
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Add a delegated administrator<ept id=\"p1\">**</ept>: This process must be initiated by your Microsoft partner."
+    },
+    {
+      "content": "The partner sends you an email message asking you if you want to give them permissions to act as a delegated administrator.",
+      "pos": [
+        6273,
+        6396
+      ]
+    },
+    {
+      "content": "Read the partner's terms in the email message.",
+      "pos": [
+        6402,
+        6448
+      ]
+    },
+    {
+      "content": "To authorize the agreement, click the link provided in the message, which will take you to an authorization page.",
+      "pos": [
+        6454,
+        6567
+      ]
+    },
+    {
+      "pos": [
+        6569,
+        6608
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>View your delegated administrators<ept id=\"p1\">**</ept>:"
+    },
+    {
+      "pos": [
+        6614,
+        6741
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune account portal<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkId=698854)</ept>, under <bpt id=\"p2\">**</bpt>Support<ept id=\"p2\">**</ept>, click <bpt id=\"p3\">**</bpt>Overview<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        6747,
+        6864
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Support overview<ept id=\"p1\">**</ept> page, under <bpt id=\"p2\">**</bpt>Delegated administrators<ept id=\"p2\">**</ept>, click <bpt id=\"p3\">**</bpt>Manage your delegated administrators<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        6866,
+        6903
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Remove a delegated administrator<ept id=\"p1\">**</ept>:"
+    },
+    {
+      "content": "When you remove a delegated administrator, you remove the partner’s permissions to access and modify your service.",
+      "pos": [
+        6905,
+        7019
+      ]
+    },
+    {
+      "content": "You can remove the delegated partner at any time.",
+      "pos": [
+        7020,
+        7069
+      ]
+    },
+    {
+      "pos": [
+        7075,
+        7202
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune account portal<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkId=698854)</ept>, under <bpt id=\"p2\">**</bpt>Support<ept id=\"p2\">**</ept>, click <bpt id=\"p3\">**</bpt>Overview<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        7208,
+        7325
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Support overview<ept id=\"p1\">**</ept> page, under <bpt id=\"p2\">**</bpt>Delegated administrators<ept id=\"p2\">**</ept>, click <bpt id=\"p3\">**</bpt>Manage your delegated administrators<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        7331,
+        7461
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Delegated administrators<ept id=\"p1\">**</ept> page, select the partner that you want to remove and click <bpt id=\"p2\">**</bpt>Remove delegated administrator<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        7466,
+        7534
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_DecommissionIntune\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Decommission your subscription"
+    },
+    {
+      "pos": [
+        7535,
+        7702
+      ],
+      "content": "Use the following information to remove data from devices and your infrastructure when you plan to no longer use <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph>."
+    },
+    {
+      "content": "Task",
+      "pos": [
+        7705,
+        7709
+      ]
+    },
+    {
+      "content": "Details",
+      "pos": [
+        7710,
+        7717
+      ]
+    },
+    {
+      "content": "Cancel your subscription",
+      "pos": [
+        7745,
+        7769
+      ]
+    },
+    {
+      "content": "To cancel your subscription, you must <bpt id=\"p1\">[</bpt>Contact Assisted Phone Support for Microsoft Intune<ept id=\"p1\">](http://technet.microsoft.com/library/jj839713.aspx)</ept>.",
+      "pos": [
+        7772,
+        7916
+      ]
+    },
+    {
+      "content": "To help protect your privacy, we ask you to provide the following information regarding your account: the work or school account you use to sign in to the cloud service, the first and last name of the primary contact for your organization, the name of your organization as it shows on your account, and the complete street address of your organization.",
+      "pos": [
+        7928,
+        8280
+      ]
+    },
+    {
+      "content": "Before you cancel your subscription:",
+      "pos": [
+        8292,
+        8328
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Remove domains from your cloud service<ept id=\"p1\">**</ept>: If you added your own domain names for your organization to use with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, you need to <bpt id=\"p2\">[</bpt>Remove a domain<ept id=\"p2\">](http://msdn.microsoft.com/library/azure/jj151817.aspx#bkmk_remove)</ept>.",
+      "pos": [
+        8340,
+        8603
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Save your data<ept id=\"p1\">**</ept>: The data associated with your online service is deleted 90 days after you cancel your subscription.",
+      "pos": [
+        8615,
+        8734
+      ]
+    },
+    {
+      "content": "After your subscription is canceled, if you change your mind, you can reinstate your subscription within 90 days by contacting Support by phone.",
+      "pos": [
+        8746,
+        8890
+      ]
+    },
+    {
+      "content": "Remove data from devices and computers",
+      "pos": [
+        8895,
+        8933
+      ]
+    },
+    {
+      "content": "When you plan to no longer use the service to manage a device, you might want to uninstall the applications you manage with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, remove the <ph id=\"ph2\">[!INCLUDE[wit_iwportal_1](../Token/wit_iwportal_1_md.md)]</ph> app, and uninstall the <ph id=\"ph3\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> client software from computers.",
+      "pos": [
+        8936,
+        9288
+      ]
+    },
+    {
+      "content": "Typically, applications and configurations that are introduced by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> remain in place after you stop using <ph id=\"ph2\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        9300,
+        9507
+      ]
+    },
+    {
+      "content": "Therefore, plan to use the built-in options to wipe devices to remove sensitive information, and plan to uninstall applications before ending active management.",
+      "pos": [
+        9508,
+        9668
+      ]
+    },
+    {
+      "content": "The process to uninstall applications is app-specific.",
+      "pos": [
+        9669,
+        9723
+      ]
+    },
+    {
+      "content": "Be aware that settings previously enforced or set by remain in place on the device.",
+      "pos": [
+        9735,
+        9818
+      ]
+    },
+    {
+      "content": "When the settings are no longer enforced, they can be changed by the owner of the device.",
+      "pos": [
+        9819,
+        9908
+      ]
+    },
+    {
+      "content": "For information about retiring devices from <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, see the following topics:",
+      "pos": [
+        9920,
+        10042
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Mobile devices<ept id=\"p1\">**</ept>: See <bpt id=\"p2\">[</bpt>Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune<ept id=\"p2\">](../Topic/Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        10054,
+        10283
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Computers<ept id=\"p1\">**</ept>: See the \"To retire a computer\" section in <bpt id=\"p2\">[</bpt>Common Windows PC management tasks with the Microsoft Intune computer client<ept id=\"p2\">](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md)</ept>.",
+      "pos": [
+        10295,
+        10521
+      ]
+    },
+    {
+      "content": "Remove infrastructure",
+      "pos": [
+        10526,
+        10547
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>has no common infrastructure or software that you uninstall from your servers.",
+      "pos": [
+        10550,
+        10679
+      ]
+    },
+    {
+      "content": "However, the following are examples of optional tools you might use with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> that you can uninstall when no longer used in your environment:",
+      "pos": [
+        10680,
+        10868
+      ]
+    },
+    {
+      "content": "On-Premises Exchange Connector",
+      "pos": [
+        10880,
+        10910
+      ]
+    },
+    {
+      "content": "Tools for Active Directory synchronization, including Directory Sync tool, Microsoft Active Directory Federation Services 2.0 (AD FS), AD FS 2.0 Proxy, and TThird-party Identity Provider.",
+      "pos": [
+        10922,
+        11109
+      ]
+    },
+    {
+      "content": "Before uninstalling a tool or solution, ensure it is no longer in use.",
+      "pos": [
+        11121,
+        11191
+      ]
+    },
+    {
+      "content": "For example, you might use a solution such as the Active Directory Sync Tool to synchronize your local users with Azure AD.",
+      "pos": [
+        11192,
+        11315
+      ]
+    },
+    {
+      "content": "If you continue to subscribe to other cloud services like Office 365, you might need to retain the tool for use by that service.",
+      "pos": [
+        11316,
+        11444
+      ]
+    },
+    {
+      "content": "Remove data from the cloud",
+      "pos": [
+        11449,
+        11475
+      ]
+    },
+    {
+      "content": "When you choose to no longer subscribe to <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, you can use the <ph id=\"ph2\">[!INCLUDE[wit_icp_2](../Token/wit_icp_2_md.md)]</ph> and <ph id=\"ph3\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> to actively remove information and data you store in the cloud.",
+      "pos": [
+        11478,
+        11766
+      ]
+    },
+    {
+      "content": "This data can include your user and device information, software you uploaded to deploy to devices, and custom configurations such as groups and reports.",
+      "pos": [
+        11767,
+        11920
+      ]
+    },
+    {
+      "content": "If you do not remove your data from the cloud before your subscription ends, it enters a 90-day grace period during which you can continue to access and manage your data in <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        11932,
+        12157
+      ]
+    },
+    {
+      "content": "However, during this grace period, you cannot manage devices by using the service.",
+      "pos": [
+        12158,
+        12240
+      ]
+    },
+    {
+      "content": "After the grace period expires, Microsoft deletes all instances of your data automatically, and that information is no longer available.",
+      "pos": [
+        12252,
+        12388
+      ]
+    },
+    {
+      "content": "For more information, see “Data disposition” in the <bpt id=\"p1\">[</bpt>Microsoft Intune Privacy and Data Protection Overview<ept id=\"p1\">](http://download.microsoft.com/download/C/C/8/CC8065C4-829F-4635-B731-1D39287444C0/Windows_Intune_Privacy_and_Data_Protection_Overview.pdf)</ept> white paper.",
+      "pos": [
+        12389,
+        12648
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        12654,
+        12662
+      ]
+    },
+    {
+      "content": "Technical reference for Microsoft Intune",
+      "pos": [
+        12664,
+        12704
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Maintain Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 61d342c8-172a-4db8-8cf6-1e886845e516\n---\n# MD Maintain Microsoft Intune\nAs a cloud service hosted by Microsoft, the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] service is maintained automatically with little maintenance required by you. However, you should be familiar with the following maintenance tasks that might be required to maintain your service:\n\n-   [Common maintenance tasks](../Topic/Maintain-Microsoft-Intune.md#BKMK_Maintenance)\n\n-   [Change your contact preferences](../Topic/Maintain-Microsoft-Intune.md#BKMK_ManagePreferences)\n\n-   [Manage partner relationships](../Topic/Maintain-Microsoft-Intune.md#BKMK_ManagePartners)\n\n-   [Decommission your subscription](../Topic/Maintain-Microsoft-Intune.md#BKMK_DecommissionIntune)\n\n## <a name=\"BKMK_Maintenance\"></a>Common maintenance tasks\n\n|Task|Details|\n|--------|-----------|\n|**Update the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] service**|[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] is a cloud service, and Microsoft manages service updates for you. Each time you connect to an administrative web portal, you connect to the most current version available.<br /><br />Typically, service updates do not cause a visible change. However, important updates are detailed in the **Notice** board, which is displayed when you connect to the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] after a service update. You can also view notices on the **Notice** page of the **Alerts** workspace of the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)].<br /><br />When there are updates to the client software, you might be prompted to download and deploy the updated client.<br /><br />See [Microsoft Intune Service Updates](http://technet.microsoft.com/library/dn292747.aspx).|\n|**Back up and recover [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] data in the cloud**|As part of the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] service, the infrastructure and data that is managed for you includes configurations you make for your instance of, data and status from the devices you manage, data you upload to the cloud storage, such as software you deploy and license information, and user accounts that you add to your instance of Microsoft Azure AD.<br /><br />Data you upload for use with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] is maintained in the cloud but does not replace the need to maintain an on-premises backup for the source of that information.<br /><br />For information about how Microsoft manages your data, download the [Microsoft Intune Privacy and Data Protection Overview](http://download.microsoft.com/download/C/C/8/CC8065C4-829F-4635-B731-1D39287444C0/Windows_Intune_Privacy_and_Data_Protection_Overview.pdf) white paper.|\n|**Reinstall the On-Premises Exchange Connector**|There are no options to back up or restore this connector. When you install or reinstall this connector, the new instance replaces any previously configured connector.|\n|**Reinstall the Service to Service Connector**|The configuration of this connector is maintained in your cloud storage and does not require backup or restoration. When you configure this connector, the new instance replaces any previously configured connector.|\n|**Back up individual devices and computers**|[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] does not manage the backup or recovery for data, settings, or applications on mobile devices or computers that you manage with the service.|\n\n## <a name=\"BKMK_ManagePreferences\"></a>Change your contact preferences\nAdministrators for [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] have the option to receive product-related communications from Microsoft:\n\n**To manage the communications you receive**:\n\n1.  In the [Microsoft Intune account portal](http://go.microsoft.com/fwlink/?LinkId=698854), click **Message Center**.\n\n2.  Edit the **Contact preferences** section to provide your contact details and to select the communications you want to receive.\n\n3.  Click **Save**.\n\nYou will continue to receive email messages related to your billing and service accounts even if you choose not to receive additional product information.\n\n## <a name=\"BKMK_ManagePartners\"></a>Manage partner relationships\nIf you do not currently work with a partner, you can find one on the [Microsoft Pinpoint](http://go.microsoft.com/fwlink/?linkid=235605) website. Partner availability depends on the services you use and the country or region where you will use those services.\n\n**Manage a Partner for your subscription**\n\nPartners are advisors who can provide sales, support, and technical expertise to help you set up and maintain your subscription. You can add, change, or remove a Microsoft partner from your subscription at any time.\n\nBefore you add or change a partner for your subscription, you must have the partner’s Microsoft Partner ID.\n\n**To manage a partner for a subscription**:\n\n1.  In the [Microsoft Intune account portal](http://go.microsoft.com/fwlink/?LinkId=698854), click **Manage**.\n\n2.  Click [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)].\n\n3.  On the **Subscription details** page, in the right pane under **Partner information**, click:\n\n    -   **Add** if you are adding a partner to your subscription.\n\n    -   **Edit** if you are changing or removing a partner.\n\n4.  Update the information for **Microsoft partner ID**:\n\n    1.  To add or change a partner, enter the Partner ID of the partner you want to work with.\n\n    2.  To remove a partner, clear the Partner ID\n\n5.  Click **OK** to save the change.\n\n**Manage a delegated administrator**\n\nWhen you subscribe to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], you are given administrator permissions and can assign administrator permissions to other users in your company. However, when you want someone else to administer the service, you can delegate this role to a Microsoft partner. When you authorize a partner to take on this role, the partner is referred to as a *delegated administrator*.\n\n**Add a delegated administrator**: This process must be initiated by your Microsoft partner.\n\n1.  The partner sends you an email message asking you if you want to give them permissions to act as a delegated administrator.\n\n2.  Read the partner's terms in the email message.\n\n3.  To authorize the agreement, click the link provided in the message, which will take you to an authorization page.\n\n**View your delegated administrators**:\n\n1.  In the [Microsoft Intune account portal](http://go.microsoft.com/fwlink/?LinkId=698854), under **Support**, click **Overview**.\n\n2.  On the **Support overview** page, under **Delegated administrators**, click **Manage your delegated administrators**.\n\n**Remove a delegated administrator**:\n\nWhen you remove a delegated administrator, you remove the partner’s permissions to access and modify your service. You can remove the delegated partner at any time.\n\n1.  In the [Microsoft Intune account portal](http://go.microsoft.com/fwlink/?LinkId=698854), under **Support**, click **Overview**.\n\n2.  On the **Support overview** page, under **Delegated administrators**, click **Manage your delegated administrators**.\n\n3.  On the **Delegated administrators** page, select the partner that you want to remove and click **Remove delegated administrator**.\n\n## <a name=\"BKMK_DecommissionIntune\"></a>Decommission your subscription\nUse the following information to remove data from devices and your infrastructure when you plan to no longer use [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)].\n\n|Task|Details|\n|--------|-----------|\n|**Cancel your subscription**|To cancel your subscription, you must [Contact Assisted Phone Support for Microsoft Intune](http://technet.microsoft.com/library/jj839713.aspx).<br /><br />To help protect your privacy, we ask you to provide the following information regarding your account: the work or school account you use to sign in to the cloud service, the first and last name of the primary contact for your organization, the name of your organization as it shows on your account, and the complete street address of your organization.<br /><br />Before you cancel your subscription:<br /><br />**Remove domains from your cloud service**: If you added your own domain names for your organization to use with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], you need to [Remove a domain](http://msdn.microsoft.com/library/azure/jj151817.aspx#bkmk_remove).<br /><br />**Save your data**: The data associated with your online service is deleted 90 days after you cancel your subscription.<br /><br />After your subscription is canceled, if you change your mind, you can reinstate your subscription within 90 days by contacting Support by phone.|\n|**Remove data from devices and computers**|When you plan to no longer use the service to manage a device, you might want to uninstall the applications you manage with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], remove the [!INCLUDE[wit_iwportal_1](../Token/wit_iwportal_1_md.md)] app, and uninstall the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] client software from computers.<br /><br />Typically, applications and configurations that are introduced by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] remain in place after you stop using [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. Therefore, plan to use the built-in options to wipe devices to remove sensitive information, and plan to uninstall applications before ending active management. The process to uninstall applications is app-specific.<br /><br />Be aware that settings previously enforced or set by remain in place on the device. When the settings are no longer enforced, they can be changed by the owner of the device.<br /><br />For information about retiring devices from [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], see the following topics:<br /><br />**Mobile devices**: See [Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune](../Topic/Help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-Microsoft-Intune.md).<br /><br />**Computers**: See the \"To retire a computer\" section in [Common Windows PC management tasks with the Microsoft Intune computer client](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md).|\n|**Remove infrastructure**|[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]has no common infrastructure or software that you uninstall from your servers. However, the following are examples of optional tools you might use with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] that you can uninstall when no longer used in your environment:<br /><br />On-Premises Exchange Connector<br /><br />Tools for Active Directory synchronization, including Directory Sync tool, Microsoft Active Directory Federation Services 2.0 (AD FS), AD FS 2.0 Proxy, and TThird-party Identity Provider.<br /><br />Before uninstalling a tool or solution, ensure it is no longer in use. For example, you might use a solution such as the Active Directory Sync Tool to synchronize your local users with Azure AD. If you continue to subscribe to other cloud services like Office 365, you might need to retain the tool for use by that service.|\n|**Remove data from the cloud**|When you choose to no longer subscribe to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], you can use the [!INCLUDE[wit_icp_2](../Token/wit_icp_2_md.md)] and [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] to actively remove information and data you store in the cloud. This data can include your user and device information, software you uploaded to deploy to devices, and custom configurations such as groups and reports.<br /><br />If you do not remove your data from the cloud before your subscription ends, it enters a 90-day grace period during which you can continue to access and manage your data in [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. However, during this grace period, you cannot manage devices by using the service.<br /><br />After the grace period expires, Microsoft deletes all instances of your data automatically, and that information is no longer available. For more information, see “Data disposition” in the [Microsoft Intune Privacy and Data Protection Overview](http://download.microsoft.com/download/C/C/8/CC8065C4-829F-4635-B731-1D39287444C0/Windows_Intune_Privacy_and_Data_Protection_Overview.pdf) white paper.|\n\n## See Also\n[Technical reference for Microsoft Intune](../Topic/Technical-reference-for-Microsoft-Intune.md)\n\n"
+}

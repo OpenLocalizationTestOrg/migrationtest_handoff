@@ -1,0 +1,1139 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - Help users connect to their work using VPN profiles with Microsoft Intune",
+      "pos": [
+        11,
+        100
+      ]
+    },
+    {
+      "content": "MD Conversion - Help users connect to their work using VPN profiles with Microsoft Intune",
+      "pos": [
+        235,
+        324
+      ]
+    },
+    {
+      "content": "Virtual Private Networks (VPN) let you give your users secure remote access to your company network.",
+      "pos": [
+        716,
+        816
+      ]
+    },
+    {
+      "content": "Remote users can work as if their device is physically connected to the network.",
+      "pos": [
+        817,
+        897
+      ]
+    },
+    {
+      "content": "Devices use a VPN connection profile to initiate a connection with the VPN server.",
+      "pos": [
+        898,
+        980
+      ]
+    },
+    {
+      "content": "Use",
+      "pos": [
+        981,
+        984
+      ]
+    },
+    {
+      "content": "VPN profiles",
+      "pos": [
+        989,
+        1001
+      ]
+    },
+    {
+      "content": "in",
+      "pos": [
+        1007,
+        1009
+      ]
+    },
+    {
+      "content": "wit_firstref",
+      "pos": [
+        1017,
+        1029
+      ]
+    },
+    {
+      "content": "to deploy VPN settings to users and devices in your organization.",
+      "pos": [
+        1038,
+        1103
+      ]
+    },
+    {
+      "content": "By deploying these settings, you minimize the end-user effort required to connect to resources on the company network.",
+      "pos": [
+        1104,
+        1222
+      ]
+    },
+    {
+      "content": "For example, you want to provision all iOS devices with the settings required to connect to a file share on the corporate network.",
+      "pos": [
+        1240,
+        1370
+      ]
+    },
+    {
+      "content": "You create a VPN profile containing the settings necessary to connect to the corporate network and then deploy this profile to all users with iOS devices.",
+      "pos": [
+        1371,
+        1525
+      ]
+    },
+    {
+      "content": "The users will see the VPN connection in the list of available networks and can connect with the minimum of effort.",
+      "pos": [
+        1526,
+        1641
+      ]
+    },
+    {
+      "content": "You can configure the following device types with VPN profiles:",
+      "pos": [
+        1659,
+        1722
+      ]
+    },
+    {
+      "content": "Devices that run Android 4 and later",
+      "pos": [
+        1787,
+        1823
+      ]
+    },
+    {
+      "content": "Devices that run iOS 7.1 and later",
+      "pos": [
+        1880,
+        1914
+      ]
+    },
+    {
+      "content": "Devices that run Max OS X 10.9 and later",
+      "pos": [
+        1971,
+        2011
+      ]
+    },
+    {
+      "content": "Enrolled devices that run Windows 8.1 and later (includes",
+      "pos": [
+        2068,
+        2125
+      ]
+    },
+    {
+      "content": "Windows RT 8.1",
+      "pos": [
+        2190,
+        2204
+      ]
+    },
+    {
+      "content": ")",
+      "pos": [
+        2230,
+        2231
+      ]
+    },
+    {
+      "content": "Devices that run Windows Phone 8.1 and later",
+      "pos": [
+        2288,
+        2332
+      ]
+    },
+    {
+      "content": "Devices that run Windows 10 desktop and mobile.",
+      "pos": [
+        2378,
+        2425
+      ]
+    },
+    {
+      "content": "The VPN profile configuration options will differ depending on the device type you select.",
+      "pos": [
+        2461,
+        2551
+      ]
+    },
+    {
+      "content": "VPN connection types",
+      "pos": [
+        2600,
+        2620
+      ]
+    },
+    {
+      "content": "wit_nextref",
+      "pos": [
+        2671,
+        2682
+      ]
+    },
+    {
+      "content": "supports creating VPN profiles that use the following connection types:",
+      "pos": [
+        2691,
+        2762
+      ]
+    },
+    {
+      "content": "Connection type",
+      "pos": [
+        2934,
+        2949
+      ]
+    },
+    {
+      "content": "iOS and Mac OS X",
+      "pos": [
+        3053,
+        3069
+      ]
+    },
+    {
+      "content": "Android",
+      "pos": [
+        3173,
+        3180
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1",
+      "pos": [
+        3284,
+        3301
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        3405,
+        3435
+      ]
+    },
+    {
+      "content": "Windows 10 Desktop and Mobile",
+      "pos": [
+        3511,
+        3540
+      ]
+    },
+    {
+      "content": "Cisco AnyConnect",
+      "pos": [
+        3654,
+        3670
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        3733,
+        3736
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        3799,
+        3802
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        3865,
+        3867
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        3930,
+        3932
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        3982,
+        3984
+      ]
+    },
+    {
+      "content": "Pulse Secure",
+      "pos": [
+        4078,
+        4090
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4153,
+        4156
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4219,
+        4222
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4285,
+        4288
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4351,
+        4354
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4404,
+        4407
+      ]
+    },
+    {
+      "content": "F5 Edge Client",
+      "pos": [
+        4501,
+        4515
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4578,
+        4581
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4644,
+        4647
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4710,
+        4713
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4776,
+        4779
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4829,
+        4832
+      ]
+    },
+    {
+      "content": "Dell SonicWALL Mobile Connect",
+      "pos": [
+        4926,
+        4955
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5018,
+        5021
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5084,
+        5087
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5150,
+        5153
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5216,
+        5219
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5269,
+        5272
+      ]
+    },
+    {
+      "content": "CheckPoint Mobile VPN",
+      "pos": [
+        5366,
+        5387
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5450,
+        5453
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5516,
+        5519
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5582,
+        5585
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5648,
+        5651
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5701,
+        5704
+      ]
+    },
+    {
+      "content": "Before you can use VPN profiles deployed to a device, you must install the applicable VPN app for the profile.",
+      "pos": [
+        5824,
+        5934
+      ]
+    },
+    {
+      "content": "You can use the information in the",
+      "pos": [
+        5935,
+        5969
+      ]
+    },
+    {
+      "content": "Deploy apps to mobile devices in Microsoft Intune",
+      "pos": [
+        6026,
+        6075
+      ]
+    },
+    {
+      "content": "topic to help you deploy the applicable app using",
+      "pos": [
+        6083,
+        6132
+      ]
+    },
+    {
+      "content": "wit_nextref",
+      "pos": [
+        6140,
+        6151
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        6159,
+        6160
+      ]
+    },
+    {
+      "content": "How VPN profiles are secured",
+      "pos": [
+        6234,
+        6262
+      ]
+    },
+    {
+      "content": "VPN profiles can use a number of different connection types and protocols from different manufacturers.",
+      "pos": [
+        6297,
+        6400
+      ]
+    },
+    {
+      "content": "These connections are typically secured using one of two methods:",
+      "pos": [
+        6401,
+        6466
+      ]
+    },
+    {
+      "content": "Certificates",
+      "pos": [
+        6535,
+        6547
+      ]
+    },
+    {
+      "content": "When you create the VPN profile, you choose a SCEP",
+      "pos": [
+        6590,
+        6640
+      ]
+    },
+    {
+      "content": "or .PFX",
+      "pos": [
+        6719,
+        6726
+      ]
+    },
+    {
+      "content": "certificate profile that you have previously created in",
+      "pos": [
+        6751,
+        6806
+      ]
+    },
+    {
+      "content": "wit_nextref",
+      "pos": [
+        6814,
+        6825
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        6833,
+        6834
+      ]
+    },
+    {
+      "content": "This is known as the identity certificate and is used to authenticate against a trusted certificate profile (or a root certificate) you created to establish that the user’s device is allowed to connect.",
+      "pos": [
+        6835,
+        7037
+      ]
+    },
+    {
+      "content": "The trusted certificate is deployed to the computer that authenticates the VPN connection, typically, the VPN server.",
+      "pos": [
+        7038,
+        7155
+      ]
+    },
+    {
+      "content": "For more information about how to create and use certificate profiles in",
+      "pos": [
+        7179,
+        7251
+      ]
+    },
+    {
+      "content": "wit_nextref",
+      "pos": [
+        7259,
+        7270
+      ]
+    },
+    {
+      "content": ", see",
+      "pos": [
+        7278,
+        7283
+      ]
+    },
+    {
+      "content": "Use Microsoft Intune Certificate Profiles to secure access to company resources",
+      "pos": [
+        7340,
+        7419
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        7426,
+        7427
+      ]
+    },
+    {
+      "content": "Username and password",
+      "pos": [
+        7502,
+        7523
+      ]
+    },
+    {
+      "content": "The user authenticates to the VPN server by providing their username and password.",
+      "pos": [
+        7566,
+        7648
+      ]
+    },
+    {
+      "content": "Create a VPN profile",
+      "pos": [
+        7744,
+        7764
+      ]
+    },
+    {
+      "content": "In the",
+      "pos": [
+        7927,
+        7933
+      ]
+    },
+    {
+      "content": "Microsoft Intune administration console",
+      "pos": [
+        7958,
+        7997
+      ]
+    },
+    {
+      "content": "https://manage.microsoft.com",
+      "pos": [
+        8017,
+        8045
+      ]
+    },
+    {
+      "content": ", click",
+      "pos": [
+        8070,
+        8077
+      ]
+    },
+    {
+      "content": "Policy",
+      "pos": [
+        8082,
+        8088
+      ]
+    },
+    {
+      "content": "&amp;gt;",
+      "pos": [
+        8094,
+        8098
+      ]
+    },
+    {
+      "content": "Add Policy",
+      "pos": [
+        8103,
+        8113
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        8118,
+        8119
+      ]
+    },
+    {
+      "content": "Select a template for the new policy by expanding the relevant device type, then choose the VPN profile for that device:",
+      "pos": [
+        8227,
+        8347
+      ]
+    },
+    {
+      "content": "VPN Profile (Android 4 and later)",
+      "pos": [
+        8467,
+        8500
+      ]
+    },
+    {
+      "content": "VPN Profile (iOS 7.1 and later)",
+      "pos": [
+        8636,
+        8667
+      ]
+    },
+    {
+      "content": "VPN Profile (Mac OS X 10.9 and later)",
+      "pos": [
+        8803,
+        8840
+      ]
+    },
+    {
+      "content": "VPN Profile (Windows 8.1 and later)",
+      "pos": [
+        8976,
+        9011
+      ]
+    },
+    {
+      "content": "VPN Profile (Windows Phone 8.1 and later)",
+      "pos": [
+        9147,
+        9188
+      ]
+    },
+    {
+      "content": "VPN Profile (Windows 10 Desktop and Mobile and later)",
+      "pos": [
+        9400,
+        9453
+      ]
+    },
+    {
+      "content": "You can only create and deploy a custom VPN profile policy.",
+      "pos": [
+        9580,
+        9639
+      ]
+    },
+    {
+      "content": "Recommended settings are not available.",
+      "pos": [
+        9640,
+        9679
+      ]
+    },
+    {
+      "content": "For more information about how to create and deploy policies, see the",
+      "pos": [
+        9707,
+        9776
+      ]
+    },
+    {
+      "content": "Use policies to manage computers and mobile devices in Windows Intune",
+      "pos": [
+        9833,
+        9902
+      ]
+    },
+    {
+      "content": "topic.",
+      "pos": [
+        9910,
+        9916
+      ]
+    },
+    {
+      "content": "Use the following table to help you configure the VPN profile settings:",
+      "pos": [
+        10109,
+        10180
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        10397,
+        10409
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        10496,
+        10512
+      ]
+    },
+    {
+      "content": "Name",
+      "pos": [
+        10724,
+        10728
+      ]
+    },
+    {
+      "content": "Enter a unique name for the VPN profile to help you identify it in the",
+      "pos": [
+        10843,
+        10913
+      ]
+    },
+    {
+      "content": "wit_nextref",
+      "pos": [
+        10921,
+        10932
+      ]
+    },
+    {
+      "content": "console.",
+      "pos": [
+        10941,
+        10949
+      ]
+    },
+    {
+      "content": "Description",
+      "pos": [
+        11112,
+        11123
+      ]
+    },
+    {
+      "content": "Provide a description that gives an overview of the VPN profile and other relevant information that helps you to locate it.",
+      "pos": [
+        11238,
+        11361
+      ]
+    },
+    {
+      "content": "VPN connection name (displayed to users)",
+      "pos": [
+        11524,
+        11564
+      ]
+    },
+    {
+      "content": "Specify a name for the VPN profile.",
+      "pos": [
+        11679,
+        11714
+      ]
+    },
+    {
+      "content": "This is the name that users will see in the list of available VPN connections on their devices.",
+      "pos": [
+        11715,
+        11810
+      ]
+    },
+    {
+      "content": "Connection type",
+      "pos": [
+        11973,
+        11988
+      ]
+    },
+    {
+      "content": "Select one of the following connection types to use in the VPN profile:",
+      "pos": [
+        12103,
+        12174
+      ]
+    },
+    {
+      "content": "If you do not create a network traffic rule, all protocols, ports and address ranges are enabled.",
+      "pos": [
+        28757,
+        28854
+      ]
+    },
+    {
+      "content": "Once you create a rule, only the protocols, ports and address ranges that you specify in that rule or in additional rules will be used by the VPN connection.",
+      "pos": [
+        28855,
+        29012
+      ]
+    },
+    {
+      "content": "Routes",
+      "pos": [
+        29147,
+        29153
+      ]
+    },
+    {
+      "content": "Which routes will use the VPN connection.",
+      "pos": [
+        29299,
+        29340
+      ]
+    },
+    {
+      "content": "DNS servers",
+      "pos": [
+        29474,
+        29485
+      ]
+    },
+    {
+      "content": "Which DNS servers are used by the VPN connection once the connection has been established.",
+      "pos": [
+        29631,
+        29721
+      ]
+    },
+    {
+      "content": "Here's an example of when you might use corporate boundaries settings.",
+      "pos": [
+        29928,
+        29998
+      ]
+    },
+    {
+      "content": "If you want to enable VPN only for remote desktop, you would create a network traffic rule that allows traffic for protocol number 27 on external port 3996.",
+      "pos": [
+        29999,
+        30155
+      ]
+    },
+    {
+      "content": "No other traffic will use the VPN.",
+      "pos": [
+        30156,
+        30190
+      ]
+    },
+    {
+      "content": "Defining routes in corporate boundaries is useful when your VPN connection type does not allow you to define how traffic is handled in split tunneling.",
+      "pos": [
+        30203,
+        30354
+      ]
+    },
+    {
+      "content": "In that case, use",
+      "pos": [
+        30355,
+        30372
+      ]
+    },
+    {
+      "content": "Routes",
+      "pos": [
+        30377,
+        30383
+      ]
+    },
+    {
+      "content": "to list the routes that will use the VPN.",
+      "pos": [
+        30389,
+        30430
+      ]
+    },
+    {
+      "content": "You can restrict Windows 10 device VPN usage to specific apps by creating a custom OMA-URI setting.",
+      "pos": [
+        30443,
+        30542
+      ]
+    },
+    {
+      "content": "To learn more about customer URI settings see",
+      "pos": [
+        30543,
+        30588
+      ]
+    },
+    {
+      "content": "Custom URI settings for Windows 10 devices",
+      "pos": [
+        30645,
+        30687
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        30694,
+        30695
+      ]
+    },
+    {
+      "content": "When you are finished, click",
+      "pos": [
+        30824,
+        30852
+      ]
+    },
+    {
+      "content": "Save Policy",
+      "pos": [
+        30857,
+        30868
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        30873,
+        30874
+      ]
+    },
+    {
+      "content": "The new policy displays in the",
+      "pos": [
+        30999,
+        31029
+      ]
+    },
+    {
+      "content": "Configuration Policies",
+      "pos": [
+        31034,
+        31056
+      ]
+    },
+    {
+      "content": "node of the",
+      "pos": [
+        31062,
+        31073
+      ]
+    },
+    {
+      "content": "Policy",
+      "pos": [
+        31078,
+        31084
+      ]
+    },
+    {
+      "content": "workspace.",
+      "pos": [
+        31090,
+        31100
+      ]
+    },
+    {
+      "content": "Deploy a VPN profile",
+      "pos": [
+        31221,
+        31241
+      ]
+    },
+    {
+      "content": "Deploy the VPN profile to one or more groups of users or devices in your organization.",
+      "pos": [
+        31390,
+        31476
+      ]
+    },
+    {
+      "content": "For more information about how to deploy policies, see",
+      "pos": [
+        31601,
+        31655
+      ]
+    },
+    {
+      "content": "Use policies to manage computers and mobile devices with Microsoft Intune",
+      "pos": [
+        31777,
+        31850
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        32241,
+        32242
+      ]
+    },
+    {
+      "content": "A status summary and alerts on the",
+      "pos": [
+        32268,
+        32302
+      ]
+    },
+    {
+      "content": "Overview",
+      "pos": [
+        32307,
+        32315
+      ]
+    },
+    {
+      "content": "page of the",
+      "pos": [
+        32321,
+        32332
+      ]
+    },
+    {
+      "content": "Policy",
+      "pos": [
+        32337,
+        32343
+      ]
+    },
+    {
+      "content": "workspace identify issues with the policy that require your attention.",
+      "pos": [
+        32349,
+        32419
+      ]
+    },
+    {
+      "content": "Additionally, a status summary appears in the",
+      "pos": [
+        32420,
+        32465
+      ]
+    },
+    {
+      "content": "Dashboard",
+      "pos": [
+        32470,
+        32479
+      ]
+    },
+    {
+      "content": "workspace.",
+      "pos": [
+        32485,
+        32495
+      ]
+    },
+    {
+      "content": "After successful deployment, users will see the VPN connection name you specified in the list of VPN connections on their device.",
+      "pos": [
+        32633,
+        32762
+      ]
+    },
+    {
+      "content": "Enable access to company resources using Windows Intune",
+      "pos": [
+        32878,
+        32933
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - Help users connect to their work using VPN profiles with Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 39e3b32b-51e6-4da8-9762-f0f4872bf0a9\n---\n# MD Conversion - Help users connect to their work using VPN profiles with Microsoft Intune\n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<developerWalkthroughDocument xmlns=\"http://ddue.schemas.microsoft.com/authoring/2003/5\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://ddue.schemas.microsoft.com/authoring/2003/5 http://dduestorage.blob.core.windows.net/ddueschema/developer.xsd\">\n  <introduction>\n    <para>Virtual Private Networks (VPN) let you give your users secure remote access to your company network. Remote users can work as if their device is physically connected to the network. Devices use a VPN connection profile to initiate a connection with the VPN server. Use <ui>VPN profiles</ui> in <token>wit_firstref</token> to deploy VPN settings to users and devices in your organization. By deploying these settings, you minimize the end-user effort required to connect to resources on the company network.</para>\n    <para>For example, you want to provision all iOS devices with the settings required to connect to a file share on the corporate network. You create a VPN profile containing the settings necessary to connect to the corporate network and then deploy this profile to all users with iOS devices. The users will see the VPN connection in the list of available networks and can connect with the minimum of effort.</para>\n    <para>You can configure the following device types with VPN profiles:</para>\n    <list class=\"bullet\">\n      <listItem>\n        <para>Devices that run Android 4 and later</para>\n      </listItem>\n      <listItem>\n        <para>Devices that run iOS 7.1 and later</para>\n      </listItem>\n      <listItem>\n        <para>Devices that run Max OS X 10.9 and later</para>\n      </listItem>\n      <listItem>\n        <para>Enrolled devices that run Windows 8.1 and later (includes <?Comment RS: Confirmed with Karan 2014-09-24T14:21:00Z  Id='0?>Windows RT 8.1<?CommentEnd Id='0'\n    ?>)</para>\n      </listItem>\n      <listItem>\n        <para>Devices that run Windows Phone 8.1 and later</para>\n      </listItem>\n    <listItem><para>Devices that run Windows 10 desktop and mobile.</para></listItem></list>\n    <para>The VPN profile configuration options will differ depending on the device type you select.</para>\n  </introduction>\n  <section>\n    <title>VPN connection types</title>\n    <content>\n      <para>\n        <token>wit_nextref</token> supports creating VPN profiles that use the following connection types:</para>\n      <table xmlns:caps=\"http://schemas.microsoft.com/build/caps/2013/11\">\n        <tbody>\n          <tr>\n            <TD>\n              <para>\n                <ui>Connection type</ui>\n              </para>\n            </TD>\n            <TD>\n              <para>\n                <ui>iOS and Mac OS X</ui>\n              </para>\n            </TD>\n            <TD>\n              <para>\n                <ui>Android</ui>\n              </para>\n            </TD>\n            <TD>\n              <para>\n                <ui>Windows Phone 8.1</ui>\n              </para>\n            </TD>\n            <TD>\n              <para>\n                <ui>Windows 8.1 and Windows RT 8.1</ui>\n              </para>\n            </TD><TD><para>\n                <ui>Windows 10 Desktop and Mobile</ui>\n              </para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>Cisco AnyConnect</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>No</para>\n            </TD>\n            <TD>\n              <para>No</para>\n            </TD><TD>\n              <para>No</para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>Pulse Secure</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD><TD>\n              <para>Yes</para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>F5 Edge Client</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD><TD>\n              <para>Yes</para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>Dell SonicWALL Mobile Connect</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD><TD>\n              <para>Yes</para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>CheckPoint Mobile VPN</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD><TD>\n              <para>Yes</para>\n            </TD>\n          </tr>\n        </tbody>\n      </table>\n      <alert class=\"important\">\n        <para>Before you can use VPN profiles deployed to a device, you must install the applicable VPN app for the profile. You can use the information in the <link xlink:href=\"6da30550-9e8e-4333-b9b3-83928de3807a\">Deploy apps to mobile devices in Microsoft Intune</link> topic to help you deploy the applicable app using <token>wit_nextref</token>.</para>\n      </alert>\n    </content>\n  </section>\n  <section>\n    <title>How VPN profiles are secured</title>\n    <content>\n      <para>VPN profiles can use a number of different connection types and protocols from different manufacturers. These connections are typically secured using one of two methods:</para>\n    </content>\n    <sections>\n      <section>\n        <title>Certificates</title>\n        <content>\n          <para>When you create the VPN profile, you choose a SCEP <?xm-insertion_mark_start author=\"Nathan Bigman\" time=\"20150812T131619+0200\"?>or .PFX<?xm-insertion_mark_end?>certificate profile that you have previously created in <token>wit_nextref</token>. This is known as the identity certificate and is used to authenticate against a trusted certificate profile (or a root certificate) you created to establish that the user’s device is allowed to connect. The trusted certificate is deployed to the computer that authenticates the VPN connection, typically, the VPN server.</para>\n          <para>For more information about how to create and use certificate profiles in <token>wit_nextref</token>, see <link xlink:href=\"8cbb8499-611d-4217-a7b4-e9b864785dd0\">Use Microsoft Intune Certificate Profiles to secure access to company resources</link>.</para>\n        </content>\n      </section>\n      <section>\n        <title>Username and password</title>\n        <content>\n          <para>The user authenticates to the VPN server by providing their username and password.</para>\n        </content>\n      </section>\n    </sections>\n  </section>\n  <section>\n    <title>Create a VPN profile</title>\n    <content>\n      <para/>\n      <procedure>\n        <title/>\n        <steps class=\"ordered\">\n          <step>\n            <content>\n              <para>In the <externalLink><linkText>Microsoft Intune administration console</linkText><linkUri>https://manage.microsoft.com</linkUri></externalLink>, click <ui>Policy</ui> &gt; <ui>Add Policy</ui>.</para>\n            </content>\n          </step>\n          <step>\n            <content>\n              <para>Select a template for the new policy by expanding the relevant device type, then choose the VPN profile for that device:</para>\n              <list class=\"bullet\">\n                <listItem>\n                  <para>\n                    <ui>VPN Profile (Android 4 and later)</ui>\n                  </para>\n                </listItem>\n                <listItem>\n                  <para>\n                    <ui>VPN Profile (iOS 7.1 and later)</ui>\n                  </para>\n                </listItem>\n                <listItem>\n                  <para>\n                    <ui>VPN Profile (Mac OS X 10.9 and later)</ui>\n                  </para>\n                </listItem>\n                <listItem>\n                  <para>\n                    <ui>VPN Profile (Windows 8.1 and later)</ui>\n                  </para>\n                </listItem>\n                <listItem>\n                  <para>\n                    <ui>VPN Profile (Windows Phone 8.1 and later)</ui>\n                  </para>\n                </listItem>\n              <?xm-insertion_mark_start author=\"Nathan Bigman\" time=\"20150812T132037+0200\"?><listItem>\n                  <para>\n                    <ui>VPN Profile (Windows 10 Desktop and Mobile and later)</ui>\n                  </para>\n                </listItem>\n              <?xm-insertion_mark_end?></list>\n              <para>You can only create and deploy a custom VPN profile policy. Recommended settings are not available.</para>\n              <para>For more information about how to create and deploy policies, see the <link xlink:href=\"efb4dcd6-56ea-44a8-8fe2-6f1542fc75ec\">Use policies to manage computers and mobile devices in Windows Intune</link> topic.</para>\n            </content>\n          </step>\n          <step>\n            <content>\n              <para>\n                <?Comment RS: Triple check this table! 2014-09-23T10:23:00Z  Id='2?>Use the following table to help you configure the VPN profile settings:<?CommentEnd Id='2'\n    ?></para>\n              <table xmlns:caps=\"http://schemas.microsoft.com/build/caps/2013/11\">\n                <thead>\n                  <tr>\n                    <TD>\n                      <para>Setting name</para>\n                    </TD>\n                    <TD>\n                      <para>More information</para>\n                    </TD>\n                  </tr>\n                </thead>\n                <tbody>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Name</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Enter a unique name for the VPN profile to help you identify it in the <token>wit_nextref</token> console.</para>\n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Description</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Provide a description that gives an overview of the VPN profile and other relevant information that helps you to locate it.</para>\n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>VPN connection name (displayed to users)</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Specify a name for the VPN profile. This is the name that users will see in the list of available VPN connections on their devices.</para>\n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Connection type</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Select one of the following connection types to use in the VPN profile:</para>\n                     \n                          <para>\n                            <ui>Cisco AnyConnect</ui> (not available for Windows 8.1 or Windows Phone 8.1)</para>\n                       \n                          <para>\n                            <ui>Pulse Secure</ui>\n                          </para>\n                       \n                          <para>\n                            <ui>F5 Edge Client</ui>\n                          </para>\n                       \n                          <para>\n                            <ui>Dell SonicWALL Mobile Connect</ui>\n                          </para>\n                       \n                          <para>\n                            <ui>CheckPoint Mobile VPN</ui>\n                          </para>\n                       \n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>VPN server description</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Specify a description for the VPN server that devices will connect to.                     \n                        <ui>Example:</ui> <userInputLocalizable>Contoso VPN Server</userInputLocalizable></para>\n                     \n                        <para>When the connection type is <ui>F5 Edge Client</ui>, use the <ui>Server list</ui> field to specify a list of server descriptions and IP addresses.</para>\n                      \n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Server IP address or FQDN</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Provide the IP address or fully qualified domain name of the VPN server that devices will connect to.                         <ui>Examples:</ui> <userInput>192.168.1.1</userInput>, <userInput>vpn.contoso.com</userInput></para>\n                     \n                        <para>When the connection type is <ui>F5 Edge Client</ui>, use the <ui>Server list</ui> field to specify a list of server descriptions and IP addresses.</para>\n                      \n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Server list</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Click <ui>Add</ui> to add a new VPN server to use for the VPN connection. You can also specify which server is to be the default server for the connection.</para>\n                      \n                        <para>This option is displayed only when the connection type is <ui>F5 Edge Client</ui>.</para>\n                     \n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Send all network traffic through the VPN connection</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>If you select this option, all network traffic is sent through the VPN connection.</para>\n                      <para>If you do not select this option, the client will dynamically negotiate the routes for split tunneling upon connecting to the 3rd party VPN server.</para>\n                      <para>Only connections to the company network are sent over a VPN tunnel. VPN tunneling is not used when you connect to resources on the Internet.</para>\n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Authentication method</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Select the authentication method used by the VPN connection:</para>\n                     \n                          <para>\n                            <ui>Certificates</ui>\n                          </para>\n                       \n                          <para>\n                            <ui>Username and Password</ui> - this setting is not available when the connection type is <ui>Cisco AnyConnect</ui>.</para>\n                        <para>The <ui>Authentication method</ui> option is not available for Windows 8.1\n                          </para>\n                       \n                       \n                      \n                     \n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Remember the user credentials at each logon</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Select this option to ensure that the user credentials are remembered so that the user does not have to enter credentials each time a connection is established.</para>\n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Select a client certificate for client authentication (Identity Certificate)</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Select the client SCEP certificate that you previously created that will be used to authenticate the VPN connection. For more information about how to use certificate profiles in <token>wit_nextref</token>, see <link xlink:href=\"8cbb8499-611d-4217-a7b4-e9b864785dd0\">Use Microsoft Intune Certificate Profiles to secure access to company resources</link>.</para>\n                     \n                        <para>This option is displayed only when the authentication method is <ui>Certificates</ui>.</para>\n                    \n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Role</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Specify the name of the user role that has access to this connection. A user role defines personal settings, options, and enables or disables certain access features.</para>\n                     \n                        <para>This option is displayed only when the connection type is <ui>Pulse Secure</ui>.</para>\n                     \n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Realm</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Specify the name of the authentication realm that you want to use. An authentication realm is a grouping of authentication resources that is used by the Pulse Secure connection type.</para>\n                     \n                        <para>This option is displayed only when the connection type is <ui>Pulse Secure</ui>.</para>\n                    \n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Login group or domain</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Specify the name of the login group or domain that you want to connect to.</para>\n                     \n                        <para>This option is displayed only when the connection type is <ui>Dell SonicWALL Mobile Connect</ui>.</para>\n                    \n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Fingerprint</ui>\n                      </para>\n                    </TD>\n                    <TD>\n                      <para>Specify a string, for example \"Contoso Fingerprint Code\" that will be used to verify the VPN server can be trusted.</para>\n                      <para>A fingerprint can be:</para>\n                     \n                          <para>Sent to the client so it knows to trust any server presenting that same fingerprint when connecting.</para>\n                       \n                          <para>If the device doesn’t already have the fingerprint it will prompt the user to trust the VPN server they are connecting to while showing the fingerprint (the user manually verifies the fingerprint and clicks <ui>trust</ui> to connect).</para>\n                       \n                        <para>This option is displayed only when the connection type is <ui>CheckPoint Mobile VPN</ui>.</para>\n                    \n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Per App VPN</ui> (iOS only)</para>\n                    </TD>\n                    <TD>\n                      <para>Select this option if you want to associate this VPN connection with an iOS of Mac OS X app so that the connection will be opened when the app is run. You can associate the VPN profile with an app when you deploy the software. For more information, see <link xlink:href=\"6da30550-9e8e-4333-b9b3-83928de3807a\">Deploy software to mobile devices in Windows Intune</link>.</para>\n                     \n                        <para>\n                          <?Comment RS: 144904 2014-10-15T09:13:00Z  Id='3?>If you deploy an app that is associated with a deployed VPN profile and then delete the VPN profile deployment, users will no longer be able to run the app.<?CommentEnd Id='3'\n    ?></para>\n                 \n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Automatically detect proxy settings</ui> (iOS, Mac OS X, Windows 8.1 and Windows Phone 8.1 only)</para>\n                    </TD>\n                    <TD>\n                      <para>If your VPN server requires a proxy server for the connection, specify whether you would like devices to automatically detect the connection settings.</para>\n                      <para>For more information, see your Windows Server documentation.</para>\n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Use automatic configuration script</ui> (iOS, Mac OS X, Windows 8.1 and Windows Phone 8.1 only)</para>\n                    </TD>\n                    <TD>\n                      <para>If your VPN server requires a proxy server for the connection, specify whether you would like to use an automatic configuration script to define the settings and then specify a URL to the file containing the settings.</para>\n                      <para>For more information, see your Windows Server documentation.</para>\n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Use proxy server</ui> (iOS, Mac OS X, Windows 8.1 and Windows Phone 8.1 only)</para>\n                    </TD>\n                    <TD>\n                      <para>If your VPN server requires a proxy server for the connection, select this option, then specify the address and port number of the proxy server.</para>\n                      <para>For more information, see your Windows Server documentation.</para>\n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Bypass proxy settings for local addresses</ui> (iOS, Mac OS X, Windows 8.1 and Windows Phone 8.1 only only)</para>\n                    </TD>\n                    <TD>\n                      <para>If your VPN server requires a proxy server for the connection, select this option if you do not want to use the proxy server for local addresses that you specify.</para>\n                      <para>For more information, see your Windows Server documentation.</para>\n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Custom XML</ui> (Windows 8.1<?xm-insertion_mark_start author=\"Nathan Bigman\" time=\"20150812T132139+0200\"?> and later,<?xm-insertion_mark_end?> and Windows Phone 8.1<?xm-insertion_mark_start author=\"Nathan Bigman\" time=\"20150812T132146+0200\"?> and later<?xm-insertion_mark_end?> only)</para>\n                    </TD>\n                    <TD>\n                      <para>Allows you to specify custom XML commands that configure the VPN connection. Examples</para>\n                   \n                    \n                          <para>For <ui>Pulse Secure</ui>:\n                            <userInput>&lt;pulse-schema&gt;&lt;isSingleSignOnCredential&gt;true&lt;/isSingleSignOnCredential&gt;&lt;/pulse-schema&gt;</userInput>\n                          </para>\n                      \n                          <para>For <ui>CheckPoint Mobile VPN</ui>:\n                            <userInput>&lt;CheckPointVPN port=\"443\" name=\"CheckPointSelfhost\" sso=\"true\"  debug=\"3\" /&gt;</userInput>\n                          </para>\n                       \n                          <para>For <ui>Dell SonicWALL Mobile Connect</ui>:\n                            <userInput>&lt;MobileConnect&gt;&lt;Compression&gt;false&lt;/Compression&gt;&lt;debugLogging&gt;True&lt;/debugLogging&gt;&lt;packetCapture&gt;False&lt;/packetCapture&gt;&lt;/MobileConnect&gt;</userInput>\n                          </para>\n                       \n                          <para>For <ui>F5 Edge Client</ui>:\n                            <userInput>&lt;f5-vpn-conf&gt;&lt;single-sign-on-credential /&gt;&lt;/f5-vpn-conf&gt;</userInput>\n                          </para>\n                      \n                      <para>Refer to each manufacturers VPN documentation for more information about how to write custom XML commands.</para>\n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>DNS Suffix search list</ui> (Windows Phone 8.1 only)</para>\n                    </TD>\n                    <TD>\n                      <para>Specify one DNS suffix on each line. Each DNS suffix you specify will be searched when connecting to a website using a short name.</para>\n                      <para>For example, specify the DNS suffices <ui>domain1.contoso.com</ui> and <ui>domain2.contoso.com</ui>, visit the URL <ui>http://mywebsite</ui>, and the URLs <ui>http://mywebsite.domain1.contoso.com</ui> and \n                         \n                            <ui>http://mywebsite.domain2.contoso.com</ui> will be searched.\n                          </para>\n                       \n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Bypass VPN when connected to company Wi-Fi network</ui> (Windows Phone 8.1 only)</para>\n                    </TD>\n                    <TD>\n                      <para>Specifies that the VPN connection will not be used when the device is connected to the company Wi-Fi network.</para>\n                    </TD>\n                  </tr>\n                  <tr>\n                    <TD>\n                      <para>\n                        <ui>Bypass VPN when connected to home Wi-Fi network</ui> (Windows Phone 8.1 only)</para>\n                    </TD>\n                    <TD>\n                      <para>Specifies that the VPN connection will not be used when the device is connected to a home Wi-Fi network.</para>\n                    </TD>\n                  </tr><tr><TD colspan=\"2\"><?xm-insertion_mark_start author=\"Nathan Bigman\" time=\"20150812T132536+0200\"?><para><legacyBold>Corporate Boundaries settings for Windows 10 Desktop and Mobile</legacyBold></para><?xm-insertion_mark_end?></TD></tr><tr><TD><?xm-insertion_mark_start author=\"Nathan Bigman\" time=\"20150812T132249+0200\"?><para>\n                        Network traffic rules</para>\n                    <?xm-insertion_mark_end?></TD><TD><?xm-insertion_mark_start author=\"Nathan Bigman\" time=\"20150812T170726+0200\"?><para>Set which protocols, local and remote port and address ranges will be enabled for the VPN connection.</para>\n <para>If you do not create a network traffic rule, all protocols, ports and address ranges are enabled. Once you create a rule, only the protocols, ports and address ranges that you specify in that rule or in additional rules will be used by the VPN connection.</para>\n<?xm-insertion_mark_end?></TD></tr><tr><TD><?xm-insertion_mark_start author=\"Nathan Bigman\" time=\"20150812T132323+0200\"?><para>Routes</para>\n                    <?xm-insertion_mark_end?></TD><TD><?xm-insertion_mark_start author=\"Nathan Bigman\" time=\"20150812T171048+0200\"?><para>Which routes will use the VPN connection.</para><?xm-insertion_mark_end?></TD></tr><tr><TD><?xm-insertion_mark_start author=\"Nathan Bigman\" time=\"20150812T132328+0200\"?><para>DNS servers</para>\n                    <?xm-insertion_mark_end?></TD><TD><?xm-insertion_mark_start author=\"Nathan Bigman\" time=\"20150812T150543+0200\"?><para>Which DNS servers are used by the VPN connection once the connection has been established.</para><?xm-insertion_mark_end?></TD></tr>\n                </tbody>\n              </table>\n            <?xm-insertion_mark_start author=\"Nathan Bigman\" time=\"20150812T171446+0200\"?><alert class=\"tip\">\n<para>Here's an example of when you might use corporate boundaries settings. If you want to enable VPN only for remote desktop, you would create a network traffic rule that allows traffic for protocol number 27 on external port 3996. No other traffic will use the VPN.</para><para>Defining routes in corporate boundaries is useful when your VPN connection type does not allow you to define how traffic is handled in split tunneling. In that case, use <ui>Routes</ui> to list the routes that will use the VPN.</para><para>You can restrict Windows 10 device VPN usage to specific apps by creating a custom OMA-URI setting. To learn more about customer URI settings see <link xlink:href=\"b05bbc3f-6256-490d-901f-3746203ca160\">Custom URI settings for Windows 10 devices</link>.</para>\n</alert><?xm-insertion_mark_end?></content>\n          </step>\n          <step>\n            <content>\n              <para>When you are finished, click <ui>Save Policy</ui>.</para>\n            </content>\n          </step>\n        </steps>\n        <conclusion>\n          <content>\n            <para>The new policy displays in the <ui>Configuration Policies</ui> node of the <ui>Policy</ui> workspace.</para>\n          </content>\n        </conclusion>\n      </procedure>\n    </content>\n  </section>\n  <section>\n    <title>Deploy a VPN profile</title>\n    <content>\n      <procedure>\n        <title/>\n        <steps class=\"ordered\">\n          <step>\n            <content>\n              <para>Deploy the VPN profile to one or more groups of users or devices in your organization.</para>\n            </content>\n          </step>\n        </steps>\n        <conclusion>\n          <content>\n            <para>For more information about how to deploy policies, see <?xm-insertion_mark_start author=\"\" time=\"20150615T215252+0200\"?><link xlink:href=\"efb4dcd6-56ea-44a8-8fe2-6f1542fc75ec\">Use policies to manage computers and mobile devices with Microsoft Intune</link><?xm-insertion_mark_end?><?xm-deletion_mark author=\"\" time=\"20150615T215328+0200\" data=\"&lt;maml:link xlink:href=&quot;3deb291f-4bef-49ba-bdc8-974426bab26d&quot; xmlns:maml=&quot;http://ddue.schemas.microsoft.com/authoring/2003/5&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot;&gt;Use policies to manage computers and mobile devices in Microsoft Intune&lt;/maml:link&gt;\"?>.</para>\n            <para>A status summary and alerts on the <ui>Overview</ui> page of the <ui>Policy</ui> workspace identify issues with the policy that require your attention. Additionally, a status summary appears in the <ui>Dashboard</ui> workspace.</para>\n          </content>\n        </conclusion>\n      </procedure>\n    </content>\n  </section>\n  <nextSteps>\n    <content>\n      <para>After successful deployment, users will see the VPN connection name you specified in the list of VPN connections on their device.</para>\n    </content>\n  </nextSteps>\n  <relatedTopics>\n    <link xlink:href=\"5b090c5a-6f12-4e60-ace0-c9929afaa9a3\">Enable access to company resources using Windows Intune</link>\n  </relatedTopics>\n</developerWalkthroughDocument>\n\n"
+}

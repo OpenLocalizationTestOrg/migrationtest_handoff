@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">b5c863915aacff24ad596fca67e5c6ee8e93d837</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Rolling out Microsoft Intune policies</source>
+          <target>Rolling out Microsoft Intune policies</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Rolling out Microsoft Intune policies</source>
+          <target>Rolling out Microsoft Intune policies</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This topic provide specific recommendations for a phased rollout of policies in <ph dataRef="id1" id="ph1" />.</source>
+          <target>This topic provide specific recommendations for a phased rollout of policies in <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This approach applies to the first policies you apply in a new <ph dataRef="id1" id="ph1" /> deployment, or policies you add to an existing deployment.</source>
+          <target>This approach applies to the first policies you apply in a new <ph dataRef="id1" id="ph1" /> deployment, or policies you add to an existing deployment.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Rollout-phases-for-Microsoft-Intune-deployment.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For general information about rollout phases, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rollout phases for Microsoft Intune deployment</pc>.</source>
+          <target>For general information about rollout phases, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rollout phases for Microsoft Intune deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Phases of policy rollout</source>
+          <target>Phases of policy rollout</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>The phases of policy rollout are:</source>
+          <target>The phases of policy rollout are:</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Project scope</source>
+          <target>Project scope</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Proof of concept</source>
+          <target>Proof of concept</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Pilot</source>
+          <target>Pilot</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Enterprise rollout</source>
+          <target>Enterprise rollout</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Operations and maintenance</source>
+          <target>Operations and maintenance</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Project scope</source>
+          <target>Project scope</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Define the scope of your <ph dataRef="id1" id="ph1" /> policy deployment:</source>
+          <target>Define the scope of your <ph dataRef="id1" id="ph1" /> policy deployment:</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>For a new implementation, this will require defining all of the desired device behaviors and security requirements that you want to create with your policy set.</source>
+          <target>For a new implementation, this will require defining all of the desired device behaviors and security requirements that you want to create with your policy set.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Decide what users and devices  you want to impact with these policies.</source>
+          <target>Decide what users and devices  you want to impact with these policies.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Design your user and device groups to enable you to apply the new policies appropriately.</source>
+          <target>Design your user and device groups to enable you to apply the new policies appropriately.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Determine whether  there are limitations or requirements associated with each operating system that will affect the intentions of your policy.</source>
+          <target>Determine whether  there are limitations or requirements associated with each operating system that will affect the intentions of your policy.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Consider policy design specifics, such as policy type and template to be used.</source>
+          <target>Consider policy design specifics, such as policy type and template to be used.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Whether you are launching your first set of policies or adding new policies to an existing policy set, consider how various policies interact, and what the likely device behavior will be.</source>
+          <target>Whether you are launching your first set of policies or adding new policies to an existing policy set, consider how various policies interact, and what the likely device behavior will be.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Issues with policy interactions and conflicts can be discovered in the Pilot phase, but catching policy conflicts in early planning will simplify execution of the Pilot.</source>
+          <target>Issues with policy interactions and conflicts can be discovered in the Pilot phase, but catching policy conflicts in early planning will simplify execution of the Pilot.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Proof of concept</source>
+          <target>Proof of concept</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>In the Proof of concept phase, test your policy deployment in a laboratory environment on devices and users that you've configured strictly for testing purposes.</source>
+          <target>In the Proof of concept phase, test your policy deployment in a laboratory environment on devices and users that you've configured strictly for testing purposes.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Have your help desk participate in this phase to learn what issues can arise during pilot and production deployment.</source>
+          <target>Have your help desk participate in this phase to learn what issues can arise during pilot and production deployment.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Troubleshoot-policies-in-Microsoft-Intune---deleted.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Troubleshooting information is available in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Troubleshoot policies in Microsoft Intune - deleted</pc>.</source>
+          <target>Troubleshooting information is available in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Troubleshoot policies in Microsoft Intune - deleted</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>At this point in the process you should develop communication plans for pilot and production users.</source>
+          <target>At this point in the process you should develop communication plans for pilot and production users.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>At a minimum the plan should include  what device behaviors will change and when, and the business purpose for the change, and what to do if they encounter issues, both self-help information and how to contact the help desk.</source>
+          <target>At a minimum the plan should include  what device behaviors will change and when, and the business purpose for the change, and what to do if they encounter issues, both self-help information and how to contact the help desk.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Pilot</source>
+          <target>Pilot</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>During the pilot you will deploy the policy to a small group of test users and devices.</source>
+          <target>During the pilot you will deploy the policy to a small group of test users and devices.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>There are specific considerations for piloting policy in <ph dataRef="id1" id="ph1" />:</source>
+          <target>There are specific considerations for piloting policy in <ph dataRef="id1" id="ph1" />:</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>The test  group should be representative of the group to which the policy will be applied for production rollout.</source>
+          <target>The test  group should be representative of the group to which the policy will be applied for production rollout.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Educate the help desk  regarding the changes in policy, and ensure they are prepared to help users in the test group.</source>
+          <target>Educate the help desk  regarding the changes in policy, and ensure they are prepared to help users in the test group.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Activate your pilot user communication plan.</source>
+          <target>Activate your pilot user communication plan.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>The pilot can first be done in isolated mode, where the device is not subject to other policies that may cause conflict and unintended behavior.</source>
+          <target>The pilot can first be done in isolated mode, where the device is not subject to other policies that may cause conflict and unintended behavior.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>The final test must consider the new policy and all the existing policies that will be applied to the same device.</source>
+          <target>The final test must consider the new policy and all the existing policies that will be applied to the same device.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Enterprise rollout</source>
+          <target>Enterprise rollout</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Based on the results of the pilot, adjust your planned policy to correct for policy conflicts and unanticipated behavior.</source>
+          <target>Based on the results of the pilot, adjust your planned policy to correct for policy conflicts and unanticipated behavior.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Notify your help desk of the enterprise rollout schedule.</source>
+          <target>Notify your help desk of the enterprise rollout schedule.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Have mechanisms in place to respond to help requests, and to adjust the rollout as necessary.</source>
+          <target>Have mechanisms in place to respond to help requests, and to adjust the rollout as necessary.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Be prepared to troubleshoot the policy if issues arise.</source>
+          <target>Be prepared to troubleshoot the policy if issues arise.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Activate your production user communication plan.</source>
+          <target>Activate your production user communication plan.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Apply the policies incrementally to additional groups, monitoring the policy state for affected devices and tracking help desk requests that may be related to the new policy.</source>
+          <target>Apply the policies incrementally to additional groups, monitoring the policy state for affected devices and tracking help desk requests that may be related to the new policy.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Operations and maintenance</source>
+          <target>Operations and maintenance</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operations:</pc> Monitor your <ph dataRef="id3" id="ph1" /> console for alerts and user or device issues, and to ensure that polices are performing according to your organizational plan.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operations:</pc> Monitor your <ph dataRef="id3" id="ph1" /> console for alerts and user or device issues, and to ensure that polices are performing according to your organizational plan.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Help desk:</pc> Ensure that your help desk is aware of any changes to policies that will affect the user experience, as these may result in support requests.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Help desk:</pc> Ensure that your help desk is aware of any changes to policies that will affect the user experience, as these may result in support requests.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Troubleshoot policies in Microsoft Intune - deleted</source>
+          <target>Troubleshoot policies in Microsoft Intune - deleted</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Use policies to manage computers and mobile devices with Microsoft Intune</source>
+          <target>Use policies to manage computers and mobile devices with Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

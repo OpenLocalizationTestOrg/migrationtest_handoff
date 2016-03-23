@@ -1,0 +1,631 @@
+{
+  "nodes": [
+    {
+      "content": "Custom configurations for VPN profiles",
+      "pos": [
+        11,
+        49
+      ]
+    },
+    {
+      "content": "Custom configurations for VPN profiles",
+      "pos": [
+        198,
+        236
+      ]
+    },
+    {
+      "content": "Welcome to CAPS Markdown Editor!",
+      "pos": [
+        237,
+        269
+      ]
+    },
+    {
+      "content": "CAPS is using GitHub Flavored Markdown(GFM) which is one of the most popular Markdown flavor.",
+      "pos": [
+        276,
+        369
+      ]
+    },
+    {
+      "content": "Lets' learn how to make your customized document with below rules.",
+      "pos": [
+        370,
+        436
+      ]
+    },
+    {
+      "content": "View the <bpt id=\"p1\">[</bpt>Markdown Basics<ept id=\"p1\">](https://help.github.com/articles/markdown-basics/)</ept>",
+      "pos": [
+        441,
+        518
+      ]
+    },
+    {
+      "content": "View the <bpt id=\"p1\">[</bpt>Github Flavored Markdown<ept id=\"p1\">](https://help.github.com/articles/github-flavored-markdown/)</ept>",
+      "pos": [
+        521,
+        616
+      ]
+    },
+    {
+      "content": "View the <bpt id=\"p1\">[</bpt>Online sample<ept id=\"p1\">](http://github.github.com/github-flavored-markdown/sample_content.html)</ept>.",
+      "pos": [
+        619,
+        715
+      ]
+    },
+    {
+      "content": "Quick Guidance",
+      "pos": [
+        720,
+        734
+      ]
+    },
+    {
+      "content": "When you are authoring your Markdown content in CAPS, you could get help from different ways:",
+      "pos": [
+        739,
+        832
+      ]
+    },
+    {
+      "pos": [
+        835,
+        899
+      ],
+      "content": "Use <ph id=\"ph1\">`Alt + F1`</ph> in IE or <ph id=\"ph2\">`F1`</ph> in Chrome to open <ph id=\"ph3\">`Command Palette`</ph>"
+    },
+    {
+      "pos": [
+        902,
+        949
+      ],
+      "content": "Use <ph id=\"ph1\">`Ctrl + space`</ph> at any place to open insert."
+    },
+    {
+      "content": "Use authoring tool bar on the top of the editor to help create your content",
+      "pos": [
+        952,
+        1027
+      ]
+    },
+    {
+      "content": "Format your content",
+      "pos": [
+        1029,
+        1048
+      ]
+    },
+    {
+      "pos": [
+        1055,
+        1177
+      ],
+      "content": "**Paragraph**\nParagraphs in Markdown are just one or more lines of consecutive text followed by one or more blank lines.",
+      "leadings": [
+        "",
+        "  "
+      ],
+      "nodes": [
+        {
+          "content": "Paragraph",
+          "pos": [
+            2,
+            11
+          ]
+        },
+        {
+          "content": "Paragraphs in Markdown are just one or more lines of consecutive text followed by one or more blank lines.",
+          "pos": [
+            14,
+            120
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        1432,
+        1761
+      ],
+      "content": "**Headings**  \nYou can either you header dropdown list provided in the authoring toolbar, or manually add '---' or '===' in the     next line under your section title. You can also create a heading by adding one or more `#` symbols before your     heading text. The number of `#` you use will determine the size of the heading.",
+      "leadings": [
+        "",
+        "  "
+      ],
+      "nodes": [
+        {
+          "content": "Headings",
+          "pos": [
+            2,
+            10
+          ]
+        },
+        {
+          "content": "You can either you header dropdown list provided in the authoring toolbar, or manually add '---' or '===' in the     next line under your section title. You can also create a heading by adding one or more `#` symbols before your     heading text. The number of `#` you use will determine the size of the heading.",
+          "pos": [
+            15,
+            327
+          ],
+          "nodes": [
+            {
+              "content": "You can either you header dropdown list provided in the authoring toolbar, or manually add '---' or '===' in the     next line under your section title.",
+              "pos": [
+                0,
+                152
+              ]
+            },
+            {
+              "content": "You can also create a heading by adding one or more <ph id=\"ph1\">`#`</ph> symbols before your     heading text.",
+              "pos": [
+                153,
+                246
+              ]
+            },
+            {
+              "content": "The number of <ph id=\"ph1\">`#`</ph> you use will determine the size of the heading.",
+              "pos": [
+                247,
+                312
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        1913,
+        1973
+      ],
+      "content": "**Block quotes**\nYou can indicate block quotes with a `>`.",
+      "leadings": [
+        "",
+        "  "
+      ],
+      "nodes": [
+        {
+          "content": "Block quotes",
+          "pos": [
+            2,
+            14
+          ]
+        },
+        {
+          "content": "You can indicate block quotes with a <ph id=\"ph1\">`&gt;`</ph>.",
+          "pos": [
+            17,
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        2077,
+        2139
+      ],
+      "content": "**Styling text**\nYou can make your text **Bold** or *italic*",
+      "leadings": [
+        "",
+        "  "
+      ],
+      "nodes": [
+        {
+          "content": "Styling text",
+          "pos": [
+            2,
+            14
+          ]
+        },
+        {
+          "content": "You can make your text <bpt id=\"p1\">**</bpt>Bold<ept id=\"p1\">**</ept> or <bpt id=\"p2\">*</bpt>italic<ept id=\"p2\">*</ept>",
+          "pos": [
+            17,
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "content": "You can also use authoring toolbar to achieve this",
+      "pos": [
+        2214,
+        2264
+      ]
+    },
+    {
+      "pos": [
+        2268,
+        2349
+      ],
+      "content": "**Lists**\nYou can add an unordered list by preceding list items with `*` or `-`",
+      "leadings": [
+        "",
+        "  "
+      ],
+      "nodes": [
+        {
+          "content": "Lists",
+          "pos": [
+            2,
+            7
+          ]
+        },
+        {
+          "content": "You can add an unordered list by preceding list items with <ph id=\"ph1\">`*`</ph> or <ph id=\"ph2\">`-`</ph>",
+          "pos": [
+            10,
+            79
+          ]
+        }
+      ]
+    },
+    {
+      "content": "You can add ordered list by preceding list items with a number",
+      "pos": [
+        2423,
+        2485
+      ]
+    },
+    {
+      "content": "You can create nested lists by indenting list items by two spaces.",
+      "pos": [
+        2538,
+        2604
+      ]
+    },
+    {
+      "content": "You can also use authoring toolbar to achieve this",
+      "pos": [
+        2929,
+        2979
+      ]
+    },
+    {
+      "pos": [
+        2985,
+        3118
+      ],
+      "content": "**Code formatting**\nYou can use triple ticks (```) to format text as its own distinct block.\nCheck out this neat program I wrote:",
+      "leadings": [
+        "",
+        "  ",
+        "  "
+      ],
+      "nodes": [
+        {
+          "content": "Code formatting",
+          "pos": [
+            2,
+            17
+          ]
+        },
+        {
+          "content": "You can use triple ticks (```) to format text as its own distinct block.",
+          "pos": [
+            20,
+            92
+          ]
+        },
+        {
+          "content": "Check out this neat program I wrote:",
+          "pos": [
+            93,
+            129
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Add Reference to your content",
+      "pos": [
+        3180,
+        3209
+      ]
+    },
+    {
+      "pos": [
+        3216,
+        3410
+      ],
+      "content": "**Insert Links**\nYou can create an inline link by wrapping link text in brackets `[Link Label]`, and then wrapping the link in    parentheses `(http://URL)`. \n[Bing.com](http://www.bing.com)",
+      "leadings": [
+        "",
+        "  ",
+        "  "
+      ],
+      "nodes": [
+        {
+          "content": "Insert Links",
+          "pos": [
+            2,
+            14
+          ]
+        },
+        {
+          "content": "You can create an inline link by wrapping link text in brackets <ph id=\"ph1\">`[Link Label]`</ph>, and then wrapping the link in    parentheses <ph id=\"ph2\">`(http://URL)`</ph>.",
+          "pos": [
+            17,
+            157
+          ]
+        },
+        {
+          "content": "Bing.com",
+          "pos": [
+            160,
+            168
+          ]
+        }
+      ]
+    },
+    {
+      "content": "You can also create a link to an existing topic in CAPS with the authoring toolbar",
+      "pos": [
+        3416,
+        3498
+      ]
+    },
+    {
+      "pos": [
+        3504,
+        3681
+      ],
+      "content": "**Insert Image**\nYou can reference a online image from external resource by using `![Image Label]`, and then wrapping the image resource url in parentheses `(http://ImageURL)`",
+      "leadings": [
+        "",
+        "  "
+      ],
+      "nodes": [
+        {
+          "content": "Insert Image",
+          "pos": [
+            2,
+            14
+          ]
+        },
+        {
+          "content": "You can reference a online image from external resource by using <ph id=\"ph1\">`![Image Label]`</ph>, and then wrapping the image resource url in parentheses <ph id=\"ph2\">`(http://ImageURL)`</ph>",
+          "pos": [
+            17,
+            175
+          ]
+        }
+      ]
+    },
+    {
+      "content": "You can also insert an image from CAPS with the authoring toolbar",
+      "pos": [
+        3687,
+        3752
+      ]
+    },
+    {
+      "content": "Using tables in your content",
+      "pos": [
+        3755,
+        3783
+      ]
+    },
+    {
+      "content": "You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:",
+      "pos": [
+        3788,
+        3940
+      ]
+    },
+    {
+      "content": "First Header",
+      "pos": [
+        3942,
+        3954
+      ]
+    },
+    {
+      "content": "Second Header",
+      "pos": [
+        3958,
+        3971
+      ]
+    },
+    {
+      "content": "Content Cell",
+      "pos": [
+        4002,
+        4014
+      ]
+    },
+    {
+      "content": "Content Cell",
+      "pos": [
+        4018,
+        4030
+      ]
+    },
+    {
+      "content": "Content Cell",
+      "pos": [
+        4031,
+        4043
+      ]
+    },
+    {
+      "content": "Content Cell",
+      "pos": [
+        4047,
+        4059
+      ]
+    },
+    {
+      "content": "You can also include inline Markdown format syntax such as links, bold, italics, or strike through:",
+      "pos": [
+        4061,
+        4160
+      ]
+    },
+    {
+      "content": "Name",
+      "pos": [
+        4164,
+        4168
+      ]
+    },
+    {
+      "content": "Description",
+      "pos": [
+        4171,
+        4182
+      ]
+    },
+    {
+      "content": "Help",
+      "pos": [
+        4228,
+        4232
+      ]
+    },
+    {
+      "pos": [
+        4240,
+        4268
+      ],
+      "content": "<bpt id=\"p1\">~~</bpt>Display the<ept id=\"p1\">~~</ept> help window."
+    },
+    {
+      "content": "Close",
+      "pos": [
+        4272,
+        4277
+      ]
+    },
+    {
+      "pos": [
+        4284,
+        4301
+      ],
+      "content": "<bpt id=\"p1\">_</bpt>Closes<ept id=\"p1\">_</ept> a window"
+    },
+    {
+      "content": "You can have more formatting control by including colons : within the header row, you can define text to be left-aligned, right-aligned, or center-aligned:",
+      "pos": [
+        4309,
+        4464
+      ]
+    },
+    {
+      "content": "Left-Aligned",
+      "pos": [
+        4468,
+        4480
+      ]
+    },
+    {
+      "content": "Center Aligned",
+      "pos": [
+        4484,
+        4498
+      ]
+    },
+    {
+      "content": "Right Aligned",
+      "pos": [
+        4502,
+        4515
+      ]
+    },
+    {
+      "content": "col 3 is",
+      "pos": [
+        4564,
+        4572
+      ]
+    },
+    {
+      "content": "some wordy text",
+      "pos": [
+        4580,
+        4595
+      ]
+    },
+    {
+      "content": "$1600",
+      "pos": [
+        4598,
+        4603
+      ]
+    },
+    {
+      "content": "col 2 is",
+      "pos": [
+        4608,
+        4616
+      ]
+    },
+    {
+      "content": "centered",
+      "pos": [
+        4624,
+        4632
+      ]
+    },
+    {
+      "content": "$12",
+      "pos": [
+        4644,
+        4647
+      ]
+    },
+    {
+      "content": "zebra stripes",
+      "pos": [
+        4652,
+        4665
+      ]
+    },
+    {
+      "content": "are neat",
+      "pos": [
+        4668,
+        4676
+      ]
+    },
+    {
+      "content": "$1",
+      "pos": [
+        4689,
+        4691
+      ]
+    },
+    {
+      "pos": [
+        4695,
+        4891
+      ],
+      "content": "A colon on the <bpt id=\"p1\">**</bpt>left-most<ept id=\"p1\">**</ept> side indicates a left-aligned column; a colon on the <bpt id=\"p2\">**</bpt>right-most<ept id=\"p2\">**</ept> side indicates a right-aligned column; a colon on <bpt id=\"p3\">**</bpt>both<ept id=\"p3\">**</ept> sides indicates a center-aligned column."
+    },
+    {
+      "content": "HTML",
+      "pos": [
+        4894,
+        4898
+      ]
+    },
+    {
+      "content": "You can use a subset of HTML within your content.",
+      "pos": [
+        4903,
+        4952
+      ]
+    },
+    {
+      "content": "A full list of our supported tags and attributes can be found <bpt id=\"p1\">[</bpt>here<ept id=\"p1\">](https://github.com/github/markup/tree/master#html-sanitization)</ept>",
+      "pos": [
+        4954,
+        5086
+      ]
+    }
+  ],
+  "content": "---\ntitle: Custom configurations for VPN profiles\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 4c0bd439-3b58-420b-9a9a-282886986786\nauthor: Lizap\n---\n# Custom configurations for VPN profiles\nWelcome to CAPS Markdown Editor!\n====\n\nCAPS is using GitHub Flavored Markdown(GFM) which is one of the most popular Markdown flavor. Lets' learn how to make your customized document with below rules.  \n\n*View the [Markdown Basics](https://help.github.com/articles/markdown-basics/)*\n*View the [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)*\n*View the [Online sample](http://github.github.com/github-flavored-markdown/sample_content.html).*\n  \nQuick Guidance\n---\nWhen you are authoring your Markdown content in CAPS, you could get help from different ways:\n- Use `Alt + F1` in IE or `F1` in Chrome to open `Command Palette`\n- Use `Ctrl + space` at any place to open insert.\n- Use authoring tool bar on the top of the editor to help create your content\n\nFormat your content\n---\n- **Paragraph**\n  Paragraphs in Markdown are just one or more lines of consecutive text followed by one or more blank lines.\n  \n  ```\n  On July 2, an alien ship entered Earth's orbit and deployed several dozen saucer-shaped \"destroyer\" spacecraft, each 15 miles (24 km) wide.\n  \n  On July 3, the Black Knights, a squadron of Marine Corps F/A-18 Hornets, participated \n  ```\n  \n- **Headings**  \n  You can either you header dropdown list provided in the authoring toolbar, or manually add '---' or '===' in the     next line under your section title. You can also create a heading by adding one or more `#` symbols before your     heading text. The number of `#` you use will determine the size of the heading.\n\n  ```\n  # The largest heading (an <h1> tag)\n  ## The second largest heading (an <h2> tag)\n  …\n  ###### The 6th largest heading (an <h6> tag)\n  ```\n\n- **Block quotes**\n  You can indicate block quotes with a `>`.\n  ```\n  In the words of Abraham Lincoln:\n  \n  > Pardon my French\n  > Second line of the quote\n  ```\n\n- **Styling text**\n  You can make your text **Bold** or *italic*\n  ```\n  **This text will be bold**\n  *This text will be italic*  \n  ```\n  You can also use authoring toolbar to achieve this\n\n- **Lists**\n  You can add an unordered list by preceding list items with `*` or `-`\n  ```\n  * Item\n  * Item\n  * Item\n  \n  - Item\n  - Item\n  - Item  \n  ```\n  You can add ordered list by preceding list items with a number\n  ```\n  1. Item 1\n  2. Item 2\n  3. Item 3  \n  ```\n  You can create nested lists by indenting list items by two spaces.\n  ```\n  1. Item 1\n    1. A corollary to the above item.\n    2. Yet another point to consider.\n  2. Item 2\n    * A corollary that does not need to be ordered.\n      * This is indented four spaces, because it's two spaces further than the item above.\n      * You might want to consider making a new list.\n  3. Item 3 \n  ```\n  You can also use authoring toolbar to achieve this\n  \n- **Code formatting**\n  You can use triple ticks (```) to format text as its own distinct block.\n  Check out this neat program I wrote:  \n  ~~~~\n  ```\n  x = 0\n  x = 2 + 2\n  what is x\n  ```\n  ~~~~\n\nAdd Reference to your content\n---\n- **Insert Links**\n  You can create an inline link by wrapping link text in brackets `[Link Label]`, and then wrapping the link in    parentheses `(http://URL)`. \n  [Bing.com](http://www.bing.com)\n  \n  You can also create a link to an existing topic in CAPS with the authoring toolbar\n  \n- **Insert Image**\n  You can reference a online image from external resource by using `![Image Label]`, and then wrapping the image resource url in parentheses `(http://ImageURL)`\n  \n  You can also insert an image from CAPS with the authoring toolbar\n\n\nUsing tables in your content\n---\nYou can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:\n\nFirst Header  | Second Header\n------------- | -------------\nContent Cell  | Content Cell\nContent Cell  | Content Cell\n\nYou can also include inline Markdown format syntax such as links, bold, italics, or strike through:\n\n| Name | Description          |\n| ------------- | ----------- |\n| Help      | ~~Display the~~ help window.|\n| Close     | _Closes_ a window     |\n\nYou can have more formatting control by including colons : within the header row, you can define text to be left-aligned, right-aligned, or center-aligned:\n\n| Left-Aligned  | Center Aligned  | Right Aligned |\n| :------------ |:---------------:| -----:|\n| col 3 is      | some wordy text | $1600 |\n| col 2 is      | centered        |   $12 |\n| zebra stripes | are neat        |    $1 |\n\nA colon on the **left-most** side indicates a left-aligned column; a colon on the **right-most** side indicates a right-aligned column; a colon on **both** sides indicates a center-aligned column.\n\n\nHTML\n---\nYou can use a subset of HTML within your content. \nA full list of our supported tags and attributes can be found [here](https://github.com/github/markup/tree/master#html-sanitization)\n\n\n  \n"
+}

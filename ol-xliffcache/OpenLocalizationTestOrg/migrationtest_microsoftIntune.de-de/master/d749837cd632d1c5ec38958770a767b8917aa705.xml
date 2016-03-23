@@ -1,0 +1,1569 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - Manage email access with Microsoft Intune",
+      "pos": [
+        11,
+        68
+      ]
+    },
+    {
+      "content": "MD Conversion - Manage email access with Microsoft Intune",
+      "pos": [
+        203,
+        260
+      ]
+    },
+    {
+      "pos": [
+        261,
+        434
+      ],
+      "content": "Use the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><bpt id=\"p1\">**</bpt>conditional access policies<ept id=\"p1\">**</ept> for Exchange to manage access to Exchange email based on conditions you specify."
+    },
+    {
+      "content": "You can manage access to:",
+      "pos": [
+        436,
+        461
+      ]
+    },
+    {
+      "content": "Microsoft Exchange On-premises",
+      "pos": [
+        467,
+        497
+      ]
+    },
+    {
+      "content": "Microsoft Exchange Online",
+      "pos": [
+        503,
+        528
+      ]
+    },
+    {
+      "content": "Exchange Online Dedicated",
+      "pos": [
+        534,
+        559
+      ]
+    },
+    {
+      "content": "If you configure conditional access, before a user can connect to their email, the device they use must:",
+      "pos": [
+        561,
+        665
+      ]
+    },
+    {
+      "pos": [
+        671,
+        762
+      ],
+      "content": "Be enrolled with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> or a domain joined PC."
+    },
+    {
+      "content": "Register the device in Azure Active Directory (this happens automatically when the device is enrolled with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> (for Exchange Online only).",
+      "pos": [
+        768,
+        954
+      ]
+    },
+    {
+      "content": "Additionally, the client Exchange ActiveSync ID must be registered with Azure Active Directory (does not apply to Windows and Windows Phone devices connecting to Exchange On-premises).",
+      "pos": [
+        955,
+        1139
+      ]
+    },
+    {
+      "content": "For a domain joined PC, you must set it to automatically register with Azure Active Directory.",
+      "pos": [
+        1145,
+        1239
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Conditional Access for PCs<ept id=\"p1\">**</ept> section in the <bpt id=\"p2\">[</bpt>Manage access to email and SharePoint with Microsoft Intune<ept id=\"p2\">](../Topic/Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md)</ept> topic lists the full set of requirements to enable conditional access for PCs.",
+      "pos": [
+        1241,
+        1500
+      ]
+    },
+    {
+      "pos": [
+        1506,
+        1623
+      ],
+      "content": "Be compliant with any <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> compliance policies deployed to that device"
+    },
+    {
+      "content": "If a conditional access condition is not met, the user is presented with one of the following messages when they log in.",
+      "pos": [
+        1625,
+        1745
+      ]
+    },
+    {
+      "content": "For mobile devices:",
+      "pos": [
+        1749,
+        1768
+      ]
+    },
+    {
+      "pos": [
+        1776,
+        2135
+      ],
+      "content": "If the device is not enrolled with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, or is not registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app, enroll the device, activate email, which associates the device’s Exchange ActiveSync ID with the device record in Azure Active Directory."
+    },
+    {
+      "pos": [
+        2141,
+        2389
+      ],
+      "content": "If the device is not compliant, a message is displayed that directs the user to the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> web portal, or the company portal app where they can find information about the problem and how to remediate it."
+    },
+    {
+      "content": "For PCs:",
+      "pos": [
+        2393,
+        2401
+      ]
+    },
+    {
+      "content": "If the conditional access policy requirement is to allow <bpt id=\"p1\">**</bpt>domain joined<ept id=\"p1\">**</ept> or <bpt id=\"p2\">**</bpt>compliant<ept id=\"p2\">**</ept>, a message with instructions about how to enroll the device is displayed.",
+      "pos": [
+        2409,
+        2574
+      ]
+    },
+    {
+      "content": "If the PC does not meet either of the requirements, the user will be asked to enroll the device with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        2575,
+        2728
+      ]
+    },
+    {
+      "content": "If the conditional access policy requirement is set to allow only domain joined windows devices, the device is blocked and a message to contact the IT admin is displayed.",
+      "pos": [
+        2734,
+        2904
+      ]
+    },
+    {
+      "content": "You can block access to Exchange email from the devices built-in Exchange ActiveSync email client on the following platforms:",
+      "pos": [
+        2906,
+        3031
+      ]
+    },
+    {
+      "content": "Android 4.0 and later, Samsung Knox Standard 4.0 and later",
+      "pos": [
+        3037,
+        3095
+      ]
+    },
+    {
+      "content": "iOS 7.1 and later",
+      "pos": [
+        3101,
+        3118
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 and later",
+      "pos": [
+        3124,
+        3151
+      ]
+    },
+    {
+      "pos": [
+        3157,
+        3206
+      ],
+      "content": "The <bpt id=\"p1\">**</bpt>Mail<ept id=\"p1\">**</ept> application on Windows 8.1 and later"
+    },
+    {
+      "content": "Outlook app for iOS and Android, and Outlook desktop 2013 is supported for Exchange Online only.",
+      "pos": [
+        3208,
+        3304
+      ]
+    },
+    {
+      "content": "Step 1: Evaluate the effect of the conditional access policy",
+      "pos": [
+        3309,
+        3369
+      ]
+    },
+    {
+      "pos": [
+        3370,
+        3761
+      ],
+      "content": "If you have configured a connection between <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> and Exchange by using the <bpt id=\"p1\">**</bpt>Microsoft Intune service to service connector<ept id=\"p1\">**</ept> or the <bpt id=\"p2\">**</bpt>on-premises Exchange connector<ept id=\"p2\">**</ept>, you can use the <bpt id=\"p3\">**</bpt>Mobile Device Inventory Reports<ept id=\"p3\">**</ept> to identify EAS mail clients that will be blocked from accessing Exchange after you configure the conditional access policy."
+    },
+    {
+      "pos": [
+        3763,
+        3949
+      ],
+      "content": "In the report parameters, select the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> group you want to evaluate and, if required, the device platforms to which the policy will apply."
+    },
+    {
+      "pos": [
+        3951,
+        4129
+      ],
+      "content": "For more information about how to run reports, see <bpt id=\"p1\">[</bpt>Understand Microsoft Intune operations by using reports<ept id=\"p1\">](../Topic/Understand-Microsoft-Intune-operations-by-using-reports.md)</ept>."
+    },
+    {
+      "content": "After you run the report, examine these four columns to determine whether a user will be blocked:",
+      "pos": [
+        4131,
+        4228
+      ]
+    },
+    {
+      "pos": [
+        4234,
+        4339
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Management Channel<ept id=\"p1\">**</ept> – Indicates whether the device is managed by Intune, Exchange ActiveSync, or both."
+    },
+    {
+      "pos": [
+        4345,
+        4463
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>AAD Registered<ept id=\"p1\">**</ept> – Indicates whether the device is registered with Azure Active Directory (known as Workplace Join)."
+    },
+    {
+      "pos": [
+        4469,
+        4569
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Compliant<ept id=\"p1\">**</ept> – Indicates whether the device is compliant with any compliance policies you deployed."
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Exchange ActiveSync ID<ept id=\"p1\">**</ept> – iOS and Android devices are required to have their Exchange ActiveSync ID associated with the device registration record in Azure Active Directory.",
+      "pos": [
+        4575,
+        4751
+      ]
+    },
+    {
+      "content": "This happens when the user clicks the Activate Email link in the quarantine email.",
+      "pos": [
+        4752,
+        4834
+      ]
+    },
+    {
+      "pos": [
+        4842,
+        4916
+      ],
+      "content": "[!NOTE]\nWindows Phone devices always display a value in this column.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "Windows Phone devices always display a value in this column.",
+          "pos": [
+            8,
+            68
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Devices that are part of a targeted group will be blocked from accessing Exchange unless the column values match those listed in the following table:",
+      "pos": [
+        4918,
+        5067
+      ]
+    },
+    {
+      "content": "Management channel",
+      "pos": [
+        5070,
+        5088
+      ]
+    },
+    {
+      "content": "AAD registered",
+      "pos": [
+        5089,
+        5103
+      ]
+    },
+    {
+      "content": "Compliant",
+      "pos": [
+        5104,
+        5113
+      ]
+    },
+    {
+      "content": "Exchange ActiveSync ID",
+      "pos": [
+        5114,
+        5136
+      ]
+    },
+    {
+      "content": "Resulting action",
+      "pos": [
+        5137,
+        5153
+      ]
+    },
+    {
+      "content": "Managed by Microsoft Intune and Exchange ActiveSync",
+      "pos": [
+        5264,
+        5315
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5318,
+        5321
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        5322,
+        5325
+      ]
+    },
+    {
+      "content": "A value is displayed",
+      "pos": [
+        5326,
+        5346
+      ]
+    },
+    {
+      "content": "Email access allowed",
+      "pos": [
+        5347,
+        5367
+      ]
+    },
+    {
+      "content": "Any other value",
+      "pos": [
+        5370,
+        5385
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5386,
+        5388
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5389,
+        5391
+      ]
+    },
+    {
+      "content": "No value is displayed",
+      "pos": [
+        5392,
+        5413
+      ]
+    },
+    {
+      "content": "Email access blocked",
+      "pos": [
+        5414,
+        5434
+      ]
+    },
+    {
+      "pos": [
+        5436,
+        5566
+      ],
+      "content": "You can export the contents of the report and use the <bpt id=\"p1\">**</bpt>Email Address<ept id=\"p1\">**</ept> column to help you inform users that they will be blocked."
+    },
+    {
+      "content": "Step 2: Configure user groups for the conditional access policy",
+      "pos": [
+        5571,
+        5634
+      ]
+    },
+    {
+      "content": "You target conditional access policies to different groups of users depending on the policy types.",
+      "pos": [
+        5635,
+        5733
+      ]
+    },
+    {
+      "content": "These groups contain the users that will be targeted, or exempt from the policy.",
+      "pos": [
+        5734,
+        5814
+      ]
+    },
+    {
+      "content": "When a user is targeted by a policy, each device they use must be compliant in order to access email.",
+      "pos": [
+        5815,
+        5916
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>For the Exchange Online policy<ept id=\"p1\">**</ept> – to Azure Active Directory security user groups.",
+      "pos": [
+        5922,
+        6006
+      ]
+    },
+    {
+      "content": "You can configure these groups in the <bpt id=\"p1\">**</bpt>Office 365 admin center<ept id=\"p1\">**</ept>, or the <bpt id=\"p2\">**</bpt>Intune account portal<ept id=\"p2\">**</ept>.",
+      "pos": [
+        6007,
+        6107
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>For the Exchange On-premises policy<ept id=\"p1\">**</ept> – to <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> user groups.",
+      "pos": [
+        6113,
+        6222
+      ]
+    },
+    {
+      "content": "You can configure these in the <bpt id=\"p1\">**</bpt>Groups<ept id=\"p1\">**</ept> workspace of the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> console.",
+      "pos": [
+        6223,
+        6342
+      ]
+    },
+    {
+      "content": "You can specify two group types in each policy:",
+      "pos": [
+        6344,
+        6391
+      ]
+    },
+    {
+      "pos": [
+        6397,
+        6461
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Targeted groups<ept id=\"p1\">**</ept> – User groups to which the policy is applied"
+    },
+    {
+      "pos": [
+        6467,
+        6543
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Exempted groups<ept id=\"p1\">**</ept> – User groups that are exempt from the policy (optional)"
+    },
+    {
+      "content": "If a user is in both groups, they will be exempt from the policy.",
+      "pos": [
+        6545,
+        6610
+      ]
+    },
+    {
+      "content": "Only the groups which are targeted by the conditional access policy are evaluated for Exchange access.",
+      "pos": [
+        6612,
+        6714
+      ]
+    },
+    {
+      "content": "Step 3: Configure and deploy a compliance policy",
+      "pos": [
+        6719,
+        6767
+      ]
+    },
+    {
+      "content": "Ensure that you have created and deployed a compliance policy to all devices that the Exchange conditional access policy will be targeted to.",
+      "pos": [
+        6768,
+        6909
+      ]
+    },
+    {
+      "pos": [
+        6911,
+        7098
+      ],
+      "content": "For details about how to configure the compliance policy, see <bpt id=\"p1\">[</bpt>Manage device compliance policies for Microsoft Intune<ept id=\"p1\">](../Topic/Manage-device-compliance-policies-for-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        7102,
+        7261
+      ],
+      "content": "[!IMPORTANT]\nIf you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.",
+          "pos": [
+            13,
+            157
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        7263,
+        7306
+      ],
+      "content": "When you are ready, continue to <bpt id=\"p1\">**</bpt>Step 4<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "Step 4: Configure the conditional access policy",
+      "pos": [
+        7311,
+        7358
+      ]
+    },
+    {
+      "content": "For Exchange Online (and tenants in the new Exchange Online Dedicated environment)",
+      "pos": [
+        7364,
+        7446
+      ]
+    },
+    {
+      "content": "The following flow is used by conditional access policies for Exchange Online to evaluate whether to allow or block devices.",
+      "pos": [
+        7447,
+        7571
+      ]
+    },
+    {
+      "content": "To access email, the device must:",
+      "pos": [
+        7613,
+        7646
+      ]
+    },
+    {
+      "pos": [
+        7652,
+        7715
+      ],
+      "content": "Enroll with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>"
+    },
+    {
+      "pos": [
+        7721,
+        7860
+      ],
+      "content": "PCs must either be domain joined or be enrolled and compliant with the policies set in <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>."
+    },
+    {
+      "pos": [
+        7866,
+        8025
+      ],
+      "content": "Register the device in Azure Active Directory (this happens automatically when the device is enrolled with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>."
+    },
+    {
+      "pos": [
+        8031,
+        8203
+      ],
+      "content": "For domain joined PCs, you must  set it up to <bpt id=\"p1\">[</bpt>automatically register the device<ept id=\"p1\">](https://msdn.microsoft.com/en-us/library/azure/dn935033.aspx)</ept> with Azure Active Directory."
+    },
+    {
+      "content": "Have activated email, which associates the device’s Exchange ActiveSync ID with the device record in Azure Active Directory (applies to iOS and Android devices only).",
+      "pos": [
+        8209,
+        8375
+      ]
+    },
+    {
+      "pos": [
+        8381,
+        8483
+      ],
+      "content": "Be compliant with any deployed <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> compliance policies"
+    },
+    {
+      "content": "The device state is stored in Azure Active Directory which grants or blocks access to email, based on the evaluated conditions.",
+      "pos": [
+        8485,
+        8612
+      ]
+    },
+    {
+      "content": "If a condition is not met, the user will be presented with one of the following messages when they log in:",
+      "pos": [
+        8614,
+        8720
+      ]
+    },
+    {
+      "content": "If the device is not enrolled, or registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app and enroll.",
+      "pos": [
+        8726,
+        8894
+      ]
+    },
+    {
+      "pos": [
+        8900,
+        9121
+      ],
+      "content": "If the device is not compliant, a message is displayed that directs the user to the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> web portal where they can find information about the problem and how to remediate it."
+    },
+    {
+      "content": "For a PC:",
+      "pos": [
+        9127,
+        9136
+      ]
+    },
+    {
+      "content": "If the policy is set to require domain join, and the PC is not domain joined, a message is displayed to contact the IT admin.",
+      "pos": [
+        9146,
+        9271
+      ]
+    },
+    {
+      "content": "If the policy is set to require domain join or compliant, then the PC does not meet either requirement, a message is displayed with instructions about how to install the company portal app and enroll.",
+      "pos": [
+        9281,
+        9481
+      ]
+    },
+    {
+      "content": "The message is displayed on the device for Exchange Online users and tenants in the new Exchange Online Dedicated environment, and is delivered to the users email inbox for Exchange On-premises and legacy Exchange Online Dedicated devices.",
+      "pos": [
+        9483,
+        9722
+      ]
+    },
+    {
+      "pos": [
+        9724,
+        9899
+      ],
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> conditional access rules override, allow, block and quarantine rules that are defined in the Exchange Online admin console."
+    },
+    {
+      "pos": [
+        9906,
+        9967
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_ExoCA\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>To enable the Exchange Online policy"
+    },
+    {
+      "pos": [
+        9973,
+        10130
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com)</ept>, click <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Conditional Access<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Exchange Online Policy<ept id=\"p4\">**</ept>."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Exchange Online Policy<ept id=\"p1\">**</ept> page, select <bpt id=\"p2\">**</bpt>Enable conditional access policy for Exchange Online<ept id=\"p2\">**</ept>.",
+      "pos": [
+        10136,
+        10240
+      ]
+    },
+    {
+      "content": "If you check this, the device must be compliant.",
+      "pos": [
+        10241,
+        10289
+      ]
+    },
+    {
+      "content": "If this is not checked then conditional access is not applied.",
+      "pos": [
+        10290,
+        10352
+      ]
+    },
+    {
+      "content": "If you have not deployed a compliance policy and then enable the Exchange Online policy, all targeted devices are reported as compliant.",
+      "pos": [
+        10358,
+        10494
+      ]
+    },
+    {
+      "pos": [
+        10500,
+        10675
+      ],
+      "content": "Regardless of the compliance state, all users who are targeted by the policy will be required to enroll their devices with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>."
+    },
+    {
+      "pos": [
+        10681,
+        10762
+      ],
+      "content": "Under <bpt id=\"p1\">**</bpt>Device platforms<ept id=\"p1\">**</ept>, you can choose to apply conditional access policy to:"
+    },
+    {
+      "content": "All platforms",
+      "pos": [
+        10774,
+        10787
+      ]
+    },
+    {
+      "content": "This will require that any device used to access <bpt id=\"p1\">**</bpt>Exchange  Online<ept id=\"p1\">**</ept>,  to be enrolled in Intune and compliant with the policies.",
+      "pos": [
+        10799,
+        10928
+      ]
+    },
+    {
+      "content": "Any client application using <bpt id=\"p1\">**</bpt>modern authentication<ept id=\"p1\">**</ept> is subject to the conditional access policy, and if the platform is currently not supported by Intune, access to <bpt id=\"p2\">**</bpt>Exchange Online<ept id=\"p2\">**</ept> is blocked.",
+      "pos": [
+        10930,
+        11129
+      ]
+    },
+    {
+      "content": "Specific platforms",
+      "pos": [
+        11141,
+        11159
+      ]
+    },
+    {
+      "content": "If you choose the <bpt id=\"p1\">**</bpt>Specific platforms<ept id=\"p1\">**</ept> option, you will see a list of platforms that you can individually select.",
+      "pos": [
+        11171,
+        11286
+      ]
+    },
+    {
+      "content": "Conditional access policy will apply to any client app that is using <bpt id=\"p1\">**</bpt>modern authentication<ept id=\"p1\">**</ept>, but only on the device platforms you select.",
+      "pos": [
+        11289,
+        11429
+      ]
+    },
+    {
+      "pos": [
+        11437,
+        11562
+      ],
+      "content": "[!TIP]\n**Modern authentication** brings Active Directory Authentication Library (ADAL)-based sign in to Office clients.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "<bpt id=\"p1\">**</bpt>Modern authentication<ept id=\"p1\">**</ept> brings Active Directory Authentication Library (ADAL)-based sign in to Office clients.",
+          "pos": [
+            7,
+            119
+          ]
+        }
+      ]
+    },
+    {
+      "content": "The ADAL based authentication enables Office clients to engage in browser-based authentication (also known as passive authentication).",
+      "pos": [
+        11580,
+        11714
+      ]
+    },
+    {
+      "content": "To authenticate, the user is directed to a sign-in web page.",
+      "pos": [
+        11716,
+        11776
+      ]
+    },
+    {
+      "pos": [
+        11787,
+        11951
+      ],
+      "content": "This new sign-in method enables new scenarios such as, conditional access, based on <bpt id=\"p1\">**</bpt>device compliance<ept id=\"p1\">**</ept> and whether <bpt id=\"p2\">**</bpt>multi-factor authentication<ept id=\"p2\">**</ept> was performed."
+    },
+    {
+      "pos": [
+        11965,
+        12179
+      ],
+      "content": "This <bpt id=\"p1\">[</bpt>article<ept id=\"p1\">](https://blogs.office.com/2014/11/12/office-2013-updated-authentication-enabling-multi-factor-authentication-saml-identity-providers/)</ept> has more detailed information on how modern authentication works."
+    },
+    {
+      "content": "For windows PCs, the PC must either be domain joined, or enrolled with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> and compliant.",
+      "pos": [
+        12185,
+        12322
+      ]
+    },
+    {
+      "content": "You can set the following requirements:",
+      "pos": [
+        12323,
+        12362
+      ]
+    },
+    {
+      "content": "Devices must be domain joined or compliant.",
+      "pos": [
+        12374,
+        12417
+      ]
+    },
+    {
+      "content": "This means that the PCs must either be domain joined or compliant with the policies set in <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        12420,
+        12563
+      ]
+    },
+    {
+      "content": "If the PC does not meet either of these requirements, the user is prompted to enroll the device with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        12564,
+        12717
+      ]
+    },
+    {
+      "content": "Devices must be domain joined.",
+      "pos": [
+        12729,
+        12759
+      ]
+    },
+    {
+      "content": "This means that the PCs must be domain joined to access Exchange Online.",
+      "pos": [
+        12762,
+        12834
+      ]
+    },
+    {
+      "content": "If the PC is not domain joined access to email is blocked and the user is prompted to contact the IT admin.",
+      "pos": [
+        12835,
+        12942
+      ]
+    },
+    {
+      "content": "Devices must be compliant.",
+      "pos": [
+        12954,
+        12980
+      ]
+    },
+    {
+      "content": "This means that the PCs must be enrolled in <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> and compliant.",
+      "pos": [
+        12983,
+        13093
+      ]
+    },
+    {
+      "content": "If the PC is not enrolled, a message with instructions on how to enroll is displayed.",
+      "pos": [
+        13094,
+        13179
+      ]
+    },
+    {
+      "pos": [
+        13185,
+        13418
+      ],
+      "content": "Under <bpt id=\"p1\">**</bpt>Exchange ActiveSync mail apps<ept id=\"p1\">**</ept>, you can choose to block email from accessing Exchange Online if the device is noncompliant, and select whether to allow or block access to email when Microsoft Intune cannot manage the device."
+    },
+    {
+      "content": "Under <bpt id=\"p1\">**</bpt>Targeted Groups<ept id=\"p1\">**</ept>, select the Active Directory security groups of users to which the policy will apply.",
+      "pos": [
+        13424,
+        13535
+      ]
+    },
+    {
+      "content": "You can either choose to target all users or a selected list of user groups.",
+      "pos": [
+        13536,
+        13612
+      ]
+    },
+    {
+      "content": "For users that are in the Targeted groups, the Intune polices will replace Exchange rules and policies.",
+      "pos": [
+        13618,
+        13721
+      ]
+    },
+    {
+      "content": "Exchange will only enforce Exchange allow, block and quarantine rules, and Exchange policies if:",
+      "pos": [
+        13727,
+        13823
+      ]
+    },
+    {
+      "content": "The user is not licensed for Intune.",
+      "pos": [
+        13833,
+        13869
+      ]
+    },
+    {
+      "content": "The user is licensed for Intune, but the user does not belong to any security groups targeted in the conditional access policy.",
+      "pos": [
+        13879,
+        14006
+      ]
+    },
+    {
+      "content": "Under <bpt id=\"p1\">**</bpt>Exempted Groups<ept id=\"p1\">**</ept>, select the Active Directory security groups of users that are exempt from this policy.",
+      "pos": [
+        14012,
+        14125
+      ]
+    },
+    {
+      "content": "If a user  is in both the targeted and exempted groups, they will be exempt from the policy.",
+      "pos": [
+        14126,
+        14218
+      ]
+    },
+    {
+      "pos": [
+        14224,
+        14258
+      ],
+      "content": "When you are done, click <bpt id=\"p1\">**</bpt>Save<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "You do not have to deploy the conditional access policy, it takes effect immediately.",
+      "pos": [
+        14264,
+        14349
+      ]
+    },
+    {
+      "content": "After a user creates an email account, the device is blocked immediately.",
+      "pos": [
+        14355,
+        14428
+      ]
+    },
+    {
+      "pos": [
+        14434,
+        14602
+      ],
+      "content": "If a blocked user enrolls the device with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> (or remediates noncompliance), email access is unblocked within 2 minutes."
+    },
+    {
+      "content": "If the user un-enrolls their device, email is blocked after around 24 hours.",
+      "pos": [
+        14608,
+        14684
+      ]
+    },
+    {
+      "content": "For Exchange on-premises (and tenants in the legacy Exchange Online Dedicated environment)",
+      "pos": [
+        14690,
+        14780
+      ]
+    },
+    {
+      "content": "The following flow is used by conditional access policies for Exchange on-premises and tenants in the legacy Exchange Online Dedicated environment to evaluate whether to allow or block devices.",
+      "pos": [
+        14781,
+        14974
+      ]
+    },
+    {
+      "content": "To enable the Exchange On-premises policy",
+      "pos": [
+        15022,
+        15063
+      ]
+    },
+    {
+      "pos": [
+        15069,
+        15231
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com)</ept>, click <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Conditional Access<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Exchange On-premises policy<ept id=\"p4\">**</ept>."
+    },
+    {
+      "content": "Configure the policy with the settings you require:",
+      "pos": [
+        15237,
+        15288
+      ]
+    },
+    {
+      "content": "Setting",
+      "pos": [
+        15295,
+        15302
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        15303,
+        15319
+      ]
+    },
+    {
+      "content": "Block email apps from accessing Exchange On-premises if the device is noncompliant or not enrolled to Microsoft Intune",
+      "pos": [
+        15367,
+        15485
+      ]
+    },
+    {
+      "pos": [
+        15488,
+        15758
+      ],
+      "content": "When you select this option, devices that are not managed by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> or are not compliant with a compliance policy that was deployed to them are blocked from accessing Exchange services unless they have been defined as exempt."
+    },
+    {
+      "content": "Default rule override - Always allow  enrolled and compliant devices to access Exchange",
+      "pos": [
+        15767,
+        15854
+      ]
+    },
+    {
+      "content": "When you check this option, devices that are enrolled in Intune and compliant with the compliant policies are allowed to access Exchange.",
+      "pos": [
+        15857,
+        15994
+      ]
+    },
+    {
+      "content": "This rule overrides the <bpt id=\"p1\">**</bpt>Default Rule<ept id=\"p1\">**</ept>, which means that even if you set the <bpt id=\"p2\">**</bpt>Default Rule<ept id=\"p2\">**</ept> to quarantine or block access, enrolled and compliant devices will still be able to access Exchange.",
+      "pos": [
+        15996,
+        16192
+      ]
+    },
+    {
+      "content": "Targeted Groups",
+      "pos": [
+        16201,
+        16216
+      ]
+    },
+    {
+      "pos": [
+        16219,
+        16413
+      ],
+      "content": "Select the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> user groups that must enroll their device with <ph id=\"ph2\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> before they can access Exchange."
+    },
+    {
+      "content": "Exempted Groups",
+      "pos": [
+        16422,
+        16437
+      ]
+    },
+    {
+      "content": "Select the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> user groups that are exempt from the conditional access policy.",
+      "pos": [
+        16440,
+        16566
+      ]
+    },
+    {
+      "content": "Settings in this list override those in the <bpt id=\"p1\">**</bpt>Targeted Groups<ept id=\"p1\">**</ept> list.",
+      "pos": [
+        16578,
+        16647
+      ]
+    },
+    {
+      "content": "Platform Exceptions",
+      "pos": [
+        16656,
+        16675
+      ]
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>Add Rule<ept id=\"p1\">**</ept> to configure a rule that defines access levels for specified mobile device families and models.",
+      "pos": [
+        16678,
+        16792
+      ]
+    },
+    {
+      "content": "Because these devices can be of any type, you can also configure device types that are unsupported by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        16804,
+        16958
+      ]
+    },
+    {
+      "content": "Default Rule",
+      "pos": [
+        16967,
+        16979
+      ]
+    },
+    {
+      "content": "For a device that is not covered by any of the other rules, you can choose to allow it to access Exchange, block it, or quarantine it.",
+      "pos": [
+        16982,
+        17116
+      ]
+    },
+    {
+      "content": "When you set the rule to allow access, for devices that are enrolled and compliant, email access is granted automatically for iOS, Windows, and Samsung Knox devices.",
+      "pos": [
+        17128,
+        17293
+      ]
+    },
+    {
+      "content": "The end-user does not have to go through any process to get their email.",
+      "pos": [
+        17294,
+        17366
+      ]
+    },
+    {
+      "content": "On Android devices that are not Knox based, end-users will get a quarantine email which includes a guided walkthrough to verify enrollment and compliance before they can access email.",
+      "pos": [
+        17368,
+        17551
+      ]
+    },
+    {
+      "content": "If you set the rule to block access or quarantine it, all devices are blocked from getting access to exchange regardless of whether they are already enrolled in Intune or not.",
+      "pos": [
+        17563,
+        17738
+      ]
+    },
+    {
+      "content": "To prevent enrolled and compliant devices from being affected by this rule, check the <bpt id=\"p1\">**</bpt>Default Rule Override.<ept id=\"p1\">**</ept>",
+      "pos": [
+        17739,
+        17851
+      ]
+    },
+    {
+      "content": "If you intention is to first block all devices before granting access to email, checking the Block access, or Quarantine rule can be useful.",
+      "pos": [
+        17863,
+        18003
+      ]
+    },
+    {
+      "content": "The default rule will apply to all device types, so device types you configure as platform exceptions and that are unsupported by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> are also affected.",
+      "pos": [
+        18015,
+        18215
+      ]
+    },
+    {
+      "content": "User Notification",
+      "pos": [
+        18224,
+        18241
+      ]
+    },
+    {
+      "content": "In addition to the notification email sent from Exchange, Intune sends an email that you can configure which contains steps to unblock the device.",
+      "pos": [
+        18244,
+        18390
+      ]
+    },
+    {
+      "content": "You can edit the default message and use HTML tags to format how the text appears.",
+      "pos": [
+        18402,
+        18484
+      ]
+    },
+    {
+      "content": "Because the Intune notification email containing remediation instructions is delivered to the user’s Exchange mailbox, in the event that the user’s device gets blocked before they receive the email message, they can use an unblocked device or other method to access Exchange and view the message.",
+      "pos": [
+        18496,
+        18792
+      ]
+    },
+    {
+      "content": "This is especially true when the <bpt id=\"p1\">**</bpt>Default Rule<ept id=\"p1\">**</ept> is set to block or quarantine.",
+      "pos": [
+        18804,
+        18884
+      ]
+    },
+    {
+      "content": "In this case, the end-user will have to go to their app store, download the Microsoft Company Portal app and enroll their device.",
+      "pos": [
+        18886,
+        19015
+      ]
+    },
+    {
+      "content": "This is applicable to iOS, Windows, and Samsung Knox devices.",
+      "pos": [
+        19016,
+        19077
+      ]
+    },
+    {
+      "content": "For  Android devices that are not Knox-based, the IT admin will need to send the quarantine email to an alternate email account, which then  the end-user has to copy to their blocked device to complete the enrollment and compliance process.",
+      "pos": [
+        19079,
+        19319
+      ]
+    },
+    {
+      "pos": [
+        19327,
+        19486
+      ],
+      "content": "[!NOTE]\nIn order for Exchange to be able to send the notification email, you must configure the account that will be used to send the notification email.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "In order for Exchange to be able to send the notification email, you must configure the account that will be used to send the notification email.",
+          "pos": [
+            8,
+            153
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        19500,
+        19698
+      ],
+      "content": "For details, see <bpt id=\"p1\">[</bpt>Configure Microsoft Intune on-premises connector for on-premises or hosted Exchange<ept id=\"p1\">](../Topic/Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md#bkmk_EX_OP)</ept>."
+    },
+    {
+      "pos": [
+        19704,
+        19738
+      ],
+      "content": "When you are done, click <bpt id=\"p1\">**</bpt>Save<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "You do not have to deploy the conditional access policy, it takes effect immediately.",
+      "pos": [
+        19744,
+        19829
+      ]
+    },
+    {
+      "pos": [
+        19835,
+        20024
+      ],
+      "content": "After a user sets up an Exchange ActiveSync profile, it might take from 1-3 hours for the device to be blocked (if it is not managed by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>)."
+    },
+    {
+      "pos": [
+        20030,
+        20208
+      ],
+      "content": "If a blocked user then enrolls the device with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> (or remediates noncompliance), email access will be unblocked within 2 minutes."
+    },
+    {
+      "pos": [
+        20214,
+        20352
+      ],
+      "content": "If the user un-enrolls from <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> it might take from 1-3 hours for the device to be blocked."
+    },
+    {
+      "content": "Step 5: Monitor the compliance and conditional access policies",
+      "pos": [
+        20357,
+        20419
+      ]
+    },
+    {
+      "content": "To view devices that are blocked from Exchange",
+      "pos": [
+        20426,
+        20472
+      ]
+    },
+    {
+      "pos": [
+        20478,
+        20665
+      ],
+      "content": "On the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> dashboard, click the <bpt id=\"p1\">**</bpt>Blocked Devices from Exchange<ept id=\"p1\">**</ept> tile to show the number of blocked devices and links to more information."
+    },
+    {
+      "pos": [
+        20670,
+        20715
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_Scenario\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Example Scenarios"
+    },
+    {
+      "content": "All iOS devices that access Exchange On-premises must be managed by Intune",
+      "pos": [
+        20721,
+        20795
+      ]
+    },
+    {
+      "pos": [
+        20796,
+        21003
+      ],
+      "content": "In this example, the organization only uses devices that run iOS and they require that all of these devices are managed by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> before they can access Exchange."
+    },
+    {
+      "content": "To accomplish this, in the conditional access policy, they configure the following:",
+      "pos": [
+        21005,
+        21088
+      ]
+    },
+    {
+      "pos": [
+        21094,
+        21169
+      ],
+      "content": "Select the option <bpt id=\"p1\">**</bpt>Enable conditional access policy for Exchange Online<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        21175,
+        21244
+      ],
+      "content": "For apps using modern authentication, select <bpt id=\"p1\">**</bpt>iOS<ept id=\"p1\">**</ept> for the platform"
+    },
+    {
+      "pos": [
+        21250,
+        21446
+      ],
+      "content": "For Exchange ActiveSync apps, select <bpt id=\"p1\">**</bpt>Require mobile devices to be compliant<ept id=\"p1\">**</ept>  and block access to email on devices that are not supported by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>."
+    },
+    {
+      "content": "A platform exception that allows devices that run iOS to access Exchange.",
+      "pos": [
+        21452,
+        21525
+      ]
+    },
+    {
+      "content": "A default rule that specifies when a device is not covered by other rules, then it should be blocked.",
+      "pos": [
+        21531,
+        21632
+      ]
+    },
+    {
+      "content": "The following flow is used to decide which devices can access Exchange:",
+      "pos": [
+        21634,
+        21705
+      ]
+    },
+    {
+      "content": "No Android devices can access Exchange On-premises.",
+      "pos": [
+        21751,
+        21802
+      ]
+    },
+    {
+      "content": "All other devices that access Exchange must be managed by Intune",
+      "pos": [
+        21803,
+        21867
+      ]
+    },
+    {
+      "content": "In this example, the organization does not want to allow devices that run Android access to Exchange.",
+      "pos": [
+        21868,
+        21969
+      ]
+    },
+    {
+      "content": "All other supported devices can access Exchange as long as they are managed by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        21970,
+        22101
+      ]
+    },
+    {
+      "content": "To accomplish this, in the conditional access policy, they configure the following:",
+      "pos": [
+        22103,
+        22186
+      ]
+    },
+    {
+      "pos": [
+        22192,
+        22267
+      ],
+      "content": "Select the option <bpt id=\"p1\">**</bpt>Enable conditional access policy for Exchange online<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "A platform exception that blocks devices that run Android from accessing Exchange.",
+      "pos": [
+        22273,
+        22355
+      ]
+    },
+    {
+      "content": "A default rule that specifies when a device is not covered by other rules, then it should be allowed.",
+      "pos": [
+        22361,
+        22462
+      ]
+    },
+    {
+      "content": "The following flow is used to decide which devices can access Exchange:",
+      "pos": [
+        22464,
+        22535
+      ]
+    },
+    {
+      "content": "Block users of noncompliant devices from Exchange Online in a specified Active Directory security group.",
+      "pos": [
+        22581,
+        22685
+      ]
+    },
+    {
+      "content": "Exempt devices in another security group",
+      "pos": [
+        22686,
+        22726
+      ]
+    },
+    {
+      "content": "In this scenario, all users in the <bpt id=\"p1\">**</bpt>Accounting<ept id=\"p1\">**</ept> Active Directory security group must be blocked from accessing Exchange Online if their device is not compliant with a compliance policy you deployed.",
+      "pos": [
+        22727,
+        22927
+      ]
+    },
+    {
+      "content": "Additionally, any users in the <bpt id=\"p1\">**</bpt>Finance<ept id=\"p1\">**</ept> Active Directory security group must be exempt from the policy, even if they are also in the <bpt id=\"p2\">**</bpt>Accounting<ept id=\"p2\">**</ept> security group.",
+      "pos": [
+        22928,
+        23094
+      ]
+    },
+    {
+      "content": "Finally, if any users exist in this group whose devices are not supported by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, they must be blocked from accessing Exchange Online on that device.",
+      "pos": [
+        23095,
+        23292
+      ]
+    },
+    {
+      "content": "To accomplish this, in the conditional access policy, they configure the following:",
+      "pos": [
+        23294,
+        23377
+      ]
+    },
+    {
+      "pos": [
+        23383,
+        23452
+      ],
+      "content": "Select the option <bpt id=\"p1\">**</bpt>Enable conditional access for Exchange Online.<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        23458,
+        23506
+      ],
+      "content": "Select <bpt id=\"p1\">**</bpt>Accounting<ept id=\"p1\">**</ept> under <bpt id=\"p2\">**</bpt>Targeted Groups<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        23512,
+        23557
+      ],
+      "content": "Select <bpt id=\"p1\">**</bpt>Finance<ept id=\"p1\">**</ept> under <bpt id=\"p2\">**</bpt>Exempted Groups<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        23563,
+        23660
+      ],
+      "content": "Under <bpt id=\"p1\">**</bpt>Exchange ActiveSync mail apps<ept id=\"p1\">**</ept>, select <bpt id=\"p2\">**</bpt>Require mobile devices to be compliant<ept id=\"p2\">**</ept>option."
+    },
+    {
+      "content": "The following flow is used to decide which devices can access Exchange:",
+      "pos": [
+        23662,
+        23733
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        23778,
+        23786
+      ]
+    },
+    {
+      "content": "Manage access to email and SharePoint with Microsoft Intune",
+      "pos": [
+        23788,
+        23847
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - Manage email access with Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 26cdfaa7-f317-413d-a25a-c3ab9f4b2d8f\n---\n# MD Conversion - Manage email access with Microsoft Intune\nUse the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]**conditional access policies** for Exchange to manage access to Exchange email based on conditions you specify.\n\nYou can manage access to:\n\n-   Microsoft Exchange On-premises\n\n-   Microsoft Exchange Online\n\n-   Exchange Online Dedicated\n\nIf you configure conditional access, before a user can connect to their email, the device they use must:\n\n-   Be enrolled with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] or a domain joined PC.\n\n-   Register the device in Azure Active Directory (this happens automatically when the device is enrolled with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] (for Exchange Online only). Additionally, the client Exchange ActiveSync ID must be registered with Azure Active Directory (does not apply to Windows and Windows Phone devices connecting to Exchange On-premises).\n\n    For a domain joined PC, you must set it to automatically register with Azure Active Directory.  **Conditional Access for PCs** section in the [Manage access to email and SharePoint with Microsoft Intune](../Topic/Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md) topic lists the full set of requirements to enable conditional access for PCs.\n\n-   Be compliant with any [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] compliance policies deployed to that device\n\nIf a conditional access condition is not met, the user is presented with one of the following messages when they log in.\n\n**For mobile devices:**\n\n-   If the device is not enrolled with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], or is not registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app, enroll the device, activate email, which associates the device’s Exchange ActiveSync ID with the device record in Azure Active Directory.\n\n-   If the device is not compliant, a message is displayed that directs the user to the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] web portal, or the company portal app where they can find information about the problem and how to remediate it.\n\n**For PCs:**\n\n-   If the conditional access policy requirement is to allow **domain joined** or **compliant**, a message with instructions about how to enroll the device is displayed. If the PC does not meet either of the requirements, the user will be asked to enroll the device with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n-   If the conditional access policy requirement is set to allow only domain joined windows devices, the device is blocked and a message to contact the IT admin is displayed.\n\nYou can block access to Exchange email from the devices built-in Exchange ActiveSync email client on the following platforms:\n\n-   Android 4.0 and later, Samsung Knox Standard 4.0 and later\n\n-   iOS 7.1 and later\n\n-   Windows Phone 8.1 and later\n\n-   The **Mail** application on Windows 8.1 and later\n\nOutlook app for iOS and Android, and Outlook desktop 2013 is supported for Exchange Online only.\n\n## Step 1: Evaluate the effect of the conditional access policy\nIf you have configured a connection between [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] and Exchange by using the **Microsoft Intune service to service connector** or the **on-premises Exchange connector**, you can use the **Mobile Device Inventory Reports** to identify EAS mail clients that will be blocked from accessing Exchange after you configure the conditional access policy.\n\nIn the report parameters, select the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] group you want to evaluate and, if required, the device platforms to which the policy will apply.\n\nFor more information about how to run reports, see [Understand Microsoft Intune operations by using reports](../Topic/Understand-Microsoft-Intune-operations-by-using-reports.md).\n\nAfter you run the report, examine these four columns to determine whether a user will be blocked:\n\n-   **Management Channel** – Indicates whether the device is managed by Intune, Exchange ActiveSync, or both.\n\n-   **AAD Registered** – Indicates whether the device is registered with Azure Active Directory (known as Workplace Join).\n\n-   **Compliant** – Indicates whether the device is compliant with any compliance policies you deployed.\n\n-   **Exchange ActiveSync ID** – iOS and Android devices are required to have their Exchange ActiveSync ID associated with the device registration record in Azure Active Directory. This happens when the user clicks the Activate Email link in the quarantine email.\n\n    > [!NOTE]\n    > Windows Phone devices always display a value in this column.\n\nDevices that are part of a targeted group will be blocked from accessing Exchange unless the column values match those listed in the following table:\n\n|Management channel|AAD registered|Compliant|Exchange ActiveSync ID|Resulting action|\n|----------------------|------------------|-------------|--------------------------|--------------------|\n|**Managed by Microsoft Intune and Exchange ActiveSync**|Yes|Yes|A value is displayed|Email access allowed|\n|Any other value|No|No|No value is displayed|Email access blocked|\nYou can export the contents of the report and use the **Email Address** column to help you inform users that they will be blocked.\n\n## Step 2: Configure user groups for the conditional access policy\nYou target conditional access policies to different groups of users depending on the policy types. These groups contain the users that will be targeted, or exempt from the policy. When a user is targeted by a policy, each device they use must be compliant in order to access email.\n\n-   **For the Exchange Online policy** – to Azure Active Directory security user groups. You can configure these groups in the **Office 365 admin center**, or the **Intune account portal**.\n\n-   **For the Exchange On-premises policy** – to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] user groups. You can configure these in the **Groups** workspace of the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] console.\n\nYou can specify two group types in each policy:\n\n-   **Targeted groups** – User groups to which the policy is applied\n\n-   **Exempted groups** – User groups that are exempt from the policy (optional)\n\nIf a user is in both groups, they will be exempt from the policy.\n\nOnly the groups which are targeted by the conditional access policy are evaluated for Exchange access.\n\n## Step 3: Configure and deploy a compliance policy\nEnsure that you have created and deployed a compliance policy to all devices that the Exchange conditional access policy will be targeted to.\n\nFor details about how to configure the compliance policy, see [Manage device compliance policies for Microsoft Intune](../Topic/Manage-device-compliance-policies-for-Microsoft-Intune.md).\n\n> [!IMPORTANT]\n> If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.\n\nWhen you are ready, continue to **Step 4**.\n\n## Step 4: Configure the conditional access policy\n\n### For Exchange Online (and tenants in the new Exchange Online Dedicated environment)\nThe following flow is used by conditional access policies for Exchange Online to evaluate whether to allow or block devices.\n\n![](../Image/ConditionalAccess8-1.png)\n\nTo access email, the device must:\n\n-   Enroll with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]\n\n-   PCs must either be domain joined or be enrolled and compliant with the policies set in [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n-   Register the device in Azure Active Directory (this happens automatically when the device is enrolled with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n    For domain joined PCs, you must  set it up to [automatically register the device](https://msdn.microsoft.com/en-us/library/azure/dn935033.aspx) with Azure Active Directory.\n\n-   Have activated email, which associates the device’s Exchange ActiveSync ID with the device record in Azure Active Directory (applies to iOS and Android devices only).\n\n-   Be compliant with any deployed [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] compliance policies\n\nThe device state is stored in Azure Active Directory which grants or blocks access to email, based on the evaluated conditions.\n\nIf a condition is not met, the user will be presented with one of the following messages when they log in:\n\n-   If the device is not enrolled, or registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app and enroll.\n\n-   If the device is not compliant, a message is displayed that directs the user to the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] web portal where they can find information about the problem and how to remediate it.\n\n-   For a PC:\n\n    -   If the policy is set to require domain join, and the PC is not domain joined, a message is displayed to contact the IT admin.\n\n    -   If the policy is set to require domain join or compliant, then the PC does not meet either requirement, a message is displayed with instructions about how to install the company portal app and enroll.\n\nThe message is displayed on the device for Exchange Online users and tenants in the new Exchange Online Dedicated environment, and is delivered to the users email inbox for Exchange On-premises and legacy Exchange Online Dedicated devices.\n\n[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] conditional access rules override, allow, block and quarantine rules that are defined in the Exchange Online admin console.\n\n#### <a name=\"BKMK_ExoCA\"></a>To enable the Exchange Online policy\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com), click **Policy** &gt; **Conditional Access** &gt; **Exchange Online Policy**.\n\n2.  On the **Exchange Online Policy** page, select **Enable conditional access policy for Exchange Online**. If you check this, the device must be compliant. If this is not checked then conditional access is not applied.\n\n    If you have not deployed a compliance policy and then enable the Exchange Online policy, all targeted devices are reported as compliant.\n\n    Regardless of the compliance state, all users who are targeted by the policy will be required to enroll their devices with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n3.  Under **Device platforms**, you can choose to apply conditional access policy to:\n\n    -   **All platforms**\n\n        This will require that any device used to access **Exchange  Online**,  to be enrolled in Intune and compliant with the policies.  Any client application using **modern authentication** is subject to the conditional access policy, and if the platform is currently not supported by Intune, access to **Exchange Online** is blocked.\n\n    -   **Specific platforms**\n\n        If you choose the **Specific platforms** option, you will see a list of platforms that you can individually select.   Conditional access policy will apply to any client app that is using **modern authentication**, but only on the device platforms you select.\n\n    > [!TIP]\n    > **Modern authentication** brings Active Directory Authentication Library (ADAL)-based sign in to Office clients.\n    > \n    > -   The ADAL based authentication enables Office clients to engage in browser-based authentication (also known as passive authentication).  To authenticate, the user is directed to a sign-in web page.\n    > -   This new sign-in method enables new scenarios such as, conditional access, based on **device compliance** and whether **multi-factor authentication** was performed.\n    > \n    > This [article](https://blogs.office.com/2014/11/12/office-2013-updated-authentication-enabling-multi-factor-authentication-saml-identity-providers/) has more detailed information on how modern authentication works.\n\n    For windows PCs, the PC must either be domain joined, or enrolled with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] and compliant. You can set the following requirements:\n\n    -   **Devices must be domain joined or compliant.** This means that the PCs must either be domain joined or compliant with the policies set in [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. If the PC does not meet either of these requirements, the user is prompted to enroll the device with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n    -   **Devices must be domain joined.** This means that the PCs must be domain joined to access Exchange Online. If the PC is not domain joined access to email is blocked and the user is prompted to contact the IT admin.\n\n    -   **Devices must be compliant.** This means that the PCs must be enrolled in [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] and compliant. If the PC is not enrolled, a message with instructions on how to enroll is displayed.\n\n4.  Under **Exchange ActiveSync mail apps**, you can choose to block email from accessing Exchange Online if the device is noncompliant, and select whether to allow or block access to email when Microsoft Intune cannot manage the device.\n\n5.  Under **Targeted Groups**, select the Active Directory security groups of users to which the policy will apply. You can either choose to target all users or a selected list of user groups.\n\n    For users that are in the Targeted groups, the Intune polices will replace Exchange rules and policies.\n\n    Exchange will only enforce Exchange allow, block and quarantine rules, and Exchange policies if:\n\n    -   The user is not licensed for Intune.\n\n    -   The user is licensed for Intune, but the user does not belong to any security groups targeted in the conditional access policy.\n\n6.  Under **Exempted Groups**, select the Active Directory security groups of users that are exempt from this policy. If a user  is in both the targeted and exempted groups, they will be exempt from the policy.\n\n7.  When you are done, click **Save**.\n\n-   You do not have to deploy the conditional access policy, it takes effect immediately.\n\n-   After a user creates an email account, the device is blocked immediately.\n\n-   If a blocked user enrolls the device with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] (or remediates noncompliance), email access is unblocked within 2 minutes.\n\n-   If the user un-enrolls their device, email is blocked after around 24 hours.\n\n### For Exchange on-premises (and tenants in the legacy Exchange Online Dedicated environment)\nThe following flow is used by conditional access policies for Exchange on-premises and tenants in the legacy Exchange Online Dedicated environment to evaluate whether to allow or block devices.\n\n![](../Image/ConditionalAccess8-2.png)\n\n##### To enable the Exchange On-premises policy\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com), click **Policy** &gt; **Conditional Access** &gt; **Exchange On-premises policy**.\n\n2.  Configure the policy with the settings you require:\n\n    |Setting|More information|\n    |-----------|--------------------|\n    |**Block email apps from accessing Exchange On-premises if the device is noncompliant or not enrolled to Microsoft Intune**|When you select this option, devices that are not managed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] or are not compliant with a compliance policy that was deployed to them are blocked from accessing Exchange services unless they have been defined as exempt.|\n    |**Default rule override - Always allow  enrolled and compliant devices to access Exchange**|When you check this option, devices that are enrolled in Intune and compliant with the compliant policies are allowed to access Exchange.  This rule overrides the **Default Rule**, which means that even if you set the **Default Rule** to quarantine or block access, enrolled and compliant devices will still be able to access Exchange.|\n    |**Targeted Groups**|Select the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] user groups that must enroll their device with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] before they can access Exchange.|\n    |**Exempted Groups**|Select the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] user groups that are exempt from the conditional access policy.<br /><br />Settings in this list override those in the **Targeted Groups** list.|\n    |**Platform Exceptions**|Click **Add Rule** to configure a rule that defines access levels for specified mobile device families and models.<br /><br />Because these devices can be of any type, you can also configure device types that are unsupported by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].|\n    |**Default Rule**|For a device that is not covered by any of the other rules, you can choose to allow it to access Exchange, block it, or quarantine it.<br /><br />When you set the rule to allow access, for devices that are enrolled and compliant, email access is granted automatically for iOS, Windows, and Samsung Knox devices. The end-user does not have to go through any process to get their email.  On Android devices that are not Knox based, end-users will get a quarantine email which includes a guided walkthrough to verify enrollment and compliance before they can access email.<br /><br />If you set the rule to block access or quarantine it, all devices are blocked from getting access to exchange regardless of whether they are already enrolled in Intune or not. To prevent enrolled and compliant devices from being affected by this rule, check the **Default Rule Override.**<br /><br />If you intention is to first block all devices before granting access to email, checking the Block access, or Quarantine rule can be useful.<br /><br />The default rule will apply to all device types, so device types you configure as platform exceptions and that are unsupported by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] are also affected.|\n    |**User Notification**|In addition to the notification email sent from Exchange, Intune sends an email that you can configure which contains steps to unblock the device.<br /><br />You can edit the default message and use HTML tags to format how the text appears.<br /><br />Because the Intune notification email containing remediation instructions is delivered to the user’s Exchange mailbox, in the event that the user’s device gets blocked before they receive the email message, they can use an unblocked device or other method to access Exchange and view the message.<br /><br />This is especially true when the **Default Rule** is set to block or quarantine.  In this case, the end-user will have to go to their app store, download the Microsoft Company Portal app and enroll their device. This is applicable to iOS, Windows, and Samsung Knox devices.  For  Android devices that are not Knox-based, the IT admin will need to send the quarantine email to an alternate email account, which then  the end-user has to copy to their blocked device to complete the enrollment and compliance process.|\n    > [!NOTE]\n    > In order for Exchange to be able to send the notification email, you must configure the account that will be used to send the notification email.\n    > \n    > For details, see [Configure Microsoft Intune on-premises connector for on-premises or hosted Exchange](../Topic/Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md#bkmk_EX_OP).\n\n3.  When you are done, click **Save**.\n\n-   You do not have to deploy the conditional access policy, it takes effect immediately.\n\n-   After a user sets up an Exchange ActiveSync profile, it might take from 1-3 hours for the device to be blocked (if it is not managed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]).\n\n-   If a blocked user then enrolls the device with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] (or remediates noncompliance), email access will be unblocked within 2 minutes.\n\n-   If the user un-enrolls from [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] it might take from 1-3 hours for the device to be blocked.\n\n## Step 5: Monitor the compliance and conditional access policies\n\n#### To view devices that are blocked from Exchange\n\n1.  On the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] dashboard, click the **Blocked Devices from Exchange** tile to show the number of blocked devices and links to more information.\n\n## <a name=\"BKMK_Scenario\"></a>Example Scenarios\n\n### All iOS devices that access Exchange On-premises must be managed by Intune\nIn this example, the organization only uses devices that run iOS and they require that all of these devices are managed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] before they can access Exchange.\n\nTo accomplish this, in the conditional access policy, they configure the following:\n\n-   Select the option **Enable conditional access policy for Exchange Online**.\n\n-   For apps using modern authentication, select **iOS** for the platform\n\n-   For Exchange ActiveSync apps, select **Require mobile devices to be compliant**  and block access to email on devices that are not supported by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n-   A platform exception that allows devices that run iOS to access Exchange.\n\n-   A default rule that specifies when a device is not covered by other rules, then it should be blocked.\n\nThe following flow is used to decide which devices can access Exchange:\n\n![](../Image/ConditionalAccess8-3.png)\n\n### No Android devices can access Exchange On-premises. All other devices that access Exchange must be managed by Intune\nIn this example, the organization does not want to allow devices that run Android access to Exchange. All other supported devices can access Exchange as long as they are managed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\nTo accomplish this, in the conditional access policy, they configure the following:\n\n-   Select the option **Enable conditional access policy for Exchange online**.\n\n-   A platform exception that blocks devices that run Android from accessing Exchange.\n\n-   A default rule that specifies when a device is not covered by other rules, then it should be allowed.\n\nThe following flow is used to decide which devices can access Exchange:\n\n![](../Image/ConditionalAccess8-4.png)\n\n### Block users of noncompliant devices from Exchange Online in a specified Active Directory security group. Exempt devices in another security group\nIn this scenario, all users in the **Accounting** Active Directory security group must be blocked from accessing Exchange Online if their device is not compliant with a compliance policy you deployed. Additionally, any users in the **Finance** Active Directory security group must be exempt from the policy, even if they are also in the **Accounting** security group. Finally, if any users exist in this group whose devices are not supported by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], they must be blocked from accessing Exchange Online on that device.\n\nTo accomplish this, in the conditional access policy, they configure the following:\n\n-   Select the option **Enable conditional access for Exchange Online.**.\n\n-   Select **Accounting** under **Targeted Groups**.\n\n-   Select **Finance** under **Exempted Groups**.\n\n-   Under **Exchange ActiveSync mail apps**, select **Require mobile devices to be compliant**option.\n\nThe following flow is used to decide which devices can access Exchange:\n\n![](../Image/ConditionalAccess8-5.png)\n\n## See Also\n[Manage access to email and SharePoint with Microsoft Intune](../Topic/Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md)\n\n"
+}

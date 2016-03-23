@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "content": "Art test page",
+      "pos": [
+        11,
+        24
+      ]
+    },
+    {
+      "content": "Art test page",
+      "pos": [
+        175,
+        188
+      ]
+    },
+    {
+      "content": "There comes a point when either an employee parts way with the company, or with their device.",
+      "pos": [
+        189,
+        282
+      ]
+    },
+    {
+      "content": "In such cases, you need to be able to ensure that neither the employee nor anyone using their device can access company resources.",
+      "pos": [
+        283,
+        413
+      ]
+    },
+    {
+      "content": "You may also want to make sure that any company information on the device is removed.",
+      "pos": [
+        414,
+        499
+      ]
+    },
+    {
+      "content": "Intune provides comprehensive settings management to meet these goals.",
+      "pos": [
+        500,
+        570
+      ]
+    },
+    {
+      "content": "Next steps",
+      "pos": [
+        575,
+        585
+      ]
+    },
+    {
+      "content": "Insert section body here.",
+      "pos": [
+        586,
+        611
+      ]
+    },
+    {
+      "content": "Additional resources",
+      "pos": [
+        616,
+        636
+      ]
+    }
+  ],
+  "content": "---\ntitle: Art test page\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 5d3e6572-4a4a-4447-9a92-17fe21e72466\nauthor: Lindavr\n---\n# Art test page\nThere comes a point when either an employee parts way with the company, or with their device. In such cases, you need to be able to ensure that neither the employee nor anyone using their device can access company resources. You may also want to make sure that any company information on the device is removed. Intune provides comprehensive settings management to meet these goals.\n\n## Next steps\nInsert section body here.\n\n## Additional resources\n\n-\n\n-\n\n"
+}

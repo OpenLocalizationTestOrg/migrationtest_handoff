@@ -1,0 +1,663 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - Troubleshoot endpoint protection in Microsoft Intune",
+      "pos": [
+        11,
+        79
+      ]
+    },
+    {
+      "content": "MD Conversion - Troubleshoot endpoint protection in Microsoft Intune",
+      "pos": [
+        214,
+        282
+      ]
+    },
+    {
+      "pos": [
+        287,
+        365
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_EP\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Resources to help you solve Endpoint Protection problems"
+    },
+    {
+      "pos": [
+        366,
+        538
+      ],
+      "content": "Use the information in this section to help you solve problems while using <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph>."
+    },
+    {
+      "content": "Endpoint Protection error messages",
+      "pos": [
+        544,
+        578
+      ]
+    },
+    {
+      "pos": [
+        579,
+        797
+      ],
+      "content": "This section describes potential causes and solutions for the following errors and warnings, which appear in the <bpt id=\"p1\">**</bpt>Endpoint Protection Status<ept id=\"p1\">**</ept> pane in the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph>."
+    },
+    {
+      "content": "Status item",
+      "pos": [
+        800,
+        811
+      ]
+    },
+    {
+      "content": "Potential causes",
+      "pos": [
+        812,
+        828
+      ]
+    },
+    {
+      "content": "Potential solutions",
+      "pos": [
+        829,
+        848
+      ]
+    },
+    {
+      "content": "Endpoint Protection engine unavailable",
+      "pos": [
+        916,
+        954
+      ]
+    },
+    {
+      "pos": [
+        957,
+        1090
+      ],
+      "content": "The <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> engine was corrupted or deleted."
+    },
+    {
+      "content": "If the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> engine is corrupted, you can try updating or reinstalling the software.",
+      "pos": [
+        1091,
+        1266
+      ]
+    },
+    {
+      "content": "To force an immediate update, click <bpt id=\"p1\">**</bpt>Update<ept id=\"p1\">**</ept> in the <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client software (found in the taskbar on managed computers.",
+      "pos": [
+        1278,
+        1435
+      ]
+    },
+    {
+      "content": "If the engine cannot be updated, you must reinstall the <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> engine.",
+      "pos": [
+        1447,
+        1554
+      ]
+    },
+    {
+      "content": "In the list of installed programs in Control Panel on the managed computer, locate <bpt id=\"p1\">**</bpt>Microsoft Intune Endpoint Protection Agent<ept id=\"p1\">**</ept>, and then uninstall the application.",
+      "pos": [
+        1566,
+        1732
+      ]
+    },
+    {
+      "content": "During the next update synchronization, the Microsoft Online Management Update Manager detects the missing program and reinstalls it at the scheduled installation time.",
+      "pos": [
+        1744,
+        1912
+      ]
+    },
+    {
+      "content": "Endpoint Protection disabled",
+      "pos": [
+        1917,
+        1945
+      ]
+    },
+    {
+      "pos": [
+        1948,
+        2128
+      ],
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> was disabled by an administrator using a policy or by a user on a managed computer."
+    },
+    {
+      "content": "If <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> is disabled, you can enable it from the <ph id=\"ph2\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> or from a managed computer.",
+      "pos": [
+        2129,
+        2305
+      ]
+    },
+    {
+      "content": "Do one of the following:",
+      "pos": [
+        2306,
+        2330
+      ]
+    },
+    {
+      "content": "To enable <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> from the <ph id=\"ph2\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph>, open the <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept> workspace, and then change the <bpt id=\"p2\">**</bpt>Enable Endpoint Protection<ept id=\"p2\">**</ept> setting in the policies that apply to the computer.",
+      "pos": [
+        2342,
+        2601
+      ]
+    },
+    {
+      "content": "Or,",
+      "pos": [
+        2613,
+        2616
+      ]
+    },
+    {
+      "content": "to enable <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> from a managed computer, start the <ph id=\"ph2\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><ph id=\"ph3\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client from the notification area and you will be prompted to enable <ph id=\"ph4\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph>.",
+      "pos": [
+        2628,
+        2927
+      ]
+    },
+    {
+      "content": "Real-time protection disabled",
+      "pos": [
+        2932,
+        2961
+      ]
+    },
+    {
+      "content": "Real-time protection was disabled by an administrator who used Policy or by a user on a managed computer.",
+      "pos": [
+        2964,
+        3069
+      ]
+    },
+    {
+      "content": "If real-time protection is disabled, you can enable it from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> or from a managed computer.",
+      "pos": [
+        3070,
+        3223
+      ]
+    },
+    {
+      "content": "Do one of the following:",
+      "pos": [
+        3224,
+        3248
+      ]
+    },
+    {
+      "content": "To enable real-time protection from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph>, open the <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept> workspace, and then change the <bpt id=\"p2\">**</bpt>Enable real-time protection<ept id=\"p2\">**</ept> setting to <bpt id=\"p3\">**</bpt>Yes<ept id=\"p3\">**</ept> in the policies that apply to the computer.",
+      "pos": [
+        3260,
+        3508
+      ]
+    },
+    {
+      "content": "Or,",
+      "pos": [
+        3520,
+        3523
+      ]
+    },
+    {
+      "content": "to enable real-time protection from a managed computer, start the <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client software from the notification area.",
+      "pos": [
+        3535,
+        3688
+      ]
+    },
+    {
+      "content": "You are prompted to enable real-time protection at that time.",
+      "pos": [
+        3689,
+        3750
+      ]
+    },
+    {
+      "content": "Download scanning disabled",
+      "pos": [
+        3755,
+        3781
+      ]
+    },
+    {
+      "content": "Download scanning was disabled by an administrator by using policy or by a user on a managed computer.",
+      "pos": [
+        3784,
+        3886
+      ]
+    },
+    {
+      "content": "If download scanning is disabled, you can enable it from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> or from a managed computer.",
+      "pos": [
+        3887,
+        4037
+      ]
+    },
+    {
+      "content": "Do one of the following:",
+      "pos": [
+        4038,
+        4062
+      ]
+    },
+    {
+      "content": "To enable download scanning from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph>, open the <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept> workspace, and then change the <bpt id=\"p2\">**</bpt>Scan all Downloads<ept id=\"p2\">**</ept> setting to <bpt id=\"p3\">**</bpt>Yes<ept id=\"p3\">**</ept> in the policies that apply to the computer.",
+      "pos": [
+        4074,
+        4310
+      ]
+    },
+    {
+      "content": "Or,",
+      "pos": [
+        4322,
+        4325
+      ]
+    },
+    {
+      "content": "to enable download scanning from a managed computer, start the <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client software from the notification area.",
+      "pos": [
+        4337,
+        4487
+      ]
+    },
+    {
+      "content": "Click the <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> tab, click <bpt id=\"p2\">**</bpt>Real-time protection<ept id=\"p2\">**</ept>, select the <bpt id=\"p3\">**</bpt>Scan all downloads<ept id=\"p3\">**</ept> check box, and then click <bpt id=\"p4\">**</bpt>Save changes<ept id=\"p4\">**</ept>.",
+      "pos": [
+        4488,
+        4625
+      ]
+    },
+    {
+      "content": "File and program activity monitoring disabled",
+      "pos": [
+        4630,
+        4675
+      ]
+    },
+    {
+      "content": "File and program activity monitoring was disabled by an administrator who used Policy or by a user on a managed computer.",
+      "pos": [
+        4678,
+        4799
+      ]
+    },
+    {
+      "content": "If file and program activity monitoring is disabled, you can enable it from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> or from a managed computer.",
+      "pos": [
+        4800,
+        4969
+      ]
+    },
+    {
+      "content": "Do one of the following:",
+      "pos": [
+        4970,
+        4994
+      ]
+    },
+    {
+      "content": "To enable file and program activity monitoring from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph>, open the <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept> workspace, and then change the <bpt id=\"p2\">**</bpt>Monitor file and program activity on computers<ept id=\"p2\">**</ept> setting to <bpt id=\"p3\">**</bpt>Yes<ept id=\"p3\">**</ept> in the policies that apply to the computer.",
+      "pos": [
+        5006,
+        5289
+      ]
+    },
+    {
+      "content": "Or,",
+      "pos": [
+        5301,
+        5304
+      ]
+    },
+    {
+      "content": "to enable file and program activity monitoring from a managed computer, start the <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client software from the notification area.",
+      "pos": [
+        5316,
+        5485
+      ]
+    },
+    {
+      "content": "Click the <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> tab, click <bpt id=\"p2\">**</bpt>Real-time protection<ept id=\"p2\">**</ept>, select the <bpt id=\"p3\">**</bpt>Monitor file and program activity on your computer<ept id=\"p3\">**</ept> check box, and then click <bpt id=\"p4\">**</bpt>Save changes<ept id=\"p4\">**</ept>.",
+      "pos": [
+        5486,
+        5655
+      ]
+    },
+    {
+      "content": "Behavior monitoring disabled",
+      "pos": [
+        5660,
+        5688
+      ]
+    },
+    {
+      "content": "Behavior monitoring was disabled by an administrator who used Policy or by a user on a managed computer.",
+      "pos": [
+        5691,
+        5795
+      ]
+    },
+    {
+      "content": "If behavior monitoring is disabled, you can enable it from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> or from a managed computer.",
+      "pos": [
+        5796,
+        5948
+      ]
+    },
+    {
+      "content": "Do one of the following:",
+      "pos": [
+        5949,
+        5973
+      ]
+    },
+    {
+      "content": "To enable behavior monitoring from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph>, open the <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept> workspace, change the <bpt id=\"p2\">**</bpt>Enable behavior monitoring<ept id=\"p2\">**</ept> setting to <bpt id=\"p3\">**</bpt>Yes<ept id=\"p3\">**</ept> in the policies that apply to the computer, and then restart the managed computer.",
+      "pos": [
+        5985,
+        6261
+      ]
+    },
+    {
+      "content": "Or,",
+      "pos": [
+        6273,
+        6276
+      ]
+    },
+    {
+      "content": "to enable behavior monitoring from a managed computer, start the <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client software from the notification area.",
+      "pos": [
+        6288,
+        6440
+      ]
+    },
+    {
+      "content": "Click the <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> tab, click <bpt id=\"p2\">**</bpt>Real-time protection<ept id=\"p2\">**</ept>, select the <bpt id=\"p3\">**</bpt>Enable behavior monitoring<ept id=\"p3\">**</ept> check box, and then click <bpt id=\"p4\">**</bpt>Save changes<ept id=\"p4\">**</ept>.",
+      "pos": [
+        6441,
+        6586
+      ]
+    },
+    {
+      "content": "Then, restart the computer.",
+      "pos": [
+        6587,
+        6614
+      ]
+    },
+    {
+      "content": "Script scanning disabled",
+      "pos": [
+        6619,
+        6643
+      ]
+    },
+    {
+      "content": "Script scanning was disabled by an administrator who used Policy or by a user on a managed computer.",
+      "pos": [
+        6646,
+        6746
+      ]
+    },
+    {
+      "content": "If script scanning is disabled, you can enable it from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> or from a managed computer.",
+      "pos": [
+        6747,
+        6895
+      ]
+    },
+    {
+      "content": "Do one of the following:",
+      "pos": [
+        6896,
+        6920
+      ]
+    },
+    {
+      "content": "To enable script scanning from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph>, open the <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept> workspace and change the <bpt id=\"p2\">**</bpt>Enable script scanning<ept id=\"p2\">**</ept> setting to <bpt id=\"p3\">**</bpt>Yes<ept id=\"p3\">**</ept> in the policies that apply to the computer.",
+      "pos": [
+        6932,
+        7164
+      ]
+    },
+    {
+      "content": "Or,",
+      "pos": [
+        7176,
+        7179
+      ]
+    },
+    {
+      "content": "to enable script scanning from a managed computer, start the <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client software from the notification area.",
+      "pos": [
+        7191,
+        7339
+      ]
+    },
+    {
+      "content": "Click the <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> tab, click <bpt id=\"p2\">**</bpt>Real-time protection<ept id=\"p2\">**</ept>, select the <bpt id=\"p3\">**</bpt>Enable script scanning<ept id=\"p3\">**</ept> check box, and then click <bpt id=\"p4\">**</bpt>Save changes<ept id=\"p4\">**</ept>.",
+      "pos": [
+        7340,
+        7481
+      ]
+    },
+    {
+      "content": "Network Inspection System disabled",
+      "pos": [
+        7486,
+        7520
+      ]
+    },
+    {
+      "content": "The Network Inspection System was disabled by an administrator using policy or by a user on a managed computer.",
+      "pos": [
+        7523,
+        7634
+      ]
+    },
+    {
+      "content": "If Network Inspection System is disabled, you can enable it from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> or from a managed computer.",
+      "pos": [
+        7635,
+        7793
+      ]
+    },
+    {
+      "content": "Do one of the following:",
+      "pos": [
+        7794,
+        7818
+      ]
+    },
+    {
+      "content": "To enable Network Inspection System from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph>, open the <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept> workspace, change the <bpt id=\"p2\">**</bpt>Enable Network Inspection System<ept id=\"p2\">**</ept> setting to <bpt id=\"p3\">**</bpt>Yes<ept id=\"p3\">**</ept> in the policies that apply to the computer, and then restart the managed computer.",
+      "pos": [
+        7830,
+        8118
+      ]
+    },
+    {
+      "content": "Or,",
+      "pos": [
+        8130,
+        8133
+      ]
+    },
+    {
+      "content": "to enable Network Inspection System from a managed computer, start the <ph id=\"ph1\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> client software from the notification area.",
+      "pos": [
+        8145,
+        8303
+      ]
+    },
+    {
+      "content": "Click the <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> tab, click <bpt id=\"p2\">**</bpt>Real-time protection<ept id=\"p2\">**</ept>, select the <bpt id=\"p3\">**</bpt>Enable Network Inspection System<ept id=\"p3\">**</ept> check box, and then click <bpt id=\"p4\">**</bpt>Save changes<ept id=\"p4\">**</ept>.",
+      "pos": [
+        8304,
+        8455
+      ]
+    },
+    {
+      "content": "Restart the computer.",
+      "pos": [
+        8456,
+        8477
+      ]
+    },
+    {
+      "content": "Malware definitions out-of-date",
+      "pos": [
+        8482,
+        8513
+      ]
+    },
+    {
+      "content": "The computer might have been disconnected from the Internet for an extended period of time, and its malware definitions might not yet have been updated.",
+      "pos": [
+        8516,
+        8668
+      ]
+    },
+    {
+      "content": "This status appears when the malware definitions on the computer are out-of-date by 14 days or more.",
+      "pos": [
+        8669,
+        8769
+      ]
+    },
+    {
+      "content": "If malware definitions are out-of-date, you can update the definitions from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> or from the managed computer.",
+      "pos": [
+        8770,
+        8941
+      ]
+    },
+    {
+      "content": "For more information, see <bpt id=\"p1\">[</bpt>Help secure Windows PCs with Endpoint Protection for Microsoft Intune<ept id=\"p1\">](../Topic/Help-secure-Windows-PCs-with-Endpoint-Protection-for-Microsoft-Intune.md)</ept> topic.",
+      "pos": [
+        8953,
+        9140
+      ]
+    },
+    {
+      "content": "Full scan overdue",
+      "pos": [
+        9145,
+        9162
+      ]
+    },
+    {
+      "content": "A full scan has not been completed for 14 days.",
+      "pos": [
+        9165,
+        9212
+      ]
+    },
+    {
+      "content": "This can be caused by a computer restart during a full scan.",
+      "pos": [
+        9213,
+        9273
+      ]
+    },
+    {
+      "pos": [
+        9274,
+        9645
+      ],
+      "content": "If a full scan is overdue, you can run a one-time full scan or schedule recurring full scans from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> by using the information in the topic <bpt id=\"p1\">[</bpt>Common Windows PC management tasks with the Microsoft Intune computer client<ept id=\"p1\">](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md)</ept>."
+    },
+    {
+      "content": "Quick scan overdue",
+      "pos": [
+        9650,
+        9668
+      ]
+    },
+    {
+      "content": "A quick scan has not been completed for 14 days.",
+      "pos": [
+        9671,
+        9719
+      ]
+    },
+    {
+      "content": "This can be caused by a restart during a quick scan.",
+      "pos": [
+        9720,
+        9772
+      ]
+    },
+    {
+      "pos": [
+        9773,
+        10147
+      ],
+      "content": "If a quick scan is overdue, you can run a one-time quick scan or schedule recurring quick scans from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> by using the information in the topic <bpt id=\"p1\">[</bpt>Common Windows PC management tasks with the Microsoft Intune computer client<ept id=\"p1\">](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md)</ept>."
+    },
+    {
+      "content": "Another endpoint protection application running",
+      "pos": [
+        10152,
+        10199
+      ]
+    },
+    {
+      "content": "Another endpoint protection application is running, and the computer is healthy.",
+      "pos": [
+        10202,
+        10282
+      ]
+    },
+    {
+      "content": "By default, if another endpoint protection application is installed and <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> detects that application, <ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> automatically disables itself.",
+      "pos": [
+        10283,
+        10507
+      ]
+    },
+    {
+      "content": "If <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> does not detect the other endpoint application, <ph id=\"ph2\">[!INCLUDE[epshort](../Token/epshort_md.md)]</ph> will remain enabled.",
+      "pos": [
+        10508,
+        10675
+      ]
+    },
+    {
+      "content": "For more information, see <bpt id=\"p1\">[</bpt>Help secure Windows PCs with Endpoint Protection for Microsoft Intune<ept id=\"p1\">](../Topic/Help-secure-Windows-PCs-with-Endpoint-Protection-for-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        10676,
+        10857
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        10863,
+        10871
+      ]
+    },
+    {
+      "content": "Troubleshoot Microsoft Intune",
+      "pos": [
+        10873,
+        10902
+      ]
+    },
+    {
+      "content": "Manage Windows PCs with Microsoft Intune",
+      "pos": [
+        10948,
+        10988
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - Troubleshoot endpoint protection in Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: fc0d84e2-a51e-436b-8d69-f268035996ba\n---\n# MD Conversion - Troubleshoot endpoint protection in Microsoft Intune\n\n## <a name=\"BKMK_EP\"></a>Resources to help you solve Endpoint Protection problems\nUse the information in this section to help you solve problems while using [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)].\n\n### Endpoint Protection error messages\nThis section describes potential causes and solutions for the following errors and warnings, which appear in the **Endpoint Protection Status** pane in the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)].\n\n|Status item|Potential causes|Potential solutions|\n|---------------|--------------------|-----------------------|\n|**Endpoint Protection engine unavailable**|The [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] engine was corrupted or deleted.|If the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] engine is corrupted, you can try updating or reinstalling the software.<br /><br />To force an immediate update, click **Update** in the [!INCLUDE[epshort](../Token/epshort_md.md)] client software (found in the taskbar on managed computers.<br /><br />If the engine cannot be updated, you must reinstall the [!INCLUDE[epshort](../Token/epshort_md.md)] engine.<br /><br />In the list of installed programs in Control Panel on the managed computer, locate **Microsoft Intune Endpoint Protection Agent**, and then uninstall the application.<br /><br />During the next update synchronization, the Microsoft Online Management Update Manager detects the missing program and reinstalls it at the scheduled installation time.|\n|**Endpoint Protection disabled**|[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] was disabled by an administrator using a policy or by a user on a managed computer.|If [!INCLUDE[epshort](../Token/epshort_md.md)] is disabled, you can enable it from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] or from a managed computer. Do one of the following:<br /><br />To enable [!INCLUDE[epshort](../Token/epshort_md.md)] from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)], open the **Policy** workspace, and then change the **Enable Endpoint Protection** setting in the policies that apply to the computer.<br /><br />Or,<br /><br />to enable [!INCLUDE[epshort](../Token/epshort_md.md)] from a managed computer, start the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)][!INCLUDE[epshort](../Token/epshort_md.md)] client from the notification area and you will be prompted to enable [!INCLUDE[epshort](../Token/epshort_md.md)].|\n|**Real-time protection disabled**|Real-time protection was disabled by an administrator who used Policy or by a user on a managed computer.|If real-time protection is disabled, you can enable it from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] or from a managed computer. Do one of the following:<br /><br />To enable real-time protection from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)], open the **Policy** workspace, and then change the **Enable real-time protection** setting to **Yes** in the policies that apply to the computer.<br /><br />Or,<br /><br />to enable real-time protection from a managed computer, start the [!INCLUDE[epshort](../Token/epshort_md.md)] client software from the notification area. You are prompted to enable real-time protection at that time.|\n|**Download scanning disabled**|Download scanning was disabled by an administrator by using policy or by a user on a managed computer.|If download scanning is disabled, you can enable it from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] or from a managed computer. Do one of the following:<br /><br />To enable download scanning from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)], open the **Policy** workspace, and then change the **Scan all Downloads** setting to **Yes** in the policies that apply to the computer.<br /><br />Or,<br /><br />to enable download scanning from a managed computer, start the [!INCLUDE[epshort](../Token/epshort_md.md)] client software from the notification area. Click the **Settings** tab, click **Real-time protection**, select the **Scan all downloads** check box, and then click **Save changes**.|\n|**File and program activity monitoring disabled**|File and program activity monitoring was disabled by an administrator who used Policy or by a user on a managed computer.|If file and program activity monitoring is disabled, you can enable it from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] or from a managed computer. Do one of the following:<br /><br />To enable file and program activity monitoring from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)], open the **Policy** workspace, and then change the **Monitor file and program activity on computers** setting to **Yes** in the policies that apply to the computer.<br /><br />Or,<br /><br />to enable file and program activity monitoring from a managed computer, start the [!INCLUDE[epshort](../Token/epshort_md.md)] client software from the notification area. Click the **Settings** tab, click **Real-time protection**, select the **Monitor file and program activity on your computer** check box, and then click **Save changes**.|\n|**Behavior monitoring disabled**|Behavior monitoring was disabled by an administrator who used Policy or by a user on a managed computer.|If behavior monitoring is disabled, you can enable it from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] or from a managed computer. Do one of the following:<br /><br />To enable behavior monitoring from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)], open the **Policy** workspace, change the **Enable behavior monitoring** setting to **Yes** in the policies that apply to the computer, and then restart the managed computer.<br /><br />Or,<br /><br />to enable behavior monitoring from a managed computer, start the [!INCLUDE[epshort](../Token/epshort_md.md)] client software from the notification area. Click the **Settings** tab, click **Real-time protection**, select the **Enable behavior monitoring** check box, and then click **Save changes**. Then, restart the computer.|\n|**Script scanning disabled**|Script scanning was disabled by an administrator who used Policy or by a user on a managed computer.|If script scanning is disabled, you can enable it from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] or from a managed computer. Do one of the following:<br /><br />To enable script scanning from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)], open the **Policy** workspace and change the **Enable script scanning** setting to **Yes** in the policies that apply to the computer.<br /><br />Or,<br /><br />to enable script scanning from a managed computer, start the [!INCLUDE[epshort](../Token/epshort_md.md)] client software from the notification area. Click the **Settings** tab, click **Real-time protection**, select the **Enable script scanning** check box, and then click **Save changes**.|\n|**Network Inspection System disabled**|The Network Inspection System was disabled by an administrator using policy or by a user on a managed computer.|If Network Inspection System is disabled, you can enable it from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] or from a managed computer. Do one of the following:<br /><br />To enable Network Inspection System from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)], open the **Policy** workspace, change the **Enable Network Inspection System** setting to **Yes** in the policies that apply to the computer, and then restart the managed computer.<br /><br />Or,<br /><br />to enable Network Inspection System from a managed computer, start the [!INCLUDE[epshort](../Token/epshort_md.md)] client software from the notification area. Click the **Settings** tab, click **Real-time protection**, select the **Enable Network Inspection System** check box, and then click **Save changes**. Restart the computer.|\n|**Malware definitions out-of-date**|The computer might have been disconnected from the Internet for an extended period of time, and its malware definitions might not yet have been updated. This status appears when the malware definitions on the computer are out-of-date by 14 days or more.|If malware definitions are out-of-date, you can update the definitions from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] or from the managed computer.<br /><br />For more information, see [Help secure Windows PCs with Endpoint Protection for Microsoft Intune](../Topic/Help-secure-Windows-PCs-with-Endpoint-Protection-for-Microsoft-Intune.md) topic.|\n|**Full scan overdue**|A full scan has not been completed for 14 days. This can be caused by a computer restart during a full scan.|If a full scan is overdue, you can run a one-time full scan or schedule recurring full scans from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] by using the information in the topic [Common Windows PC management tasks with the Microsoft Intune computer client](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md).|\n|**Quick scan overdue**|A quick scan has not been completed for 14 days. This can be caused by a restart during a quick scan.|If a quick scan is overdue, you can run a one-time quick scan or schedule recurring quick scans from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] by using the information in the topic [Common Windows PC management tasks with the Microsoft Intune computer client](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md).|\n|**Another endpoint protection application running**|Another endpoint protection application is running, and the computer is healthy.|By default, if another endpoint protection application is installed and [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] detects that application, [!INCLUDE[epshort](../Token/epshort_md.md)] automatically disables itself. If [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] does not detect the other endpoint application, [!INCLUDE[epshort](../Token/epshort_md.md)] will remain enabled. For more information, see [Help secure Windows PCs with Endpoint Protection for Microsoft Intune](../Topic/Help-secure-Windows-PCs-with-Endpoint-Protection-for-Microsoft-Intune.md).|\n\n## See Also\n[Troubleshoot Microsoft Intune](../Topic/Troubleshoot-Microsoft-Intune.md)\n[Manage Windows PCs with Microsoft Intune](../Topic/Manage-Windows-PCs-with-Microsoft-Intune.md)\n\n"
+}

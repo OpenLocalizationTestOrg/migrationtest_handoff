@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">bf1df26cd7f7ce62d1026ea9966f401bf7522540</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>What&amp;#39;s new test</source>
+          <target>What&amp;#39;s new test</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>What&amp;#39;s new test</source>
+          <target>What&amp;#39;s new test</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>What's new in Intune -- February 2016</source>
+          <target>What's new in Intune -- February 2016</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Insert section body here.</source>
+          <target>Insert section body here.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Apply apps and policies to different device categories based on user selection</source>
+          <target>Apply apps and policies to different device categories based on user selection</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>iOS enrollment updates</source>
+          <target>iOS enrollment updates</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Enterprise customers can deploy online business store apps to end users</source>
+          <target>Enterprise customers can deploy online business store apps to end users</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Changes and updates to Microsoft Company Portal</source>
+          <target>Changes and updates to Microsoft Company Portal</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The following changes have been made to the company portal apps in this release:</source>
+          <target>The following changes have been made to the company portal apps in this release:</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>iOS</source>
+          <target>iOS</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>What's coming</source>
+          <target>What's coming</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>What's new in Intune documentation</source>
+          <target>What's new in Intune documentation</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>New content</source>
+          <target>New content</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Updated content</source>
+          <target>Updated content</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

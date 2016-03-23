@@ -1,0 +1,166 @@
+{
+  "nodes": [
+    {
+      "content": "Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers",
+      "pos": [
+        11,
+        102
+      ]
+    },
+    {
+      "content": "Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers",
+      "pos": [
+        479,
+        570
+      ]
+    },
+    {
+      "content": "Microsoft Intune enables administrators to import international mobile equipment identity (IMEI) numbers for mobile device platforms with an IMEI numbers to help identify corporate-owned mobile devices.",
+      "pos": [
+        571,
+        773
+      ]
+    },
+    {
+      "content": "Once enrolled in Intune, devices with imported IMEI numbers are tagged as Corporate which can be used for applying policies that are different than those applied to personally owned devices.",
+      "pos": [
+        774,
+        964
+      ]
+    },
+    {
+      "content": "Add International Mobile Equipment Identity (IMEI) Numbers to Intune",
+      "pos": [
+        968,
+        1036
+      ]
+    },
+    {
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept> go <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>All Devices<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>All Corporate Pre-enrolled Devices<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>By IMEI (All platforms)<ept id=\"p5\">**</ept>, and then click <bpt id=\"p6\">**</bpt>Add devices…<ept id=\"p6\">**</ept>.",
+      "pos": [
+        1040,
+        1263
+      ]
+    },
+    {
+      "content": "You can add devices in two ways:",
+      "pos": [
+        1264,
+        1296
+      ]
+    },
+    {
+      "pos": [
+        1306,
+        1476
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Upload a CSV file containing serial numbers<ept id=\"p1\">**</ept> – Create a comma-separated value (.csv) list of two columns without a header, limited to 5000 devices or 5MB per csv file."
+    },
+    {
+      "content": "&amp;lt;IMEI #1&amp;gt;",
+      "pos": [
+        1513,
+        1528
+      ]
+    },
+    {
+      "content": "&amp;lt;Device #1 Details&amp;gt;",
+      "pos": [
+        1529,
+        1554
+      ]
+    },
+    {
+      "content": "&amp;lt;IMEI #2&amp;gt;",
+      "pos": [
+        1565,
+        1580
+      ]
+    },
+    {
+      "content": "&amp;lt;Device #2 Details&amp;gt;",
+      "pos": [
+        1581,
+        1606
+      ]
+    },
+    {
+      "content": "This .csv file when viewed in a text editor appears as:",
+      "pos": [
+        1616,
+        1671
+      ]
+    },
+    {
+      "pos": [
+        1776,
+        1872
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Manually add device details<ept id=\"p1\">**</ept> - Enter the IMEI number and device details of up to five devices"
+    },
+    {
+      "content": "<bpt id=\"p1\">*</bpt>Details<ept id=\"p1\">*</ept> are for administrative use so you can identify which IMEI number is associated with a device.",
+      "pos": [
+        1877,
+        1980
+      ]
+    },
+    {
+      "content": "This information is not sent to the device but will appear in the Intune console.",
+      "pos": [
+        1981,
+        2062
+      ]
+    },
+    {
+      "pos": [
+        2070,
+        2085
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Review Devices<ept id=\"p1\">**</ept> pane you can confirm which device IMEI numbers are imported.",
+      "pos": [
+        2090,
+        2176
+      ]
+    },
+    {
+      "content": "You can also decide whether to overwrite the <bpt id=\"p1\">**</bpt>Details<ept id=\"p1\">**</ept> for IMEI numbers being re-imported.",
+      "pos": [
+        2177,
+        2269
+      ]
+    },
+    {
+      "content": "You can uncheck the <bpt id=\"p1\">**</bpt>Overwrite<ept id=\"p1\">**</ept> checkbox to preserve the Current details.",
+      "pos": [
+        2270,
+        2345
+      ]
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>Finish<ept id=\"p1\">**</ept> to import the IMEI numbers.",
+      "pos": [
+        2346,
+        2390
+      ]
+    },
+    {
+      "pos": [
+        2395,
+        2485
+      ],
+      "content": "The added IMEI numbers and descriptions are added to the <bpt id=\"p1\">**</bpt>By IMEI (All platforms)<ept id=\"p1\">**</ept> list."
+    },
+    {
+      "pos": [
+        2488,
+        2723
+      ],
+      "content": "When the device with that IMEI number enrolls, usually when a user installs the Company Portal app and completes the enrollment process, the device will be tagged as Corporate owned and appear as enrolled in the <bpt id=\"p1\">**</bpt>IMEI Devices<ept id=\"p1\">**</ept> group."
+    }
+  ],
+  "content": "---\ntitle: Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 1712bd39-562b-4409-9cec-155d5f4d8a39\nauthor: NathBarn\ntranslation.priority.ht: \n  - cs-cz\n  - de-de\n  - es-es\n  - fr-fr\n  - hu-hu\n  - it-it\n  - ja-jp\n  - ko-kr\n  - nl-nl\n  - pl-pl\n  - pt-br\n  - pt-pt\n  - ru-ru\n  - sv-se\n  - tr-tr\n  - zh-cn\n  - zh-tw\n---\n# Specify corporate-owned devices with international mobile equipment identity (IMEI) numbers\nMicrosoft Intune enables administrators to import international mobile equipment identity (IMEI) numbers for mobile device platforms with an IMEI numbers to help identify corporate-owned mobile devices. Once enrolled in Intune, devices with imported IMEI numbers are tagged as Corporate which can be used for applying policies that are different than those applied to personally owned devices.\n## Add International Mobile Equipment Identity (IMEI) Numbers to Intune\n1. In the [Microsoft Intune administration console](http://manage.microsoft.com) go **Groups** &gt; **All Devices** &gt; **All Corporate Pre-enrolled Devices** &gt; **By IMEI (All platforms)**, and then click **Add devices…**. You can add devices in two ways:\n\n    -   **Upload a CSV file containing serial numbers** – Create a comma-separated value (.csv) list of two columns without a header, limited to 5000 devices or 5MB per csv file.\n\n        |||\n        |-|-|\n        |&lt;IMEI #1&gt;|&lt;Device #1 Details&gt;|\n        |&lt;IMEI #2&gt;|&lt;Device #2 Details&gt;|\n        This .csv file when viewed in a text editor appears as:\n\n        ```\n        AA-BBBBBB-CCCCCC-D,PO 1234\n        AA-BBBBBB-CCCCCC-E,PO 1234\n        ```\n\n    -   **Manually add device details** - Enter the IMEI number and device details of up to five devices\n\n   *Details* are for administrative use so you can identify which IMEI number is associated with a device. This information is not sent to the device but will appear in the Intune console. \n\n2.   Click **Next**.\n3.  On the **Review Devices** pane you can confirm which device IMEI numbers are imported. You can also decide whether to overwrite the **Details** for IMEI numbers being re-imported. You can uncheck the **Overwrite** checkbox to preserve the Current details. Click **Finish** to import the IMEI numbers.\n4.  The added IMEI numbers and descriptions are added to the **By IMEI (All platforms)** list. \n\nWhen the device with that IMEI number enrolls, usually when a user installs the Company Portal app and completes the enrollment process, the device will be tagged as Corporate owned and appear as enrolled in the **IMEI Devices** group.\n\n"
+}

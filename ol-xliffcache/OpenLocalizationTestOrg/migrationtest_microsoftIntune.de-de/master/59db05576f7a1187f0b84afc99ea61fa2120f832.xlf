@@ -1,0 +1,885 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">59db05576f7a1187f0b84afc99ea61fa2120f832</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - What Happens if You Add a Personal Device to the Company Portal</source>
+          <target>MD Conversion - What Happens if You Add a Personal Device to the Company Portal</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - What Happens if You Add a Personal Device to the Company Portal</source>
+          <target>MD Conversion - What Happens if You Add a Personal Device to the Company Portal</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>If you add a device to the company portal, you can easily find company apps to install, see other devices you’ve added, and find contact information for your IT administrator.</source>
+          <target>If you add a device to the company portal, you can easily find company apps to install, see other devices you’ve added, and find contact information for your IT administrator.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You are also giving your IT administrator permission to manage your device to help protect the company information on the device.</source>
+          <target>You are also giving your IT administrator permission to manage your device to help protect the company information on the device.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Each device is added a little differently, some from settings on the device and others by downloading an app from the device’s app store.</source>
+          <target>Each device is added a little differently, some from settings on the device and others by downloading an app from the device’s app store.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_IT_can_see"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What IT can and can't see when you enroll your device in Intune</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What IT can and can't see when you enroll your device in Intune</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Enroll-your-device-in-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For steps on how to enroll your device in Intune, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll your device in Microsoft Intune</pc>.</source>
+          <target>For steps on how to enroll your device in Intune, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll your device in Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>What IT cannot see</source>
+          <target>What IT cannot see</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Call history</source>
+          <target>Call history</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Text messages</source>
+          <target>Text messages</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Personal email, contacts, and calendar</source>
+          <target>Personal email, contacts, and calendar</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Web history</source>
+          <target>Web history</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Location</source>
+          <target>Location</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Camera roll</source>
+          <target>Camera roll</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Personal data</source>
+          <target>Personal data</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>What IT can see</source>
+          <target>What IT can see</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Owner</source>
+          <target>Owner</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Device name</source>
+          <target>Device name</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Serial number</source>
+          <target>Serial number</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Manufacturer</source>
+          <target>Manufacturer</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Model</source>
+          <target>Model</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Operating system</source>
+          <target>Operating system</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Company apps</source>
+          <target>Company apps</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Personal apps</source>
+          <target>Personal apps</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>For more details, select the link that matches your device type:</source>
+          <target>For more details, select the link that matches your device type:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Windows Vista, Windows 7, Windows 8 and Windows 8.1 Enterprise and Professional, and Windows 10</source>
+          <target>Windows Vista, Windows 7, Windows 8 and Windows 8.1 Enterprise and Professional, and Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Windows RT</source>
+          <target>Windows RT</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Windows Phone 8 or Windows Phone 8.1</source>
+          <target>Windows Phone 8 or Windows Phone 8.1</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>iOS devices (iPhone and iPad)</source>
+          <target>iOS devices (iPhone and iPad)</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Android devices</source>
+          <target>Android devices</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Devices Configured for Email Only</source>
+          <target>Devices Configured for Email Only</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_what_happens_vista"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows Vista, Windows 7, Windows 8 and Windows 8.1 Enterprise and Professional, and Windows 10</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows Vista, Windows 7, Windows 8 and Windows 8.1 Enterprise and Professional, and Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>When you add a computer:</source>
+          <target>When you add a computer:</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information.</source>
+          <target>You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>This software may be updated automatically by your IT administrator.</source>
+          <target>This software may be updated automatically by your IT administrator.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> Endpoint Protection may be installed on your computer.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> Endpoint Protection may be installed on your computer.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>This is software that checks for viruses and malware.</source>
+          <target>This is software that checks for viruses and malware.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkID=247324)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, please refer to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Endpoint Protection Privacy Statement</pc>.</source>
+          <target>For more information, please refer to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Endpoint Protection Privacy Statement</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.</source>
+          <target>Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Require you to accept terms and conditions.</source>
+          <target>Require you to accept terms and conditions.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Your IT administrator can collect or delete data from your computer’s hard drive.</source>
+          <target>Your IT administrator can collect or delete data from your computer’s hard drive.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Your IT administrator could also delete the entire hard drive.</source>
+          <target>Your IT administrator could also delete the entire hard drive.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Your IT administrator can install apps and updates on your computer.</source>
+          <target>Your IT administrator can install apps and updates on your computer.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Your IT administrator may enforce policies on the computer.</source>
+          <target>Your IT administrator may enforce policies on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.</source>
+          <target>For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_what_happens_rt"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows RT</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows RT</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>When you add your Windows RT device, you are giving your IT administrator permission to access the device.</source>
+          <target>When you add your Windows RT device, you are giving your IT administrator permission to access the device.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>They can do things like:</source>
+          <target>They can do things like:</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Reset your device back to manufacturer’s default settings.</source>
+          <target>Reset your device back to manufacturer’s default settings.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>This is helpful if the device is lost or stolen.</source>
+          <target>This is helpful if the device is lost or stolen.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Remove all company related data and business apps that were installed.</source>
+          <target>Remove all company related data and business apps that were installed.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Your personal and data settings aren’t removed.</source>
+          <target>Your personal and data settings aren’t removed.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Require you to accept terms and conditions.</source>
+          <target>Require you to accept terms and conditions.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Force you to have a password or PIN on the device, which may lock you out of the device, or reset your device back to manufacturer’s default settings, which may include the deletion of data, if there are too many incorrect password attempts.</source>
+          <target>Force you to have a password or PIN on the device, which may lock you out of the device, or reset your device back to manufacturer’s default settings, which may include the deletion of data, if there are too many incorrect password attempts.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Enable or disable the use of a picture password on your device.</source>
+          <target>Enable or disable the use of a picture password on your device.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Install updates to apps on your device.</source>
+          <target>Install updates to apps on your device.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>This applies to updates only.</source>
+          <target>This applies to updates only.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Your IT administrator cannot force new apps to install on your device, but you can choose to install apps you see in the company portal.</source>
+          <target>Your IT administrator cannot force new apps to install on your device, but you can choose to install apps you see in the company portal.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_what_happens_phone8"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows Phone 8 or Windows Phone 8.1</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows Phone 8 or Windows Phone 8.1</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>When you add your Windows Phone device, you are giving your IT administrator permission to access the device.</source>
+          <target>When you add your Windows Phone device, you are giving your IT administrator permission to access the device.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>They can do things like:</source>
+          <target>They can do things like:</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Reset your device back to manufacturer’s default settings.</source>
+          <target>Reset your device back to manufacturer’s default settings.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>This is helpful if the device is lost or stolen.</source>
+          <target>This is helpful if the device is lost or stolen.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Remove all company related data and business apps that were installed.</source>
+          <target>Remove all company related data and business apps that were installed.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Your personal data and settings aren’t removed.</source>
+          <target>Your personal data and settings aren’t removed.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Force you to have a password or PIN on the device, which may lock you out of the device, or reset your device back to manufacturer’s default settings, which may include the deletion of data, if there are too many incorrect password attempts.</source>
+          <target>Force you to have a password or PIN on the device, which may lock you out of the device, or reset your device back to manufacturer’s default settings, which may include the deletion of data, if there are too many incorrect password attempts.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Force all the data on the device to be encrypted.</source>
+          <target>Force all the data on the device to be encrypted.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>This helps protect the data if the device is lost or stolen.</source>
+          <target>This helps protect the data if the device is lost or stolen.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Require you to accept terms and conditions.</source>
+          <target>Require you to accept terms and conditions.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Disable the SD card.</source>
+          <target>Disable the SD card.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Install updates to apps on your device.</source>
+          <target>Install updates to apps on your device.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>This applies to updates only.</source>
+          <target>This applies to updates only.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Your IT administrator cannot force new apps to install on your device, but you can choose to install apps you see in the company portal.</source>
+          <target>Your IT administrator cannot force new apps to install on your device, but you can choose to install apps you see in the company portal.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>After your device is added to the company portal, approximately every 8 hours it will:</source>
+          <target>After your device is added to the company portal, approximately every 8 hours it will:</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Download any policy or app updates that your IT administrator has made available.</source>
+          <target>Download any policy or app updates that your IT administrator has made available.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Send any hardware inventory updates.</source>
+          <target>Send any hardware inventory updates.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Send any company app inventory updates.</source>
+          <target>Send any company app inventory updates.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_what_happens_ios"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />iOS devices (iPhone and iPad)</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />iOS devices (iPhone and iPad)</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>When you add your iPhone or iPad, you are giving your IT administrator permission to access the device.</source>
+          <target>When you add your iPhone or iPad, you are giving your IT administrator permission to access the device.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>They can do things like:</source>
+          <target>They can do things like:</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Reset your device back to manufacturer’s default settings.</source>
+          <target>Reset your device back to manufacturer’s default settings.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>This is helpful if the device is lost or stolen.</source>
+          <target>This is helpful if the device is lost or stolen.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Remove all company related data and business apps that were installed.</source>
+          <target>Remove all company related data and business apps that were installed.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Your personal data and settings aren’t removed.</source>
+          <target>Your personal data and settings aren’t removed.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Force you to have a password or PIN on the device.</source>
+          <target>Force you to have a password or PIN on the device.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Require you to accept terms and conditions.</source>
+          <target>Require you to accept terms and conditions.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Enable or disable the camera on your device.</source>
+          <target>Enable or disable the camera on your device.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Enable or disable web browsing on your device.</source>
+          <target>Enable or disable web browsing on your device.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Enable or disable backup to iCloud.</source>
+          <target>Enable or disable backup to iCloud.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Enable or disable document sync to iCloud.</source>
+          <target>Enable or disable document sync to iCloud.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Enable or disable Photo Stream to iCloud.</source>
+          <target>Enable or disable Photo Stream to iCloud.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Enable or disable data roaming on your device.</source>
+          <target>Enable or disable data roaming on your device.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>If data roaming is allowed, roaming charges may be incurred.</source>
+          <target>If data roaming is allowed, roaming charges may be incurred.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Enable or disable voice roaming on your device.</source>
+          <target>Enable or disable voice roaming on your device.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>If voice roaming is allowed, roaming charges may be incurred.</source>
+          <target>If voice roaming is allowed, roaming charges may be incurred.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Enable or disable automatic file synchronization while in roaming mode on your device.</source>
+          <target>Enable or disable automatic file synchronization while in roaming mode on your device.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>If automatic file synchronization is allowed, roaming charges may be incurred.</source>
+          <target>If automatic file synchronization is allowed, roaming charges may be incurred.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_what_happens_android"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Android devices</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Android devices</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>If you enable verbose logging on your device and send logs to your administrator, the logs that you send will include your email address.</source>
+          <target>If you enable verbose logging on your device and send logs to your administrator, the logs that you send will include your email address.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>When you add your Android device, you are giving your IT administrator permission to access the device.</source>
+          <target>When you add your Android device, you are giving your IT administrator permission to access the device.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>They can do things like:</source>
+          <target>They can do things like:</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Reset your device back to manufacturer’s defaults.</source>
+          <target>Reset your device back to manufacturer’s defaults.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>This is helpful if the device is lost or stolen.</source>
+          <target>This is helpful if the device is lost or stolen.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Remove all company related data.</source>
+          <target>Remove all company related data.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Your personal data and settings aren’t removed.</source>
+          <target>Your personal data and settings aren’t removed.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Force you to have a password or PIN on the device, which may lock you out of the device, or reset your device back to manufacturer’s default settings, which may include the deletion of data, if there are too many incorrect password attempts.</source>
+          <target>Force you to have a password or PIN on the device, which may lock you out of the device, or reset your device back to manufacturer’s default settings, which may include the deletion of data, if there are too many incorrect password attempts.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Require you to accept terms and conditions.</source>
+          <target>Require you to accept terms and conditions.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Enable or disable the camera on your device.</source>
+          <target>Enable or disable the camera on your device.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Force all the data, including corporate and personal data, on the device to be encrypted.</source>
+          <target>Force all the data, including corporate and personal data, on the device to be encrypted.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>This helps protect the data if the device is lost or stolen.</source>
+          <target>This helps protect the data if the device is lost or stolen.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>After your device is added to the company portal, approximately every 8 hours it will:</source>
+          <target>After your device is added to the company portal, approximately every 8 hours it will:</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Download any policy or app updates that your IT administrator has made available.</source>
+          <target>Download any policy or app updates that your IT administrator has made available.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Send any hardware inventory updates (these updates do not contain personal information).</source>
+          <target>Send any hardware inventory updates (these updates do not contain personal information).</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Send any company app inventory updates (these updates do not contain personal information).</source>
+          <target>Send any company app inventory updates (these updates do not contain personal information).</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_what_happens_email"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Devices Configured for Email Only</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Devices Configured for Email Only</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>If you set up your device so you can use your company email, you are giving your IT administrator permission to access the device.</source>
+          <target>If you set up your device so you can use your company email, you are giving your IT administrator permission to access the device.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Here are some of the things your IT administrator can do:</source>
+          <target>Here are some of the things your IT administrator can do:</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Manually reset your device to manufacturer’s default settings or configure the device to reset if there are too many incorrect password attempts.</source>
+          <target>Manually reset your device to manufacturer’s default settings or configure the device to reset if there are too many incorrect password attempts.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>This is helpful if the device is lost or stolen.</source>
+          <target>This is helpful if the device is lost or stolen.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Resetting the device to manufacturer default settings will remove all corporate and personal data and apps that you’ve installed.</source>
+          <target>Resetting the device to manufacturer default settings will remove all corporate and personal data and apps that you’ve installed.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Require the device and any removable storage cards to be encrypted.</source>
+          <target>Require the device and any removable storage cards to be encrypted.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Enable or disable downloading of email attachments on your device.</source>
+          <target>Enable or disable downloading of email attachments on your device.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Specify how often your device checks for company email.</source>
+          <target>Specify how often your device checks for company email.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Enable or disable web browsing on your device.</source>
+          <target>Enable or disable web browsing on your device.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Put requirements on the password or PIN you use for the device.</source>
+          <target>Put requirements on the password or PIN you use for the device.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>For example, they can:</source>
+          <target>For example, they can:</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Make you use a specific length password, from 4 to 18 letters or numbers.</source>
+          <target>Make you use a specific length password, from 4 to 18 letters or numbers.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Require what combination of upper and lowercase letters you must use in your password.</source>
+          <target>Require what combination of upper and lowercase letters you must use in your password.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Make you use letters and symbols in addition to numbers.</source>
+          <target>Make you use letters and symbols in addition to numbers.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Control how long your device can be inactive before you have to enter a password to unlock it.</source>
+          <target>Control how long your device can be inactive before you have to enter a password to unlock it.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Prevent you from using passwords that you’ve used before.</source>
+          <target>Prevent you from using passwords that you’ve used before.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Force the device to reset to manufacturer default settings if there are too many incorrect password attempts.</source>
+          <target>Force the device to reset to manufacturer default settings if there are too many incorrect password attempts.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>This helps protect the device if it’s lost or stolen.</source>
+          <target>This helps protect the device if it’s lost or stolen.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

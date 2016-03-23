@@ -1,0 +1,96 @@
+{
+  "nodes": [
+    {
+      "content": "Use the SDK to enable apps for mobile application management",
+      "pos": [
+        11,
+        71
+      ]
+    },
+    {
+      "content": "Use the SDK to enable apps for mobile application management",
+      "pos": [
+        452,
+        512
+      ]
+    },
+    {
+      "content": "Use the Microsoft Intune App SDK to enable Intune to manage certain features of your iOS or Android mobile apps.",
+      "pos": [
+        513,
+        625
+      ]
+    },
+    {
+      "content": "After your app is enabled, you can deploy policies to the app.",
+      "pos": [
+        626,
+        688
+      ]
+    },
+    {
+      "content": "These policies use those features to protect your corporate data.",
+      "pos": [
+        689,
+        754
+      ]
+    },
+    {
+      "content": "Examples of the types of protections that you can implement with the SDK are:",
+      "pos": [
+        755,
+        832
+      ]
+    },
+    {
+      "content": "Prevent users from copying corporate documents to the cloud",
+      "pos": [
+        838,
+        897
+      ]
+    },
+    {
+      "content": "Require encryption of data that is saved to the device by the app.",
+      "pos": [
+        903,
+        969
+      ]
+    },
+    {
+      "content": "Enforce the use of a managed browser",
+      "pos": [
+        975,
+        1011
+      ]
+    },
+    {
+      "content": "Remotely wipe corporate data from the app",
+      "pos": [
+        1017,
+        1058
+      ]
+    },
+    {
+      "content": "You need access to the app's source code to use the SDK, but you can enable most of the SDK features without having to change the app's behavior.",
+      "pos": [
+        1060,
+        1205
+      ]
+    },
+    {
+      "content": "For an overview of the SDK, see the <bpt id=\"p1\">[</bpt>Overview<ept id=\"p1\">](https://msdn.microsoft.com/en-us/library/mt627767.aspx)</ept> page.",
+      "pos": [
+        1207,
+        1315
+      ]
+    },
+    {
+      "content": "To start using the Intune App SDK, see <bpt id=\"p1\">[</bpt>Getting Started With the Microsoft Intune App SDK<ept id=\"p1\">](https://msdn.microsoft.com/library/mt627766.aspx)</ept>.",
+      "pos": [
+        1316,
+        1457
+      ]
+    }
+  ],
+  "content": "---\ntitle: Use the SDK to enable apps for mobile application management\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 26b00081-7c05-4969-ace1-0585e44d5cd2\nauthor: Staciebarker\ntranslation.priority.ht: \n  - cs-cz\n  - de-de\n  - es-es\n  - fr-fr\n  - hu-hu\n  - it-it\n  - ja-jp\n  - ko-kr\n  - nl-nl\n  - pl-pl\n  - pt-br\n  - pt-pt\n  - ru-ru\n  - sv-se\n  - tr-tr\n  - zh-cn\n  - zh-tw\n---\n# Use the SDK to enable apps for mobile application management\nUse the Microsoft Intune App SDK to enable Intune to manage certain features of your iOS or Android mobile apps. After your app is enabled, you can deploy policies to the app. These policies use those features to protect your corporate data. Examples of the types of protections that you can implement with the SDK are:\n\n-   Prevent users from copying corporate documents to the cloud\n\n-   Require encryption of data that is saved to the device by the app.\n\n-   Enforce the use of a managed browser\n\n-   Remotely wipe corporate data from the app\n\nYou need access to the app's source code to use the SDK, but you can enable most of the SDK features without having to change the app's behavior.\n\nFor an overview of the SDK, see the [Overview](https://msdn.microsoft.com/en-us/library/mt627767.aspx) page. To start using the Intune App SDK, see [Getting Started With the Microsoft Intune App SDK](https://msdn.microsoft.com/library/mt627766.aspx).\n\n"
+}

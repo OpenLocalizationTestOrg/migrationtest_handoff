@@ -1,0 +1,453 @@
+{
+  "nodes": [
+    {
+      "content": "Pilot",
+      "pos": [
+        11,
+        16
+      ]
+    },
+    {
+      "content": "Pilot",
+      "pos": [
+        167,
+        172
+      ]
+    },
+    {
+      "content": "The pilot phase is an opportunity to test the technical implementation, communication plan, and training and support plans in a small production environment.",
+      "pos": [
+        173,
+        330
+      ]
+    },
+    {
+      "content": "Why is this important?",
+      "pos": [
+        335,
+        357
+      ]
+    },
+    {
+      "content": "By doing a pilot, you'll surface any technical issues your users may encounter and have the opportunity to manage those things before rolling out to the organization as a whole.",
+      "pos": [
+        358,
+        535
+      ]
+    },
+    {
+      "content": "You'll also validate all aspects of the user experience and have the opportunity to make changes where needed to ensure a successful launch to your broader organization.",
+      "pos": [
+        536,
+        705
+      ]
+    },
+    {
+      "content": "With careful planning and clear, concise success metrics, you'll prepare your project team and users for a positive experience and ongoing adoption.",
+      "pos": [
+        706,
+        854
+      ]
+    },
+    {
+      "content": "Begin by reviewing the discovery questions to the left, to help scope and define the pilot phase of your rollout",
+      "pos": [
+        855,
+        967
+      ]
+    },
+    {
+      "content": "Discovery questions",
+      "pos": [
+        972,
+        991
+      ]
+    },
+    {
+      "content": "Discuss these questions with your project team to help scope your project details, uncover potential risks, and define actionable tasks which can be documented in the  Rollout Planning Guide and Project Plan.",
+      "pos": [
+        992,
+        1200
+      ]
+    },
+    {
+      "content": "Besides the technical implementation, what else are you testing during this pilot phase?",
+      "pos": [
+        1206,
+        1294
+      ]
+    },
+    {
+      "content": "What are your goals to indicate a successful pilot?",
+      "pos": [
+        1300,
+        1351
+      ]
+    },
+    {
+      "content": "How will you measure success metrics?",
+      "pos": [
+        1357,
+        1394
+      ]
+    },
+    {
+      "content": "What is your pilot timeline and what are key milestones?",
+      "pos": [
+        1400,
+        1456
+      ]
+    },
+    {
+      "content": "How will you prepare and provide support for pilot participants?",
+      "pos": [
+        1462,
+        1526
+      ]
+    },
+    {
+      "content": "What is the end-user experience from pilot start to completion?",
+      "pos": [
+        1532,
+        1595
+      ]
+    },
+    {
+      "content": "When will you know to move to the broad launch?",
+      "pos": [
+        1601,
+        1648
+      ]
+    },
+    {
+      "content": "Focus area goals",
+      "pos": [
+        1653,
+        1669
+      ]
+    },
+    {
+      "content": "Review this section for guidance on focus-area activities for this stated phase of your rollout.",
+      "pos": [
+        1670,
+        1766
+      ]
+    },
+    {
+      "content": "Planning",
+      "pos": [
+        1772,
+        1780
+      ]
+    },
+    {
+      "content": "The key to a successful pilot is good planning including knowing what your success criteria are and how you'll be measuring those things.",
+      "pos": [
+        1781,
+        1918
+      ]
+    },
+    {
+      "content": "Having the right team to manage all aspects of the pilot is also very important and something to plan for early-on in the process to ensure resources are allocated and goals are in alignment.",
+      "pos": [
+        1919,
+        2110
+      ]
+    },
+    {
+      "content": "Rollout Planning Guide",
+      "pos": [
+        2116,
+        2138
+      ]
+    },
+    {
+      "content": "Project Plan",
+      "pos": [
+        2144,
+        2156
+      ]
+    },
+    {
+      "content": "Deployment Readiness Report",
+      "pos": [
+        2162,
+        2189
+      ]
+    },
+    {
+      "content": "Pilot planning",
+      "pos": [
+        2195,
+        2209
+      ]
+    },
+    {
+      "content": "Goals and Metrics",
+      "pos": [
+        2215,
+        2232
+      ]
+    },
+    {
+      "content": "Help desk",
+      "pos": [
+        2238,
+        2247
+      ]
+    },
+    {
+      "content": "A support plan that includes proactive assistance can significantly improve user confidence which results in happy users and increased adoption.",
+      "pos": [
+        2248,
+        2392
+      ]
+    },
+    {
+      "content": "The help desk should be aware of the changes being made to your<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> implementation, and potential issues that may arise, so that quick solutions can be found for individual issues.",
+      "pos": [
+        2393,
+        2620
+      ]
+    },
+    {
+      "content": "The help desk can also report back to the design team if the design approach is creating issues for all users.",
+      "pos": [
+        2621,
+        2731
+      ]
+    },
+    {
+      "content": "Awareness",
+      "pos": [
+        2737,
+        2746
+      ]
+    },
+    {
+      "content": "Pilot users need to understand the who, what, when, where, why of the project.",
+      "pos": [
+        2747,
+        2825
+      ]
+    },
+    {
+      "content": "\"How the pilot affects me\" is the #1 question users will have.",
+      "pos": [
+        2826,
+        2888
+      ]
+    },
+    {
+      "content": "Putting yourself in the users' shoes and understanding that end-user experience from end-to-end will be important.",
+      "pos": [
+        2889,
+        3003
+      ]
+    },
+    {
+      "content": "Awareness activities and communications to help users understand what their responsibilities are and how they will be supported during the pilot phase should be utilized.",
+      "pos": [
+        3004,
+        3174
+      ]
+    },
+    {
+      "content": "Training",
+      "pos": [
+        3180,
+        3188
+      ]
+    },
+    {
+      "content": "Providing a high-level of training for pilot users will help to form a well thought out training plan for the broad launch.",
+      "pos": [
+        3189,
+        3312
+      ]
+    },
+    {
+      "content": "Use test plans and offer a variety of training options during the pilot.",
+      "pos": [
+        3313,
+        3385
+      ]
+    },
+    {
+      "content": "Learn what your users respond to and what changes might need to be made to existing materials to ensure users are prepared for the broad launch.",
+      "pos": [
+        3386,
+        3530
+      ]
+    },
+    {
+      "content": "Operations",
+      "pos": [
+        3536,
+        3546
+      ]
+    },
+    {
+      "content": "Operations is often overlooked in the pilot phase.",
+      "pos": [
+        3547,
+        3597
+      ]
+    },
+    {
+      "content": "The pilot is the first opportunity for admins to adjust their procedures including: tuning  alerts, validating operations procedures, validating daily management tasks around monitoring, users, and devices, and validating help desk escalation procedures.",
+      "pos": [
+        3598,
+        3852
+      ]
+    },
+    {
+      "content": "Get started checklist",
+      "pos": [
+        3857,
+        3878
+      ]
+    },
+    {
+      "pos": [
+        3879,
+        3947
+      ],
+      "content": "Here is a list of steps to get you started with the <bpt id=\"p1\">**</bpt>Pilot<ept id=\"p1\">**</ept> phase."
+    },
+    {
+      "content": "Document clearly articulated goals and success metrics and communicate within project team.",
+      "pos": [
+        3953,
+        4044
+      ]
+    },
+    {
+      "content": "Assemble a rollout planning team comprised of coordinated work streams to focus on core technical, change management, end-user experience, and operational focus areas.",
+      "pos": [
+        4050,
+        4217
+      ]
+    },
+    {
+      "content": "Communicate timelines, responsibilities, and pilot goals; introduce readiness report.",
+      "pos": [
+        4223,
+        4308
+      ]
+    },
+    {
+      "content": "Conduct regular project meetings and communicate project status through an executive status report.",
+      "pos": [
+        4314,
+        4413
+      ]
+    },
+    {
+      "content": "Identify users for inclusion in the pilot.",
+      "pos": [
+        4419,
+        4461
+      ]
+    },
+    {
+      "content": "Identify any considerations/risks/mitigations that may impact the pilot.",
+      "pos": [
+        4467,
+        4539
+      ]
+    },
+    {
+      "content": "Define the support process for the pilot including a hyper-care period.",
+      "pos": [
+        4545,
+        4616
+      ]
+    },
+    {
+      "content": "Define the pilot training plan including support representatives and pilot users; conduct training.",
+      "pos": [
+        4622,
+        4721
+      ]
+    },
+    {
+      "content": "Define the pilot awareness and communications plan.",
+      "pos": [
+        4727,
+        4778
+      ]
+    },
+    {
+      "content": "Develop and distribute end-user documentation.",
+      "pos": [
+        4784,
+        4830
+      ]
+    },
+    {
+      "content": "Customize feedback surveys &amp;amp; incorporate into communication plan.",
+      "pos": [
+        4836,
+        4905
+      ]
+    },
+    {
+      "content": "Hold a pilot kick-off event and other awareness activities.",
+      "pos": [
+        4911,
+        4970
+      ]
+    },
+    {
+      "content": "Common challenges",
+      "pos": [
+        4975,
+        4992
+      ]
+    },
+    {
+      "pos": [
+        4993,
+        5065
+      ],
+      "content": "Here are some  challenges that you may encounter in the <bpt id=\"p1\">**</bpt>Pilot<ept id=\"p1\">**</ept> phase."
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Challenge:<ept id=\"p1\">**</ept> The pilot is run with IT users and general business users who are not a true representation of the organization as a whole.",
+      "pos": [
+        5071,
+        5209
+      ]
+    },
+    {
+      "content": "True validation, processes, and resources cannot occur.",
+      "pos": [
+        5210,
+        5265
+      ]
+    },
+    {
+      "pos": [
+        5271,
+        5476
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Mitigation:<ept id=\"p1\">**</ept> Include participants from across the organization with various roles within different groups with different levels of technical knowledge to understand what to expect for the broad rollout."
+    },
+    {
+      "pos": [
+        5482,
+        5639
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Challenge:<ept id=\"p1\">**</ept> Success criteria has not been established specifically for the pilot phase and no way to base a go/no-go decision to move onto a broad launch."
+    },
+    {
+      "pos": [
+        5645,
+        5836
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Mitigation:<ept id=\"p1\">**</ept> Define qualitative and quantitative success criteria specific to your organization so that a clear decision can be made based on facts to move to the next phase of deployment."
+    }
+  ],
+  "content": "---\ntitle: Pilot\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 14e55841-37f1-472c-9678-a1ba847cb331\nauthor: Nbigman\n---\n# Pilot\nThe pilot phase is an opportunity to test the technical implementation, communication plan, and training and support plans in a small production environment.\n\n## Why is this important?\nBy doing a pilot, you'll surface any technical issues your users may encounter and have the opportunity to manage those things before rolling out to the organization as a whole. You'll also validate all aspects of the user experience and have the opportunity to make changes where needed to ensure a successful launch to your broader organization. With careful planning and clear, concise success metrics, you'll prepare your project team and users for a positive experience and ongoing adoption.\nBegin by reviewing the discovery questions to the left, to help scope and define the pilot phase of your rollout\n\n## Discovery questions\nDiscuss these questions with your project team to help scope your project details, uncover potential risks, and define actionable tasks which can be documented in the  Rollout Planning Guide and Project Plan.\n\n-   Besides the technical implementation, what else are you testing during this pilot phase?\n\n-   What are your goals to indicate a successful pilot?\n\n-   How will you measure success metrics?\n\n-   What is your pilot timeline and what are key milestones?\n\n-   How will you prepare and provide support for pilot participants?\n\n-   What is the end-user experience from pilot start to completion?\n\n-   When will you know to move to the broad launch?\n\n## Focus area goals\nReview this section for guidance on focus-area activities for this stated phase of your rollout.\n\n### Planning\nThe key to a successful pilot is good planning including knowing what your success criteria are and how you'll be measuring those things. Having the right team to manage all aspects of the pilot is also very important and something to plan for early-on in the process to ensure resources are allocated and goals are in alignment.\n\n-   Rollout Planning Guide\n\n-   Project Plan\n\n-   Deployment Readiness Report\n\n-   Pilot planning\n\n-   Goals and Metrics\n\n### Help desk\nA support plan that includes proactive assistance can significantly improve user confidence which results in happy users and increased adoption. The help desk should be aware of the changes being made to your[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] implementation, and potential issues that may arise, so that quick solutions can be found for individual issues. The help desk can also report back to the design team if the design approach is creating issues for all users.\n\n### Awareness\nPilot users need to understand the who, what, when, where, why of the project. \"How the pilot affects me\" is the #1 question users will have. Putting yourself in the users' shoes and understanding that end-user experience from end-to-end will be important. Awareness activities and communications to help users understand what their responsibilities are and how they will be supported during the pilot phase should be utilized.\n\n### Training\nProviding a high-level of training for pilot users will help to form a well thought out training plan for the broad launch. Use test plans and offer a variety of training options during the pilot. Learn what your users respond to and what changes might need to be made to existing materials to ensure users are prepared for the broad launch.\n\n### Operations\nOperations is often overlooked in the pilot phase. The pilot is the first opportunity for admins to adjust their procedures including: tuning  alerts, validating operations procedures, validating daily management tasks around monitoring, users, and devices, and validating help desk escalation procedures.\n\n## Get started checklist\nHere is a list of steps to get you started with the **Pilot** phase.\n\n-   Document clearly articulated goals and success metrics and communicate within project team.\n\n-   Assemble a rollout planning team comprised of coordinated work streams to focus on core technical, change management, end-user experience, and operational focus areas.\n\n-   Communicate timelines, responsibilities, and pilot goals; introduce readiness report.\n\n-   Conduct regular project meetings and communicate project status through an executive status report.\n\n-   Identify users for inclusion in the pilot.\n\n-   Identify any considerations/risks/mitigations that may impact the pilot.\n\n-   Define the support process for the pilot including a hyper-care period.\n\n-   Define the pilot training plan including support representatives and pilot users; conduct training.\n\n-   Define the pilot awareness and communications plan.\n\n-   Develop and distribute end-user documentation.\n\n-   Customize feedback surveys &amp; incorporate into communication plan.\n\n-   Hold a pilot kick-off event and other awareness activities.\n\n## Common challenges\nHere are some  challenges that you may encounter in the **Pilot** phase.\n\n-   **Challenge:** The pilot is run with IT users and general business users who are not a true representation of the organization as a whole. True validation, processes, and resources cannot occur.\n\n    **Mitigation:** Include participants from across the organization with various roles within different groups with different levels of technical knowledge to understand what to expect for the broad rollout.\n\n-   **Challenge:** Success criteria has not been established specifically for the pilot phase and no way to base a go/no-go decision to move onto a broad launch.\n\n    **Mitigation:** Define qualitative and quantitative success criteria specific to your organization so that a clear decision can be made based on facts to move to the next phase of deployment.\n\n"
+}

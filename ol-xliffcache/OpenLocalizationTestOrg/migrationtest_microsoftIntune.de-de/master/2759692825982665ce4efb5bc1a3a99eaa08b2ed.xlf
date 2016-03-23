@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">2759692825982665ce4efb5bc1a3a99eaa08b2ed</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Stacie What&amp;#39;s New</source>
+          <target>Stacie What&amp;#39;s New</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Stacie What&amp;#39;s New</source>
+          <target>Stacie What&amp;#39;s New</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Changes and updates to Microsoft Company Portal</source>
+          <target>Changes and updates to Microsoft Company Portal</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The following changes have been made to the company portal apps in this release:</source>
+          <target>The following changes have been made to the company portal apps in this release:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Android Company Portal app</source>
+          <target>Android Company Portal app</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>When your users launch an app that is managed by mobile application management (MAM), they will see a message notifying them that the app is managed by their company.</source>
+          <target>When your users launch an app that is managed by mobile application management (MAM), they will see a message notifying them that the app is managed by their company.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/mt502762.aspx#BKMK_andr_use_mgd_apps)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Users can now tap a “Learn More” link to get <pc dataRefEnd="id2" dataRefStart="id1" id="p1">more information</pc> here about what “managed apps” means.</source>
+          <target>Users can now tap a “Learn More” link to get <pc dataRefEnd="id2" dataRefStart="id1" id="p1">more information</pc> here about what “managed apps” means.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>They can also tap “Don’t Show Again” so that the message no longer appears when they launch the app.</source>
+          <target>They can also tap “Don’t Show Again” so that the message no longer appears when they launch the app.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>iOS Company Portal app</source>
+          <target>iOS Company Portal app</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>When your users launch an app that is managed by mobile application management (MAM), they will see a message notifying them that the app is managed by their company.</source>
+          <target>When your users launch an app that is managed by mobile application management (MAM), they will see a message notifying them that the app is managed by their company.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/mt598622.aspx#BKMK_ios_use_mgd_apps)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Users can now tap a “Learn More” link to get <pc dataRefEnd="id2" dataRefStart="id1" id="p1">more information</pc> here about what “managed apps” means.</source>
+          <target>Users can now tap a “Learn More” link to get <pc dataRefEnd="id2" dataRefStart="id1" id="p1">more information</pc> here about what “managed apps” means.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>They can also tap “Don’t Show Again” so that the message no longer appears when they launch the app.</source>
+          <target>They can also tap “Don’t Show Again” so that the message no longer appears when they launch the app.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

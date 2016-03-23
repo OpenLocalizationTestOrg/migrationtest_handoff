@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "content": "Configure mobile app configuration policies",
+      "pos": [
+        11,
+        54
+      ]
+    },
+    {
+      "content": "Configure mobile app configuration policies",
+      "pos": [
+        211,
+        254
+      ]
+    },
+    {
+      "content": "Insert introduction here.",
+      "pos": [
+        255,
+        280
+      ]
+    },
+    {
+      "content": "Section Heading",
+      "pos": [
+        285,
+        300
+      ]
+    },
+    {
+      "content": "Insert section body here.",
+      "pos": [
+        301,
+        326
+      ]
+    },
+    {
+      "content": "Subsection Heading",
+      "pos": [
+        332,
+        350
+      ]
+    },
+    {
+      "content": "Insert subsection body here.",
+      "pos": [
+        351,
+        379
+      ]
+    }
+  ],
+  "content": "---\ntitle: Configure mobile app configuration policies\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: f390de88-5ea4-4adc-ab67-5b5940742bc9\nauthor: karthikaraman\n---\n# Configure mobile app configuration policies\nInsert introduction here.\n\n## Section Heading\nInsert section body here.\n\n### Subsection Heading\nInsert subsection body here.\n\n"
+}

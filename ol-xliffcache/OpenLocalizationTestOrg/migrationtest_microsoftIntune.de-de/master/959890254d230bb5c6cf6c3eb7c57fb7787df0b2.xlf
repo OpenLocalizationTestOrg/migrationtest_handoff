@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">ht</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">959890254d230bb5c6cf6c3eb7c57fb7787df0b2</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Control Microsoft Passport settings on devices with Microsoft Intune</source>
+          <target>Control Microsoft Passport settings on devices with Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Control Microsoft Passport settings on devices with Microsoft Intune</source>
+          <target>Control Microsoft Passport settings on devices with Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> lets you integrate with Microsoft Passport for Work which is an alternative sign-in method that uses Active Directory, or an Azure Active Directory account to replace a password, smart card, or virtual smart card.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> lets you integrate with Microsoft Passport for Work which is an alternative sign-in method that uses Active Directory, or an Azure Active Directory account to replace a password, smart card, or virtual smart card.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Passport lets you use a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">user gesture</pc> to login, instead of a password.</source>
+          <target>Passport lets you use a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">user gesture</pc> to login, instead of a password.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>A user gesture might be a simple PIN, biometric authentication such as Windows Hello, or an external device such as a fingerprint reader.</source>
+          <target>A user gesture might be a simple PIN, biometric authentication such as Windows Hello, or an external device such as a fingerprint reader.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> integrates with Passport for Work in two ways:</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> integrates with Passport for Work in two ways:</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use <ph dataRef="id1" id="ph1" /> policy to control which gestures users can and cannot use to login</source>
+          <target>You can use <ph dataRef="id1" id="ph1" /> policy to control which gestures users can and cannot use to login</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>You can store authentication certificates in the Passport for Work key storage provider (KSP).</source>
+          <target>You can store authentication certificates in the Passport for Work key storage provider (KSP).</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>To create a Passport for Work policy</source>
+          <target>To create a Passport for Work policy</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Mobile Device Management</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Windows</pc> &amp;gt; <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Passport for Work</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Mobile Device Management</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Windows</pc> &amp;gt; <pc dataRefEnd="id10" dataRefStart="id9" id="p5">Passport for Work</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Choose from the following values that will affect all enrolled Windows 10 and Windows 10 Mobile devices:</source>
+          <target>Choose from the following values that will affect all enrolled Windows 10 and Windows 10 Mobile devices:</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Setting</source>
+          <target>Setting</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Disable Passport for Work on enrolled devices</pc></source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Disable Passport for Work on enrolled devices</pc></target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable Passport for Work on enrolled devices</pc></source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable Passport for Work on enrolled devices</pc></target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Enables or disables the use of Passport for work on all enrolled Windows 10 and Windows 10 mobile devices.</source>
+          <target>Enables or disables the use of Passport for work on all enrolled Windows 10 and Windows 10 mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc> This policy is enabled by default and applied to all Windows 10 devices when they enroll.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Important:</pc> This policy is enabled by default and applied to all Windows 10 devices when they enroll.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Use a Trusted Platform Module (TPM)</source>
+          <target>Use a Trusted Platform Module (TPM)</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>A Trusted Platform Module (TPM) chip provides an additional layer of data security.</source>
+          <target>A Trusted Platform Module (TPM) chip provides an additional layer of data security.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Choose one of the following values:</source>
+          <target>Choose one of the following values:</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required</pc> (default) - Only devices with an accessible TPM can provision Passport for Work.</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required</pc> (default) - Only devices with an accessible TPM can provision Passport for Work.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preferred</pc> - Devices first attempt to use a TPM.</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Preferred</pc> - Devices first attempt to use a TPM.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>If this is not available, they can use software encryption</source>
+          <target>If this is not available, they can use software encryption</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Require minimum PIN length</source>
+          <target>Require minimum PIN length</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Specify the minimum number of characters required for the Passport for Work PIN.</source>
+          <target>Specify the minimum number of characters required for the Passport for Work PIN.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>You must use at least 4 characters (the default value is 6 characters).</source>
+          <target>You must use at least 4 characters (the default value is 6 characters).</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>​</source>
+          <target>​</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Require maximum PIN length</source>
+          <target>Require maximum PIN length</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Specify the maximum number of characters allowed for the Passport for Work PIN.</source>
+          <target>Specify the maximum number of characters allowed for the Passport for Work PIN.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>You can use up to 127 characters.</source>
+          <target>You can use up to 127 characters.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Require lowercase letters in PIN</source>
+          <target>Require lowercase letters in PIN</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Specifies whether lowercase letters must be used  in the Passport for Work PIN.</source>
+          <target>Specifies whether lowercase letters must be used  in the Passport for Work PIN.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Choose from:</source>
+          <target>Choose from:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allowed</pc> - Users can use lowercase characters in their PIN.</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allowed</pc> - Users can use lowercase characters in their PIN.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required</pc> - Users must include at least one lowercase character in their PIN.</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required</pc> - Users must include at least one lowercase character in their PIN.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Not allowed</pc> (default) - Users must not use lowercase characters in their PIN.</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Not allowed</pc> (default) - Users must not use lowercase characters in their PIN.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Require uppercase letters in PIN</source>
+          <target>Require uppercase letters in PIN</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Specifies whether uppercase letters must be used  in the Passport for Work PIN.</source>
+          <target>Specifies whether uppercase letters must be used  in the Passport for Work PIN.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Choose from:</source>
+          <target>Choose from:</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allowed</pc> - Users can use uppercase characters in their PIN.</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allowed</pc> - Users can use uppercase characters in their PIN.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required</pc> - Users must include at least one uppercase character in their PIN.</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required</pc> - Users must include at least one uppercase character in their PIN.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Not allowed</pc> (default) - Users must not use uppercase characters in their PIN.</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Not allowed</pc> (default) - Users must not use uppercase characters in their PIN.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Require special characters in PIN</source>
+          <target>Require special characters in PIN</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Specifies the use of special characters in the PIN.</source>
+          <target>Specifies the use of special characters in the PIN.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Choose from:</source>
+          <target>Choose from:</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Special characters include: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">! " # $ % &amp;amp; ' ( ) &amp;#42; + , - . / : ; &amp;lt; = &amp;gt; ? @ [ \ ] ^ _ &amp;#96; { &amp;#124; } ~</pc>.</source>
+          <target>Special characters include: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">! " # $ % &amp;amp; ' ( ) &amp;#42; + , - . / : ; &amp;lt; = &amp;gt; ? @ [ \ ] ^ _ &amp;#96; { &amp;#124; } ~</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allowed</pc> - Users can use special characters in their PIN.</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allowed</pc> - Users can use special characters in their PIN.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required</pc> - Users must include at least one special character in their PIN.</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required</pc> - Users must include at least one special character in their PIN.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Not allowed</pc> (default) - Users must not use special characters in their PIN (this is also the behavior if the setting is not configured).</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Not allowed</pc> (default) - Users must not use special characters in their PIN (this is also the behavior if the setting is not configured).</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>PIN expiration (days)</source>
+          <target>PIN expiration (days)</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Specifies the number of days before the device PIN must be changed.</source>
+          <target>Specifies the number of days before the device PIN must be changed.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>The default is 41 days.</source>
+          <target>The default is 41 days.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Remember PIN history</source>
+          <target>Remember PIN history</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Use this setting to restrict the re-use of previously used PINS.</source>
+          <target>Use this setting to restrict the re-use of previously used PINS.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>The default is the last 5 PINS used cannot be reused.</source>
+          <target>The default is the last 5 PINS used cannot be reused.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Allow biometric authentication</source>
+          <target>Allow biometric authentication</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Enables biometric authentication such as facial recognition or fingerprint as an alternative to a PIN for Passport for Work.</source>
+          <target>Enables biometric authentication such as facial recognition or fingerprint as an alternative to a PIN for Passport for Work.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Users must still configure a work PIN in case biometric authentication fails.</source>
+          <target>Users must still configure a work PIN in case biometric authentication fails.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>, Passport for Work allows biometric authentication.</source>
+          <target>If set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>, Passport for Work allows biometric authentication.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc>, Passport for Work prevents biometric authentication (for all account types).</source>
+          <target>If set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc>, Passport for Work prevents biometric authentication (for all account types).</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Use enhanced anti-spoofing, when available</source>
+          <target>Use enhanced anti-spoofing, when available</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Configures whether enhanced anti-spoofing is used on devices that support it.</source>
+          <target>Configures whether enhanced anti-spoofing is used on devices that support it.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>, Windows requires all users to use anti-spoofing for facial features when supported.</source>
+          <target>If set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>, Windows requires all users to use anti-spoofing for facial features when supported.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Use Remote Passport</source>
+          <target>Use Remote Passport</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If this option is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>, users can use a remote passport to serve as a portable companion device for desktop computer authentication.</source>
+          <target>If this option is set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>, users can use a remote passport to serve as a portable companion device for desktop computer authentication.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>The desktop computer must be Azure Active Directory joined, and the companion device must be configured with a Passport for Work PIN.</source>
+          <target>The desktop computer must be Azure Active Directory joined, and the companion device must be configured with a Passport for Work PIN.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</source>
+          <target>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Further information</source>
+          <target>Further information</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/mt589441(v=vs.85).aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about Microsoft Passport, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Passport guide</pc> in the Windows 10 documentation.</source>
+          <target>For more information about Microsoft Passport, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Passport guide</pc> in the Windows 10 documentation.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Protect data and devices with Microsoft Intune</source>
+          <target>Protect data and devices with Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

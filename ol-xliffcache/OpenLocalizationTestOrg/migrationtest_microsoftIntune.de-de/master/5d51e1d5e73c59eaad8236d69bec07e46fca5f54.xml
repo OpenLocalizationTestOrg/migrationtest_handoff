@@ -1,0 +1,522 @@
+{
+  "nodes": [
+    {
+      "content": "Set up email access for iOS devices using Microsoft Intune",
+      "pos": [
+        11,
+        69
+      ]
+    },
+    {
+      "content": "Set up email access for iOS devices using Microsoft Intune",
+      "pos": [
+        450,
+        508
+      ]
+    },
+    {
+      "content": "When devices are enrolled with <ph id=\"ph1\">[!INCLUDE[wit_firstref](/Token/wit_firstref.xml)]</ph>, you can configure the devices so that their users can acess company email.",
+      "pos": [
+        509,
+        665
+      ]
+    },
+    {
+      "content": "One way to accomplish that for specific device types is to create and deploy an <bpt id=\"p1\">**</bpt>email profile<ept id=\"p1\">**</ept>.",
+      "pos": [
+        666,
+        764
+      ]
+    },
+    {
+      "content": "Email profiles are a kind of <ph id=\"ph1\">[!INCLUDE[wit_nextref](/Token/wit_nextref.xml)]</ph> policy that sets up and connects a user’s device to your company email service.",
+      "pos": [
+        765,
+        921
+      ]
+    },
+    {
+      "content": "Using an email profile makes email access automatic for enrolled devices, which avoids manually having to set up the device and any potential problems that might arise doing so.",
+      "pos": [
+        923,
+        1100
+      ]
+    },
+    {
+      "content": "Also, an email profile ensures that all end users are setting up access in the same way and with the same basic settings.",
+      "pos": [
+        1101,
+        1222
+      ]
+    },
+    {
+      "content": "Goals of this walkthrough",
+      "pos": [
+        1227,
+        1252
+      ]
+    },
+    {
+      "content": "To create and deploy an email profile for iOS devices",
+      "pos": [
+        1256,
+        1309
+      ]
+    },
+    {
+      "content": "To verify that the email profile policy has been applied succesfully",
+      "pos": [
+        1313,
+        1381
+      ]
+    },
+    {
+      "content": "What you need before starting this walkthrough",
+      "pos": [
+        1385,
+        1431
+      ]
+    },
+    {
+      "content": "An Exchange Server, either on-premises or hosted on Azure as part of your Office/E3 subscription",
+      "pos": [
+        1434,
+        1530
+      ]
+    },
+    {
+      "content": "The host name of your company’s Exchange server.",
+      "pos": [
+        1533,
+        1581
+      ]
+    },
+    {
+      "content": "This is the fully qualified domain name (FQDN).",
+      "pos": [
+        1582,
+        1629
+      ]
+    },
+    {
+      "content": "For example, <bpt id=\"p1\">**</bpt>contosodemo55.onmicrosoft.com<ept id=\"p1\">**</ept>.",
+      "pos": [
+        1630,
+        1677
+      ]
+    },
+    {
+      "content": "A user group to deploy the email profile to.",
+      "pos": [
+        1680,
+        1724
+      ]
+    },
+    {
+      "content": "If you completed the <bpt id=\"p1\">[</bpt>Start a Microsoft Intune trial and deploy iOS PIN policy<ept id=\"p1\">](Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md)</ept> walkthrough, you can use the <bpt id=\"p2\">**</bpt>GroupDemo<ept id=\"p2\">**</ept> user group you created for it.",
+      "pos": [
+        1725,
+        1939
+      ]
+    },
+    {
+      "content": "Enrolled iOS devices to deploy the profile to.",
+      "pos": [
+        1943,
+        1989
+      ]
+    },
+    {
+      "content": "Again, if you completed the <bpt id=\"p1\">[</bpt>Start a Microsoft Intune trial and deploy iOS PIN policy<ept id=\"p1\">](Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md)</ept> walkthrough, you will have enrolled some iOS devices.",
+      "pos": [
+        1990,
+        2191
+      ]
+    },
+    {
+      "content": "Steps for creating and deploying an email profile for iOS devices",
+      "pos": [
+        2195,
+        2260
+      ]
+    },
+    {
+      "content": "For this walkthrough we will be using the hosted Exchange server that comes with an E3 trial subscription.",
+      "pos": [
+        2261,
+        2367
+      ]
+    },
+    {
+      "content": "In the <ph id=\"ph1\">[!INCLUDE[wit_firstref](/Token/wit_firstref.xml)]</ph> console, click <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept>, and then click <bpt id=\"p2\">**</bpt>Add Policy<ept id=\"p2\">**</ept>.",
+      "pos": [
+        2372,
+        2486
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">![</ph>Email Walkthrough 1<ph id=\"ph2\">](/Image/Email-Walkthrough/Email-Walkthrough-1.png)</ph>",
+      "pos": [
+        2487,
+        2559
+      ]
+    },
+    {
+      "content": "In the <bpt id=\"p1\">**</bpt>Create a New Policy<ept id=\"p1\">**</ept> dialog box, expand <bpt id=\"p2\">**</bpt>iOS<ept id=\"p2\">**</ept>, select <bpt id=\"p3\">**</bpt>Email Profile<ept id=\"p3\">**</ept>, and then click <bpt id=\"p4\">**</bpt>Create Policy<ept id=\"p4\">**</ept>.",
+      "pos": [
+        2563,
+        2681
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">![</ph>Email Walkthrough 2<ph id=\"ph2\">](/Image/Email-Walkthrough/Email-Walkthrough-2.png)</ph>",
+      "pos": [
+        2682,
+        2754
+      ]
+    },
+    {
+      "content": "On the create policy page, enter a name for the policy, like <bpt id=\"p1\">**</bpt>iOS email profile - user-password<ept id=\"p1\">**</ept>, and a description.",
+      "pos": [
+        2758,
+        2876
+      ]
+    },
+    {
+      "content": "You might have multiple email profiles for different device types and different authentication methods, so you can use the name to show what the profile is for.",
+      "pos": [
+        2877,
+        3037
+      ]
+    },
+    {
+      "content": "Enter the Exchange host name.",
+      "pos": [
+        3041,
+        3070
+      ]
+    },
+    {
+      "content": "Since we are using the Exchange server hosted on Azure, for hostname we simply input: <bpt id=\"p1\">**</bpt>outlook.office365.com<ept id=\"p1\">**</ept>",
+      "pos": [
+        3071,
+        3182
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">![</ph>Email Walkthrough 3<ph id=\"ph2\">](/Image/Email-Walkthrough/Email-Walkthrough-3.png)</ph>",
+      "pos": [
+        3183,
+        3255
+      ]
+    },
+    {
+      "content": "Enter the account name that will be shown to users of the device to help them identify the email service.",
+      "pos": [
+        3259,
+        3364
+      ]
+    },
+    {
+      "content": "For example, <bpt id=\"p1\">**</bpt>Contoso Email<ept id=\"p1\">**</ept>.",
+      "pos": [
+        3365,
+        3396
+      ]
+    },
+    {
+      "content": "Since we’re using username and password to authenticate the user for the Exchange service, just leave the username and password settings the way they are.",
+      "pos": [
+        3400,
+        3554
+      ]
+    },
+    {
+      "content": "Adjust the synchronization settings to meet your requirements.",
+      "pos": [
+        3559,
+        3621
+      ]
+    },
+    {
+      "content": "For now, just use the defaults, unless there’s a specific one you want to change.",
+      "pos": [
+        3622,
+        3703
+      ]
+    },
+    {
+      "pos": [
+        3709,
+        3731
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Save Policy<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "A dialog box appears asking if you want to deploy the policy now.",
+      "pos": [
+        3735,
+        3800
+      ]
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>.",
+      "pos": [
+        3801,
+        3815
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">![</ph>Email Walkthrough 4<ph id=\"ph2\">](/Image/Email-Walkthrough/Email-Walkthrough-4.png)</ph>",
+      "pos": [
+        3817,
+        3889
+      ]
+    },
+    {
+      "content": "In the window that appears next, select the user group you want to deploy the email profile to, click <bpt id=\"p1\">**</bpt>Add<ept id=\"p1\">**</ept>, and then click <bpt id=\"p2\">**</bpt>OK<ept id=\"p2\">**</ept>.",
+      "pos": [
+        3894,
+        4027
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">![</ph>Email Walkthrough 5<ph id=\"ph2\">](/Image/Email-Walkthrough/Email-Walkthrough-5.png)</ph>",
+      "pos": [
+        4029,
+        4101
+      ]
+    },
+    {
+      "content": "After you click <bpt id=\"p1\">**</bpt>OK<ept id=\"p1\">**</ept>, the policy will start to flow down to enrolled devices in a minute or two.",
+      "pos": [
+        4102,
+        4200
+      ]
+    },
+    {
+      "content": "Steps to verify that the profile has been successfully applied",
+      "pos": [
+        4205,
+        4267
+      ]
+    },
+    {
+      "content": "To verify that the profile has been applied, you will need access to one of the devices to which you deployed the email profile.",
+      "pos": [
+        4268,
+        4396
+      ]
+    },
+    {
+      "pos": [
+        4400,
+        4580
+      ],
+      "content": "On the iOS device, open the Mail app. \nThe app will prompt you for the user’s email username and password.\n![Email Walkthrough 6](/Image/Email-Walkthrough/Email-Walkthrough-6.png)",
+      "leadings": [
+        "",
+        "",
+        " "
+      ],
+      "nodes": [
+        {
+          "content": "On the iOS device, open the Mail app.",
+          "pos": [
+            0,
+            37
+          ]
+        },
+        {
+          "content": "The app will prompt you for the user’s email username and password.",
+          "pos": [
+            39,
+            106
+          ]
+        },
+        {
+          "content": "Email Walkthrough 6",
+          "pos": [
+            109,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        4584,
+        4841
+      ],
+      "content": "Enter the username and password for the user’s Exchange email account, and then tap **OK**.\nThe Mail app opens to the Exchange account, and email begins synchronizing to the device. \n![Email Walkthrough 7](/Image/Email-Walkthrough/Email-Walkthrough-7.png)",
+      "leadings": [
+        "",
+        " ",
+        " "
+      ],
+      "nodes": [
+        {
+          "content": "Enter the username and password for the user’s Exchange email account, and then tap <bpt id=\"p1\">**</bpt>OK<ept id=\"p1\">**</ept>.",
+          "pos": [
+            0,
+            91
+          ]
+        },
+        {
+          "content": "The Mail app opens to the Exchange account, and email begins synchronizing to the device.",
+          "pos": [
+            92,
+            181
+          ]
+        },
+        {
+          "content": "<ph id=\"ph1\">![</ph>Email Walkthrough 7<ph id=\"ph2\">](/Image/Email-Walkthrough/Email-Walkthrough-7.png)</ph>",
+          "pos": [
+            183,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        4845,
+        5128
+      ],
+      "content": "Check the account settings in for the Mail app to make sure the account name is the same one you entered in the email profile (for example, **Contoso Mail**) and the synchronization settings are set correctly.\n![Email Walkthrough 8](/Image/Email-Walkthrough/Email-Walkthrough-8.png)",
+      "leadings": [
+        "",
+        " "
+      ],
+      "nodes": [
+        {
+          "content": "Check the account settings in for the Mail app to make sure the account name is the same one you entered in the email profile (for example, <bpt id=\"p1\">**</bpt>Contoso Mail<ept id=\"p1\">**</ept>) and the synchronization settings are set correctly.",
+          "pos": [
+            0,
+            209
+          ]
+        },
+        {
+          "content": "<ph id=\"ph1\">![</ph>Email Walkthrough 8<ph id=\"ph2\">](/Image/Email-Walkthrough/Email-Walkthrough-8.png)</ph>",
+          "pos": [
+            210,
+            282
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Email Walkthrough 9",
+      "pos": [
+        5134,
+        5153
+      ]
+    },
+    {
+      "content": "If it appears the email profile hasn’t been automatically applied to the device, you can manually apply the policy using the Company Portal app on the device.",
+      "pos": [
+        5207,
+        5365
+      ]
+    },
+    {
+      "content": "Open the Company Portal app.",
+      "pos": [
+        5370,
+        5398
+      ]
+    },
+    {
+      "pos": [
+        5402,
+        5421
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>My Devices<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "Tap the name of your device.",
+      "pos": [
+        5425,
+        5453
+      ]
+    },
+    {
+      "content": "Email Walkthrough 10",
+      "pos": [
+        5457,
+        5477
+      ]
+    },
+    {
+      "content": "Tap <bpt id=\"p1\">**</bpt>Sync<ept id=\"p1\">**</ept> &gt; <bpt id=\"p2\">**</bpt>Check Compliance<ept id=\"p2\">**</ept>.",
+      "pos": [
+        5533,
+        5569
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">![</ph>Email Walkthrough 11<ph id=\"ph2\">](/Image/Email-Walkthrough/Email-Walkthrough-11.png)</ph>",
+      "pos": [
+        5570,
+        5644
+      ]
+    },
+    {
+      "content": "After a few moments the email profile gets applied to the device.",
+      "pos": [
+        5645,
+        5710
+      ]
+    },
+    {
+      "content": "After that, you can follow the verification steps to make sure the profile was applied correctly.",
+      "pos": [
+        5711,
+        5808
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        5812,
+        5828
+      ]
+    },
+    {
+      "content": "Learn more about email profiles, <bpt id=\"p1\">[</bpt>Configure access to corporate email using email profiles with Microsoft Intune<ept id=\"p1\">](Email-access.md)</ept>",
+      "pos": [
+        5829,
+        5959
+      ]
+    },
+    {
+      "content": "Learn more about policies, <bpt id=\"p1\">[</bpt>Use policies to manage computers and mobile devices with Microsoft Intune<ept id=\"p1\">](Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</ept>",
+      "pos": [
+        5960,
+        6140
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        6144,
+        6152
+      ]
+    },
+    {
+      "content": "Common Microsoft Intune evaluation tasks",
+      "pos": [
+        6154,
+        6194
+      ]
+    },
+    {
+      "content": "Start a Microsoft Intune trial and deploy iOS PIN policy",
+      "pos": [
+        6242,
+        6298
+      ]
+    }
+  ],
+  "content": "---\ntitle: Set up email access for iOS devices using Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 3853673d-290a-400f-8e45-d55e39d42acd\nauthor: Staciebarker\ntranslation.priority.ht: \n  - cs-cz\n  - de-de\n  - es-es\n  - fr-fr\n  - hu-hu\n  - it-it\n  - ja-jp\n  - ko-kr\n  - nl-nl\n  - pl-pl\n  - pt-br\n  - pt-pt\n  - ru-ru\n  - sv-se\n  - tr-tr\n  - zh-cn\n  - zh-tw\n---\n# Set up email access for iOS devices using Microsoft Intune\nWhen devices are enrolled with [!INCLUDE[wit_firstref](/Token/wit_firstref.xml)], you can configure the devices so that their users can acess company email. One way to accomplish that for specific device types is to create and deploy an **email profile**. Email profiles are a kind of [!INCLUDE[wit_nextref](/Token/wit_nextref.xml)] policy that sets up and connects a user’s device to your company email service. \nUsing an email profile makes email access automatic for enrolled devices, which avoids manually having to set up the device and any potential problems that might arise doing so. Also, an email profile ensures that all end users are setting up access in the same way and with the same basic settings. \n## Goals of this walkthrough\n1. To create and deploy an email profile for iOS devices\n2. To verify that the email profile policy has been applied succesfully\n## What you need before starting this walkthrough\n* An Exchange Server, either on-premises or hosted on Azure as part of your Office/E3 subscription\n* The host name of your company’s Exchange server. This is the fully qualified domain name (FQDN). For example, **contosodemo55.onmicrosoft.com**.\n* A user group to deploy the email profile to. If you completed the [Start a Microsoft Intune trial and deploy iOS PIN policy](Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md) walkthrough, you can use the **GroupDemo** user group you created for it. \n* Enrolled iOS devices to deploy the profile to. Again, if you completed the [Start a Microsoft Intune trial and deploy iOS PIN policy](Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md) walkthrough, you will have enrolled some iOS devices.\n## Steps for creating and deploying an email profile for iOS devices\nFor this walkthrough we will be using the hosted Exchange server that comes with an E3 trial subscription. \n1. In the [!INCLUDE[wit_firstref](/Token/wit_firstref.xml)] console, click **Policy**, and then click **Add Policy**.\n![Email Walkthrough 1](/Image/Email-Walkthrough/Email-Walkthrough-1.png)\n2. In the **Create a New Policy** dialog box, expand **iOS**, select **Email Profile**, and then click **Create Policy**.\n![Email Walkthrough 2](/Image/Email-Walkthrough/Email-Walkthrough-2.png)\n3. On the create policy page, enter a name for the policy, like **iOS email profile - user-password**, and a description. You might have multiple email profiles for different device types and different authentication methods, so you can use the name to show what the profile is for.\n4. Enter the Exchange host name. Since we are using the Exchange server hosted on Azure, for hostname we simply input: **outlook.office365.com**\n![Email Walkthrough 3](/Image/Email-Walkthrough/Email-Walkthrough-3.png)\n5. Enter the account name that will be shown to users of the device to help them identify the email service. For example, **Contoso Email**.\n6. Since we’re using username and password to authenticate the user for the Exchange service, just leave the username and password settings the way they are. \n7. Adjust the synchronization settings to meet your requirements. For now, just use the defaults, unless there’s a specific one you want to change.  \n8. Click **Save Policy**.\n9. A dialog box appears asking if you want to deploy the policy now. Click **Yes**. \n![Email Walkthrough 4](/Image/Email-Walkthrough/Email-Walkthrough-4.png)\n10. In the window that appears next, select the user group you want to deploy the email profile to, click **Add**, and then click **OK**. \n![Email Walkthrough 5](/Image/Email-Walkthrough/Email-Walkthrough-5.png)\nAfter you click **OK**, the policy will start to flow down to enrolled devices in a minute or two. \n## Steps to verify that the profile has been successfully applied\nTo verify that the profile has been applied, you will need access to one of the devices to which you deployed the email profile.\n1. On the iOS device, open the Mail app. \nThe app will prompt you for the user’s email username and password.\n ![Email Walkthrough 6](/Image/Email-Walkthrough/Email-Walkthrough-6.png)\n2. Enter the username and password for the user’s Exchange email account, and then tap **OK**.\n The Mail app opens to the Exchange account, and email begins synchronizing to the device. \n ![Email Walkthrough 7](/Image/Email-Walkthrough/Email-Walkthrough-7.png)\n3. Check the account settings in for the Mail app to make sure the account name is the same one you entered in the email profile (for example, **Contoso Mail**) and the synchronization settings are set correctly.\n ![Email Walkthrough 8](/Image/Email-Walkthrough/Email-Walkthrough-8.png)\n \n ![Email Walkthrough 9](/Image/Email-Walkthrough/Email-Walkthrough-9.png)\n  If it appears the email profile hasn’t been automatically applied to the device, you can manually apply the policy using the Company Portal app on the device. \n1. Open the Company Portal app.\n2. Tap **My Devices**.\n3. Tap the name of your device. \n![Email Walkthrough 10](/Image/Email-Walkthrough/Email-Walkthrough-10.png)\n4. Tap **Sync** > **Check Compliance**.\n![Email Walkthrough 11](/Image/Email-Walkthrough/Email-Walkthrough-11.png)\nAfter a few moments the email profile gets applied to the device. After that, you can follow the verification steps to make sure the profile was applied correctly.\n## More information\nLearn more about email profiles, [Configure access to corporate email using email profiles with Microsoft Intune](Email-access.md)\nLearn more about policies, [Use policies to manage computers and mobile devices with Microsoft Intune](Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)\n## See Also\n[Common Microsoft Intune evaluation tasks](Common-Microsoft-Intune-evaluation-tasks.md)\n[Start a Microsoft Intune trial and deploy iOS PIN policy](Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md)\n"
+}

@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "content": "Temp Software Updates Topic",
+      "pos": [
+        11,
+        38
+      ]
+    },
+    {
+      "content": "Temp Software Updates Topic",
+      "pos": [
+        194,
+        221
+      ]
+    },
+    {
+      "content": "Improving Intune performance when you have many software updates to deploy",
+      "pos": [
+        225,
+        299
+      ]
+    },
+    {
+      "content": "When you deploy a high number of software updates to a large number of PCs, the performance of the <ph id=\"ph1\">[!INCLUDE[wit_nextref](/Token/wit_nextref.xml)]</ph> console might be degraded.",
+      "pos": [
+        301,
+        474
+      ]
+    },
+    {
+      "content": "This might typically occur when you are deploying more than 100 updates to more than 1000 PCs.",
+      "pos": [
+        475,
+        569
+      ]
+    },
+    {
+      "content": "While Microsoft continue to enhance the product to alleviate any performance issues, you can use the following workaround to deploy your required updates in smaller batches:",
+      "pos": [
+        570,
+        743
+      ]
+    },
+    {
+      "content": "In the <bpt id=\"p1\">**</bpt>Updates<ept id=\"p1\">**</ept> workspace of the  <bpt id=\"p2\">[</bpt>wit_nextref<ept id=\"p2\">](/Token/wit_nextref.xml)</ept>] console, search for any outstanding updates you want to deploy.",
+      "pos": [
+        747,
+        886
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">![</ph>Software Updates node<ph id=\"ph2\">](/Image/Software-Updates/Software-Updates-node.png)</ph>",
+      "pos": [
+        887,
+        962
+      ]
+    },
+    {
+      "content": "Export these updates into a comma-seperated values (csv) file and open this file with Microsoft Excel.",
+      "pos": [
+        967,
+        1069
+      ]
+    },
+    {
+      "content": "Filter Software Updates",
+      "pos": [
+        1072,
+        1095
+      ]
+    },
+    {
+      "content": "Break the updates into smaller batches.",
+      "pos": [
+        1154,
+        1193
+      ]
+    },
+    {
+      "content": "Some suggestions that might be helpful include:",
+      "pos": [
+        1194,
+        1241
+      ]
+    },
+    {
+      "content": "a.",
+      "pos": [
+        1242,
+        1244
+      ]
+    },
+    {
+      "content": "Filter based on the name, focus on the cumulative update types or security updates first, then other updates",
+      "pos": [
+        1246,
+        1354
+      ]
+    },
+    {
+      "content": "b.",
+      "pos": [
+        1355,
+        1357
+      ]
+    },
+    {
+      "content": "Filter based on the name, focus on the platform (Windows 7, Office, etc.) based on your priority",
+      "pos": [
+        1359,
+        1455
+      ]
+    },
+    {
+      "content": "c.",
+      "pos": [
+        1456,
+        1458
+      ]
+    },
+    {
+      "content": "Filter based on the number of deployments needed, starting with smaller updates",
+      "pos": [
+        1460,
+        1539
+      ]
+    },
+    {
+      "content": "Once the overall set of updates are broken down into smaller batches, then deploy these smaller batches.",
+      "pos": [
+        1545,
+        1649
+      ]
+    },
+    {
+      "content": "Deploying smaller batches should help avoid the load issue associated with trying to deploy too many updates at once.",
+      "pos": [
+        1653,
+        1770
+      ]
+    },
+    {
+      "content": "This will help you more quickly reduce the number of outstanding updates.",
+      "pos": [
+        1771,
+        1844
+      ]
+    },
+    {
+      "content": "For FAQ Topic",
+      "pos": [
+        1853,
+        1866
+      ]
+    },
+    {
+      "content": "When I deploy a high number of software updates to a large number of PCs (typically more than 100 updates to more than 1000 PCs), this is very slow.",
+      "pos": [
+        1870,
+        2018
+      ]
+    },
+    {
+      "content": "How can I speed this process up?",
+      "pos": [
+        2019,
+        2051
+      ]
+    },
+    {
+      "pos": [
+        2054,
+        2257
+      ],
+      "content": "You can use the workaround detailed in <bpt id=\"p1\">**</bpt>Improving Intune performance when you have many software updates to deploy<ept id=\"p1\">**</ept> to deploy required software updates in batches which will help to solve this problem."
+    }
+  ],
+  "content": "---\ntitle: Temp Software Updates Topic\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 82b7fc4b-52e9-46bb-ad8a-4c6f752c5485\nauthor: robstackmsft\n---\n# Temp Software Updates Topic\n## Improving Intune performance when you have many software updates to deploy\n\nWhen you deploy a high number of software updates to a large number of PCs, the performance of the [!INCLUDE[wit_nextref](/Token/wit_nextref.xml)] console might be degraded. This might typically occur when you are deploying more than 100 updates to more than 1000 PCs.\nWhile Microsoft continue to enhance the product to alleviate any performance issues, you can use the following workaround to deploy your required updates in smaller batches:\n1. In the **Updates** workspace of the  [wit_nextref](/Token/wit_nextref.xml)] console, search for any outstanding updates you want to deploy.\n![Software Updates node](/Image/Software-Updates/Software-Updates-node.png)\n2.  Export these updates into a comma-seperated values (csv) file and open this file with Microsoft Excel.\n![Filter Software Updates](/Image/Software-Updates/Filter-Software-Updates.png)\n3.  Break the updates into smaller batches. Some suggestions that might be helpful include:\na.  Filter based on the name, focus on the cumulative update types or security updates first, then other updates\nb.  Filter based on the name, focus on the platform (Windows 7, Office, etc.) based on your priority\nc.  Filter based on the number of deployments needed, starting with smaller updates \n4.  Once the overall set of updates are broken down into smaller batches, then deploy these smaller batches.  \n\nDeploying smaller batches should help avoid the load issue associated with trying to deploy too many updates at once. This will help you more quickly reduce the number of outstanding updates. \n\n\n\n\n\n\n\nFor FAQ Topic\n\n* When I deploy a high number of software updates to a large number of PCs (typically more than 100 updates to more than 1000 PCs), this is very slow. How can I speed this process up? \n\nYou can use the workaround detailed in **Improving Intune performance when you have many software updates to deploy** to deploy required software updates in batches which will help to solve this problem.\n"
+}

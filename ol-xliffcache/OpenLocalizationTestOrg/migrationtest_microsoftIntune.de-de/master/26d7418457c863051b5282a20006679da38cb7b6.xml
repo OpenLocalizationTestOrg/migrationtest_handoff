@@ -1,0 +1,1706 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - What to tell your end users about using Microsoft Intune",
+      "pos": [
+        11,
+        83
+      ]
+    },
+    {
+      "content": "MD Conversion - What to tell your end users about using Microsoft Intune",
+      "pos": [
+        218,
+        290
+      ]
+    },
+    {
+      "content": "This topic provides administrators with information about what your users see and experience when you use Intune to manage their devices.",
+      "pos": [
+        681,
+        818
+      ]
+    },
+    {
+      "content": "Where your users can find information about common tasks",
+      "pos": [
+        863,
+        919
+      ]
+    },
+    {
+      "content": "Share these links with your users to help them find information about enrolling their devices in Intune and doing different tasks on their devices after enrolling.",
+      "pos": [
+        942,
+        1105
+      ]
+    },
+    {
+      "content": "Android device types:",
+      "pos": [
+        1124,
+        1145
+      ]
+    },
+    {
+      "content": "See the article",
+      "pos": [
+        1151,
+        1166
+      ]
+    },
+    {
+      "content": "Using your Android device with Intune",
+      "pos": [
+        1223,
+        1260
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        1267,
+        1268
+      ]
+    },
+    {
+      "content": "Tasks explained in this article:",
+      "pos": [
+        1287,
+        1319
+      ]
+    },
+    {
+      "content": "Task category",
+      "pos": [
+        1373,
+        1386
+      ]
+    },
+    {
+      "content": "Link to task",
+      "pos": [
+        1408,
+        1420
+      ]
+    },
+    {
+      "content": "Company Portal app installation and Intune enrollment",
+      "pos": [
+        1470,
+        1523
+      ]
+    },
+    {
+      "content": "Install the Microsoft Intune Company Portal app",
+      "pos": [
+        1569,
+        1616
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        1636,
+        1686
+      ]
+    },
+    {
+      "content": "Sign in to the Company Portal app",
+      "pos": [
+        1748,
+        1781
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        1801,
+        1851
+      ]
+    },
+    {
+      "content": "Enroll your device in Intune",
+      "pos": [
+        1913,
+        1941
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        1961,
+        2011
+      ]
+    },
+    {
+      "content": "What happens when I install the Company Portal app and enroll my device in Intune?",
+      "pos": [
+        2073,
+        2155
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        2175,
+        2225
+      ]
+    },
+    {
+      "content": "Things you can do when your device is enrolled in Intune",
+      "pos": [
+        2281,
+        2337
+      ]
+    },
+    {
+      "content": "What is the company portal website and what can I do with it?",
+      "pos": [
+        2383,
+        2444
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        2464,
+        2514
+      ]
+    },
+    {
+      "content": "Encrypt your device",
+      "pos": [
+        2576,
+        2595
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        2615,
+        2665
+      ]
+    },
+    {
+      "content": "Set your PIN or password",
+      "pos": [
+        2727,
+        2751
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        2771,
+        2821
+      ]
+    },
+    {
+      "content": "Install your company's Virtual Private Network (VPN)",
+      "pos": [
+        2883,
+        2935
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        2955,
+        3005
+      ]
+    },
+    {
+      "content": "How to set the period before your Android device is locked",
+      "pos": [
+        3099,
+        3157
+      ]
+    },
+    {
+      "content": "Reset (erase) your lost or stolen device",
+      "pos": [
+        3201,
+        3241
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        3261,
+        3311
+      ]
+    },
+    {
+      "content": "Turn off Microsoft usage data collection",
+      "pos": [
+        3373,
+        3413
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        3433,
+        3483
+      ]
+    },
+    {
+      "content": "Unenroll your device from Intune",
+      "pos": [
+        3545,
+        3577
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        3597,
+        3647
+      ]
+    },
+    {
+      "content": "What happens when you unenroll your device from Intune and uninstall the Company Portal app?",
+      "pos": [
+        3709,
+        3801
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        3821,
+        3872
+      ]
+    },
+    {
+      "content": "Fix issues with your device",
+      "pos": [
+        3928,
+        3955
+      ]
+    },
+    {
+      "content": "Use Verbose Logging to help your IT admin fix issues",
+      "pos": [
+        4001,
+        4053
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        4073,
+        4123
+      ]
+    },
+    {
+      "content": "Send diagnostic data logs to your IT admin using email",
+      "pos": [
+        4185,
+        4239
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        4259,
+        4309
+      ]
+    },
+    {
+      "content": "Send diagnostic data logs to your IT admin using a USB cable",
+      "pos": [
+        4371,
+        4431
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        4451,
+        4501
+      ]
+    },
+    {
+      "content": "Send enrollment errors to your IT admin",
+      "pos": [
+        4563,
+        4602
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        4622,
+        4672
+      ]
+    },
+    {
+      "content": "Device doesn't have the required minimum operating system version",
+      "pos": [
+        4734,
+        4799
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        4819,
+        4870
+      ]
+    },
+    {
+      "content": "Device doesn't comply with the maximum operating system version",
+      "pos": [
+        4932,
+        4995
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt502762.aspx",
+      "pos": [
+        5015,
+        5066
+      ]
+    },
+    {
+      "content": "How to reconnect a compromised Android device",
+      "pos": [
+        5160,
+        5205
+      ]
+    },
+    {
+      "content": "iOS device types:",
+      "pos": [
+        5258,
+        5275
+      ]
+    },
+    {
+      "content": "See the article",
+      "pos": [
+        5281,
+        5296
+      ]
+    },
+    {
+      "content": "Using your iOS device with Intune",
+      "pos": [
+        5353,
+        5386
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        5393,
+        5394
+      ]
+    },
+    {
+      "content": "Tasks explained in this article:",
+      "pos": [
+        5411,
+        5443
+      ]
+    },
+    {
+      "content": "Task category",
+      "pos": [
+        5493,
+        5506
+      ]
+    },
+    {
+      "content": "Link to task",
+      "pos": [
+        5528,
+        5540
+      ]
+    },
+    {
+      "content": "Company Portal app installation and Intune enrollment",
+      "pos": [
+        5586,
+        5639
+      ]
+    },
+    {
+      "content": "Install and sign in to the Intune Company Portal app",
+      "pos": [
+        5685,
+        5737
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt598622.aspx",
+      "pos": [
+        5757,
+        5807
+      ]
+    },
+    {
+      "content": "Enroll your iOS device in Intune",
+      "pos": [
+        5869,
+        5901
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt598622.aspx",
+      "pos": [
+        5921,
+        5972
+      ]
+    },
+    {
+      "content": "Enroll your Mac OS X device in Intune",
+      "pos": [
+        6034,
+        6071
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt598622.aspx",
+      "pos": [
+        6091,
+        6142
+      ]
+    },
+    {
+      "content": "What happens when I install the Company Portal app and enroll my device in Intune?",
+      "pos": [
+        6204,
+        6286
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt598622.aspx",
+      "pos": [
+        6306,
+        6356
+      ]
+    },
+    {
+      "content": "Things you can do when your device is enrolled in Intune",
+      "pos": [
+        6412,
+        6468
+      ]
+    },
+    {
+      "content": "What is the Company Portal website and what can I do with it?",
+      "pos": [
+        6514,
+        6575
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt598622.aspx",
+      "pos": [
+        6595,
+        6645
+      ]
+    },
+    {
+      "content": "Reset (erase) your lost or stolen device",
+      "pos": [
+        6707,
+        6747
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt598622.aspx",
+      "pos": [
+        6767,
+        6817
+      ]
+    },
+    {
+      "content": "Turn off Microsoft usage data collection",
+      "pos": [
+        6879,
+        6919
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt598622.aspx",
+      "pos": [
+        6939,
+        6989
+      ]
+    },
+    {
+      "content": "Unenroll your device from Intune",
+      "pos": [
+        7051,
+        7083
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt598622.aspx",
+      "pos": [
+        7103,
+        7153
+      ]
+    },
+    {
+      "content": "Fix issues with your device",
+      "pos": [
+        7209,
+        7236
+      ]
+    },
+    {
+      "content": "You get an error while using the Company Portal app",
+      "pos": [
+        7282,
+        7333
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt598622.aspx",
+      "pos": [
+        7353,
+        7404
+      ]
+    },
+    {
+      "content": "You see errors while trying to enroll your device in Intune",
+      "pos": [
+        7466,
+        7525
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt598622.aspx",
+      "pos": [
+        7545,
+        7596
+      ]
+    },
+    {
+      "content": "Device doesn't have the required minimum operating system version",
+      "pos": [
+        7658,
+        7723
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt598622.aspx",
+      "pos": [
+        7743,
+        7794
+      ]
+    },
+    {
+      "content": "Device doesn't comply with the maximum operating system version",
+      "pos": [
+        7856,
+        7919
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt598622.aspx",
+      "pos": [
+        7939,
+        7990
+      ]
+    },
+    {
+      "content": "How to reconnect a compromised iOS device",
+      "pos": [
+        8084,
+        8125
+      ]
+    },
+    {
+      "content": "Windows device types:",
+      "pos": [
+        8179,
+        8200
+      ]
+    },
+    {
+      "content": "See the article",
+      "pos": [
+        8206,
+        8221
+      ]
+    },
+    {
+      "content": "Using your Windows device with Intune",
+      "pos": [
+        8278,
+        8315
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        8322,
+        8323
+      ]
+    },
+    {
+      "content": "Also see",
+      "pos": [
+        8324,
+        8332
+      ]
+    },
+    {
+      "content": "Using the Intune Company Portal website",
+      "pos": [
+        8389,
+        8428
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        8435,
+        8436
+      ]
+    },
+    {
+      "content": "Tasks explained in this article:",
+      "pos": [
+        8453,
+        8485
+      ]
+    },
+    {
+      "content": "Task category",
+      "pos": [
+        8535,
+        8548
+      ]
+    },
+    {
+      "content": "Link to task",
+      "pos": [
+        8570,
+        8582
+      ]
+    },
+    {
+      "content": "Company Portal app installation and Intune enrollment",
+      "pos": [
+        8628,
+        8681
+      ]
+    },
+    {
+      "content": "Enroll your device in Intune",
+      "pos": [
+        8727,
+        8755
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt427782.aspx",
+      "pos": [
+        8775,
+        8825
+      ]
+    },
+    {
+      "content": "What happens when I install the Company Portal app and enroll my device in Intune?",
+      "pos": [
+        8887,
+        8969
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt427782.aspx",
+      "pos": [
+        8989,
+        9039
+      ]
+    },
+    {
+      "content": "What can my IT admin see when I enroll my device in Intune?",
+      "pos": [
+        9101,
+        9160
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt427782.aspx",
+      "pos": [
+        9180,
+        9230
+      ]
+    },
+    {
+      "content": "Things you can do when your device is enrolled in Intune",
+      "pos": [
+        9286,
+        9342
+      ]
+    },
+    {
+      "content": "What is the Company Portal website?",
+      "pos": [
+        9388,
+        9423
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt427782.aspx",
+      "pos": [
+        9443,
+        9493
+      ]
+    },
+    {
+      "content": "Encrypt your device",
+      "pos": [
+        9555,
+        9574
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt427782.aspx",
+      "pos": [
+        9594,
+        9644
+      ]
+    },
+    {
+      "content": "Reset (erase) your lost or stolen device",
+      "pos": [
+        9706,
+        9746
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt427782.aspx",
+      "pos": [
+        9766,
+        9816
+      ]
+    },
+    {
+      "content": "What happens if I reset my Windows device using the Company Portal?",
+      "pos": [
+        9878,
+        9945
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt427782.aspx",
+      "pos": [
+        9965,
+        10016
+      ]
+    },
+    {
+      "content": "Unenroll your device from Intune",
+      "pos": [
+        10078,
+        10110
+      ]
+    },
+    {
+      "content": "http://technet.microsoft.com/library/mt427782.aspx",
+      "pos": [
+        10130,
+        10180
+      ]
+    },
+    {
+      "content": "What happens when I remove my device from the Company Portal?",
+      "pos": [
+        10242,
+        10303
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt427782.aspx",
+      "pos": [
+        10323,
+        10374
+      ]
+    },
+    {
+      "content": "Turn off Microsoft usage data collection",
+      "pos": [
+        10436,
+        10476
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt427782.aspx#BKMK_windows_pc_data_collect",
+      "pos": [
+        10496,
+        10576
+      ]
+    },
+    {
+      "content": "Fix issues with your device",
+      "pos": [
+        10632,
+        10659
+      ]
+    },
+    {
+      "content": "Device doesn't have the required minimum operating system version",
+      "pos": [
+        10705,
+        10770
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt427782.aspx",
+      "pos": [
+        10790,
+        10841
+      ]
+    },
+    {
+      "content": "Device doesn't comply with the maximum operating system version",
+      "pos": [
+        10903,
+        10966
+      ]
+    },
+    {
+      "content": "https://technet.microsoft.com/library/mt427782.aspx",
+      "pos": [
+        10986,
+        11037
+      ]
+    },
+    {
+      "content": "Microsoft Intune Enrollment Instructions (whitepaper - contains enrollment instructions for end users for supported platforms)",
+      "pos": [
+        11384,
+        11510
+      ]
+    },
+    {
+      "content": "https://www.microsoft.com/en-us/download/46398",
+      "pos": [
+        11530,
+        11576
+      ]
+    },
+    {
+      "content": "Reference information about communicating with your end users about enrolling devices in Intune, installing the company portal app, understanding privacy information, and what to do if users lose their phones",
+      "pos": [
+        11639,
+        11847
+      ]
+    },
+    {
+      "content": "http://download.microsoft.com/download/9/4/F/94FD4282-1927-439A-BF8A-A5EFF1E52C04/Microsoft Intune End User Enrollment Guide v1.zip",
+      "pos": [
+        11867,
+        11998
+      ]
+    },
+    {
+      "content": "What Happens if You Remove or Reset a Personal Device Using the Company Portal",
+      "pos": [
+        12093,
+        12171
+      ]
+    },
+    {
+      "content": "FAQ about the Company Portal and general information",
+      "pos": [
+        12210,
+        12262
+      ]
+    },
+    {
+      "content": "Company Portal Frequently Asked Questions",
+      "pos": [
+        12340,
+        12381
+      ]
+    },
+    {
+      "content": "How end users get their apps",
+      "pos": [
+        12459,
+        12487
+      ]
+    },
+    {
+      "content": "This section describes, for each device platform, how and where your end users  get apps that you distribute through",
+      "pos": [
+        12510,
+        12626
+      ]
+    },
+    {
+      "content": "wit_firstref",
+      "pos": [
+        12634,
+        12646
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        12654,
+        12655
+      ]
+    },
+    {
+      "content": "The following terms are used in the tables that describe how users get their apps for each platform.",
+      "pos": [
+        12670,
+        12770
+      ]
+    },
+    {
+      "content": "Category",
+      "pos": [
+        12869,
+        12877
+      ]
+    },
+    {
+      "content": "Term",
+      "pos": [
+        12916,
+        12920
+      ]
+    },
+    {
+      "content": "Definition",
+      "pos": [
+        12978,
+        12988
+      ]
+    },
+    {
+      "content": "The Android experience",
+      "pos": [
+        14440,
+        14462
+      ]
+    },
+    {
+      "content": "Android Required App",
+      "pos": [
+        14624,
+        14644
+      ]
+    },
+    {
+      "content": "Android Available App",
+      "pos": [
+        14707,
+        14728
+      ]
+    },
+    {
+      "content": "Samsung KNOX Required App",
+      "pos": [
+        14791,
+        14816
+      ]
+    },
+    {
+      "content": "Samsung KNOX Available App",
+      "pos": [
+        14879,
+        14905
+      ]
+    },
+    {
+      "content": "Side-loaded app (LOB)",
+      "pos": [
+        15032,
+        15053
+      ]
+    },
+    {
+      "content": "End users see a notification indicating that they are required to install an app.",
+      "pos": [
+        15116,
+        15197
+      ]
+    },
+    {
+      "content": "User taps once to download and install the app.",
+      "pos": [
+        15198,
+        15245
+      ]
+    },
+    {
+      "content": "The notification displays until users install the app.",
+      "pos": [
+        15246,
+        15300
+      ]
+    },
+    {
+      "content": "App appears in",
+      "pos": [
+        15363,
+        15377
+      ]
+    },
+    {
+      "content": "Apps",
+      "pos": [
+        15382,
+        15386
+      ]
+    },
+    {
+      "content": "tab of Company Portal.",
+      "pos": [
+        15392,
+        15414
+      ]
+    },
+    {
+      "content": "App downloads and installs automatically without user interaction.",
+      "pos": [
+        15477,
+        15543
+      ]
+    },
+    {
+      "content": "App appears in",
+      "pos": [
+        15606,
+        15620
+      ]
+    },
+    {
+      "content": "Apps",
+      "pos": [
+        15625,
+        15629
+      ]
+    },
+    {
+      "content": "tab of Company Portal.",
+      "pos": [
+        15635,
+        15657
+      ]
+    },
+    {
+      "content": "Play Store app (deep-linked app)",
+      "pos": [
+        15751,
+        15783
+      ]
+    },
+    {
+      "content": "End users see a notification indicating that they are required to install an app.",
+      "pos": [
+        15846,
+        15927
+      ]
+    },
+    {
+      "content": "Clicking the app takes users to the Play Store, where they can install the app.",
+      "pos": [
+        15928,
+        16007
+      ]
+    },
+    {
+      "content": "The notification displays until users install the app.",
+      "pos": [
+        16008,
+        16062
+      ]
+    },
+    {
+      "content": "App appears in",
+      "pos": [
+        16125,
+        16139
+      ]
+    },
+    {
+      "content": "Apps",
+      "pos": [
+        16144,
+        16148
+      ]
+    },
+    {
+      "content": "tab of Company Portal.",
+      "pos": [
+        16154,
+        16176
+      ]
+    },
+    {
+      "content": "End users see a notification indicating that they are required to install an app.",
+      "pos": [
+        16239,
+        16320
+      ]
+    },
+    {
+      "content": "Clicking the app takes users to the Play Store, where they can install the app.",
+      "pos": [
+        16321,
+        16400
+      ]
+    },
+    {
+      "content": "The notification displays until users install the app.",
+      "pos": [
+        16401,
+        16455
+      ]
+    },
+    {
+      "content": "App appears in",
+      "pos": [
+        16518,
+        16532
+      ]
+    },
+    {
+      "content": "Apps",
+      "pos": [
+        16537,
+        16541
+      ]
+    },
+    {
+      "content": "tab of Company Portal.",
+      "pos": [
+        16547,
+        16569
+      ]
+    },
+    {
+      "content": "Web  link",
+      "pos": [
+        16663,
+        16672
+      ]
+    },
+    {
+      "content": "End users see a notification that the web link was installed on their device.",
+      "pos": [
+        16735,
+        16812
+      ]
+    },
+    {
+      "content": "They find the list of installed web links in the Company Portal widget, which they must add to the home screen.",
+      "pos": [
+        16813,
+        16924
+      ]
+    },
+    {
+      "content": "App appears in the Apps tab of the Company Portal.",
+      "pos": [
+        16987,
+        17037
+      ]
+    },
+    {
+      "content": "End users see a notification that the web link was installed on their device.",
+      "pos": [
+        17100,
+        17177
+      ]
+    },
+    {
+      "content": "They find the list of installed web links in the Company Portal widget, which they must add to the home screen.",
+      "pos": [
+        17178,
+        17289
+      ]
+    },
+    {
+      "content": "App appears in the Apps tab of the Company Portal.",
+      "pos": [
+        17352,
+        17402
+      ]
+    },
+    {
+      "content": "The iOS experience",
+      "pos": [
+        17524,
+        17542
+      ]
+    },
+    {
+      "content": "iOS Company Portal required app",
+      "pos": [
+        17704,
+        17735
+      ]
+    },
+    {
+      "content": "iOS Company Portal available app",
+      "pos": [
+        17798,
+        17830
+      ]
+    },
+    {
+      "content": "Web Portal (iOS Safari browser) required app",
+      "pos": [
+        17893,
+        17937
+      ]
+    },
+    {
+      "content": "Web Portal (iOS Safari browser) available app",
+      "pos": [
+        18000,
+        18045
+      ]
+    },
+    {
+      "content": "Side-loaded app (LOB)",
+      "pos": [
+        18172,
+        18193
+      ]
+    },
+    {
+      "content": "N/A; pushed directly to device",
+      "pos": [
+        18256,
+        18286
+      ]
+    },
+    {
+      "content": "No (see note below)",
+      "pos": [
+        18349,
+        18368
+      ]
+    },
+    {
+      "content": "N/A; pushed directly to device",
+      "pos": [
+        18431,
+        18461
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        18524,
+        18527
+      ]
+    },
+    {
+      "content": "Unmanaged App Store App (Deep-link)",
+      "pos": [
+        18621,
+        18656
+      ]
+    },
+    {
+      "content": "N/A; cannot push required install on deep-linked apps; instead use managed apps",
+      "pos": [
+        18719,
+        18798
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        18861,
+        18864
+      ]
+    },
+    {
+      "content": "N/A",
+      "pos": [
+        18927,
+        18930
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        18993,
+        18996
+      ]
+    },
+    {
+      "content": "Managed App Store App",
+      "pos": [
+        19090,
+        19111
+      ]
+    },
+    {
+      "content": "N/A; pushed directly to device",
+      "pos": [
+        19174,
+        19204
+      ]
+    },
+    {
+      "content": "No (see important note below)",
+      "pos": [
+        19267,
+        19296
+      ]
+    },
+    {
+      "content": "Yes; required apps are also shown as available in Web Portal)",
+      "pos": [
+        19359,
+        19420
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        19483,
+        19486
+      ]
+    },
+    {
+      "content": "Web App",
+      "pos": [
+        19580,
+        19587
+      ]
+    },
+    {
+      "content": "N/A; pushed directly to device",
+      "pos": [
+        19650,
+        19680
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        19743,
+        19746
+      ]
+    },
+    {
+      "content": "N/A; pushed directly to device",
+      "pos": [
+        19809,
+        19839
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        19902,
+        19905
+      ]
+    },
+    {
+      "content": "The Windows experience",
+      "pos": [
+        20928,
+        20950
+      ]
+    },
+    {
+      "content": "Windows Phone Company Portal Required App",
+      "pos": [
+        21112,
+        21153
+      ]
+    },
+    {
+      "content": "Windows Phone Company Portal Available App",
+      "pos": [
+        21216,
+        21258
+      ]
+    },
+    {
+      "content": "Windows Company Portal Required App",
+      "pos": [
+        21321,
+        21356
+      ]
+    },
+    {
+      "content": "Windows Company Portal Available App",
+      "pos": [
+        21419,
+        21455
+      ]
+    },
+    {
+      "content": "Side-loaded app (LOB)",
+      "pos": [
+        21582,
+        21603
+      ]
+    },
+    {
+      "content": "App appears in",
+      "pos": [
+        21666,
+        21680
+      ]
+    },
+    {
+      "content": "Apps",
+      "pos": [
+        21685,
+        21689
+      ]
+    },
+    {
+      "content": "hub in Company Portal.",
+      "pos": [
+        21695,
+        21717
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1: App appears in",
+      "pos": [
+        21780,
+        21813
+      ]
+    },
+    {
+      "content": "Apps",
+      "pos": [
+        21818,
+        21822
+      ]
+    },
+    {
+      "content": "hub in Company portal (Windows Phone 8 and Windows Phone 8.1 apps).",
+      "pos": [
+        21828,
+        21895
+      ]
+    },
+    {
+      "content": "Windows Phone 8: Not supported.",
+      "pos": [
+        21923,
+        21954
+      ]
+    },
+    {
+      "content": "Pushed directly to device.",
+      "pos": [
+        22017,
+        22043
+      ]
+    },
+    {
+      "content": "App appears in",
+      "pos": [
+        22106,
+        22120
+      ]
+    },
+    {
+      "content": "Apps",
+      "pos": [
+        22125,
+        22129
+      ]
+    },
+    {
+      "content": "hub in Company Portal.",
+      "pos": [
+        22135,
+        22157
+      ]
+    },
+    {
+      "content": "Unmanaged App Store App (Deep-link)",
+      "pos": [
+        22251,
+        22286
+      ]
+    },
+    {
+      "content": "Not supported.",
+      "pos": [
+        22349,
+        22363
+      ]
+    },
+    {
+      "content": "App appears in",
+      "pos": [
+        22426,
+        22440
+      ]
+    },
+    {
+      "content": "Apps",
+      "pos": [
+        22445,
+        22449
+      ]
+    },
+    {
+      "content": "hub in Company Portal.",
+      "pos": [
+        22455,
+        22477
+      ]
+    },
+    {
+      "content": "Not supported.",
+      "pos": [
+        22540,
+        22554
+      ]
+    },
+    {
+      "content": "App appears in",
+      "pos": [
+        22617,
+        22631
+      ]
+    },
+    {
+      "content": "Apps",
+      "pos": [
+        22636,
+        22640
+      ]
+    },
+    {
+      "content": "hub in Company Portal.",
+      "pos": [
+        22646,
+        22668
+      ]
+    },
+    {
+      "content": "Managed App Store App",
+      "pos": [
+        22762,
+        22783
+      ]
+    },
+    {
+      "content": "Does not apply to Windows Phone apps.",
+      "pos": [
+        22846,
+        22883
+      ]
+    },
+    {
+      "content": "Does not exist for Windows Phone Apps",
+      "pos": [
+        22946,
+        22983
+      ]
+    },
+    {
+      "content": "Doesn’t exist for Windows apps.",
+      "pos": [
+        23046,
+        23077
+      ]
+    },
+    {
+      "content": "Doesn’t exist for Windows apps.",
+      "pos": [
+        23140,
+        23171
+      ]
+    },
+    {
+      "content": "Web App",
+      "pos": [
+        23265,
+        23272
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1: not supported.",
+      "pos": [
+        23335,
+        23368
+      ]
+    },
+    {
+      "content": "Windows Phone 8: Web app is launched within the Company Portal",
+      "pos": [
+        23396,
+        23458
+      ]
+    },
+    {
+      "content": "App appears in",
+      "pos": [
+        23521,
+        23535
+      ]
+    },
+    {
+      "content": "Apps",
+      "pos": [
+        23540,
+        23544
+      ]
+    },
+    {
+      "content": "hub in Company Portal.",
+      "pos": [
+        23550,
+        23572
+      ]
+    },
+    {
+      "content": "Shortcut to Web app pushed directly to the device.",
+      "pos": [
+        23635,
+        23685
+      ]
+    },
+    {
+      "content": "App appears in",
+      "pos": [
+        23748,
+        23762
+      ]
+    },
+    {
+      "content": "Apps",
+      "pos": [
+        23767,
+        23771
+      ]
+    },
+    {
+      "content": "hub in Company Portal.",
+      "pos": [
+        23777,
+        23799
+      ]
+    },
+    {
+      "content": "Get started with Microsoft Intune",
+      "pos": [
+        24004,
+        24037
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - What to tell your end users about using Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: e91b16d1-220d-4673-b0d9-6fc98c3167de\n---\n# MD Conversion - What to tell your end users about using Microsoft Intune\n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<developerConceptualDocument xmlns=\"http://ddue.schemas.microsoft.com/authoring/2003/5\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://ddue.schemas.microsoft.com/authoring/2003/5 http://dduestorage.blob.core.windows.net/ddueschema/developer.xsd\">\n  <introduction>\n    <para>This topic provides administrators with information about what your users see and experience when you use Intune to manage their devices.</para>\n  </introduction>\n  <section>\n<title>Where your users can find information about common tasks</title><content><para>Share these links with your users to help them find information about enrolling their devices in Intune and doing different tasks on their devices after enrolling.</para>\n\n<para><ui>Android device types:</ui> See the article <link xlink:href=\"465763db-b68d-4392-a5a4-732b5b875c2b\">Using your Android device with Intune</link>.</para>\n  \n  <para>Tasks explained in this article:</para>\n\n\n <table border=\"1\">\n   <thead><tr><TD><para>Task category</para></TD><TD><para>Link to task</para></TD></tr></thead>\n   <tbody><tr><TD><para>Company Portal app installation and Intune enrollment</para></TD><TD><para><externalLink><linkText>Install the Microsoft Intune Company Portal app</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>Sign in to the Company Portal app</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>Enroll your device in Intune</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>What happens when I install the Company Portal app and enroll my device in Intune?</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para></TD></tr><tr><TD><para>Things you can do when your device is enrolled in Intune</para></TD><TD><para><externalLink><linkText>What is the company portal website and what can I do with it?</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>Encrypt your device</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>Set your PIN or password</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>Install your company's Virtual Private Network (VPN)</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><link xlink:href=\"98034875-cd3a-4367-a8d7-c5d4a438d496\">How to set the period before your Android device is locked</link></para><para><externalLink><linkText>Reset (erase) your lost or stolen device</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>Turn off Microsoft usage data collection</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>Unenroll your device from Intune</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>What happens when you unenroll your device from Intune and uninstall the Company Portal app?</linkText><linkUri>https://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para></TD></tr><tr><TD><para>Fix issues with your device</para></TD><TD><para><externalLink><linkText>Use Verbose Logging to help your IT admin fix issues</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>Send diagnostic data logs to your IT admin using email</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>Send diagnostic data logs to your IT admin using a USB cable</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>Send enrollment errors to your IT admin</linkText><linkUri>http://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>Device doesn't have the required minimum operating system version</linkText><linkUri>https://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><externalLink><linkText>Device doesn't comply with the maximum operating system version</linkText><linkUri>https://technet.microsoft.com/library/mt502762.aspx</linkUri></externalLink></para><para><link xlink:href=\"ade7353e-7338-484d-a50f-b91146d5fc46\">How to reconnect a compromised Android device</link></para></TD></tr>\n</tbody></table>\n\n<para><ui>iOS device types:</ui> See the article <link xlink:href=\"3d648819-b866-412b-bd19-ac4505eb5eaf\">Using your iOS device with Intune</link>.</para>\n  \n<para>Tasks explained in this article:</para>\n\n  <table border=\"1\"><thead><tr><TD><para>Task category</para></TD><TD><para>Link to task</para></TD></tr></thead><tbody><tr><TD><para>Company Portal app installation and Intune enrollment</para></TD><TD><para><externalLink><linkText>Install and sign in to the Intune Company Portal app</linkText><linkUri>http://technet.microsoft.com/library/mt598622.aspx</linkUri></externalLink></para><para><externalLink><linkText>Enroll your iOS device in Intune</linkText><linkUri>https://technet.microsoft.com/library/mt598622.aspx</linkUri></externalLink></para><para><externalLink><linkText>Enroll your Mac OS X device in Intune</linkText><linkUri>https://technet.microsoft.com/library/mt598622.aspx</linkUri></externalLink></para><para><externalLink><linkText>What happens when I install the Company Portal app and enroll my device in Intune?</linkText><linkUri>http://technet.microsoft.com/library/mt598622.aspx</linkUri></externalLink></para></TD></tr><tr><TD><para>Things you can do when your device is enrolled in Intune</para></TD><TD><para><externalLink><linkText>What is the Company Portal website and what can I do with it?</linkText><linkUri>http://technet.microsoft.com/library/mt598622.aspx</linkUri></externalLink></para><para><externalLink><linkText>Reset (erase) your lost or stolen device</linkText><linkUri>http://technet.microsoft.com/library/mt598622.aspx</linkUri></externalLink></para><para><externalLink><linkText>Turn off Microsoft usage data collection</linkText><linkUri>http://technet.microsoft.com/library/mt598622.aspx</linkUri></externalLink></para><para><externalLink><linkText>Unenroll your device from Intune</linkText><linkUri>http://technet.microsoft.com/library/mt598622.aspx</linkUri></externalLink></para></TD></tr><tr><TD><para>Fix issues with your device</para></TD><TD><para><externalLink><linkText>You get an error while using the Company Portal app</linkText><linkUri>https://technet.microsoft.com/library/mt598622.aspx</linkUri></externalLink></para><para><externalLink><linkText>You see errors while trying to enroll your device in Intune</linkText><linkUri>https://technet.microsoft.com/library/mt598622.aspx</linkUri></externalLink></para><para><externalLink><linkText>Device doesn't have the required minimum operating system version</linkText><linkUri>https://technet.microsoft.com/library/mt598622.aspx</linkUri></externalLink></para><para><externalLink><linkText>Device doesn't comply with the maximum operating system version</linkText><linkUri>https://technet.microsoft.com/library/mt598622.aspx</linkUri></externalLink></para><para><link xlink:href=\"09e97df0-d032-48ff-ab8a-8c2c4ec29897\">How to reconnect a compromised iOS device</link></para></TD></tr>\n</tbody></table>\n\n\n<para><ui>Windows device types:</ui> See the article <link xlink:href=\"0de5f03a-c288-423b-b9ea-493a39eb715a\">Using your Windows device with Intune</link>. Also see <link xlink:href=\"a26d9e3c-8f58-4494-9571-fc88ba91852e\">Using the Intune Company Portal website</link>.</para>\n  \n<para>Tasks explained in this article:</para>\n\n  <table border=\"1\"><thead><tr><TD><para>Task category</para></TD><TD><para>Link to task</para></TD></tr></thead><tbody><tr><TD><para>Company Portal app installation and Intune enrollment</para></TD><TD><para><externalLink><linkText>Enroll your device in Intune</linkText><linkUri>http://technet.microsoft.com/library/mt427782.aspx</linkUri></externalLink></para><para><externalLink><linkText>What happens when I install the Company Portal app and enroll my device in Intune?</linkText><linkUri>http://technet.microsoft.com/library/mt427782.aspx</linkUri></externalLink></para><para><externalLink><linkText>What can my IT admin see when I enroll my device in Intune?</linkText><linkUri>http://technet.microsoft.com/library/mt427782.aspx</linkUri></externalLink></para></TD></tr><tr><TD><para>Things you can do when your device is enrolled in Intune</para></TD><TD><para><externalLink><linkText>What is the Company Portal website?</linkText><linkUri>http://technet.microsoft.com/library/mt427782.aspx</linkUri></externalLink></para><para><externalLink><linkText>Encrypt your device</linkText><linkUri>http://technet.microsoft.com/library/mt427782.aspx</linkUri></externalLink></para><para><externalLink><linkText>Reset (erase) your lost or stolen device</linkText><linkUri>http://technet.microsoft.com/library/mt427782.aspx</linkUri></externalLink></para><para><externalLink><linkText>What happens if I reset my Windows device using the Company Portal?</linkText><linkUri>https://technet.microsoft.com/library/mt427782.aspx</linkUri></externalLink></para><para><externalLink><linkText>Unenroll your device from Intune</linkText><linkUri>http://technet.microsoft.com/library/mt427782.aspx</linkUri></externalLink></para><para><externalLink><linkText>What happens when I remove my device from the Company Portal?</linkText><linkUri>https://technet.microsoft.com/library/mt427782.aspx</linkUri></externalLink></para><para><externalLink><linkText>Turn off Microsoft usage data collection</linkText><linkUri>https://technet.microsoft.com/library/mt427782.aspx#BKMK_windows_pc_data_collect</linkUri></externalLink></para></TD></tr><tr><TD><para>Fix issues with your device</para></TD><TD><para><externalLink><linkText>Device doesn't have the required minimum operating system version</linkText><linkUri>https://technet.microsoft.com/library/mt427782.aspx</linkUri></externalLink></para><para><externalLink><linkText>Device doesn't comply with the maximum operating system version</linkText><linkUri>https://technet.microsoft.com/library/mt427782.aspx</linkUri></externalLink></para></TD></tr></tbody></table>\n\n\n    \n    \n    <para>Check out the following links for more information:</para><table border=\"1\"><thead><tr><TD><para>Description</para></TD><TD><para>Links</para></TD></tr></thead><tbody><tr><TD><para>Enrolling and un-enrolling your device</para></TD><TD>\n<para><externalLink><linkText>Microsoft Intune Enrollment Instructions (whitepaper - contains enrollment instructions for end users for supported platforms)</linkText><linkUri>https://www.microsoft.com/en-us/download/46398</linkUri></externalLink></para>\n<para><externalLink><linkText>Reference information about communicating with your end users about enrolling devices in Intune, installing the company portal app, understanding privacy information, and what to do if users lose their phones</linkText><linkUri>http://download.microsoft.com/download/9/4/F/94FD4282-1927-439A-BF8A-A5EFF1E52C04/Microsoft Intune End User Enrollment Guide v1.zip</linkUri></externalLink></para>\n<para><link xlink:href=\"a3ab3bcc-ac45-4df3-88cc-5eb2ba5c3aed\">What Happens if You Remove or Reset a Personal Device Using the Company Portal</link></para>\n</TD></tr><tr><TD><para>FAQ about the Company Portal and general information</para></TD><TD><para><link xlink:href=\"523caa6b-d792-4bb6-bddb-24b2479932d8\">Company Portal Frequently Asked Questions</link></para></TD></tr></tbody></table></content>\n</section><section>\n<title>How end users get their apps</title><content><para>This section describes, for each device platform, how and where your end users  get apps that you distribute through <token>wit_firstref</token>.  </para><para>The following terms are used in the tables that describe how users get their apps for each platform.</para><table>\n            <thead>\n              <tr>\n                <TD>\n                  <para>Category</para>\n                </TD><TD><para>Term</para></TD>\n                <TD>\n                  <para>Definition</para>\n                </TD>\n              </tr>\n            </thead>\n            <tbody>\n              <tr>\n                <TD rowspan=\"2\">\n                  \n                <para>App deployment method</para>\n                  \n                </TD><TD><para>Required apps</para></TD>\n                <TD>\n                  <para>Apps that are required by the administrator and that are installed on the device with minimal user involvement, depending on the platform).</para>\n                </TD>\n              </tr>\n              <tr>\n                <TD><para>Available apps</para></TD>\n                <TD>\n                  <para>Apps that are provided in the Company Portal app list and that a user may optionally choose to install.</para>\n                </TD>\n              </tr><tr><TD rowspan=\"2\"><para>Apps that can be managed through policies</para></TD><TD><para>Managed apps</para></TD><TD><para>Apps that have been \"wrapped\" by Intune or have been built with the Intune Mobile Application Management (MAM) Software Development Kit (SDK). These apps can be managed by Intune, and application policies can be applied to them.</para></TD></tr><tr><TD><para>Unmanaged apps</para></TD><TD><para>Apps that have not been wrapped by Intune or that do not incorporate the Intune MAM SDK.  Application policies cannot be applied to these apps.</para></TD></tr>\n            </tbody>\n          </table></content>\n<sections><section>\n    <title>The Android experience</title>\n    <content>\n      <table>\n        <thead>\n          <tr>\n            <TD>\n              <para/>\n            </TD>\n            <TD>\n              <para>Android Required App</para>\n            </TD>\n            <TD>\n              <para>Android Available App</para>\n            </TD>\n            <TD>\n              <para>Samsung KNOX Required App</para>\n            </TD>\n            <TD>\n              <para>Samsung KNOX Available App</para>\n            </TD>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <TD>\n              <para>Side-loaded app (LOB)</para>\n            </TD>\n            <TD>\n              <para>End users see a notification indicating that they are required to install an app. User taps once to download and install the app. The notification displays until users install the app.</para>\n            </TD>\n            <TD>\n              <para>App appears in <ui>Apps</ui> tab of Company Portal.</para>\n            </TD>\n            <TD>\n              <para>App downloads and installs automatically without user interaction.</para>\n            </TD>\n            <TD>\n              <para>App appears in <ui>Apps</ui> tab of Company Portal.</para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>Play Store app (deep-linked app)</para>\n            </TD>\n            <TD>\n              <para>End users see a notification indicating that they are required to install an app. Clicking the app takes users to the Play Store, where they can install the app. The notification displays until users install the app.</para>\n            </TD>\n            <TD>\n              <para>App appears in <ui>Apps</ui> tab of Company Portal.</para>\n            </TD>\n            <TD>\n              <para>End users see a notification indicating that they are required to install an app. Clicking the app takes users to the Play Store, where they can install the app. The notification displays until users install the app.</para>\n            </TD>\n            <TD>\n              <para>App appears in <ui>Apps</ui> tab of Company Portal.</para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>Web  link</para>\n            </TD>\n            <TD>\n              <para>End users see a notification that the web link was installed on their device. They find the list of installed web links in the Company Portal widget, which they must add to the home screen.</para>\n            </TD>\n            <TD>\n              <para>App appears in the Apps tab of the Company Portal.</para>\n            </TD>\n            <TD>\n              <para>End users see a notification that the web link was installed on their device. They find the list of installed web links in the Company Portal widget, which they must add to the home screen.</para>\n            </TD>\n            <TD>\n              <para>App appears in the Apps tab of the Company Portal.</para>\n            </TD>\n          </tr>\n        </tbody>\n      </table>\n    </content>\n  </section><section>\n    <title>The iOS experience</title>\n    <content>\n      <table>\n        <thead>\n          <tr>\n            <TD>\n              <para/>\n            </TD>\n            <TD>\n              <para>iOS Company Portal required app</para>\n            </TD>\n            <TD>\n              <para>iOS Company Portal available app</para>\n            </TD>\n            <TD>\n              <para>Web Portal (iOS Safari browser) required app</para>\n            </TD>\n            <TD>\n              <para>Web Portal (iOS Safari browser) available app</para>\n            </TD>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <TD>\n              <para>Side-loaded app (LOB)</para>\n            </TD>\n            <TD>\n              <para>N/A; pushed directly to device</para>\n            </TD>\n            <TD>\n              <para>No (see note below)</para>\n            </TD>\n            <TD>\n              <para>N/A; pushed directly to device</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>Unmanaged App Store App (Deep-link)</para>\n            </TD>\n            <TD>\n              <para>N/A; cannot push required install on deep-linked apps; instead use managed apps</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>N/A</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>Managed App Store App</para>\n            </TD>\n            <TD>\n              <para>N/A; pushed directly to device</para>\n            </TD>\n            <TD>\n              <para>No (see important note below)</para>\n            </TD>\n            <TD>\n              <para>Yes; required apps are also shown as available in Web Portal)</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>Web App</para>\n            </TD>\n            <TD>\n              <para>N/A; pushed directly to device</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n            <TD>\n              <para>N/A; pushed directly to device</para>\n            </TD>\n            <TD>\n              <para>Yes</para>\n            </TD>\n          </tr>\n        </tbody>\n      </table>\n      \n      <alert class=\"note\">\n        <para>Currently, end users cannot install corporate apps from the Intune Company Portal app for iOS. This is due to restrictions placed on apps that are published in the iOS App Store (see <externalLink><linkText>App Store Review Guidelines</linkText><linkUri>https://developer.apple.com/app-store/review/guidelines/</linkUri></externalLink>). Users can access corporate apps (including managed App Store apps and line-of-business app packages) by launching the Company Portal app on their device and tapping the Company Apps tile, which will open Safari browser and redirect them to the Intune Web Portal. For more information about the mobile management capabilities enabled by the Intune Company Portal app, see <link xlink:href=\"f23b3ee7-78da-4e53-9fc2-78e58401bcf9\">Mobile device management capabilities in Microsoft Intune</link>.</para>\n      </alert>\n    </content>\n  </section><section>\n    <title>The Windows experience</title>\n    <content>\n      <table>\n        <thead>\n          <tr>\n            <TD>\n              <para/>\n            </TD>\n            <TD>\n              <para>Windows Phone Company Portal Required App</para>\n            </TD>\n            <TD>\n              <para>Windows Phone Company Portal Available App</para>\n            </TD>\n            <TD>\n              <para>Windows Company Portal Required App</para>\n            </TD>\n            <TD>\n              <para>Windows Company Portal Available App</para>\n            </TD>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <TD>\n              <para>Side-loaded app (LOB)</para>\n            </TD>\n            <TD>\n              <para>App appears in <ui>Apps</ui> hub in Company Portal.</para>\n            </TD>\n            <TD>\n              <para>Windows Phone 8.1: App appears in <ui>Apps</ui> hub in Company portal (Windows Phone 8 and Windows Phone 8.1 apps).</para>\n              <para>Windows Phone 8: Not supported.</para>\n            </TD>\n            <TD>\n              <para>Pushed directly to device.</para>\n            </TD>\n            <TD>\n              <para>App appears in <ui>Apps</ui> hub in Company Portal.</para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>Unmanaged App Store App (Deep-link)</para>\n            </TD>\n            <TD>\n              <para>Not supported.</para>\n            </TD>\n            <TD>\n              <para>App appears in <ui>Apps</ui> hub in Company Portal.</para>\n            </TD>\n            <TD>\n              <para>Not supported.</para>\n            </TD>\n            <TD>\n              <para>App appears in <ui>Apps</ui> hub in Company Portal.</para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>Managed App Store App</para>\n            </TD>\n            <TD>\n              <para>Does not apply to Windows Phone apps.</para>\n            </TD>\n            <TD>\n              <para>Does not exist for Windows Phone Apps</para>\n            </TD>\n            <TD>\n              <para>Doesn’t exist for Windows apps.</para>\n            </TD>\n            <TD>\n              <para>Doesn’t exist for Windows apps.</para>\n            </TD>\n          </tr>\n          <tr>\n            <TD>\n              <para>Web App</para>\n            </TD>\n            <TD>\n              <para>Windows Phone 8.1: not supported.</para>\n              <para>Windows Phone 8: Web app is launched within the Company Portal</para>\n            </TD>\n            <TD>\n              <para>App appears in <ui>Apps</ui> hub in Company Portal.</para>\n            </TD>\n            <TD>\n              <para>Shortcut to Web app pushed directly to the device.</para>\n            </TD>\n            <TD>\n              <para>App appears in <ui>Apps</ui> hub in Company Portal.</para>\n            </TD>\n          </tr>\n        </tbody>\n      </table>\n    </content>\n  </section></sections></section>\n  \n  \n  \n  <relatedTopics><link xlink:href=\"1bfd1a23-681d-4cc8-834c-c7856d69d409\">Get started with Microsoft Intune</link></relatedTopics>\n</developerConceptualDocument>\n\n"
+}

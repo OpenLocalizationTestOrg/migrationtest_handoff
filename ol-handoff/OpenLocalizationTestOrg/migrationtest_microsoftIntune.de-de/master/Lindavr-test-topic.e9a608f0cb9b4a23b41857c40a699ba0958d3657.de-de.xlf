@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">4c99a6a40ba9199e0a1957f44acebf57f8d6c9ad</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Lindavr test topic</source>
+          <target>Lindavr test topic</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Lindavr test topic</source>
+          <target>Lindavr test topic</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>There comes a point when an employee either parts ways with the company, or with their device.</source>
+          <target>There comes a point when an employee either parts ways with the company, or with their device.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>In such cases, you need to be able to ensure</source>
+          <target>In such cases, you need to be able to ensure</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>that neither the employee nor anyone using their device can access company resources.</source>
+          <target>that neither the employee nor anyone using their device can access company resources.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>You may also want to make sure that any company</source>
+          <target>You may also want to make sure that any company</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>information on the device is removed.</source>
+          <target>information on the device is removed.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>When a device is lost or stolen</source>
+          <target>When a device is lost or stolen</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>When an employee loses a mobile device, or if that device is stolen, your first concern is to make sure that any company information on that device can’t be read.</source>
+          <target>When an employee loses a mobile device, or if that device is stolen, your first concern is to make sure that any company information on that device can’t be read.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>You also want to make sure that the device can’t be used to log on to company resources.</source>
+          <target>You also want to make sure that the device can’t be used to log on to company resources.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>You have several options:</source>
+          <target>You have several options:</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/jj676679.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can <pc dataRefEnd="id2" dataRefStart="id1" id="p1"> selectively wipe company data and apps </pc> from the device.</source>
+          <target>You can <pc dataRefEnd="id2" dataRefStart="id1" id="p1"> selectively wipe company data and apps </pc> from the device.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>This is the preferred action for employees who have enrolled their own devices in Intune because it does not affect personal information on the device.</source>
+          <target>This is the preferred action for employees who have enrolled their own devices in Intune because it does not affect personal information on the device.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Selective wipe also removes the device from Intune, which means it will no longer have the credentials necessary to log on to company resources such as Microsoft SharePoint, email, or Office 365.</source>
+          <target>Selective wipe also removes the device from Intune, which means it will no longer have the credentials necessary to log on to company resources such as Microsoft SharePoint, email, or Office 365.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/jj676679.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also <pc dataRefEnd="id2" dataRefStart="id1" id="p1"> reset a device to factory settings</pc> to make sure no data – personal or corporate – falls into the wrong hands.</source>
+          <target>You can also <pc dataRefEnd="id2" dataRefStart="id1" id="p1"> reset a device to factory settings</pc> to make sure no data – personal or corporate – falls into the wrong hands.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>This is the preferred action for company-owned devices and also removes the device from Intune.</source>
+          <target>This is the preferred action for company-owned devices and also removes the device from Intune.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>If company-owned iOS devices are protected by Activation Lock, you must enter the user's Apple ID and password  before you can erase or reactivate the device.</source>
+          <target>If company-owned iOS devices are protected by Activation Lock, you must enter the user's Apple ID and password  before you can erase or reactivate the device.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>This can present a challenge when users leave the company and return a company-owned device without turning off Activation Lock.</source>
+          <target>This can present a challenge when users leave the company and return a company-owned device without turning off Activation Lock.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/mt414176.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To help solve this problem, you can use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune Activation Lock Bypass</pc>.</source>
+          <target>To help solve this problem, you can use <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune Activation Lock Bypass</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>When an employee leaves your company</source>
+          <target>When an employee leaves your company</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>When an employee leaves your company, you also want to make that they don’t take company data with them, whether they’ve been using their own device or have neglected to turn in company-owned hardware.</source>
+          <target>When an employee leaves your company, you also want to make that they don’t take company data with them, whether they’ve been using their own device or have neglected to turn in company-owned hardware.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/jj676679.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the first case, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">selectively wiping the employee’s personal device</pc> is sufficient.</source>
+          <target>In the first case, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">selectively wiping the employee’s personal device</pc> is sufficient.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/jj676679.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the second case, you can <pc dataRefEnd="id2" dataRefStart="id1" id="p1">remotely lock </pc> it.</source>
+          <target>In the second case, you can <pc dataRefEnd="id2" dataRefStart="id1" id="p1">remotely lock </pc> it.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>This keeps both company information and company hardware from being misused, although you may have to write the device off as a loss.</source>
+          <target>This keeps both company information and company hardware from being misused, although you may have to write the device off as a loss.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>You also want to revoke the license from the employee's Intune user account.</source>
+          <target>You also want to revoke the license from the employee's Intune user account.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>This frees up the license and you can assign it to a new user  account.</source>
+          <target>This frees up the license and you can assign it to a new user  account.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>When you need to retire hardware</source>
+          <target>When you need to retire hardware</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Sometimes, it’s the device itself that has reached its end of life.</source>
+          <target>Sometimes, it’s the device itself that has reached its end of life.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/jj676679.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In such cases, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">resetting it to factory settings</pc> removes all data and removes the device from Intune.</source>
+          <target>In such cases, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">resetting it to factory settings</pc> removes all data and removes the device from Intune.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Then you can get rid of the hardware according to your company’s policy.</source>
+          <target>Then you can get rid of the hardware according to your company’s policy.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Inventory audits and license management</source>
+          <target>Inventory audits and license management</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/dn646977.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can keep track of changes to inventory and licenses through the built-in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">inventory reports</pc>.</source>
+          <target>You can keep track of changes to inventory and licenses through the built-in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">inventory reports</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Documentation for Microsoft Intune</source>
+          <target>Documentation for Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

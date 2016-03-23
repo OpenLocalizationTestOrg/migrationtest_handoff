@@ -1,0 +1,1046 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - Deploy apps to mobile devices in Microsoft Intune",
+      "pos": [
+        11,
+        76
+      ]
+    },
+    {
+      "content": "MD Conversion - Deploy apps to mobile devices in Microsoft Intune",
+      "pos": [
+        211,
+        276
+      ]
+    },
+    {
+      "content": "Now that you've <bpt id=\"p1\">[</bpt>learned the basics<ept id=\"p1\">](https://technet.microsoft.com/library/dn646955.aspx)</ept> about <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> app deployment, you'll now learn how to configure and deploy apps to devices enrolled with <ph id=\"ph2\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        277,
+        570
+      ]
+    },
+    {
+      "content": "This generally involves three steps:",
+      "pos": [
+        571,
+        607
+      ]
+    },
+    {
+      "content": "Configure the app",
+      "pos": [
+        614,
+        631
+      ]
+    },
+    {
+      "content": "Deploy the app",
+      "pos": [
+        651,
+        665
+      ]
+    },
+    {
+      "content": "Monitor the app",
+      "pos": [
+        685,
+        700
+      ]
+    },
+    {
+      "pos": [
+        718,
+        860
+      ],
+      "content": "For information about how to update and retire apps, see <bpt id=\"p1\">[</bpt>Update apps using Microsoft Intune<ept id=\"p1\">](../Topic/Update-apps-using-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        864,
+        1293
+      ],
+      "content": "[!IMPORTANT]\nThe information in this topic helps you to deploy apps to [enrolled Windows PCs](https://technet.microsoft.com/library/mt346003.aspx) and other mobile devices. If you want to deploy apps to  [Windows PCs that you manage using the client software](https://technet.microsoft.com/library/dn646959.aspx), see [Deploy apps to Windows PCs in Microsoft Intune](../Topic/Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md).",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "The information in this topic helps you to deploy apps to [enrolled Windows PCs](https://technet.microsoft.com/library/mt346003.aspx) and other mobile devices. If you want to deploy apps to  [Windows PCs that you manage using the client software](https://technet.microsoft.com/library/dn646959.aspx), see [Deploy apps to Windows PCs in Microsoft Intune](../Topic/Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md).",
+          "pos": [
+            13,
+            427
+          ],
+          "nodes": [
+            {
+              "content": "The information in this topic helps you to deploy apps to <bpt id=\"p1\">[</bpt>enrolled Windows PCs<ept id=\"p1\">](https://technet.microsoft.com/library/mt346003.aspx)</ept> and other mobile devices.",
+              "pos": [
+                0,
+                159
+              ]
+            },
+            {
+              "content": "If you want to deploy apps to  <bpt id=\"p1\">[</bpt>Windows PCs that you manage using the client software<ept id=\"p1\">](https://technet.microsoft.com/library/dn646959.aspx)</ept>, see <bpt id=\"p2\">[</bpt>Deploy apps to Windows PCs in Microsoft Intune<ept id=\"p2\">](../Topic/Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md)</ept>.",
+              "pos": [
+                160,
+                414
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        1298,
+        1339
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_Conf\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Configure the app"
+    },
+    {
+      "content": "In this procedure, you'll use the Intune Software Publisher to configure the properties of the app and, where applicable, upload it to your cloud storage space.",
+      "pos": [
+        1340,
+        1500
+      ]
+    },
+    {
+      "content": "To configure an app",
+      "pos": [
+        1507,
+        1526
+      ]
+    },
+    {
+      "pos": [
+        1532,
+        1683
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administrator console<ept id=\"p1\">](https://manage.microsoft.com)</ept>, click <bpt id=\"p2\">**</bpt>Apps<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Add Apps<ept id=\"p3\">**</ept> to start the Intune software publisher."
+    },
+    {
+      "pos": [
+        1691,
+        1790
+      ],
+      "content": "[!TIP]\nYou might need to enter your Intune username and password before the publisher starts.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "You might need to enter your Intune username and password before the publisher starts.",
+          "pos": [
+            7,
+            93
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        1796,
+        1878
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Software setup<ept id=\"p1\">**</ept> page of the software publisher, configure the following:"
+    },
+    {
+      "pos": [
+        1884,
+        1956
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Select how this software is made available to devices<ept id=\"p1\">**</ept> - Choose from:"
+    },
+    {
+      "pos": [
+        1966,
+        2003
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Software installer<ept id=\"p1\">**</ept>, then specify:"
+    },
+    {
+      "content": "Setting",
+      "pos": [
+        2014,
+        2021
+      ]
+    },
+    {
+      "content": "Details",
+      "pos": [
+        2022,
+        2029
+      ]
+    },
+    {
+      "content": "Select the software installer file type",
+      "pos": [
+        2076,
+        2115
+      ]
+    },
+    {
+      "content": "This indicates the type of software you want to deploy.",
+      "pos": [
+        2118,
+        2173
+      ]
+    },
+    {
+      "content": "For example, if you want to install an iOS app, choose <bpt id=\"p1\">**</bpt>App Package for iOS (&amp;#42;.ipa file)<ept id=\"p1\">**</ept>.",
+      "pos": [
+        2174,
+        2270
+      ]
+    },
+    {
+      "content": "Specify the location of the software setup files",
+      "pos": [
+        2283,
+        2331
+      ]
+    },
+    {
+      "pos": [
+        2334,
+        2434
+      ],
+      "content": "Enter the location of the installation files or click <bpt id=\"p1\">**</bpt>Browse<ept id=\"p1\">**</ept> to select the location from a list."
+    },
+    {
+      "content": "Include additional files and subfolders from the same folder",
+      "pos": [
+        2447,
+        2507
+      ]
+    },
+    {
+      "content": "For the <bpt id=\"p1\">**</bpt>Windows Installer<ept id=\"p1\">**</ept> file type only",
+      "pos": [
+        2510,
+        2554
+      ]
+    },
+    {
+      "content": "Some software that uses Windows Installer requires supporting files which are typically found in the same folder as the installation files.",
+      "pos": [
+        2566,
+        2705
+      ]
+    },
+    {
+      "content": "Select this option if you also want to deploy these files.",
+      "pos": [
+        2706,
+        2764
+      ]
+    },
+    {
+      "content": "This installation type uses some of your cloud storage space.",
+      "pos": [
+        2774,
+        2835
+      ]
+    },
+    {
+      "pos": [
+        2845,
+        2877
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>External link<ept id=\"p1\">**</ept>, then specify:"
+    },
+    {
+      "content": "Setting",
+      "pos": [
+        2888,
+        2895
+      ]
+    },
+    {
+      "content": "Details",
+      "pos": [
+        2896,
+        2903
+      ]
+    },
+    {
+      "content": "Specify the URL",
+      "pos": [
+        2950,
+        2965
+      ]
+    },
+    {
+      "content": "Enter the app store URL of the app you want to deploy.",
+      "pos": [
+        2968,
+        3022
+      ]
+    },
+    {
+      "content": "For example, if you want to deploy the Microsoft Remote Desktop app for Android, specify <bpt id=\"p1\">**</bpt>https://play.google.com/store/apps/details?id=com.microsoft.rdc.android<ept id=\"p1\">**</ept>.",
+      "pos": [
+        3023,
+        3188
+      ]
+    },
+    {
+      "content": "To find the URL of the app, use a search engine to find the store page containing the app.",
+      "pos": [
+        3200,
+        3290
+      ]
+    },
+    {
+      "content": "For example, to find the Remote Desktop app, you could search <bpt id=\"p1\">**</bpt>Microsoft Remote Desktop Android<ept id=\"p1\">**</ept>.",
+      "pos": [
+        3291,
+        3390
+      ]
+    },
+    {
+      "content": "This installation type does not use any of your cloud storage space.",
+      "pos": [
+        3400,
+        3468
+      ]
+    },
+    {
+      "pos": [
+        3478,
+        3531
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Managed iOS app from the app store<ept id=\"p1\">**</ept>, then specify:"
+    },
+    {
+      "content": "Setting",
+      "pos": [
+        3542,
+        3549
+      ]
+    },
+    {
+      "content": "Details",
+      "pos": [
+        3550,
+        3557
+      ]
+    },
+    {
+      "content": "Specify the URL",
+      "pos": [
+        3604,
+        3619
+      ]
+    },
+    {
+      "content": "Enter the app store URL of the app you want to deploy.",
+      "pos": [
+        3622,
+        3676
+      ]
+    },
+    {
+      "content": "For example, if you want to deploy the Microsoft Work Folders app for iOS, specify <bpt id=\"p1\">**</bpt>https://itunes.apple.com/us/app/work-folders/id950878067?mt=8<ept id=\"p1\">**</ept>.",
+      "pos": [
+        3677,
+        3826
+      ]
+    },
+    {
+      "content": "This installation type does not use any of your cloud storage space.",
+      "pos": [
+        3836,
+        3904
+      ]
+    },
+    {
+      "pos": [
+        3910,
+        3972
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Software description<ept id=\"p1\">**</ept> page, configure the following:"
+    },
+    {
+      "pos": [
+        3980,
+        4120
+      ],
+      "content": "[!TIP]\nDepending on the installer type you are using, some of these values might have been automatically entered, or might not appear.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "Depending on the installer type you are using, some of these values might have been automatically entered, or might not appear.",
+          "pos": [
+            7,
+            134
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Setting",
+      "pos": [
+        4127,
+        4134
+      ]
+    },
+    {
+      "content": "Details",
+      "pos": [
+        4135,
+        4142
+      ]
+    },
+    {
+      "content": "Publisher",
+      "pos": [
+        4181,
+        4190
+      ]
+    },
+    {
+      "content": "Enter the name of the publisher of the app.",
+      "pos": [
+        4193,
+        4236
+      ]
+    },
+    {
+      "content": "Name",
+      "pos": [
+        4245,
+        4249
+      ]
+    },
+    {
+      "content": "Enter the name of the app as it will be displayed in the company portal.",
+      "pos": [
+        4252,
+        4324
+      ]
+    },
+    {
+      "content": "Make sure all app names you use are unique.",
+      "pos": [
+        4336,
+        4379
+      ]
+    },
+    {
+      "content": "If the same app name exists twice, only one of the apps will be displayed to users in the company portal.",
+      "pos": [
+        4380,
+        4485
+      ]
+    },
+    {
+      "content": "Description",
+      "pos": [
+        4494,
+        4505
+      ]
+    },
+    {
+      "content": "Enter a description for the app.",
+      "pos": [
+        4508,
+        4540
+      ]
+    },
+    {
+      "content": "This will be displayed to users in the company portal.",
+      "pos": [
+        4541,
+        4595
+      ]
+    },
+    {
+      "content": "URL for software information",
+      "pos": [
+        4604,
+        4632
+      ]
+    },
+    {
+      "content": "Available only if you selected <bpt id=\"p1\">**</bpt>Software installer<ept id=\"p1\">**</ept>.",
+      "pos": [
+        4635,
+        4689
+      ]
+    },
+    {
+      "content": "(optional) Enter a URL to a website that contains information about this app.",
+      "pos": [
+        4701,
+        4778
+      ]
+    },
+    {
+      "content": "The URL will be displayed to users in the company portal.",
+      "pos": [
+        4779,
+        4836
+      ]
+    },
+    {
+      "content": "Privacy URL",
+      "pos": [
+        4845,
+        4856
+      ]
+    },
+    {
+      "content": "Available only if you selected <bpt id=\"p1\">**</bpt>Software installer<ept id=\"p1\">**</ept>.",
+      "pos": [
+        4859,
+        4913
+      ]
+    },
+    {
+      "content": "(optional) Enter a URL to a website that contains privacy information for this app.",
+      "pos": [
+        4925,
+        5008
+      ]
+    },
+    {
+      "content": "The URL will be displayed to users in the company portal.",
+      "pos": [
+        5009,
+        5066
+      ]
+    },
+    {
+      "content": "Category",
+      "pos": [
+        5075,
+        5083
+      ]
+    },
+    {
+      "content": "(optional) Select one of the built-in app categories.",
+      "pos": [
+        5086,
+        5139
+      ]
+    },
+    {
+      "content": "This will make it easier for users to find the app when they browse the company portal.",
+      "pos": [
+        5140,
+        5227
+      ]
+    },
+    {
+      "content": "Display this as a featured app and highlight it in the company portal",
+      "pos": [
+        5236,
+        5305
+      ]
+    },
+    {
+      "content": "Display the app prominently on the main page of the company portal when users browse for apps.",
+      "pos": [
+        5308,
+        5402
+      ]
+    },
+    {
+      "content": "Icon",
+      "pos": [
+        5411,
+        5415
+      ]
+    },
+    {
+      "content": "(optional) Upload an icon that will be associated with the app.",
+      "pos": [
+        5418,
+        5481
+      ]
+    },
+    {
+      "content": "This is the icon that will be displayed with the app when users browse the company portal.",
+      "pos": [
+        5482,
+        5572
+      ]
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Requirements<ept id=\"p1\">**</ept> page, select the requirements that must be met before the app can start to install on a device.",
+      "pos": [
+        5579,
+        5698
+      ]
+    },
+    {
+      "content": "For example, for an app package for iOS, you can select the minimum version of iOS required, and the type of device it must be, like an iPhone, or an iPad.",
+      "pos": [
+        5699,
+        5854
+      ]
+    },
+    {
+      "pos": [
+        5862,
+        5940
+      ],
+      "content": "[!TIP]\nThe **Requirements** page is not displayed for all types of apps.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "The <bpt id=\"p1\">**</bpt>Requirements<ept id=\"p1\">**</ept> page is not displayed for all types of apps.",
+          "pos": [
+            7,
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Further wizard pages are displayed when you choose the <bpt id=\"p1\">**</bpt>Windows Installer<ept id=\"p1\">**</ept> file type.",
+      "pos": [
+        5946,
+        6033
+      ]
+    },
+    {
+      "content": "This file type is not used by mobile devices.",
+      "pos": [
+        6034,
+        6079
+      ]
+    },
+    {
+      "content": "For more information, see <bpt id=\"p1\">[</bpt>Deploy apps to Windows PCs in Microsoft Intune<ept id=\"p1\">](../Topic/Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        6080,
+        6215
+      ]
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Summary<ept id=\"p1\">**</ept> page, review the information you specified.",
+      "pos": [
+        6221,
+        6283
+      ]
+    },
+    {
+      "content": "Once you are ready, click <bpt id=\"p1\">**</bpt>Upload<ept id=\"p1\">**</ept>.",
+      "pos": [
+        6284,
+        6321
+      ]
+    },
+    {
+      "pos": [
+        6327,
+        6353
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Close<ept id=\"p1\">**</ept> to finish."
+    },
+    {
+      "pos": [
+        6355,
+        6423
+      ],
+      "content": "The app is displayed on the <bpt id=\"p1\">**</bpt>Apps<ept id=\"p1\">**</ept> node of the <bpt id=\"p2\">**</bpt>Apps<ept id=\"p2\">**</ept> workspace."
+    },
+    {
+      "pos": [
+        6428,
+        6466
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_Depl\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Deploy the app"
+    },
+    {
+      "content": "In this procedure, you'll deploy the app to selected devices or users.",
+      "pos": [
+        6467,
+        6537
+      ]
+    },
+    {
+      "content": "To deploy the app",
+      "pos": [
+        6544,
+        6561
+      ]
+    },
+    {
+      "pos": [
+        6567,
+        6711
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administrator console<ept id=\"p1\">](https://manage.microsoft.com)</ept>, click <bpt id=\"p2\">**</bpt>Apps<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Apps<ept id=\"p3\">**</ept> to view the list of apps you manage."
+    },
+    {
+      "pos": [
+        6717,
+        6789
+      ],
+      "content": "Select the app you want to deploy, and then click <bpt id=\"p1\">**</bpt>Manage Deployment<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        6795,
+        6933
+      ],
+      "content": "In the <bpt id=\"p1\">*</bpt>&amp;lt;app name&amp;gt;<ept id=\"p1\">*</ept> dialog box, on the <bpt id=\"p2\">**</bpt>Select Groups<ept id=\"p2\">**</ept> page, choose the user or device groups to which you want to deploy the app."
+    },
+    {
+      "pos": [
+        6939,
+        6998
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Deployment Action<ept id=\"p1\">**</ept> page, configure the following:"
+    },
+    {
+      "content": "Setting",
+      "pos": [
+        7005,
+        7012
+      ]
+    },
+    {
+      "content": "Details",
+      "pos": [
+        7013,
+        7020
+      ]
+    },
+    {
+      "content": "Approval",
+      "pos": [
+        7059,
+        7067
+      ]
+    },
+    {
+      "content": "Choose whether the deployment is:",
+      "pos": [
+        7070,
+        7103
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Required<ept id=\"p1\">**</ept> (mandatory install)",
+      "pos": [
+        7115,
+        7147
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Available<ept id=\"p1\">**</ept> (users install from the company portal on demand)",
+      "pos": [
+        7159,
+        7222
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Not Applicable<ept id=\"p1\">**</ept> (the app is not installed or shown in the company portal)",
+      "pos": [
+        7234,
+        7310
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Uninstall<ept id=\"p1\">**</ept> (the app will be uninstalled from targeted devices)",
+      "pos": [
+        7322,
+        7387
+      ]
+    },
+    {
+      "content": "Deadline",
+      "pos": [
+        7396,
+        7404
+      ]
+    },
+    {
+      "content": "For required installations, choose how soon the app will be deployed.",
+      "pos": [
+        7407,
+        7476
+      ]
+    },
+    {
+      "content": "You can choose from the predefined values, or select <bpt id=\"p1\">**</bpt>Custom<ept id=\"p1\">**</ept> to configure your own deadline.",
+      "pos": [
+        7477,
+        7572
+      ]
+    },
+    {
+      "content": "If the app you are deploying can be configured by a <bpt id=\"p1\">[</bpt>mobile application management policy<ept id=\"p1\">](https://technet.microsoft.com/library/dn878026.aspx)</ept>, the <bpt id=\"p2\">**</bpt>Mobile App Management<ept id=\"p2\">**</ept> page is displayed.",
+      "pos": [
+        7579,
+        7772
+      ]
+    },
+    {
+      "content": "On this page, choose the mobile application management policy you want to associate with this app.",
+      "pos": [
+        7773,
+        7871
+      ]
+    },
+    {
+      "pos": [
+        7877,
+        8016
+      ],
+      "content": "<bpt id=\"p1\">[</bpt>See which Microsoft apps are compatible with mobile application management policies<ept id=\"p1\">](https://technet.microsoft.com/library/dn708489.aspx)</ept>."
+    },
+    {
+      "pos": [
+        8022,
+        8662
+      ],
+      "content": "If the app you are deploying is compatible with Intune VPN profiles, the **VPN Profile** page is displayed. On this page, you can choose to associate iOS apps with a VPN profile you have deployed. The VPN connection will be automatically opened when the app is launched. To make a VPN profile available, it must have the **Per-app VPN** profile setting enabled.\nFor information about how to configure VPN profiles, including support for associating profiles with apps, see [Help users connect to their work using VPN profiles with Microsoft Intune](../Topic/Help-users-connect-to-their-work-using-VPN-profiles-with-Microsoft-Intune.md).",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "If the app you are deploying is compatible with Intune VPN profiles, the **VPN Profile** page is displayed. On this page, you can choose to associate iOS apps with a VPN profile you have deployed. The VPN connection will be automatically opened when the app is launched. To make a VPN profile available, it must have the **Per-app VPN** profile setting enabled.",
+          "pos": [
+            0,
+            361
+          ],
+          "nodes": [
+            {
+              "content": "If the app you are deploying is compatible with Intune VPN profiles, the <bpt id=\"p1\">**</bpt>VPN Profile<ept id=\"p1\">**</ept> page is displayed.",
+              "pos": [
+                0,
+                107
+              ]
+            },
+            {
+              "content": "On this page, you can choose to associate iOS apps with a VPN profile you have deployed.",
+              "pos": [
+                108,
+                196
+              ]
+            },
+            {
+              "content": "The VPN connection will be automatically opened when the app is launched.",
+              "pos": [
+                197,
+                270
+              ]
+            },
+            {
+              "content": "To make a VPN profile available, it must have the <bpt id=\"p1\">**</bpt>Per-app VPN<ept id=\"p1\">**</ept> profile setting enabled.",
+              "pos": [
+                271,
+                361
+              ]
+            }
+          ]
+        },
+        {
+          "content": "For information about how to configure VPN profiles, including support for associating profiles with apps, see <bpt id=\"p1\">[</bpt>Help users connect to their work using VPN profiles with Microsoft Intune<ept id=\"p1\">](../Topic/Help-users-connect-to-their-work-using-VPN-profiles-with-Microsoft-Intune.md)</ept>.",
+          "pos": [
+            362,
+            636
+          ]
+        }
+      ]
+    },
+    {
+      "content": "If you deployed the app as <bpt id=\"p1\">**</bpt>Available<ept id=\"p1\">**</ept>, it will be displayed in the company portal on users device from where they can install the app.",
+      "pos": [
+        8718,
+        8855
+      ]
+    },
+    {
+      "content": "For example, in this screenshot, the Bing for iOS app was deployed using the <bpt id=\"p1\">**</bpt>External Link<ept id=\"p1\">**</ept> installation type, with a custom icon, and the option <bpt id=\"p2\">**</bpt>Display this as a featured app and highlight it in the company portal<ept id=\"p2\">**</ept> was selected.",
+      "pos": [
+        8856,
+        9092
+      ]
+    },
+    {
+      "content": "If you deployed the app as required, the user will get a notification that an app is ready to install.",
+      "pos": [
+        9134,
+        9236
+      ]
+    },
+    {
+      "content": "For example, in this screenshot, the Work Folders for iOS app was deployed using the <bpt id=\"p1\">**</bpt>Managed iOS app from the app store<ept id=\"p1\">**</ept> installation type.",
+      "pos": [
+        9237,
+        9379
+      ]
+    },
+    {
+      "pos": [
+        9385,
+        9427
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_Monitor\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Monitor the app"
+    },
+    {
+      "pos": [
+        9428,
+        9556
+      ],
+      "content": "You can see the apps you manage, and their deployment status in the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> console."
+    },
+    {
+      "content": "To view the apps you manage and their status",
+      "pos": [
+        9562,
+        9606
+      ]
+    },
+    {
+      "pos": [
+        9607,
+        9658
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Apps<ept id=\"p1\">**</ept> workspace, click the <bpt id=\"p2\">**</bpt>Apps<ept id=\"p2\">**</ept> node."
+    },
+    {
+      "content": "The list of apps you manage will be displayed.",
+      "pos": [
+        9660,
+        9706
+      ]
+    },
+    {
+      "content": "You can click on any app to see an installation status in the lower pane of the console windows.",
+      "pos": [
+        9707,
+        9803
+      ]
+    },
+    {
+      "content": "Click the status to see more details.",
+      "pos": [
+        9804,
+        9841
+      ]
+    },
+    {
+      "content": "For example, if the status shows <bpt id=\"p1\">**</bpt>1 user has this software available<ept id=\"p1\">**</ept>, you can click the message to see the name of the user.",
+      "pos": [
+        9842,
+        9969
+      ]
+    },
+    {
+      "pos": [
+        9973,
+        10153
+      ],
+      "content": "[!TIP]\nYou can use the **Filters** drop-down list to show only apps that meet the criteria you specify, like apps that failed to install, or apps that were successfully deployed.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "You can use the <bpt id=\"p1\">**</bpt>Filters<ept id=\"p1\">**</ept> drop-down list to show only apps that meet the criteria you specify, like apps that failed to install, or apps that were successfully deployed.",
+          "pos": [
+            7,
+            178
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Additionally, the <bpt id=\"p1\">**</bpt>Dashboard<ept id=\"p1\">**</ept> workspace shows an overview of the status of your apps.",
+      "pos": [
+        10190,
+        10277
+      ]
+    },
+    {
+      "content": "If you click anywhere in the overview, you'll be taken to the list of apps.",
+      "pos": [
+        10278,
+        10353
+      ]
+    },
+    {
+      "content": "To view more detailed information about an app",
+      "pos": [
+        10359,
+        10405
+      ]
+    },
+    {
+      "pos": [
+        10406,
+        10478
+      ],
+      "content": "In the list of apps, select any app, and then click <bpt id=\"p1\">**</bpt>View Properties<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        10480,
+        10553
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Software Properties<ept id=\"p1\">**</ept> page for the app, click one of these tabs:"
+    },
+    {
+      "pos": [
+        10559,
+        10641
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>General<ept id=\"p1\">**</ept> - Shows general information about the app and its installation status."
+    },
+    {
+      "pos": [
+        10647,
+        10740
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Devices<ept id=\"p1\">**</ept> - Shows the devices that successfully installed a targeted deployment of the app."
+    },
+    {
+      "pos": [
+        10746,
+        10844
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Users<ept id=\"p1\">**</ept> - Shows the users whose devices successfully installed a targeted deployment of the app."
+    },
+    {
+      "pos": [
+        10846,
+        10950
+      ],
+      "content": "As before, you can use the <bpt id=\"p1\">**</bpt>Filters<ept id=\"p1\">**</ept> drop-down list to configure the values shown on each of the tabs."
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        10955,
+        10963
+      ]
+    },
+    {
+      "content": "Deploy and configure apps with Microsoft Intune",
+      "pos": [
+        10965,
+        11012
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - Deploy apps to mobile devices in Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: a7252faa-5729-4fa0-a730-197b69c6ea07\n---\n# MD Conversion - Deploy apps to mobile devices in Microsoft Intune\nNow that you've [learned the basics](https://technet.microsoft.com/library/dn646955.aspx) about [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] app deployment, you'll now learn how to configure and deploy apps to devices enrolled with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. This generally involves three steps:\n\n-   [Configure the app](#BKMK_Conf)\n\n-   [Deploy the app](#BKMK_Depl)\n\n-   [Monitor the app](#BKMK_Monitor)\n\nFor information about how to update and retire apps, see [Update apps using Microsoft Intune](../Topic/Update-apps-using-Microsoft-Intune.md).\n\n> [!IMPORTANT]\n> The information in this topic helps you to deploy apps to [enrolled Windows PCs](https://technet.microsoft.com/library/mt346003.aspx) and other mobile devices. If you want to deploy apps to  [Windows PCs that you manage using the client software](https://technet.microsoft.com/library/dn646959.aspx), see [Deploy apps to Windows PCs in Microsoft Intune](../Topic/Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md).\n\n## <a name=\"BKMK_Conf\"></a>Configure the app\nIn this procedure, you'll use the Intune Software Publisher to configure the properties of the app and, where applicable, upload it to your cloud storage space.\n\n#### To configure an app\n\n1.  In the [Microsoft Intune administrator console](https://manage.microsoft.com), click **Apps** &gt; **Add Apps** to start the Intune software publisher.\n\n    > [!TIP]\n    > You might need to enter your Intune username and password before the publisher starts.\n\n2.  On the **Software setup** page of the software publisher, configure the following:\n\n    **Select how this software is made available to devices** - Choose from:\n\n    -   **Software installer**, then specify:\n\n        |Setting|Details|\n        |-----------|-----------|\n        |**Select the software installer file type**|This indicates the type of software you want to deploy. For example, if you want to install an iOS app, choose **App Package for iOS (&#42;.ipa file)**.|\n        |**Specify the location of the software setup files**|Enter the location of the installation files or click **Browse** to select the location from a list.|\n        |**Include additional files and subfolders from the same folder**|For the **Windows Installer** file type only<br /><br />Some software that uses Windows Installer requires supporting files which are typically found in the same folder as the installation files. Select this option if you also want to deploy these files.|\n        This installation type uses some of your cloud storage space.\n\n    -   **External link**, then specify:\n\n        |Setting|Details|\n        |-----------|-----------|\n        |**Specify the URL**|Enter the app store URL of the app you want to deploy. For example, if you want to deploy the Microsoft Remote Desktop app for Android, specify **https://play.google.com/store/apps/details?id=com.microsoft.rdc.android**.<br /><br />To find the URL of the app, use a search engine to find the store page containing the app. For example, to find the Remote Desktop app, you could search **Microsoft Remote Desktop Android**.|\n        This installation type does not use any of your cloud storage space.\n\n    -   **Managed iOS app from the app store**, then specify:\n\n        |Setting|Details|\n        |-----------|-----------|\n        |**Specify the URL**|Enter the app store URL of the app you want to deploy. For example, if you want to deploy the Microsoft Work Folders app for iOS, specify **https://itunes.apple.com/us/app/work-folders/id950878067?mt=8**.|\n        This installation type does not use any of your cloud storage space.\n\n3.  On the **Software description** page, configure the following:\n\n    > [!TIP]\n    > Depending on the installer type you are using, some of these values might have been automatically entered, or might not appear.\n\n    |Setting|Details|\n    |-----------|-----------|\n    |**Publisher**|Enter the name of the publisher of the app.|\n    |**Name**|Enter the name of the app as it will be displayed in the company portal.<br /><br />Make sure all app names you use are unique. If the same app name exists twice, only one of the apps will be displayed to users in the company portal.|\n    |**Description**|Enter a description for the app. This will be displayed to users in the company portal.|\n    |**URL for software information**|Available only if you selected **Software installer**.<br /><br />(optional) Enter a URL to a website that contains information about this app. The URL will be displayed to users in the company portal.|\n    |**Privacy URL**|Available only if you selected **Software installer**.<br /><br />(optional) Enter a URL to a website that contains privacy information for this app. The URL will be displayed to users in the company portal.|\n    |**Category**|(optional) Select one of the built-in app categories. This will make it easier for users to find the app when they browse the company portal.|\n    |**Display this as a featured app and highlight it in the company portal**|Display the app prominently on the main page of the company portal when users browse for apps.|\n    |**Icon**|(optional) Upload an icon that will be associated with the app. This is the icon that will be displayed with the app when users browse the company portal.|\n\n4.  On the **Requirements** page, select the requirements that must be met before the app can start to install on a device. For example, for an app package for iOS, you can select the minimum version of iOS required, and the type of device it must be, like an iPhone, or an iPad.\n\n    > [!TIP]\n    > The **Requirements** page is not displayed for all types of apps.\n\n5.  Further wizard pages are displayed when you choose the **Windows Installer** file type. This file type is not used by mobile devices. For more information, see [Deploy apps to Windows PCs in Microsoft Intune](../Topic/Deploy-apps-to-Windows-PCs-in-Microsoft-Intune.md).\n\n6.  On the **Summary** page, review the information you specified. Once you are ready, click **Upload**.\n\n7.  Click **Close** to finish.\n\nThe app is displayed on the **Apps** node of the **Apps** workspace.\n\n## <a name=\"BKMK_Depl\"></a>Deploy the app\nIn this procedure, you'll deploy the app to selected devices or users.\n\n#### To deploy the app\n\n1.  In the [Microsoft Intune administrator console](https://manage.microsoft.com), click **Apps** &gt; **Apps** to view the list of apps you manage.\n\n2.  Select the app you want to deploy, and then click **Manage Deployment**.\n\n3.  In the *&lt;app name&gt;* dialog box, on the **Select Groups** page, choose the user or device groups to which you want to deploy the app.\n\n4.  On the **Deployment Action** page, configure the following:\n\n    |Setting|Details|\n    |-----------|-----------|\n    |**Approval**|Choose whether the deployment is:<br /><br />**Required** (mandatory install)<br /><br />**Available** (users install from the company portal on demand)<br /><br />**Not Applicable** (the app is not installed or shown in the company portal)<br /><br />**Uninstall** (the app will be uninstalled from targeted devices)|\n    |**Deadline**|For required installations, choose how soon the app will be deployed. You can choose from the predefined values, or select **Custom** to configure your own deadline.|\n\n5.  If the app you are deploying can be configured by a [mobile application management policy](https://technet.microsoft.com/library/dn878026.aspx), the **Mobile App Management** page is displayed. On this page, choose the mobile application management policy you want to associate with this app.\n\n    [See which Microsoft apps are compatible with mobile application management policies](https://technet.microsoft.com/library/dn708489.aspx).\n\n6.  If the app you are deploying is compatible with Intune VPN profiles, the **VPN Profile** page is displayed. On this page, you can choose to associate iOS apps with a VPN profile you have deployed. The VPN connection will be automatically opened when the app is launched. To make a VPN profile available, it must have the **Per-app VPN** profile setting enabled.\n    For information about how to configure VPN profiles, including support for associating profiles with apps, see [Help users connect to their work using VPN profiles with Microsoft Intune](../Topic/Help-users-connect-to-their-work-using-VPN-profiles-with-Microsoft-Intune.md).\n\n|||\n|-|-|\n|![](../Image/Available-install-on-iOS.png)|If you deployed the app as **Available**, it will be displayed in the company portal on users device from where they can install the app. For example, in this screenshot, the Bing for iOS app was deployed using the **External Link** installation type, with a custom icon, and the option **Display this as a featured app and highlight it in the company portal** was selected.|\n|![](../Image/iOS-Required-install.PNG)|If you deployed the app as required, the user will get a notification that an app is ready to install. For example, in this screenshot, the Work Folders for iOS app was deployed using the **Managed iOS app from the app store** installation type.|\n\n## <a name=\"BKMK_Monitor\"></a>Monitor the app\nYou can see the apps you manage, and their deployment status in the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] console.\n\n### To view the apps you manage and their status\nIn the **Apps** workspace, click the **Apps** node.\n\nThe list of apps you manage will be displayed. You can click on any app to see an installation status in the lower pane of the console windows. Click the status to see more details. For example, if the status shows **1 user has this software available**, you can click the message to see the name of the user.\n\n> [!TIP]\n> You can use the **Filters** drop-down list to show only apps that meet the criteria you specify, like apps that failed to install, or apps that were successfully deployed.\n> \n> ![](../Image/App-filters.JPG)\n\nAdditionally, the **Dashboard** workspace shows an overview of the status of your apps. If you click anywhere in the overview, you'll be taken to the list of apps.\n\n### To view more detailed information about an app\nIn the list of apps, select any app, and then click **View Properties**.\n\nOn the **Software Properties** page for the app, click one of these tabs:\n\n-   **General** - Shows general information about the app and its installation status.\n\n-   **Devices** - Shows the devices that successfully installed a targeted deployment of the app.\n\n-   **Users** - Shows the users whose devices successfully installed a targeted deployment of the app.\n\nAs before, you can use the **Filters** drop-down list to configure the values shown on each of the tabs.\n\n## See Also\n[Deploy and configure apps with Microsoft Intune](../Topic/Deploy-and-configure-apps-with-Microsoft-Intune.md)\n\n"
+}

@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">e8964f37c2f7ea80265760ee7ede434629d3e039</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Rolling out apps with Microsoft Intune</source>
+          <target>Rolling out apps with Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Rolling out apps with Microsoft Intune</source>
+          <target>Rolling out apps with Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This topic provide specific recommendations for a phased rollout of apps in <ph dataRef="id1" id="ph1" />.</source>
+          <target>This topic provide specific recommendations for a phased rollout of apps in <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Rollout-phases-for-Microsoft-Intune-deployment.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For general information about rollout phases, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rollout phases for Microsoft Intune deployment</pc>.</source>
+          <target>For general information about rollout phases, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Rollout phases for Microsoft Intune deployment</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Phases of app rollout</source>
+          <target>Phases of app rollout</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>The phases of app rollout are:</source>
+          <target>The phases of app rollout are:</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Project scope</source>
+          <target>Project scope</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Proof of concept</source>
+          <target>Proof of concept</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Pilot</source>
+          <target>Pilot</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Enterprise rollout</source>
+          <target>Enterprise rollout</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Operations and maintenance</source>
+          <target>Operations and maintenance</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Project scope</source>
+          <target>Project scope</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Consider the following:</source>
+          <target>Consider the following:</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>The user task the app meant to enable.</source>
+          <target>The user task the app meant to enable.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The suitability of  the app for your users and their devices (all operating systems that are likely to be used).</source>
+          <target>The suitability of  the app for your users and their devices (all operating systems that are likely to be used).</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Check that the installer for the app you chose is supported by <ph dataRef="id1" id="ph1" /> app distribution, as described in  <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Plan for app deployment in Microsoft Intune</pc>.</source>
+          <target>Check that the installer for the app you chose is supported by <ph dataRef="id1" id="ph1" /> app distribution, as described in  <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Plan for app deployment in Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Ensure that app distribution prerequisites are installed, as described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Plan for app deployment in Microsoft Intune</pc>.</source>
+          <target>Ensure that app distribution prerequisites are installed, as described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Plan for app deployment in Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Determine that the app type is supported by <ph dataRef="id1" id="ph1" />.</source>
+          <target>Determine that the app type is supported by <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Check that  you have sufficient  cloud storage space available to upload the app.</source>
+          <target>Check that  you have sufficient  cloud storage space available to upload the app.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Instructions for purchasing additional storage are provided in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Plan for app deployment in Microsoft Intune</pc>.</source>
+          <target>Instructions for purchasing additional storage are provided in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Plan for app deployment in Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Proof of concept</source>
+          <target>Proof of concept</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>In the Proof of concept phase, test your app deployment in a laboratory environment on devices and users that you've configured strictly for testing purposes.</source>
+          <target>In the Proof of concept phase, test your app deployment in a laboratory environment on devices and users that you've configured strictly for testing purposes.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Have your help desk participate in this phase to learn what issues can arise during pilot and production deployment.</source>
+          <target>Have your help desk participate in this phase to learn what issues can arise during pilot and production deployment.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Troubleshooting information is available in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Troubleshoot app deployment problems in Microsoft Intune</pc>.</source>
+          <target>Troubleshooting information is available in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Troubleshoot app deployment problems in Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>At this point in the process you should develop communication plans for pilot and production users.</source>
+          <target>At this point in the process you should develop communication plans for pilot and production users.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>At a minimum the plan should include what app is being deployed, how and when they will obtain it,  the business purpose of the deployment, and what to do if they encounter issues, both self-help information and how to contact the help desk.</source>
+          <target>At a minimum the plan should include what app is being deployed, how and when they will obtain it,  the business purpose of the deployment, and what to do if they encounter issues, both self-help information and how to contact the help desk.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Pilot</source>
+          <target>Pilot</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>During the pilot you will deploy the app to a small group of test users and devices.</source>
+          <target>During the pilot you will deploy the app to a small group of test users and devices.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Consider the following:</source>
+          <target>Consider the following:</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Ensure that the test group is representative of the users and devices that will be using the app after production rollout.</source>
+          <target>Ensure that the test group is representative of the users and devices that will be using the app after production rollout.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Educate the help desk  regarding the app deployment, and ensure they are prepared to help users in the test group.</source>
+          <target>Educate the help desk  regarding the app deployment, and ensure they are prepared to help users in the test group.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Choose test users who will subject the app to typical usage and will reliably report issues to the pilot administrators.</source>
+          <target>Choose test users who will subject the app to typical usage and will reliably report issues to the pilot administrators.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Activate your pilot user communication plan.</source>
+          <target>Activate your pilot user communication plan.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Enterprise rollout</source>
+          <target>Enterprise rollout</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Use the pilot results to adjust your enterprise rollout.</source>
+          <target>Use the pilot results to adjust your enterprise rollout.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Notify your help desk of the app rollout schedule.</source>
+          <target>Notify your help desk of the app rollout schedule.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Have mechanisms in place to respond to help requests, and to adjust the rollout as necessary.</source>
+          <target>Have mechanisms in place to respond to help requests, and to adjust the rollout as necessary.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Be prepared to troubleshoot the deployment if issues arise.</source>
+          <target>Be prepared to troubleshoot the deployment if issues arise.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Activate your production user communication plan.</source>
+          <target>Activate your production user communication plan.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Use a phased approach for deploying the app, adding groups incrementally to ensure that the rollout is proceeding smoothly.</source>
+          <target>Use a phased approach for deploying the app, adding groups incrementally to ensure that the rollout is proceeding smoothly.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Operations and maintenance</source>
+          <target>Operations and maintenance</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operations:</pc> Monitor your <ph dataRef="id3" id="ph1" /> console for alerts and user or device issues, and to ensure that application distribution is functioning according to your organizational plan.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Operations:</pc> Monitor your <ph dataRef="id3" id="ph1" /> console for alerts and user or device issues, and to ensure that application distribution is functioning according to your organizational plan.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Help desk:</pc> Ensure that your help desk is aware of any changes to app availability that may result in support requests.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Help desk:</pc> Ensure that your help desk is aware of any changes to app availability that may result in support requests.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Troubleshoot app deployment problems in Microsoft Intune</source>
+          <target>Troubleshoot app deployment problems in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Plan for app deployment in Microsoft Intune</source>
+          <target>Plan for app deployment in Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

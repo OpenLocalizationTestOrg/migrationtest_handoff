@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">dbc60648cd52aa749d27d3c2cfef7b72e805b5bb</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - Get notified by Microsoft Intune</source>
+          <target>MD Conversion - Get notified by Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - Get notified by Microsoft Intune</source>
+          <target>MD Conversion - Get notified by Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Alerts keep you in touch with what's happening in <ph dataRef="id1" id="ph1" />.</source>
+          <target>Alerts keep you in touch with what's happening in <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>For example, alerts can notify you about the following events:</source>
+          <target>For example, alerts can notify you about the following events:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>A problem with the Exchange Connector which affects mobile device management</source>
+          <target>A problem with the Exchange Connector which affects mobile device management</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Malware has been found on a computer</source>
+          <target>Malware has been found on a computer</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>A conflict between two <ph dataRef="id1" id="ph1" /> policies was detected</source>
+          <target>A conflict between two <ph dataRef="id1" id="ph1" /> policies was detected</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The latest updates and information about the <ph dataRef="id1" id="ph1" /> service (notices).</source>
+          <target>The latest updates and information about the <ph dataRef="id1" id="ph1" /> service (notices).</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>How alerts work</source>
+          <target>How alerts work</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Alerts are generated based on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">alert types</pc>, a set of preconfigured rules built into <ph dataRef="id3" id="ph1" />.</source>
+          <target>Alerts are generated based on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">alert types</pc>, a set of preconfigured rules built into <ph dataRef="id3" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, the alert type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cloud storage has 10% or less free space</pc> alerts you when you are running out of space to store your apps in the cloud.</source>
+          <target>For example, the alert type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cloud storage has 10% or less free space</pc> alerts you when you are running out of space to store your apps in the cloud.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>You can enable or disable, and configure properties for each alert type.</source>
+          <target>You can enable or disable, and configure properties for each alert type.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>For example, using the above alert type, you can configure:</source>
+          <target>For example, using the above alert type, you can configure:</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">State:</pc> Whether this alert type is enabled or disabled</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">State:</pc> Whether this alert type is enabled or disabled</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Severity:</pc> How serious is this alert?</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Severity:</pc> How serious is this alert?</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Severity</source>
+          <target>Severity</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Indicates a serious issue that you should investigate as soon as possible, for example, if malware has been detected on a computer.</source>
+          <target>Indicates a serious issue that you should investigate as soon as possible, for example, if malware has been detected on a computer.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Indicates an issue that isn't currently serious, but might become serious if you don't attend to it, for example, security updates are waiting to be installed.</source>
+          <target>Indicates an issue that isn't currently serious, but might become serious if you don't attend to it, for example, security updates are waiting to be installed.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Indicates information that isn't critical to your operations, for example, a new version of the Exchange Connector is available.</source>
+          <target>Indicates information that isn't critical to your operations, for example, a new version of the Exchange Connector is available.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Other alert types might contain different items you can configure such as the percentage of devices that must be affected by an issue before an alert is generated.</source>
+          <target>Other alert types might contain different items you can configure such as the percentage of devices that must be affected by an issue before an alert is generated.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the criteria in an alert type is met, an alert is generated and displayed in the <ph dataRef="id1" id="ph1" /> admin console.</source>
+          <target>When the criteria in an alert type is met, an alert is generated and displayed in the <ph dataRef="id1" id="ph1" /> admin console.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Additionally, you can configure <ph dataRef="id1" id="ph1" /> to notify you by email when an alert is generated.</source>
+          <target>Additionally, you can configure <ph dataRef="id1" id="ph1" /> to notify you by email when an alert is generated.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Configuring alerts</source>
+          <target>Configuring alerts</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Alerts and Notifications</pc>, then choose one of the following configuration tasks:</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Alerts and Notifications</pc>, then choose one of the following configuration tasks:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Task</source>
+          <target>Task</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Alert Types</source>
+          <target>Alert Types</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Choose the alert type you want to configure, then do one of the following:</source>
+          <target>Choose the alert type you want to configure, then do one of the following:</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Alert Type</pc> dialog box, configure the settings you want, then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Alert Type</pc> dialog box, configure the settings you want, then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Disable</pc> the alert.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Disable</pc> the alert.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Alert Types</pc> node and click a category to view only the alert types in that category.</source>
+          <target>Expand the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Alert Types</pc> node and click a category to view only the alert types in that category.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Recipients</source>
+          <target>Recipients</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc> to add a new email address that will receive the email notifications you configure.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc> to add a new email address that will receive the email notifications you configure.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delete</pc> existing recipients.</source>
+          <target>You can also <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Edit</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delete</pc> existing recipients.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To receive notifications, you must also add this email address as a recipient under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Notification Rules</pc>.</source>
+          <target>To receive notifications, you must also add this email address as a recipient under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Notification Rules</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Notification Rules</source>
+          <target>Notification Rules</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Configures rules that define who an email alert will be sent to.</source>
+          <target>Configures rules that define who an email alert will be sent to.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>You can either:</source>
+          <target>You can either:</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Choose an existing rule</pc> - Choose a rule, then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Select Recipients</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Choose an existing rule</pc> - Choose a rule, then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Select Recipients</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>You can then select all recipients who will receive an email when an alert that fulfills this rule is generated.</source>
+          <target>You can then select all recipients who will receive an email when an alert that fulfills this rule is generated.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a new rule</pc> - enter a name for the rule, select the alert categories and alert severity that apply to the rules, select the device groups that the rule applies to, and select the users who will receive an email when an alert is generated.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a new rule</pc> - enter a name for the rule, select the alert categories and alert severity that apply to the rules, select the device groups that the rule applies to, and select the users who will receive an email when an alert is generated.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Disable</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Edit</pc>, or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Delete</pc> an existing rule.</source>
+          <target>You can also <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Disable</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Edit</pc>, or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Delete</pc> an existing rule.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Working with alerts</source>
+          <target>Working with alerts</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Use the following options to help you work with alerts from the Intune admin console.</source>
+          <target>Use the following options to help you work with alerts from the Intune admin console.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Option</source>
+          <target>Option</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>View active alerts</source>
+          <target>View active alerts</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Choose one of:</source>
+          <target>Choose one of:</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View an alert summary</pc> - In the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Dashboard</pc> workspace, the top errors are displayed in the Alerts pane.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View an alert summary</pc> - In the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Dashboard</pc> workspace, the top errors are displayed in the Alerts pane.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Click the pane to see more detailed information.</source>
+          <target>Click the pane to see more detailed information.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Additionally, you can view an alert summary on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overview</pc> page of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Alerts</pc> workspace.</source>
+          <target>Additionally, you can view an alert summary on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overview</pc> page of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Alerts</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View all alerts</pc> - In the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Alerts</pc> workspace, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">All Alerts</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View all alerts</pc> - In the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Alerts</pc> workspace, click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">All Alerts</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>View notices</source>
+          <target>View notices</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Choose one of:</source>
+          <target>Choose one of:</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Notices</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Notices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Alerts</pc> workspace, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All Alerts</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Notices</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Alerts</pc> workspace, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All Alerts</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Notices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Close an alert</source>
+          <target>Close an alert</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the list of alerts, choose the alert to close, then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Close Alert</pc>.</source>
+          <target>In the list of alerts, choose the alert to close, then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Close Alert</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Closed alerts are permanently deleted after 90 days.</source>
+          <target>Closed alerts are permanently deleted after 90 days.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Reactivate a closed alert</source>
+          <target>Reactivate a closed alert</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the list of alerts, set the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filters</pc> drop-down to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Closed</pc>.</source>
+          <target>In the list of alerts, set the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Filters</pc> drop-down to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Closed</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the list of closed alerts, select the alert you want to reactivate, then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reactivate Alert</pc>.</source>
+          <target>In the list of closed alerts, select the alert you want to reactivate, then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reactivate Alert</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> alerts remain active until:</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> alerts remain active until:</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>The issue that caused the alert is resolved</source>
+          <target>The issue that caused the alert is resolved</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>You manually close the alert</source>
+          <target>You manually close the alert</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>45 days have passed since the alert was generated</source>
+          <target>45 days have passed since the alert was generated</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>If the same alert is generated by devices that run different operating systems, you might see multiple versions of the same alert in the alerts list.</source>
+          <target>If the same alert is generated by devices that run different operating systems, you might see multiple versions of the same alert in the alerts list.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Monitoring and reports with Microsoft Intune</source>
+          <target>Monitoring and reports with Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

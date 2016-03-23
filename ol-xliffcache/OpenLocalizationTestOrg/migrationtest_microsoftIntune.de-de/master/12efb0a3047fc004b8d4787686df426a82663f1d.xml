@@ -1,0 +1,720 @@
+{
+  "nodes": [
+    {
+      "content": "MD Mac OS X configuration policy settings in Microsoft Intune",
+      "pos": [
+        11,
+        72
+      ]
+    },
+    {
+      "content": "MD Mac OS X configuration policy settings in Microsoft Intune",
+      "pos": [
+        207,
+        268
+      ]
+    },
+    {
+      "pos": [
+        269,
+        398
+      ],
+      "content": "Use the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><bpt id=\"p1\">**</bpt>Mac OS X general configuration policy<ept id=\"p1\">**</ept> to configure settings for:"
+    },
+    {
+      "pos": [
+        404,
+        550
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Device security settings<ept id=\"p1\">**</ept> - Choose from a list of predefined settings that let you control a range of features and functionality on the device."
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Compliant and noncompliant apps<ept id=\"p1\">**</ept> - Specify a list of apps that are compliant, or not compliant in your company.",
+      "pos": [
+        556,
+        670
+      ]
+    },
+    {
+      "content": "The Noncompliant Apps Report can be used to view the compliance of apps you specified in the list against the apps that users have installed (but cannot actually block the installation of the app).",
+      "pos": [
+        671,
+        868
+      ]
+    },
+    {
+      "content": "Create an Mac OS X general configuration policy",
+      "pos": [
+        873,
+        920
+      ]
+    },
+    {
+      "content": "To provide basic settings for the configuration policy",
+      "pos": [
+        927,
+        981
+      ]
+    },
+    {
+      "pos": [
+        987,
+        1122
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com)</ept>, click <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Overview<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Add Policy<ept id=\"p4\">**</ept>."
+    },
+    {
+      "pos": [
+        1128,
+        1211
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Mac OS X<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>General Configuration<ept id=\"p2\">**</ept> and then click <bpt id=\"p3\">**</bpt>Create Policy<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        1219,
+        1334
+      ],
+      "content": "[!NOTE]\nYou cannot create a configuration policy using recommended settings. You must create a custom policy.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "You cannot create a configuration policy using recommended settings. You must create a custom policy.",
+          "pos": [
+            8,
+            109
+          ],
+          "nodes": [
+            {
+              "content": "You cannot create a configuration policy using recommended settings.",
+              "pos": [
+                0,
+                68
+              ]
+            },
+            {
+              "content": "You must create a custom policy.",
+              "pos": [
+                69,
+                101
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        1340,
+        1450
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>General<ept id=\"p1\">**</ept> section of the <bpt id=\"p2\">**</bpt>Create Policy<ept id=\"p2\">**</ept> page, specify a name and a description for the new policy."
+    },
+    {
+      "content": "Use the information in the following sections to help you supply settings for the policy.",
+      "pos": [
+        1456,
+        1545
+      ]
+    },
+    {
+      "pos": [
+        1551,
+        1596
+      ],
+      "content": "When you are finished, click <bpt id=\"p1\">**</bpt>Save Policy<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        1598,
+        1689
+      ],
+      "content": "The new policy displays in the <bpt id=\"p1\">**</bpt>Configuration Policies<ept id=\"p1\">**</ept> node of the <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> workspace."
+    },
+    {
+      "content": "Settings for Mac OS X devices",
+      "pos": [
+        1694,
+        1723
+      ]
+    },
+    {
+      "content": "If the setting you are looking for does not appear in this list, you might be able to create it using a Mac OS X custom policy that lets you import settings you created using the Apple Configurator Tool.",
+      "pos": [
+        1724,
+        1927
+      ]
+    },
+    {
+      "content": "For more information, see <bpt id=\"p1\">[</bpt>Mac OS X custom policy settings in Microsoft Intune<ept id=\"p1\">](../Topic/Mac-OS-X-custom-policy-settings-in-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        1928,
+        2073
+      ]
+    },
+    {
+      "content": "Password settings",
+      "pos": [
+        2079,
+        2096
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        2099,
+        2111
+      ]
+    },
+    {
+      "content": "Description",
+      "pos": [
+        2112,
+        2123
+      ]
+    },
+    {
+      "content": "Require a password to unlock devices",
+      "pos": [
+        2163,
+        2199
+      ]
+    },
+    {
+      "content": "Specifies whether the use must use a password to access their Mac computer.",
+      "pos": [
+        2202,
+        2277
+      ]
+    },
+    {
+      "content": "Unlike iOS devices, on Mac OS X devices, the user is not immediately notified to update their password to comply with this setting.",
+      "pos": [
+        2289,
+        2420
+      ]
+    },
+    {
+      "content": "Required password type",
+      "pos": [
+        2425,
+        2447
+      ]
+    },
+    {
+      "content": "Specifies whether the password used can be Numeric only, or whether it must be <bpt id=\"p1\">**</bpt>Alphanumeric<ept id=\"p1\">**</ept> (contain letters and numbers).",
+      "pos": [
+        2450,
+        2576
+      ]
+    },
+    {
+      "content": "This setting is only supported on Mac OS X version 10.10.3 and later.",
+      "pos": [
+        2588,
+        2657
+      ]
+    },
+    {
+      "content": "Number of complex characters required in password",
+      "pos": [
+        2662,
+        2711
+      ]
+    },
+    {
+      "content": "Specifies the number of complex characters required in the password (from <bpt id=\"p1\">**</bpt>0<ept id=\"p1\">**</ept> - <bpt id=\"p2\">**</bpt>4<ept id=\"p2\">**</ept>).",
+      "pos": [
+        2714,
+        2803
+      ]
+    },
+    {
+      "content": "A complex character is a symbol, such as '<bpt id=\"p1\">**</bpt>?<ept id=\"p1\">**</ept>'",
+      "pos": [
+        2815,
+        2863
+      ]
+    },
+    {
+      "content": "Minimum password length",
+      "pos": [
+        2868,
+        2891
+      ]
+    },
+    {
+      "pos": [
+        2894,
+        2978
+      ],
+      "content": "Specifies the minimum length for the password (between <bpt id=\"p1\">**</bpt>4<ept id=\"p1\">**</ept> and <bpt id=\"p2\">**</bpt>14<ept id=\"p2\">**</ept> characters)."
+    },
+    {
+      "content": "Allow simple passwords",
+      "pos": [
+        2983,
+        3005
+      ]
+    },
+    {
+      "pos": [
+        3008,
+        3076
+      ],
+      "content": "Allows the use of simple passwords such as '<bpt id=\"p1\">**</bpt>0000<ept id=\"p1\">**</ept>' or '<bpt id=\"p2\">**</bpt>1234<ept id=\"p2\">**</ept>'."
+    },
+    {
+      "content": "Minutes of inactivity before password is required",
+      "pos": [
+        3081,
+        3130
+      ]
+    },
+    {
+      "content": "Specifies how long the computer must be inactive before a password is required to unlock it.",
+      "pos": [
+        3133,
+        3225
+      ]
+    },
+    {
+      "content": "Password expiration (days)",
+      "pos": [
+        3230,
+        3256
+      ]
+    },
+    {
+      "pos": [
+        3259,
+        3359
+      ],
+      "content": "Specifies how many days elapse before the user must change the password (from <bpt id=\"p1\">**</bpt>1<ept id=\"p1\">**</ept> - <bpt id=\"p2\">**</bpt>255<ept id=\"p2\">**</ept> days)."
+    },
+    {
+      "content": "Remember password history",
+      "pos": [
+        3364,
+        3389
+      ]
+    },
+    {
+      "content": "This setting is used to prevent the user from using a previously used password.",
+      "pos": [
+        3392,
+        3471
+      ]
+    },
+    {
+      "content": "When it is set, you can also set <bpt id=\"p1\">**</bpt>Prevent reuse of previous passwords<ept id=\"p1\">**</ept> to specify the number of previously used passwords that cannot be reused (from <bpt id=\"p2\">**</bpt>1<ept id=\"p2\">**</ept> - <bpt id=\"p3\">**</bpt>24<ept id=\"p3\">**</ept>).",
+      "pos": [
+        3472,
+        3640
+      ]
+    },
+    {
+      "content": "Minutes of inactivity before screensaver activates",
+      "pos": [
+        3645,
+        3695
+      ]
+    },
+    {
+      "content": "Specifies the length of time the computer must be idle before the screensaver activates.",
+      "pos": [
+        3698,
+        3786
+      ]
+    },
+    {
+      "content": "Settings for compliant and noncompliant apps",
+      "pos": [
+        3792,
+        3836
+      ]
+    },
+    {
+      "pos": [
+        3837,
+        4032
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Compliant &amp;amp; Noncompliant Apps list for Mac OS X<ept id=\"p1\">**</ept>, enable <bpt id=\"p2\">**</bpt>Managed settings for devices<ept id=\"p2\">**</ept>, and then specify a list of compliant or noncompliant apps using the following information:"
+    },
+    {
+      "pos": [
+        4036,
+        4175
+      ],
+      "content": "[!NOTE]\nA single policy can only contain a list of compliant, or a list of noncompliant apps. You cannot specify both in the same policy.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "A single policy can only contain a list of compliant, or a list of noncompliant apps. You cannot specify both in the same policy.",
+          "pos": [
+            8,
+            137
+          ],
+          "nodes": [
+            {
+              "content": "A single policy can only contain a list of compliant, or a list of noncompliant apps.",
+              "pos": [
+                0,
+                85
+              ]
+            },
+            {
+              "content": "You cannot specify both in the same policy.",
+              "pos": [
+                86,
+                129
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> lets you report devices with noncompliant apps.",
+      "pos": [
+        4181,
+        4280
+      ]
+    },
+    {
+      "content": "It does not block installation, or remove noncompliant apps.",
+      "pos": [
+        4281,
+        4341
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        4344,
+        4356
+      ]
+    },
+    {
+      "content": "Description",
+      "pos": [
+        4357,
+        4368
+      ]
+    },
+    {
+      "content": "Report noncompliance when users install the listed apps",
+      "pos": [
+        4408,
+        4463
+      ]
+    },
+    {
+      "content": "Lists the Mac OS X apps that users are not allowed to install.",
+      "pos": [
+        4466,
+        4528
+      ]
+    },
+    {
+      "content": "If users install any of these apps, they will be reported in the <bpt id=\"p1\">**</bpt>Noncompliant Apps Reports<ept id=\"p1\">**</ept>.",
+      "pos": [
+        4529,
+        4624
+      ]
+    },
+    {
+      "content": "Report noncompliance when users install apps which are not listed",
+      "pos": [
+        4629,
+        4694
+      ]
+    },
+    {
+      "content": "Lists the Mac OS X apps that users are allowed to install.",
+      "pos": [
+        4697,
+        4755
+      ]
+    },
+    {
+      "content": "If users install any other apps, they will be reported in the <bpt id=\"p1\">**</bpt>Noncompliant Apps Reports<ept id=\"p1\">**</ept>.",
+      "pos": [
+        4756,
+        4848
+      ]
+    },
+    {
+      "content": "Add",
+      "pos": [
+        4853,
+        4856
+      ]
+    },
+    {
+      "content": "Adds an app to the selected list.",
+      "pos": [
+        4859,
+        4892
+      ]
+    },
+    {
+      "content": "Specify a name of your choice, optionally the app publisher, and the  bundle ID of the app.",
+      "pos": [
+        4893,
+        4984
+      ]
+    },
+    {
+      "content": "Import Apps",
+      "pos": [
+        4989,
+        5000
+      ]
+    },
+    {
+      "content": "Imports a list of apps you have specified in a comma-separated values file.",
+      "pos": [
+        5003,
+        5078
+      ]
+    },
+    {
+      "content": "Use the format, app name, publisher, app bundle ID in the file.",
+      "pos": [
+        5079,
+        5142
+      ]
+    },
+    {
+      "content": "Edit",
+      "pos": [
+        5147,
+        5151
+      ]
+    },
+    {
+      "content": "Let’s you edit the name, publisher and app bundle ID of the selected app.",
+      "pos": [
+        5154,
+        5227
+      ]
+    },
+    {
+      "content": "Delete",
+      "pos": [
+        5232,
+        5238
+      ]
+    },
+    {
+      "content": "Deletes the selected app from the list.",
+      "pos": [
+        5241,
+        5280
+      ]
+    },
+    {
+      "pos": [
+        5284,
+        5395
+      ],
+      "content": "[!TIP]\nTo find the bundle ID of an app, use the following steps on a Mac computer that has the app installed:",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "To find the bundle ID of an app, use the following steps on a Mac computer that has the app installed:",
+          "pos": [
+            7,
+            109
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        5405,
+        5483
+      ],
+      "content": "Open the folder in which the app is installed (for example, <bpt id=\"p1\">**</bpt>/Applications<ept id=\"p1\">**</ept>)"
+    },
+    {
+      "pos": [
+        5490,
+        5572
+      ],
+      "content": "Select the <bpt id=\"p1\">*</bpt>&amp;lt;App Name&amp;gt;<ept id=\"p1\">*</ept><bpt id=\"p2\">**</bpt>.app<ept id=\"p2\">**</ept> bundle, and choose <bpt id=\"p3\">**</bpt>Show Package Contents<ept id=\"p3\">**</ept>"
+    },
+    {
+      "pos": [
+        5579,
+        5607
+      ],
+      "content": "Open the <bpt id=\"p1\">**</bpt>Info.plist<ept id=\"p1\">**</ept> file"
+    },
+    {
+      "pos": [
+        5614,
+        5676
+      ],
+      "content": "Check the value associated with the key <bpt id=\"p1\">**</bpt>CFBundleIdentifier<ept id=\"p1\">**</ept>"
+    },
+    {
+      "pos": [
+        5682,
+        5733
+      ],
+      "content": "The format for Bundle ID is <bpt id=\"p1\">**</bpt>com.contoso.appname<ept id=\"p1\">**</ept>"
+    },
+    {
+      "pos": [
+        5737,
+        5965
+      ],
+      "content": "[!TIP]\nFor more information about [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] reports, see [Understand Microsoft Intune operations by using reports](../Topic/Understand-Microsoft-Intune-operations-by-using-reports.md).",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "For more information about <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> reports, see <bpt id=\"p1\">[</bpt>Understand Microsoft Intune operations by using reports<ept id=\"p1\">](../Topic/Understand-Microsoft-Intune-operations-by-using-reports.md)</ept>.",
+          "pos": [
+            7,
+            226
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Deploy the configuration policy",
+      "pos": [
+        5970,
+        6001
+      ]
+    },
+    {
+      "content": "Deploy the configuration policy to one or more groups of users or devices in your organization.",
+      "pos": [
+        6002,
+        6097
+      ]
+    },
+    {
+      "pos": [
+        6099,
+        6318
+      ],
+      "content": "For more information about how to deploy policies, see U<bpt id=\"p1\">[</bpt>Use policies to manage computers and mobile devices with Microsoft Intune<ept id=\"p1\">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "content": "A status summary and alerts In the <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept> workspace identify issues with the policy that require your attention.",
+      "pos": [
+        6320,
+        6436
+      ]
+    },
+    {
+      "content": "Additionally, a status summary appears in the <bpt id=\"p1\">**</bpt>Dashboard<ept id=\"p1\">**</ept> workspace.",
+      "pos": [
+        6437,
+        6507
+      ]
+    },
+    {
+      "pos": [
+        6511,
+        6821
+      ],
+      "content": "[!IMPORTANT]\nWhen a Mac OS X device is in Sleep mode, policies and profiles cannot be delivered or inventoried. As a result, the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] console might temporarily display the status **Policy settings in error** until the next time the device wakes from Sleep mode.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "When a Mac OS X device is in Sleep mode, policies and profiles cannot be delivered or inventoried. As a result, the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] console might temporarily display the status **Policy settings in error** until the next time the device wakes from Sleep mode.",
+          "pos": [
+            13,
+            308
+          ],
+          "nodes": [
+            {
+              "content": "When a Mac OS X device is in Sleep mode, policies and profiles cannot be delivered or inventoried.",
+              "pos": [
+                0,
+                98
+              ]
+            },
+            {
+              "content": "As a result, the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> console might temporarily display the status <bpt id=\"p1\">**</bpt>Policy settings in error<ept id=\"p1\">**</ept> until the next time the device wakes from Sleep mode.",
+              "pos": [
+                99,
+                295
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Monitor compliant and noncompliant apps",
+      "pos": [
+        6826,
+        6865
+      ]
+    },
+    {
+      "pos": [
+        6866,
+        6949
+      ],
+      "content": "Use the <bpt id=\"p1\">**</bpt>Noncompliant Apps Reports<ept id=\"p1\">**</ept> to view the compliance of apps you specified."
+    },
+    {
+      "content": "To run the report",
+      "pos": [
+        6956,
+        6973
+      ]
+    },
+    {
+      "pos": [
+        6979,
+        7112
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com)</ept>, click <bpt id=\"p2\">**</bpt>Reports<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Noncompliant Apps Reports<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        7118,
+        7274
+      ],
+      "content": "Select the device groups that you would like to check, whether you want to check for compliant apps, noncompliant apps, or both, then click <bpt id=\"p1\">**</bpt>View Report<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        7279,
+        7287
+      ]
+    },
+    {
+      "content": "Use policies to manage computers and mobile devices with Microsoft Intune",
+      "pos": [
+        7289,
+        7362
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Mac OS X configuration policy settings in Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 818798ce-b718-435f-897e-3e36a7053b82\n---\n# MD Mac OS X configuration policy settings in Microsoft Intune\nUse the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]**Mac OS X general configuration policy** to configure settings for:\n\n-   **Device security settings** - Choose from a list of predefined settings that let you control a range of features and functionality on the device.\n\n-   **Compliant and noncompliant apps** - Specify a list of apps that are compliant, or not compliant in your company. The Noncompliant Apps Report can be used to view the compliance of apps you specified in the list against the apps that users have installed (but cannot actually block the installation of the app).\n\n## Create an Mac OS X general configuration policy\n\n#### To provide basic settings for the configuration policy\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com), click **Policy** &gt; **Overview** &gt; **Add Policy**.\n\n2.  Click **Mac OS X** &gt; **General Configuration** and then click **Create Policy**.\n\n    > [!NOTE]\n    > You cannot create a configuration policy using recommended settings. You must create a custom policy.\n\n3.  In the **General** section of the **Create Policy** page, specify a name and a description for the new policy.\n\n4.  Use the information in the following sections to help you supply settings for the policy.\n\n5.  When you are finished, click **Save Policy**.\n\nThe new policy displays in the **Configuration Policies** node of the **Policy** workspace.\n\n## Settings for Mac OS X devices\nIf the setting you are looking for does not appear in this list, you might be able to create it using a Mac OS X custom policy that lets you import settings you created using the Apple Configurator Tool. For more information, see [Mac OS X custom policy settings in Microsoft Intune](../Topic/Mac-OS-X-custom-policy-settings-in-Microsoft-Intune.md).\n\n### Password settings\n\n|Setting name|Description|\n|----------------|---------------|\n|**Require a password to unlock devices**|Specifies whether the use must use a password to access their Mac computer.<br /><br />Unlike iOS devices, on Mac OS X devices, the user is not immediately notified to update their password to comply with this setting.|\n|**Required password type**|Specifies whether the password used can be Numeric only, or whether it must be **Alphanumeric** (contain letters and numbers).<br /><br />This setting is only supported on Mac OS X version 10.10.3 and later.|\n|**Number of complex characters required in password**|Specifies the number of complex characters required in the password (from **0** - **4**).<br /><br />A complex character is a symbol, such as '**?**'|\n|**Minimum password length**|Specifies the minimum length for the password (between **4** and **14** characters).|\n|**Allow simple passwords**|Allows the use of simple passwords such as '**0000**' or '**1234**'.|\n|**Minutes of inactivity before password is required**|Specifies how long the computer must be inactive before a password is required to unlock it.|\n|**Password expiration (days)**|Specifies how many days elapse before the user must change the password (from **1** - **255** days).|\n|**Remember password history**|This setting is used to prevent the user from using a previously used password. When it is set, you can also set **Prevent reuse of previous passwords** to specify the number of previously used passwords that cannot be reused (from **1** - **24**).|\n|**Minutes of inactivity before screensaver activates**|Specifies the length of time the computer must be idle before the screensaver activates.|\n\n## Settings for compliant and noncompliant apps\nIn the **Compliant &amp; Noncompliant Apps list for Mac OS X**, enable **Managed settings for devices**, and then specify a list of compliant or noncompliant apps using the following information:\n\n> [!NOTE]\n> A single policy can only contain a list of compliant, or a list of noncompliant apps. You cannot specify both in the same policy.\n> \n> [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] lets you report devices with noncompliant apps. It does not block installation, or remove noncompliant apps.\n\n|Setting name|Description|\n|----------------|---------------|\n|**Report noncompliance when users install the listed apps**|Lists the Mac OS X apps that users are not allowed to install. If users install any of these apps, they will be reported in the **Noncompliant Apps Reports**.|\n|**Report noncompliance when users install apps which are not listed**|Lists the Mac OS X apps that users are allowed to install. If users install any other apps, they will be reported in the **Noncompliant Apps Reports**.|\n|**Add**|Adds an app to the selected list. Specify a name of your choice, optionally the app publisher, and the  bundle ID of the app.|\n|**Import Apps**|Imports a list of apps you have specified in a comma-separated values file. Use the format, app name, publisher, app bundle ID in the file.|\n|**Edit**|Let’s you edit the name, publisher and app bundle ID of the selected app.|\n|**Delete**|Deletes the selected app from the list.|\n> [!TIP]\n> To find the bundle ID of an app, use the following steps on a Mac computer that has the app installed:\n> \n> 1.  Open the folder in which the app is installed (for example, **/Applications**)\n> 2.  Select the *&lt;App Name&gt;***.app** bundle, and choose **Show Package Contents**\n> 3.  Open the **Info.plist** file\n> 4.  Check the value associated with the key **CFBundleIdentifier**\n> \n> The format for Bundle ID is **com.contoso.appname**\n\n> [!TIP]\n> For more information about [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] reports, see [Understand Microsoft Intune operations by using reports](../Topic/Understand-Microsoft-Intune-operations-by-using-reports.md).\n\n## Deploy the configuration policy\nDeploy the configuration policy to one or more groups of users or devices in your organization.\n\nFor more information about how to deploy policies, see U[Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md).\n\nA status summary and alerts In the **Policy** workspace identify issues with the policy that require your attention. Additionally, a status summary appears in the **Dashboard** workspace.\n\n> [!IMPORTANT]\n> When a Mac OS X device is in Sleep mode, policies and profiles cannot be delivered or inventoried. As a result, the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] console might temporarily display the status **Policy settings in error** until the next time the device wakes from Sleep mode.\n\n## Monitor compliant and noncompliant apps\nUse the **Noncompliant Apps Reports** to view the compliance of apps you specified.\n\n#### To run the report\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com), click **Reports** &gt; **Noncompliant Apps Reports**.\n\n2.  Select the device groups that you would like to check, whether you want to check for compliant apps, noncompliant apps, or both, then click **View Report**.\n\n## See Also\n[Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)\n\n"
+}

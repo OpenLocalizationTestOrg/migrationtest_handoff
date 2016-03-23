@@ -1,0 +1,1397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">3360ede9589c1ddb816749788af0519c1d43eaea</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - Ways to do enterprise mobility</source>
+          <target>MD Conversion - Ways to do enterprise mobility</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - Ways to do enterprise mobility</source>
+          <target>MD Conversion - Ways to do enterprise mobility</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Microsoft provides several options for managing your mobile devices.</source>
+          <target>Microsoft provides several options for managing your mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>We’ve provided information on this page to help you decide between these different options for meeting your enterprise mobility needs:</source>
+          <target>We’ve provided information on this page to help you decide between these different options for meeting your enterprise mobility needs:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Choose between Intune and MDM for Office 365</source>
+          <target>Choose between Intune and MDM for Office 365</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Choose between Intune by itself or integrating Intune with System Center Configuration Manager</source>
+          <target>Choose between Intune by itself or integrating Intune with System Center Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_MDMOfferings"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Choose between Intune and MDM for Office 365</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Choose between Intune and MDM for Office 365</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Consideration</source>
+          <target>Consideration</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>MDM for Office 365</source>
+          <target>MDM for Office 365</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Cost</source>
+          <target>Cost</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://products.office.com/business/enterprise-productivity-tools)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Included with many <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Office 365 commercial subscriptions</pc>.</source>
+          <target>Included with many <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Office 365 commercial subscriptions</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx)</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://www.microsoft.com/en-us/server-cloud/products/enterprise-mobility-suite/Purchasing.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Requires a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">paid subscription for Microsoft Intune</pc> or can be purchased with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enterprise Mobility Suite</pc>.</source>
+          <target>Requires a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">paid subscription for Microsoft Intune</pc> or can be purchased with the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enterprise Mobility Suite</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>How you manage devices</source>
+          <target>How you manage devices</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://support.office.com/article/About-the-Office-365-admin-center-58537702-d421-4d02-8141-e128e3703547)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Manage devices using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Office 365 admin center</pc>.</source>
+          <target>Manage devices using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Office 365 admin center</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](https://technet.microsoft.com/library/dn646966.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you use <ph dataRef="id1" id="ph1" /> by itself, you manage devices using the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Intune admin console</pc>.</source>
+          <target>If you use <ph dataRef="id1" id="ph1" /> by itself, you manage devices using the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Intune admin console</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>If you integrate Intune with System Center 2012 Configuration Manager, you use the Configuration Manager console to manage devices on-premises and in the cloud.</source>
+          <target>If you integrate Intune with System Center 2012 Configuration Manager, you use the Configuration Manager console to manage devices on-premises and in the cloud.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Devices you can manage</source>
+          <target>Devices you can manage</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Cloud-based management for iOS, Android, and Windows Phone</source>
+          <target>Cloud-based management for iOS, Android, and Windows Phone</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Cloud-based management for iOS, Mac OS X, Android, Windows Phone, and Windows PCs</source>
+          <target>Cloud-based management for iOS, Mac OS X, Android, Windows Phone, and Windows PCs</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Key capabilities</source>
+          <target>Key capabilities</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Ensure that Office 365 corporate email and documents can be accessed only on phones and tablets that are managed by your company and that are compliant with your IT policies.</source>
+          <target>Ensure that Office 365 corporate email and documents can be accessed only on phones and tablets that are managed by your company and that are compliant with your IT policies.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Set and manage security policies, like device level pin lock and jailbreak detection, to help prevent unauthorized users from accessing corporate email and data on a device when it is lost or stolen.</source>
+          <target>Set and manage security policies, like device level pin lock and jailbreak detection, to help prevent unauthorized users from accessing corporate email and data on a device when it is lost or stolen.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Remove Office 365 company data from an employee’s device while leaving their personal data in place.</source>
+          <target>Remove Office 365 company data from an employee’s device while leaving their personal data in place.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the latest information about Office 365 MDM capabilities, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">capabilities of Built-in Mobile Device Management for Office 365</pc>.</source>
+          <target>For the latest information about Office 365 MDM capabilities, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">capabilities of Built-in Mobile Device Management for Office 365</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>MDM for Office 365 capabilities, plus:</source>
+          <target>MDM for Office 365 capabilities, plus:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Help users securely access corporate resource with certificates, Wi-Fi, VPN, and email profiles.</source>
+          <target>Help users securely access corporate resource with certificates, Wi-Fi, VPN, and email profiles.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Enroll and manage collections of corporate-owned devices, simplifying policy and app deployment.</source>
+          <target>Enroll and manage collections of corporate-owned devices, simplifying policy and app deployment.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Deploy your internal line-of-business apps and apps in stores to users.</source>
+          <target>Deploy your internal line-of-business apps and apps in stores to users.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+          <data id="id3">*</data>
+          <data id="id4">*</data>
+          <data id="id5">*</data>
+          <data id="id6">*</data>
+          <data id="id7">*</data>
+          <data id="id8">*</data>
+          <data id="id9">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enable your users to securely access corporate information using the Office mobile and line-of business apps they know, while ensuring security of data by restricting actions like <pc dataRefEnd="id2" dataRefStart="id1" id="p1">copy</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cut</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">paste</pc>, and <pc dataRefEnd="id8" dataRefStart="id7" id="p4">save as</pc>, to only those apps managed by <ph dataRef="id9" id="ph1" />.</source>
+          <target>Enable your users to securely access corporate information using the Office mobile and line-of business apps they know, while ensuring security of data by restricting actions like <pc dataRefEnd="id2" dataRefStart="id1" id="p1">copy</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">cut</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">paste</pc>, and <pc dataRefEnd="id8" dataRefStart="id7" id="p4">save as</pc>, to only those apps managed by <ph dataRef="id9" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enable secure web browsing using the <ph dataRef="id1" id="ph1" /> Managed Browser app.</source>
+          <target>Enable secure web browsing using the <ph dataRef="id1" id="ph1" /> Managed Browser app.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id3">[!INCLUDE[cm5short](../Token/cm5short_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Manage PC's from the cloud with no infrastructure required using <ph dataRef="id1" id="ph1" />, or connect <ph dataRef="id2" id="ph2" /> to <ph dataRef="id3" id="ph3" /> to manage all of your devices including PCs, Macs, Linux and UNIX servers, and mobile devices from a single management console.</source>
+          <target>Manage PC's from the cloud with no infrastructure required using <ph dataRef="id1" id="ph1" />, or connect <ph dataRef="id2" id="ph2" /> to <ph dataRef="id3" id="ph3" /> to manage all of your devices including PCs, Macs, Linux and UNIX servers, and mobile devices from a single management console.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Starting in October 2015, administrators can manage users and their mobile devices using both Intune and Office 365 concurrently on the same tenant.</source>
+          <target>Starting in October 2015, administrators can manage users and their mobile devices using both Intune and Office 365 concurrently on the same tenant.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>This lets you decided which solution is the best solution for specific users and their corresponding devices.</source>
+          <target>This lets you decided which solution is the best solution for specific users and their corresponding devices.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>You can then specify whether a user and his or her devices are managed with Office 365 MDM or the more feature-rich Intune management solution.</source>
+          <target>You can then specify whether a user and his or her devices are managed with Office 365 MDM or the more feature-rich Intune management solution.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_HybridOfferings"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Choose between Intune by itself or integrating Intune with System Center Configuration Manager</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Choose between Intune by itself or integrating Intune with System Center Configuration Manager</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You might choose <ph dataRef="id1" id="ph1" /> stand-alone if:</source>
+          <target>You might choose <ph dataRef="id1" id="ph1" /> stand-alone if:</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You might choose <ph dataRef="id1" id="ph1" /> + Configuration Manager if:</source>
+          <target>You might choose <ph dataRef="id1" id="ph1" /> + Configuration Manager if:</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>You want to manage mobile devices</source>
+          <target>You want to manage mobile devices</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>You want to manage computers that are not joined to a domain</source>
+          <target>You want to manage computers that are not joined to a domain</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>You have fewer than 50,000 devices to manage</source>
+          <target>You have fewer than 50,000 devices to manage</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>You have no (or limited) on-premises IT infrastructure</source>
+          <target>You have no (or limited) on-premises IT infrastructure</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> does not require on-premises IT infrastructure, however it can use the capabilities of Exchange ActiveSync or Active Directory Domain Services if you have those installed.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> does not require on-premises IT infrastructure, however it can use the capabilities of Exchange ActiveSync or Active Directory Domain Services if you have those installed.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>You have a mobile or highly distributed workforce.</source>
+          <target>You have a mobile or highly distributed workforce.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Cloud-based device management lets you manage mobile devices and computers anywhere in the world.</source>
+          <target>Cloud-based device management lets you manage mobile devices and computers anywhere in the world.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>You want to manage computers joined to a domain.</source>
+          <target>You want to manage computers joined to a domain.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>You want to manage servers.</source>
+          <target>You want to manage servers.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>You want to manage computers with the Configuration Manager client, Mac computers, Linux and UNIX server, and mobile devices enrolled with Intune from the same console.</source>
+          <target>You want to manage computers with the Configuration Manager client, Mac computers, Linux and UNIX server, and mobile devices enrolled with Intune from the same console.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>You have more than 50,000 devices to manage.</source>
+          <target>You have more than 50,000 devices to manage.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>You have on-premises IT infrastructure in place, or plan to deploy such infrastructure.</source>
+          <target>You have on-premises IT infrastructure in place, or plan to deploy such infrastructure.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>In this configuration, the device and resource management experience is fully unified.</source>
+          <target>In this configuration, the device and resource management experience is fully unified.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>User names and passwords are synchronized, providing users with a single account that they use to access company resources, whether from a domain-joined computer or from a mobile device.</source>
+          <target>User names and passwords are synchronized, providing users with a single account that they use to access company resources, whether from a domain-joined computer or from a mobile device.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Detailed comparison of capabilities</source>
+          <target>Detailed comparison of capabilities</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following tables compare the device and app management capabilities available to you when you use <ph dataRef="id1" id="ph1" /> alone, Configuration Manager alone, or a solution that uses both products.</source>
+          <target>The following tables compare the device and app management capabilities available to you when you use <ph dataRef="id1" id="ph1" /> alone, Configuration Manager alone, or a solution that uses both products.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](http://msdn.microsoft.com/en-us/library/2c6bd0e5-d436-41c8-bf38-30152d76be10)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more about using Configuration Manager with <ph dataRef="id1" id="ph1" />, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Manage Mobile Devices with Configuration Manager and Microsoft Intune</pc>.</source>
+          <target>To learn more about using Configuration Manager with <ph dataRef="id1" id="ph1" />, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Manage Mobile Devices with Configuration Manager and Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Device support</source>
+          <target>Device support</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Platform</source>
+          <target>Platform</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>System Center 2012 Configuration Manager SP2</source>
+          <target>System Center 2012 Configuration Manager SP2</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>System Center 2012 Configuration Manager SP2 and <ph dataRef="id1" id="ph1" /></source>
+          <target>System Center 2012 Configuration Manager SP2 and <ph dataRef="id1" id="ph1" /></target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Microsoft Windows</source>
+          <target>Microsoft Windows</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Microsoft Windows Server</source>
+          <target>Microsoft Windows Server</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Windows Phone</source>
+          <target>Windows Phone</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Windows RT</source>
+          <target>Windows RT</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>iOS</source>
+          <target>iOS</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Android and Samsung KNOX</source>
+          <target>Android and Samsung KNOX</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Mac OS X</source>
+          <target>Mac OS X</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Unix/Linux servers</source>
+          <target>Unix/Linux servers</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Product capabilities</source>
+          <target>Product capabilities</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Where indicated with (R2), the listed capability requires Microsoft System Center 2012 R2 Configuration Manager or later.</source>
+          <target>Where indicated with (R2), the listed capability requires Microsoft System Center 2012 R2 Configuration Manager or later.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Scenario</source>
+          <target>Scenario</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>System Center 2012 Configuration Manager SP2</source>
+          <target>System Center 2012 Configuration Manager SP2</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>System Center 2012 Configuration Manager SP2 and <ph dataRef="id1" id="ph1" /></source>
+          <target>System Center 2012 Configuration Manager SP2 and <ph dataRef="id1" id="ph1" /></target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Compliance Settings</source>
+          <target>Compliance Settings</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Deploy and customize Windows PC device configuration settings (e.g., WMI, registry)</source>
+          <target>Deploy and customize Windows PC device configuration settings (e.g., WMI, registry)</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Deploy and customize Mac OS X configuration settings</source>
+          <target>Deploy and customize Mac OS X configuration settings</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Deploy configuration settings to mobile devices.</source>
+          <target>Deploy configuration settings to mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Deploy custom mobile device settings (such as OMA-URI and Apple Configurator)</source>
+          <target>Deploy custom mobile device settings (such as OMA-URI and Apple Configurator)</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Deployment</source>
+          <target>Deployment</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Deploy apps to devices and Windows PCs</source>
+          <target>Deploy apps to devices and Windows PCs</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Deploy Windows operating systems</source>
+          <target>Deploy Windows operating systems</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Security and Privacy</source>
+          <target>Security and Privacy</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Manage Windows software updates</source>
+          <target>Manage Windows software updates</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Monitor malware on Windows PCs with Endpoint Protection</source>
+          <target>Monitor malware on Windows PCs with Endpoint Protection</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Administration and Reporting</source>
+          <target>Administration and Reporting</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Monitor and report on how often software is being used with software metering</source>
+          <target>Monitor and report on how often software is being used with software metering</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Hardware and software inventory</source>
+          <target>Hardware and software inventory</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Extend hardware and software inventory for Windows PCs</source>
+          <target>Extend hardware and software inventory for Windows PCs</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Use role-based administration and reporting to control who has access to product capabilites</source>
+          <target>Use role-based administration and reporting to control who has access to product capabilites</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Run reports for Windows PCs and enrolled mobile devices from the same console</source>
+          <target>Run reports for Windows PCs and enrolled mobile devices from the same console</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Customize existing reports, and write your own reports using SQL Server Reporting Services</source>
+          <target>Customize existing reports, and write your own reports using SQL Server Reporting Services</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Data Protection for mobile devices</source>
+          <target>Data Protection for mobile devices</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>Deploy security settings to mobile devices</source>
+          <target>Deploy security settings to mobile devices</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Remote wipe</source>
+          <target>Remote wipe</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>Remote lock</source>
+          <target>Remote lock</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Passcode reset</source>
+          <target>Passcode reset</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>Company resource access</source>
+          <target>Company resource access</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>Email profiles</source>
+          <target>Email profiles</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Yes (R2)</source>
+          <target>Yes (R2)</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Yes (R2)</source>
+          <target>Yes (R2)</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Wi-Fi profiles</source>
+          <target>Wi-Fi profiles</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>Yes (R2)</source>
+          <target>Yes (R2)</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>Yes (R2)</source>
+          <target>Yes (R2)</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>VPN profiles</source>
+          <target>VPN profiles</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>Yes (R2)</source>
+          <target>Yes (R2)</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>Yes (R2)</source>
+          <target>Yes (R2)</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>Certificate profiles</source>
+          <target>Certificate profiles</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>Yes (R2)</source>
+          <target>Yes (R2)</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>Yes (R2)</source>
+          <target>Yes (R2)</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>Manage access to Exchange email and SharePoint with conditional access</source>
+          <target>Manage access to Exchange email and SharePoint with conditional access</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>Mobile application management</source>
+          <target>Mobile application management</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>App compliance policies (compliant and noncompliant apps)</source>
+          <target>App compliance policies (compliant and noncompliant apps)</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>Kiosk mode</source>
+          <target>Kiosk mode</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>Managed Internet browser policy</source>
+          <target>Managed Internet browser policy</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>Automation</source>
+          <target>Automation</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>Use PowerShell to automate operations</source>
+          <target>Use PowerShell to automate operations</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>Introduction to Microsoft Intune</source>
+          <target>Introduction to Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

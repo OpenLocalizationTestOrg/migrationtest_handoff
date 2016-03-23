@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">fa828a4e06e0f47baee1f07a77489b559a9d7f4c</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Monitor Microsoft Intune app deployments - deleted</source>
+          <target>Monitor Microsoft Intune app deployments - deleted</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Monitor Microsoft Intune app deployments - deleted</source>
+          <target>Monitor Microsoft Intune app deployments - deleted</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Insert introduction here.</source>
+          <target>Insert introduction here.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Section Heading</source>
+          <target>Section Heading</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Insert section body here.</source>
+          <target>Insert section body here.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Subsection Heading</source>
+          <target>Subsection Heading</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Insert subsection body here.</source>
+          <target>Insert subsection body here.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

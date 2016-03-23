@@ -1,0 +1,891 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">99f73ad93ba8b79f792e3a44c710d3db909f0c87</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - Network infrastructure requirements for Microsoft Intune</source>
+          <target>MD Conversion - Network infrastructure requirements for Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - Network infrastructure requirements for Microsoft Intune</source>
+          <target>MD Conversion - Network infrastructure requirements for Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> requires your network infrastructure to pass communications between the devices you manage and use to manage your subscription, and the websites on the Internet that the cloud-based service uses.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> requires your network infrastructure to pass communications between the devices you manage and use to manage your subscription, and the websites on the Internet that the cloud-based service uses.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>There is no requirement to use on-premises infrastructure (like a server where you must install software), but there are options to use on-premises infrastructure including Exchange and Active Directory synchronization tools.</source>
+          <target>There is no requirement to use on-premises infrastructure (like a server where you must install software), but there are options to use on-premises infrastructure including Exchange and Active Directory synchronization tools.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_NetworkReqs"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Network infrastructure</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Network infrastructure</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>To manage computers that are behind firewalls and proxy servers, you must set up firewalls and proxy servers to allow communications for <ph dataRef="id1" id="ph1" />.</source>
+          <target>To manage computers that are behind firewalls and proxy servers, you must set up firewalls and proxy servers to allow communications for <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_FirewallReqs"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Requirements for firewalls, ports, and domains</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Requirements for firewalls, ports, and domains</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Managed devices require configurations that let <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Users</pc> access various services through firewalls.</source>
+          <target>Managed devices require configurations that let <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Users</pc> access various services through firewalls.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following table lists the domains and services that the <ph dataRef="id1" id="ph1" /> client accesses.</source>
+          <target>The following table lists the domains and services that the <ph dataRef="id1" id="ph1" /> client accesses.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Purpose</source>
+          <target>Purpose</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Domain</source>
+          <target>Domain</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Ports</source>
+          <target>Ports</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Microsoft Intune and related services</source>
+          <target>Microsoft Intune and related services</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>&amp;#42;.manage.microsoft.com</source>
+          <target>&amp;#42;.manage.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>&amp;#42;manage.microsoft.com</source>
+          <target>&amp;#42;manage.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>manage.microsoft.com</source>
+          <target>manage.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>&amp;#42;.microsoftonline-p.com</source>
+          <target>&amp;#42;.microsoftonline-p.com</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>&amp;#42;.microsoftonline-p.net</source>
+          <target>&amp;#42;.microsoftonline-p.net</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>&amp;#42;.portal.office.com</source>
+          <target>&amp;#42;.portal.office.com</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>&amp;#42;.spynet2.microsoft.com</source>
+          <target>&amp;#42;.spynet2.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>443</source>
+          <target>443</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>c.microsoft.com</source>
+          <target>c.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>c1.microsoft.com</source>
+          <target>c1.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>blob.core.windows.net</source>
+          <target>blob.core.windows.net</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>ajax.aspnetcdn.com</source>
+          <target>ajax.aspnetcdn.com</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>&amp;#42;.googleapis.com</source>
+          <target>&amp;#42;.googleapis.com</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>This domain is required for JQuery support when you use the company portal website.</source>
+          <target>This domain is required for JQuery support when you use the company portal website.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>wustat.microsoft.com</source>
+          <target>wustat.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Microsoft Update Services</source>
+          <target>Microsoft Update Services</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>&amp;#42;.update.microsoft.com</source>
+          <target>&amp;#42;.update.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>download.microsoft.com</source>
+          <target>download.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>update.microsoft.com</source>
+          <target>update.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>&amp;#42;.download.windowsupdate.com</source>
+          <target>&amp;#42;.download.windowsupdate.com</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>download.windowsupdate.com</source>
+          <target>download.windowsupdate.com</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>&amp;#42;.windowsupdate.com</source>
+          <target>&amp;#42;.windowsupdate.com</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>windowsupdate.microsoft.com</source>
+          <target>windowsupdate.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>ntservicepack.microsoft.com</source>
+          <target>ntservicepack.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>DNS lookup requests</source>
+          <target>DNS lookup requests</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>manage.microsoft.com.nsatc.net</source>
+          <target>manage.microsoft.com.nsatc.net</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>80</source>
+          <target>80</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Samsung KNOX device communication through the firewall</source>
+          <target>Samsung KNOX device communication through the firewall</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://www.samsungknox.com/en/faq/our-corporate-devices-are-behind-firewall-how-do-i-enable-knox-devices-contact-samsung-servers)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To enable Samsung KNOX devices to contact KNOX servers through the firewall, follow the instructions on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Samsung KNOX FAQ</pc>.</source>
+          <target>To enable Samsung KNOX devices to contact KNOX servers through the firewall, follow the instructions on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Samsung KNOX FAQ</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://www.samsungknox.com/en/faq/our-corporate-devices-are-behind-firewall-how-do-i-enable-knox-devices-contact-samsung-servers)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To enable Samsung KNOX devices to contact KNOX servers through the firewall, follow the instructions on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Samsung KNOX FAQ</pc>.</source>
+          <target>To enable Samsung KNOX devices to contact KNOX servers through the firewall, follow the instructions on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Samsung KNOX FAQ</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Documentation, Help, and support</source>
+          <target>Documentation, Help, and support</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>&amp;#42;.livemeeting.com</source>
+          <target>&amp;#42;.livemeeting.com</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>&amp;#42;.microsoftonline.com</source>
+          <target>&amp;#42;.microsoftonline.com</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>80 and 443</source>
+          <target>80 and 443</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>&amp;#42;.social.technet.microsoft.com</source>
+          <target>&amp;#42;.social.technet.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>80</source>
+          <target>80</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>blogs.technet.com</source>
+          <target>blogs.technet.com</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>80</source>
+          <target>80</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>go.microsoft.com</source>
+          <target>go.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>80</source>
+          <target>80</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>onlinehelp.microsoft.com</source>
+          <target>onlinehelp.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>80</source>
+          <target>80</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>www.microsoft.com</source>
+          <target>www.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>80</source>
+          <target>80</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ProxyReqs"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Requirements for proxy servers</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Requirements for proxy servers</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>To manage computers that are behind a proxy server, consider the following:</source>
+          <target>To manage computers that are behind a proxy server, consider the following:</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The proxy server must support both <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HTTP</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">HTTPS</pc> because <ph dataRef="id5" id="ph1" /> clients use both protocols.</source>
+          <target>The proxy server must support both <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HTTP</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">HTTPS</pc> because <ph dataRef="id5" id="ph1" /> clients use both protocols.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> supports unauthenticated proxy servers.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> supports unauthenticated proxy servers.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>You can modify proxy server settings on individual client computers, or you can use Group Policy settings to change settings for all client computers that are located behind a specified proxy server.</source>
+          <target>You can modify proxy server settings on individual client computers, or you can use Group Policy settings to change settings for all client computers that are located behind a specified proxy server.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://technet.microsoft.com/library/dn646966.aspx#BKMK_reduceBandwidth)</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also use a proxy server that caches content to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">reduce network bandwidth</pc> use by <ph dataRef="id3" id="ph1" /> clients.</source>
+          <target>You can also use a proxy server that caches content to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">reduce network bandwidth</pc> use by <ph dataRef="id3" id="ph1" /> clients.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_OnPremisesReqs"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />On-premises infrastructure</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />On-premises infrastructure</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following table identifies on-premises infrastructure you can use with <ph dataRef="id1" id="ph1" />.</source>
+          <target>The following table identifies on-premises infrastructure you can use with <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Infrastructure</source>
+          <target>Infrastructure</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>On-Premises Connector</source>
+          <target>On-Premises Connector</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md#bkmk_EX_OP)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If your instance of Exchange Server is on-premises, you must download, install, and <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Microsoft Intune on-premises connector for on-premises or hosted Exchange</pc> on a computer in your infrastructure.</source>
+          <target>If your instance of Exchange Server is on-premises, you must download, install, and <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Microsoft Intune on-premises connector for on-premises or hosted Exchange</pc> on a computer in your infrastructure.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>This connector can also connect to Exchange in the cloud.</source>
+          <target>This connector can also connect to Exchange in the cloud.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md#bkmk_S_S)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If your instance of Exchange Server is hosted in a cloud-based service, you can install and configure the On-Premises Connector, or you can <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Intune service to service connector for hosted Exchange</pc> which does not require an on-premises server to host the connector.</source>
+          <target>If your instance of Exchange Server is hosted in a cloud-based service, you can install and configure the On-Premises Connector, or you can <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Intune service to service connector for hosted Exchange</pc> which does not require an on-premises server to host the connector.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](http://technet.microsoft.com/library/dn646983.aspx#BKMK_SyncUsersFromAD)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before you can use either connector to connect <ph dataRef="id1" id="ph1" /> to your Exchange Server, you must <pc dataRefEnd="id3" dataRefStart="id2" id="p1">set up Active Directory synchronization</pc> so that your local users and security groups are synchronized with your instance of Azure AD.</source>
+          <target>Before you can use either connector to connect <ph dataRef="id1" id="ph1" /> to your Exchange Server, you must <pc dataRefEnd="id3" dataRefStart="id2" id="p1">set up Active Directory synchronization</pc> so that your local users and security groups are synchronized with your instance of Azure AD.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Proxy server</source>
+          <target>Proxy server</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Network-infrastructure-requirements-for-Microsoft-Intune.md#BKMK_ProxyReqs)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you manage clients that access the Internet through a proxy server, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Requirements for proxy servers</pc>.</source>
+          <target>If you manage clients that access the Internet through a proxy server, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Requirements for proxy servers</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>You can also use a proxy server that caches content to reduce network bandwidth.</source>
+          <target>You can also use a proxy server that caches content to reduce network bandwidth.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/What-to-know-before-setting-up-Microsoft-Intune.md#BKMK_ReduceBandwidth)</data>
+          <data id="id3">[</data>
+          <data id="id4">](../Topic/What-to-know-before-setting-up-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reduce network bandwidth use</pc> in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">What to know before setting up Microsoft Intune</pc> topic.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reduce network bandwidth use</pc> in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">What to know before setting up Microsoft Intune</pc> topic.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ExchanceConnectorReqs"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Requirements for the On-Premises Connector</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Requirements for the On-Premises Connector</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>The following table lists the requirements for the computer where you install the On-Premises Connector.</source>
+          <target>The following table lists the requirements for the computer where you install the On-Premises Connector.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Requirement</source>
+          <target>Requirement</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Operating systems</source>
+          <target>Operating systems</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[!INCLUDE[longhornshort](../Token/longhornshort_md.md)]</data>
+          <data id="id3">[!INCLUDE[nextref_server_7](../Token/nextref_server_7_md.md)]</data>
+          <data id="id4">[!INCLUDE[win8_server_2](../Token/win8_server_2_md.md)]</data>
+          <data id="id5">[!INCLUDE[winblue_server_2](../Token/winblue_server_2_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> supports the On-Premises Connector on a computer that runs any edition of <ph dataRef="id2" id="ph2" /> SP2 64 bit, <ph dataRef="id3" id="ph3" />, <ph dataRef="id4" id="ph4" />, or  <ph dataRef="id5" id="ph5" />.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> supports the On-Premises Connector on a computer that runs any edition of <ph dataRef="id2" id="ph2" /> SP2 64 bit, <ph dataRef="id3" id="ph3" />, <ph dataRef="id4" id="ph4" />, or  <ph dataRef="id5" id="ph5" />.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>The connector is not supported on any Server Core installation.</source>
+          <target>The connector is not supported on any Server Core installation.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Microsoft Exchange version</source>
+          <target>Microsoft Exchange version</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>The On-Premises Connector requires Microsoft Exchange 2010 SP1 or later.</source>
+          <target>The On-Premises Connector requires Microsoft Exchange 2010 SP1 or later.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Hardware</source>
+          <target>Hardware</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>The computer where you install the connector requires a 1.6 GHz CPU with 2 GB ram and 10 GB of free disk space  minimum hardware.</source>
+          <target>The computer where you install the connector requires a 1.6 GHz CPU with 2 GB ram and 10 GB of free disk space  minimum hardware.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Additional software</source>
+          <target>Additional software</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">[!INCLUDE[wps_2](../Token/wps_2_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>A full installation of Microsoft .NET Framework 4 and <ph dataRef="id1" id="ph1" /> 2.0 must be installed on the computer that hosts the connector.</source>
+          <target>A full installation of Microsoft .NET Framework 4 and <ph dataRef="id1" id="ph1" /> 2.0 must be installed on the computer that hosts the connector.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Network</source>
+          <target>Network</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>The computer where you install the connector must be in a domain that has a trust relationship to the domain that hosts your Exchange Server.</source>
+          <target>The computer where you install the connector must be in a domain that has a trust relationship to the domain that hosts your Exchange Server.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The computer requires configurations to enable it to access the <ph dataRef="id1" id="ph1" /> service through firewalls and proxy servers over Ports 80 and 443.</source>
+          <target>The computer requires configurations to enable it to access the <ph dataRef="id1" id="ph1" /> service through firewalls and proxy servers over Ports 80 and 443.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Domains used by <ph dataRef="id1" id="ph1" /> include manage.microsoft.com, &amp;#42;manage.microsoft.com, and &amp;#42;.manage.microsoft.com.</source>
+          <target>Domains used by <ph dataRef="id1" id="ph1" /> include manage.microsoft.com, &amp;#42;manage.microsoft.com, and &amp;#42;.manage.microsoft.com.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ServiceConnectorReqs"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Requirements for the Service to Service Connector</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Requirements for the Service to Service Connector</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>The Service to Service Connector supports only cloud-based Exchange and has no requirements for on-premises infrastructure.</source>
+          <target>The Service to Service Connector supports only cloud-based Exchange and has no requirements for on-premises infrastructure.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>However, to use this connector, the following must be true:</source>
+          <target>However, to use this connector, the following must be true:</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>You have an Office 365 subscription that has an Exchange Server 2013 tenant.</source>
+          <target>You have an Office 365 subscription that has an Exchange Server 2013 tenant.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>So long as the tenant is Exchange Server 2013, the connector supports Exchange Server 2010 in that same environment.</source>
+          <target>So long as the tenant is Exchange Server 2013, the connector supports Exchange Server 2010 in that same environment.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The user account that you use to install the On-Premises Connector must be a tenant administrator for <ph dataRef="id1" id="ph1" /> and be an administrator in the Exchange tenant with a license to use Exchange Server 2013.</source>
+          <target>The user account that you use to install the On-Premises Connector must be a tenant administrator for <ph dataRef="id1" id="ph1" /> and be an administrator in the Exchange tenant with a license to use Exchange Server 2013.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>What to know before setting up Microsoft Intune</source>
+          <target>What to know before setting up Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>How to buy Intune</source>
+          <target>How to buy Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

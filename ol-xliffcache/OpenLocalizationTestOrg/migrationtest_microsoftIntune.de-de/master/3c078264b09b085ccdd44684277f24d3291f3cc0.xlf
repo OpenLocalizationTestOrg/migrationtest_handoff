@@ -1,0 +1,1100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">3c078264b09b085ccdd44684277f24d3291f3cc0</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - Configure access to corporate email using email profiles with Microsoft Intune</source>
+          <target>MD Conversion - Configure access to corporate email using email profiles with Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - Configure access to corporate email using email profiles with Microsoft Intune</source>
+          <target>MD Conversion - Configure access to corporate email using email profiles with Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Email profiles in <ph dataRef="id1" id="ph1" /> help you create, deploy and monitor Exchange ActiveSync email settings on devices.</source>
+          <target>Email profiles in <ph dataRef="id1" id="ph1" /> help you create, deploy and monitor Exchange ActiveSync email settings on devices.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This lets user’s access corporate email on their personal devices without any required setup on their part.</source>
+          <target>This lets user’s access corporate email on their personal devices without any required setup on their part.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>You can use email profiles to configure the following device types:</source>
+          <target>You can use email profiles to configure the following device types:</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Devices that run Windows Phone 8 and later</source>
+          <target>Devices that run Windows Phone 8 and later</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Devices that run iOS 7.1 and later</source>
+          <target>Devices that run iOS 7.1 and later</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Devices that run Samsung KNOX Standard (4.0 and later)</source>
+          <target>Devices that run Samsung KNOX Standard (4.0 and later)</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Devices that run Windows 10 desktop, Windows 10 Mobile, and later</source>
+          <target>Devices that run Windows 10 desktop, Windows 10 Mobile, and later</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>In addition to configuring an email account on the device, you can also configure synchronization settings such as how much email to synchronize, and depending on the device type, the content types to synchronize.</source>
+          <target>In addition to configuring an email account on the device, you can also configure synchronization settings such as how much email to synchronize, and depending on the device type, the content types to synchronize.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Whenever possible, choose the most secure options that your email infrastructure and client operating systems can support.</source>
+          <target>Whenever possible, choose the most secure options that your email infrastructure and client operating systems can support.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Email profiles provide a convenient method to centrally distribute and manage email settings that your devices already support.</source>
+          <target>Email profiles provide a convenient method to centrally distribute and manage email settings that your devices already support.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> does not add email functionality.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> does not add email functionality.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>How email profiles are secured</source>
+          <target>How email profiles are secured</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Email profiles can be secured using one of two methods:</source>
+          <target>Email profiles can be secured using one of two methods:</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Certificates</source>
+          <target>Certificates</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you create the email profile, you choose a SCEP certificate profile that you have previously created in <ph dataRef="id1" id="ph1" />.</source>
+          <target>When you create the email profile, you choose a SCEP certificate profile that you have previously created in <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>This is known as the identity certificate and is used to authenticate against a trusted certificate profile (or a root certificate) you created to establish that the user’s device is allowed to connect.</source>
+          <target>This is known as the identity certificate and is used to authenticate against a trusted certificate profile (or a root certificate) you created to establish that the user’s device is allowed to connect.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>The trusted certificate is deployed to the computer that authenticates the email connection, typically, the Exchange server.</source>
+          <target>The trusted certificate is deployed to the computer that authenticates the email connection, typically, the Exchange server.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to create and use certificate profiles in <ph dataRef="id1" id="ph1" />, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</source>
+          <target>For more information about how to create and use certificate profiles in <ph dataRef="id1" id="ph1" />, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Username and password</source>
+          <target>Username and password</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>The user authenticates to the Exchange server by providing their username and password.</source>
+          <target>The user authenticates to the Exchange server by providing their username and password.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>The password is not contained in the email profile, so the user will need to supply this when they connect to email.</source>
+          <target>The password is not contained in the email profile, so the user will need to supply this when they connect to email.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Create an email profile</source>
+          <target>Create an email profile</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Configure one of the following policy types:</source>
+          <target>Configure one of the following policy types:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Email Profile for Samsung KNOX Standard (4.0 and later)</source>
+          <target>Email Profile for Samsung KNOX Standard (4.0 and later)</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Email Profile (iOS 7.1 and later)</source>
+          <target>Email Profile (iOS 7.1 and later)</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Email Profile (Windows Phone 8 and later)</source>
+          <target>Email Profile (Windows Phone 8 and later)</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Email Profile (Windows 10 Desktop and Mobile and later)</source>
+          <target>Email Profile (Windows 10 Desktop and Mobile and later)</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>You can only create and deploy a custom email profile policy.</source>
+          <target>You can only create and deploy a custom email profile policy.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Recommended settings are not available.</source>
+          <target>Recommended settings are not available.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to create and deploy policies, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc> topic.</source>
+          <target>For more information about how to create and deploy policies, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc> topic.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Use the following table to help you configure Samsung KNOX email profile settings:</source>
+          <target>Use the following table to help you configure Samsung KNOX email profile settings:</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Enter a unique name for the email profile.</source>
+          <target>Enter a unique name for the email profile.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Provide a description that gives an overview of the email profile and other relevant information that helps you to locate it.</source>
+          <target>Provide a description that gives an overview of the email profile and other relevant information that helps you to locate it.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Host</source>
+          <target>Host</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Specify the hostname of your company Exchange Server that hosts Exchange ActiveSync services.</source>
+          <target>Specify the hostname of your company Exchange Server that hosts Exchange ActiveSync services.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Account name</source>
+          <target>Account name</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Specify the display name for the email account as it will appear to users on their devices.</source>
+          <target>Specify the display name for the email account as it will appear to users on their devices.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Username</source>
+          <target>Username</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Select how the username for the email account will be obtained.</source>
+          <target>Select how the username for the email account will be obtained.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Username</pc> for an On-premises Exchange server or select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Principal Name</pc> for Office 365.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Username</pc> for an On-premises Exchange server or select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Principal Name</pc> for Office 365.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Email address</source>
+          <target>Email address</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Select how the email address for the user on each device is generated.</source>
+          <target>Select how the email address for the user on each device is generated.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary SMTP Address</pc> to use the primary SMTP address to log into Exchange or use  <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Principal Name</pc> to use the full principal name as the email address.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary SMTP Address</pc> to use the primary SMTP address to log into Exchange or use  <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Principal Name</pc> to use the full principal name as the email address.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Authentication method</source>
+          <target>Authentication method</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select either <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Username and Password</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Certificates</pc> as the authentication method used by the email profile.</source>
+          <target>Select either <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Username and Password</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Certificates</pc> as the authentication method used by the email profile.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Select a client certificate for client authentication (Identity Certificate)</source>
+          <target>Select a client certificate for client authentication (Identity Certificate)</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Select the client SCEP certificate that you previously created that will be used to authenticate the Exchange connection.</source>
+          <target>Select the client SCEP certificate that you previously created that will be used to authenticate the Exchange connection.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to use certificate profiles in <ph dataRef="id1" id="ph1" />, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</source>
+          <target>For more information about how to use certificate profiles in <ph dataRef="id1" id="ph1" />, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option is displayed only when the authentication method is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificates</pc>.</source>
+          <target>This option is displayed only when the authentication method is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificates</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Use S/MIME</source>
+          <target>Use S/MIME</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Send outgoing email using S/MIME encryption.</source>
+          <target>Send outgoing email using S/MIME encryption.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Signing certificate</source>
+          <target>Signing certificate</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Select the signing certificate that will be used to sign outgoing email.</source>
+          <target>Select the signing certificate that will be used to sign outgoing email.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option is displayed only when you select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use S/MIME</pc>.</source>
+          <target>This option is displayed only when you select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use S/MIME</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>Number of days of email to synchronize</source>
+          <target>Number of days of email to synchronize</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the drop-down list, select the number of days of email that you want to synchronize or select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Unlimited</pc> to synchronize all available email.</source>
+          <target>From the drop-down list, select the number of days of email that you want to synchronize or select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Unlimited</pc> to synchronize all available email.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Sync schedule</source>
+          <target>Sync schedule</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Select the schedule by which devices will synchronize data from the Exchange Server.</source>
+          <target>Select the schedule by which devices will synchronize data from the Exchange Server.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">As Messages arrive</pc> which synchronizes data as soon as it arrives, or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manual</pc>, where the user of the device must initiate the synchronization.</source>
+          <target>You can also select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">As Messages arrive</pc> which synchronizes data as soon as it arrives, or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manual</pc>, where the user of the device must initiate the synchronization.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Use SSL</source>
+          <target>Use SSL</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Use Secure Sockets Layer (SSL) communication when sending emails, receiving emails, and communicating with the Exchange Server.</source>
+          <target>Use Secure Sockets Layer (SSL) communication when sending emails, receiving emails, and communicating with the Exchange Server.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>For devices that run Samsung KNOX 4.0 or later, you must export your Exchange Server’s SSL certificate and deploy it as an Android Trusted Certificate Profile in <ph dataRef="id1" id="ph1" />.</source>
+          <target>For devices that run Samsung KNOX 4.0 or later, you must export your Exchange Server’s SSL certificate and deploy it as an Android Trusted Certificate Profile in <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> does not support accessing this certificate if it is installed on the Exchange Server by other means.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> does not support accessing this certificate if it is installed on the Exchange Server by other means.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Content type to synchronize</source>
+          <target>Content type to synchronize</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Select the content types that you want to synchronize to devices.</source>
+          <target>Select the content types that you want to synchronize to devices.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Choose from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Email, Contacts, Calendar, Tasks</pc>, or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Notes</pc>.</source>
+          <target>Choose from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Email, Contacts, Calendar, Tasks</pc>, or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Notes</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Use the following table to help you configure iOS email profile settings:</source>
+          <target>Use the following table to help you configure iOS email profile settings:</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Enter a unique name for the email profile.</source>
+          <target>Enter a unique name for the email profile.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Provide a description that gives an overview of the email profile and other relevant information that helps you to locate it.</source>
+          <target>Provide a description that gives an overview of the email profile and other relevant information that helps you to locate it.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Host</source>
+          <target>Host</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Specify the hostname of your company Exchange Server that hosts Exchange ActiveSync services.</source>
+          <target>Specify the hostname of your company Exchange Server that hosts Exchange ActiveSync services.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Account name</source>
+          <target>Account name</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Specify the display name for the email account as it will appear to users on their devices.</source>
+          <target>Specify the display name for the email account as it will appear to users on their devices.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Username</source>
+          <target>Username</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Select how the user name for the email account on each device is generated.</source>
+          <target>Select how the user name for the email account on each device is generated.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary SMTP Address</pc> to use the primary SMTP address to log into Exchange or use  <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Principal Name</pc> to use the full principal name as the email address.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary SMTP Address</pc> to use the primary SMTP address to log into Exchange or use  <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Principal Name</pc> to use the full principal name as the email address.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Email address</source>
+          <target>Email address</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Select how the email address for the user on each device is generated.</source>
+          <target>Select how the email address for the user on each device is generated.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary SMTP Address</pc> to use the primary SMTP address to log into Exchange or use  <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Principal Name</pc> to use the full principal name as the email address.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary SMTP Address</pc> to use the primary SMTP address to log into Exchange or use  <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Principal Name</pc> to use the full principal name as the email address.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Authentication method</source>
+          <target>Authentication method</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select either <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Username and Password</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Certificates</pc> as the authentication method used by the email profile.</source>
+          <target>Select either <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Username and Password</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Certificates</pc> as the authentication method used by the email profile.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Select a client certificate for client authentication (Identity Certificate)</source>
+          <target>Select a client certificate for client authentication (Identity Certificate)</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Select the client SCEP certificate that you previously created that will be used to authenticate the Exchange connection.</source>
+          <target>Select the client SCEP certificate that you previously created that will be used to authenticate the Exchange connection.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to use certificate profiles in <ph dataRef="id1" id="ph1" />, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</source>
+          <target>For more information about how to use certificate profiles in <ph dataRef="id1" id="ph1" />, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option is displayed only when the authentication method is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificates</pc>.</source>
+          <target>This option is displayed only when the authentication method is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificates</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Use S/MIME</source>
+          <target>Use S/MIME</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Send outgoing email using S/MIME encryption.</source>
+          <target>Send outgoing email using S/MIME encryption.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Signing certificate</source>
+          <target>Signing certificate</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Optionally, select the signing certificate that will be used to sign outgoing email.</source>
+          <target>Optionally, select the signing certificate that will be used to sign outgoing email.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This option is displayed only when you select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use S/MIME</pc>.</source>
+          <target>This option is displayed only when you select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use S/MIME</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>Number of days of email to synchronize</source>
+          <target>Number of days of email to synchronize</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the drop-down list, select the number of days of email that you want to synchronize or select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Unlimited</pc> to synchronize all available email.</source>
+          <target>From the drop-down list, select the number of days of email that you want to synchronize or select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Unlimited</pc> to synchronize all available email.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Use SSL</source>
+          <target>Use SSL</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Use Secure Sockets Layer (SSL) communication when sending emails, receiving emails, and communicating with the Exchange Server.</source>
+          <target>Use Secure Sockets Layer (SSL) communication when sending emails, receiving emails, and communicating with the Exchange Server.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Allow messages to be moved to other email accounts</source>
+          <target>Allow messages to be moved to other email accounts</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Allow users to move email messages between different accounts they have configured on their device.</source>
+          <target>Allow users to move email messages between different accounts they have configured on their device.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Allow email to be sent from third-party applications</source>
+          <target>Allow email to be sent from third-party applications</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Allow users to send email from apps other than the default email app.</source>
+          <target>Allow users to send email from apps other than the default email app.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Synchronize recently used email addresses</source>
+          <target>Synchronize recently used email addresses</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Synchronize the list of email addresses that have been recently used on the device.</source>
+          <target>Synchronize the list of email addresses that have been recently used on the device.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Use the following table to help you configure Windows Phone email profile settings:</source>
+          <target>Use the following table to help you configure Windows Phone email profile settings:</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Enter a unique name for the email profile.</source>
+          <target>Enter a unique name for the email profile.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Provide a description that gives an overview of the email profile and other relevant information that helps you to locate it.</source>
+          <target>Provide a description that gives an overview of the email profile and other relevant information that helps you to locate it.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Host</source>
+          <target>Host</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Specify the hostname of your company Exchange Server that hosts Exchange ActiveSync services.</source>
+          <target>Specify the hostname of your company Exchange Server that hosts Exchange ActiveSync services.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Account name</source>
+          <target>Account name</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Specify the display name for the email account as it will appear to users on their devices.</source>
+          <target>Specify the display name for the email account as it will appear to users on their devices.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Username</source>
+          <target>Username</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Select how the user name for the email account on each device is generated.</source>
+          <target>Select how the user name for the email account on each device is generated.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary SMTP Address</pc> to use the primary SMTP address to log into Exchange or use  <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Principal Name</pc> to use the full principal name as the email address.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary SMTP Address</pc> to use the primary SMTP address to log into Exchange or use  <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Principal Name</pc> to use the full principal name as the email address.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Email Address</source>
+          <target>Email Address</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Select how the email address for the user on each client device is generated.</source>
+          <target>Select how the email address for the user on each client device is generated.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary SMTP Address</pc> to use the primary SMTP address to log into Exchange or use  <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Principal Name</pc> to use the full principal name as the email address.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Primary SMTP Address</pc> to use the primary SMTP address to log into Exchange or use  <pc dataRefEnd="id4" dataRefStart="id3" id="p2">User Principal Name</pc> to use the full principal name as the email address.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Number of days of email to synchronize</source>
+          <target>Number of days of email to synchronize</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the drop-down list, select the number of days of email that you want to synchronize or select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Unlimited</pc> to synchronize all available email.</source>
+          <target>From the drop-down list, select the number of days of email that you want to synchronize or select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Unlimited</pc> to synchronize all available email.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Sync Schedule</source>
+          <target>Sync Schedule</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Select the schedule by which devices will synchronize data from the Exchange Server.</source>
+          <target>Select the schedule by which devices will synchronize data from the Exchange Server.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can also select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">As Messages arrive</pc> which synchronizes data as soon as it arrives, or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manual</pc>, where the user of the device must initiate the synchronization.</source>
+          <target>You can also select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">As Messages arrive</pc> which synchronizes data as soon as it arrives, or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manual</pc>, where the user of the device must initiate the synchronization.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Use SSL</source>
+          <target>Use SSL</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Use Secure Sockets Layer (SSL) communication when sending emails, receiving emails, and communicating with the Exchange Server.</source>
+          <target>Use Secure Sockets Layer (SSL) communication when sending emails, receiving emails, and communicating with the Exchange Server.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Content type to synchronize</source>
+          <target>Content type to synchronize</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Select the content types that you want to synchronize to devices.</source>
+          <target>Select the content types that you want to synchronize to devices.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Choose from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Email, Contacts, Calendar</pc>, or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Tasks</pc>.</source>
+          <target>Choose from <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Email, Contacts, Calendar</pc>, or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Tasks</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you have deployed an email profile and then wish to change the values for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange ActiveSync host</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Email address</pc>, you must delete the existing email profile and create a new one with the required values.</source>
+          <target>If you have deployed an email profile and then wish to change the values for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange ActiveSync host</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Email address</pc>, you must delete the existing email profile and create a new one with the required values.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</source>
+          <target>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Policies</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace.</source>
+          <target>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Policies</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Deploy an email profile</source>
+          <target>Deploy an email profile</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Deploy the email profile to one or more groups of users or devices in your organization.</source>
+          <target>Deploy the email profile to one or more groups of users or devices in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to deploy policies, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</source>
+          <target>For more information about how to deploy policies, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>A status summary and alerts on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overview</pc> page of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace identify issues with the policy that require your attention.</source>
+          <target>A status summary and alerts on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overview</pc> page of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace identify issues with the policy that require your attention.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Additionally, a status summary appears in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace.</source>
+          <target>Additionally, a status summary appears in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>If you want to remove an email profile from a device, edit the deployment and remove any groups of which the device is a member.</source>
+          <target>If you want to remove an email profile from a device, edit the deployment and remove any groups of which the device is a member.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Next Steps</source>
+          <target>Next Steps</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>After successful deployment, user’s devices will be provisioned with the correct settings to access corporate email.</source>
+          <target>After successful deployment, user’s devices will be provisioned with the correct settings to access corporate email.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Enable access to company resources with Microsoft Intune - deleted</source>
+          <target>Enable access to company resources with Microsoft Intune - deleted</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

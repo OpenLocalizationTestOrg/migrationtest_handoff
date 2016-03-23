@@ -1,0 +1,1227 @@
+{
+  "nodes": [
+    {
+      "content": "robstack - V2 of Get started with app deployment",
+      "pos": [
+        11,
+        59
+      ]
+    },
+    {
+      "content": "robstack - V2 of Get started with app deployment",
+      "pos": [
+        215,
+        263
+      ]
+    },
+    {
+      "content": "Before you start deploying <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> apps, take some time to familiarize yourself with the concepts introduced in this topic.",
+      "pos": [
+        264,
+        433
+      ]
+    },
+    {
+      "content": "This will give you an overview of the deployment process, and act as a reference to which device types and app types are supported.",
+      "pos": [
+        434,
+        565
+      ]
+    },
+    {
+      "content": "App types you can deploy with Intune",
+      "pos": [
+        570,
+        606
+      ]
+    },
+    {
+      "content": "You can deploy apps to all device types that are supported by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        607,
+        721
+      ]
+    },
+    {
+      "content": "Depending on the type of app you want to deploy, the process and supported devices will differ.",
+      "pos": [
+        722,
+        817
+      ]
+    },
+    {
+      "content": "Use the following table to help you understand what you can, and cannot deploy:",
+      "pos": [
+        818,
+        897
+      ]
+    },
+    {
+      "content": "Installer type",
+      "pos": [
+        900,
+        914
+      ]
+    },
+    {
+      "content": "Details",
+      "pos": [
+        915,
+        922
+      ]
+    },
+    {
+      "content": "Windows Installer (&amp;#42;.exe, &amp;#42;.msi)",
+      "pos": [
+        960,
+        1000
+      ]
+    },
+    {
+      "content": "-   Windows Installer files must support silent installation with no user input.",
+      "pos": [
+        1003,
+        1083
+      ]
+    },
+    {
+      "content": "Your app documentation should include the relevant command-line options to silently install the app (for example, <bpt id=\"p1\">**</bpt>/q<ept id=\"p1\">**</ept>).",
+      "pos": [
+        1084,
+        1206
+      ]
+    },
+    {
+      "content": "-   Any additional files and folders that are required by the app’s setup program must be available from the location that you specify for the app setup files.",
+      "pos": [
+        1212,
+        1371
+      ]
+    },
+    {
+      "content": "-   In most cases, Windows Installer (.msi) and Windows Installer Patch (.msp) files do not require any command-line arguments to be installed by Intune.",
+      "pos": [
+        1377,
+        1530
+      ]
+    },
+    {
+      "content": "Check your app documentation.",
+      "pos": [
+        1531,
+        1560
+      ]
+    },
+    {
+      "content": "If command-line arguments are required, they must be entered as Name=Value pairs (such as TRANSFORMS=custom_transform.mst).",
+      "pos": [
+        1561,
+        1684
+      ]
+    },
+    {
+      "content": "This type of app is uploaded to your cloud storage space.",
+      "pos": [
+        1696,
+        1753
+      ]
+    },
+    {
+      "content": "App Package for Android (&amp;#42;.apk file)",
+      "pos": [
+        1758,
+        1798
+      ]
+    },
+    {
+      "content": "This type of app is uploaded to your cloud storage space.",
+      "pos": [
+        1801,
+        1858
+      ]
+    },
+    {
+      "content": "App Package for iOS (&amp;#42;.ipa file)",
+      "pos": [
+        1863,
+        1899
+      ]
+    },
+    {
+      "content": "-   To deploy iOS apps, you must have a valid .ipa package.",
+      "pos": [
+        1902,
+        1961
+      ]
+    },
+    {
+      "content": "-   The .ipa package must be signed by Apple, and the expiration date indicated in the provisioning profile must be valid.",
+      "pos": [
+        1967,
+        2089
+      ]
+    },
+    {
+      "content": "Intune can distribute enterprise certificate iOS applications.",
+      "pos": [
+        2090,
+        2152
+      ]
+    },
+    {
+      "content": "Not all Apple developer certificate apps are supported.",
+      "pos": [
+        2153,
+        2208
+      ]
+    },
+    {
+      "content": "-   Your company must be registered for the iOS Developer Enterprise Program.",
+      "pos": [
+        2214,
+        2291
+      ]
+    },
+    {
+      "content": "-   Make sure that your organization’s firewall allows access to the iOS provisioning and certification web sites.",
+      "pos": [
+        2297,
+        2411
+      ]
+    },
+    {
+      "content": "-   A manifest  file (.plist) is not required to be deployed with the app.",
+      "pos": [
+        2417,
+        2491
+      ]
+    },
+    {
+      "content": "This type of app is uploaded to your cloud storage space.",
+      "pos": [
+        2503,
+        2560
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Note:<ept id=\"p1\">**</ept> Currently, end users cannot install corporate apps from the Intune Company Portal app for iOS.",
+      "pos": [
+        2561,
+        2665
+      ]
+    },
+    {
+      "content": "This is due to restrictions placed on apps that are published in the iOS App Store (see <bpt id=\"p1\">[</bpt>App Store Review Guidelines<ept id=\"p1\">](https://developer.apple.com/app-store/review/guidelines/)</ept>).",
+      "pos": [
+        2666,
+        2843
+      ]
+    },
+    {
+      "content": "Users can access corporate apps (including managed App Store apps and line-of-business app packages) by launching the Company Portal app on their device and tapping the Company Apps tile, which will open the browser and redirect them to the Intune Web Portal.",
+      "pos": [
+        2844,
+        3103
+      ]
+    },
+    {
+      "content": "For more information about the mobile management capabilities enabled by the Intune Company Portal app, see <bpt id=\"p1\">[</bpt>Mobile device management capabilities in Microsoft Intune<ept id=\"p1\">](../Topic/Mobile-device-management-capabilities-in-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        3104,
+        3343
+      ]
+    },
+    {
+      "content": "Windows Phone app package (&amp;#42;.xap, .appx, .appxbundle)",
+      "pos": [
+        3348,
+        3405
+      ]
+    },
+    {
+      "content": "-   To deploy apps, you'll need an enterprise mobile code-signing certificate.",
+      "pos": [
+        3408,
+        3486
+      ]
+    },
+    {
+      "content": "For details, see <bpt id=\"p1\">[</bpt>Set up Windows Phone management with Microsoft Intune<ept id=\"p1\">](../Topic/Set-up-Windows-Phone-management-with-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        3487,
+        3627
+      ]
+    },
+    {
+      "content": "This type of app is uploaded to your cloud storage space.",
+      "pos": [
+        3639,
+        3696
+      ]
+    },
+    {
+      "content": "See below for information about installing line of business Universal Windows Platform (UWP) apps with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        3708,
+        3863
+      ]
+    },
+    {
+      "content": "Windows app package (.appx, .appxbundle)",
+      "pos": [
+        3868,
+        3908
+      ]
+    },
+    {
+      "content": "-   To deploy apps, you'll need an enterprise mobile code-signing certificate.",
+      "pos": [
+        3911,
+        3989
+      ]
+    },
+    {
+      "content": "For details, see <bpt id=\"p1\">[</bpt>Set up Windows device management with Microsoft Intune<ept id=\"p1\">](../Topic/Set-up-Windows-device-management-with-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        3990,
+        4132
+      ]
+    },
+    {
+      "content": "This type of app is uploaded to your cloud storage space.",
+      "pos": [
+        4144,
+        4201
+      ]
+    },
+    {
+      "content": "Windows Installer through MDM (&amp;#42;.msi)",
+      "pos": [
+        4206,
+        4247
+      ]
+    },
+    {
+      "content": "This installer type lets you create and deploy Windows Installer-based apps to enrolled PCs that run Windows 10.",
+      "pos": [
+        4250,
+        4362
+      ]
+    },
+    {
+      "content": "The following considerations apply when you use this installer type:",
+      "pos": [
+        4374,
+        4442
+      ]
+    },
+    {
+      "content": "-   You can only upload a single file with the extension .msi.",
+      "pos": [
+        4454,
+        4516
+      ]
+    },
+    {
+      "content": "-   The file's product code and product version are used for app detection.",
+      "pos": [
+        4522,
+        4597
+      ]
+    },
+    {
+      "content": "-   The default restart behavior of the app will be used.",
+      "pos": [
+        4603,
+        4660
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> does not control this.",
+      "pos": [
+        4661,
+        4735
+      ]
+    },
+    {
+      "content": "-   Per user MSI packages will be installed for a single user.",
+      "pos": [
+        4741,
+        4803
+      ]
+    },
+    {
+      "content": "-   Per machine MSI packages will be installed for all users on the device.",
+      "pos": [
+        4809,
+        4884
+      ]
+    },
+    {
+      "content": "-   Dual mode MSI packages currently only install for all users on the device.",
+      "pos": [
+        4890,
+        4968
+      ]
+    },
+    {
+      "content": "-   App updates are supported when the MSI product code of each version is the same.",
+      "pos": [
+        4974,
+        5058
+      ]
+    },
+    {
+      "content": "This type of app is uploaded to your cloud storage space.",
+      "pos": [
+        5070,
+        5127
+      ]
+    },
+    {
+      "content": "External Link",
+      "pos": [
+        5132,
+        5145
+      ]
+    },
+    {
+      "content": "Used when you have a:",
+      "pos": [
+        5148,
+        5169
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>URL<ept id=\"p1\">**</ept> that lets users download an app from an app store.",
+      "pos": [
+        5181,
+        5243
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">**</bpt>Link<ept id=\"p1\">**</ept> to a web-based app that runs from the web browser.",
+      "pos": [
+        5249,
+        5312
+      ]
+    },
+    {
+      "content": "Apps based on external links are not stored in your <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> cloud storage space.",
+      "pos": [
+        5324,
+        5448
+      ]
+    },
+    {
+      "content": "Managed iOS app from the app store",
+      "pos": [
+        5453,
+        5487
+      ]
+    },
+    {
+      "content": "Lets you manage and deploy iOS apps that are free of charge from the app store.",
+      "pos": [
+        5490,
+        5569
+      ]
+    },
+    {
+      "content": "Also lets you associate <bpt id=\"p1\">[</bpt>mobile application management policies<ept id=\"p1\">](https://technet.microsoft.com/library/dn878026.aspx)</ept> with <bpt id=\"p2\">[</bpt>compatible apps<ept id=\"p2\">](https://technet.microsoft.com/library/dn708489.aspx)</ept> and review their status in the administrator console.",
+      "pos": [
+        5570,
+        5817
+      ]
+    },
+    {
+      "content": "Managed iOS apps are not stored in your Intune cloud storage space.",
+      "pos": [
+        5829,
+        5896
+      ]
+    },
+    {
+      "pos": [
+        5900,
+        6117
+      ],
+      "content": "[!TIP]\nOptions for mobile devices are not available until you [set the Mobile Device Management Authority](https://technet.microsoft.com/library/mt346013.aspx) to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "Options for mobile devices are not available until you <bpt id=\"p1\">[</bpt>set the Mobile Device Management Authority<ept id=\"p1\">](https://technet.microsoft.com/library/mt346013.aspx)</ept> to <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+          "pos": [
+            7,
+            215
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Support for Universal Windows Platform (UWP) apps",
+      "pos": [
+        6122,
+        6171
+      ]
+    },
+    {
+      "content": "Windows 10 devices do not require a sideloading key to install line of business apps.",
+      "pos": [
+        6172,
+        6257
+      ]
+    },
+    {
+      "content": "However, the registry key <bpt id=\"p1\">**</bpt>HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Windows\\Appx\\AllowAllTrustedApps<ept id=\"p1\">**</ept> must have a value of to <bpt id=\"p2\">**</bpt>1<ept id=\"p2\">**</ept> to enable sideloading.",
+      "pos": [
+        6258,
+        6420
+      ]
+    },
+    {
+      "content": "If this registry key is not configured, <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> will automatically set this value to <bpt id=\"p1\">**</bpt>1<ept id=\"p1\">**</ept> the first time you deploy an app to the device.",
+      "pos": [
+        6422,
+        6604
+      ]
+    },
+    {
+      "content": "If you have set this value to <bpt id=\"p1\">**</bpt>0<ept id=\"p1\">**</ept>, then <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> cannot automatically change the value, and the deployment of line of business apps will fail.",
+      "pos": [
+        6605,
+        6792
+      ]
+    },
+    {
+      "content": "Universal Windows Platform line of business apps must be signed with a code-signing certificate that is trusted on each device to which the app is deployed.",
+      "pos": [
+        6794,
+        6950
+      ]
+    },
+    {
+      "content": "You can use certificates from an in-house PKI infrastructure, or a certificate from a third-party public root certificate installed on the device.",
+      "pos": [
+        6951,
+        7097
+      ]
+    },
+    {
+      "content": "On Windows 10 Mobile devices, you can use a non-Symantec code signing certificate to sign universal <bpt id=\"p1\">**</bpt>.appx<ept id=\"p1\">**</ept> apps.",
+      "pos": [
+        7099,
+        7214
+      ]
+    },
+    {
+      "content": "For <bpt id=\"p1\">**</bpt>.xap<ept id=\"p1\">**</ept> apps, and also <bpt id=\"p2\">**</bpt>.appx<ept id=\"p2\">**</ept> packages built for Windows Phone 8.1 that you want to install on Windows 10 Mobile devices, you must use a Symantec code-signing certificate.",
+      "pos": [
+        7215,
+        7394
+      ]
+    },
+    {
+      "content": "More concepts",
+      "pos": [
+        7399,
+        7412
+      ]
+    },
+    {
+      "content": "Intune software publisher",
+      "pos": [
+        7418,
+        7443
+      ]
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt>Microsoft Intune Software Publisher<ept id=\"p1\">**</ept> starts when you add or modify apps from the Microsoft Intune administrator console.",
+      "pos": [
+        7444,
+        7571
+      ]
+    },
+    {
+      "content": "From the publisher, you select and configure a software installer type that will either upload apps (programs for computers or apps for mobile devices) to be stored in <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> cloud storage, or link to an online store or web application.",
+      "pos": [
+        7572,
+        7853
+      ]
+    },
+    {
+      "content": "Requirements",
+      "pos": [
+        7860,
+        7872
+      ]
+    },
+    {
+      "content": "Before you begin to use the Microsoft Intune Software Publisher, you must install the full version of <bpt id=\"p1\">[</bpt>Microsoft .NET Framework 4.0<ept id=\"p1\">](https://www.microsoft.com/download/details.aspx?id=17851)</ept>.",
+      "pos": [
+        7873,
+        8064
+      ]
+    },
+    {
+      "content": "After installation, you might have to restart your computer before the Software Publisher will open correctly.",
+      "pos": [
+        8065,
+        8175
+      ]
+    },
+    {
+      "content": "Cloud storage space",
+      "pos": [
+        8181,
+        8200
+      ]
+    },
+    {
+      "content": "All apps that you deploy using the software installer installation type must be packaged and uploaded to Microsoft Intune cloud storage.",
+      "pos": [
+        8201,
+        8337
+      ]
+    },
+    {
+      "content": "A trial subscription of Intune includes 2 gigabytes (GB) of cloud-based storage that is used to store managed apps and updates.",
+      "pos": [
+        8338,
+        8465
+      ]
+    },
+    {
+      "content": "A paid subscription includes 20GB, with the option to purchase additional storage.",
+      "pos": [
+        8466,
+        8548
+      ]
+    },
+    {
+      "pos": [
+        8550,
+        8672
+      ],
+      "content": "You can see how much space you are using and purchase more storage in the <bpt id=\"p1\">**</bpt>Storage Use<ept id=\"p1\">**</ept> node of the <bpt id=\"p2\">**</bpt>Admin<ept id=\"p2\">**</ept> workspace."
+    },
+    {
+      "pos": [
+        8674,
+        8793
+      ],
+      "content": "These rules apply to purchasing additional cloud-based storage for <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>:"
+    },
+    {
+      "content": "You must have an active paid subscription in order to purchase additional storage.",
+      "pos": [
+        8799,
+        8881
+      ]
+    },
+    {
+      "content": "Only billing administrators or global administrators for your Microsoft Online Service can purchase additional storage through the Intune account portal.",
+      "pos": [
+        8887,
+        9040
+      ]
+    },
+    {
+      "content": "To add, delete, or manage these administrators, you must be a global administrator and sign in to the Intune account portal.",
+      "pos": [
+        9041,
+        9165
+      ]
+    },
+    {
+      "content": "If you are a volume licensing customer who has purchased Intune or the Microsoft Intune Add-on through the enterprise agreement, contact your Microsoft Account Manager or Microsoft Partner for pricing information and to purchase additional storage.",
+      "pos": [
+        9171,
+        9419
+      ]
+    },
+    {
+      "content": "Requirements for cloud storage space",
+      "pos": [
+        9426,
+        9462
+      ]
+    },
+    {
+      "pos": [
+        9468,
+        9603
+      ],
+      "content": "All files associated with an app must be in the same location and be accessible by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>."
+    },
+    {
+      "content": "The maximum file size for any file you upload is 2GB.",
+      "pos": [
+        9609,
+        9662
+      ]
+    },
+    {
+      "content": "To upload files, you must have a minimum Internet speed of 768kbps.",
+      "pos": [
+        9668,
+        9735
+      ]
+    },
+    {
+      "content": "App deployment actions",
+      "pos": [
+        9741,
+        9763
+      ]
+    },
+    {
+      "content": "When you deploy apps, you can choose from one of the following deployment actions:",
+      "pos": [
+        9764,
+        9846
+      ]
+    },
+    {
+      "pos": [
+        9852,
+        9952
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Required install<ept id=\"p1\">**</ept> – The app is installed onto the device, with no end-user intervention required."
+    },
+    {
+      "pos": [
+        9960,
+        10109
+      ],
+      "content": "[!TIP]\nFor iOS devices that are not in supervised mode, and for all Android devices, the user must accept the app offer before it is installed.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "For iOS devices that are not in supervised mode, and for all Android devices, the user must accept the app offer before it is installed.",
+          "pos": [
+            7,
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "content": "You can no longer create new app deployments to iOS devices running an operating system earlier than iOS 7.1.",
+      "pos": [
+        10123,
+        10232
+      ]
+    },
+    {
+      "content": "Any existing app deployments to devices running an earlier operating system than iOS 7.1 will continue to work and be managed by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        10233,
+        10414
+      ]
+    },
+    {
+      "pos": [
+        10420,
+        10527
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Available install<ept id=\"p1\">**</ept> – The app is displayed in the company portal, and end-users can install it on-demand."
+    },
+    {
+      "pos": [
+        10533,
+        10588
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Uninstall<ept id=\"p1\">**</ept> – The app is uninstalled from the device."
+    },
+    {
+      "pos": [
+        10594,
+        10699
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Not applicable<ept id=\"p1\">**</ept> – The app is not displayed in the company portal, and is not installed to any devices."
+    },
+    {
+      "pos": [
+        10706,
+        10806
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_Actions\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Understand which deployment actions are available for each installer type"
+    },
+    {
+      "content": "Installer type",
+      "pos": [
+        10809,
+        10823
+      ]
+    },
+    {
+      "content": "Required install",
+      "pos": [
+        10824,
+        10840
+      ]
+    },
+    {
+      "content": "Available install",
+      "pos": [
+        10841,
+        10858
+      ]
+    },
+    {
+      "content": "Uninstall",
+      "pos": [
+        10859,
+        10868
+      ]
+    },
+    {
+      "content": "Not applicable",
+      "pos": [
+        10869,
+        10883
+      ]
+    },
+    {
+      "content": "Windows app package (deployed to a user group)",
+      "pos": [
+        10983,
+        11029
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11030,
+        11033
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11034,
+        11037
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11038,
+        11041
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11042,
+        11045
+      ]
+    },
+    {
+      "content": "Windows app package (deployed to a device group)",
+      "pos": [
+        11048,
+        11096
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11097,
+        11100
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11101,
+        11103
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11104,
+        11107
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11108,
+        11111
+      ]
+    },
+    {
+      "content": "App package for mobile devices (deployed to a user group)",
+      "pos": [
+        11114,
+        11171
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11172,
+        11175
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11176,
+        11179
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11180,
+        11183
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11184,
+        11187
+      ]
+    },
+    {
+      "content": "App package for mobile devices (deployed to a device group)",
+      "pos": [
+        11190,
+        11249
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11250,
+        11253
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11254,
+        11256
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11257,
+        11260
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11261,
+        11264
+      ]
+    },
+    {
+      "content": "Windows Installer (deployed to a user group)",
+      "pos": [
+        11267,
+        11311
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11312,
+        11314
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11315,
+        11318
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11319,
+        11321
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11322,
+        11325
+      ]
+    },
+    {
+      "content": "Windows Installer (deployed to a device group)",
+      "pos": [
+        11328,
+        11374
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11375,
+        11378
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11379,
+        11381
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11382,
+        11385
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11386,
+        11389
+      ]
+    },
+    {
+      "content": "External link (deployed to a user group)",
+      "pos": [
+        11392,
+        11432
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11433,
+        11435
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11436,
+        11439
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11440,
+        11442
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11443,
+        11446
+      ]
+    },
+    {
+      "content": "External link (deployed to a device group)",
+      "pos": [
+        11449,
+        11491
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11492,
+        11494
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11495,
+        11497
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11498,
+        11500
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11501,
+        11503
+      ]
+    },
+    {
+      "content": "Managed iOS app from the app store (deployed to a user group)",
+      "pos": [
+        11506,
+        11567
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11568,
+        11571
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11572,
+        11575
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11576,
+        11579
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11580,
+        11583
+      ]
+    },
+    {
+      "content": "Managed iOS app from the app store (deployed to a device group)",
+      "pos": [
+        11586,
+        11649
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11650,
+        11653
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11654,
+        11656
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11657,
+        11660
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11661,
+        11664
+      ]
+    },
+    {
+      "pos": [
+        11668,
+        11798
+      ],
+      "content": "[!TIP]\nWhen you deploy apps, if you select both user and device groups, you can only deploy the app as an **Available install**.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "When you deploy apps, if you select both user and device groups, you can only deploy the app as an <bpt id=\"p1\">**</bpt>Available install<ept id=\"p1\">**</ept>.",
+          "pos": [
+            7,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Deployment conflicts",
+      "pos": [
+        11804,
+        11824
+      ]
+    },
+    {
+      "content": "When two deployments, with the same deployment action are received by a device, the following rules apply:",
+      "pos": [
+        11825,
+        11931
+      ]
+    },
+    {
+      "content": "Deployments to a device group take precedence over deployments to a user group.",
+      "pos": [
+        11937,
+        12016
+      ]
+    },
+    {
+      "content": "However, if an app is deployed to a user group with a deployment action of <bpt id=\"p1\">**</bpt>Available<ept id=\"p1\">**</ept> and the same app is also deployed to a device group with a deployment action of <bpt id=\"p2\">**</bpt>Not Applicable<ept id=\"p2\">**</ept>, the app will be made available in the company portal for users to install.",
+      "pos": [
+        12017,
+        12280
+      ]
+    },
+    {
+      "content": "The intent of the IT admin takes precedence over the user.",
+      "pos": [
+        12286,
+        12344
+      ]
+    },
+    {
+      "content": "An install action takes precedence over an uninstall action.",
+      "pos": [
+        12350,
+        12410
+      ]
+    },
+    {
+      "content": "If both a required install and an available install are received by a device, the actions are combined (the app is both required and available).",
+      "pos": [
+        12416,
+        12560
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        12565,
+        12573
+      ]
+    },
+    {
+      "content": "Deploy and configure apps with Microsoft Intune",
+      "pos": [
+        12575,
+        12622
+      ]
+    }
+  ],
+  "content": "---\ntitle: robstack - V2 of Get started with app deployment\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: c16a4fea-d3b9-4f97-b587-6123863dddf0\nauthor: robstackmsft\n---\n# robstack - V2 of Get started with app deployment\nBefore you start deploying [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] apps, take some time to familiarize yourself with the concepts introduced in this topic. This will give you an overview of the deployment process, and act as a reference to which device types and app types are supported.\n\n## App types you can deploy with Intune\nYou can deploy apps to all device types that are supported by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. Depending on the type of app you want to deploy, the process and supported devices will differ. Use the following table to help you understand what you can, and cannot deploy:\n\n|Installer type|Details|\n|------------------|-----------|\n|**Windows Installer (&#42;.exe, &#42;.msi)**|-   Windows Installer files must support silent installation with no user input. Your app documentation should include the relevant command-line options to silently install the app (for example, **/q**).<br />-   Any additional files and folders that are required by the app’s setup program must be available from the location that you specify for the app setup files.<br />-   In most cases, Windows Installer (.msi) and Windows Installer Patch (.msp) files do not require any command-line arguments to be installed by Intune. Check your app documentation. If command-line arguments are required, they must be entered as Name=Value pairs (such as TRANSFORMS=custom_transform.mst).<br /><br />This type of app is uploaded to your cloud storage space.|\n|**App Package for Android (&#42;.apk file)**|This type of app is uploaded to your cloud storage space.|\n|**App Package for iOS (&#42;.ipa file)**|-   To deploy iOS apps, you must have a valid .ipa package.<br />-   The .ipa package must be signed by Apple, and the expiration date indicated in the provisioning profile must be valid. Intune can distribute enterprise certificate iOS applications. Not all Apple developer certificate apps are supported.<br />-   Your company must be registered for the iOS Developer Enterprise Program.<br />-   Make sure that your organization’s firewall allows access to the iOS provisioning and certification web sites.<br />-   A manifest  file (.plist) is not required to be deployed with the app.<br /><br />This type of app is uploaded to your cloud storage space. **Note:** Currently, end users cannot install corporate apps from the Intune Company Portal app for iOS. This is due to restrictions placed on apps that are published in the iOS App Store (see [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/)). Users can access corporate apps (including managed App Store apps and line-of-business app packages) by launching the Company Portal app on their device and tapping the Company Apps tile, which will open the browser and redirect them to the Intune Web Portal. For more information about the mobile management capabilities enabled by the Intune Company Portal app, see [Mobile device management capabilities in Microsoft Intune](../Topic/Mobile-device-management-capabilities-in-Microsoft-Intune.md).|\n|**Windows Phone app package (&#42;.xap, .appx, .appxbundle)**|-   To deploy apps, you'll need an enterprise mobile code-signing certificate. For details, see [Set up Windows Phone management with Microsoft Intune](../Topic/Set-up-Windows-Phone-management-with-Microsoft-Intune.md).<br /><br />This type of app is uploaded to your cloud storage space.<br /><br />See below for information about installing line of business Universal Windows Platform (UWP) apps with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].|\n|**Windows app package (.appx, .appxbundle)**|-   To deploy apps, you'll need an enterprise mobile code-signing certificate. For details, see [Set up Windows device management with Microsoft Intune](../Topic/Set-up-Windows-device-management-with-Microsoft-Intune.md).<br /><br />This type of app is uploaded to your cloud storage space.|\n|**Windows Installer through MDM (&#42;.msi)**|This installer type lets you create and deploy Windows Installer-based apps to enrolled PCs that run Windows 10.<br /><br />The following considerations apply when you use this installer type:<br /><br />-   You can only upload a single file with the extension .msi.<br />-   The file's product code and product version are used for app detection.<br />-   The default restart behavior of the app will be used. [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] does not control this.<br />-   Per user MSI packages will be installed for a single user.<br />-   Per machine MSI packages will be installed for all users on the device.<br />-   Dual mode MSI packages currently only install for all users on the device.<br />-   App updates are supported when the MSI product code of each version is the same.<br /><br />This type of app is uploaded to your cloud storage space.|\n|**External Link**|Used when you have a:<br /><br />-   **URL** that lets users download an app from an app store.<br />-   **Link** to a web-based app that runs from the web browser.<br /><br />Apps based on external links are not stored in your [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] cloud storage space.|\n|**Managed iOS app from the app store**|Lets you manage and deploy iOS apps that are free of charge from the app store. Also lets you associate [mobile application management policies](https://technet.microsoft.com/library/dn878026.aspx) with [compatible apps](https://technet.microsoft.com/library/dn708489.aspx) and review their status in the administrator console.<br /><br />Managed iOS apps are not stored in your Intune cloud storage space.|\n> [!TIP]\n> Options for mobile devices are not available until you [set the Mobile Device Management Authority](https://technet.microsoft.com/library/mt346013.aspx) to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n## Support for Universal Windows Platform (UWP) apps\nWindows 10 devices do not require a sideloading key to install line of business apps. However, the registry key **HKEY_LOCAL_MACHINE\\Software\\Policies\\Microsoft\\Windows\\Appx\\AllowAllTrustedApps** must have a value of to **1** to enable sideloading.\n\nIf this registry key is not configured, [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] will automatically set this value to **1** the first time you deploy an app to the device. If you have set this value to **0**, then [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] cannot automatically change the value, and the deployment of line of business apps will fail.\n\nUniversal Windows Platform line of business apps must be signed with a code-signing certificate that is trusted on each device to which the app is deployed. You can use certificates from an in-house PKI infrastructure, or a certificate from a third-party public root certificate installed on the device.\n\nOn Windows 10 Mobile devices, you can use a non-Symantec code signing certificate to sign universal **.appx** apps. For **.xap** apps, and also **.appx** packages built for Windows Phone 8.1 that you want to install on Windows 10 Mobile devices, you must use a Symantec code-signing certificate.\n\n## More concepts\n\n### Intune software publisher\nThe **Microsoft Intune Software Publisher** starts when you add or modify apps from the Microsoft Intune administrator console. From the publisher, you select and configure a software installer type that will either upload apps (programs for computers or apps for mobile devices) to be stored in [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] cloud storage, or link to an online store or web application.\n\n#### Requirements\nBefore you begin to use the Microsoft Intune Software Publisher, you must install the full version of [Microsoft .NET Framework 4.0](https://www.microsoft.com/download/details.aspx?id=17851). After installation, you might have to restart your computer before the Software Publisher will open correctly.\n\n### Cloud storage space\nAll apps that you deploy using the software installer installation type must be packaged and uploaded to Microsoft Intune cloud storage. A trial subscription of Intune includes 2 gigabytes (GB) of cloud-based storage that is used to store managed apps and updates. A paid subscription includes 20GB, with the option to purchase additional storage.\n\nYou can see how much space you are using and purchase more storage in the **Storage Use** node of the **Admin** workspace.\n\nThese rules apply to purchasing additional cloud-based storage for [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]:\n\n-   You must have an active paid subscription in order to purchase additional storage.\n\n-   Only billing administrators or global administrators for your Microsoft Online Service can purchase additional storage through the Intune account portal. To add, delete, or manage these administrators, you must be a global administrator and sign in to the Intune account portal.\n\n-   If you are a volume licensing customer who has purchased Intune or the Microsoft Intune Add-on through the enterprise agreement, contact your Microsoft Account Manager or Microsoft Partner for pricing information and to purchase additional storage.\n\n#### Requirements for cloud storage space\n\n-   All files associated with an app must be in the same location and be accessible by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n-   The maximum file size for any file you upload is 2GB.\n\n-   To upload files, you must have a minimum Internet speed of 768kbps.\n\n### App deployment actions\nWhen you deploy apps, you can choose from one of the following deployment actions:\n\n-   **Required install** – The app is installed onto the device, with no end-user intervention required.\n\n    > [!TIP]\n    > For iOS devices that are not in supervised mode, and for all Android devices, the user must accept the app offer before it is installed.\n    > \n    > You can no longer create new app deployments to iOS devices running an operating system earlier than iOS 7.1. Any existing app deployments to devices running an earlier operating system than iOS 7.1 will continue to work and be managed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n-   **Available install** – The app is displayed in the company portal, and end-users can install it on-demand.\n\n-   **Uninstall** – The app is uninstalled from the device.\n\n-   **Not applicable** – The app is not displayed in the company portal, and is not installed to any devices.\n\n#### <a name=\"BKMK_Actions\"></a>Understand which deployment actions are available for each installer type\n\n|Installer type|Required install|Available install|Uninstall|Not applicable|\n|------------------|--------------------|---------------------|-------------|------------------|\n|Windows app package (deployed to a user group)|Yes|Yes|Yes|Yes|\n|Windows app package (deployed to a device group)|Yes|No|Yes|Yes|\n|App package for mobile devices (deployed to a user group)|Yes|Yes|Yes|Yes|\n|App package for mobile devices (deployed to a device group)|Yes|No|Yes|Yes|\n|Windows Installer (deployed to a user group)|No|Yes|No|Yes|\n|Windows Installer (deployed to a device group)|Yes|No|Yes|Yes|\n|External link (deployed to a user group)|No|Yes|No|Yes|\n|External link (deployed to a device group)|No|No|No|No|\n|Managed iOS app from the app store (deployed to a user group)|Yes|Yes|Yes|Yes|\n|Managed iOS app from the app store (deployed to a device group)|Yes|No|Yes|Yes|\n> [!TIP]\n> When you deploy apps, if you select both user and device groups, you can only deploy the app as an **Available install**.\n\n### Deployment conflicts\nWhen two deployments, with the same deployment action are received by a device, the following rules apply:\n\n-   Deployments to a device group take precedence over deployments to a user group. However, if an app is deployed to a user group with a deployment action of **Available** and the same app is also deployed to a device group with a deployment action of **Not Applicable**, the app will be made available in the company portal for users to install.\n\n-   The intent of the IT admin takes precedence over the user.\n\n-   An install action takes precedence over an uninstall action.\n\n-   If both a required install and an available install are received by a device, the actions are combined (the app is both required and available).\n\n## See Also\n[Deploy and configure apps with Microsoft Intune](../Topic/Deploy-and-configure-apps-with-Microsoft-Intune.md)\n\n"
+}

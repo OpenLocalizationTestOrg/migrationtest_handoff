@@ -1,0 +1,1579 @@
+{
+  "nodes": [
+    {
+      "content": "robstack - V2 of Different ways to manage your devices",
+      "pos": [
+        11,
+        65
+      ]
+    },
+    {
+      "content": "robstack - V2 of Different ways to manage your devices",
+      "pos": [
+        221,
+        275
+      ]
+    },
+    {
+      "content": "Microsoft provides several options for managing your mobile devices.",
+      "pos": [
+        276,
+        344
+      ]
+    },
+    {
+      "content": "Use the information in this topic to help you decide which works best for your business needs.",
+      "pos": [
+        345,
+        439
+      ]
+    },
+    {
+      "pos": [
+        444,
+        520
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_MDMOfferings\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Decide between Intune and MDM for Office 365"
+    },
+    {
+      "content": "Consideration",
+      "pos": [
+        523,
+        536
+      ]
+    },
+    {
+      "content": "MDM for Office 365",
+      "pos": [
+        537,
+        555
+      ]
+    },
+    {
+      "content": "Cost",
+      "pos": [
+        713,
+        717
+      ]
+    },
+    {
+      "pos": [
+        718,
+        842
+      ],
+      "content": "Included with many <bpt id=\"p1\">[</bpt>Office 365 commercial subscriptions<ept id=\"p1\">](http://products.office.com/business/enterprise-productivity-tools)</ept>."
+    },
+    {
+      "pos": [
+        843,
+        1135
+      ],
+      "content": "Requires a <bpt id=\"p1\">[</bpt>paid subscription for Microsoft Intune<ept id=\"p1\">](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx)</ept> or can be purchased with the <bpt id=\"p2\">[</bpt>Enterprise Mobility Suite<ept id=\"p2\">](http://www.microsoft.com/en-us/server-cloud/products/enterprise-mobility-suite/Purchasing.aspx)</ept>."
+    },
+    {
+      "content": "How you manage devices",
+      "pos": [
+        1138,
+        1160
+      ]
+    },
+    {
+      "pos": [
+        1161,
+        1319
+      ],
+      "content": "Manage devices using the <bpt id=\"p1\">[</bpt>Office 365 admin center<ept id=\"p1\">](https://support.office.com/article/About-the-Office-365-admin-center-58537702-d421-4d02-8141-e128e3703547)</ept>."
+    },
+    {
+      "content": "If you use <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> by itself, you manage devices using the <bpt id=\"p1\">[</bpt>Intune admin console<ept id=\"p1\">](https://technet.microsoft.com/library/dn646966.aspx)</ept>.",
+      "pos": [
+        1320,
+        1499
+      ]
+    },
+    {
+      "content": "If you integrate Intune with System Center 2012 Configuration Manager, you use the Configuration Manager console to manage devices on-premises and in the cloud.",
+      "pos": [
+        1511,
+        1671
+      ]
+    },
+    {
+      "content": "Devices you can manage",
+      "pos": [
+        1674,
+        1696
+      ]
+    },
+    {
+      "content": "Cloud-based management for:",
+      "pos": [
+        1697,
+        1724
+      ]
+    },
+    {
+      "content": "-   iOS",
+      "pos": [
+        1736,
+        1743
+      ]
+    },
+    {
+      "content": "-   Android",
+      "pos": [
+        1749,
+        1760
+      ]
+    },
+    {
+      "content": "-   Windows Phone",
+      "pos": [
+        1766,
+        1783
+      ]
+    },
+    {
+      "content": "Cloud-based management for:",
+      "pos": [
+        1784,
+        1811
+      ]
+    },
+    {
+      "content": "-   iOS",
+      "pos": [
+        1823,
+        1830
+      ]
+    },
+    {
+      "content": "-   Android",
+      "pos": [
+        1836,
+        1847
+      ]
+    },
+    {
+      "content": "-   Windows Phone",
+      "pos": [
+        1853,
+        1870
+      ]
+    },
+    {
+      "content": "-   Windows PCs",
+      "pos": [
+        1876,
+        1891
+      ]
+    },
+    {
+      "content": "Key capabilities",
+      "pos": [
+        1894,
+        1910
+      ]
+    },
+    {
+      "content": "-   Ensure that Office 365 corporate email and documents can be accessed only on phones and tablets that are managed by your company and that are compliant with your IT policies.",
+      "pos": [
+        1911,
+        2089
+      ]
+    },
+    {
+      "content": "-   Set and manage security policies, like device level pin lock and jailbreak detection, to help prevent unauthorized users from accessing corporate email and data on a device when it is lost or stolen.",
+      "pos": [
+        2095,
+        2298
+      ]
+    },
+    {
+      "content": "-   Remove Office 365 company data from an employee’s device while leaving their personal data in place.",
+      "pos": [
+        2304,
+        2408
+      ]
+    },
+    {
+      "content": "For the latest information about Office 365 MDM capabilities, see <bpt id=\"p1\">[</bpt>capabilities of Built-in Mobile Device Management for Office 365<ept id=\"p1\">](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)</ept>.",
+      "pos": [
+        2420,
+        2636
+      ]
+    },
+    {
+      "content": "MDM for Office 365 capabilities, plus:",
+      "pos": [
+        2637,
+        2675
+      ]
+    },
+    {
+      "content": "-   Help users securely access corporate resource with certificates, Wi-Fi, VPN, and email profiles.",
+      "pos": [
+        2687,
+        2787
+      ]
+    },
+    {
+      "content": "-   Enroll and manage collections of corporate-owned devices, simplifying policy and app deployment.",
+      "pos": [
+        2793,
+        2893
+      ]
+    },
+    {
+      "content": "-   Deploy your internal line-of-business apps and apps in stores to users.",
+      "pos": [
+        2899,
+        2974
+      ]
+    },
+    {
+      "content": "-   Enable your users to securely access corporate information using the Office mobile and line-of business apps they know, while ensuring security of data by restricting actions like <bpt id=\"p1\">*</bpt>copy<ept id=\"p1\">*</ept>, <bpt id=\"p2\">*</bpt>cut<ept id=\"p2\">*</ept>, <bpt id=\"p3\">*</bpt>paste<ept id=\"p3\">*</ept>, and <bpt id=\"p4\">*</bpt>save as<ept id=\"p4\">*</ept>, to only those apps managed by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+      "pos": [
+        2980,
+        3285
+      ]
+    },
+    {
+      "content": "-   Enable secure web browsing using the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> Managed Browser app.",
+      "pos": [
+        3291,
+        3404
+      ]
+    },
+    {
+      "content": "-   Manage PC's from the cloud with no infrastructure required using <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, or connect <ph id=\"ph2\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> to <ph id=\"ph3\">[!INCLUDE[cm5short](../Token/cm5short_md.md)]</ph> to manage all of your devices including PCs, Macs, Linux and UNIX servers, and mobile devices from a single management console.",
+      "pos": [
+        3410,
+        3771
+      ]
+    },
+    {
+      "content": "If you've decided that Intune is the best solution for you, then continue to step 2, where you'll decide which configuration is right for you.",
+      "pos": [
+        3773,
+        3915
+      ]
+    },
+    {
+      "content": "If you've decided to use Office 365 MDM, continue to <bpt id=\"p1\">[</bpt>Office 365 commercial subscriptions<ept id=\"p1\">](http://products.office.com/business/enterprise-productivity-tools)</ept>",
+      "pos": [
+        3916,
+        4073
+      ]
+    },
+    {
+      "pos": [
+        4078,
+        4183
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_HybridOfferings\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Choose between Intune standalone and Intune with Configuration Manager"
+    },
+    {
+      "pos": [
+        4186,
+        4270
+      ],
+      "content": "You might choose <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> stand-alone if:"
+    },
+    {
+      "pos": [
+        4271,
+        4367
+      ],
+      "content": "You might choose <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> + Configuration Manager if:"
+    },
+    {
+      "content": "-   You want to manage mobile devices",
+      "pos": [
+        4562,
+        4599
+      ]
+    },
+    {
+      "content": "-   You want to manage computers that are not joined to a domain",
+      "pos": [
+        4605,
+        4669
+      ]
+    },
+    {
+      "content": "-   You have fewer than 50,000 devices to manage",
+      "pos": [
+        4675,
+        4723
+      ]
+    },
+    {
+      "content": "-   You have no (or limited) on-premises IT infrastructure <bpt id=\"p1\">**</bpt>Note:<ept id=\"p1\">**</ept>     <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> does not require on-premises IT infrastructure, however it can use the capabilities of Exchange ActiveSync or Active Directory Domain Services if you have those installed.",
+      "pos": [
+        4729,
+        5025
+      ]
+    },
+    {
+      "content": "-   You have a mobile or highly distributed workforce.",
+      "pos": [
+        5031,
+        5085
+      ]
+    },
+    {
+      "content": "Cloud-based device management lets you manage mobile devices and computers anywhere in the world.",
+      "pos": [
+        5086,
+        5183
+      ]
+    },
+    {
+      "content": "-   You want to manage computers joined to a domain.",
+      "pos": [
+        5184,
+        5236
+      ]
+    },
+    {
+      "content": "-   You want to manage servers.",
+      "pos": [
+        5242,
+        5273
+      ]
+    },
+    {
+      "content": "-   You want to manage computers with the Configuration Manager client, Mac computers, Linux and UNIX server, and mobile devices enrolled with Intune from the same console.",
+      "pos": [
+        5279,
+        5451
+      ]
+    },
+    {
+      "content": "-   You have more than 50,000 devices to manage.",
+      "pos": [
+        5457,
+        5505
+      ]
+    },
+    {
+      "content": "-   You have on-premises IT infrastructure in place, or plan to deploy such infrastructure.",
+      "pos": [
+        5511,
+        5602
+      ]
+    },
+    {
+      "content": "In this configuration, the device and resource management experience is fully unified.",
+      "pos": [
+        5603,
+        5689
+      ]
+    },
+    {
+      "content": "-   User names and passwords are synchronized, providing users with a single account that they use to access company resources, whether from a domain-joined computer or from a mobile device.",
+      "pos": [
+        5695,
+        5885
+      ]
+    },
+    {
+      "content": "Detailed comparison of capabilities",
+      "pos": [
+        5889,
+        5924
+      ]
+    },
+    {
+      "pos": [
+        5928,
+        6156
+      ],
+      "content": "The following tables compare the device and app management capabilities available to you when you use <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> alone, Configuration Manager alone, or a solution that uses both products."
+    },
+    {
+      "pos": [
+        6158,
+        6418
+      ],
+      "content": "To learn more about using Configuration Manager with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, see <bpt id=\"p1\">[</bpt>Manage Mobile Devices with Configuration Manager and Microsoft Intune<ept id=\"p1\">](http://msdn.microsoft.com/en-us/library/2c6bd0e5-d436-41c8-bf38-30152d76be10)</ept>."
+    },
+    {
+      "content": "Device support",
+      "pos": [
+        6424,
+        6438
+      ]
+    },
+    {
+      "content": "Scenario",
+      "pos": [
+        6441,
+        6449
+      ]
+    },
+    {
+      "content": "System Center 2012 Configuration Manager SP2",
+      "pos": [
+        6504,
+        6548
+      ]
+    },
+    {
+      "pos": [
+        6549,
+        6649
+      ],
+      "content": "System Center 2012 Configuration Manager SP2 and <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>"
+    },
+    {
+      "content": "Microsoft Windows",
+      "pos": [
+        6879,
+        6896
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6897,
+        6900
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6901,
+        6904
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6905,
+        6908
+      ]
+    },
+    {
+      "content": "Microsoft Windows Server",
+      "pos": [
+        6911,
+        6935
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        6936,
+        6938
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6939,
+        6942
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6943,
+        6946
+      ]
+    },
+    {
+      "content": "Windows Phone",
+      "pos": [
+        6949,
+        6962
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6963,
+        6966
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        6967,
+        6969
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6970,
+        6973
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        6976,
+        6986
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6987,
+        6990
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        6991,
+        6993
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6994,
+        6997
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        7000,
+        7003
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7004,
+        7007
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7008,
+        7010
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7011,
+        7014
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        7017,
+        7041
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7042,
+        7045
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7046,
+        7048
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7049,
+        7052
+      ]
+    },
+    {
+      "content": "Mac OS X",
+      "pos": [
+        7055,
+        7063
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7064,
+        7066
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7067,
+        7070
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7071,
+        7074
+      ]
+    },
+    {
+      "content": "Unix/Linux servers",
+      "pos": [
+        7077,
+        7095
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7096,
+        7098
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7099,
+        7102
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7103,
+        7106
+      ]
+    },
+    {
+      "content": "Comparison of capabilities",
+      "pos": [
+        7113,
+        7139
+      ]
+    },
+    {
+      "pos": [
+        7142,
+        7272
+      ],
+      "content": "[!TIP]\nWhere indicated with (R2), the listed capability requires Microsoft System Center 2012 R2 Configuration Manager or later.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "Where indicated with (R2), the listed capability requires Microsoft System Center 2012 R2 Configuration Manager or later.",
+          "pos": [
+            7,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Scenario",
+      "pos": [
+        7275,
+        7283
+      ]
+    },
+    {
+      "content": "System Center 2012 Configuration Manager SP2",
+      "pos": [
+        7338,
+        7382
+      ]
+    },
+    {
+      "pos": [
+        7383,
+        7483
+      ],
+      "content": "System Center 2012 Configuration Manager SP2 and <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>"
+    },
+    {
+      "content": "Compliance Settings",
+      "pos": [
+        7715,
+        7734
+      ]
+    },
+    {
+      "content": "Extensible Windows PC device configuration settings (e.g., WMI, registry)",
+      "pos": [
+        7742,
+        7815
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7816,
+        7818
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7819,
+        7822
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7823,
+        7826
+      ]
+    },
+    {
+      "content": "Extensible Mac OS X configuration settings",
+      "pos": [
+        7829,
+        7871
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7872,
+        7874
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7875,
+        7878
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7879,
+        7882
+      ]
+    },
+    {
+      "content": "Mobile device configuration settings",
+      "pos": [
+        7885,
+        7921
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7922,
+        7925
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7926,
+        7929
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7930,
+        7933
+      ]
+    },
+    {
+      "content": "Custom mobile device settings (such as OMA-URI and Apple Configurator)",
+      "pos": [
+        7936,
+        8006
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8007,
+        8010
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8011,
+        8014
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8015,
+        8018
+      ]
+    },
+    {
+      "content": "Deployment",
+      "pos": [
+        8023,
+        8033
+      ]
+    },
+    {
+      "content": "App deployment",
+      "pos": [
+        8041,
+        8055
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8056,
+        8059
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8060,
+        8063
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8064,
+        8067
+      ]
+    },
+    {
+      "content": "Windows operating system deployment",
+      "pos": [
+        8070,
+        8105
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8106,
+        8108
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8109,
+        8112
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8113,
+        8116
+      ]
+    },
+    {
+      "content": "Security and Privacy",
+      "pos": [
+        8121,
+        8141
+      ]
+    },
+    {
+      "content": "Software updates",
+      "pos": [
+        8149,
+        8165
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8166,
+        8169
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8170,
+        8173
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8174,
+        8177
+      ]
+    },
+    {
+      "content": "Endpoint Protection",
+      "pos": [
+        8180,
+        8199
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8200,
+        8203
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8204,
+        8207
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8208,
+        8211
+      ]
+    },
+    {
+      "content": "Administration and Reporting",
+      "pos": [
+        8216,
+        8244
+      ]
+    },
+    {
+      "content": "Software metering",
+      "pos": [
+        8252,
+        8269
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8270,
+        8272
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8273,
+        8276
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8277,
+        8280
+      ]
+    },
+    {
+      "content": "Hardware and software inventory",
+      "pos": [
+        8283,
+        8314
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8315,
+        8318
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8319,
+        8322
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8323,
+        8326
+      ]
+    },
+    {
+      "content": "Custom hardware and software inventory",
+      "pos": [
+        8329,
+        8367
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8368,
+        8370
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8371,
+        8374
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8375,
+        8378
+      ]
+    },
+    {
+      "content": "Role-based administration and reporting",
+      "pos": [
+        8381,
+        8420
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8421,
+        8423
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8424,
+        8427
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8428,
+        8431
+      ]
+    },
+    {
+      "content": "Unified reporting for cloud and corporate-connected devices",
+      "pos": [
+        8434,
+        8493
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8494,
+        8496
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8497,
+        8499
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8500,
+        8503
+      ]
+    },
+    {
+      "content": "Cloud-based reporting",
+      "pos": [
+        8506,
+        8527
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8528,
+        8531
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8532,
+        8534
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8535,
+        8537
+      ]
+    },
+    {
+      "content": "Custom reports",
+      "pos": [
+        8540,
+        8554
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8555,
+        8557
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8558,
+        8561
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8562,
+        8565
+      ]
+    },
+    {
+      "content": "Data Protection for mobile devices",
+      "pos": [
+        8570,
+        8604
+      ]
+    },
+    {
+      "content": "Security settings",
+      "pos": [
+        8612,
+        8629
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8630,
+        8633
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8634,
+        8637
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8638,
+        8641
+      ]
+    },
+    {
+      "content": "Remote wipe",
+      "pos": [
+        8644,
+        8655
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8656,
+        8659
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8660,
+        8663
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8664,
+        8667
+      ]
+    },
+    {
+      "content": "Remote lock",
+      "pos": [
+        8670,
+        8681
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8682,
+        8685
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8686,
+        8689
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8690,
+        8693
+      ]
+    },
+    {
+      "content": "Passcode reset",
+      "pos": [
+        8696,
+        8710
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8711,
+        8714
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8715,
+        8718
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8719,
+        8722
+      ]
+    },
+    {
+      "content": "Company resource access",
+      "pos": [
+        8727,
+        8750
+      ]
+    },
+    {
+      "content": "Email profiles",
+      "pos": [
+        8758,
+        8772
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8773,
+        8776
+      ]
+    },
+    {
+      "content": "Yes (R2)",
+      "pos": [
+        8777,
+        8785
+      ]
+    },
+    {
+      "content": "Yes (R2)",
+      "pos": [
+        8786,
+        8794
+      ]
+    },
+    {
+      "content": "Wi-Fi profiles",
+      "pos": [
+        8797,
+        8811
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8812,
+        8815
+      ]
+    },
+    {
+      "content": "Yes (R2)",
+      "pos": [
+        8816,
+        8824
+      ]
+    },
+    {
+      "content": "Yes (R2)",
+      "pos": [
+        8825,
+        8833
+      ]
+    },
+    {
+      "content": "VPN profiles",
+      "pos": [
+        8836,
+        8848
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8849,
+        8852
+      ]
+    },
+    {
+      "content": "Yes (R2)",
+      "pos": [
+        8853,
+        8861
+      ]
+    },
+    {
+      "content": "Yes (R2)",
+      "pos": [
+        8862,
+        8870
+      ]
+    },
+    {
+      "content": "Certificate profiles",
+      "pos": [
+        8873,
+        8893
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8894,
+        8897
+      ]
+    },
+    {
+      "content": "Yes (R2)",
+      "pos": [
+        8898,
+        8906
+      ]
+    },
+    {
+      "content": "Yes (R2)",
+      "pos": [
+        8907,
+        8915
+      ]
+    },
+    {
+      "content": "Conditional access",
+      "pos": [
+        8918,
+        8936
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8937,
+        8940
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8941,
+        8944
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8945,
+        8948
+      ]
+    },
+    {
+      "content": "Mobile application management",
+      "pos": [
+        8951,
+        8980
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8981,
+        8984
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8985,
+        8988
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8989,
+        8992
+      ]
+    },
+    {
+      "content": "App compliance policies (compliant and noncompliant apps)",
+      "pos": [
+        8995,
+        9052
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9053,
+        9056
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9057,
+        9060
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9061,
+        9064
+      ]
+    },
+    {
+      "content": "Kiosk mode",
+      "pos": [
+        9067,
+        9077
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9078,
+        9081
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9082,
+        9085
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9086,
+        9089
+      ]
+    },
+    {
+      "content": "Managed Internet browser policy",
+      "pos": [
+        9092,
+        9123
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9124,
+        9127
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9128,
+        9131
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9132,
+        9135
+      ]
+    },
+    {
+      "content": "Automation",
+      "pos": [
+        9140,
+        9150
+      ]
+    },
+    {
+      "content": "Use PowerShell to automate operations",
+      "pos": [
+        9158,
+        9195
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9196,
+        9198
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9199,
+        9202
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9203,
+        9206
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        9212,
+        9220
+      ]
+    },
+    {
+      "content": "Introduction to Microsoft Intune",
+      "pos": [
+        9222,
+        9254
+      ]
+    }
+  ],
+  "content": "---\ntitle: robstack - V2 of Different ways to manage your devices\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: e4fc05d3-4b57-4853-9908-85f90e520ac0\nauthor: robstackmsft\n---\n# robstack - V2 of Different ways to manage your devices\nMicrosoft provides several options for managing your mobile devices. Use the information in this topic to help you decide which works best for your business needs.\n\n## <a name=\"BKMK_MDMOfferings\"></a>Decide between Intune and MDM for Office 365\n\n|Consideration|MDM for Office 365|[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]|\n|-----------------|----------------------|---------------------------------------------------------|\n|Cost|Included with many [Office 365 commercial subscriptions](http://products.office.com/business/enterprise-productivity-tools).|Requires a [paid subscription for Microsoft Intune](http://www.microsoft.com/en-us/server-cloud/products/microsoft-intune/Purchasing.aspx) or can be purchased with the [Enterprise Mobility Suite](http://www.microsoft.com/en-us/server-cloud/products/enterprise-mobility-suite/Purchasing.aspx).|\n|How you manage devices|Manage devices using the [Office 365 admin center](https://support.office.com/article/About-the-Office-365-admin-center-58537702-d421-4d02-8141-e128e3703547).|If you use [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] by itself, you manage devices using the [Intune admin console](https://technet.microsoft.com/library/dn646966.aspx).<br /><br />If you integrate Intune with System Center 2012 Configuration Manager, you use the Configuration Manager console to manage devices on-premises and in the cloud.|\n|Devices you can manage|Cloud-based management for:<br /><br />-   iOS<br />-   Android<br />-   Windows Phone|Cloud-based management for:<br /><br />-   iOS<br />-   Android<br />-   Windows Phone<br />-   Windows PCs|\n|Key capabilities|-   Ensure that Office 365 corporate email and documents can be accessed only on phones and tablets that are managed by your company and that are compliant with your IT policies.<br />-   Set and manage security policies, like device level pin lock and jailbreak detection, to help prevent unauthorized users from accessing corporate email and data on a device when it is lost or stolen.<br />-   Remove Office 365 company data from an employee’s device while leaving their personal data in place.<br /><br />For the latest information about Office 365 MDM capabilities, see [capabilities of Built-in Mobile Device Management for Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx).|MDM for Office 365 capabilities, plus:<br /><br />-   Help users securely access corporate resource with certificates, Wi-Fi, VPN, and email profiles.<br />-   Enroll and manage collections of corporate-owned devices, simplifying policy and app deployment.<br />-   Deploy your internal line-of-business apps and apps in stores to users.<br />-   Enable your users to securely access corporate information using the Office mobile and line-of business apps they know, while ensuring security of data by restricting actions like *copy*, *cut*, *paste*, and *save as*, to only those apps managed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].<br />-   Enable secure web browsing using the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] Managed Browser app.<br />-   Manage PC's from the cloud with no infrastructure required using [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], or connect [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] to [!INCLUDE[cm5short](../Token/cm5short_md.md)] to manage all of your devices including PCs, Macs, Linux and UNIX servers, and mobile devices from a single management console.|\nIf you've decided that Intune is the best solution for you, then continue to step 2, where you'll decide which configuration is right for you. If you've decided to use Office 365 MDM, continue to [Office 365 commercial subscriptions](http://products.office.com/business/enterprise-productivity-tools)\n\n## <a name=\"BKMK_HybridOfferings\"></a>Choose between Intune standalone and Intune with Configuration Manager\n\n|You might choose [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] stand-alone if:|You might choose [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] + Configuration Manager if:|\n|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|\n|-   You want to manage mobile devices<br />-   You want to manage computers that are not joined to a domain<br />-   You have fewer than 50,000 devices to manage<br />-   You have no (or limited) on-premises IT infrastructure **Note:**     [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] does not require on-premises IT infrastructure, however it can use the capabilities of Exchange ActiveSync or Active Directory Domain Services if you have those installed.<br />-   You have a mobile or highly distributed workforce. Cloud-based device management lets you manage mobile devices and computers anywhere in the world.|-   You want to manage computers joined to a domain.<br />-   You want to manage servers.<br />-   You want to manage computers with the Configuration Manager client, Mac computers, Linux and UNIX server, and mobile devices enrolled with Intune from the same console.<br />-   You have more than 50,000 devices to manage.<br />-   You have on-premises IT infrastructure in place, or plan to deploy such infrastructure. In this configuration, the device and resource management experience is fully unified.<br />-   User names and passwords are synchronized, providing users with a single account that they use to access company resources, whether from a domain-joined computer or from a mobile device.|\n**Detailed comparison of capabilities**\n\nThe following tables compare the device and app management capabilities available to you when you use [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] alone, Configuration Manager alone, or a solution that uses both products.\n\nTo learn more about using Configuration Manager with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], see [Manage Mobile Devices with Configuration Manager and Microsoft Intune](http://msdn.microsoft.com/en-us/library/2c6bd0e5-d436-41c8-bf38-30152d76be10).\n\n### Device support\n\n|Scenario|[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]|System Center 2012 Configuration Manager SP2|System Center 2012 Configuration Manager SP2 and [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]|\n|------------|---------------------------------------------------------|------------------------------------------------|--------------------------------------------------------------------------------------------------------|\n|Microsoft Windows|Yes|Yes|Yes|\n|Microsoft Windows Server|No|Yes|Yes|\n|Windows Phone|Yes|No|Yes|\n|Windows RT|Yes|No|Yes|\n|iOS|Yes|No|Yes|\n|Android and Samsung KNOX|Yes|No|Yes|\n|Mac OS X|No|Yes|Yes|\n|Unix/Linux servers|No|Yes|Yes|\n\n### Comparison of capabilities\n> [!TIP]\n> Where indicated with (R2), the listed capability requires Microsoft System Center 2012 R2 Configuration Manager or later.\n\n|Scenario|[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]|System Center 2012 Configuration Manager SP2|System Center 2012 Configuration Manager SP2 and [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]|\n|------------|---------------------------------------------------------|------------------------------------------------|--------------------------------------------------------------------------------------------------------|\n|**Compliance Settings**||||\n|Extensible Windows PC device configuration settings (e.g., WMI, registry)|No|Yes|Yes|\n|Extensible Mac OS X configuration settings|No|Yes|Yes|\n|Mobile device configuration settings|Yes|Yes|Yes|\n|Custom mobile device settings (such as OMA-URI and Apple Configurator)|Yes|Yes|Yes|\n|**Deployment**||||\n|App deployment|Yes|Yes|Yes|\n|Windows operating system deployment|No|Yes|Yes|\n|**Security and Privacy**||||\n|Software updates|Yes|Yes|Yes|\n|Endpoint Protection|Yes|Yes|Yes|\n|**Administration and Reporting**||||\n|Software metering|No|Yes|Yes|\n|Hardware and software inventory|Yes|Yes|Yes|\n|Custom hardware and software inventory|No|Yes|Yes|\n|Role-based administration and reporting|No|Yes|Yes|\n|Unified reporting for cloud and corporate-connected devices|No|No|Yes|\n|Cloud-based reporting|Yes|No|No|\n|Custom reports|No|Yes|Yes|\n|**Data Protection for mobile devices**||||\n|Security settings|Yes|Yes|Yes|\n|Remote wipe|Yes|Yes|Yes|\n|Remote lock|Yes|Yes|Yes|\n|Passcode reset|Yes|Yes|Yes|\n|**Company resource access**||||\n|Email profiles|Yes|Yes (R2)|Yes (R2)|\n|Wi-Fi profiles|Yes|Yes (R2)|Yes (R2)|\n|VPN profiles|Yes|Yes (R2)|Yes (R2)|\n|Certificate profiles|Yes|Yes (R2)|Yes (R2)|\n|Conditional access|Yes|Yes|Yes|\n|Mobile application management|Yes|Yes|Yes|\n|App compliance policies (compliant and noncompliant apps)|Yes|Yes|Yes|\n|Kiosk mode|Yes|Yes|Yes|\n|Managed Internet browser policy|Yes|Yes|Yes|\n|**Automation**||||\n|Use PowerShell to automate operations|No|Yes|Yes|\n\n## See Also\n[Introduction to Microsoft Intune](../Topic/Introduction-to-Microsoft-Intune.md)\n\n"
+}
