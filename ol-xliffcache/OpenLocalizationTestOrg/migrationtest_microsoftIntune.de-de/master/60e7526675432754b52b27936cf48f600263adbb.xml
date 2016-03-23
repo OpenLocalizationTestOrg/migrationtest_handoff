@@ -1,0 +1,2587 @@
+{
+  "nodes": [
+    {
+      "content": "Using your Android device with Intune",
+      "pos": [
+        11,
+        48
+      ]
+    },
+    {
+      "content": "Using your Android device with Intune",
+      "pos": [
+        183,
+        220
+      ]
+    },
+    {
+      "content": "Use these steps  for tasks that you need to do on your Windows device or computer when your company is using Microsoft Intune:",
+      "pos": [
+        221,
+        347
+      ]
+    },
+    {
+      "content": "Task category",
+      "pos": [
+        350,
+        363
+      ]
+    },
+    {
+      "content": "Tasks you can do",
+      "pos": [
+        364,
+        380
+      ]
+    },
+    {
+      "content": "Company Portal app installation and Intune enrollment",
+      "pos": [
+        424,
+        477
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Enroll your Windows device in Intune<ept id=\"p1\">](#BKMK_windows_enroll_instrucs)</ept>",
+      "pos": [
+        478,
+        551
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>What happens when I install the Company Portal app and enroll my device in Intune?<ept id=\"p1\">](#BKMK_what_happns_enroll_all)</ept>",
+      "pos": [
+        557,
+        675
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>What can my IT admin see when I enroll my device in Intune?<ept id=\"p1\">](#BKMK_win_what_IT_can_see)</ept>",
+      "pos": [
+        681,
+        773
+      ]
+    },
+    {
+      "content": "Things you can do when your device is enrolled in Intune",
+      "pos": [
+        776,
+        832
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>What is the Company Portal website?<ept id=\"p1\">](#BKMK_win_whatis_cp_website)</ept>",
+      "pos": [
+        833,
+        903
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Encrypt your device<ept id=\"p1\">](#BKMK_win_encrypt_device)</ept>",
+      "pos": [
+        909,
+        960
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Reset (erase) your lost or stolen device<ept id=\"p1\">](#BKMK_win_erase_lost_device)</ept>",
+      "pos": [
+        966,
+        1041
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>What happens if I reset my Windows device using the Company Portal?<ept id=\"p1\">](#BKMK_win_what_happs_reset_devc)</ept>",
+      "pos": [
+        1047,
+        1153
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Unenroll your device from Intune<ept id=\"p1\">](#BKMK_win_unenroll_device)</ept>",
+      "pos": [
+        1159,
+        1224
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>What happens when I remove my device from the Company Portal?<ept id=\"p1\">](#BKMK_what_happs_unenroll_win)</ept>",
+      "pos": [
+        1230,
+        1328
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Turn off Microsoft usage data collection<ept id=\"p1\">](#BKMK_windows_pc_data_collect)</ept>",
+      "pos": [
+        1334,
+        1411
+      ]
+    },
+    {
+      "content": "Fix Intune issues with your device",
+      "pos": [
+        1414,
+        1448
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Device doesn't have the required minimum operating system version<ept id=\"p1\">](#BKMK_win_no_min_os)</ept>",
+      "pos": [
+        1449,
+        1541
+      ]
+    },
+    {
+      "content": "-   <bpt id=\"p1\">[</bpt>Device doesn't comply with the maximum operating system version<ept id=\"p1\">](#BKMK_win_no_max_os)</ept>",
+      "pos": [
+        1547,
+        1637
+      ]
+    },
+    {
+      "pos": [
+        1643,
+        1722
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_windows_enroll_instrucs\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Enroll your Windows device in Intune"
+    },
+    {
+      "content": "To enroll, use the link that corresponds to the device you are using:",
+      "pos": [
+        1723,
+        1792
+      ]
+    },
+    {
+      "content": "Windows 10",
+      "pos": [
+        1799,
+        1809
+      ]
+    },
+    {
+      "content": "Windows 8.1 or Windows RT 8.1",
+      "pos": [
+        1839,
+        1868
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        1905,
+        1915
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1",
+      "pos": [
+        1944,
+        1961
+      ]
+    },
+    {
+      "content": "Windows Phone 8",
+      "pos": [
+        1990,
+        2005
+      ]
+    },
+    {
+      "pos": [
+        2034,
+        2078
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_enrollment_w10\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Windows 10"
+    },
+    {
+      "content": "To enroll your device:",
+      "pos": [
+        2079,
+        2101
+      ]
+    },
+    {
+      "pos": [
+        2107,
+        2156
+      ],
+      "content": "Go to Windows  <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> and tap <bpt id=\"p2\">**</bpt>Accounts<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        2229,
+        2250
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Your account<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        2327,
+        2364
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Add a work or school account<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "Sign in with your work or school credentials.",
+      "pos": [
+        2440,
+        2485
+      ]
+    },
+    {
+      "pos": [
+        2544,
+        2698
+      ],
+      "content": "If you followed the steps above, but still can't access your work or school email, files, and other data, go back to <bpt id=\"p1\">**</bpt>Accounts<ept id=\"p1\">**</ept> and tap <bpt id=\"p2\">**</bpt>Work access<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "If you see your work or school account, congratulations.",
+      "pos": [
+        2704,
+        2760
+      ]
+    },
+    {
+      "content": "You’re connected.",
+      "pos": [
+        2761,
+        2778
+      ]
+    },
+    {
+      "pos": [
+        2784,
+        2901
+      ],
+      "content": "If you don’t see your work or school account, tap <bpt id=\"p1\">**</bpt>Connect<ept id=\"p1\">**</ept>, and then sign in with your work or school credentials."
+    },
+    {
+      "content": "We also recommend that you install the Company Portal app, which lets you easily identify and get the company apps that are relevant to you and your role.",
+      "pos": [
+        2903,
+        3057
+      ]
+    },
+    {
+      "content": "Depending on how your company  configured Intune, the Company Portal app may have been installed as part of your enrollment process.",
+      "pos": [
+        3058,
+        3190
+      ]
+    },
+    {
+      "content": "To check if you have the app, look for <bpt id=\"p1\">**</bpt>Company Portal<ept id=\"p1\">**</ept> in your apps list.",
+      "pos": [
+        3191,
+        3267
+      ]
+    },
+    {
+      "content": "If you don't see the Company Portal in your list of apps, follow these steps to install it.",
+      "pos": [
+        3268,
+        3359
+      ]
+    },
+    {
+      "pos": [
+        3365,
+        3394
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Start<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Store<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        3400,
+        3443
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Search<ept id=\"p1\">**</ept> and type <bpt id=\"p2\">**</bpt>company portal<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        3449,
+        3513
+      ],
+      "content": "In the list of results, tap <bpt id=\"p1\">**</bpt>Company Portal<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Install<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "Tap  either <bpt id=\"p1\">**</bpt>Install<ept id=\"p1\">**</ept> or <bpt id=\"p2\">**</bpt>Free<ept id=\"p2\">**</ept>.",
+      "pos": [
+        3519,
+        3555
+      ]
+    },
+    {
+      "content": "The option shown depends on how your company configured the app.",
+      "pos": [
+        3556,
+        3620
+      ]
+    },
+    {
+      "pos": [
+        3626,
+        3696
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_enrollment_w81orwrt81\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Windows 8.1 or Windows RT 8.1"
+    },
+    {
+      "content": "To enroll your device:",
+      "pos": [
+        3697,
+        3719
+      ]
+    },
+    {
+      "pos": [
+        3725,
+        3814
+      ],
+      "content": "On the device, tap <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>PC Settings<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Network<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Workplace<ept id=\"p4\">**</ept>."
+    },
+    {
+      "pos": [
+        3876,
+        3960
+      ],
+      "content": "Enter your work or school email for the User ID, if required, and then tap <bpt id=\"p1\">**</bpt>Join<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "If your user ID is not required,  the email address that you entered when you logged into this device is used.",
+      "pos": [
+        3966,
+        4076
+      ]
+    },
+    {
+      "content": "Type the password for your work or school email.",
+      "pos": [
+        4082,
+        4130
+      ]
+    },
+    {
+      "pos": [
+        4203,
+        4256
+      ],
+      "content": "Under <bpt id=\"p1\">**</bpt>Turn on device management<ept id=\"p1\">**</ept>, tap <bpt id=\"p2\">**</bpt>Turn on<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        4320,
+        4438
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Allow apps and services from IT admin<ept id=\"p1\">**</ept> dialog,  select the  <bpt id=\"p2\">**</bpt>I agree<ept id=\"p2\">**</ept> check box, and then tap <bpt id=\"p3\">**</bpt>Turn on<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "When you have successfully enrolled, you'll see the following screen.",
+      "pos": [
+        4512,
+        4581
+      ]
+    },
+    {
+      "content": "We also recommend that you install the Company Portal app, which lets you easily identify and get the company apps that are relevant to you and your role.",
+      "pos": [
+        4639,
+        4793
+      ]
+    },
+    {
+      "content": "Depending on how your company  configured Intune, the Company Portal app may have been installed as part of your enrollment process.",
+      "pos": [
+        4794,
+        4926
+      ]
+    },
+    {
+      "content": "To check if you have the app, look for <bpt id=\"p1\">**</bpt>Company Portal<ept id=\"p1\">**</ept> in your apps list.",
+      "pos": [
+        4927,
+        5003
+      ]
+    },
+    {
+      "content": "If you don't see the Company Portal in your list of apps, follow these steps to install it.",
+      "pos": [
+        5004,
+        5095
+      ]
+    },
+    {
+      "pos": [
+        5101,
+        5130
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Start<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Store<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        5136,
+        5179
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Search<ept id=\"p1\">**</ept> and type <bpt id=\"p2\">**</bpt>company portal<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        5185,
+        5232
+      ],
+      "content": "In the list of results, tap <bpt id=\"p1\">**</bpt>Company Portal<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "Tap  either <bpt id=\"p1\">**</bpt>Install<ept id=\"p1\">**</ept> or <bpt id=\"p2\">**</bpt>Free<ept id=\"p2\">**</ept>.",
+      "pos": [
+        5238,
+        5274
+      ]
+    },
+    {
+      "content": "The option shown depends on how your company configured the app.",
+      "pos": [
+        5275,
+        5339
+      ]
+    },
+    {
+      "pos": [
+        5345,
+        5388
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_enrollment_rt\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Windows RT"
+    },
+    {
+      "content": "To enroll your device:",
+      "pos": [
+        5389,
+        5411
+      ]
+    },
+    {
+      "pos": [
+        5417,
+        5471
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Start<ept id=\"p1\">**</ept>, and then type <bpt id=\"p2\">**</bpt>System Configuration<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "Tap the dialog box to open the <bpt id=\"p1\">**</bpt>Company Apps<ept id=\"p1\">**</ept>.",
+      "pos": [
+        5477,
+        5525
+      ]
+    },
+    {
+      "content": "You may be asked to accept your company’s Terms and Conditions.",
+      "pos": [
+        5526,
+        5589
+      ]
+    },
+    {
+      "content": "Sign in using your credentials.",
+      "pos": [
+        5595,
+        5626
+      ]
+    },
+    {
+      "content": "We also recommend that you install the Company Portal app, which lets you easily identify and get the company apps that are relevant to you and your role.",
+      "pos": [
+        5628,
+        5782
+      ]
+    },
+    {
+      "content": "Depending on how your company  configured Intune, the Company Portal app may have been installed as part of your enrollment process.",
+      "pos": [
+        5783,
+        5915
+      ]
+    },
+    {
+      "content": "To check if you have the app, look for <bpt id=\"p1\">**</bpt>Company Portal<ept id=\"p1\">**</ept> in your apps list.",
+      "pos": [
+        5916,
+        5992
+      ]
+    },
+    {
+      "content": "If you don't see the Company Portal in your list of apps, follow these steps to install it.",
+      "pos": [
+        5993,
+        6084
+      ]
+    },
+    {
+      "pos": [
+        6090,
+        6119
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Start<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Store<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        6125,
+        6168
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Search<ept id=\"p1\">**</ept> and type <bpt id=\"p2\">**</bpt>company portal<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        6174,
+        6221
+      ],
+      "content": "In the list of results, tap <bpt id=\"p1\">**</bpt>Company Portal<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        6227,
+        6267
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Company Portal<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Install<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        6273,
+        6323
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_enrollment_81\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Windows Phone 8.1"
+    },
+    {
+      "content": "To enroll your device in Intune, follow the instructions that apply to your company:",
+      "pos": [
+        6324,
+        6408
+      ]
+    },
+    {
+      "content": "If your company lets you use the Company Portal from the Windows Store",
+      "pos": [
+        6415,
+        6485
+      ]
+    },
+    {
+      "content": "If you aren’t allowed to access the Windows Store from your Windows Phone, or if you don’t have a Microsoft Account",
+      "pos": [
+        6515,
+        6630
+      ]
+    },
+    {
+      "pos": [
+        6666,
+        6770
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_comp_allows_cp\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>If your company lets you use the Company Portal from the Windows Store"
+    },
+    {
+      "content": "Install the Company Portal app on your device:",
+      "pos": [
+        6771,
+        6817
+      ]
+    },
+    {
+      "pos": [
+        6823,
+        6852
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Start<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Store<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        6858,
+        6901
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Search<ept id=\"p1\">**</ept> and type <bpt id=\"p2\">**</bpt>company portal<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        6907,
+        6954
+      ],
+      "content": "In the list of results, tap <bpt id=\"p1\">**</bpt>Company Portal<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        7022,
+        7063
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Company Portal<ept id=\"p1\">**</ept>  &amp;gt; <bpt id=\"p2\">**</bpt>Install<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "Enroll your device:",
+      "pos": [
+        7122,
+        7141
+      ]
+    },
+    {
+      "pos": [
+        7147,
+        7211
+      ],
+      "content": "On the device, open the <bpt id=\"p1\">**</bpt>Microsoft Intune Company Portal<ept id=\"p1\">**</ept> app."
+    },
+    {
+      "content": "Provide your credentials.",
+      "pos": [
+        7217,
+        7242
+      ]
+    },
+    {
+      "content": "You may be asked to accept your company’s Terms and Conditions, if applicable.",
+      "pos": [
+        7243,
+        7321
+      ]
+    },
+    {
+      "pos": [
+        7327,
+        7351
+      ],
+      "content": "Swipe to <bpt id=\"p1\">**</bpt>My Devices<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        7357,
+        7403
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Tap to enroll or identify this device<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        7476,
+        7503
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Enroll this device<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        7578,
+        7598
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Add account<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "Enter additional information as requested and then tap <bpt id=\"p1\">**</bpt>sign in<ept id=\"p1\">**</ept> to complete the enrollment.",
+      "pos": [
+        7673,
+        7767
+      ]
+    },
+    {
+      "content": "You should now see your workplace account listed on the <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Workplace<ept id=\"p2\">**</ept> page.",
+      "pos": [
+        7768,
+        7861
+      ]
+    },
+    {
+      "pos": [
+        7932,
+        8087
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_comp_doesnt_allow_cp\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>If you aren’t allowed to access the Windows Store from your Windows Phone, or if you don’t have a Microsoft Account"
+    },
+    {
+      "pos": [
+        8093,
+        8130
+      ],
+      "content": "Tap  <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>workplace<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        8136,
+        8198
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>add account<ept id=\"p1\">**</ept>, and then sign in using your work account."
+    },
+    {
+      "pos": [
+        8204,
+        8299
+      ],
+      "content": "Enter additional information as requested, and then tap <bpt id=\"p1\">**</bpt>sign in<ept id=\"p1\">**</ept> to complete the enrollment."
+    },
+    {
+      "pos": [
+        8305,
+        8412
+      ],
+      "content": "If prompted to install the company app or Hub, make sure the relevant box is checked and then tap <bpt id=\"p1\">**</bpt>done<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "If your IT admin has configured the Company Portal to be installed  during enrollment, you will see the Company Portal appear in your app list.",
+      "pos": [
+        8414,
+        8557
+      ]
+    },
+    {
+      "pos": [
+        8563,
+        8612
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_enrollment_wp8\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Windows Phone 8"
+    },
+    {
+      "content": "Enroll your device:",
+      "pos": [
+        8613,
+        8632
+      ]
+    },
+    {
+      "pos": [
+        8638,
+        8693
+      ],
+      "content": "On the device, tap  <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>company apps<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        8699,
+        8761
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>add account<ept id=\"p1\">**</ept>, and then sign in using your work account."
+    },
+    {
+      "content": "After the account is successfully added, you should be prompted to install the company app or Hub.",
+      "pos": [
+        8767,
+        8865
+      ]
+    },
+    {
+      "content": "Make sure the relevant box is checked and then tap <bpt id=\"p1\">**</bpt>done<ept id=\"p1\">**</ept>.",
+      "pos": [
+        8866,
+        8926
+      ]
+    },
+    {
+      "content": "The Company Portal will appear in your app list after it is installed.",
+      "pos": [
+        8928,
+        8998
+      ]
+    },
+    {
+      "pos": [
+        9003,
+        9127
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_what_happns_enroll_all\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>What happens when I install the Company Portal app and enroll my device in Intune?"
+    },
+    {
+      "pos": [
+        9133,
+        9262
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_what_happens_w10\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>What happens when I install the Company Portal app and enroll my Windows 10 device in Intune?"
+    },
+    {
+      "content": "When you install the Company Portal app and then use the app to enroll your Windows 10 Enterprise  or Professional device in Intune, you can then use the Company Portal app to:",
+      "pos": [
+        9263,
+        9439
+      ]
+    },
+    {
+      "content": "Access the company’s network, and your email and work files",
+      "pos": [
+        9445,
+        9504
+      ]
+    },
+    {
+      "content": "Get company apps from the Company Portal",
+      "pos": [
+        9510,
+        9550
+      ]
+    },
+    {
+      "content": "Automatically configure your company email account",
+      "pos": [
+        9556,
+        9606
+      ]
+    },
+    {
+      "content": "Reset your phone to factory settings if it is lost or stolen",
+      "pos": [
+        9612,
+        9672
+      ]
+    },
+    {
+      "content": "For the steps to enroll, see <bpt id=\"p1\">[</bpt>Windows 10<ept id=\"p1\">](#BKMK_enrollment_w10)</ept>.",
+      "pos": [
+        9674,
+        9738
+      ]
+    },
+    {
+      "content": "For information about what your IT admin can and can't see on your device, see <bpt id=\"p1\">[</bpt>What can my IT admin see when I enroll my device in Intune?<ept id=\"p1\">](#BKMK_win_what_IT_can_see)</ept>",
+      "pos": [
+        9739,
+        9906
+      ]
+    },
+    {
+      "content": "When you add a computer:",
+      "pos": [
+        9908,
+        9932
+      ]
+    },
+    {
+      "content": "You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information.",
+      "pos": [
+        9938,
+        10152
+      ]
+    },
+    {
+      "content": "This software may be updated automatically by your IT administrator.",
+      "pos": [
+        10153,
+        10221
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> Endpoint Protection may be installed on your computer.",
+      "pos": [
+        10227,
+        10335
+      ]
+    },
+    {
+      "content": "This is software that checks for viruses and malware.",
+      "pos": [
+        10336,
+        10389
+      ]
+    },
+    {
+      "content": "For more information, please refer to the <bpt id=\"p1\">[</bpt>Endpoint Protection Privacy Statement<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkID=247324)</ept>.",
+      "pos": [
+        10390,
+        10519
+      ]
+    },
+    {
+      "content": "Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.",
+      "pos": [
+        10525,
+        10668
+      ]
+    },
+    {
+      "content": "Require you to accept terms and conditions.",
+      "pos": [
+        10674,
+        10717
+      ]
+    },
+    {
+      "content": "Your IT administrator can collect or delete data from your computer’s hard drive.",
+      "pos": [
+        10723,
+        10804
+      ]
+    },
+    {
+      "content": "Your IT administrator could also delete the entire hard drive.",
+      "pos": [
+        10805,
+        10867
+      ]
+    },
+    {
+      "content": "Your IT administrator can install apps and updates on your computer.",
+      "pos": [
+        10873,
+        10941
+      ]
+    },
+    {
+      "content": "Your IT administrator may enforce policies on the computer.",
+      "pos": [
+        10947,
+        11006
+      ]
+    },
+    {
+      "content": "For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.",
+      "pos": [
+        11007,
+        11226
+      ]
+    },
+    {
+      "pos": [
+        11232,
+        11376
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_what_happens_w81\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>What happens when I install the Company Portal app and enroll my Windows 8.1 or Windows RT device in Intune?"
+    },
+    {
+      "content": "When you install the Company Portal app and then use the app to enroll your Windows 8.1 Enterprise  or Professional or Windows RT device in Intune, you can then use the Company Portal app to:",
+      "pos": [
+        11377,
+        11568
+      ]
+    },
+    {
+      "content": "Access the company’s network, and your email and work files",
+      "pos": [
+        11574,
+        11633
+      ]
+    },
+    {
+      "content": "Get company apps from the Company Portal",
+      "pos": [
+        11639,
+        11679
+      ]
+    },
+    {
+      "content": "Automatically configure your company email account",
+      "pos": [
+        11685,
+        11735
+      ]
+    },
+    {
+      "content": "Reset your phone to factory settings if it is lost or stolen",
+      "pos": [
+        11741,
+        11801
+      ]
+    },
+    {
+      "content": "For the steps to enroll, see <bpt id=\"p1\">[</bpt>Windows 8.1 or Windows RT 8.1<ept id=\"p1\">](#BKMK_enrollment_w81orwrt81)</ept>.",
+      "pos": [
+        11803,
+        11893
+      ]
+    },
+    {
+      "content": "For information about what your IT admin can and can't see on your device, see <bpt id=\"p1\">[</bpt>What can my IT admin see when I enroll my device in Intune?<ept id=\"p1\">](#BKMK_win_what_IT_can_see)</ept>",
+      "pos": [
+        11894,
+        12061
+      ]
+    },
+    {
+      "content": "When you add a computer:",
+      "pos": [
+        12063,
+        12087
+      ]
+    },
+    {
+      "content": "You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information.",
+      "pos": [
+        12093,
+        12307
+      ]
+    },
+    {
+      "content": "This software may be updated automatically by your IT administrator.",
+      "pos": [
+        12308,
+        12376
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> Endpoint Protection may be installed on your computer.",
+      "pos": [
+        12382,
+        12490
+      ]
+    },
+    {
+      "content": "This is software that checks for viruses and malware.",
+      "pos": [
+        12491,
+        12544
+      ]
+    },
+    {
+      "content": "For more information, please refer to the <bpt id=\"p1\">[</bpt>Endpoint Protection Privacy Statement<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkID=247324)</ept>.",
+      "pos": [
+        12545,
+        12674
+      ]
+    },
+    {
+      "content": "Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.",
+      "pos": [
+        12680,
+        12823
+      ]
+    },
+    {
+      "content": "Require you to accept terms and conditions.",
+      "pos": [
+        12829,
+        12872
+      ]
+    },
+    {
+      "content": "Your IT administrator can collect or delete data from your computer’s hard drive.",
+      "pos": [
+        12878,
+        12959
+      ]
+    },
+    {
+      "content": "Your IT administrator could also delete the entire hard drive.",
+      "pos": [
+        12960,
+        13022
+      ]
+    },
+    {
+      "content": "Your IT administrator can install apps and updates on your computer.",
+      "pos": [
+        13028,
+        13096
+      ]
+    },
+    {
+      "content": "Your IT administrator may enforce policies on the computer.",
+      "pos": [
+        13102,
+        13161
+      ]
+    },
+    {
+      "content": "For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.",
+      "pos": [
+        13162,
+        13381
+      ]
+    },
+    {
+      "pos": [
+        13387,
+        13545
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_what_happens_phone8\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>What happens when I install the Company Portal app and enroll my Windows Phone 8.1 or Windows Phone 8 device in Intune?"
+    },
+    {
+      "content": "When you install the Company Portal app and then use the app to enroll your Windows Phone 8.1 or Windows Phone 8 device in Intune, you can then use the Company Portal app to:",
+      "pos": [
+        13546,
+        13720
+      ]
+    },
+    {
+      "content": "Access the company’s network, and your email and work files",
+      "pos": [
+        13726,
+        13785
+      ]
+    },
+    {
+      "content": "Get company apps from the Company Portal",
+      "pos": [
+        13791,
+        13831
+      ]
+    },
+    {
+      "content": "Automatically configure your company email account",
+      "pos": [
+        13837,
+        13887
+      ]
+    },
+    {
+      "content": "Reset your phone to factory settings if it is lost or stolen",
+      "pos": [
+        13893,
+        13953
+      ]
+    },
+    {
+      "content": "For the steps to enroll, see<bpt id=\"p1\">[</bpt>Windows Phone 8.1<ept id=\"p1\">](#BKMK_enrollment_81)</ept> or <bpt id=\"p2\">[</bpt>Windows Phone 8<ept id=\"p2\">](#BKMK_enrollment_wp8)</ept>.",
+      "pos": [
+        13955,
+        14067
+      ]
+    },
+    {
+      "content": "For information about what your IT admin can and can't see on your device, see <bpt id=\"p1\">[</bpt>What can my IT admin see when I enroll my device in Intune?<ept id=\"p1\">](#BKMK_win_what_IT_can_see)</ept>.",
+      "pos": [
+        14069,
+        14237
+      ]
+    },
+    {
+      "content": "When you add your Windows Phone device, you are giving your IT administrator permission to access the device.",
+      "pos": [
+        14239,
+        14348
+      ]
+    },
+    {
+      "content": "They can do things like:",
+      "pos": [
+        14349,
+        14373
+      ]
+    },
+    {
+      "content": "Reset your device back to manufacturer’s default settings.",
+      "pos": [
+        14379,
+        14437
+      ]
+    },
+    {
+      "content": "This is helpful if the device is lost or stolen.",
+      "pos": [
+        14438,
+        14486
+      ]
+    },
+    {
+      "content": "Remove all company related data and business apps that were installed.",
+      "pos": [
+        14492,
+        14562
+      ]
+    },
+    {
+      "content": "Your personal data and settings aren’t removed.",
+      "pos": [
+        14563,
+        14610
+      ]
+    },
+    {
+      "content": "Force you to have a password or PIN on the device, which may lock you out of the device, or reset your device back to manufacturer’s default settings, which may include the deletion of data, if there are too many incorrect password attempts.",
+      "pos": [
+        14616,
+        14857
+      ]
+    },
+    {
+      "content": "Force all the data on the device to be encrypted.",
+      "pos": [
+        14863,
+        14912
+      ]
+    },
+    {
+      "content": "This helps protect the data if the device is lost or stolen.",
+      "pos": [
+        14913,
+        14973
+      ]
+    },
+    {
+      "content": "Require you to accept terms and conditions.",
+      "pos": [
+        14979,
+        15022
+      ]
+    },
+    {
+      "content": "Disable the SD card.",
+      "pos": [
+        15028,
+        15048
+      ]
+    },
+    {
+      "content": "Install updates to apps on your device.",
+      "pos": [
+        15054,
+        15093
+      ]
+    },
+    {
+      "content": "This applies to updates only.",
+      "pos": [
+        15094,
+        15123
+      ]
+    },
+    {
+      "content": "Your IT administrator cannot force new apps to install on your device, but you can choose to install apps you see in the company portal.",
+      "pos": [
+        15124,
+        15260
+      ]
+    },
+    {
+      "content": "After your device is added to the company portal, approximately every 8 hours it will:",
+      "pos": [
+        15266,
+        15352
+      ]
+    },
+    {
+      "content": "Download any policy or app updates that your IT administrator has made available.",
+      "pos": [
+        15362,
+        15443
+      ]
+    },
+    {
+      "content": "Send any hardware inventory updates.",
+      "pos": [
+        15453,
+        15489
+      ]
+    },
+    {
+      "content": "Send any company app inventory updates.",
+      "pos": [
+        15499,
+        15538
+      ]
+    },
+    {
+      "pos": [
+        15544,
+        15684
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_what_happens_vista\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>What happens when I install the Company Portal app and enroll my Windows 7 or  Vista device in Intune?"
+    },
+    {
+      "content": "When you install the Company Portal app and then use the app to enroll your Windows 7 or Vista device in Intune, you can then use the Company Portal app to:",
+      "pos": [
+        15685,
+        15841
+      ]
+    },
+    {
+      "content": "Access the company’s network, and your email and work files",
+      "pos": [
+        15847,
+        15906
+      ]
+    },
+    {
+      "content": "Get company apps from the Company Portal",
+      "pos": [
+        15912,
+        15952
+      ]
+    },
+    {
+      "content": "Automatically configure your company email account",
+      "pos": [
+        15958,
+        16008
+      ]
+    },
+    {
+      "content": "Reset your phone to factory settings if it is lost or stolen",
+      "pos": [
+        16014,
+        16074
+      ]
+    },
+    {
+      "pos": [
+        16076,
+        16244
+      ],
+      "content": "For information about what your IT admin can and can't see on your device, see <bpt id=\"p1\">[</bpt>What can my IT admin see when I enroll my device in Intune?<ept id=\"p1\">](#BKMK_win_what_IT_can_see)</ept>."
+    },
+    {
+      "content": "When you add a computer:",
+      "pos": [
+        16246,
+        16270
+      ]
+    },
+    {
+      "content": "You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information.",
+      "pos": [
+        16276,
+        16490
+      ]
+    },
+    {
+      "content": "This software may be updated automatically by your IT administrator.",
+      "pos": [
+        16491,
+        16559
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> Endpoint Protection may be installed on your computer.",
+      "pos": [
+        16565,
+        16673
+      ]
+    },
+    {
+      "content": "This is software that checks for viruses and malware.",
+      "pos": [
+        16674,
+        16727
+      ]
+    },
+    {
+      "content": "For more information, please refer to the <bpt id=\"p1\">[</bpt>Endpoint Protection Privacy Statement<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkID=247324)</ept>.",
+      "pos": [
+        16728,
+        16857
+      ]
+    },
+    {
+      "content": "Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.",
+      "pos": [
+        16863,
+        17006
+      ]
+    },
+    {
+      "content": "Require you to accept terms and conditions.",
+      "pos": [
+        17012,
+        17055
+      ]
+    },
+    {
+      "content": "Your IT administrator can collect or delete data from your computer’s hard drive.",
+      "pos": [
+        17061,
+        17142
+      ]
+    },
+    {
+      "content": "Your IT administrator could also delete the entire hard drive.",
+      "pos": [
+        17143,
+        17205
+      ]
+    },
+    {
+      "content": "Your IT administrator can install apps and updates on your computer.",
+      "pos": [
+        17211,
+        17279
+      ]
+    },
+    {
+      "content": "Your IT administrator may enforce policies on the computer.",
+      "pos": [
+        17285,
+        17344
+      ]
+    },
+    {
+      "content": "For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.",
+      "pos": [
+        17345,
+        17564
+      ]
+    },
+    {
+      "pos": [
+        17569,
+        17667
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_win_what_IT_can_see\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>What can my IT admin see when I enroll my device in Intune?"
+    },
+    {
+      "content": "When  you enroll your device in Intune, you are giving your IT administrator permission to manage your device to help protect the company information on the device.",
+      "pos": [
+        17668,
+        17832
+      ]
+    },
+    {
+      "content": "IT cannot see",
+      "pos": [
+        17835,
+        17848
+      ]
+    },
+    {
+      "content": "IT can see",
+      "pos": [
+        17849,
+        17859
+      ]
+    },
+    {
+      "content": "-   Call history",
+      "pos": [
+        17897,
+        17913
+      ]
+    },
+    {
+      "content": "-   Text messages",
+      "pos": [
+        17919,
+        17936
+      ]
+    },
+    {
+      "content": "-   Personal email, contacts, and calendar",
+      "pos": [
+        17942,
+        17984
+      ]
+    },
+    {
+      "content": "-   Web history",
+      "pos": [
+        17990,
+        18005
+      ]
+    },
+    {
+      "content": "-   Location",
+      "pos": [
+        18011,
+        18023
+      ]
+    },
+    {
+      "content": "-   Camera roll",
+      "pos": [
+        18029,
+        18044
+      ]
+    },
+    {
+      "content": "-   Personal data",
+      "pos": [
+        18050,
+        18067
+      ]
+    },
+    {
+      "content": "-   Owner",
+      "pos": [
+        18068,
+        18077
+      ]
+    },
+    {
+      "content": "-   Device name",
+      "pos": [
+        18083,
+        18098
+      ]
+    },
+    {
+      "content": "-   Serial number",
+      "pos": [
+        18104,
+        18121
+      ]
+    },
+    {
+      "content": "-   Manufacturer",
+      "pos": [
+        18127,
+        18143
+      ]
+    },
+    {
+      "content": "-   Model",
+      "pos": [
+        18149,
+        18158
+      ]
+    },
+    {
+      "content": "-   Operating system",
+      "pos": [
+        18164,
+        18184
+      ]
+    },
+    {
+      "content": "-   Company apps",
+      "pos": [
+        18190,
+        18206
+      ]
+    },
+    {
+      "content": "-   Personal apps",
+      "pos": [
+        18212,
+        18229
+      ]
+    },
+    {
+      "pos": [
+        18235,
+        18311
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_win_whatis_cp_website\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>What is the Company Portal website?"
+    },
+    {
+      "content": "The Company Portal website is your company’s web interface that you use to  manage your work computers and devices, and your personal computers and devices that you choose to use at work.",
+      "pos": [
+        18312,
+        18499
+      ]
+    },
+    {
+      "content": "Once you add your computer or device to the Company Portal, you can:",
+      "pos": [
+        18501,
+        18569
+      ]
+    },
+    {
+      "content": "Browse for and download company apps",
+      "pos": [
+        18575,
+        18611
+      ]
+    },
+    {
+      "content": "Manage devices that you have added to the Company Portal",
+      "pos": [
+        18617,
+        18673
+      ]
+    },
+    {
+      "content": "Find contact information for your IT administrator",
+      "pos": [
+        18679,
+        18729
+      ]
+    },
+    {
+      "content": "When you add a computer or device to the Company Portal, some software may be installed or an app may be downloaded (depending on the device).",
+      "pos": [
+        18731,
+        18873
+      ]
+    },
+    {
+      "content": "You are also giving your IT administrator permission to manage your device to help protect the company information on the device.",
+      "pos": [
+        18874,
+        19003
+      ]
+    },
+    {
+      "pos": [
+        19008,
+        19065
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_win_encrypt_device\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Encrypt your device"
+    },
+    {
+      "content": "You can encrypt your device either by adding a Microsoft account or by enabling BitLocker.",
+      "pos": [
+        19066,
+        19156
+      ]
+    },
+    {
+      "content": "Option 1: Add a Microsoft account",
+      "pos": [
+        19160,
+        19193
+      ]
+    },
+    {
+      "pos": [
+        19201,
+        19248
+      ],
+      "content": "Search for, then start the <bpt id=\"p1\">**</bpt>PC Settings<ept id=\"p1\">**</ept> app."
+    },
+    {
+      "pos": [
+        19254,
+        19346
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Accounts<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Your account<ept id=\"p2\">**</ept>, and then click <bpt id=\"p3\">**</bpt>Connect to a Microsoft account<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "Follow the instructions shown.",
+      "pos": [
+        19352,
+        19382
+      ]
+    },
+    {
+      "pos": [
+        19388,
+        19602
+      ],
+      "content": "Ensure that your device is enrolled with <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> by following the instructions in <bpt id=\"p1\">[</bpt>Enroll your device to use it at work<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkId=519071)</ept>."
+    },
+    {
+      "content": "Option 2: Enable BitLocker",
+      "pos": [
+        19606,
+        19632
+      ]
+    },
+    {
+      "pos": [
+        19640,
+        19692
+      ],
+      "content": "Search for, then start the <bpt id=\"p1\">**</bpt>Manage BitLocker<ept id=\"p1\">**</ept> app."
+    },
+    {
+      "pos": [
+        19698,
+        19793
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Turn on BitLocker<ept id=\"p1\">**</ept>, then follow the instructions shown to encrypt each of your drives."
+    },
+    {
+      "pos": [
+        19799,
+        20013
+      ],
+      "content": "Ensure that your device is enrolled with <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> by following the instructions in <bpt id=\"p1\">[</bpt>Enroll your device to use it at work<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkId=519071)</ept>."
+    },
+    {
+      "pos": [
+        20018,
+        20099
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_win_erase_lost_device\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Reset (erase) your lost or stolen device"
+    },
+    {
+      "content": "If your device is enrolled in Intune, and your device is lost or stolen, you can reset it to factory defaults.",
+      "pos": [
+        20100,
+        20210
+      ]
+    },
+    {
+      "pos": [
+        20214,
+        20459
+      ],
+      "content": "[!WARNING]\nResetting a device to factor defaults removes both your personal and work information from it. For more about what happens when you reset your device, see [What happens if I reset my Windows device using the Company Portal?](#BKMK).",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "Resetting a device to factor defaults removes both your personal and work information from it. For more about what happens when you reset your device, see [What happens if I reset my Windows device using the Company Portal?](#BKMK).",
+          "pos": [
+            11,
+            243
+          ],
+          "nodes": [
+            {
+              "content": "Resetting a device to factor defaults removes both your personal and work information from it.",
+              "pos": [
+                0,
+                94
+              ]
+            },
+            {
+              "content": "For more about what happens when you reset your device, see <bpt id=\"p1\">[</bpt>What happens if I reset my Windows device using the Company Portal?<ept id=\"p1\">](#BKMK)</ept>.",
+              "pos": [
+                95,
+                232
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "In your browser, open your Company Portal, and sign in to your work account.",
+      "pos": [
+        20465,
+        20541
+      ]
+    },
+    {
+      "pos": [
+        20547,
+        20602
+      ],
+      "content": "Under <bpt id=\"p1\">**</bpt>My Devices<ept id=\"p1\">**</ept>, select the lost or stolen device."
+    },
+    {
+      "pos": [
+        20608,
+        20637
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Reset<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Reset<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        20641,
+        20737
+      ],
+      "content": "[!NOTE]\nIf you are unable to reset your lost or stolen device, contact IT to reset it for you.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "If you are unable to reset your lost or stolen device, contact IT to reset it for you.",
+          "pos": [
+            8,
+            94
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        20742,
+        20854
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_win_what_happs_reset_devc\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>What happens if I reset my Windows device using the Company Portal?"
+    },
+    {
+      "content": "When you use the Company Portal to reset your personal device, some apps and settings on your device may be deleted, including some of your personal data.",
+      "pos": [
+        20855,
+        21009
+      ]
+    },
+    {
+      "content": "What happens on each device depends on the type of device you have and how you are using the device, as described in the following table.",
+      "pos": [
+        21010,
+        21147
+      ]
+    },
+    {
+      "content": "For instructions on how to reset your lost or stolen device, see <bpt id=\"p1\">[</bpt>Reset (erase) your lost or stolen device<ept id=\"p1\">](#BKMK_win_erase_lost_device)</ept>.",
+      "pos": [
+        21148,
+        21285
+      ]
+    },
+    {
+      "content": "Device configuration and management",
+      "pos": [
+        21288,
+        21323
+      ]
+    },
+    {
+      "content": "Device type",
+      "pos": [
+        21324,
+        21335
+      ]
+    },
+    {
+      "content": "Your IT admin manages your mobile device",
+      "pos": [
+        21396,
+        21436
+      ]
+    },
+    {
+      "content": "Android",
+      "pos": [
+        21439,
+        21446
+      ]
+    },
+    {
+      "content": "When you reset your Android device, the following happens:",
+      "pos": [
+        21460,
+        21518
+      ]
+    },
+    {
+      "content": "-   Your device won’t appear in the company portal anymore.",
+      "pos": [
+        21530,
+        21589
+      ]
+    },
+    {
+      "content": "-   Your company email account will be deleted and unsaved email will be deleted.",
+      "pos": [
+        21595,
+        21676
+      ]
+    },
+    {
+      "content": "iOS Devices (iPhone and iPad)",
+      "pos": [
+        21690,
+        21719
+      ]
+    },
+    {
+      "content": "-   Your device won’t appear in the company portal anymore.",
+      "pos": [
+        21733,
+        21792
+      ]
+    },
+    {
+      "content": "-   The company portal tries to reset the device back to the manufacturer’s default settings.",
+      "pos": [
+        21798,
+        21891
+      ]
+    },
+    {
+      "content": "Your personal data, apps and settings will be removed.",
+      "pos": [
+        21892,
+        21946
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 and Windows Phone 8",
+      "pos": [
+        21960,
+        21997
+      ]
+    },
+    {
+      "content": "-   Your device won’t appear in the company portal anymore.",
+      "pos": [
+        22011,
+        22070
+      ]
+    },
+    {
+      "content": "-   The company portal tries to reset the device back to the manufacturer’s default settings.",
+      "pos": [
+        22076,
+        22169
+      ]
+    },
+    {
+      "content": "Your personal data, apps and settings will be removed.",
+      "pos": [
+        22170,
+        22224
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        22238,
+        22248
+      ]
+    },
+    {
+      "content": "You cannot reset a Windows RT device unless it is used for email only.",
+      "pos": [
+        22262,
+        22332
+      ]
+    },
+    {
+      "content": "Your device can access company email only",
+      "pos": [
+        22335,
+        22376
+      ]
+    },
+    {
+      "content": "Android",
+      "pos": [
+        22379,
+        22386
+      ]
+    },
+    {
+      "content": "-   Your device won’t appear in the company portal anymore.",
+      "pos": [
+        22400,
+        22459
+      ]
+    },
+    {
+      "content": "-   The company portal tries to reset the device back to the manufacturer’s defaults.",
+      "pos": [
+        22465,
+        22550
+      ]
+    },
+    {
+      "content": "All your personal data and settings will be removed.",
+      "pos": [
+        22551,
+        22603
+      ]
+    },
+    {
+      "content": "iOS Devices (iPhone and iPad)",
+      "pos": [
+        22617,
+        22646
+      ]
+    },
+    {
+      "content": "-   Your device won’t appear in the company portal anymore.",
+      "pos": [
+        22660,
+        22719
+      ]
+    },
+    {
+      "content": "-   Your company email account will be deleted and unsaved email will be deleted.",
+      "pos": [
+        22725,
+        22806
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 and Windows Phone 8",
+      "pos": [
+        22820,
+        22857
+      ]
+    },
+    {
+      "content": "-   Your device won’t appear in the company portal anymore.",
+      "pos": [
+        22871,
+        22930
+      ]
+    },
+    {
+      "content": "-   Your company email account will be deleted and unsaved email will be deleted.",
+      "pos": [
+        22936,
+        23017
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        23031,
+        23041
+      ]
+    },
+    {
+      "content": "-   Your device won’t appear in the company portal anymore.",
+      "pos": [
+        23055,
+        23114
+      ]
+    },
+    {
+      "content": "-   Your company email account will be deleted and unsaved email will be deleted.",
+      "pos": [
+        23120,
+        23201
+      ]
+    },
+    {
+      "content": "Windows 7 or Windows Vista Computers",
+      "pos": [
+        23215,
+        23251
+      ]
+    },
+    {
+      "content": "You cannot reset a computer that is running Windows 7 or earlier that is used for email only.",
+      "pos": [
+        23265,
+        23358
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows 8 Computers",
+      "pos": [
+        23372,
+        23407
+      ]
+    },
+    {
+      "content": "-   Your device won’t appear in the company portal anymore.",
+      "pos": [
+        23421,
+        23480
+      ]
+    },
+    {
+      "content": "-   Your company email account will be deleted and unsaved email will be deleted.",
+      "pos": [
+        23486,
+        23567
+      ]
+    },
+    {
+      "content": "PCs and laptops",
+      "pos": [
+        23570,
+        23585
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows 8 Computers",
+      "pos": [
+        23588,
+        23623
+      ]
+    },
+    {
+      "content": "You cannot reset a computer that is running Windows 8 or Windows 8.1 unless it is used for email only.",
+      "pos": [
+        23637,
+        23739
+      ]
+    },
+    {
+      "content": "Windows 7 or Windows Vista Computers",
+      "pos": [
+        23753,
+        23789
+      ]
+    },
+    {
+      "content": "You cannot reset a computer that is running Windows 7 or earlier.",
+      "pos": [
+        23803,
+        23868
+      ]
+    },
+    {
+      "pos": [
+        23874,
+        23945
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_win_unenroll_device\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Unenroll your device from Intune"
+    },
+    {
+      "content": "If you enrolled in Intune, but no longer want to use your device for work or school and don't need to access work or school email, apps, or other resources, you need to unenroll your device.",
+      "pos": [
+        23946,
+        24136
+      ]
+    },
+    {
+      "content": "Once you unenroll your device from Intune, you will no longer be able to access these resources.",
+      "pos": [
+        24139,
+        24235
+      ]
+    },
+    {
+      "content": "For more about what happens when you unenroll your device, see <bpt id=\"p1\">[</bpt>What happens when I remove my device from the Company Portal?<ept id=\"p1\">](#BKMK_what_happs_unenroll_win)</ept>.",
+      "pos": [
+        24236,
+        24394
+      ]
+    },
+    {
+      "content": "To unenroll your device, use the steps that match the device you're using.",
+      "pos": [
+        24396,
+        24470
+      ]
+    },
+    {
+      "pos": [
+        24476,
+        24543
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_win_unenroll_w10\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Unenroll your Windows 10 device"
+    },
+    {
+      "pos": [
+        24549,
+        24601
+      ],
+      "content": "From your apps list, tap the <bpt id=\"p1\">**</bpt>Company Portal<ept id=\"p1\">**</ept> app."
+    },
+    {
+      "content": "Sign in using your work or school credentials.",
+      "pos": [
+        24607,
+        24653
+      ]
+    },
+    {
+      "pos": [
+        24659,
+        24717
+      ],
+      "content": "In <bpt id=\"p1\">**</bpt>My Devices<ept id=\"p1\">**</ept>, select the device you want to unenroll."
+    },
+    {
+      "pos": [
+        24723,
+        24754
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Remove<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Remove<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "Unenroll your Windows 8.1 computer",
+      "pos": [
+        24760,
+        24794
+      ]
+    },
+    {
+      "pos": [
+        24800,
+        24858
+      ],
+      "content": "Go to <bpt id=\"p1\">**</bpt>PC Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Network<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Workplace<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        24864,
+        24904
+      ],
+      "content": "Under <bpt id=\"p1\">**</bpt>Workplace Join<ept id=\"p1\">**</ept>, tap <bpt id=\"p2\">**</bpt>Leave<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        24910,
+        24964
+      ],
+      "content": "Under <bpt id=\"p1\">**</bpt>Turn on device management,<ept id=\"p1\">**</ept> tap <bpt id=\"p2\">**</bpt>Turn off<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        24970,
+        25019
+      ],
+      "content": "On the popup window that opens, tap <bpt id=\"p1\">**</bpt>Turn off<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "Unenroll your Windows Phone 8.1 device",
+      "pos": [
+        25025,
+        25063
+      ]
+    },
+    {
+      "pos": [
+        25069,
+        25107
+      ],
+      "content": "Go to <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Workplace<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "Tap the workplace account that you want to unenroll.",
+      "pos": [
+        25113,
+        25165
+      ]
+    },
+    {
+      "pos": [
+        25171,
+        25214
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Delete<ept id=\"p1\">**</ept> at the bottom of the screen."
+    },
+    {
+      "pos": [
+        25220,
+        25269
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Delete account<ept id=\"p1\">**</ept> dialog, tap <bpt id=\"p2\">**</bpt>Delete<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        25274,
+        25378
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_what_happs_unenroll_win\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>What happens when I remove my device from the Company Portal?"
+    },
+    {
+      "content": "Device type",
+      "pos": [
+        25381,
+        25392
+      ]
+    },
+    {
+      "content": "What happens if you remove your device from the Company Portal",
+      "pos": [
+        25393,
+        25455
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 or Windows Phone 8",
+      "pos": [
+        25543,
+        25579
+      ]
+    },
+    {
+      "content": "-   The Company Portal app is uninstalled from your device, which means that your device won’t appear in the company portal anymore, and you won't be able to install apps from the Company Portal app or Company Portal website.",
+      "pos": [
+        25580,
+        25805
+      ]
+    },
+    {
+      "content": "-   You can’t use company apps and company data on your device anymore.",
+      "pos": [
+        25811,
+        25882
+      ]
+    },
+    {
+      "content": "-   Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.",
+      "pos": [
+        25888,
+        26052
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Important:<ept id=\"p1\">**</ept>     The only exception to this is encryption policies, which will still apply.",
+      "pos": [
+        26053,
+        26146
+      ]
+    },
+    {
+      "content": "If your company policy required that your Windows Phone be encrypted, the only way to unencrypt your phone is to reset your phone using the <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> menu on your Windows Phone.",
+      "pos": [
+        26147,
+        26327
+      ]
+    },
+    {
+      "content": "Windows RT running Windows 8.1 or Windows RT",
+      "pos": [
+        26330,
+        26374
+      ]
+    },
+    {
+      "content": "When you remove your Windows RT device running Windows 8.1, the following happens:",
+      "pos": [
+        26375,
+        26457
+      ]
+    },
+    {
+      "content": "-   The Company Portal app is uninstalled from your device, which means that your device won’t appear in the company portal anymore, and you won't be able to install apps from the Company Portal.",
+      "pos": [
+        26469,
+        26664
+      ]
+    },
+    {
+      "content": "-   You can’t use company apps and company data on your device anymore.",
+      "pos": [
+        26670,
+        26741
+      ]
+    },
+    {
+      "content": "-   Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.",
+      "pos": [
+        26747,
+        26911
+      ]
+    },
+    {
+      "content": "-   You might not be able to connect to your company network using Wi-Fi or a Virtual Private Network anymore.",
+      "pos": [
+        26917,
+        27027
+      ]
+    },
+    {
+      "content": "-   You might not have access to some company resources, such as file shares or internal web sites, on your device anymore.",
+      "pos": [
+        27033,
+        27156
+      ]
+    },
+    {
+      "content": "-   Some mail apps, such as Windows Mail, won’t be able to access company email that is stored on your device anymore.",
+      "pos": [
+        27162,
+        27280
+      ]
+    },
+    {
+      "content": "When you remove your Windows RT device, the following happens:",
+      "pos": [
+        27292,
+        27354
+      ]
+    },
+    {
+      "content": "-   The Company Portal app is uninstalled from your device, which means that your device won’t appear in the company portal anymore, and you won't be able to install apps from the Company Portal.",
+      "pos": [
+        27366,
+        27561
+      ]
+    },
+    {
+      "content": "-   You can’t use company apps and company data on your device anymore.",
+      "pos": [
+        27567,
+        27638
+      ]
+    },
+    {
+      "content": "-   Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.",
+      "pos": [
+        27644,
+        27808
+      ]
+    },
+    {
+      "content": "Windows 8.1, Windows 8, Windows 7, Vista",
+      "pos": [
+        27811,
+        27851
+      ]
+    },
+    {
+      "content": "-   Your device won’t appear in the company portal anymore, and you can’t install apps from the company portal anymore.",
+      "pos": [
+        27852,
+        27971
+      ]
+    },
+    {
+      "content": "-   If you installed the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> client software, it’s removed from your computer.",
+      "pos": [
+        27977,
+        28103
+      ]
+    },
+    {
+      "content": "-   The <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> Endpoint Protection software is removed from your computer.",
+      "pos": [
+        28109,
+        28228
+      ]
+    },
+    {
+      "content": "If your computer has other virus protection software installed and it is disabled, that software may be re-enabled after <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> Endpoint Protection is removed.",
+      "pos": [
+        28229,
+        28433
+      ]
+    },
+    {
+      "content": "You should check your computer after removing it from the company portal.",
+      "pos": [
+        28434,
+        28507
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Important:<ept id=\"p1\">**</ept>     If the other virus protection software is not re-enabled or no other virus protection software is installed, your computer may be vulnerable to viruses and malware.",
+      "pos": [
+        28508,
+        28691
+      ]
+    },
+    {
+      "content": "-   Any settings that were changed on your device when you added it (for example, disabling the camera, will no longer apply).",
+      "pos": [
+        28697,
+        28823
+      ]
+    },
+    {
+      "content": "-   Your computer will no longer receive automatic software updates or antivirus software updates from the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> service.",
+      "pos": [
+        28829,
+        28996
+      ]
+    },
+    {
+      "content": "However, depending on how it is configured, your computer may still receive updates from the Windows Server Update Services, Windows Update, or Microsoft Update.",
+      "pos": [
+        28997,
+        29158
+      ]
+    },
+    {
+      "content": "In addition, for Windows 8.1:",
+      "pos": [
+        29170,
+        29199
+      ]
+    },
+    {
+      "content": "-   You can’t use company apps and company data on your device anymore.",
+      "pos": [
+        29211,
+        29282
+      ]
+    },
+    {
+      "content": "-   Some mail apps, such as Windows Mail, won’t be able to access company email that is stored on your device anymore.",
+      "pos": [
+        29288,
+        29406
+      ]
+    },
+    {
+      "content": "-   You might not be able to connect to your company network using Wi-Fi or a Virtual Private Network.",
+      "pos": [
+        29412,
+        29514
+      ]
+    },
+    {
+      "content": "-   You might not have access to some company resources, such as file shares or internal web sites, on your device anymore.",
+      "pos": [
+        29520,
+        29643
+      ]
+    },
+    {
+      "pos": [
+        29649,
+        29732
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_windows_pc_data_collect\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Turn off Microsoft usage data collection"
+    },
+    {
+      "content": "In order to improve its products and services, Microsoft automatically collects anonymous data about the reliability and performance of the Company Portal app and how it is used.",
+      "pos": [
+        29733,
+        29911
+      ]
+    },
+    {
+      "content": "You can turn off the collection of that data by using the Usage Data setting in the Company Portal app.",
+      "pos": [
+        29912,
+        30015
+      ]
+    },
+    {
+      "content": "IT administrators have no control over the collection of the data, and they cannot change your selection for the setting.",
+      "pos": [
+        30016,
+        30137
+      ]
+    },
+    {
+      "pos": [
+        30142,
+        30212
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_win_troubleshoot_device\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Fix issues with your device"
+    },
+    {
+      "content": "Use this information to fix issues with your device when you're trying to install the Company Portal app, enroll your device in Intune, or if you've already enrolled in Intune.",
+      "pos": [
+        30213,
+        30389
+      ]
+    },
+    {
+      "pos": [
+        30395,
+        30493
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_win_no_min_os\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Device doesn't have the required minimum operating system version"
+    },
+    {
+      "content": "Your device doesn’t meet the minimum operating system version required by your IT department.",
+      "pos": [
+        30494,
+        30587
+      ]
+    },
+    {
+      "content": "Before updating your mobile device, check the current operating system version by tapping <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>about<ept id=\"p2\">**</ept>, and then tap <bpt id=\"p3\">**</bpt>Settings<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>phone update<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>check for updates<ept id=\"p5\">**</ept> to update your device.",
+      "pos": [
+        30588,
+        30804
+      ]
+    },
+    {
+      "content": "Before updating your computer, search for <bpt id=\"p1\">**</bpt>operating system<ept id=\"p1\">**</ept> and follow the prompts to identify your current operating system version.",
+      "pos": [
+        30806,
+        30942
+      ]
+    },
+    {
+      "content": "To update computers with operating systems earlier than Windows 10, search for <bpt id=\"p1\">**</bpt>Windows updates<ept id=\"p1\">**</ept>.",
+      "pos": [
+        30943,
+        31042
+      ]
+    },
+    {
+      "pos": [
+        31046,
+        31175
+      ],
+      "content": "[!NOTE]\nIf your Windows operating system version is 8.1, you’ll see 6.3.xxxx instead of 8.1 when you check your update version.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "If your Windows operating system version is 8.1, you’ll see 6.3.xxxx instead of 8.1 when you check your update version.",
+          "pos": [
+            8,
+            127
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        31181,
+        31277
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_win_no_max_os\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Device doesn't comply with the maximum operating system version"
+    },
+    {
+      "content": "Your device does not comply with your IT admin's policy for the maximum version of the operating system.",
+      "pos": [
+        31278,
+        31382
+      ]
+    },
+    {
+      "content": "Contact your IT admin for help.",
+      "pos": [
+        31383,
+        31414
+      ]
+    }
+  ],
+  "content": "---\ntitle: Using your Android device with Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 77e71022-4ff4-4e02-a28d-11ad70a264fd\n---\n# Using your Android device with Intune\nUse these steps  for tasks that you need to do on your Windows device or computer when your company is using Microsoft Intune:\n\n|Task category|Tasks you can do|\n|-----------------|--------------------|\n|Company Portal app installation and Intune enrollment|-   [Enroll your Windows device in Intune](#BKMK_windows_enroll_instrucs)<br />-   [What happens when I install the Company Portal app and enroll my device in Intune?](#BKMK_what_happns_enroll_all)<br />-   [What can my IT admin see when I enroll my device in Intune?](#BKMK_win_what_IT_can_see)|\n|Things you can do when your device is enrolled in Intune|-   [What is the Company Portal website?](#BKMK_win_whatis_cp_website)<br />-   [Encrypt your device](#BKMK_win_encrypt_device)<br />-   [Reset (erase) your lost or stolen device](#BKMK_win_erase_lost_device)<br />-   [What happens if I reset my Windows device using the Company Portal?](#BKMK_win_what_happs_reset_devc)<br />-   [Unenroll your device from Intune](#BKMK_win_unenroll_device)<br />-   [What happens when I remove my device from the Company Portal?](#BKMK_what_happs_unenroll_win)<br />-   [Turn off Microsoft usage data collection](#BKMK_windows_pc_data_collect)|\n|Fix Intune issues with your device|-   [Device doesn't have the required minimum operating system version](#BKMK_win_no_min_os)<br />-   [Device doesn't comply with the maximum operating system version](#BKMK_win_no_max_os)|\n\n## <a name=\"BKMK_windows_enroll_instrucs\"></a>Enroll your Windows device in Intune\nTo enroll, use the link that corresponds to the device you are using:\n\n-   [Windows 10](#BKMK_enrollment_w10)\n\n-   [Windows 8.1 or Windows RT 8.1](#BKMK_enrollment_w81orwrt81)\n\n-   [Windows RT](#BKMK_enrollment_rt)\n\n-   [Windows Phone 8.1](#BKMK_enrollment_81)\n\n-   [Windows Phone 8](#BKMK_enrollment_wp8)\n\n### <a name=\"BKMK_enrollment_w10\"></a>Windows 10\nTo enroll your device:\n\n1.  Go to Windows  **Settings** and tap **Accounts**.\n\n    ![](../Image/IW-Help-pics/W10-enroll-1-settings-accounts.png)\n\n2.  Tap **Your account**.\n\n    ![](../Image/IW-Help-pics/W10-enroll-2-accounts-your-account.png)\n\n3.  Tap **Add a work or school account**.\n\n    ![](../Image/IW-Help-pics/W10-enroll-3-add-work-school-acct.png)\n\n4.  Sign in with your work or school credentials.\n\n    ![](../Image/IW-Help-pics/W10-enroll-4-sign-in.png)\n\nIf you followed the steps above, but still can't access your work or school email, files, and other data, go back to **Accounts** and tap **Work access**.\n\n-   If you see your work or school account, congratulations. You’re connected.\n\n-   If you don’t see your work or school account, tap **Connect**, and then sign in with your work or school credentials.\n\nWe also recommend that you install the Company Portal app, which lets you easily identify and get the company apps that are relevant to you and your role. Depending on how your company  configured Intune, the Company Portal app may have been installed as part of your enrollment process. To check if you have the app, look for **Company Portal** in your apps list. If you don't see the Company Portal in your list of apps, follow these steps to install it.\n\n1.  Tap **Start** &gt; **Store**.\n\n2.  Tap **Search** and type **company portal**.\n\n3.  In the list of results, tap **Company Portal** &gt; **Install**.\n\n4.  Tap  either **Install** or **Free**. The option shown depends on how your company configured the app.\n\n### <a name=\"BKMK_enrollment_w81orwrt81\"></a>Windows 8.1 or Windows RT 8.1\nTo enroll your device:\n\n1.  On the device, tap **Settings** &gt; **PC Settings** &gt; **Network** &gt; **Workplace**.\n\n    ![](../Image/IW-Help-pics/W81-1-workplacejoin.png)\n\n2.  Enter your work or school email for the User ID, if required, and then tap **Join**.\n\n    If your user ID is not required,  the email address that you entered when you logged into this device is used.\n\n3.  Type the password for your work or school email.\n\n    ![](../Image/IW-Help-pics/W81-2-workplacesettings_signin.png)\n\n4.  Under **Turn on device management**, tap **Turn on**.\n\n    ![](../Image/IW-Help-pics/W81-3-dev-mgt-turn-on.png)\n\n5.  In the **Allow apps and services from IT admin** dialog,  select the  **I agree** check box, and then tap **Turn on**.\n\n    ![](../Image/IW-Help-pics/W81-4-agree-allow-apps-services.png)\n\n    When you have successfully enrolled, you'll see the following screen.\n\n    ![](../Image/IW-Help-pics/W81-5-enrolled-done.png)\n\nWe also recommend that you install the Company Portal app, which lets you easily identify and get the company apps that are relevant to you and your role. Depending on how your company  configured Intune, the Company Portal app may have been installed as part of your enrollment process. To check if you have the app, look for **Company Portal** in your apps list. If you don't see the Company Portal in your list of apps, follow these steps to install it.\n\n1.  Tap **Start** &gt; **Store**.\n\n2.  Tap **Search** and type **company portal**.\n\n3.  In the list of results, tap **Company Portal**.\n\n4.  Tap  either **Install** or **Free**. The option shown depends on how your company configured the app.\n\n### <a name=\"BKMK_enrollment_rt\"></a>Windows RT\nTo enroll your device:\n\n1.  Tap **Start**, and then type **System Configuration**.\n\n2.  Tap the dialog box to open the **Company Apps**. You may be asked to accept your company’s Terms and Conditions.\n\n3.  Sign in using your credentials.\n\nWe also recommend that you install the Company Portal app, which lets you easily identify and get the company apps that are relevant to you and your role. Depending on how your company  configured Intune, the Company Portal app may have been installed as part of your enrollment process. To check if you have the app, look for **Company Portal** in your apps list. If you don't see the Company Portal in your list of apps, follow these steps to install it.\n\n1.  Tap **Start** &gt; **Store**.\n\n2.  Tap **Search** and type **company portal**.\n\n3.  In the list of results, tap **Company Portal**.\n\n4.  Tap **Company Portal** &gt; **Install**.\n\n### <a name=\"BKMK_enrollment_81\"></a>Windows Phone 8.1\nTo enroll your device in Intune, follow the instructions that apply to your company:\n\n-   [If your company lets you use the Company Portal from the Windows Store](#BKMK_comp_allows_cp)\n\n-   [If you aren’t allowed to access the Windows Store from your Windows Phone, or if you don’t have a Microsoft Account](#BKMK_comp_doesnt_allow_cp)\n\n#### <a name=\"BKMK_comp_allows_cp\"></a>If your company lets you use the Company Portal from the Windows Store\nInstall the Company Portal app on your device:\n\n1.  Tap **Start** &gt; **Store**.\n\n2.  Tap **Search** and type **company portal**.\n\n3.  In the list of results, tap **Company Portal**.\n\n    ![](../Image/IW-Help-pics/WP81-1-CP-search-store-v2.png)\n\n4.  Tap **Company Portal**  &gt; **Install**.\n\n    ![](../Image/IW-Help-pics/WP81-2-CP-install-v2.png)\n\nEnroll your device:\n\n1.  On the device, open the **Microsoft Intune Company Portal** app.\n\n2.  Provide your credentials. You may be asked to accept your company’s Terms and Conditions, if applicable.\n\n3.  Swipe to **My Devices**.\n\n4.  Tap **Tap to enroll or identify this device**.\n\n    ![](../Image/IW-Help-pics/WP81-enroll-1-swipe-my-devices.png)\n\n5.  Tap **Enroll this device**.\n\n    ![](../Image/IW-Help-pics/WP81-enroll-2-enroll-this-device.png)\n\n6.  Tap **Add account**.\n\n    ![](../Image/IW-Help-pics/WP81-enroll-3-workplace-add-acct.png)\n\n7.  Enter additional information as requested and then tap **sign in** to complete the enrollment. You should now see your workplace account listed on the **Settings** &gt; **Workplace** page.\n\n    ![](../Image/IW-Help-pics/WP81-enroll-4-account-added.png)\n\n#### <a name=\"BKMK_comp_doesnt_allow_cp\"></a>If you aren’t allowed to access the Windows Store from your Windows Phone, or if you don’t have a Microsoft Account\n\n1.  Tap  **Settings** &gt; **workplace**.\n\n2.  Tap **add account**, and then sign in using your work account.\n\n3.  Enter additional information as requested, and then tap **sign in** to complete the enrollment.\n\n4.  If prompted to install the company app or Hub, make sure the relevant box is checked and then tap **done**.\n\nIf your IT admin has configured the Company Portal to be installed  during enrollment, you will see the Company Portal appear in your app list.\n\n### <a name=\"BKMK_enrollment_wp8\"></a>Windows Phone 8\nEnroll your device:\n\n1.  On the device, tap  **Settings** &gt; **company apps**.\n\n2.  Tap **add account**, and then sign in using your work account.\n\n3.  After the account is successfully added, you should be prompted to install the company app or Hub. Make sure the relevant box is checked and then tap **done**.\n\nThe Company Portal will appear in your app list after it is installed.\n\n## <a name=\"BKMK_what_happns_enroll_all\"></a>What happens when I install the Company Portal app and enroll my device in Intune?\n\n### <a name=\"BKMK_what_happens_w10\"></a>What happens when I install the Company Portal app and enroll my Windows 10 device in Intune?\nWhen you install the Company Portal app and then use the app to enroll your Windows 10 Enterprise  or Professional device in Intune, you can then use the Company Portal app to:\n\n-   Access the company’s network, and your email and work files\n\n-   Get company apps from the Company Portal\n\n-   Automatically configure your company email account\n\n-   Reset your phone to factory settings if it is lost or stolen\n\nFor the steps to enroll, see [Windows 10](#BKMK_enrollment_w10). For information about what your IT admin can and can't see on your device, see [What can my IT admin see when I enroll my device in Intune?](#BKMK_win_what_IT_can_see)\n\nWhen you add a computer:\n\n-   You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information. This software may be updated automatically by your IT administrator.\n\n-   [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] Endpoint Protection may be installed on your computer. This is software that checks for viruses and malware. For more information, please refer to the [Endpoint Protection Privacy Statement](http://go.microsoft.com/fwlink/?LinkID=247324).\n\n-   Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.\n\n-   Require you to accept terms and conditions.\n\n-   Your IT administrator can collect or delete data from your computer’s hard drive. Your IT administrator could also delete the entire hard drive.\n\n-   Your IT administrator can install apps and updates on your computer.\n\n-   Your IT administrator may enforce policies on the computer. For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.\n\n### <a name=\"BKMK_what_happens_w81\"></a>What happens when I install the Company Portal app and enroll my Windows 8.1 or Windows RT device in Intune?\nWhen you install the Company Portal app and then use the app to enroll your Windows 8.1 Enterprise  or Professional or Windows RT device in Intune, you can then use the Company Portal app to:\n\n-   Access the company’s network, and your email and work files\n\n-   Get company apps from the Company Portal\n\n-   Automatically configure your company email account\n\n-   Reset your phone to factory settings if it is lost or stolen\n\nFor the steps to enroll, see [Windows 8.1 or Windows RT 8.1](#BKMK_enrollment_w81orwrt81). For information about what your IT admin can and can't see on your device, see [What can my IT admin see when I enroll my device in Intune?](#BKMK_win_what_IT_can_see)\n\nWhen you add a computer:\n\n-   You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information. This software may be updated automatically by your IT administrator.\n\n-   [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] Endpoint Protection may be installed on your computer. This is software that checks for viruses and malware. For more information, please refer to the [Endpoint Protection Privacy Statement](http://go.microsoft.com/fwlink/?LinkID=247324).\n\n-   Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.\n\n-   Require you to accept terms and conditions.\n\n-   Your IT administrator can collect or delete data from your computer’s hard drive. Your IT administrator could also delete the entire hard drive.\n\n-   Your IT administrator can install apps and updates on your computer.\n\n-   Your IT administrator may enforce policies on the computer. For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.\n\n### <a name=\"BKMK_what_happens_phone8\"></a>What happens when I install the Company Portal app and enroll my Windows Phone 8.1 or Windows Phone 8 device in Intune?\nWhen you install the Company Portal app and then use the app to enroll your Windows Phone 8.1 or Windows Phone 8 device in Intune, you can then use the Company Portal app to:\n\n-   Access the company’s network, and your email and work files\n\n-   Get company apps from the Company Portal\n\n-   Automatically configure your company email account\n\n-   Reset your phone to factory settings if it is lost or stolen\n\nFor the steps to enroll, see[Windows Phone 8.1](#BKMK_enrollment_81) or [Windows Phone 8](#BKMK_enrollment_wp8).  For information about what your IT admin can and can't see on your device, see [What can my IT admin see when I enroll my device in Intune?](#BKMK_win_what_IT_can_see).\n\nWhen you add your Windows Phone device, you are giving your IT administrator permission to access the device. They can do things like:\n\n-   Reset your device back to manufacturer’s default settings. This is helpful if the device is lost or stolen.\n\n-   Remove all company related data and business apps that were installed. Your personal data and settings aren’t removed.\n\n-   Force you to have a password or PIN on the device, which may lock you out of the device, or reset your device back to manufacturer’s default settings, which may include the deletion of data, if there are too many incorrect password attempts.\n\n-   Force all the data on the device to be encrypted. This helps protect the data if the device is lost or stolen.\n\n-   Require you to accept terms and conditions.\n\n-   Disable the SD card.\n\n-   Install updates to apps on your device. This applies to updates only. Your IT administrator cannot force new apps to install on your device, but you can choose to install apps you see in the company portal.\n\n-   After your device is added to the company portal, approximately every 8 hours it will:\n\n    -   Download any policy or app updates that your IT administrator has made available.\n\n    -   Send any hardware inventory updates.\n\n    -   Send any company app inventory updates.\n\n### <a name=\"BKMK_what_happens_vista\"></a>What happens when I install the Company Portal app and enroll my Windows 7 or  Vista device in Intune?\nWhen you install the Company Portal app and then use the app to enroll your Windows 7 or Vista device in Intune, you can then use the Company Portal app to:\n\n-   Access the company’s network, and your email and work files\n\n-   Get company apps from the Company Portal\n\n-   Automatically configure your company email account\n\n-   Reset your phone to factory settings if it is lost or stolen\n\nFor information about what your IT admin can and can't see on your device, see [What can my IT admin see when I enroll my device in Intune?](#BKMK_win_what_IT_can_see).\n\nWhen you add a computer:\n\n-   You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information. This software may be updated automatically by your IT administrator.\n\n-   [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] Endpoint Protection may be installed on your computer. This is software that checks for viruses and malware. For more information, please refer to the [Endpoint Protection Privacy Statement](http://go.microsoft.com/fwlink/?LinkID=247324).\n\n-   Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.\n\n-   Require you to accept terms and conditions.\n\n-   Your IT administrator can collect or delete data from your computer’s hard drive. Your IT administrator could also delete the entire hard drive.\n\n-   Your IT administrator can install apps and updates on your computer.\n\n-   Your IT administrator may enforce policies on the computer. For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.\n\n## <a name=\"BKMK_win_what_IT_can_see\"></a>What can my IT admin see when I enroll my device in Intune?\nWhen  you enroll your device in Intune, you are giving your IT administrator permission to manage your device to help protect the company information on the device.\n\n|IT cannot see|IT can see|\n|-----------------|--------------|\n|-   Call history<br />-   Text messages<br />-   Personal email, contacts, and calendar<br />-   Web history<br />-   Location<br />-   Camera roll<br />-   Personal data|-   Owner<br />-   Device name<br />-   Serial number<br />-   Manufacturer<br />-   Model<br />-   Operating system<br />-   Company apps<br />-   Personal apps|\n\n## <a name=\"BKMK_win_whatis_cp_website\"></a>What is the Company Portal website?\nThe Company Portal website is your company’s web interface that you use to  manage your work computers and devices, and your personal computers and devices that you choose to use at work.\n\nOnce you add your computer or device to the Company Portal, you can:\n\n-   Browse for and download company apps\n\n-   Manage devices that you have added to the Company Portal\n\n-   Find contact information for your IT administrator\n\nWhen you add a computer or device to the Company Portal, some software may be installed or an app may be downloaded (depending on the device). You are also giving your IT administrator permission to manage your device to help protect the company information on the device.\n\n## <a name=\"BKMK_win_encrypt_device\"></a>Encrypt your device\nYou can encrypt your device either by adding a Microsoft account or by enabling BitLocker.\n\n**Option 1: Add a Microsoft account**\n\n1.  Search for, then start the **PC Settings** app.\n\n2.  Click **Accounts** &gt; **Your account**, and then click **Connect to a Microsoft account**.\n\n3.  Follow the instructions shown.\n\n4.  Ensure that your device is enrolled with [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] by following the instructions in [Enroll your device to use it at work](http://go.microsoft.com/fwlink/?LinkId=519071).\n\n**Option 2: Enable BitLocker**\n\n1.  Search for, then start the **Manage BitLocker** app.\n\n2.  Click **Turn on BitLocker**, then follow the instructions shown to encrypt each of your drives.\n\n3.  Ensure that your device is enrolled with [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] by following the instructions in [Enroll your device to use it at work](http://go.microsoft.com/fwlink/?LinkId=519071).\n\n## <a name=\"BKMK_win_erase_lost_device\"></a>Reset (erase) your lost or stolen device\nIf your device is enrolled in Intune, and your device is lost or stolen, you can reset it to factory defaults.\n\n> [!WARNING]\n> Resetting a device to factor defaults removes both your personal and work information from it. For more about what happens when you reset your device, see [What happens if I reset my Windows device using the Company Portal?](#BKMK).\n\n1.  In your browser, open your Company Portal, and sign in to your work account.\n\n2.  Under **My Devices**, select the lost or stolen device.\n\n3.  Tap **Reset** &gt; **Reset**.\n\n> [!NOTE]\n> If you are unable to reset your lost or stolen device, contact IT to reset it for you.\n\n## <a name=\"BKMK_win_what_happs_reset_devc\"></a>What happens if I reset my Windows device using the Company Portal?\nWhen you use the Company Portal to reset your personal device, some apps and settings on your device may be deleted, including some of your personal data. What happens on each device depends on the type of device you have and how you are using the device, as described in the following table. For instructions on how to reset your lost or stolen device, see [Reset (erase) your lost or stolen device](#BKMK_win_erase_lost_device).\n\n|Device configuration and management|Device type|\n|---------------------------------------|---------------|\n|Your IT admin manages your mobile device|**Android**<br /><br />When you reset your Android device, the following happens:<br /><br />-   Your device won’t appear in the company portal anymore.<br />-   Your company email account will be deleted and unsaved email will be deleted.<br /><br />**iOS Devices (iPhone and iPad)**<br /><br />-   Your device won’t appear in the company portal anymore.<br />-   The company portal tries to reset the device back to the manufacturer’s default settings. Your personal data, apps and settings will be removed.<br /><br />**Windows Phone 8.1 and Windows Phone 8**<br /><br />-   Your device won’t appear in the company portal anymore.<br />-   The company portal tries to reset the device back to the manufacturer’s default settings. Your personal data, apps and settings will be removed.<br /><br />**Windows RT**<br /><br />You cannot reset a Windows RT device unless it is used for email only.|\n|Your device can access company email only|**Android**<br /><br />-   Your device won’t appear in the company portal anymore.<br />-   The company portal tries to reset the device back to the manufacturer’s defaults. All your personal data and settings will be removed.<br /><br />**iOS Devices (iPhone and iPad)**<br /><br />-   Your device won’t appear in the company portal anymore.<br />-   Your company email account will be deleted and unsaved email will be deleted.<br /><br />**Windows Phone 8.1 and Windows Phone 8**<br /><br />-   Your device won’t appear in the company portal anymore.<br />-   Your company email account will be deleted and unsaved email will be deleted.<br /><br />**Windows RT**<br /><br />-   Your device won’t appear in the company portal anymore.<br />-   Your company email account will be deleted and unsaved email will be deleted.<br /><br />**Windows 7 or Windows Vista Computers**<br /><br />You cannot reset a computer that is running Windows 7 or earlier that is used for email only.<br /><br />**Windows 8.1 and Windows 8 Computers**<br /><br />-   Your device won’t appear in the company portal anymore.<br />-   Your company email account will be deleted and unsaved email will be deleted.|\n|PCs and laptops|**Windows 8.1 and Windows 8 Computers**<br /><br />You cannot reset a computer that is running Windows 8 or Windows 8.1 unless it is used for email only.<br /><br />**Windows 7 or Windows Vista Computers**<br /><br />You cannot reset a computer that is running Windows 7 or earlier.|\n\n## <a name=\"BKMK_win_unenroll_device\"></a>Unenroll your device from Intune\nIf you enrolled in Intune, but no longer want to use your device for work or school and don't need to access work or school email, apps, or other resources, you need to unenroll your device.   Once you unenroll your device from Intune, you will no longer be able to access these resources. For more about what happens when you unenroll your device, see [What happens when I remove my device from the Company Portal?](#BKMK_what_happs_unenroll_win).\n\nTo unenroll your device, use the steps that match the device you're using.\n\n### <a name=\"BKMK_win_unenroll_w10\"></a>Unenroll your Windows 10 device\n\n1.  From your apps list, tap the **Company Portal** app.\n\n2.  Sign in using your work or school credentials.\n\n3.  In **My Devices**, select the device you want to unenroll.\n\n4.  Tap **Remove** &gt; **Remove**.\n\n### Unenroll your Windows 8.1 computer\n\n1.  Go to **PC Settings** &gt; **Network** &gt; **Workplace**.\n\n2.  Under **Workplace Join**, tap **Leave**.\n\n3.  Under **Turn on device management,** tap **Turn off**.\n\n4.  On the popup window that opens, tap **Turn off**.\n\n### Unenroll your Windows Phone 8.1 device\n\n1.  Go to **Settings** &gt; **Workplace**.\n\n2.  Tap the workplace account that you want to unenroll.\n\n3.  Tap **Delete** at the bottom of the screen.\n\n4.  On the **Delete account** dialog, tap **Delete**.\n\n## <a name=\"BKMK_what_happs_unenroll_win\"></a>What happens when I remove my device from the Company Portal?\n\n|Device type|What happens if you remove your device from the Company Portal|\n|---------------|------------------------------------------------------------------|\n|Windows Phone 8.1 or Windows Phone 8|-   The Company Portal app is uninstalled from your device, which means that your device won’t appear in the company portal anymore, and you won't be able to install apps from the Company Portal app or Company Portal website.<br />-   You can’t use company apps and company data on your device anymore.<br />-   Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply. **Important:**     The only exception to this is encryption policies, which will still apply. If your company policy required that your Windows Phone be encrypted, the only way to unencrypt your phone is to reset your phone using the **Settings** menu on your Windows Phone.|\n|Windows RT running Windows 8.1 or Windows RT|When you remove your Windows RT device running Windows 8.1, the following happens:<br /><br />-   The Company Portal app is uninstalled from your device, which means that your device won’t appear in the company portal anymore, and you won't be able to install apps from the Company Portal.<br />-   You can’t use company apps and company data on your device anymore.<br />-   Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.<br />-   You might not be able to connect to your company network using Wi-Fi or a Virtual Private Network anymore.<br />-   You might not have access to some company resources, such as file shares or internal web sites, on your device anymore.<br />-   Some mail apps, such as Windows Mail, won’t be able to access company email that is stored on your device anymore.<br /><br />When you remove your Windows RT device, the following happens:<br /><br />-   The Company Portal app is uninstalled from your device, which means that your device won’t appear in the company portal anymore, and you won't be able to install apps from the Company Portal.<br />-   You can’t use company apps and company data on your device anymore.<br />-   Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.|\n|Windows 8.1, Windows 8, Windows 7, Vista|-   Your device won’t appear in the company portal anymore, and you can’t install apps from the company portal anymore.<br />-   If you installed the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] client software, it’s removed from your computer.<br />-   The [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] Endpoint Protection software is removed from your computer. If your computer has other virus protection software installed and it is disabled, that software may be re-enabled after [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] Endpoint Protection is removed. You should check your computer after removing it from the company portal. **Important:**     If the other virus protection software is not re-enabled or no other virus protection software is installed, your computer may be vulnerable to viruses and malware.<br />-   Any settings that were changed on your device when you added it (for example, disabling the camera, will no longer apply).<br />-   Your computer will no longer receive automatic software updates or antivirus software updates from the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] service. However, depending on how it is configured, your computer may still receive updates from the Windows Server Update Services, Windows Update, or Microsoft Update.<br /><br />In addition, for Windows 8.1:<br /><br />-   You can’t use company apps and company data on your device anymore.<br />-   Some mail apps, such as Windows Mail, won’t be able to access company email that is stored on your device anymore.<br />-   You might not be able to connect to your company network using Wi-Fi or a Virtual Private Network.<br />-   You might not have access to some company resources, such as file shares or internal web sites, on your device anymore.|\n\n## <a name=\"BKMK_windows_pc_data_collect\"></a>Turn off Microsoft usage data collection\nIn order to improve its products and services, Microsoft automatically collects anonymous data about the reliability and performance of the Company Portal app and how it is used. You can turn off the collection of that data by using the Usage Data setting in the Company Portal app. IT administrators have no control over the collection of the data, and they cannot change your selection for the setting.\n\n## <a name=\"BKMK_win_troubleshoot_device\"></a>Fix issues with your device\nUse this information to fix issues with your device when you're trying to install the Company Portal app, enroll your device in Intune, or if you've already enrolled in Intune.\n\n### <a name=\"BKMK_win_no_min_os\"></a>Device doesn't have the required minimum operating system version\nYour device doesn’t meet the minimum operating system version required by your IT department. Before updating your mobile device, check the current operating system version by tapping **Settings** &gt; **about**, and then tap **Settings** &gt; **phone update** &gt; **check for updates** to update your device.\n\nBefore updating your computer, search for **operating system** and follow the prompts to identify your current operating system version. To update computers with operating systems earlier than Windows 10, search for **Windows updates**.\n\n> [!NOTE]\n> If your Windows operating system version is 8.1, you’ll see 6.3.xxxx instead of 8.1 when you check your update version.\n\n### <a name=\"BKMK_win_no_max_os\"></a>Device doesn't comply with the maximum operating system version\nYour device does not comply with your IT admin's policy for the maximum version of the operating system. Contact your IT admin for help.\n\n"
+}
