@@ -1,0 +1,1188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">31f36b1d415b73a248c829713e130ccb65b92de8</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>robstack - V2 of Get started with app deployment</source>
+          <target>robstack - V2 of Get started with app deployment</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>robstack - V2 of Get started with app deployment</source>
+          <target>robstack - V2 of Get started with app deployment</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before you start deploying <ph dataRef="id1" id="ph1" /> apps, take some time to familiarize yourself with the concepts introduced in this topic.</source>
+          <target>Before you start deploying <ph dataRef="id1" id="ph1" /> apps, take some time to familiarize yourself with the concepts introduced in this topic.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This will give you an overview of the deployment process, and act as a reference to which device types and app types are supported.</source>
+          <target>This will give you an overview of the deployment process, and act as a reference to which device types and app types are supported.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>App types you can deploy with Intune</source>
+          <target>App types you can deploy with Intune</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can deploy apps to all device types that are supported by <ph dataRef="id1" id="ph1" />.</source>
+          <target>You can deploy apps to all device types that are supported by <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Depending on the type of app you want to deploy, the process and supported devices will differ.</source>
+          <target>Depending on the type of app you want to deploy, the process and supported devices will differ.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Use the following table to help you understand what you can, and cannot deploy:</source>
+          <target>Use the following table to help you understand what you can, and cannot deploy:</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Installer type</source>
+          <target>Installer type</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Windows Installer (&amp;#42;.exe, &amp;#42;.msi)</source>
+          <target>Windows Installer (&amp;#42;.exe, &amp;#42;.msi)</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>-   Windows Installer files must support silent installation with no user input.</source>
+          <target>-   Windows Installer files must support silent installation with no user input.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Your app documentation should include the relevant command-line options to silently install the app (for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/q</pc>).</source>
+          <target>Your app documentation should include the relevant command-line options to silently install the app (for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/q</pc>).</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>-   Any additional files and folders that are required by the app’s setup program must be available from the location that you specify for the app setup files.</source>
+          <target>-   Any additional files and folders that are required by the app’s setup program must be available from the location that you specify for the app setup files.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>-   In most cases, Windows Installer (.msi) and Windows Installer Patch (.msp) files do not require any command-line arguments to be installed by Intune.</source>
+          <target>-   In most cases, Windows Installer (.msi) and Windows Installer Patch (.msp) files do not require any command-line arguments to be installed by Intune.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Check your app documentation.</source>
+          <target>Check your app documentation.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>If command-line arguments are required, they must be entered as Name=Value pairs (such as TRANSFORMS=custom_transform.mst).</source>
+          <target>If command-line arguments are required, they must be entered as Name=Value pairs (such as TRANSFORMS=custom_transform.mst).</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>This type of app is uploaded to your cloud storage space.</source>
+          <target>This type of app is uploaded to your cloud storage space.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>App Package for Android (&amp;#42;.apk file)</source>
+          <target>App Package for Android (&amp;#42;.apk file)</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>This type of app is uploaded to your cloud storage space.</source>
+          <target>This type of app is uploaded to your cloud storage space.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>App Package for iOS (&amp;#42;.ipa file)</source>
+          <target>App Package for iOS (&amp;#42;.ipa file)</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>-   To deploy iOS apps, you must have a valid .ipa package.</source>
+          <target>-   To deploy iOS apps, you must have a valid .ipa package.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>-   The .ipa package must be signed by Apple, and the expiration date indicated in the provisioning profile must be valid.</source>
+          <target>-   The .ipa package must be signed by Apple, and the expiration date indicated in the provisioning profile must be valid.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Intune can distribute enterprise certificate iOS applications.</source>
+          <target>Intune can distribute enterprise certificate iOS applications.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Not all Apple developer certificate apps are supported.</source>
+          <target>Not all Apple developer certificate apps are supported.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>-   Your company must be registered for the iOS Developer Enterprise Program.</source>
+          <target>-   Your company must be registered for the iOS Developer Enterprise Program.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>-   Make sure that your organization’s firewall allows access to the iOS provisioning and certification web sites.</source>
+          <target>-   Make sure that your organization’s firewall allows access to the iOS provisioning and certification web sites.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>-   A manifest  file (.plist) is not required to be deployed with the app.</source>
+          <target>-   A manifest  file (.plist) is not required to be deployed with the app.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>This type of app is uploaded to your cloud storage space.</source>
+          <target>This type of app is uploaded to your cloud storage space.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc> Currently, end users cannot install corporate apps from the Intune Company Portal app for iOS.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Note:</pc> Currently, end users cannot install corporate apps from the Intune Company Portal app for iOS.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://developer.apple.com/app-store/review/guidelines/)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This is due to restrictions placed on apps that are published in the iOS App Store (see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">App Store Review Guidelines</pc>).</source>
+          <target>This is due to restrictions placed on apps that are published in the iOS App Store (see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">App Store Review Guidelines</pc>).</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Users can access corporate apps (including managed App Store apps and line-of-business app packages) by launching the Company Portal app on their device and tapping the Company Apps tile, which will open the browser and redirect them to the Intune Web Portal.</source>
+          <target>Users can access corporate apps (including managed App Store apps and line-of-business app packages) by launching the Company Portal app on their device and tapping the Company Apps tile, which will open the browser and redirect them to the Intune Web Portal.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Mobile-device-management-capabilities-in-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about the mobile management capabilities enabled by the Intune Company Portal app, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mobile device management capabilities in Microsoft Intune</pc>.</source>
+          <target>For more information about the mobile management capabilities enabled by the Intune Company Portal app, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mobile device management capabilities in Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Windows Phone app package (&amp;#42;.xap, .appx, .appxbundle)</source>
+          <target>Windows Phone app package (&amp;#42;.xap, .appx, .appxbundle)</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>-   To deploy apps, you'll need an enterprise mobile code-signing certificate.</source>
+          <target>-   To deploy apps, you'll need an enterprise mobile code-signing certificate.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Set-up-Windows-Phone-management-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For details, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set up Windows Phone management with Microsoft Intune</pc>.</source>
+          <target>For details, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set up Windows Phone management with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>This type of app is uploaded to your cloud storage space.</source>
+          <target>This type of app is uploaded to your cloud storage space.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>See below for information about installing line of business Universal Windows Platform (UWP) apps with <ph dataRef="id1" id="ph1" />.</source>
+          <target>See below for information about installing line of business Universal Windows Platform (UWP) apps with <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Windows app package (.appx, .appxbundle)</source>
+          <target>Windows app package (.appx, .appxbundle)</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>-   To deploy apps, you'll need an enterprise mobile code-signing certificate.</source>
+          <target>-   To deploy apps, you'll need an enterprise mobile code-signing certificate.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Set-up-Windows-device-management-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For details, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set up Windows device management with Microsoft Intune</pc>.</source>
+          <target>For details, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set up Windows device management with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>This type of app is uploaded to your cloud storage space.</source>
+          <target>This type of app is uploaded to your cloud storage space.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Windows Installer through MDM (&amp;#42;.msi)</source>
+          <target>Windows Installer through MDM (&amp;#42;.msi)</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>This installer type lets you create and deploy Windows Installer-based apps to enrolled PCs that run Windows 10.</source>
+          <target>This installer type lets you create and deploy Windows Installer-based apps to enrolled PCs that run Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>The following considerations apply when you use this installer type:</source>
+          <target>The following considerations apply when you use this installer type:</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>-   You can only upload a single file with the extension .msi.</source>
+          <target>-   You can only upload a single file with the extension .msi.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>-   The file's product code and product version are used for app detection.</source>
+          <target>-   The file's product code and product version are used for app detection.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>-   The default restart behavior of the app will be used.</source>
+          <target>-   The default restart behavior of the app will be used.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> does not control this.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> does not control this.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>-   Per user MSI packages will be installed for a single user.</source>
+          <target>-   Per user MSI packages will be installed for a single user.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>-   Per machine MSI packages will be installed for all users on the device.</source>
+          <target>-   Per machine MSI packages will be installed for all users on the device.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>-   Dual mode MSI packages currently only install for all users on the device.</source>
+          <target>-   Dual mode MSI packages currently only install for all users on the device.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>-   App updates are supported when the MSI product code of each version is the same.</source>
+          <target>-   App updates are supported when the MSI product code of each version is the same.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>This type of app is uploaded to your cloud storage space.</source>
+          <target>This type of app is uploaded to your cloud storage space.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>External Link</source>
+          <target>External Link</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Used when you have a:</source>
+          <target>Used when you have a:</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">URL</pc> that lets users download an app from an app store.</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">URL</pc> that lets users download an app from an app store.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Link</pc> to a web-based app that runs from the web browser.</source>
+          <target>-   <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Link</pc> to a web-based app that runs from the web browser.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Apps based on external links are not stored in your <ph dataRef="id1" id="ph1" /> cloud storage space.</source>
+          <target>Apps based on external links are not stored in your <ph dataRef="id1" id="ph1" /> cloud storage space.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Managed iOS app from the app store</source>
+          <target>Managed iOS app from the app store</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Lets you manage and deploy iOS apps that are free of charge from the app store.</source>
+          <target>Lets you manage and deploy iOS apps that are free of charge from the app store.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/dn878026.aspx)</data>
+          <data id="id3">[</data>
+          <data id="id4">](https://technet.microsoft.com/library/dn708489.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Also lets you associate <pc dataRefEnd="id2" dataRefStart="id1" id="p1">mobile application management policies</pc> with <pc dataRefEnd="id4" dataRefStart="id3" id="p2">compatible apps</pc> and review their status in the administrator console.</source>
+          <target>Also lets you associate <pc dataRefEnd="id2" dataRefStart="id1" id="p1">mobile application management policies</pc> with <pc dataRefEnd="id4" dataRefStart="id3" id="p2">compatible apps</pc> and review their status in the administrator console.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Managed iOS apps are not stored in your Intune cloud storage space.</source>
+          <target>Managed iOS apps are not stored in your Intune cloud storage space.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/mt346013.aspx)</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Options for mobile devices are not available until you <pc dataRefEnd="id2" dataRefStart="id1" id="p1">set the Mobile Device Management Authority</pc> to <ph dataRef="id3" id="ph1" />.</source>
+          <target>Options for mobile devices are not available until you <pc dataRefEnd="id2" dataRefStart="id1" id="p1">set the Mobile Device Management Authority</pc> to <ph dataRef="id3" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Support for Universal Windows Platform (UWP) apps</source>
+          <target>Support for Universal Windows Platform (UWP) apps</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>Windows 10 devices do not require a sideloading key to install line of business apps.</source>
+          <target>Windows 10 devices do not require a sideloading key to install line of business apps.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, the registry key <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Appx\AllowAllTrustedApps</pc> must have a value of to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1</pc> to enable sideloading.</source>
+          <target>However, the registry key <pc dataRefEnd="id2" dataRefStart="id1" id="p1">HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Appx\AllowAllTrustedApps</pc> must have a value of to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">1</pc> to enable sideloading.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If this registry key is not configured, <ph dataRef="id1" id="ph1" /> will automatically set this value to <pc dataRefEnd="id3" dataRefStart="id2" id="p1">1</pc> the first time you deploy an app to the device.</source>
+          <target>If this registry key is not configured, <ph dataRef="id1" id="ph1" /> will automatically set this value to <pc dataRefEnd="id3" dataRefStart="id2" id="p1">1</pc> the first time you deploy an app to the device.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you have set this value to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">0</pc>, then <ph dataRef="id3" id="ph1" /> cannot automatically change the value, and the deployment of line of business apps will fail.</source>
+          <target>If you have set this value to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">0</pc>, then <ph dataRef="id3" id="ph1" /> cannot automatically change the value, and the deployment of line of business apps will fail.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Universal Windows Platform line of business apps must be signed with a code-signing certificate that is trusted on each device to which the app is deployed.</source>
+          <target>Universal Windows Platform line of business apps must be signed with a code-signing certificate that is trusted on each device to which the app is deployed.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>You can use certificates from an in-house PKI infrastructure, or a certificate from a third-party public root certificate installed on the device.</source>
+          <target>You can use certificates from an in-house PKI infrastructure, or a certificate from a third-party public root certificate installed on the device.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On Windows 10 Mobile devices, you can use a non-Symantec code signing certificate to sign universal <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.appx</pc> apps.</source>
+          <target>On Windows 10 Mobile devices, you can use a non-Symantec code signing certificate to sign universal <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.appx</pc> apps.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.xap</pc> apps, and also <pc dataRefEnd="id4" dataRefStart="id3" id="p2">.appx</pc> packages built for Windows Phone 8.1 that you want to install on Windows 10 Mobile devices, you must use a Symantec code-signing certificate.</source>
+          <target>For <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.xap</pc> apps, and also <pc dataRefEnd="id4" dataRefStart="id3" id="p2">.appx</pc> packages built for Windows Phone 8.1 that you want to install on Windows 10 Mobile devices, you must use a Symantec code-signing certificate.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>More concepts</source>
+          <target>More concepts</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Intune software publisher</source>
+          <target>Intune software publisher</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune Software Publisher</pc> starts when you add or modify apps from the Microsoft Intune administrator console.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune Software Publisher</pc> starts when you add or modify apps from the Microsoft Intune administrator console.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the publisher, you select and configure a software installer type that will either upload apps (programs for computers or apps for mobile devices) to be stored in <ph dataRef="id1" id="ph1" /> cloud storage, or link to an online store or web application.</source>
+          <target>From the publisher, you select and configure a software installer type that will either upload apps (programs for computers or apps for mobile devices) to be stored in <ph dataRef="id1" id="ph1" /> cloud storage, or link to an online store or web application.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Requirements</source>
+          <target>Requirements</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://www.microsoft.com/download/details.aspx?id=17851)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before you begin to use the Microsoft Intune Software Publisher, you must install the full version of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft .NET Framework 4.0</pc>.</source>
+          <target>Before you begin to use the Microsoft Intune Software Publisher, you must install the full version of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft .NET Framework 4.0</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>After installation, you might have to restart your computer before the Software Publisher will open correctly.</source>
+          <target>After installation, you might have to restart your computer before the Software Publisher will open correctly.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Cloud storage space</source>
+          <target>Cloud storage space</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>All apps that you deploy using the software installer installation type must be packaged and uploaded to Microsoft Intune cloud storage.</source>
+          <target>All apps that you deploy using the software installer installation type must be packaged and uploaded to Microsoft Intune cloud storage.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>A trial subscription of Intune includes 2 gigabytes (GB) of cloud-based storage that is used to store managed apps and updates.</source>
+          <target>A trial subscription of Intune includes 2 gigabytes (GB) of cloud-based storage that is used to store managed apps and updates.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>A paid subscription includes 20GB, with the option to purchase additional storage.</source>
+          <target>A paid subscription includes 20GB, with the option to purchase additional storage.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can see how much space you are using and purchase more storage in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Storage Use</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> workspace.</source>
+          <target>You can see how much space you are using and purchase more storage in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Storage Use</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>These rules apply to purchasing additional cloud-based storage for <ph dataRef="id1" id="ph1" />:</source>
+          <target>These rules apply to purchasing additional cloud-based storage for <ph dataRef="id1" id="ph1" />:</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>You must have an active paid subscription in order to purchase additional storage.</source>
+          <target>You must have an active paid subscription in order to purchase additional storage.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>Only billing administrators or global administrators for your Microsoft Online Service can purchase additional storage through the Intune account portal.</source>
+          <target>Only billing administrators or global administrators for your Microsoft Online Service can purchase additional storage through the Intune account portal.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>To add, delete, or manage these administrators, you must be a global administrator and sign in to the Intune account portal.</source>
+          <target>To add, delete, or manage these administrators, you must be a global administrator and sign in to the Intune account portal.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>If you are a volume licensing customer who has purchased Intune or the Microsoft Intune Add-on through the enterprise agreement, contact your Microsoft Account Manager or Microsoft Partner for pricing information and to purchase additional storage.</source>
+          <target>If you are a volume licensing customer who has purchased Intune or the Microsoft Intune Add-on through the enterprise agreement, contact your Microsoft Account Manager or Microsoft Partner for pricing information and to purchase additional storage.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Requirements for cloud storage space</source>
+          <target>Requirements for cloud storage space</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>All files associated with an app must be in the same location and be accessible by <ph dataRef="id1" id="ph1" />.</source>
+          <target>All files associated with an app must be in the same location and be accessible by <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>The maximum file size for any file you upload is 2GB.</source>
+          <target>The maximum file size for any file you upload is 2GB.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>To upload files, you must have a minimum Internet speed of 768kbps.</source>
+          <target>To upload files, you must have a minimum Internet speed of 768kbps.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>App deployment actions</source>
+          <target>App deployment actions</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>When you deploy apps, you can choose from one of the following deployment actions:</source>
+          <target>When you deploy apps, you can choose from one of the following deployment actions:</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required install</pc> – The app is installed onto the device, with no end-user intervention required.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Required install</pc> – The app is installed onto the device, with no end-user intervention required.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>For iOS devices that are not in supervised mode, and for all Android devices, the user must accept the app offer before it is installed.</source>
+          <target>For iOS devices that are not in supervised mode, and for all Android devices, the user must accept the app offer before it is installed.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>You can no longer create new app deployments to iOS devices running an operating system earlier than iOS 7.1.</source>
+          <target>You can no longer create new app deployments to iOS devices running an operating system earlier than iOS 7.1.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Any existing app deployments to devices running an earlier operating system than iOS 7.1 will continue to work and be managed by <ph dataRef="id1" id="ph1" />.</source>
+          <target>Any existing app deployments to devices running an earlier operating system than iOS 7.1 will continue to work and be managed by <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available install</pc> – The app is displayed in the company portal, and end-users can install it on-demand.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available install</pc> – The app is displayed in the company portal, and end-users can install it on-demand.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Uninstall</pc> – The app is uninstalled from the device.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Uninstall</pc> – The app is uninstalled from the device.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Not applicable</pc> – The app is not displayed in the company portal, and is not installed to any devices.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Not applicable</pc> – The app is not displayed in the company portal, and is not installed to any devices.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Actions"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Understand which deployment actions are available for each installer type</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Understand which deployment actions are available for each installer type</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Installer type</source>
+          <target>Installer type</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Required install</source>
+          <target>Required install</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Available install</source>
+          <target>Available install</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Uninstall</source>
+          <target>Uninstall</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Not applicable</source>
+          <target>Not applicable</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Windows app package (deployed to a user group)</source>
+          <target>Windows app package (deployed to a user group)</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Windows app package (deployed to a device group)</source>
+          <target>Windows app package (deployed to a device group)</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>App package for mobile devices (deployed to a user group)</source>
+          <target>App package for mobile devices (deployed to a user group)</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>App package for mobile devices (deployed to a device group)</source>
+          <target>App package for mobile devices (deployed to a device group)</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Windows Installer (deployed to a user group)</source>
+          <target>Windows Installer (deployed to a user group)</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Windows Installer (deployed to a device group)</source>
+          <target>Windows Installer (deployed to a device group)</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>External link (deployed to a user group)</source>
+          <target>External link (deployed to a user group)</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>External link (deployed to a device group)</source>
+          <target>External link (deployed to a device group)</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Managed iOS app from the app store (deployed to a user group)</source>
+          <target>Managed iOS app from the app store (deployed to a user group)</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Managed iOS app from the app store (deployed to a device group)</source>
+          <target>Managed iOS app from the app store (deployed to a device group)</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you deploy apps, if you select both user and device groups, you can only deploy the app as an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available install</pc>.</source>
+          <target>When you deploy apps, if you select both user and device groups, you can only deploy the app as an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available install</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Deployment conflicts</source>
+          <target>Deployment conflicts</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>When two deployments, with the same deployment action are received by a device, the following rules apply:</source>
+          <target>When two deployments, with the same deployment action are received by a device, the following rules apply:</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Deployments to a device group take precedence over deployments to a user group.</source>
+          <target>Deployments to a device group take precedence over deployments to a user group.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, if an app is deployed to a user group with a deployment action of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available</pc> and the same app is also deployed to a device group with a deployment action of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Not Applicable</pc>, the app will be made available in the company portal for users to install.</source>
+          <target>However, if an app is deployed to a user group with a deployment action of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Available</pc> and the same app is also deployed to a device group with a deployment action of <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Not Applicable</pc>, the app will be made available in the company portal for users to install.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>The intent of the IT admin takes precedence over the user.</source>
+          <target>The intent of the IT admin takes precedence over the user.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>An install action takes precedence over an uninstall action.</source>
+          <target>An install action takes precedence over an uninstall action.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>If both a required install and an available install are received by a device, the actions are combined (the app is both required and available).</source>
+          <target>If both a required install and an available install are received by a device, the actions are combined (the app is both required and available).</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Deploy and configure apps with Microsoft Intune</source>
+          <target>Deploy and configure apps with Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

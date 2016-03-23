@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">270d73495abc27e71b1abefe3e4320b7a4a53ae4</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>How Microsoft Intune helps you comply with security and privacy requirements</source>
+          <target>How Microsoft Intune helps you comply with security and privacy requirements</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>How Microsoft Intune helps you comply with security and privacy requirements</source>
+          <target>How Microsoft Intune helps you comply with security and privacy requirements</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>When you manage devices owned by your company or that your users bring to work, one of your first concerns is your ability to keep those devices and their data secure.</source>
+          <target>When you manage devices owned by your company or that your users bring to work, one of your first concerns is your ability to keep those devices and their data secure.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You also want to respect the privacy of your users who want the flexibility of bringing their devices to work, but not at the cost of losing control of their own data.</source>
+          <target>You also want to respect the privacy of your users who want the flexibility of bringing their devices to work, but not at the cost of losing control of their own data.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> has safeguards in place to help you provide that kind of environment for your company and your employees.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> has safeguards in place to help you provide that kind of environment for your company and your employees.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this topic you'll learn about Microsoft's documentation of <ph dataRef="id1" id="ph1" />'s security, privacy, and compliance credentials.</source>
+          <target>In this topic you'll learn about Microsoft's documentation of <ph dataRef="id1" id="ph1" />'s security, privacy, and compliance credentials.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You'll also read examples of how companies worldwide use <ph dataRef="id1" id="ph1" /> to create a secure and private data environment.</source>
+          <target>You'll also read examples of how companies worldwide use <ph dataRef="id1" id="ph1" /> to create a secure and private data environment.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Intune compliance stories</source>
+          <target>Intune compliance stories</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Customers worldwide have used <ph dataRef="id1" id="ph1" /> to ensure compliance with corporate requirements or government regulations.</source>
+          <target>Customers worldwide have used <ph dataRef="id1" id="ph1" /> to ensure compliance with corporate requirements or government regulations.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Here are some examples.</source>
+          <target>Here are some examples.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Croatia</source>
+          <target>Croatia</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This Zagreb company wanted to provide access to corporate email to its 350 users only on managed smart phones, and to protect that email content, and was able to do that with  <ph dataRef="id1" id="ph1" />.</source>
+          <target>This Zagreb company wanted to provide access to corporate email to its 350 users only on managed smart phones, and to protect that email content, and was able to do that with  <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>They also enabled a PIN policy,  policies that restricted the of reading emails to compliant devices.</source>
+          <target>They also enabled a PIN policy,  policies that restricted the of reading emails to compliant devices.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>In this way the company protects email content on mobile devices and those devices are compliant with corporate policy.</source>
+          <target>In this way the company protects email content on mobile devices and those devices are compliant with corporate policy.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>The IT department of this Zagreb company was asked to enable a secure VPN connection from 300 smart phones to the main datacenter.</source>
+          <target>The IT department of this Zagreb company was asked to enable a secure VPN connection from 300 smart phones to the main datacenter.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Mobile workers also required updated application data on their mobile devices.</source>
+          <target>Mobile workers also required updated application data on their mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This was accomplished using  <ph dataRef="id1" id="ph1" /> together with a secured VPN client deployment (Cisco AnyConnect), with application deployment and application data refresh enabled only for managed devices.</source>
+          <target>This was accomplished using  <ph dataRef="id1" id="ph1" /> together with a secured VPN client deployment (Cisco AnyConnect), with application deployment and application data refresh enabled only for managed devices.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Compliance resources</source>
+          <target>Compliance resources</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Microsoft has several resources available to you so that you can learn how <ph dataRef="id1" id="ph1" />can help you keep your corporate data, and your users' personal data secure and private.</source>
+          <target>Microsoft has several resources available to you so that you can learn how <ph dataRef="id1" id="ph1" />can help you keep your corporate data, and your users' personal data secure and private.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Microsoft Trust Center</source>
+          <target>Microsoft Trust Center</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://www.microsoft.com/en-us/server-cloud/products/intune-trust-center/security.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security </pc> contains detailed information on things like how your data is protected in the Microsoft Cloud.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security </pc> contains detailed information on things like how your data is protected in the Microsoft Cloud.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>has links to  Microsoft's privacy documents.</source>
+          <target>has links to  Microsoft's privacy documents.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://www.microsoft.com/en-us/server-cloud/products/intune-trust-center/compliance.aspx)</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compliance </pc> provides information about <ph dataRef="id3" id="ph1" />'s certifications.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compliance </pc> provides information about <ph dataRef="id3" id="ph1" />'s certifications.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

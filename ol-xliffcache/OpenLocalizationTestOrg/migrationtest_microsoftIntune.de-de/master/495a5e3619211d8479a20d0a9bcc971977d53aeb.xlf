@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">495a5e3619211d8479a20d0a9bcc971977d53aeb</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Protect company data on personal Windows 10 devices with Enterprise Data Protection in Microsoft Intune</source>
+          <target>Protect company data on personal Windows 10 devices with Enterprise Data Protection in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Protect company data on personal Windows 10 devices with Enterprise Data Protection in Microsoft Intune</source>
+          <target>Protect company data on personal Windows 10 devices with Enterprise Data Protection in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>With the increase of employee-owned devices in the enterprise, there’s also an increasing risk of accidental data disclosure through apps and services that are outside of the enterprise’s control like email, social media, and the public cloud.</source>
+          <target>With the increase of employee-owned devices in the enterprise, there’s also an increasing risk of accidental data disclosure through apps and services that are outside of the enterprise’s control like email, social media, and the public cloud.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Many of the existing solutions that try to address this issue require employees to switch between personal and work containers and apps  , leading to a less than optimal user experience.</source>
+          <target>Many of the existing solutions that try to address this issue require employees to switch between personal and work containers and apps  , leading to a less than optimal user experience.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>The feature code-named Enterprise Data Protection (EDP) offers a better user experience, while helping to better separate and protect enterprise apps and data against disclosure risks across both company and personal devices, without requiring a change in environment.</source>
+          <target>The feature code-named Enterprise Data Protection (EDP) offers a better user experience, while helping to better separate and protect enterprise apps and data against disclosure risks across both company and personal devices, without requiring a change in environment.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>EDP helps address your everyday challenges in the enterprise, helping you:</source>
+          <target>EDP helps address your everyday challenges in the enterprise, helping you:</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Avoid potentially negative employee experiences because of your severely restrictive data protection policies.</source>
+          <target>Avoid potentially negative employee experiences because of your severely restrictive data protection policies.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Maintain the privacy of your enterprise data.</source>
+          <target>Maintain the privacy of your enterprise data.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Manage apps that aren’t policy-aware, especially on mobile devices.</source>
+          <target>Manage apps that aren’t policy-aware, especially on mobile devices.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Feel more confident about the safety of your enterprise data on employee-owned devices by helping to prevent the accidental release of info.</source>
+          <target>Feel more confident about the safety of your enterprise data on employee-owned devices by helping to prevent the accidental release of info.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Before you start</source>
+          <target>Before you start</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before you can use Microsoft Intune to create, manage, and deploy your EDP policy, you must make sure you are managing Windows 10  devices that have been enrolled with <ph dataRef="id1" id="ph1" />.</source>
+          <target>Before you can use Microsoft Intune to create, manage, and deploy your EDP policy, you must make sure you are managing Windows 10  devices that have been enrolled with <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Create an Enterprise Data Protection policy</source>
+          <target>Create an Enterprise Data Protection policy</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Overview</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add Policy</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Overview</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enterprise Data Protection (Windows 10 Desktop and Mobile and later)</pc> and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create Policy</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enterprise Data Protection (Windows 10 Desktop and Mobile and later)</pc> and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Create Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> section of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create Policy</pc> page, specify a name and a description for the new policy.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General</pc> section of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create Policy</pc> page, specify a name and a description for the new policy.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protected apps</pc> section, you can configure a list of apps whose data you would like to protect.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protected apps</pc> section, you can configure a list of apps whose data you would like to protect.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Access to Enterprise network locations are restricted to apps that you configure in the protect apps list.</source>
+          <target>Access to Enterprise network locations are restricted to apps that you configure in the protect apps list.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Data accessed by apps in this list are encrypted and users are restricted from relocating data out of protected apps.</source>
+          <target>Data accessed by apps in this list are encrypted and users are restricted from relocating data out of protected apps.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>To add apps to the “Protected apps” list</source>
+          <target>To add apps to the “Protected apps” list</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Below the</source>
+          <target>Below the</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

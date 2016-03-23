@@ -1,0 +1,1543 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">e59cdffef916f6062af7f72d7054065ed514b6ea</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - Help users connect to company networks using Wi-Fi profiles with Microsoft</source>
+          <target>MD Conversion - Help users connect to company networks using Wi-Fi profiles with Microsoft</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - Help users connect to company networks using Wi-Fi profiles with Microsoft</source>
+          <target>MD Conversion - Help users connect to company networks using Wi-Fi profiles with Microsoft</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use <ph dataRef="id1" id="ph1" /> Wi-Fi profiles to deploy wireless network settings to users and devices in your organization.</source>
+          <target>Use <ph dataRef="id1" id="ph1" /> Wi-Fi profiles to deploy wireless network settings to users and devices in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>These settings simplify connecting to wireless networks for end-users.</source>
+          <target>These settings simplify connecting to wireless networks for end-users.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>For example:</source>
+          <target>For example:</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You install a new Wi-Fi network named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contoso Wi-Fi</pc> and want to provision all devices that run the iOS operating system with the settings required to connect to this network.</source>
+          <target>You install a new Wi-Fi network named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contoso Wi-Fi</pc> and want to provision all devices that run the iOS operating system with the settings required to connect to this network.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You create a Wi-Fi profile containing the settings necessary to connect to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contoso Wi-Fi</pc> wireless network.</source>
+          <target>You create a Wi-Fi profile containing the settings necessary to connect to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contoso Wi-Fi</pc> wireless network.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>You then deploy this profile to all users with iOS devices.</source>
+          <target>You then deploy this profile to all users with iOS devices.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Users find the new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contoso Wi-Fi</pc> network in the list of wireless networks and can easily connect to this network.</source>
+          <target>Users find the new <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contoso Wi-Fi</pc> network in the list of wireless networks and can easily connect to this network.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>You can deploy Wi-Fi profiles to the following platforms:</source>
+          <target>You can deploy Wi-Fi profiles to the following platforms:</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Android 4.0 and later</source>
+          <target>Android 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>iOS 7.1 and later</source>
+          <target>iOS 7.1 and later</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Mac OS X 10.9 and later</source>
+          <target>Mac OS X 10.9 and later</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Additionally, for devices that run Windows 8.1 and later, you can import a Wi-Fi configuration profile that was previously exported to a file.</source>
+          <target>Additionally, for devices that run Windows 8.1 and later, you can import a Wi-Fi configuration profile that was previously exported to a file.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Help-users-connect-to-company-networks-using-Wi-Fi-profiles-with-Microsoft-Intune.md#BKMK_Import)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For details, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import a Wi-Fi configuration profile (Windows 8.1 and later only)</pc>.</source>
+          <target>For details, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import a Wi-Fi configuration profile (Windows 8.1 and later only)</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Steps to create and deploy a Wi-Fi profile</source>
+          <target>Steps to create and deploy a Wi-Fi profile</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Step 1: Create a Wi-Fi profile and supply general information</source>
+          <target>Step 1: Create a Wi-Fi profile and supply general information</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select one of the following policy types, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create Policy</pc>:</source>
+          <target>Select one of the following policy types, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create Policy</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Wi-Fi Profile (Android 4 and later)</source>
+          <target>Wi-Fi Profile (Android 4 and later)</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>Wi-Fi Profile (iOS 7.1 and later)</source>
+          <target>Wi-Fi Profile (iOS 7.1 and later)</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Wi-Fi Profile (Mac OS X 10.9 and later)</source>
+          <target>Wi-Fi Profile (Mac OS X 10.9 and later)</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>There are no recommended settings for this policy type.</source>
+          <target>There are no recommended settings for this policy type.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>You must create a custom policy.</source>
+          <target>You must create a custom policy.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Specify the following general values:</source>
+          <target>Specify the following general values:</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Setting</source>
+          <target>Setting</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter a unique name for the Wi-Fi profile to help identify it in the <ph dataRef="id1" id="ph1" /> console.</source>
+          <target>Enter a unique name for the Wi-Fi profile to help identify it in the <ph dataRef="id1" id="ph1" /> console.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Provide a description of the Wi-Fi profile that helps you to locate it.</source>
+          <target>Provide a description of the Wi-Fi profile that helps you to locate it.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Step 2: Configure network connection settings</source>
+          <target>Step 2: Configure network connection settings</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network Connections</pc> values:</source>
+          <target>Specify the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Network Connections</pc> values:</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Setting</source>
+          <target>Setting</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Network name</source>
+          <target>Network name</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Specify a descriptive name for the wireless network.</source>
+          <target>Specify a descriptive name for the wireless network.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>This is the name that displays on a user’s device when they choose a wireless network.</source>
+          <target>This is the name that displays on a user’s device when they choose a wireless network.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>SSID (Service Set Identifier)</source>
+          <target>SSID (Service Set Identifier)</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Specify the (SSID) of the wireless network that you want devices to connect to.</source>
+          <target>Specify the (SSID) of the wireless network that you want devices to connect to.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>The SSID is case-sensitive and is not displayed to users.</source>
+          <target>The SSID is case-sensitive and is not displayed to users.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Connect automatically when this network is in range</source>
+          <target>Connect automatically when this network is in range</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Select this option to automatically connect devices to the wireless network when it is in range.</source>
+          <target>Select this option to automatically connect devices to the wireless network when it is in range.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Connect when the network is not broadcasting its name (SSID)</source>
+          <target>Connect when the network is not broadcasting its name (SSID)</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Select this option to allow devices to connect to the network when it is not visible in the list of networks (because it is hidden and not broadcasting its name).</source>
+          <target>Select this option to allow devices to connect to the network when it is not visible in the list of networks (because it is hidden and not broadcasting its name).</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Step 3: Configure security settings</source>
+          <target>Step 3: Configure security settings</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configure the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security Settings</pc> for the selected platform.</source>
+          <target>Configure the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Security Settings</pc> for the selected platform.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>The available settings depend on the security types you select.</source>
+          <target>The available settings depend on the security types you select.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>For Android devices</source>
+          <target>For Android devices</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Use when:</source>
+          <target>Use when:</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Security type</source>
+          <target>Security type</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>Select the security protocol for the wireless network:</source>
+          <target>Select the security protocol for the wireless network:</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>WPA-Enterprise/WPA2-Enterprise</source>
+          <target>WPA-Enterprise/WPA2-Enterprise</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No authentication (Open)</pc> if the network is unsecured.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No authentication (Open)</pc> if the network is unsecured.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Always</source>
+          <target>Always</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>EAP Type</source>
+          <target>EAP Type</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Choose the Extensible Authentication Protocol (EAP) type used to authenticate secured wireless connections:</source>
+          <target>Choose the Extensible Authentication Protocol (EAP) type used to authenticate secured wireless connections:</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>EAP-TLS</source>
+          <target>EAP-TLS</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>PEAP</source>
+          <target>PEAP</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>EAP-TTLS</source>
+          <target>EAP-TTLS</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You selected the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPA-Enterprise/WPA2-Enterprise</pc> security type.</source>
+          <target>You selected the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPA-Enterprise/WPA2-Enterprise</pc> security type.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>Select root certificates for server validation</source>
+          <target>Select root certificates for server validation</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select</pc>, then choose the trusted root certificate profile used to authenticate the connection.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select</pc>, then choose the trusted root certificate profile used to authenticate the connection.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To create the trusted root certificate profile, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</source>
+          <target>To create the trusted root certificate profile, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Any <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP Type</pc> is selected.</source>
+          <target>Any <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP Type</pc> is selected.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Authentication method</source>
+          <target>Authentication method</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Select the authentication method for the connection:</source>
+          <target>Select the authentication method for the connection:</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificates</pc> to specify the client certificate</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificates</pc> to specify the client certificate</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Username and Password</pc> to specify a different method for authentication</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Username and Password</pc> to specify a different method for authentication</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP type</pc> is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PEAP</pc> or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">EAP-TTLS</pc>.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP type</pc> is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PEAP</pc> or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">EAP-TTLS</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Select a non-EAP method for authentication (Inner identity)</source>
+          <target>Select a non-EAP method for authentication (Inner identity)</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>Select how you will authenticate the connection:</source>
+          <target>Select how you will authenticate the connection:</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>None</source>
+          <target>None</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Unencrypted password (PAP)</source>
+          <target>Unencrypted password (PAP)</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Challenge Handshake Authentication Protocol (CHAP)</source>
+          <target>Challenge Handshake Authentication Protocol (CHAP)</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Microsoft CHAP (MS-CHAP)</source>
+          <target>Microsoft CHAP (MS-CHAP)</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Microsoft CHAP Version 2 (MS-CHAP v2)</source>
+          <target>Microsoft CHAP Version 2 (MS-CHAP v2)</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>The available options depend on the EAP type you selected.</source>
+          <target>The available options depend on the EAP type you selected.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Authentication method</pc> is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Username and Password</pc>.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Authentication method</pc> is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Username and Password</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Enable identity privacy (Outer Identity)</source>
+          <target>Enable identity privacy (Outer Identity)</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Specify the text sent in response to an EAP identity request.</source>
+          <target>Specify the text sent in response to an EAP identity request.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>This text can be any value.</source>
+          <target>This text can be any value.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>During authentication, this anonymous identity is initially sent, and then followed by the real identification sent in a secure tunnel.</source>
+          <target>During authentication, this anonymous identity is initially sent, and then followed by the real identification sent in a secure tunnel.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP type</pc> is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PEAP</pc> or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">EAP-TTLS</pc>.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP type</pc> is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PEAP</pc> or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">EAP-TTLS</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Select a client certificate for client authentication (Identity Certificate)</source>
+          <target>Select a client certificate for client authentication (Identity Certificate)</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select</pc>, then choose the SCEP certificate profile used to authenticate the connection.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Select</pc>, then choose the SCEP certificate profile used to authenticate the connection.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To create a SCEP certificate profile, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</source>
+          <target>To create a SCEP certificate profile, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The security type is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPA-Enterprise/WPA2-Enterprise</pc>, and any <pc dataRefEnd="id4" dataRefStart="id3" id="p2">EAP type</pc> is selected.</source>
+          <target>The security type is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPA-Enterprise/WPA2-Enterprise</pc>, and any <pc dataRefEnd="id4" dataRefStart="id3" id="p2">EAP type</pc> is selected.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>For iOS and Mac OS X devices</source>
+          <target>For iOS and Mac OS X devices</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Use when:</source>
+          <target>Use when:</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Security type</source>
+          <target>Security type</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Select the wireless network security protocol:</source>
+          <target>Select the wireless network security protocol:</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>WPA-Personal/WPA2-Personal</source>
+          <target>WPA-Personal/WPA2-Personal</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>WPA-Enterprise/WPA2-Enterprise</source>
+          <target>WPA-Enterprise/WPA2-Enterprise</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>WEP</source>
+          <target>WEP</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No authentication (Open)</pc> if the network is unsecured.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No authentication (Open)</pc> if the network is unsecured.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Always</source>
+          <target>Always</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>EAP Type</source>
+          <target>EAP Type</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Choose the Extensible Authentication Protocol (EAP) type used to authenticate secured wireless connections:</source>
+          <target>Choose the Extensible Authentication Protocol (EAP) type used to authenticate secured wireless connections:</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>EAP-TLS</source>
+          <target>EAP-TLS</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>PEAP</source>
+          <target>PEAP</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>EAP-TLS</source>
+          <target>EAP-TLS</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>EAP-AST</source>
+          <target>EAP-AST</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>LEAP</source>
+          <target>LEAP</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>EAP-SIM</source>
+          <target>EAP-SIM</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You selected a security type of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPA-Enterprise/WPA2-Enterprise</pc>.</source>
+          <target>You selected a security type of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPA-Enterprise/WPA2-Enterprise</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Trusted server certificate names</source>
+          <target>Trusted server certificate names</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>Select the trusted root certificate profile used to authenticate the connection.</source>
+          <target>Select the trusted root certificate profile used to authenticate the connection.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To create the trusted root certificate profile, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</source>
+          <target>To create the trusted root certificate profile, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You selected an EAP type of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP-TLS</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PEAP</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">EAP-TTLS</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">EAP-FAST</pc>.</source>
+          <target>You selected an EAP type of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP-TLS</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PEAP</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">EAP-TTLS</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">EAP-FAST</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Use Protected Access Credential (PAC)</source>
+          <target>Use Protected Access Credential (PAC)</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Select to use protected access credentials to establish an authenticated tunnel between the client and the authentication server.</source>
+          <target>Select to use protected access credentials to establish an authenticated tunnel between the client and the authentication server.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>An existing PAC file is used if present.</source>
+          <target>An existing PAC file is used if present.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP-type</pc> is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">EAP-FAST</pc>.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP-type</pc> is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">EAP-FAST</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Provision PAC</source>
+          <target>Provision PAC</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Provisions the PAC file to your devices.</source>
+          <target>Provisions the PAC file to your devices.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When used, you can also select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Provision PAC Anonymously</pc> to ensure that the PAC file is provisioned without authenticating the server.</source>
+          <target>When used, you can also select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Provision PAC Anonymously</pc> to ensure that the PAC file is provisioned without authenticating the server.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use Protected Access Credential (PAC)</pc> is selected.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use Protected Access Credential (PAC)</pc> is selected.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Authentication method</source>
+          <target>Authentication method</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Select the authentication method used for the connection:</source>
+          <target>Select the authentication method used for the connection:</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificates</pc> to specify the client certificate</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Certificates</pc> to specify the client certificate</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Username and Password</pc> to specify one of the following non-EAP methods for authentication (also known as Inner identity):</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Username and Password</pc> to specify one of the following non-EAP methods for authentication (also known as Inner identity):</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>None</source>
+          <target>None</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Unencrypted password (PAP)</source>
+          <target>Unencrypted password (PAP)</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Challenge Handshake Authentication Protocol (CHAP)</source>
+          <target>Challenge Handshake Authentication Protocol (CHAP)</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Microsoft CHAP (MS-CHAP)</source>
+          <target>Microsoft CHAP (MS-CHAP)</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Microsoft CHAP Version 2 (MS-CHAP v2)</source>
+          <target>Microsoft CHAP Version 2 (MS-CHAP v2)</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>EAP-TLS</source>
+          <target>EAP-TLS</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP type</pc> is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PEAP</pc>, or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">EAP-TTLS</pc>.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP type</pc> is <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PEAP</pc>, or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">EAP-TTLS</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Select a client certificate for client authentication (Identity Certificate)</source>
+          <target>Select a client certificate for client authentication (Identity Certificate)</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Select the SCEP certificate profile used to authenticate the connection.</source>
+          <target>Select the SCEP certificate profile used to authenticate the connection.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Enable-access-to-company-resources-using-certificate-profiles-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To create a SCEP certificate profile, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</source>
+          <target>To create a SCEP certificate profile, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable access to company resources using certificate profiles with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the security type is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPA-Enterprise/WPA2-Enterprise</pc> and the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">EAP type</pc> is <pc dataRefEnd="id6" dataRefStart="id5" id="p3">EAP-TLS</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">PEAP</pc> or <pc dataRefEnd="id10" dataRefStart="id9" id="p5">EAP-TTLS</pc>.</source>
+          <target>When the security type is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">WPA-Enterprise/WPA2-Enterprise</pc> and the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">EAP type</pc> is <pc dataRefEnd="id6" dataRefStart="id5" id="p3">EAP-TLS</pc>, <pc dataRefEnd="id8" dataRefStart="id7" id="p4">PEAP</pc> or <pc dataRefEnd="id10" dataRefStart="id9" id="p5">EAP-TTLS</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Enable identity privacy (Outer Identity)</source>
+          <target>Enable identity privacy (Outer Identity)</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Specify text that sent in response to an EAP identity request.</source>
+          <target>Specify text that sent in response to an EAP identity request.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>This text can be any value.</source>
+          <target>This text can be any value.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>During authentication, this anonymous identity is initially sent, followed by the real identification sent in a secure tunnel.</source>
+          <target>During authentication, this anonymous identity is initially sent, followed by the real identification sent in a secure tunnel.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP type</pc> is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PEAP</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">EAP-TTLS</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">EAP-FAST</pc>.</source>
+          <target>When the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">EAP type</pc> is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PEAP</pc>, <pc dataRefEnd="id6" dataRefStart="id5" id="p3">EAP-TTLS</pc> or <pc dataRefEnd="id8" dataRefStart="id7" id="p4">EAP-FAST</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Step 4: Configure proxy settings (iOS and MAC OS X only)</source>
+          <target>Step 4: Configure proxy settings (iOS and MAC OS X only)</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For iOS and Mac OS X Wi-Fi profiles, configure the following settings (if you are using a proxy server to help secure your network) under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proxy Settings</pc>:</source>
+          <target>For iOS and Mac OS X Wi-Fi profiles, configure the following settings (if you are using a proxy server to help secure your network) under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proxy Settings</pc>:</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Moe information</source>
+          <target>Moe information</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Use when:</source>
+          <target>Use when:</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Proxy settings for this Wi-Fi connection</source>
+          <target>Proxy settings for this Wi-Fi connection</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Choose the proxy settings type:</source>
+          <target>Choose the proxy settings type:</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">None</pc> (default)</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">None</pc> (default)</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manual</pc> -   Manually specify the URL and port number of the proxy server.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manual</pc> -   Manually specify the URL and port number of the proxy server.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic</pc> – Use a configuration file to configure the proxy server.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Automatic</pc> – Use a configuration file to configure the proxy server.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>Always</source>
+          <target>Always</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proxy server address</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Port number</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proxy server address</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Port number</pc></target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Specify the URL and port number of the proxy server.</source>
+          <target>Specify the URL and port number of the proxy server.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proxy settings for this Wi-Fi connection</pc> is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manual</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proxy settings for this Wi-Fi connection</pc> is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manual</pc></target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>Proxy Server URL</source>
+          <target>Proxy Server URL</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Specify the URL of the file containing the proxy server settings.</source>
+          <target>Specify the URL of the file containing the proxy server settings.</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proxy settings for this Wi-Fi connection</pc> is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Automatic</pc></source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proxy settings for this Wi-Fi connection</pc> is set to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Automatic</pc></target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Step 5: Save the Wi-Fi profile</source>
+          <target>Step 5: Save the Wi-Fi profile</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</source>
+          <target>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Policies</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace.</source>
+          <target>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Policies</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Step 6: Deploy the Wi-Fi profile</source>
+          <target>Step 6: Deploy the Wi-Fi profile</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>Deploy the Wi-Fi profile to one or more groups of users or devices in your organization.</source>
+          <target>Deploy the Wi-Fi profile to one or more groups of users or devices in your organization.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to deploy policies, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</source>
+          <target>For more information about how to deploy policies, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>A status summary and alerts in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> workspace identify issues with the policy that require your attention.</source>
+          <target>A status summary and alerts in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc> workspace identify issues with the policy that require your attention.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Additionally, a status summary appears in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace.</source>
+          <target>Additionally, a status summary appears in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Dashboard</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>After successful deployment, users devices can automatically connect to the corporate wireless network you configured.</source>
+          <target>After successful deployment, users devices can automatically connect to the corporate wireless network you configured.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Import"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Import a Wi-Fi configuration profile (Windows 8.1 and later only)</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Import a Wi-Fi configuration profile (Windows 8.1 and later only)</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Wi-Fi Import Policy</pc> to import a set of Wi-Fi settings that you can then deploy to the required user or device groups.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Wi-Fi Import Policy</pc> to import a set of Wi-Fi settings that you can then deploy to the required user or device groups.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>In Windows, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">netsh wlan</pc> utility to export an existing Wi-Fi profile to an XML file readable by <ph dataRef="id3" id="ph1" />.</source>
+          <target>In Windows, you can use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">netsh wlan</pc> utility to export an existing Wi-Fi profile to an XML file readable by <ph dataRef="id3" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, to export a Wi-Fi connection named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyConnection</pc> to an XML file, type the following from a Windows command prompt:</source>
+          <target>For example, to export a Wi-Fi connection named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">MyConnection</pc> to an XML file, type the following from a Windows command prompt:</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>netsh wlan export profile MyConnection</source>
+          <target>netsh wlan export profile MyConnection</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configure a policy of the type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows Wi-Fi Import Policy</pc>.</source>
+          <target>Configure a policy of the type <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows Wi-Fi Import Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>You can only create and deploy a custom Windows Wi-Fi import policy.</source>
+          <target>You can only create and deploy a custom Windows Wi-Fi import policy.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Recommended settings are not available.</source>
+          <target>Recommended settings are not available.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to create and deploy policies, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc> topic.</source>
+          <target>For more information about how to create and deploy policies, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc> topic.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>Specify the following general values for the Windows Wi-Fi Import Policy:</source>
+          <target>Specify the following general values for the Windows Wi-Fi Import Policy:</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Name</source>
+          <target>Name</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter a unique name for the Wi-Fi profile to identify it in the <ph dataRef="id1" id="ph1" /> console.</source>
+          <target>Enter a unique name for the Wi-Fi profile to identify it in the <ph dataRef="id1" id="ph1" /> console.</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>Provide a description w of the Wi-Fi profile and other relevant information that helps you to locate it.</source>
+          <target>Provide a description w of the Wi-Fi profile and other relevant information that helps you to locate it.</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify the following values under the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Custom Wi-Fi Profile</pc> heading:</source>
+          <target>Specify the following values under the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Custom Wi-Fi Profile</pc> heading:</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>Setting name</source>
+          <target>Setting name</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>Configuration profile file</source>
+          <target>Configuration profile file</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import</pc> to select the XML file containing the Wi-Fi profile settings that you want to import into <ph dataRef="id3" id="ph1" />.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Import</pc> to select the XML file containing the Wi-Fi profile settings that you want to import into <ph dataRef="id3" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>Custom configuration profile name (displayed to users)</source>
+          <target>Custom configuration profile name (displayed to users)</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>Displays the name of the Wi-Fi configuration profile as it will be shown to users on their device.</source>
+          <target>Displays the name of the Wi-Fi configuration profile as it will be shown to users on their device.</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>Configuration profile details</source>
+          <target>Configuration profile details</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>Displays the XML code for the configuration profile you selected.</source>
+          <target>Displays the XML code for the configuration profile you selected.</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</source>
+          <target>When you are finished, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Policies</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace.</source>
+          <target>The new policy displays in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configuration Policies</pc> node of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can now use the information in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Step 6</pc> above to help you deploy the custom Wi-Fi profile.</source>
+          <target>You can now use the information in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Step 6</pc> above to help you deploy the custom Wi-Fi profile.</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>Enable access to company resources with Microsoft Intune - deleted</source>
+          <target>Enable access to company resources with Microsoft Intune - deleted</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

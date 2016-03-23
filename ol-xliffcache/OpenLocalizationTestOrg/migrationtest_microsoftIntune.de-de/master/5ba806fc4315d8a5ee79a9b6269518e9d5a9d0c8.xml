@@ -1,0 +1,659 @@
+{
+  "nodes": [
+    {
+      "content": "Set your MDM Management Authority",
+      "pos": [
+        11,
+        44
+      ]
+    },
+    {
+      "content": "Set your MDM Management Authority",
+      "pos": [
+        196,
+        229
+      ]
+    },
+    {
+      "content": "Before you can enroll mobile devices, you must declare <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> or <ph id=\"ph2\">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</ph> as your <bpt id=\"p1\">*</bpt>mobile device management authority<ept id=\"p1\">*</ept>.",
+      "pos": [
+        230,
+        429
+      ]
+    },
+    {
+      "content": "A  <bpt id=\"p1\">*</bpt>mobile device management authority<ept id=\"p1\">*</ept> defines the single management service with permission to manage a set of devices.",
+      "pos": [
+        430,
+        551
+      ]
+    },
+    {
+      "content": "Solutions for the mobile device management authority include <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, Configuration Manager with <ph id=\"ph2\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, or Office 365 MDM solutions.",
+      "pos": [
+        553,
+        775
+      ]
+    },
+    {
+      "pos": [
+        779,
+        1180
+      ],
+      "content": "[!IMPORTANT]\nConsider carefully whether you want to manage mobile devices using Intune only, System Center Configuration Manager with Intune integration, or using Office 365. After you set the mobile device management authority to either of these options, it cannot be changed again. If you're unsure of your options, see [Ways to do enterprise mobility](../Topic/Ways-to-do-enterprise-mobility.md).",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "Consider carefully whether you want to manage mobile devices using Intune only, System Center Configuration Manager with Intune integration, or using Office 365. After you set the mobile device management authority to either of these options, it cannot be changed again. If you're unsure of your options, see [Ways to do enterprise mobility](../Topic/Ways-to-do-enterprise-mobility.md).",
+          "pos": [
+            13,
+            399
+          ],
+          "nodes": [
+            {
+              "content": "Consider carefully whether you want to manage mobile devices using Intune only, System Center Configuration Manager with Intune integration, or using Office 365.",
+              "pos": [
+                0,
+                161
+              ]
+            },
+            {
+              "content": "After you set the mobile device management authority to either of these options, it cannot be changed again.",
+              "pos": [
+                162,
+                270
+              ]
+            },
+            {
+              "content": "If you're unsure of your options, see <bpt id=\"p1\">[</bpt>Ways to do enterprise mobility<ept id=\"p1\">](../Topic/Ways-to-do-enterprise-mobility.md)</ept>.",
+              "pos": [
+                271,
+                386
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Make Intune your MDM authority",
+      "pos": [
+        1185,
+        1215
+      ]
+    },
+    {
+      "content": "Set mobile device management authority",
+      "pos": [
+        1218,
+        1256
+      ]
+    },
+    {
+      "pos": [
+        1264,
+        1349
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_Set_MDM_Authority\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Set mobile device management authority as Intune"
+    },
+    {
+      "pos": [
+        1355,
+        1483
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept> click <bpt id=\"p2\">**</bpt>Admin<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Mobile Device Management<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "In the <bpt id=\"p1\">**</bpt>Tasks<ept id=\"p1\">**</ept> list, click <bpt id=\"p2\">**</bpt>Set Mobile Device Management Authority<ept id=\"p2\">**</ept>.",
+      "pos": [
+        1489,
+        1561
+      ]
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt>Set MDM Authority<ept id=\"p1\">**</ept> dialog box opens.",
+      "pos": [
+        1562,
+        1605
+      ]
+    },
+    {
+      "content": "Intune requests confirmation that you want Intune as your MDM authority.",
+      "pos": [
+        1655,
+        1727
+      ]
+    },
+    {
+      "content": "Check the box and then click <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to use Microsoft Intune to manage mobile devices.",
+      "pos": [
+        1728,
+        1814
+      ]
+    },
+    {
+      "content": "Make Configuration Manager your MDM authority",
+      "pos": [
+        1819,
+        1864
+      ]
+    },
+    {
+      "pos": [
+        1865,
+        2074
+      ],
+      "content": "To set <ph id=\"ph1\">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</ph> as your mobile device management authority and begin managing devices with <ph id=\"ph2\">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</ph>, you must complete the following steps:"
+    },
+    {
+      "pos": [
+        2080,
+        2144
+      ],
+      "content": "Subscribe to <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>"
+    },
+    {
+      "pos": [
+        2150,
+        2219
+      ],
+      "content": "Set <ph id=\"ph1\">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</ph> as your MDM authority"
+    },
+    {
+      "content": "Configure the Microsoft Intune Connector role",
+      "pos": [
+        2225,
+        2270
+      ]
+    },
+    {
+      "pos": [
+        2276,
+        2347
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"bkmk_witsub\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Configuring the Microsoft Intune Subscription"
+    },
+    {
+      "content": "The <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> subscription lets you specify your configuration settings for the <ph id=\"ph2\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> service.",
+      "pos": [
+        2348,
+        2532
+      ]
+    },
+    {
+      "content": "This includes specifying which users can enroll their devices and defining which mobile device platforms to manage.",
+      "pos": [
+        2533,
+        2648
+      ]
+    },
+    {
+      "content": "When you have created your subscription, you can then install the Microsoft Intune connector site system role that lets you connect to the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> service.",
+      "pos": [
+        2649,
+        2848
+      ]
+    },
+    {
+      "content": "This connector site system role will push settings and applications to the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> service.",
+      "pos": [
+        2849,
+        2984
+      ]
+    },
+    {
+      "content": "The <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> subscription performs the following:",
+      "pos": [
+        2985,
+        3077
+      ]
+    },
+    {
+      "pos": [
+        3083,
+        3232
+      ],
+      "content": "Retrieves the certificate that the Microsoft Intune connector requires to connect to the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> service."
+    },
+    {
+      "content": "Defines the user collection that enables users to enroll mobile devices.",
+      "pos": [
+        3238,
+        3310
+      ]
+    },
+    {
+      "content": "Defines and configures the mobile platforms that you want to support.",
+      "pos": [
+        3316,
+        3385
+      ]
+    },
+    {
+      "pos": [
+        3392,
+        3467
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"bkmk_subscription\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>To create the Microsoft Intune subscription"
+    },
+    {
+      "pos": [
+        3473,
+        3558
+      ],
+      "content": "In the <ph id=\"ph1\">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</ph> console, click <bpt id=\"p1\">**</bpt>Administration<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        3564,
+        3666
+      ],
+      "content": "Choose the steps that are appropriate for your version of <ph id=\"ph1\">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</ph>:"
+    },
+    {
+      "pos": [
+        3674,
+        3728
+      ],
+      "content": "For <ph id=\"ph1\">[!INCLUDE[cm5short](../Token/cm5short_md.md)]</ph> SP1:"
+    },
+    {
+      "pos": [
+        3740,
+        3858
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Administration<ept id=\"p1\">**</ept> workspace, expand <bpt id=\"p2\">**</bpt>Hierarchy Configuration<ept id=\"p2\">**</ept>, and click <bpt id=\"p3\">**</bpt>Microsoft Intune Subscriptions<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        3868,
+        3936
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Home<ept id=\"p1\">**</ept> tab, click <bpt id=\"p2\">**</bpt>Create Microsoft Intune Subscription<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        3942,
+        4058
+      ],
+      "content": "**For [!INCLUDE[cm5long](../Token/cm5long_md.md)] SP2 and**\n**System Center R2 Configuration Manager 2012 SP1:**",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "For <ph id=\"ph1\">[!INCLUDE[cm5long](../Token/cm5long_md.md)]</ph> SP2 and",
+          "pos": [
+            2,
+            57
+          ]
+        },
+        {
+          "content": "System Center R2 Configuration Manager 2012 SP1:",
+          "pos": [
+            62,
+            110
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        4068,
+        4177
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Administration<ept id=\"p1\">**</ept> workspace, expand <bpt id=\"p2\">**</bpt>Cloud Services<ept id=\"p2\">**</ept>, and click <bpt id=\"p3\">**</bpt>Microsoft Intune Subscriptions<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        4187,
+        4252
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Home<ept id=\"p1\">**</ept> tab, click <bpt id=\"p2\">**</bpt>Add Microsoft Intune Subscription<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        4258,
+        4374
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Introduction<ept id=\"p1\">**</ept> page of the Create Microsoft Intune Subscription Wizard, review the text and click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Subscription<ept id=\"p1\">**</ept> page, click <bpt id=\"p2\">**</bpt>Sign in<ept id=\"p2\">**</ept> and sign in by using your work or school account.",
+      "pos": [
+        4380,
+        4477
+      ]
+    },
+    {
+      "content": "In the <bpt id=\"p1\">**</bpt>Set the Mobile Device Management Authority<ept id=\"p1\">**</ept> dialog, select the check box to only manage mobile devices by using <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> through the <ph id=\"ph2\">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</ph> console.",
+      "pos": [
+        4478,
+        4716
+      ]
+    },
+    {
+      "content": "To continue with your subscription, you must select this option.",
+      "pos": [
+        4717,
+        4781
+      ]
+    },
+    {
+      "pos": [
+        4789,
+        5012
+      ],
+      "content": "[!IMPORTANT]\nOnce you select [!INCLUDE[cmshort](../Token/cmshort_md.md)] as your management authority, you cannot change the management authority to [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] in the future.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "Once you select <ph id=\"ph1\">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</ph> as your management authority, you cannot change the management authority to <ph id=\"ph2\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> in the future.",
+          "pos": [
+            13,
+            217
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        5018,
+        5082
+      ],
+      "content": "Click the privacy links to review them, and then click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        5088,
+        5168
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>General<ept id=\"p1\">**</ept> page, specify the following options, and then click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        5178,
+        5277
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Collection<ept id=\"p1\">**</ept>: Specify a user collection that contains users who will enroll their mobile devices."
+    },
+    {
+      "pos": [
+        5289,
+        5469
+      ],
+      "content": "[!NOTE]\nIf a user is removed from the collection, the user’s device will continue to be managed for up to 24 hours when the user record is removed from the user database.",
+      "leadings": [
+        "",
+        "        > "
+      ],
+      "nodes": [
+        {
+          "content": "If a user is removed from the collection, the user’s device will continue to be managed for up to 24 hours when the user record is removed from the user database.",
+          "pos": [
+            8,
+            170
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        5479,
+        5523
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Company name<ept id=\"p1\">**</ept>: Specify your company name."
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>URL to company privacy documentation<ept id=\"p1\">**</ept>: If you publish your company privacy information to a link that is accessible from the Internet, provide a link that users can access from the company portal, for example http://www.contoso.com/CP_privacy.html.",
+      "pos": [
+        5533,
+        5784
+      ]
+    },
+    {
+      "content": "Privacy information can clarify what information users are sharing with your company.",
+      "pos": [
+        5785,
+        5870
+      ]
+    },
+    {
+      "pos": [
+        5880,
+        5986
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Color scheme for company portal<ept id=\"p1\">**</ept>: Optionally, change the default color of blue for the company portals."
+    },
+    {
+      "pos": [
+        5996,
+        6101
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Configuration Manager site code<ept id=\"p1\">**</ept>: Specify a site code for a primary site to manage the mobile devices."
+    },
+    {
+      "pos": [
+        6113,
+        6229
+      ],
+      "content": "[!NOTE]\nChanging the site code affects only new enrollments and does not affect existing enrolled devices.",
+      "leadings": [
+        "",
+        "        > "
+      ],
+      "nodes": [
+        {
+          "content": "Changing the site code affects only new enrollments and does not affect existing enrolled devices.",
+          "pos": [
+            8,
+            106
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        6235,
+        6385
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Company Contact Information<ept id=\"p1\">**</ept> page, specify the company contact information that is displayed in the company portal, and then click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        6391,
+        6501
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Company Logo<ept id=\"p1\">**</ept> page, choose whether to display a logo in the company portal, and then click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "Prior to <ph id=\"ph1\">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</ph> SP2, on the <bpt id=\"p1\">**</bpt>Platforms<ept id=\"p1\">**</ept> page, select the device types that you want to manage and review the platform requirements, and then click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>.",
+      "pos": [
+        6506,
+        6701
+      ]
+    },
+    {
+      "content": "For each device type that you select, you must configure additional options.",
+      "pos": [
+        6702,
+        6778
+      ]
+    },
+    {
+      "content": "Use the procedures that follow for more information about those options.",
+      "pos": [
+        6779,
+        6851
+      ]
+    },
+    {
+      "content": "After you have configured these additional options, click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept>.",
+      "pos": [
+        6852,
+        6919
+      ]
+    },
+    {
+      "content": "Complete the wizard.",
+      "pos": [
+        6925,
+        6945
+      ]
+    },
+    {
+      "pos": [
+        6951,
+        7025
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"bkmk_WITconn\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>The Microsoft Intune Connector Site System Role"
+    },
+    {
+      "content": "The Microsoft Intune connector sends settings and software deployment information to <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> and retrieves status and inventory messages from mobile devices.",
+      "pos": [
+        7026,
+        7229
+      ]
+    },
+    {
+      "content": "The <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> service acts as a gateway that communicates with mobile devices and stores settings.",
+      "pos": [
+        7230,
+        7370
+      ]
+    },
+    {
+      "pos": [
+        7374,
+        7515
+      ],
+      "content": "[!NOTE]\nThe Microsoft Intune connector site system role may only be installed on a central administration site or stand-alone primary site.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "The Microsoft Intune connector site system role may only be installed on a central administration site or stand-alone primary site.",
+          "pos": [
+            8,
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        7522,
+        7598
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"bkm_connector\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>To configure the Microsoft Intune Connector role"
+    },
+    {
+      "pos": [
+        7604,
+        7689
+      ],
+      "content": "In the <ph id=\"ph1\">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</ph> console, click <bpt id=\"p1\">**</bpt>Administration<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        7695,
+        7812
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Administration<ept id=\"p1\">**</ept> workspace, expand <bpt id=\"p2\">**</bpt>Site Configuration<ept id=\"p2\">**</ept>, and then click <bpt id=\"p3\">**</bpt>Servers and Site System Roles<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        7818,
+        7964
+      ],
+      "content": "Add the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> connector role to a new or existing site system server by using the associated step:"
+    },
+    {
+      "pos": [
+        7974,
+        8126
+      ],
+      "content": "New site system server: On the <bpt id=\"p1\">**</bpt>Home<ept id=\"p1\">**</ept> tab, in the <bpt id=\"p2\">**</bpt>Create<ept id=\"p2\">**</ept> group, click <bpt id=\"p3\">**</bpt>Create Site System Server<ept id=\"p3\">**</ept> to start the Create Site System Server Wizard."
+    },
+    {
+      "content": "Existing site system server: Click the server on which you want to install the Microsoft Intune connector role.",
+      "pos": [
+        8136,
+        8247
+      ]
+    },
+    {
+      "content": "Then, on the <bpt id=\"p1\">**</bpt>Home<ept id=\"p1\">**</ept> tab, in the <bpt id=\"p2\">**</bpt>Server<ept id=\"p2\">**</ept> group, click <bpt id=\"p3\">**</bpt>Add Site System Roles<ept id=\"p3\">**</ept> to start the Add Site system Roles Wizard.",
+      "pos": [
+        8248,
+        8374
+      ]
+    },
+    {
+      "pos": [
+        8380,
+        8477
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>System Role Selection<ept id=\"p1\">**</ept> page, select <bpt id=\"p2\">**</bpt>Microsoft Intune Connector<ept id=\"p2\">**</ept>, and click <bpt id=\"p3\">**</bpt>Next<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "Complete the wizard.",
+      "pos": [
+        8483,
+        8503
+      ]
+    },
+    {
+      "content": "How does the Microsoft Intune Connector Authenticate with the Microsoft Intune Service?",
+      "pos": [
+        8510,
+        8597
+      ]
+    },
+    {
+      "content": "The Microsoft Intune Connector extends <ph id=\"ph1\">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</ph> by establishing a connection to the cloud-based <ph id=\"ph2\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> service that manages mobile devices over the Internet.",
+      "pos": [
+        8598,
+        8837
+      ]
+    },
+    {
+      "content": "The Microsoft Intune Connection authenticates with the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> service as follows:",
+      "pos": [
+        8838,
+        8966
+      ]
+    },
+    {
+      "content": "When you create a <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> subscription in the <ph id=\"ph2\">[!INCLUDE[cmshort](../Token/cmshort_md.md)]</ph> console, the <ph id=\"ph3\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> admin is authenticated by connecting to Azure Active Directory, which redirects to the respective ADFS server to prompt for user name and password.",
+      "pos": [
+        8972,
+        9320
+      ]
+    },
+    {
+      "content": "Then, <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> issues a certificate to the tenant.",
+      "pos": [
+        9321,
+        9416
+      ]
+    },
+    {
+      "content": "The certificate from step 1 is installed on the Microsoft Intune Connector site role and is used to authenticate and authorize all further communication with the Microsoft Intune service.",
+      "pos": [
+        9422,
+        9609
+      ]
+    }
+  ],
+  "content": "---\ntitle: Set your MDM Management Authority\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 1bc5a59e-8402-4e46-a5f6-95af6147118b\nauthor: NathBarn\n---\n# Set your MDM Management Authority\nBefore you can enroll mobile devices, you must declare [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] or [!INCLUDE[cmshort](../Token/cmshort_md.md)] as your *mobile device management authority*. A  *mobile device management authority* defines the single management service with permission to manage a set of devices.  Solutions for the mobile device management authority include [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], Configuration Manager with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], or Office 365 MDM solutions.\n\n> [!IMPORTANT]\n> Consider carefully whether you want to manage mobile devices using Intune only, System Center Configuration Manager with Intune integration, or using Office 365. After you set the mobile device management authority to either of these options, it cannot be changed again. If you're unsure of your options, see [Ways to do enterprise mobility](../Topic/Ways-to-do-enterprise-mobility.md).\n\n## Make Intune your MDM authority\n**Set mobile device management authority**\n\n### <a name=\"BKMK_Set_MDM_Authority\"></a>Set mobile device management authority as Intune\n\n1.  In the [Microsoft Intune administration console](http://manage.microsoft.com) click **Admin** &gt; **Mobile Device Management**.\n\n2.  In the **Tasks** list, click **Set Mobile Device Management Authority**. The **Set MDM Authority** dialog box opens.\n\n    ![](../Image/Intune-MDM-Authority.bmp)\n\n3.  Intune requests confirmation that you want Intune as your MDM authority. Check the box and then click **Yes** to use Microsoft Intune to manage mobile devices.\n\n## Make Configuration Manager your MDM authority\nTo set [!INCLUDE[cmshort](../Token/cmshort_md.md)] as your mobile device management authority and begin managing devices with [!INCLUDE[cmshort](../Token/cmshort_md.md)], you must complete the following steps:\n\n1.  Subscribe to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]\n\n2.  Set [!INCLUDE[cmshort](../Token/cmshort_md.md)] as your MDM authority\n\n3.  Configure the Microsoft Intune Connector role\n\n### <a name=\"bkmk_witsub\"></a>Configuring the Microsoft Intune Subscription\nThe [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] subscription lets you specify your configuration settings for the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] service. This includes specifying which users can enroll their devices and defining which mobile device platforms to manage. When you have created your subscription, you can then install the Microsoft Intune connector site system role that lets you connect to the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] service. This connector site system role will push settings and applications to the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] service. The [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] subscription performs the following:\n\n-   Retrieves the certificate that the Microsoft Intune connector requires to connect to the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] service.\n\n-   Defines the user collection that enables users to enroll mobile devices.\n\n-   Defines and configures the mobile platforms that you want to support.\n\n#### <a name=\"bkmk_subscription\"></a>To create the Microsoft Intune subscription\n\n1.  In the [!INCLUDE[cmshort](../Token/cmshort_md.md)] console, click **Administration**.\n\n2.  Choose the steps that are appropriate for your version of [!INCLUDE[cmshort](../Token/cmshort_md.md)]:\n\n    **For [!INCLUDE[cm5short](../Token/cm5short_md.md)] SP1:**\n\n    -   In the **Administration** workspace, expand **Hierarchy Configuration**, and click **Microsoft Intune Subscriptions**.\n\n    -   On the **Home** tab, click **Create Microsoft Intune Subscription**.\n\n    **For [!INCLUDE[cm5long](../Token/cm5long_md.md)] SP2 and**\n    **System Center R2 Configuration Manager 2012 SP1:**\n\n    1.  In the **Administration** workspace, expand **Cloud Services**, and click **Microsoft Intune Subscriptions**.\n\n    2.  On the **Home** tab, click **Add Microsoft Intune Subscription**.\n\n3.  On the **Introduction** page of the Create Microsoft Intune Subscription Wizard, review the text and click **Next**.\n\n4.  On the **Subscription** page, click **Sign in** and sign in by using your work or school account. In the **Set the Mobile Device Management Authority** dialog, select the check box to only manage mobile devices by using [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] through the [!INCLUDE[cmshort](../Token/cmshort_md.md)] console. To continue with your subscription, you must select this option.\n\n    > [!IMPORTANT]\n    > Once you select [!INCLUDE[cmshort](../Token/cmshort_md.md)] as your management authority, you cannot change the management authority to [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] in the future.\n\n5.  Click the privacy links to review them, and then click **Next**.\n\n6.  On the **General** page, specify the following options, and then click **Next**.\n\n    -   **Collection**: Specify a user collection that contains users who will enroll their mobile devices.\n\n        > [!NOTE]\n        > If a user is removed from the collection, the user’s device will continue to be managed for up to 24 hours when the user record is removed from the user database.\n\n    -   **Company name**: Specify your company name.\n\n    -   **URL to company privacy documentation**: If you publish your company privacy information to a link that is accessible from the Internet, provide a link that users can access from the company portal, for example http://www.contoso.com/CP_privacy.html. Privacy information can clarify what information users are sharing with your company.\n\n    -   **Color scheme for company portal**: Optionally, change the default color of blue for the company portals.\n\n    -   **Configuration Manager site code**: Specify a site code for a primary site to manage the mobile devices.\n\n        > [!NOTE]\n        > Changing the site code affects only new enrollments and does not affect existing enrolled devices.\n\n7.  On the **Company Contact Information** page, specify the company contact information that is displayed in the company portal, and then click **Next**.\n\n8.  On the **Company Logo** page, choose whether to display a logo in the company portal, and then click **Next**.\n\n9. Prior to [!INCLUDE[cmshort](../Token/cmshort_md.md)] SP2, on the **Platforms** page, select the device types that you want to manage and review the platform requirements, and then click **Next**. For each device type that you select, you must configure additional options. Use the procedures that follow for more information about those options. After you have configured these additional options, click **Next**.\n\n10. Complete the wizard.\n\n### <a name=\"bkmk_WITconn\"></a>The Microsoft Intune Connector Site System Role\nThe Microsoft Intune connector sends settings and software deployment information to [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] and retrieves status and inventory messages from mobile devices. The [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] service acts as a gateway that communicates with mobile devices and stores settings.\n\n> [!NOTE]\n> The Microsoft Intune connector site system role may only be installed on a central administration site or stand-alone primary site.\n\n#### <a name=\"bkm_connector\"></a>To configure the Microsoft Intune Connector role\n\n1.  In the [!INCLUDE[cmshort](../Token/cmshort_md.md)] console, click **Administration**.\n\n2.  In the **Administration** workspace, expand **Site Configuration**, and then click **Servers and Site System Roles**.\n\n3.  Add the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] connector role to a new or existing site system server by using the associated step:\n\n    -   New site system server: On the **Home** tab, in the **Create** group, click **Create Site System Server** to start the Create Site System Server Wizard.\n\n    -   Existing site system server: Click the server on which you want to install the Microsoft Intune connector role. Then, on the **Home** tab, in the **Server** group, click **Add Site System Roles** to start the Add Site system Roles Wizard.\n\n4.  On the **System Role Selection** page, select **Microsoft Intune Connector**, and click **Next**.\n\n5.  Complete the wizard.\n\n#### How does the Microsoft Intune Connector Authenticate with the Microsoft Intune Service?\nThe Microsoft Intune Connector extends [!INCLUDE[cmshort](../Token/cmshort_md.md)] by establishing a connection to the cloud-based [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] service that manages mobile devices over the Internet. The Microsoft Intune Connection authenticates with the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] service as follows:\n\n1.  When you create a [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] subscription in the [!INCLUDE[cmshort](../Token/cmshort_md.md)] console, the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] admin is authenticated by connecting to Azure Active Directory, which redirects to the respective ADFS server to prompt for user name and password. Then, [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] issues a certificate to the tenant.\n\n2.  The certificate from step 1 is installed on the Microsoft Intune Connector site role and is used to authenticate and authorize all further communication with the Microsoft Intune service.\n\n"
+}

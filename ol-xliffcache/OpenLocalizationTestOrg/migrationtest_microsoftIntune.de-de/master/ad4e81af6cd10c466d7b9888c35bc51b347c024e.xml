@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "content": "Retire company-owned PCs and mobile devices",
+      "pos": [
+        11,
+        54
+      ]
+    },
+    {
+      "content": "Retire company-owned PCs and mobile devices",
+      "pos": [
+        259,
+        302
+      ]
+    },
+    {
+      "content": "Insert introduction here.",
+      "pos": [
+        303,
+        328
+      ]
+    },
+    {
+      "content": "Section Heading",
+      "pos": [
+        333,
+        348
+      ]
+    },
+    {
+      "content": "Insert section body here.",
+      "pos": [
+        349,
+        374
+      ]
+    },
+    {
+      "content": "Subsection Heading",
+      "pos": [
+        380,
+        398
+      ]
+    },
+    {
+      "content": "Insert subsection body here.",
+      "pos": [
+        399,
+        427
+      ]
+    }
+  ],
+  "content": "---\ntitle: Retire company-owned PCs and mobile devices\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 0348ddd4-4401-4a3b-9849-839296567d72\nauthor: Lindavr\nrobots: noindex,nofollow\n---\n# Retire company-owned PCs and mobile devices\nInsert introduction here.\n\n## Section Heading\nInsert section body here.\n\n### Subsection Heading\nInsert subsection body here.\n\n"
+}

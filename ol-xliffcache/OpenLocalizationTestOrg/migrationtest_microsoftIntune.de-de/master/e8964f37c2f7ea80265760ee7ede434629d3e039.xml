@@ -1,0 +1,327 @@
+{
+  "nodes": [
+    {
+      "content": "Rolling out apps with Microsoft Intune",
+      "pos": [
+        11,
+        49
+      ]
+    },
+    {
+      "content": "Rolling out apps with Microsoft Intune",
+      "pos": [
+        200,
+        238
+      ]
+    },
+    {
+      "content": "This topic provide specific recommendations for a phased rollout of apps in <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph>.",
+      "pos": [
+        239,
+        369
+      ]
+    },
+    {
+      "content": "For general information about rollout phases, see <bpt id=\"p1\">[</bpt>Rollout phases for Microsoft Intune deployment<ept id=\"p1\">](../Topic/Rollout-phases-for-Microsoft-Intune-deployment.md)</ept>.",
+      "pos": [
+        370,
+        529
+      ]
+    },
+    {
+      "content": "Phases of app rollout",
+      "pos": [
+        534,
+        555
+      ]
+    },
+    {
+      "content": "The phases of app rollout are:",
+      "pos": [
+        556,
+        586
+      ]
+    },
+    {
+      "content": "Project scope",
+      "pos": [
+        592,
+        605
+      ]
+    },
+    {
+      "content": "Proof of concept",
+      "pos": [
+        611,
+        627
+      ]
+    },
+    {
+      "content": "Pilot",
+      "pos": [
+        633,
+        638
+      ]
+    },
+    {
+      "content": "Enterprise rollout",
+      "pos": [
+        644,
+        662
+      ]
+    },
+    {
+      "content": "Operations and maintenance",
+      "pos": [
+        668,
+        694
+      ]
+    },
+    {
+      "content": "Project scope",
+      "pos": [
+        700,
+        713
+      ]
+    },
+    {
+      "content": "Consider the following:",
+      "pos": [
+        714,
+        737
+      ]
+    },
+    {
+      "content": "The user task the app meant to enable.",
+      "pos": [
+        743,
+        781
+      ]
+    },
+    {
+      "content": "The suitability of  the app for your users and their devices (all operating systems that are likely to be used).",
+      "pos": [
+        787,
+        899
+      ]
+    },
+    {
+      "pos": [
+        905,
+        1158
+      ],
+      "content": "Check that the installer for the app you chose is supported by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> app distribution, as described in  <bpt id=\"p1\">[</bpt>Plan for app deployment in Microsoft Intune<ept id=\"p1\">](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        1164,
+        1341
+      ],
+      "content": "Ensure that app distribution prerequisites are installed, as described in <bpt id=\"p1\">[</bpt>Plan for app deployment in Microsoft Intune<ept id=\"p1\">](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        1347,
+        1443
+      ],
+      "content": "Determine that the app type is supported by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>."
+    },
+    {
+      "content": "Check that  you have sufficient  cloud storage space available to upload the app.",
+      "pos": [
+        1449,
+        1530
+      ]
+    },
+    {
+      "content": "Instructions for purchasing additional storage are provided in <bpt id=\"p1\">[</bpt>Plan for app deployment in Microsoft Intune<ept id=\"p1\">](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        1531,
+        1697
+      ]
+    },
+    {
+      "content": "Proof of concept",
+      "pos": [
+        1703,
+        1719
+      ]
+    },
+    {
+      "content": "In the Proof of concept phase, test your app deployment in a laboratory environment on devices and users that you've configured strictly for testing purposes.",
+      "pos": [
+        1720,
+        1878
+      ]
+    },
+    {
+      "content": "Have your help desk participate in this phase to learn what issues can arise during pilot and production deployment.",
+      "pos": [
+        1884,
+        2000
+      ]
+    },
+    {
+      "content": "Troubleshooting information is available in <bpt id=\"p1\">[</bpt>Troubleshoot app deployment problems in Microsoft Intune<ept id=\"p1\">](../Topic/Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        2001,
+        2174
+      ]
+    },
+    {
+      "content": "At this point in the process you should develop communication plans for pilot and production users.",
+      "pos": [
+        2180,
+        2279
+      ]
+    },
+    {
+      "content": "At a minimum the plan should include what app is being deployed, how and when they will obtain it,  the business purpose of the deployment, and what to do if they encounter issues, both self-help information and how to contact the help desk.",
+      "pos": [
+        2280,
+        2521
+      ]
+    },
+    {
+      "content": "Pilot",
+      "pos": [
+        2527,
+        2532
+      ]
+    },
+    {
+      "content": "During the pilot you will deploy the app to a small group of test users and devices.",
+      "pos": [
+        2533,
+        2617
+      ]
+    },
+    {
+      "content": "Consider the following:",
+      "pos": [
+        2618,
+        2641
+      ]
+    },
+    {
+      "content": "Ensure that the test group is representative of the users and devices that will be using the app after production rollout.",
+      "pos": [
+        2647,
+        2769
+      ]
+    },
+    {
+      "content": "Educate the help desk  regarding the app deployment, and ensure they are prepared to help users in the test group.",
+      "pos": [
+        2775,
+        2889
+      ]
+    },
+    {
+      "content": "Choose test users who will subject the app to typical usage and will reliably report issues to the pilot administrators.",
+      "pos": [
+        2895,
+        3015
+      ]
+    },
+    {
+      "content": "Activate your pilot user communication plan.",
+      "pos": [
+        3021,
+        3065
+      ]
+    },
+    {
+      "content": "Enterprise rollout",
+      "pos": [
+        3071,
+        3089
+      ]
+    },
+    {
+      "content": "Use the pilot results to adjust your enterprise rollout.",
+      "pos": [
+        3095,
+        3151
+      ]
+    },
+    {
+      "content": "Notify your help desk of the app rollout schedule.",
+      "pos": [
+        3157,
+        3207
+      ]
+    },
+    {
+      "content": "Have mechanisms in place to respond to help requests, and to adjust the rollout as necessary.",
+      "pos": [
+        3208,
+        3301
+      ]
+    },
+    {
+      "content": "Be prepared to troubleshoot the deployment if issues arise.",
+      "pos": [
+        3307,
+        3366
+      ]
+    },
+    {
+      "content": "Activate your production user communication plan.",
+      "pos": [
+        3372,
+        3421
+      ]
+    },
+    {
+      "content": "Use a phased approach for deploying the app, adding groups incrementally to ensure that the rollout is proceeding smoothly.",
+      "pos": [
+        3427,
+        3550
+      ]
+    },
+    {
+      "content": "Operations and maintenance",
+      "pos": [
+        3556,
+        3582
+      ]
+    },
+    {
+      "pos": [
+        3583,
+        3807
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Operations:<ept id=\"p1\">**</ept> Monitor your <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> console for alerts and user or device issues, and to ensure that application distribution is functioning according to your organizational plan."
+    },
+    {
+      "pos": [
+        3809,
+        3931
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Help desk:<ept id=\"p1\">**</ept> Ensure that your help desk is aware of any changes to app availability that may result in support requests."
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        3936,
+        3944
+      ]
+    },
+    {
+      "content": "Troubleshoot app deployment problems in Microsoft Intune",
+      "pos": [
+        3946,
+        4002
+      ]
+    },
+    {
+      "content": "Plan for app deployment in Microsoft Intune",
+      "pos": [
+        4075,
+        4118
+      ]
+    }
+  ],
+  "content": "---\ntitle: Rolling out apps with Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 0521099d-1c23-47bf-b937-751baca78862\nauthor: Nbigman\n---\n# Rolling out apps with Microsoft Intune\nThis topic provide specific recommendations for a phased rollout of apps in [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]. For general information about rollout phases, see [Rollout phases for Microsoft Intune deployment](../Topic/Rollout-phases-for-Microsoft-Intune-deployment.md).\n\n## Phases of app rollout\nThe phases of app rollout are:\n\n-   Project scope\n\n-   Proof of concept\n\n-   Pilot\n\n-   Enterprise rollout\n\n-   Operations and maintenance\n\n### Project scope\nConsider the following:\n\n-   The user task the app meant to enable.\n\n-   The suitability of  the app for your users and their devices (all operating systems that are likely to be used).\n\n-   Check that the installer for the app you chose is supported by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] app distribution, as described in  [Plan for app deployment in Microsoft Intune](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md).\n\n-   Ensure that app distribution prerequisites are installed, as described in [Plan for app deployment in Microsoft Intune](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md).\n\n-   Determine that the app type is supported by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n-   Check that  you have sufficient  cloud storage space available to upload the app. Instructions for purchasing additional storage are provided in [Plan for app deployment in Microsoft Intune](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md).\n\n### Proof of concept\nIn the Proof of concept phase, test your app deployment in a laboratory environment on devices and users that you've configured strictly for testing purposes.\n\n-   Have your help desk participate in this phase to learn what issues can arise during pilot and production deployment. Troubleshooting information is available in [Troubleshoot app deployment problems in Microsoft Intune](../Topic/Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md).\n\n-   At this point in the process you should develop communication plans for pilot and production users. At a minimum the plan should include what app is being deployed, how and when they will obtain it,  the business purpose of the deployment, and what to do if they encounter issues, both self-help information and how to contact the help desk.\n\n### Pilot\nDuring the pilot you will deploy the app to a small group of test users and devices. Consider the following:\n\n-   Ensure that the test group is representative of the users and devices that will be using the app after production rollout.\n\n-   Educate the help desk  regarding the app deployment, and ensure they are prepared to help users in the test group.\n\n-   Choose test users who will subject the app to typical usage and will reliably report issues to the pilot administrators.\n\n-   Activate your pilot user communication plan.\n\n### Enterprise rollout\n\n-   Use the pilot results to adjust your enterprise rollout.\n\n-   Notify your help desk of the app rollout schedule. Have mechanisms in place to respond to help requests, and to adjust the rollout as necessary.\n\n-   Be prepared to troubleshoot the deployment if issues arise.\n\n-   Activate your production user communication plan.\n\n-   Use a phased approach for deploying the app, adding groups incrementally to ensure that the rollout is proceeding smoothly.\n\n### Operations and maintenance\n**Operations:** Monitor your [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] console for alerts and user or device issues, and to ensure that application distribution is functioning according to your organizational plan.\n\n**Help desk:** Ensure that your help desk is aware of any changes to app availability that may result in support requests.\n\n## See Also\n[Troubleshoot app deployment problems in Microsoft Intune](../Topic/Troubleshoot-app-deployment-problems-in-Microsoft-Intune.md)\n[Plan for app deployment in Microsoft Intune](../Topic/Plan-for-app-deployment-in-Microsoft-Intune.md)\n\n"
+}

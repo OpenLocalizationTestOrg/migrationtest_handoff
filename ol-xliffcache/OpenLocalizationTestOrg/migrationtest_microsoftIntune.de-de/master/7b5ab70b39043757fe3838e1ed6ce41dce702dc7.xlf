@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">ht</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">7b5ab70b39043757fe3838e1ed6ce41dce702dc7</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Categorize devices with device group mapping in Microsoft Intune</source>
+          <target>Categorize devices with device group mapping in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Categorize devices with device group mapping in Microsoft Intune</source>
+          <target>Categorize devices with device group mapping in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](/Token/wit_firstref.xml)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use <ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">device group mapping</pc> to group devices into categories that you define, in order to make it easier for you to manage those devices.</source>
+          <target>Use <ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">device group mapping</pc> to group devices into categories that you define, in order to make it easier for you to manage those devices.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Device group mapping uses the following workflow:</source>
+          <target>Device group mapping uses the following workflow:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](/Token/wit_nextref.xml)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You create (or use existing) <ph dataRef="id1" id="ph1" /> device groups for each category you want to use.</source>
+          <target>You create (or use existing) <ph dataRef="id1" id="ph1" /> device groups for each category you want to use.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>You configure device group mapping rules that map the category you choose to the device group you created.</source>
+          <target>You configure device group mapping rules that map the category you choose to the device group you created.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>When end users enroll their device, they must choose a category from the categories you configured.</source>
+          <target>When end users enroll their device, they must choose a category from the categories you configured.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>After they choose, their device will be automatically added to the corresponding device group you created.</source>
+          <target>After they choose, their device will be automatically added to the corresponding device group you created.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>You can then use these device groups when you deploy policies and apps.</source>
+          <target>You can then use these device groups when you deploy policies and apps.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Examples of categories might be:</source>
+          <target>Examples of categories might be:</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Personal</source>
+          <target>Personal</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Point of sale device</source>
+          <target>Point of sale device</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Demonstration device</source>
+          <target>Demonstration device</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Sales</source>
+          <target>Sales</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Accounting</source>
+          <target>Accounting</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Manager</source>
+          <target>Manager</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>However, you can configure any categories you want.</source>
+          <target>However, you can configure any categories you want.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>How to configure device group mapping</source>
+          <target>How to configure device group mapping</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](/Token/wit_nextref.xml)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>For each device category you want to use, create an <ph dataRef="id1" id="ph1" /> device group.</source>
+          <target>For each device category you want to use, create an <ph dataRef="id1" id="ph1" /> device group.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about how to create groups, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use groups to manage users and devices with Microsoft Intune</pc>.</source>
+          <target>For information about how to create groups, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use groups to manage users and devices with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Admin</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administration</pc> workspace, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Mobile Device Management</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Device Group Mapping</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Administration</pc> workspace, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Mobile Device Management</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Device Group Mapping</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device Group Mapping</pc> page, enable device group mapping.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device Group Mapping</pc> page, enable device group mapping.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc> to create a new mapping rule.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc> to create a new mapping rule.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add device group mapping rule</pc> dialog box, enter the name of the category you want to create and then, from the drop-down list, choose the device collection you want to map this category to.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add device group mapping rule</pc> dialog box, enter the name of the category you want to create and then, from the drop-down list, choose the device collection you want to map this category to.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc> when you are done.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc> when you are done.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you have finished adding categories and groups, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</source>
+          <target>When you have finished adding categories and groups, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Now, when users enroll their device, they will be presented with a list of the categories you configured.</source>
+          <target>Now, when users enroll their device, they will be presented with a list of the categories you configured.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>After they choose a category and finish enrollment, their device will be added to the device group that corresponds with the category they chose.</source>
+          <target>After they choose a category and finish enrollment, their device will be added to the device group that corresponds with the category they chose.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>See also</source>
+          <target>See also</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Technical reference for Microsoft Intune</source>
+          <target>Technical reference for Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

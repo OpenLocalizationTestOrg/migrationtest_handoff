@@ -1,0 +1,1699 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">d749837cd632d1c5ec38958770a767b8917aa705</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - Manage email access with Microsoft Intune</source>
+          <target>MD Conversion - Manage email access with Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - Manage email access with Microsoft Intune</source>
+          <target>MD Conversion - Manage email access with Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">conditional access policies</pc> for Exchange to manage access to Exchange email based on conditions you specify.</source>
+          <target>Use the <ph dataRef="id1" id="ph1" /><pc dataRefEnd="id3" dataRefStart="id2" id="p1">conditional access policies</pc> for Exchange to manage access to Exchange email based on conditions you specify.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>You can manage access to:</source>
+          <target>You can manage access to:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Microsoft Exchange On-premises</source>
+          <target>Microsoft Exchange On-premises</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Microsoft Exchange Online</source>
+          <target>Microsoft Exchange Online</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Exchange Online Dedicated</source>
+          <target>Exchange Online Dedicated</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>If you configure conditional access, before a user can connect to their email, the device they use must:</source>
+          <target>If you configure conditional access, before a user can connect to their email, the device they use must:</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Be enrolled with <ph dataRef="id1" id="ph1" /> or a domain joined PC.</source>
+          <target>Be enrolled with <ph dataRef="id1" id="ph1" /> or a domain joined PC.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Register the device in Azure Active Directory (this happens automatically when the device is enrolled with <ph dataRef="id1" id="ph1" /> (for Exchange Online only).</source>
+          <target>Register the device in Azure Active Directory (this happens automatically when the device is enrolled with <ph dataRef="id1" id="ph1" /> (for Exchange Online only).</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Additionally, the client Exchange ActiveSync ID must be registered with Azure Active Directory (does not apply to Windows and Windows Phone devices connecting to Exchange On-premises).</source>
+          <target>Additionally, the client Exchange ActiveSync ID must be registered with Azure Active Directory (does not apply to Windows and Windows Phone devices connecting to Exchange On-premises).</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>For a domain joined PC, you must set it to automatically register with Azure Active Directory.</source>
+          <target>For a domain joined PC, you must set it to automatically register with Azure Active Directory.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](../Topic/Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Conditional Access for PCs</pc> section in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manage access to email and SharePoint with Microsoft Intune</pc> topic lists the full set of requirements to enable conditional access for PCs.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Conditional Access for PCs</pc> section in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Manage access to email and SharePoint with Microsoft Intune</pc> topic lists the full set of requirements to enable conditional access for PCs.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Be compliant with any <ph dataRef="id1" id="ph1" /> compliance policies deployed to that device</source>
+          <target>Be compliant with any <ph dataRef="id1" id="ph1" /> compliance policies deployed to that device</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>If a conditional access condition is not met, the user is presented with one of the following messages when they log in.</source>
+          <target>If a conditional access condition is not met, the user is presented with one of the following messages when they log in.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>For mobile devices:</source>
+          <target>For mobile devices:</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the device is not enrolled with <ph dataRef="id1" id="ph1" />, or is not registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app, enroll the device, activate email, which associates the device’s Exchange ActiveSync ID with the device record in Azure Active Directory.</source>
+          <target>If the device is not enrolled with <ph dataRef="id1" id="ph1" />, or is not registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app, enroll the device, activate email, which associates the device’s Exchange ActiveSync ID with the device record in Azure Active Directory.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the device is not compliant, a message is displayed that directs the user to the <ph dataRef="id1" id="ph1" /> web portal, or the company portal app where they can find information about the problem and how to remediate it.</source>
+          <target>If the device is not compliant, a message is displayed that directs the user to the <ph dataRef="id1" id="ph1" /> web portal, or the company portal app where they can find information about the problem and how to remediate it.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>For PCs:</source>
+          <target>For PCs:</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the conditional access policy requirement is to allow <pc dataRefEnd="id2" dataRefStart="id1" id="p1">domain joined</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">compliant</pc>, a message with instructions about how to enroll the device is displayed.</source>
+          <target>If the conditional access policy requirement is to allow <pc dataRefEnd="id2" dataRefStart="id1" id="p1">domain joined</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">compliant</pc>, a message with instructions about how to enroll the device is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the PC does not meet either of the requirements, the user will be asked to enroll the device with <ph dataRef="id1" id="ph1" />.</source>
+          <target>If the PC does not meet either of the requirements, the user will be asked to enroll the device with <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>If the conditional access policy requirement is set to allow only domain joined windows devices, the device is blocked and a message to contact the IT admin is displayed.</source>
+          <target>If the conditional access policy requirement is set to allow only domain joined windows devices, the device is blocked and a message to contact the IT admin is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>You can block access to Exchange email from the devices built-in Exchange ActiveSync email client on the following platforms:</source>
+          <target>You can block access to Exchange email from the devices built-in Exchange ActiveSync email client on the following platforms:</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Android 4.0 and later, Samsung Knox Standard 4.0 and later</source>
+          <target>Android 4.0 and later, Samsung Knox Standard 4.0 and later</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>iOS 7.1 and later</source>
+          <target>iOS 7.1 and later</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Windows Phone 8.1 and later</source>
+          <target>Windows Phone 8.1 and later</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mail</pc> application on Windows 8.1 and later</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mail</pc> application on Windows 8.1 and later</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Outlook app for iOS and Android, and Outlook desktop 2013 is supported for Exchange Online only.</source>
+          <target>Outlook app for iOS and Android, and Outlook desktop 2013 is supported for Exchange Online only.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Step 1: Evaluate the effect of the conditional access policy</source>
+          <target>Step 1: Evaluate the effect of the conditional access policy</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you have configured a connection between <ph dataRef="id1" id="ph1" /> and Exchange by using the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Microsoft Intune service to service connector</pc> or the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">on-premises Exchange connector</pc>, you can use the <pc dataRefEnd="id7" dataRefStart="id6" id="p3">Mobile Device Inventory Reports</pc> to identify EAS mail clients that will be blocked from accessing Exchange after you configure the conditional access policy.</source>
+          <target>If you have configured a connection between <ph dataRef="id1" id="ph1" /> and Exchange by using the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Microsoft Intune service to service connector</pc> or the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">on-premises Exchange connector</pc>, you can use the <pc dataRefEnd="id7" dataRefStart="id6" id="p3">Mobile Device Inventory Reports</pc> to identify EAS mail clients that will be blocked from accessing Exchange after you configure the conditional access policy.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the report parameters, select the <ph dataRef="id1" id="ph1" /> group you want to evaluate and, if required, the device platforms to which the policy will apply.</source>
+          <target>In the report parameters, select the <ph dataRef="id1" id="ph1" /> group you want to evaluate and, if required, the device platforms to which the policy will apply.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Understand-Microsoft-Intune-operations-by-using-reports.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about how to run reports, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Understand Microsoft Intune operations by using reports</pc>.</source>
+          <target>For more information about how to run reports, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Understand Microsoft Intune operations by using reports</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>After you run the report, examine these four columns to determine whether a user will be blocked:</source>
+          <target>After you run the report, examine these four columns to determine whether a user will be blocked:</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Management Channel</pc> – Indicates whether the device is managed by Intune, Exchange ActiveSync, or both.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Management Channel</pc> – Indicates whether the device is managed by Intune, Exchange ActiveSync, or both.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AAD Registered</pc> – Indicates whether the device is registered with Azure Active Directory (known as Workplace Join).</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">AAD Registered</pc> – Indicates whether the device is registered with Azure Active Directory (known as Workplace Join).</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compliant</pc> – Indicates whether the device is compliant with any compliance policies you deployed.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Compliant</pc> – Indicates whether the device is compliant with any compliance policies you deployed.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange ActiveSync ID</pc> – iOS and Android devices are required to have their Exchange ActiveSync ID associated with the device registration record in Azure Active Directory.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange ActiveSync ID</pc> – iOS and Android devices are required to have their Exchange ActiveSync ID associated with the device registration record in Azure Active Directory.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>This happens when the user clicks the Activate Email link in the quarantine email.</source>
+          <target>This happens when the user clicks the Activate Email link in the quarantine email.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Windows Phone devices always display a value in this column.</source>
+          <target>Windows Phone devices always display a value in this column.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Devices that are part of a targeted group will be blocked from accessing Exchange unless the column values match those listed in the following table:</source>
+          <target>Devices that are part of a targeted group will be blocked from accessing Exchange unless the column values match those listed in the following table:</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Management channel</source>
+          <target>Management channel</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>AAD registered</source>
+          <target>AAD registered</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Compliant</source>
+          <target>Compliant</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>Exchange ActiveSync ID</source>
+          <target>Exchange ActiveSync ID</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Resulting action</source>
+          <target>Resulting action</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Managed by Microsoft Intune and Exchange ActiveSync</source>
+          <target>Managed by Microsoft Intune and Exchange ActiveSync</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>Yes</source>
+          <target>Yes</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>A value is displayed</source>
+          <target>A value is displayed</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>Email access allowed</source>
+          <target>Email access allowed</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Any other value</source>
+          <target>Any other value</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>No</source>
+          <target>No</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>No value is displayed</source>
+          <target>No value is displayed</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Email access blocked</source>
+          <target>Email access blocked</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can export the contents of the report and use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Email Address</pc> column to help you inform users that they will be blocked.</source>
+          <target>You can export the contents of the report and use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Email Address</pc> column to help you inform users that they will be blocked.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Step 2: Configure user groups for the conditional access policy</source>
+          <target>Step 2: Configure user groups for the conditional access policy</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>You target conditional access policies to different groups of users depending on the policy types.</source>
+          <target>You target conditional access policies to different groups of users depending on the policy types.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>These groups contain the users that will be targeted, or exempt from the policy.</source>
+          <target>These groups contain the users that will be targeted, or exempt from the policy.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>When a user is targeted by a policy, each device they use must be compliant in order to access email.</source>
+          <target>When a user is targeted by a policy, each device they use must be compliant in order to access email.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">For the Exchange Online policy</pc> – to Azure Active Directory security user groups.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">For the Exchange Online policy</pc> – to Azure Active Directory security user groups.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can configure these groups in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Office 365 admin center</pc>, or the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Intune account portal</pc>.</source>
+          <target>You can configure these groups in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Office 365 admin center</pc>, or the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Intune account portal</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">For the Exchange On-premises policy</pc> – to <ph dataRef="id3" id="ph1" /> user groups.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">For the Exchange On-premises policy</pc> – to <ph dataRef="id3" id="ph1" /> user groups.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can configure these in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Groups</pc> workspace of the <ph dataRef="id3" id="ph1" /> console.</source>
+          <target>You can configure these in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Groups</pc> workspace of the <ph dataRef="id3" id="ph1" /> console.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>You can specify two group types in each policy:</source>
+          <target>You can specify two group types in each policy:</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targeted groups</pc> – User groups to which the policy is applied</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targeted groups</pc> – User groups to which the policy is applied</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exempted groups</pc> – User groups that are exempt from the policy (optional)</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exempted groups</pc> – User groups that are exempt from the policy (optional)</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>If a user is in both groups, they will be exempt from the policy.</source>
+          <target>If a user is in both groups, they will be exempt from the policy.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>Only the groups which are targeted by the conditional access policy are evaluated for Exchange access.</source>
+          <target>Only the groups which are targeted by the conditional access policy are evaluated for Exchange access.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Step 3: Configure and deploy a compliance policy</source>
+          <target>Step 3: Configure and deploy a compliance policy</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Ensure that you have created and deployed a compliance policy to all devices that the Exchange conditional access policy will be targeted to.</source>
+          <target>Ensure that you have created and deployed a compliance policy to all devices that the Exchange conditional access policy will be targeted to.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Manage-device-compliance-policies-for-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For details about how to configure the compliance policy, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manage device compliance policies for Microsoft Intune</pc>.</source>
+          <target>For details about how to configure the compliance policy, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manage device compliance policies for Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.</source>
+          <target>If you have not deployed a compliance policy and then enable an Exchange conditional access policy, all targeted devices will be allowed access.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are ready, continue to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Step 4</pc>.</source>
+          <target>When you are ready, continue to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Step 4</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Step 4: Configure the conditional access policy</source>
+          <target>Step 4: Configure the conditional access policy</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>For Exchange Online (and tenants in the new Exchange Online Dedicated environment)</source>
+          <target>For Exchange Online (and tenants in the new Exchange Online Dedicated environment)</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>The following flow is used by conditional access policies for Exchange Online to evaluate whether to allow or block devices.</source>
+          <target>The following flow is used by conditional access policies for Exchange Online to evaluate whether to allow or block devices.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>To access email, the device must:</source>
+          <target>To access email, the device must:</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enroll with <ph dataRef="id1" id="ph1" /></source>
+          <target>Enroll with <ph dataRef="id1" id="ph1" /></target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>PCs must either be domain joined or be enrolled and compliant with the policies set in <ph dataRef="id1" id="ph1" />.</source>
+          <target>PCs must either be domain joined or be enrolled and compliant with the policies set in <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Register the device in Azure Active Directory (this happens automatically when the device is enrolled with <ph dataRef="id1" id="ph1" />.</source>
+          <target>Register the device in Azure Active Directory (this happens automatically when the device is enrolled with <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://msdn.microsoft.com/en-us/library/azure/dn935033.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For domain joined PCs, you must  set it up to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">automatically register the device</pc> with Azure Active Directory.</source>
+          <target>For domain joined PCs, you must  set it up to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">automatically register the device</pc> with Azure Active Directory.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Have activated email, which associates the device’s Exchange ActiveSync ID with the device record in Azure Active Directory (applies to iOS and Android devices only).</source>
+          <target>Have activated email, which associates the device’s Exchange ActiveSync ID with the device record in Azure Active Directory (applies to iOS and Android devices only).</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Be compliant with any deployed <ph dataRef="id1" id="ph1" /> compliance policies</source>
+          <target>Be compliant with any deployed <ph dataRef="id1" id="ph1" /> compliance policies</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>The device state is stored in Azure Active Directory which grants or blocks access to email, based on the evaluated conditions.</source>
+          <target>The device state is stored in Azure Active Directory which grants or blocks access to email, based on the evaluated conditions.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>If a condition is not met, the user will be presented with one of the following messages when they log in:</source>
+          <target>If a condition is not met, the user will be presented with one of the following messages when they log in:</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>If the device is not enrolled, or registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app and enroll.</source>
+          <target>If the device is not enrolled, or registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app and enroll.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the device is not compliant, a message is displayed that directs the user to the <ph dataRef="id1" id="ph1" /> web portal where they can find information about the problem and how to remediate it.</source>
+          <target>If the device is not compliant, a message is displayed that directs the user to the <ph dataRef="id1" id="ph1" /> web portal where they can find information about the problem and how to remediate it.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>For a PC:</source>
+          <target>For a PC:</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>If the policy is set to require domain join, and the PC is not domain joined, a message is displayed to contact the IT admin.</source>
+          <target>If the policy is set to require domain join, and the PC is not domain joined, a message is displayed to contact the IT admin.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>If the policy is set to require domain join or compliant, then the PC does not meet either requirement, a message is displayed with instructions about how to install the company portal app and enroll.</source>
+          <target>If the policy is set to require domain join or compliant, then the PC does not meet either requirement, a message is displayed with instructions about how to install the company portal app and enroll.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>The message is displayed on the device for Exchange Online users and tenants in the new Exchange Online Dedicated environment, and is delivered to the users email inbox for Exchange On-premises and legacy Exchange Online Dedicated devices.</source>
+          <target>The message is displayed on the device for Exchange Online users and tenants in the new Exchange Online Dedicated environment, and is delivered to the users email inbox for Exchange On-premises and legacy Exchange Online Dedicated devices.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> conditional access rules override, allow, block and quarantine rules that are defined in the Exchange Online admin console.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> conditional access rules override, allow, block and quarantine rules that are defined in the Exchange Online admin console.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ExoCA"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />To enable the Exchange Online policy</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />To enable the Exchange Online policy</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Conditional Access</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Exchange Online Policy</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Conditional Access</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Exchange Online Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange Online Policy</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable conditional access policy for Exchange Online</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange Online Policy</pc> page, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable conditional access policy for Exchange Online</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>If you check this, the device must be compliant.</source>
+          <target>If you check this, the device must be compliant.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>If this is not checked then conditional access is not applied.</source>
+          <target>If this is not checked then conditional access is not applied.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>If you have not deployed a compliance policy and then enable the Exchange Online policy, all targeted devices are reported as compliant.</source>
+          <target>If you have not deployed a compliance policy and then enable the Exchange Online policy, all targeted devices are reported as compliant.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Regardless of the compliance state, all users who are targeted by the policy will be required to enroll their devices with <ph dataRef="id1" id="ph1" />.</source>
+          <target>Regardless of the compliance state, all users who are targeted by the policy will be required to enroll their devices with <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device platforms</pc>, you can choose to apply conditional access policy to:</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Device platforms</pc>, you can choose to apply conditional access policy to:</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>All platforms</source>
+          <target>All platforms</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This will require that any device used to access <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange  Online</pc>,  to be enrolled in Intune and compliant with the policies.</source>
+          <target>This will require that any device used to access <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange  Online</pc>,  to be enrolled in Intune and compliant with the policies.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Any client application using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">modern authentication</pc> is subject to the conditional access policy, and if the platform is currently not supported by Intune, access to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Exchange Online</pc> is blocked.</source>
+          <target>Any client application using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">modern authentication</pc> is subject to the conditional access policy, and if the platform is currently not supported by Intune, access to <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Exchange Online</pc> is blocked.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Specific platforms</source>
+          <target>Specific platforms</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you choose the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specific platforms</pc> option, you will see a list of platforms that you can individually select.</source>
+          <target>If you choose the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Specific platforms</pc> option, you will see a list of platforms that you can individually select.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Conditional access policy will apply to any client app that is using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">modern authentication</pc>, but only on the device platforms you select.</source>
+          <target>Conditional access policy will apply to any client app that is using <pc dataRefEnd="id2" dataRefStart="id1" id="p1">modern authentication</pc>, but only on the device platforms you select.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Modern authentication</pc> brings Active Directory Authentication Library (ADAL)-based sign in to Office clients.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Modern authentication</pc> brings Active Directory Authentication Library (ADAL)-based sign in to Office clients.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>The ADAL based authentication enables Office clients to engage in browser-based authentication (also known as passive authentication).</source>
+          <target>The ADAL based authentication enables Office clients to engage in browser-based authentication (also known as passive authentication).</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>To authenticate, the user is directed to a sign-in web page.</source>
+          <target>To authenticate, the user is directed to a sign-in web page.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This new sign-in method enables new scenarios such as, conditional access, based on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">device compliance</pc> and whether <pc dataRefEnd="id4" dataRefStart="id3" id="p2">multi-factor authentication</pc> was performed.</source>
+          <target>This new sign-in method enables new scenarios such as, conditional access, based on <pc dataRefEnd="id2" dataRefStart="id1" id="p1">device compliance</pc> and whether <pc dataRefEnd="id4" dataRefStart="id3" id="p2">multi-factor authentication</pc> was performed.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://blogs.office.com/2014/11/12/office-2013-updated-authentication-enabling-multi-factor-authentication-saml-identity-providers/)</data>
+        </originalData>
+        <segment state="initial">
+          <source>This <pc dataRefEnd="id2" dataRefStart="id1" id="p1">article</pc> has more detailed information on how modern authentication works.</source>
+          <target>This <pc dataRefEnd="id2" dataRefStart="id1" id="p1">article</pc> has more detailed information on how modern authentication works.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>For windows PCs, the PC must either be domain joined, or enrolled with <ph dataRef="id1" id="ph1" /> and compliant.</source>
+          <target>For windows PCs, the PC must either be domain joined, or enrolled with <ph dataRef="id1" id="ph1" /> and compliant.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>You can set the following requirements:</source>
+          <target>You can set the following requirements:</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Devices must be domain joined or compliant.</source>
+          <target>Devices must be domain joined or compliant.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This means that the PCs must either be domain joined or compliant with the policies set in <ph dataRef="id1" id="ph1" />.</source>
+          <target>This means that the PCs must either be domain joined or compliant with the policies set in <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the PC does not meet either of these requirements, the user is prompted to enroll the device with <ph dataRef="id1" id="ph1" />.</source>
+          <target>If the PC does not meet either of these requirements, the user is prompted to enroll the device with <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Devices must be domain joined.</source>
+          <target>Devices must be domain joined.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>This means that the PCs must be domain joined to access Exchange Online.</source>
+          <target>This means that the PCs must be domain joined to access Exchange Online.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>If the PC is not domain joined access to email is blocked and the user is prompted to contact the IT admin.</source>
+          <target>If the PC is not domain joined access to email is blocked and the user is prompted to contact the IT admin.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Devices must be compliant.</source>
+          <target>Devices must be compliant.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This means that the PCs must be enrolled in <ph dataRef="id1" id="ph1" /> and compliant.</source>
+          <target>This means that the PCs must be enrolled in <ph dataRef="id1" id="ph1" /> and compliant.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>If the PC is not enrolled, a message with instructions on how to enroll is displayed.</source>
+          <target>If the PC is not enrolled, a message with instructions on how to enroll is displayed.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange ActiveSync mail apps</pc>, you can choose to block email from accessing Exchange Online if the device is noncompliant, and select whether to allow or block access to email when Microsoft Intune cannot manage the device.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange ActiveSync mail apps</pc>, you can choose to block email from accessing Exchange Online if the device is noncompliant, and select whether to allow or block access to email when Microsoft Intune cannot manage the device.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targeted Groups</pc>, select the Active Directory security groups of users to which the policy will apply.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targeted Groups</pc>, select the Active Directory security groups of users to which the policy will apply.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>You can either choose to target all users or a selected list of user groups.</source>
+          <target>You can either choose to target all users or a selected list of user groups.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>For users that are in the Targeted groups, the Intune polices will replace Exchange rules and policies.</source>
+          <target>For users that are in the Targeted groups, the Intune polices will replace Exchange rules and policies.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Exchange will only enforce Exchange allow, block and quarantine rules, and Exchange policies if:</source>
+          <target>Exchange will only enforce Exchange allow, block and quarantine rules, and Exchange policies if:</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>The user is not licensed for Intune.</source>
+          <target>The user is not licensed for Intune.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>The user is licensed for Intune, but the user does not belong to any security groups targeted in the conditional access policy.</source>
+          <target>The user is licensed for Intune, but the user does not belong to any security groups targeted in the conditional access policy.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exempted Groups</pc>, select the Active Directory security groups of users that are exempt from this policy.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exempted Groups</pc>, select the Active Directory security groups of users that are exempt from this policy.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>If a user  is in both the targeted and exempted groups, they will be exempt from the policy.</source>
+          <target>If a user  is in both the targeted and exempted groups, they will be exempt from the policy.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are done, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</source>
+          <target>When you are done, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>You do not have to deploy the conditional access policy, it takes effect immediately.</source>
+          <target>You do not have to deploy the conditional access policy, it takes effect immediately.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>After a user creates an email account, the device is blocked immediately.</source>
+          <target>After a user creates an email account, the device is blocked immediately.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a blocked user enrolls the device with <ph dataRef="id1" id="ph1" /> (or remediates noncompliance), email access is unblocked within 2 minutes.</source>
+          <target>If a blocked user enrolls the device with <ph dataRef="id1" id="ph1" /> (or remediates noncompliance), email access is unblocked within 2 minutes.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>If the user un-enrolls their device, email is blocked after around 24 hours.</source>
+          <target>If the user un-enrolls their device, email is blocked after around 24 hours.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>For Exchange on-premises (and tenants in the legacy Exchange Online Dedicated environment)</source>
+          <target>For Exchange on-premises (and tenants in the legacy Exchange Online Dedicated environment)</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>The following flow is used by conditional access policies for Exchange on-premises and tenants in the legacy Exchange Online Dedicated environment to evaluate whether to allow or block devices.</source>
+          <target>The following flow is used by conditional access policies for Exchange on-premises and tenants in the legacy Exchange Online Dedicated environment to evaluate whether to allow or block devices.</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>To enable the Exchange On-premises policy</source>
+          <target>To enable the Exchange On-premises policy</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Conditional Access</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Exchange On-premises policy</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Conditional Access</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Exchange On-premises policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>Configure the policy with the settings you require:</source>
+          <target>Configure the policy with the settings you require:</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Setting</source>
+          <target>Setting</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <segment state="initial">
+          <source>Block email apps from accessing Exchange On-premises if the device is noncompliant or not enrolled to Microsoft Intune</source>
+          <target>Block email apps from accessing Exchange On-premises if the device is noncompliant or not enrolled to Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you select this option, devices that are not managed by <ph dataRef="id1" id="ph1" /> or are not compliant with a compliance policy that was deployed to them are blocked from accessing Exchange services unless they have been defined as exempt.</source>
+          <target>When you select this option, devices that are not managed by <ph dataRef="id1" id="ph1" /> or are not compliant with a compliance policy that was deployed to them are blocked from accessing Exchange services unless they have been defined as exempt.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>Default rule override - Always allow  enrolled and compliant devices to access Exchange</source>
+          <target>Default rule override - Always allow  enrolled and compliant devices to access Exchange</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>When you check this option, devices that are enrolled in Intune and compliant with the compliant policies are allowed to access Exchange.</source>
+          <target>When you check this option, devices that are enrolled in Intune and compliant with the compliant policies are allowed to access Exchange.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This rule overrides the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Default Rule</pc>, which means that even if you set the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Default Rule</pc> to quarantine or block access, enrolled and compliant devices will still be able to access Exchange.</source>
+          <target>This rule overrides the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Default Rule</pc>, which means that even if you set the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Default Rule</pc> to quarantine or block access, enrolled and compliant devices will still be able to access Exchange.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Targeted Groups</source>
+          <target>Targeted Groups</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <ph dataRef="id1" id="ph1" /> user groups that must enroll their device with <ph dataRef="id2" id="ph2" /> before they can access Exchange.</source>
+          <target>Select the <ph dataRef="id1" id="ph1" /> user groups that must enroll their device with <ph dataRef="id2" id="ph2" /> before they can access Exchange.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Exempted Groups</source>
+          <target>Exempted Groups</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <ph dataRef="id1" id="ph1" /> user groups that are exempt from the conditional access policy.</source>
+          <target>Select the <ph dataRef="id1" id="ph1" /> user groups that are exempt from the conditional access policy.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Settings in this list override those in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targeted Groups</pc> list.</source>
+          <target>Settings in this list override those in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Targeted Groups</pc> list.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>Platform Exceptions</source>
+          <target>Platform Exceptions</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Rule</pc> to configure a rule that defines access levels for specified mobile device families and models.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Rule</pc> to configure a rule that defines access levels for specified mobile device families and models.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Because these devices can be of any type, you can also configure device types that are unsupported by <ph dataRef="id1" id="ph1" />.</source>
+          <target>Because these devices can be of any type, you can also configure device types that are unsupported by <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Default Rule</source>
+          <target>Default Rule</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>For a device that is not covered by any of the other rules, you can choose to allow it to access Exchange, block it, or quarantine it.</source>
+          <target>For a device that is not covered by any of the other rules, you can choose to allow it to access Exchange, block it, or quarantine it.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>When you set the rule to allow access, for devices that are enrolled and compliant, email access is granted automatically for iOS, Windows, and Samsung Knox devices.</source>
+          <target>When you set the rule to allow access, for devices that are enrolled and compliant, email access is granted automatically for iOS, Windows, and Samsung Knox devices.</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>The end-user does not have to go through any process to get their email.</source>
+          <target>The end-user does not have to go through any process to get their email.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>On Android devices that are not Knox based, end-users will get a quarantine email which includes a guided walkthrough to verify enrollment and compliance before they can access email.</source>
+          <target>On Android devices that are not Knox based, end-users will get a quarantine email which includes a guided walkthrough to verify enrollment and compliance before they can access email.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>If you set the rule to block access or quarantine it, all devices are blocked from getting access to exchange regardless of whether they are already enrolled in Intune or not.</source>
+          <target>If you set the rule to block access or quarantine it, all devices are blocked from getting access to exchange regardless of whether they are already enrolled in Intune or not.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To prevent enrolled and compliant devices from being affected by this rule, check the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Default Rule Override.</pc></source>
+          <target>To prevent enrolled and compliant devices from being affected by this rule, check the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Default Rule Override.</pc></target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>If you intention is to first block all devices before granting access to email, checking the Block access, or Quarantine rule can be useful.</source>
+          <target>If you intention is to first block all devices before granting access to email, checking the Block access, or Quarantine rule can be useful.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The default rule will apply to all device types, so device types you configure as platform exceptions and that are unsupported by <ph dataRef="id1" id="ph1" /> are also affected.</source>
+          <target>The default rule will apply to all device types, so device types you configure as platform exceptions and that are unsupported by <ph dataRef="id1" id="ph1" /> are also affected.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>User Notification</source>
+          <target>User Notification</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>In addition to the notification email sent from Exchange, Intune sends an email that you can configure which contains steps to unblock the device.</source>
+          <target>In addition to the notification email sent from Exchange, Intune sends an email that you can configure which contains steps to unblock the device.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>You can edit the default message and use HTML tags to format how the text appears.</source>
+          <target>You can edit the default message and use HTML tags to format how the text appears.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Because the Intune notification email containing remediation instructions is delivered to the user’s Exchange mailbox, in the event that the user’s device gets blocked before they receive the email message, they can use an unblocked device or other method to access Exchange and view the message.</source>
+          <target>Because the Intune notification email containing remediation instructions is delivered to the user’s Exchange mailbox, in the event that the user’s device gets blocked before they receive the email message, they can use an unblocked device or other method to access Exchange and view the message.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This is especially true when the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Default Rule</pc> is set to block or quarantine.</source>
+          <target>This is especially true when the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Default Rule</pc> is set to block or quarantine.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>In this case, the end-user will have to go to their app store, download the Microsoft Company Portal app and enroll their device.</source>
+          <target>In this case, the end-user will have to go to their app store, download the Microsoft Company Portal app and enroll their device.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>This is applicable to iOS, Windows, and Samsung Knox devices.</source>
+          <target>This is applicable to iOS, Windows, and Samsung Knox devices.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>For  Android devices that are not Knox-based, the IT admin will need to send the quarantine email to an alternate email account, which then  the end-user has to copy to their blocked device to complete the enrollment and compliance process.</source>
+          <target>For  Android devices that are not Knox-based, the IT admin will need to send the quarantine email to an alternate email account, which then  the end-user has to copy to their blocked device to complete the enrollment and compliance process.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>In order for Exchange to be able to send the notification email, you must configure the account that will be used to send the notification email.</source>
+          <target>In order for Exchange to be able to send the notification email, you must configure the account that will be used to send the notification email.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Mobile-device-management-with-Exchange-ActiveSync-and-Microsoft-Intune.md#bkmk_EX_OP)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For details, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Microsoft Intune on-premises connector for on-premises or hosted Exchange</pc>.</source>
+          <target>For details, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Microsoft Intune on-premises connector for on-premises or hosted Exchange</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are done, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</source>
+          <target>When you are done, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>You do not have to deploy the conditional access policy, it takes effect immediately.</source>
+          <target>You do not have to deploy the conditional access policy, it takes effect immediately.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>After a user sets up an Exchange ActiveSync profile, it might take from 1-3 hours for the device to be blocked (if it is not managed by <ph dataRef="id1" id="ph1" />).</source>
+          <target>After a user sets up an Exchange ActiveSync profile, it might take from 1-3 hours for the device to be blocked (if it is not managed by <ph dataRef="id1" id="ph1" />).</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a blocked user then enrolls the device with <ph dataRef="id1" id="ph1" /> (or remediates noncompliance), email access will be unblocked within 2 minutes.</source>
+          <target>If a blocked user then enrolls the device with <ph dataRef="id1" id="ph1" /> (or remediates noncompliance), email access will be unblocked within 2 minutes.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the user un-enrolls from <ph dataRef="id1" id="ph1" /> it might take from 1-3 hours for the device to be blocked.</source>
+          <target>If the user un-enrolls from <ph dataRef="id1" id="ph1" /> it might take from 1-3 hours for the device to be blocked.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>Step 5: Monitor the compliance and conditional access policies</source>
+          <target>Step 5: Monitor the compliance and conditional access policies</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>To view devices that are blocked from Exchange</source>
+          <target>To view devices that are blocked from Exchange</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <ph dataRef="id1" id="ph1" /> dashboard, click the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Blocked Devices from Exchange</pc> tile to show the number of blocked devices and links to more information.</source>
+          <target>On the <ph dataRef="id1" id="ph1" /> dashboard, click the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Blocked Devices from Exchange</pc> tile to show the number of blocked devices and links to more information.</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Scenario"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Example Scenarios</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Example Scenarios</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>All iOS devices that access Exchange On-premises must be managed by Intune</source>
+          <target>All iOS devices that access Exchange On-premises must be managed by Intune</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, the organization only uses devices that run iOS and they require that all of these devices are managed by <ph dataRef="id1" id="ph1" /> before they can access Exchange.</source>
+          <target>In this example, the organization only uses devices that run iOS and they require that all of these devices are managed by <ph dataRef="id1" id="ph1" /> before they can access Exchange.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>To accomplish this, in the conditional access policy, they configure the following:</source>
+          <target>To accomplish this, in the conditional access policy, they configure the following:</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the option <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable conditional access policy for Exchange Online</pc>.</source>
+          <target>Select the option <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable conditional access policy for Exchange Online</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For apps using modern authentication, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">iOS</pc> for the platform</source>
+          <target>For apps using modern authentication, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">iOS</pc> for the platform</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>For Exchange ActiveSync apps, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require mobile devices to be compliant</pc>  and block access to email on devices that are not supported by <ph dataRef="id3" id="ph1" />.</source>
+          <target>For Exchange ActiveSync apps, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require mobile devices to be compliant</pc>  and block access to email on devices that are not supported by <ph dataRef="id3" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>A platform exception that allows devices that run iOS to access Exchange.</source>
+          <target>A platform exception that allows devices that run iOS to access Exchange.</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>A default rule that specifies when a device is not covered by other rules, then it should be blocked.</source>
+          <target>A default rule that specifies when a device is not covered by other rules, then it should be blocked.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>The following flow is used to decide which devices can access Exchange:</source>
+          <target>The following flow is used to decide which devices can access Exchange:</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>No Android devices can access Exchange On-premises.</source>
+          <target>No Android devices can access Exchange On-premises.</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>All other devices that access Exchange must be managed by Intune</source>
+          <target>All other devices that access Exchange must be managed by Intune</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>In this example, the organization does not want to allow devices that run Android access to Exchange.</source>
+          <target>In this example, the organization does not want to allow devices that run Android access to Exchange.</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>All other supported devices can access Exchange as long as they are managed by <ph dataRef="id1" id="ph1" />.</source>
+          <target>All other supported devices can access Exchange as long as they are managed by <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>To accomplish this, in the conditional access policy, they configure the following:</source>
+          <target>To accomplish this, in the conditional access policy, they configure the following:</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the option <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable conditional access policy for Exchange online</pc>.</source>
+          <target>Select the option <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable conditional access policy for Exchange online</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <segment state="initial">
+          <source>A platform exception that blocks devices that run Android from accessing Exchange.</source>
+          <target>A platform exception that blocks devices that run Android from accessing Exchange.</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>A default rule that specifies when a device is not covered by other rules, then it should be allowed.</source>
+          <target>A default rule that specifies when a device is not covered by other rules, then it should be allowed.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>The following flow is used to decide which devices can access Exchange:</source>
+          <target>The following flow is used to decide which devices can access Exchange:</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Block users of noncompliant devices from Exchange Online in a specified Active Directory security group.</source>
+          <target>Block users of noncompliant devices from Exchange Online in a specified Active Directory security group.</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>Exempt devices in another security group</source>
+          <target>Exempt devices in another security group</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this scenario, all users in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Accounting</pc> Active Directory security group must be blocked from accessing Exchange Online if their device is not compliant with a compliance policy you deployed.</source>
+          <target>In this scenario, all users in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Accounting</pc> Active Directory security group must be blocked from accessing Exchange Online if their device is not compliant with a compliance policy you deployed.</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Additionally, any users in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finance</pc> Active Directory security group must be exempt from the policy, even if they are also in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Accounting</pc> security group.</source>
+          <target>Additionally, any users in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finance</pc> Active Directory security group must be exempt from the policy, even if they are also in the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Accounting</pc> security group.</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Finally, if any users exist in this group whose devices are not supported by <ph dataRef="id1" id="ph1" />, they must be blocked from accessing Exchange Online on that device.</source>
+          <target>Finally, if any users exist in this group whose devices are not supported by <ph dataRef="id1" id="ph1" />, they must be blocked from accessing Exchange Online on that device.</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>To accomplish this, in the conditional access policy, they configure the following:</source>
+          <target>To accomplish this, in the conditional access policy, they configure the following:</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the option <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable conditional access for Exchange Online.</pc>.</source>
+          <target>Select the option <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable conditional access for Exchange Online.</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Accounting</pc> under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Targeted Groups</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Accounting</pc> under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Targeted Groups</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finance</pc> under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Exempted Groups</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finance</pc> under <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Exempted Groups</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange ActiveSync mail apps</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Require mobile devices to be compliant</pc>option.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Exchange ActiveSync mail apps</pc>, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Require mobile devices to be compliant</pc>option.</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>The following flow is used to decide which devices can access Exchange:</source>
+          <target>The following flow is used to decide which devices can access Exchange:</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>Manage access to email and SharePoint with Microsoft Intune</source>
+          <target>Manage access to email and SharePoint with Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

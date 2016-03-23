@@ -1,0 +1,68 @@
+{
+  "nodes": [
+    {
+      "content": "Understand your devices with inventory in Microsoft Intune - deleted",
+      "pos": [
+        11,
+        79
+      ]
+    },
+    {
+      "content": "Understand your devices with inventory in Microsoft Intune - deleted",
+      "pos": [
+        235,
+        303
+      ]
+    },
+    {
+      "content": "Insert introduction here.",
+      "pos": [
+        304,
+        329
+      ]
+    },
+    {
+      "content": "Section Heading",
+      "pos": [
+        334,
+        349
+      ]
+    },
+    {
+      "content": "Insert section body here.",
+      "pos": [
+        350,
+        375
+      ]
+    },
+    {
+      "content": "Subsection Heading",
+      "pos": [
+        381,
+        399
+      ]
+    },
+    {
+      "content": "Insert subsection body here.",
+      "pos": [
+        400,
+        428
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        433,
+        441
+      ]
+    },
+    {
+      "content": "Monitoring and reports with Microsoft Intune",
+      "pos": [
+        443,
+        487
+      ]
+    }
+  ],
+  "content": "---\ntitle: Understand your devices with inventory in Microsoft Intune - deleted\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: adb8c9cb-3d7b-4f6c-b77f-592b488c37b2\nauthor: robstackmsft\n---\n# Understand your devices with inventory in Microsoft Intune - deleted\nInsert introduction here.\n\n## Section Heading\nInsert section body here.\n\n### Subsection Heading\nInsert subsection body here.\n\n## See Also\n[Monitoring and reports with Microsoft Intune](../Topic/Monitoring-and-reports-with-Microsoft-Intune.md)\n\n"
+}

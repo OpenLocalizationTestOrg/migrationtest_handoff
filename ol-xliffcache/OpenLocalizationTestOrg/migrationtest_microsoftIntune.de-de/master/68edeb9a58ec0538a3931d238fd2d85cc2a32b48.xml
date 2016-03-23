@@ -1,0 +1,423 @@
+{
+  "nodes": [
+    {
+      "content": "Manage access to Skype for Business",
+      "pos": [
+        11,
+        46
+      ]
+    },
+    {
+      "content": "Manage access to Skype for Business",
+      "pos": [
+        203,
+        238
+      ]
+    },
+    {
+      "pos": [
+        239,
+        383
+      ],
+      "content": "Use conditional access policy for  <bpt id=\"p1\">**</bpt>Skype for Business Online<ept id=\"p1\">**</ept> to manage access to Skype for Business Online, based on conditions you specify."
+    },
+    {
+      "content": "When a targeted user attempts to use Skype for Business Online on their device, the following evaluation occurs:",
+      "pos": [
+        385,
+        497
+      ]
+    },
+    {
+      "content": "Prerequisites",
+      "pos": [
+        556,
+        569
+      ]
+    },
+    {
+      "content": "Enable modern authentication for Skype for Business Online.",
+      "pos": [
+        575,
+        634
+      ]
+    },
+    {
+      "content": "Fill this <bpt id=\"p1\">[</bpt>connect form<ept id=\"p1\">](https://connect.microsoft.com/office/Survey/NominationSurvey.aspx?SurveyID=17299&amp;ProgramID=8715)</ept> to be enrolled in the modern authentication program.",
+      "pos": [
+        635,
+        809
+      ]
+    },
+    {
+      "content": "All your end-users must be using the Skype for Business Online.",
+      "pos": [
+        813,
+        876
+      ]
+    },
+    {
+      "content": "If you have a deployment with both Skype for Business Online and Skype for Business on-premises, conditional access policy will not be applied to end-users who are in the on-premises deployment.",
+      "pos": [
+        877,
+        1071
+      ]
+    },
+    {
+      "content": "The device that needs access to Skype for Business Online must:",
+      "pos": [
+        1078,
+        1141
+      ]
+    },
+    {
+      "content": "Be an Android or iOS device.",
+      "pos": [
+        1147,
+        1175
+      ]
+    },
+    {
+      "pos": [
+        1181,
+        1249
+      ],
+      "content": "Be enrolled with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>"
+    },
+    {
+      "pos": [
+        1255,
+        1357
+      ],
+      "content": "Be compliant with any deployed <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> compliance policies"
+    },
+    {
+      "content": "The device state is stored in Azure Active Directory which grants or blocks access, based on the conditions you specify.",
+      "pos": [
+        1360,
+        1480
+      ]
+    },
+    {
+      "content": "If a condition is not met, the user is presented with one of the following messages when they log in:",
+      "pos": [
+        1482,
+        1583
+      ]
+    },
+    {
+      "pos": [
+        1589,
+        1821
+      ],
+      "content": "If the device is not enrolled with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, or is not registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app and enroll."
+    },
+    {
+      "pos": [
+        1827,
+        2049
+      ],
+      "content": "If the device is not compliant, a message is displayed that directs the user to the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> web portal where they can find information about the problem, and how to remediate it."
+    },
+    {
+      "content": "Configure conditional access for Skype for Business Online",
+      "pos": [
+        2054,
+        2112
+      ]
+    },
+    {
+      "content": "Step 1: Configure Active Directory security groups",
+      "pos": [
+        2118,
+        2168
+      ]
+    },
+    {
+      "content": "Before you start, configure Azure Active Directory security groups for the conditional access policy.",
+      "pos": [
+        2169,
+        2270
+      ]
+    },
+    {
+      "content": "You can configure these groups in the <bpt id=\"p1\">**</bpt>Office 365 admin center<ept id=\"p1\">**</ept>.",
+      "pos": [
+        2271,
+        2337
+      ]
+    },
+    {
+      "content": "These groups contain the users that will be targeted, or exempt from the policy.",
+      "pos": [
+        2338,
+        2418
+      ]
+    },
+    {
+      "content": "When a user is targeted by a policy, each device they use must be compliant in order to access resources.",
+      "pos": [
+        2419,
+        2524
+      ]
+    },
+    {
+      "content": "You can specify two group types to use for the Skype for Business policy:",
+      "pos": [
+        2526,
+        2599
+      ]
+    },
+    {
+      "pos": [
+        2605,
+        2682
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Targeted groups<ept id=\"p1\">**</ept> – Contains groups of users to which the policy will apply"
+    },
+    {
+      "pos": [
+        2688,
+        2777
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Exempted groups<ept id=\"p1\">**</ept> – Contains groups of users that are exempt from the policy (optional)"
+    },
+    {
+      "content": "If a user is in both groups, they will be exempt from the policy.",
+      "pos": [
+        2779,
+        2844
+      ]
+    },
+    {
+      "content": "Step 2: Configure and deploy a compliance policy",
+      "pos": [
+        2850,
+        2898
+      ]
+    },
+    {
+      "content": "Ensure that you create and deploy a compliance policy to all devices that the Skype for Business Online policy will be targeted to.",
+      "pos": [
+        2899,
+        3030
+      ]
+    },
+    {
+      "pos": [
+        3034,
+        3229
+      ],
+      "content": "[!NOTE]\nWhile compliance policies are deployed to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] groups, conditional access policies are targeted to Azure Active Directory security groups.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "While compliance policies are deployed to <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> groups, conditional access policies are targeted to Azure Active Directory security groups.",
+          "pos": [
+            8,
+            193
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        3231,
+        3418
+      ],
+      "content": "For details about how to configure the compliance policy, see <bpt id=\"p1\">[</bpt>Manage device compliance policies for Microsoft Intune<ept id=\"p1\">](../Topic/Manage-device-compliance-policies-for-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        3422,
+        3611
+      ],
+      "content": "[!IMPORTANT]\nIf you have not deployed a compliance policy and then enable the Skype for Business Online policy, all targeted devices will be allowed access if they are enrolled in Intune.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "If you have not deployed a compliance policy and then enable the Skype for Business Online policy, all targeted devices will be allowed access if they are enrolled in Intune.",
+          "pos": [
+            13,
+            187
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        3613,
+        3656
+      ],
+      "content": "When you are ready, continue to <bpt id=\"p1\">**</bpt>Step 3<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        3662,
+        3744
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_OneDrive\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Step 3: Configure the Skype for Business Online policy"
+    },
+    {
+      "content": "Next, configure the policy to require that only managed and compliant devices can access Skype for Business Online.",
+      "pos": [
+        3745,
+        3860
+      ]
+    },
+    {
+      "content": "This policy will be will be stored in Azure Active Directory.",
+      "pos": [
+        3861,
+        3922
+      ]
+    },
+    {
+      "pos": [
+        3964,
+        4131
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com)</ept>, click <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Conditional Access<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Skype for Business Online Policy<ept id=\"p4\">**</ept>."
+    },
+    {
+      "content": "conditional_access_SFBPolicy",
+      "pos": [
+        4135,
+        4163
+      ]
+    },
+    {
+      "pos": [
+        4211,
+        4255
+      ],
+      "content": "Select <bpt id=\"p1\">**</bpt>Enable conditional access policy<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        4261,
+        4342
+      ],
+      "content": "Under <bpt id=\"p1\">**</bpt>Device platforms<ept id=\"p1\">**</ept>, you can choose to apply conditional access policy to:"
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        4354,
+        4357
+      ]
+    },
+    {
+      "content": "Android",
+      "pos": [
+        4371,
+        4378
+      ]
+    },
+    {
+      "content": "Under <bpt id=\"p1\">**</bpt>Targeted Groups<ept id=\"p1\">**</ept>, click <bpt id=\"p2\">**</bpt>Modify<ept id=\"p2\">**</ept> to select the Azure Active Directory security groups to which the policy will apply.",
+      "pos": [
+        4386,
+        4514
+      ]
+    },
+    {
+      "content": "You can choose to target this to all users or just a select group of users.",
+      "pos": [
+        4515,
+        4590
+      ]
+    },
+    {
+      "pos": [
+        4596,
+        4738
+      ],
+      "content": "Under <bpt id=\"p1\">**</bpt>Exempted Groups<ept id=\"p1\">**</ept>, optionally, click <bpt id=\"p2\">**</bpt>Modify<ept id=\"p2\">**</ept> to select the Azure Active Directory security groups that are exempt from this policy."
+    },
+    {
+      "pos": [
+        4744,
+        4778
+      ],
+      "content": "When you are done, click <bpt id=\"p1\">**</bpt>Save<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "You have now configured conditional access for Skype for Business Online.",
+      "pos": [
+        4780,
+        4853
+      ]
+    },
+    {
+      "content": "You do not have to deploy the conditional access policy, it takes effect immediately.",
+      "pos": [
+        4854,
+        4939
+      ]
+    },
+    {
+      "content": "Monitor the compliance and conditional access policies",
+      "pos": [
+        4945,
+        4999
+      ]
+    },
+    {
+      "pos": [
+        5000,
+        5088
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Groups<ept id=\"p1\">**</ept> workspace, you can view the conditional access status of your devices."
+    },
+    {
+      "pos": [
+        5090,
+        5195
+      ],
+      "content": "Select any mobile device group and then, on the <bpt id=\"p1\">**</bpt>Devices<ept id=\"p1\">**</ept> tab, select one of the following <bpt id=\"p2\">**</bpt>Filters<ept id=\"p2\">**</ept>:"
+    },
+    {
+      "pos": [
+        5199,
+        5303
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Devices that are not registered with AAD<ept id=\"p1\">**</ept> – These devices are blocked from Skype for Business Online."
+    },
+    {
+      "pos": [
+        5307,
+        5401
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Devices that are not compliant<ept id=\"p1\">**</ept> – These devices are blocked from Skype for Business Online."
+    },
+    {
+      "pos": [
+        5405,
+        5513
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Devices that are registered with AAD and compliant<ept id=\"p1\">**</ept> – These devices can access Skype for Business Online."
+    },
+    {
+      "content": "See also",
+      "pos": [
+        5519,
+        5527
+      ]
+    },
+    {
+      "content": "Manage access to email and O365 services",
+      "pos": [
+        5529,
+        5569
+      ]
+    }
+  ],
+  "content": "---\ntitle: Manage access to Skype for Business\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 1b2d7125-f63f-43cf-ac1e-94fbedf2a7e8\nauthor: karthikaraman\n---\n# Manage access to Skype for Business\nUse conditional access policy for  **Skype for Business Online** to manage access to Skype for Business Online, based on conditions you specify.\n\nWhen a targeted user attempts to use Skype for Business Online on their device, the following evaluation occurs:\n\n![](../Image/ConditionalAccess_SkypeforBusiness.png)\n\n## Prerequisites\n\n-   Enable modern authentication for Skype for Business Online. Fill this [connect form](https://connect.microsoft.com/office/Survey/NominationSurvey.aspx?SurveyID=17299&ProgramID=8715) to be enrolled in the modern authentication program.\n-  All your end-users must be using the Skype for Business Online. If you have a deployment with both Skype for Business Online and Skype for Business on-premises, conditional access policy will not be applied to end-users who are in the on-premises deployment. \n\n    The device that needs access to Skype for Business Online must:\n\n-   Be an Android or iOS device.\n\n-   Be enrolled with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]\n\n-   Be compliant with any deployed [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] compliance policies\n\n\nThe device state is stored in Azure Active Directory which grants or blocks access, based on the conditions you specify.\n\nIf a condition is not met, the user is presented with one of the following messages when they log in:\n\n-   If the device is not enrolled with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], or is not registered in Azure Active Directory, a message is displayed with instructions about how to install the company portal app and enroll.\n\n-   If the device is not compliant, a message is displayed that directs the user to the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] web portal where they can find information about the problem, and how to remediate it.\n\n## Configure conditional access for Skype for Business Online\n\n### Step 1: Configure Active Directory security groups\nBefore you start, configure Azure Active Directory security groups for the conditional access policy. You can configure these groups in the **Office 365 admin center**. These groups contain the users that will be targeted, or exempt from the policy. When a user is targeted by a policy, each device they use must be compliant in order to access resources.\n\nYou can specify two group types to use for the Skype for Business policy:\n\n-   **Targeted groups** – Contains groups of users to which the policy will apply\n\n-   **Exempted groups** – Contains groups of users that are exempt from the policy (optional)\n\nIf a user is in both groups, they will be exempt from the policy.\n\n### Step 2: Configure and deploy a compliance policy\nEnsure that you create and deploy a compliance policy to all devices that the Skype for Business Online policy will be targeted to.\n\n> [!NOTE]\n> While compliance policies are deployed to [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] groups, conditional access policies are targeted to Azure Active Directory security groups.\n\nFor details about how to configure the compliance policy, see [Manage device compliance policies for Microsoft Intune](../Topic/Manage-device-compliance-policies-for-Microsoft-Intune.md).\n\n> [!IMPORTANT]\n> If you have not deployed a compliance policy and then enable the Skype for Business Online policy, all targeted devices will be allowed access if they are enrolled in Intune.\n\nWhen you are ready, continue to **Step 3**.\n\n### <a name=\"BKMK_OneDrive\"></a>Step 3: Configure the Skype for Business Online policy\nNext, configure the policy to require that only managed and compliant devices can access Skype for Business Online. This policy will be will be stored in Azure Active Directory.\n\n#### <a name=\"bkmk_spopolicy\"></a>\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com), click **Policy** &gt; **Conditional Access** &gt; **Skype for Business Online Policy**.\n\n![conditional_access_SFBPolicy](/Image/conditional_access_SFBPolicy.png)\n\n2.  Select **Enable conditional access policy**.\n\n3.  Under **Device platforms**, you can choose to apply conditional access policy to:\n\n    -   **iOS**\n\n    -   **Android**\n\n4.  Under **Targeted Groups**, click **Modify** to select the Azure Active Directory security groups to which the policy will apply. You can choose to target this to all users or just a select group of users.\n\n5.  Under **Exempted Groups**, optionally, click **Modify** to select the Azure Active Directory security groups that are exempt from this policy.\n\n6.  When you are done, click **Save**.\n\nYou have now configured conditional access for Skype for Business Online. You do not have to deploy the conditional access policy, it takes effect immediately.\n\n\n## Monitor the compliance and conditional access policies\nIn the **Groups** workspace, you can view the conditional access status of your devices.\n\nSelect any mobile device group and then, on the **Devices** tab, select one of the following **Filters**:\n\n* **Devices that are not registered with AAD** – These devices are blocked from Skype for Business Online.\n\n* **Devices that are not compliant** – These devices are blocked from Skype for Business Online.\n\n* **Devices that are registered with AAD and compliant** – These devices can access Skype for Business Online.\n\n### See also\n[Manage access to email and O365 services](Manage-access-to-email-and-SharePoint-with-Microsoft-Intune.md)\n\n\n\n"
+}

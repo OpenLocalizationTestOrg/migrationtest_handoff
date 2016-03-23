@@ -1,0 +1,110 @@
+{
+  "nodes": [
+    {
+      "content": "Restrict web content to display in the Managed Browser with Microsoft Intune - deleted",
+      "pos": [
+        11,
+        97
+      ]
+    },
+    {
+      "content": "Restrict web content to display in the Managed Browser with Microsoft Intune - deleted",
+      "pos": [
+        283,
+        369
+      ]
+    },
+    {
+      "content": "The managed browser is a web browsing application.",
+      "pos": [
+        370,
+        420
+      ]
+    },
+    {
+      "content": "For devices that are not enrolled in Intune, you can restrict web content from policy-managed apps to only display in the Managed Browser app using the mobile app management policy.",
+      "pos": [
+        422,
+        603
+      ]
+    },
+    {
+      "pos": [
+        605,
+        879
+      ],
+      "content": "If you are using Intune to manage your devices, see the <bpt id=\"p1\">[</bpt>Manage Internet access using managed browser policies with Microsoft Intune<ept id=\"p1\">](../Topic/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md)</ept> topic to learn how to deploy a Managed Browser app."
+    },
+    {
+      "content": "Create a policy with Managed Browser policy setting",
+      "pos": [
+        884,
+        935
+      ]
+    },
+    {
+      "content": "In the Azure  portal, create an iOS or Android policy.",
+      "pos": [
+        941,
+        995
+      ]
+    },
+    {
+      "content": "See the <bpt id=\"p1\">[</bpt>Create and deploy mobile app management policies with Microsoft Intune<ept id=\"p1\">](../Topic/Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md)</ept> for detailed instructions on how to create a policy.",
+      "pos": [
+        997,
+        1214
+      ]
+    },
+    {
+      "content": "In the policy settings, set the <bpt id=\"p1\">**</bpt>Restrict web content to display in a corporate managed browser<ept id=\"p1\">**</ept> setting to <bpt id=\"p2\">**</bpt>Yes<ept id=\"p2\">**</ept>.",
+      "pos": [
+        1220,
+        1338
+      ]
+    },
+    {
+      "content": "When this setting is set to Yes, it opens any web links from other policy-managed apps to open only in the Managed Browser app.",
+      "pos": [
+        1339,
+        1466
+      ]
+    },
+    {
+      "content": "Deploy the policy to users.",
+      "pos": [
+        1472,
+        1499
+      ]
+    },
+    {
+      "content": "For devices that you are not managing, the end-user must install the Managed Browser app from the Apple store or Google Play to have the ability to open web links from policy-managed apps.",
+      "pos": [
+        1500,
+        1688
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        1693,
+        1701
+      ]
+    },
+    {
+      "content": "Create and deploy mobile app management policies with Microsoft Intune",
+      "pos": [
+        1703,
+        1773
+      ]
+    },
+    {
+      "content": "Configure data loss prevention app policies with Microsoft Intune",
+      "pos": [
+        1860,
+        1925
+      ]
+    }
+  ],
+  "content": "---\ntitle: Restrict web content to display in the Managed Browser with Microsoft Intune - deleted\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 35aa5d98-72ff-40d9-8954-f38d42f34e5b\nauthor: karthikaraman\n---\n# Restrict web content to display in the Managed Browser with Microsoft Intune - deleted\nThe managed browser is a web browsing application.  For devices that are not enrolled in Intune, you can restrict web content from policy-managed apps to only display in the Managed Browser app using the mobile app management policy.\n\nIf you are using Intune to manage your devices, see the [Manage Internet access using managed browser policies with Microsoft Intune](../Topic/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md) topic to learn how to deploy a Managed Browser app.\n\n## Create a policy with Managed Browser policy setting\n\n1.  In the Azure  portal, create an iOS or Android policy.  See the [Create and deploy mobile app management policies with Microsoft Intune](../Topic/Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md) for detailed instructions on how to create a policy.\n\n2.  In the policy settings, set the **Restrict web content to display in a corporate managed browser** setting to **Yes**. When this setting is set to Yes, it opens any web links from other policy-managed apps to open only in the Managed Browser app.\n\n3.  Deploy the policy to users. For devices that you are not managing, the end-user must install the Managed Browser app from the Apple store or Google Play to have the ability to open web links from policy-managed apps.\n\n## See Also\n[Create and deploy mobile app management policies with Microsoft Intune](../Topic/Create-and-deploy-mobile-app-management-policies-with-Microsoft-Intune.md)\n[Configure data loss prevention app policies with Microsoft Intune](../Topic/Configure-data-loss-prevention-app-policies-with-Microsoft-Intune.md)\n\n"
+}

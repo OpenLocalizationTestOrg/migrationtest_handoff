@@ -1,0 +1,371 @@
+{
+  "nodes": [
+    {
+      "content": "Passcode reset and remote lock",
+      "pos": [
+        11,
+        41
+      ]
+    },
+    {
+      "content": "Passcode reset and remote lock",
+      "pos": [
+        192,
+        222
+      ]
+    },
+    {
+      "content": "Insert introduction here.",
+      "pos": [
+        223,
+        248
+      ]
+    },
+    {
+      "content": "Passcode Reset",
+      "pos": [
+        253,
+        267
+      ]
+    },
+    {
+      "content": "If a user forgets their passcode, you can help them by removing the passcode from a device or by forcing a new temporary passcode on a device.",
+      "pos": [
+        268,
+        410
+      ]
+    },
+    {
+      "content": "The table below lists how passcode reset works on different mobile platforms.",
+      "pos": [
+        411,
+        488
+      ]
+    },
+    {
+      "content": "Platform",
+      "pos": [
+        491,
+        499
+      ]
+    },
+    {
+      "content": "Passcode Reset",
+      "pos": [
+        500,
+        514
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        551,
+        554
+      ]
+    },
+    {
+      "content": "Supported for clearing the passcode from a device.",
+      "pos": [
+        555,
+        605
+      ]
+    },
+    {
+      "content": "Does not create a new temporary passcode.",
+      "pos": [
+        606,
+        647
+      ]
+    },
+    {
+      "content": "Android",
+      "pos": [
+        650,
+        657
+      ]
+    },
+    {
+      "content": "Supported and a temporary passcode is created.",
+      "pos": [
+        658,
+        704
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        707,
+        744
+      ]
+    },
+    {
+      "content": "Supported",
+      "pos": [
+        745,
+        754
+      ]
+    },
+    {
+      "pos": [
+        757,
+        880
+      ],
+      "content": "<ph id=\"ph1\">[!INCLUDE[winblue_winrt_2](../Token/winblue_winrt_2_md.md)]</ph> and <ph id=\"ph2\">[!INCLUDE[win8RT_client_1](../Token/win8RT_client_1_md.md)]</ph>"
+    },
+    {
+      "content": "Not Supported",
+      "pos": [
+        881,
+        894
+      ]
+    },
+    {
+      "content": "Windows 8.1",
+      "pos": [
+        897,
+        908
+      ]
+    },
+    {
+      "content": "Not Supported",
+      "pos": [
+        909,
+        922
+      ]
+    },
+    {
+      "content": "To reset the passcode on a mobile device remotely through the Microsoft Intune Console",
+      "pos": [
+        930,
+        1016
+      ]
+    },
+    {
+      "pos": [
+        1022,
+        1169
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>All Devices<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>All Mobile Devices<ept id=\"p4\">**</ept>."
+    },
+    {
+      "pos": [
+        1175,
+        1337
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>All Direct Managed Devices<ept id=\"p1\">**</ept> for devices enrolled to <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> or <bpt id=\"p2\">**</bpt>All Exchange ActiveSync Managed Devices<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        1345,
+        1556
+      ],
+      "content": "[!TIP]\nYou can also navigate to a device by user. Click **All Users** and on the properties page for the user, click the **Devices** tab, and then click the name of the mobile device that you want to wipe.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "You can also navigate to a device by user. Click **All Users** and on the properties page for the user, click the **Devices** tab, and then click the name of the mobile device that you want to wipe.",
+          "pos": [
+            7,
+            205
+          ],
+          "nodes": [
+            {
+              "content": "You can also navigate to a device by user.",
+              "pos": [
+                0,
+                42
+              ]
+            },
+            {
+              "content": "Click <bpt id=\"p1\">**</bpt>All Users<ept id=\"p1\">**</ept> and on the properties page for the user, click the <bpt id=\"p2\">**</bpt>Devices<ept id=\"p2\">**</ept> tab, and then click the name of the mobile device that you want to wipe.",
+              "pos": [
+                43,
+                198
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        1562,
+        1703
+      ],
+      "content": "In the list, click the device or devices that you want to lock, and then on the taskbar click <bpt id=\"p1\">**</bpt>Remote Tasks<ept id=\"p1\">**</ept> and select <bpt id=\"p2\">**</bpt>Passcode Reset<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "Remote Lock",
+      "pos": [
+        1709,
+        1720
+      ]
+    },
+    {
+      "content": "If a user loses their device you can lock the device remotely.",
+      "pos": [
+        1721,
+        1783
+      ]
+    },
+    {
+      "content": "The table below lists how remote lock works on different mobile platforms.",
+      "pos": [
+        1784,
+        1858
+      ]
+    },
+    {
+      "content": "Platform",
+      "pos": [
+        1861,
+        1869
+      ]
+    },
+    {
+      "content": "Remote Lock",
+      "pos": [
+        1870,
+        1881
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        1915,
+        1918
+      ]
+    },
+    {
+      "content": "Supported",
+      "pos": [
+        1919,
+        1928
+      ]
+    },
+    {
+      "content": "Android",
+      "pos": [
+        1931,
+        1938
+      ]
+    },
+    {
+      "content": "Supported",
+      "pos": [
+        1939,
+        1948
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        1951,
+        1988
+      ]
+    },
+    {
+      "content": "Supported",
+      "pos": [
+        1989,
+        1998
+      ]
+    },
+    {
+      "pos": [
+        2001,
+        2124
+      ],
+      "content": "<ph id=\"ph1\">[!INCLUDE[winblue_winrt_2](../Token/winblue_winrt_2_md.md)]</ph> and <ph id=\"ph2\">[!INCLUDE[win8RT_client_1](../Token/win8RT_client_1_md.md)]</ph>"
+    },
+    {
+      "content": "Supported if the current user of the device is the same user who enrolled the device.",
+      "pos": [
+        2125,
+        2210
+      ]
+    },
+    {
+      "content": "Windows 8.1",
+      "pos": [
+        2213,
+        2224
+      ]
+    },
+    {
+      "content": "Supported if the current user of the device is the same user who enrolled the device.",
+      "pos": [
+        2225,
+        2310
+      ]
+    },
+    {
+      "content": "To lock a mobile device remotely through the Microsoft Intune Console",
+      "pos": [
+        2319,
+        2388
+      ]
+    },
+    {
+      "pos": [
+        2394,
+        2541
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>All Devices<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>All Mobile Devices<ept id=\"p4\">**</ept>."
+    },
+    {
+      "pos": [
+        2547,
+        2709
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>All Direct Managed Devices<ept id=\"p1\">**</ept> for devices enrolled to <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> or <bpt id=\"p2\">**</bpt>All Exchange ActiveSync Managed Devices<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        2717,
+        2928
+      ],
+      "content": "[!TIP]\nYou can also navigate to a device by user. Click **All Users** and on the properties page for the user, click the **Devices** tab, and then click the name of the mobile device that you want to wipe.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "You can also navigate to a device by user. Click **All Users** and on the properties page for the user, click the **Devices** tab, and then click the name of the mobile device that you want to wipe.",
+          "pos": [
+            7,
+            205
+          ],
+          "nodes": [
+            {
+              "content": "You can also navigate to a device by user.",
+              "pos": [
+                0,
+                42
+              ]
+            },
+            {
+              "content": "Click <bpt id=\"p1\">**</bpt>All Users<ept id=\"p1\">**</ept> and on the properties page for the user, click the <bpt id=\"p2\">**</bpt>Devices<ept id=\"p2\">**</ept> tab, and then click the name of the mobile device that you want to wipe.",
+              "pos": [
+                43,
+                198
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        2934,
+        3072
+      ],
+      "content": "In the list, click the device or devices that you want to lock, and then on the taskbar click <bpt id=\"p1\">**</bpt>Remote Tasks<ept id=\"p1\">**</ept> and select <bpt id=\"p2\">**</bpt>Remote Lock<ept id=\"p2\">**</ept>."
+    }
+  ],
+  "content": "---\ntitle: Passcode reset and remote lock\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 2c1e0dd3-23de-4182-9f68-007bc9e62363\nauthor: Lindavr\n---\n# Passcode reset and remote lock\nInsert introduction here.\n\n## Passcode Reset\nIf a user forgets their passcode, you can help them by removing the passcode from a device or by forcing a new temporary passcode on a device. The table below lists how passcode reset works on different mobile platforms.\n\n|Platform|Passcode Reset|\n|------------|------------------|\n|iOS|Supported for clearing the passcode from a device. Does not create a new temporary passcode.|\n|Android|Supported and a temporary passcode is created.|\n|Windows Phone 8 and Windows Phone 8.1|Supported|\n|[!INCLUDE[winblue_winrt_2](../Token/winblue_winrt_2_md.md)] and [!INCLUDE[win8RT_client_1](../Token/win8RT_client_1_md.md)]|Not Supported|\n|Windows 8.1|Not Supported|\n\n#### To reset the passcode on a mobile device remotely through the Microsoft Intune Console\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com/), click **Groups** &gt; **All Devices** &gt; **All Mobile Devices**.\n\n2.  Click **All Direct Managed Devices** for devices enrolled to [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] or **All Exchange ActiveSync Managed Devices**.\n\n    > [!TIP]\n    > You can also navigate to a device by user. Click **All Users** and on the properties page for the user, click the **Devices** tab, and then click the name of the mobile device that you want to wipe.\n\n3.  In the list, click the device or devices that you want to lock, and then on the taskbar click **Remote Tasks** and select **Passcode Reset**.\n\n### Remote Lock\nIf a user loses their device you can lock the device remotely. The table below lists how remote lock works on different mobile platforms.\n\n|Platform|Remote Lock|\n|------------|---------------|\n|iOS|Supported|\n|Android|Supported|\n|Windows Phone 8 and Windows Phone 8.1|Supported|\n|[!INCLUDE[winblue_winrt_2](../Token/winblue_winrt_2_md.md)] and [!INCLUDE[win8RT_client_1](../Token/win8RT_client_1_md.md)]|Supported if the current user of the device is the same user who enrolled the device.|\n|Windows 8.1|Supported if the current user of the device is the same user who enrolled the device.|\n\n##### To lock a mobile device remotely through the Microsoft Intune Console\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com/), click **Groups** &gt; **All Devices** &gt; **All Mobile Devices**.\n\n2.  Click **All Direct Managed Devices** for devices enrolled to [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] or **All Exchange ActiveSync Managed Devices**.\n\n    > [!TIP]\n    > You can also navigate to a device by user. Click **All Users** and on the properties page for the user, click the **Devices** tab, and then click the name of the mobile device that you want to wipe.\n\n3.  In the list, click the device or devices that you want to lock, and then on the taskbar click **Remote Tasks** and select **Remote Lock**.\n\n"
+}

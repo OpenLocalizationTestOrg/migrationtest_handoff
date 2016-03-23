@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">ht</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">5d51e1d5e73c59eaad8236d69bec07e46fca5f54</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Set up email access for iOS devices using Microsoft Intune</source>
+          <target>Set up email access for iOS devices using Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Set up email access for iOS devices using Microsoft Intune</source>
+          <target>Set up email access for iOS devices using Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](/Token/wit_firstref.xml)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>When devices are enrolled with <ph dataRef="id1" id="ph1" />, you can configure the devices so that their users can acess company email.</source>
+          <target>When devices are enrolled with <ph dataRef="id1" id="ph1" />, you can configure the devices so that their users can acess company email.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>One way to accomplish that for specific device types is to create and deploy an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">email profile</pc>.</source>
+          <target>One way to accomplish that for specific device types is to create and deploy an <pc dataRefEnd="id2" dataRefStart="id1" id="p1">email profile</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](/Token/wit_nextref.xml)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Email profiles are a kind of <ph dataRef="id1" id="ph1" /> policy that sets up and connects a user’s device to your company email service.</source>
+          <target>Email profiles are a kind of <ph dataRef="id1" id="ph1" /> policy that sets up and connects a user’s device to your company email service.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Using an email profile makes email access automatic for enrolled devices, which avoids manually having to set up the device and any potential problems that might arise doing so.</source>
+          <target>Using an email profile makes email access automatic for enrolled devices, which avoids manually having to set up the device and any potential problems that might arise doing so.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Also, an email profile ensures that all end users are setting up access in the same way and with the same basic settings.</source>
+          <target>Also, an email profile ensures that all end users are setting up access in the same way and with the same basic settings.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Goals of this walkthrough</source>
+          <target>Goals of this walkthrough</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>To create and deploy an email profile for iOS devices</source>
+          <target>To create and deploy an email profile for iOS devices</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>To verify that the email profile policy has been applied succesfully</source>
+          <target>To verify that the email profile policy has been applied succesfully</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>What you need before starting this walkthrough</source>
+          <target>What you need before starting this walkthrough</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>An Exchange Server, either on-premises or hosted on Azure as part of your Office/E3 subscription</source>
+          <target>An Exchange Server, either on-premises or hosted on Azure as part of your Office/E3 subscription</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>The host name of your company’s Exchange server.</source>
+          <target>The host name of your company’s Exchange server.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>This is the fully qualified domain name (FQDN).</source>
+          <target>This is the fully qualified domain name (FQDN).</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">contosodemo55.onmicrosoft.com</pc>.</source>
+          <target>For example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">contosodemo55.onmicrosoft.com</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>A user group to deploy the email profile to.</source>
+          <target>A user group to deploy the email profile to.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you completed the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start a Microsoft Intune trial and deploy iOS PIN policy</pc> walkthrough, you can use the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">GroupDemo</pc> user group you created for it.</source>
+          <target>If you completed the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start a Microsoft Intune trial and deploy iOS PIN policy</pc> walkthrough, you can use the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">GroupDemo</pc> user group you created for it.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Enrolled iOS devices to deploy the profile to.</source>
+          <target>Enrolled iOS devices to deploy the profile to.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](Start-a-Microsoft-Intune-trial-and-deploy-iOS-PIN-policy.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Again, if you completed the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start a Microsoft Intune trial and deploy iOS PIN policy</pc> walkthrough, you will have enrolled some iOS devices.</source>
+          <target>Again, if you completed the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start a Microsoft Intune trial and deploy iOS PIN policy</pc> walkthrough, you will have enrolled some iOS devices.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Steps for creating and deploying an email profile for iOS devices</source>
+          <target>Steps for creating and deploying an email profile for iOS devices</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>For this walkthrough we will be using the hosted Exchange server that comes with an E3 trial subscription.</source>
+          <target>For this walkthrough we will be using the hosted Exchange server that comes with an E3 trial subscription.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](/Token/wit_firstref.xml)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <ph dataRef="id1" id="ph1" /> console, click <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Policy</pc>, and then click <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Add Policy</pc>.</source>
+          <target>In the <ph dataRef="id1" id="ph1" /> console, click <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Policy</pc>, and then click <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">![</data>
+          <data id="id2">](/Image/Email-Walkthrough/Email-Walkthrough-1.png)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 1<ph dataRef="id2" id="ph2" /></source>
+          <target>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 1<ph dataRef="id2" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a New Policy</pc> dialog box, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">iOS</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Email Profile</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Create Policy</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a New Policy</pc> dialog box, expand <pc dataRefEnd="id4" dataRefStart="id3" id="p2">iOS</pc>, select <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Email Profile</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Create Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">![</data>
+          <data id="id2">](/Image/Email-Walkthrough/Email-Walkthrough-2.png)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 2<ph dataRef="id2" id="ph2" /></source>
+          <target>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 2<ph dataRef="id2" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the create policy page, enter a name for the policy, like <pc dataRefEnd="id2" dataRefStart="id1" id="p1">iOS email profile - user-password</pc>, and a description.</source>
+          <target>On the create policy page, enter a name for the policy, like <pc dataRefEnd="id2" dataRefStart="id1" id="p1">iOS email profile - user-password</pc>, and a description.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>You might have multiple email profiles for different device types and different authentication methods, so you can use the name to show what the profile is for.</source>
+          <target>You might have multiple email profiles for different device types and different authentication methods, so you can use the name to show what the profile is for.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Enter the Exchange host name.</source>
+          <target>Enter the Exchange host name.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Since we are using the Exchange server hosted on Azure, for hostname we simply input: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">outlook.office365.com</pc></source>
+          <target>Since we are using the Exchange server hosted on Azure, for hostname we simply input: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">outlook.office365.com</pc></target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">![</data>
+          <data id="id2">](/Image/Email-Walkthrough/Email-Walkthrough-3.png)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 3<ph dataRef="id2" id="ph2" /></source>
+          <target>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 3<ph dataRef="id2" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Enter the account name that will be shown to users of the device to help them identify the email service.</source>
+          <target>Enter the account name that will be shown to users of the device to help them identify the email service.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contoso Email</pc>.</source>
+          <target>For example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contoso Email</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Since we’re using username and password to authenticate the user for the Exchange service, just leave the username and password settings the way they are.</source>
+          <target>Since we’re using username and password to authenticate the user for the Exchange service, just leave the username and password settings the way they are.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Adjust the synchronization settings to meet your requirements.</source>
+          <target>Adjust the synchronization settings to meet your requirements.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>For now, just use the defaults, unless there’s a specific one you want to change.</source>
+          <target>For now, just use the defaults, unless there’s a specific one you want to change.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>A dialog box appears asking if you want to deploy the policy now.</source>
+          <target>A dialog box appears asking if you want to deploy the policy now.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">![</data>
+          <data id="id2">](/Image/Email-Walkthrough/Email-Walkthrough-4.png)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 4<ph dataRef="id2" id="ph2" /></source>
+          <target>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 4<ph dataRef="id2" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the window that appears next, select the user group you want to deploy the email profile to, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</source>
+          <target>In the window that appears next, select the user group you want to deploy the email profile to, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">![</data>
+          <data id="id2">](/Image/Email-Walkthrough/Email-Walkthrough-5.png)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 5<ph dataRef="id2" id="ph2" /></source>
+          <target>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 5<ph dataRef="id2" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After you click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>, the policy will start to flow down to enrolled devices in a minute or two.</source>
+          <target>After you click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>, the policy will start to flow down to enrolled devices in a minute or two.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>Steps to verify that the profile has been successfully applied</source>
+          <target>Steps to verify that the profile has been successfully applied</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>To verify that the profile has been applied, you will need access to one of the devices to which you deployed the email profile.</source>
+          <target>To verify that the profile has been applied, you will need access to one of the devices to which you deployed the email profile.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>On the iOS device, open the Mail app.</source>
+          <target>On the iOS device, open the Mail app.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>The app will prompt you for the user’s email username and password.</source>
+          <target>The app will prompt you for the user’s email username and password.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Email Walkthrough 6</source>
+          <target>Email Walkthrough 6</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter the username and password for the user’s Exchange email account, and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</source>
+          <target>Enter the username and password for the user’s Exchange email account, and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>The Mail app opens to the Exchange account, and email begins synchronizing to the device.</source>
+          <target>The Mail app opens to the Exchange account, and email begins synchronizing to the device.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">![</data>
+          <data id="id2">](/Image/Email-Walkthrough/Email-Walkthrough-7.png)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 7<ph dataRef="id2" id="ph2" /></source>
+          <target>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 7<ph dataRef="id2" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Check the account settings in for the Mail app to make sure the account name is the same one you entered in the email profile (for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contoso Mail</pc>) and the synchronization settings are set correctly.</source>
+          <target>Check the account settings in for the Mail app to make sure the account name is the same one you entered in the email profile (for example, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Contoso Mail</pc>) and the synchronization settings are set correctly.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">![</data>
+          <data id="id2">](/Image/Email-Walkthrough/Email-Walkthrough-8.png)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 8<ph dataRef="id2" id="ph2" /></source>
+          <target>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 8<ph dataRef="id2" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Email Walkthrough 9</source>
+          <target>Email Walkthrough 9</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>If it appears the email profile hasn’t been automatically applied to the device, you can manually apply the policy using the Company Portal app on the device.</source>
+          <target>If it appears the email profile hasn’t been automatically applied to the device, you can manually apply the policy using the Company Portal app on the device.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Open the Company Portal app.</source>
+          <target>Open the Company Portal app.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">My Devices</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">My Devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Tap the name of your device.</source>
+          <target>Tap the name of your device.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Email Walkthrough 10</source>
+          <target>Email Walkthrough 10</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sync</pc> &gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Check Compliance</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sync</pc> &gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Check Compliance</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">![</data>
+          <data id="id2">](/Image/Email-Walkthrough/Email-Walkthrough-11.png)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 11<ph dataRef="id2" id="ph2" /></source>
+          <target>
+            <ph dataRef="id1" id="ph1" />Email Walkthrough 11<ph dataRef="id2" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>After a few moments the email profile gets applied to the device.</source>
+          <target>After a few moments the email profile gets applied to the device.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>After that, you can follow the verification steps to make sure the profile was applied correctly.</source>
+          <target>After that, you can follow the verification steps to make sure the profile was applied correctly.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](Email-access.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Learn more about email profiles, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure access to corporate email using email profiles with Microsoft Intune</pc></source>
+          <target>Learn more about email profiles, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure access to corporate email using email profiles with Microsoft Intune</pc></target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Learn more about policies, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc></source>
+          <target>Learn more about policies, <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use policies to manage computers and mobile devices with Microsoft Intune</pc></target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <segment state="initial">
+          <source>Common Microsoft Intune evaluation tasks</source>
+          <target>Common Microsoft Intune evaluation tasks</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Start a Microsoft Intune trial and deploy iOS PIN policy</source>
+          <target>Start a Microsoft Intune trial and deploy iOS PIN policy</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

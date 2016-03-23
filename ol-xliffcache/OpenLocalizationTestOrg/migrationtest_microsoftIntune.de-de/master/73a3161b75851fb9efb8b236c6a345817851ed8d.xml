@@ -1,0 +1,945 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - Manage Internet access using managed browser policies with Microsoft Intune",
+      "pos": [
+        11,
+        102
+      ]
+    },
+    {
+      "content": "MD Conversion - Manage Internet access using managed browser policies with Microsoft Intune",
+      "pos": [
+        237,
+        328
+      ]
+    },
+    {
+      "content": "The managed browser is a web browsing application that you can deploy in your organization using <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph>.",
+      "pos": [
+        329,
+        480
+      ]
+    },
+    {
+      "content": "A managed browser policy configures an allow list or a block list that restricts the web sites that users of the managed browser can visit.",
+      "pos": [
+        481,
+        620
+      ]
+    },
+    {
+      "content": "Because this app is a managed app, you can also apply mobile application management policies to the app, such as controlling the use of cut, copy and paste, preventing screen captures, and also ensuring that links to content that users click only open in other managed apps.",
+      "pos": [
+        622,
+        896
+      ]
+    },
+    {
+      "content": "For details, see <bpt id=\"p1\">[</bpt>Configure and deploy mobile application management policies in the Microsoft Intune console<ept id=\"p1\">](../Topic/Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md)</ept>.",
+      "pos": [
+        897,
+        1113
+      ]
+    },
+    {
+      "pos": [
+        1117,
+        1587
+      ],
+      "content": "[!IMPORTANT]\nIf users install the managed browser themselves on an iOS device with a version less than iOS 9, it will not be managed by any policies you create. To ensure that the browser is managed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], they must uninstall the app before you can deploy it to them as a managed app. On iOS 9 and later, if the user installs the managed browser themselves they will be prompted to allow it to become managed by policy.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "If users install the managed browser themselves on an iOS device with a version less than iOS 9, it will not be managed by any policies you create. To ensure that the browser is managed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], they must uninstall the app before you can deploy it to them as a managed app. On iOS 9 and later, if the user installs the managed browser themselves they will be prompted to allow it to become managed by policy.",
+          "pos": [
+            13,
+            468
+          ],
+          "nodes": [
+            {
+              "content": "If users install the managed browser themselves on an iOS device with a version less than iOS 9, it will not be managed by any policies you create.",
+              "pos": [
+                0,
+                147
+              ]
+            },
+            {
+              "content": "To ensure that the browser is managed by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, they must uninstall the app before you can deploy it to them as a managed app.",
+              "pos": [
+                148,
+                320
+              ]
+            },
+            {
+              "content": "On iOS 9 and later, if the user installs the managed browser themselves they will be prompted to allow it to become managed by policy.",
+              "pos": [
+                321,
+                455
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "You can create managed browser policies for the following device types:",
+      "pos": [
+        1589,
+        1660
+      ]
+    },
+    {
+      "content": "Devices that run Android 4 and later",
+      "pos": [
+        1666,
+        1702
+      ]
+    },
+    {
+      "content": "Devices that run iOS 7.1 and later",
+      "pos": [
+        1708,
+        1742
+      ]
+    },
+    {
+      "pos": [
+        1744,
+        2041
+      ],
+      "content": "The <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> Managed Browser supports opening web content from <bpt id=\"p1\">[</bpt>Microsoft apps you can use with Microsoft Intune mobile application management policies<ept id=\"p1\">](../Topic/Microsoft-apps-you-can-use-with-Microsoft-Intune-mobile-application-management-policies.md)</ept>."
+    },
+    {
+      "content": "Create a managed browser policy",
+      "pos": [
+        2046,
+        2077
+      ]
+    },
+    {
+      "pos": [
+        2083,
+        2200
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com)</ept>, click <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Add Policy<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        2206,
+        2263
+      ],
+      "content": "Configure one of the following <bpt id=\"p1\">**</bpt>Software<ept id=\"p1\">**</ept> policy types:"
+    },
+    {
+      "content": "Managed Browser Policy (Android 4 and later)",
+      "pos": [
+        2275,
+        2319
+      ]
+    },
+    {
+      "content": "Managed Browser Policy (iOS 7.1 and later)",
+      "pos": [
+        2333,
+        2375
+      ]
+    },
+    {
+      "pos": [
+        2383,
+        2622
+      ],
+      "content": "For more information about how to create and deploy policies, see the <bpt id=\"p1\">[</bpt>Use policies to manage computers and mobile devices with Microsoft Intune<ept id=\"p1\">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</ept> topic."
+    },
+    {
+      "content": "Use the following table to help you configure the managed browser policy settings:",
+      "pos": [
+        2628,
+        2710
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        2717,
+        2729
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        2730,
+        2746
+      ]
+    },
+    {
+      "content": "Name",
+      "pos": [
+        2799,
+        2803
+      ]
+    },
+    {
+      "pos": [
+        2806,
+        2948
+      ],
+      "content": "Enter a unique name for the managed browser policy to help you identify it in the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> console."
+    },
+    {
+      "content": "Description",
+      "pos": [
+        2957,
+        2968
+      ]
+    },
+    {
+      "content": "Provide a description that gives an overview of the managed browser policy and other relevant information that helps you to locate it.",
+      "pos": [
+        2971,
+        3105
+      ]
+    },
+    {
+      "content": "Enable an allow list or block list to restrict the URLs the Managed Browser can open",
+      "pos": [
+        3114,
+        3198
+      ]
+    },
+    {
+      "content": "Select one of the following options:",
+      "pos": [
+        3201,
+        3237
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Allow the managed browser to open only the URLs listed below<ept id=\"p1\">**</ept> – Specify a list of URLs that the managed browser can open.",
+      "pos": [
+        3249,
+        3373
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Block the managed browser from opening the URLs listed below<ept id=\"p1\">**</ept> – Specify a list of URLs that the managed browser will be blocked from opening.",
+      "pos": [
+        3385,
+        3529
+      ]
+    },
+    {
+      "content": "For more information about the URL formats you can specify, see <bpt id=\"p1\">[</bpt>URL format for allowed and blocked URLs<ept id=\"p1\">](../Topic/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md#BKMK_URLs)</ept> in this topic.",
+      "pos": [
+        3541,
+        3760
+      ]
+    },
+    {
+      "pos": [
+        3767,
+        3812
+      ],
+      "content": "When you are finished, click <bpt id=\"p1\">**</bpt>Save Policy<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        3814,
+        3905
+      ],
+      "content": "The new policy displays in the <bpt id=\"p1\">**</bpt>Configuration Policies<ept id=\"p1\">**</ept> node of the <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> workspace."
+    },
+    {
+      "content": "Create a software deployment for the managed browser app",
+      "pos": [
+        3910,
+        3966
+      ]
+    },
+    {
+      "content": "After you have created the managed browser policy, you can then create a software deployment for the managed browser app, and associate it with the managed browser policy you created.",
+      "pos": [
+        3967,
+        4150
+      ]
+    },
+    {
+      "pos": [
+        4154,
+        4378
+      ],
+      "content": "[!IMPORTANT]\nManaged browser policies are not deployed in the same way as other [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] polices. This type of policy must be associated with the managed browser software package.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "Managed browser policies are not deployed in the same way as other [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] polices. This type of policy must be associated with the managed browser software package.",
+          "pos": [
+            13,
+            222
+          ],
+          "nodes": [
+            {
+              "content": "Managed browser policies are not deployed in the same way as other <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> polices.",
+              "pos": [
+                0,
+                127
+              ]
+            },
+            {
+              "content": "This type of policy must be associated with the managed browser software package.",
+              "pos": [
+                128,
+                209
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        4380,
+        4523
+      ],
+      "content": "Deploy the app, ensuring that you select the managed browser policy on the <bpt id=\"p1\">**</bpt>Mobile App Management<ept id=\"p1\">**</ept> page to associate the policy with the app."
+    },
+    {
+      "pos": [
+        4525,
+        4711
+      ],
+      "content": "For more information about how to deploy apps, see <bpt id=\"p1\">[</bpt>Deploy apps to mobile devices in Microsoft Intune - deleted<ept id=\"p1\">](../Topic/Deploy-apps-to-mobile-devices-in-Microsoft-Intune---deleted.md)</ept>."
+    },
+    {
+      "content": "Security and privacy for the managed browser",
+      "pos": [
+        4716,
+        4760
+      ]
+    },
+    {
+      "content": "On iOS devices, web sites that users visit that have an expired or untrusted certificate cannot be opened.",
+      "pos": [
+        4766,
+        4872
+      ]
+    },
+    {
+      "content": "Settings that users make for the built-in browser on their devices are not used by the managed browser.",
+      "pos": [
+        4878,
+        4981
+      ]
+    },
+    {
+      "content": "This is because the managed browser does not have access to these settings.",
+      "pos": [
+        4982,
+        5057
+      ]
+    },
+    {
+      "pos": [
+        5063,
+        5436
+      ],
+      "content": "If you configure the options <bpt id=\"p1\">**</bpt>Require simple PIN for access<ept id=\"p1\">**</ept> or <bpt id=\"p2\">**</bpt>Require corporate credentials for access<ept id=\"p2\">**</ept> in a mobile application management policy associated with the managed browser and a user clicks the help link on the authentication page, they can then browse any Internet sites regardless of whether they were added to a block list in the managed browser policy."
+    },
+    {
+      "content": "The managed browser can only block access to sites when they are accessed directly.",
+      "pos": [
+        5442,
+        5525
+      ]
+    },
+    {
+      "content": "It cannot block access when intermediate services (such as a translation service) are used to access the site.",
+      "pos": [
+        5526,
+        5636
+      ]
+    },
+    {
+      "pos": [
+        5642,
+        5863
+      ],
+      "content": "To allow authentication, and to ensure that <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> documentation can be accessed,<bpt id=\"p1\">**</bpt>&amp;#42;.microsoft.com<ept id=\"p1\">**</ept> is exempt from the allow or block list settings – it is always allowed."
+    },
+    {
+      "content": "Turn off usage data",
+      "pos": [
+        5869,
+        5888
+      ]
+    },
+    {
+      "content": "Microsoft automatically collects anonymous data about the performance and use of the managed browser to improve Microsoft products and services, but users can turn off data collection by using the <bpt id=\"p1\">**</bpt>Usage Data<ept id=\"p1\">**</ept> setting on their device.",
+      "pos": [
+        5889,
+        6125
+      ]
+    },
+    {
+      "content": "You have no control over the collection of this data.",
+      "pos": [
+        6126,
+        6179
+      ]
+    },
+    {
+      "content": "Reference information",
+      "pos": [
+        6184,
+        6205
+      ]
+    },
+    {
+      "pos": [
+        6211,
+        6274
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_URLs\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>URL format for allowed and blocked URLs"
+    },
+    {
+      "content": "Use the following information to learn about the allowed formats and wildcards you can use when specifying URLs in the allowed and blocked lists.",
+      "pos": [
+        6275,
+        6420
+      ]
+    },
+    {
+      "pos": [
+        6426,
+        6530
+      ],
+      "content": "You can use the wildcard symbol ‘<bpt id=\"p1\">**</bpt>&amp;#42;<ept id=\"p1\">**</ept>’ according to the rules in the permitted patterns list below."
+    },
+    {
+      "pos": [
+        6536,
+        6628
+      ],
+      "content": "Ensure that you prefix all URLs with <bpt id=\"p1\">**</bpt>http<ept id=\"p1\">**</ept> or <bpt id=\"p2\">**</bpt>https<ept id=\"p2\">**</ept> when entering them into the list."
+    },
+    {
+      "content": "You can specify port numbers in the address.",
+      "pos": [
+        6634,
+        6678
+      ]
+    },
+    {
+      "content": "If you do not specify a port number, the values used will be:",
+      "pos": [
+        6679,
+        6740
+      ]
+    },
+    {
+      "content": "Port 80 for http",
+      "pos": [
+        6750,
+        6766
+      ]
+    },
+    {
+      "content": "Port 443 for https",
+      "pos": [
+        6776,
+        6794
+      ]
+    },
+    {
+      "pos": [
+        6800,
+        6938
+      ],
+      "content": "Using wildcards for the port number is not supported, for example, <bpt id=\"p1\">**</bpt>http://www.contoso.com:&amp;#42;<ept id=\"p1\">**</ept> and <bpt id=\"p2\">**</bpt>http://www.contoso.com: /&amp;#42;<ept id=\"p2\">**</ept>"
+    },
+    {
+      "content": "Use the following table to learn about the permitted patterns you can use when you specify URLs:",
+      "pos": [
+        6944,
+        7040
+      ]
+    },
+    {
+      "content": "URL",
+      "pos": [
+        7047,
+        7050
+      ]
+    },
+    {
+      "content": "Description",
+      "pos": [
+        7051,
+        7062
+      ]
+    },
+    {
+      "content": "Matches",
+      "pos": [
+        7063,
+        7070
+      ]
+    },
+    {
+      "content": "Does not match",
+      "pos": [
+        7071,
+        7085
+      ]
+    },
+    {
+      "content": "http://www.contoso.com",
+      "pos": [
+        7153,
+        7175
+      ]
+    },
+    {
+      "content": "Matches a single page",
+      "pos": [
+        7176,
+        7197
+      ]
+    },
+    {
+      "content": "www.contoso.com",
+      "pos": [
+        7198,
+        7213
+      ]
+    },
+    {
+      "content": "host.contoso.com",
+      "pos": [
+        7214,
+        7230
+      ]
+    },
+    {
+      "content": "www.contoso.com/images",
+      "pos": [
+        7242,
+        7264
+      ]
+    },
+    {
+      "content": "contoso.com/",
+      "pos": [
+        7276,
+        7288
+      ]
+    },
+    {
+      "content": "http://contoso.com",
+      "pos": [
+        7295,
+        7313
+      ]
+    },
+    {
+      "content": "Matches a single page",
+      "pos": [
+        7314,
+        7335
+      ]
+    },
+    {
+      "content": "contoso.com/",
+      "pos": [
+        7336,
+        7348
+      ]
+    },
+    {
+      "content": "host.contoso.com",
+      "pos": [
+        7349,
+        7365
+      ]
+    },
+    {
+      "content": "www.contoso.com/images",
+      "pos": [
+        7377,
+        7399
+      ]
+    },
+    {
+      "content": "www.contoso.com",
+      "pos": [
+        7411,
+        7426
+      ]
+    },
+    {
+      "content": "http://www.contoso.com/&amp;#42;",
+      "pos": [
+        7433,
+        7461
+      ]
+    },
+    {
+      "content": "Matches all URLs beginning with www.contoso.com",
+      "pos": [
+        7462,
+        7509
+      ]
+    },
+    {
+      "content": "www.contoso.com",
+      "pos": [
+        7510,
+        7525
+      ]
+    },
+    {
+      "content": "www.contoso.com/images",
+      "pos": [
+        7537,
+        7559
+      ]
+    },
+    {
+      "content": "www.contoso.com/videos/tvshows",
+      "pos": [
+        7571,
+        7601
+      ]
+    },
+    {
+      "content": "host.contoso.com",
+      "pos": [
+        7602,
+        7618
+      ]
+    },
+    {
+      "content": "host.contoso.com/images",
+      "pos": [
+        7630,
+        7653
+      ]
+    },
+    {
+      "content": "http://&amp;#42;.contoso.com/&amp;#42;",
+      "pos": [
+        7660,
+        7690
+      ]
+    },
+    {
+      "content": "Matches all sub-domains under contoso.com",
+      "pos": [
+        7691,
+        7732
+      ]
+    },
+    {
+      "content": "developer.contoso.com/resources",
+      "pos": [
+        7733,
+        7764
+      ]
+    },
+    {
+      "content": "news.contoso.com/images",
+      "pos": [
+        7776,
+        7799
+      ]
+    },
+    {
+      "content": "news.contoso.com/videos",
+      "pos": [
+        7811,
+        7834
+      ]
+    },
+    {
+      "content": "contoso.host.com",
+      "pos": [
+        7835,
+        7851
+      ]
+    },
+    {
+      "content": "http://www.contoso.com/images",
+      "pos": [
+        7858,
+        7887
+      ]
+    },
+    {
+      "content": "Matches a single folder",
+      "pos": [
+        7888,
+        7911
+      ]
+    },
+    {
+      "content": "www.contoso.com/images",
+      "pos": [
+        7912,
+        7934
+      ]
+    },
+    {
+      "content": "www.contoso.com/images/dogs",
+      "pos": [
+        7935,
+        7962
+      ]
+    },
+    {
+      "content": "http://www.contoso.com:80",
+      "pos": [
+        7969,
+        7994
+      ]
+    },
+    {
+      "content": "Matches a single page, using a port number",
+      "pos": [
+        7995,
+        8037
+      ]
+    },
+    {
+      "content": "http://www.contoso.com:80",
+      "pos": [
+        8038,
+        8063
+      ]
+    },
+    {
+      "content": "https://www.contoso.com",
+      "pos": [
+        8071,
+        8094
+      ]
+    },
+    {
+      "content": "Matches a single, secure page",
+      "pos": [
+        8095,
+        8124
+      ]
+    },
+    {
+      "content": "https://www.contoso.com",
+      "pos": [
+        8125,
+        8148
+      ]
+    },
+    {
+      "content": "http://www.contoso.com",
+      "pos": [
+        8149,
+        8171
+      ]
+    },
+    {
+      "content": "http://www.contoso.com/images/&amp;#42;",
+      "pos": [
+        8178,
+        8213
+      ]
+    },
+    {
+      "content": "Matches a single folder and all subfolders",
+      "pos": [
+        8214,
+        8256
+      ]
+    },
+    {
+      "content": "www.contoso.com/images/dogs",
+      "pos": [
+        8257,
+        8284
+      ]
+    },
+    {
+      "content": "www.contoso.com/images/cats",
+      "pos": [
+        8296,
+        8323
+      ]
+    },
+    {
+      "content": "www.contoso.com/videos",
+      "pos": [
+        8324,
+        8346
+      ]
+    },
+    {
+      "content": "The following are examples of some of the inputs you cannot specify:",
+      "pos": [
+        8353,
+        8421
+      ]
+    },
+    {
+      "content": "&amp;#42;.com",
+      "pos": [
+        8431,
+        8440
+      ]
+    },
+    {
+      "content": "&amp;#42;.contoso/&amp;#42;",
+      "pos": [
+        8450,
+        8469
+      ]
+    },
+    {
+      "content": "www.contoso.com/&amp;#42;images",
+      "pos": [
+        8479,
+        8506
+      ]
+    },
+    {
+      "content": "www.contoso.com/&amp;#42;images&amp;#42;pigs",
+      "pos": [
+        8516,
+        8552
+      ]
+    },
+    {
+      "content": "www.contoso.com/page&amp;#42;",
+      "pos": [
+        8562,
+        8587
+      ]
+    },
+    {
+      "content": "IP addresses",
+      "pos": [
+        8597,
+        8609
+      ]
+    },
+    {
+      "content": "https://&amp;#42;",
+      "pos": [
+        8619,
+        8632
+      ]
+    },
+    {
+      "content": "http://&amp;#42;",
+      "pos": [
+        8642,
+        8654
+      ]
+    },
+    {
+      "content": "http://www.contoso.com:&amp;#42;",
+      "pos": [
+        8664,
+        8692
+      ]
+    },
+    {
+      "content": "http://www.contoso.com: /&amp;#42;",
+      "pos": [
+        8702,
+        8732
+      ]
+    },
+    {
+      "content": "How conflicts between the allow and block list are resolved",
+      "pos": [
+        8738,
+        8797
+      ]
+    },
+    {
+      "content": "If multiple managed browser policies are deployed to a device and the settings conflict, both the mode (allow or block) and the URL lists are evaluated for conflicts.",
+      "pos": [
+        8798,
+        8964
+      ]
+    },
+    {
+      "content": "In case of a conflict, the following behavior applies:",
+      "pos": [
+        8965,
+        9019
+      ]
+    },
+    {
+      "content": "If the modes in each policy are the same, but the URL lists are different, the URLs will not be enforced on the device.",
+      "pos": [
+        9025,
+        9144
+      ]
+    },
+    {
+      "content": "If the modes in each policy are different, but the URL lists are the same, the URLs will not be enforced on the device.",
+      "pos": [
+        9150,
+        9269
+      ]
+    },
+    {
+      "content": "If a device is receiving managed browser policies for the first time and two policies conflict, the URLs will not be enforced on the device.",
+      "pos": [
+        9275,
+        9415
+      ]
+    },
+    {
+      "content": "Use the <bpt id=\"p1\">**</bpt>Policy Conflicts<ept id=\"p1\">**</ept> node of the <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> workspace to view the conflicts.",
+      "pos": [
+        9416,
+        9500
+      ]
+    },
+    {
+      "content": "If a device has already received a managed browser policy and a second policy is deployed with conflicting settings, the original settings remain on the device.",
+      "pos": [
+        9506,
+        9666
+      ]
+    },
+    {
+      "content": "Use the <bpt id=\"p1\">**</bpt>Policy Conflicts<ept id=\"p1\">**</ept> node of the <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> workspace to view the conflicts.",
+      "pos": [
+        9667,
+        9751
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        9756,
+        9764
+      ]
+    },
+    {
+      "content": "Enable access to company resources with Microsoft Intune - deleted",
+      "pos": [
+        9766,
+        9832
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - Manage Internet access using managed browser policies with Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 3837a995-65e5-49a1-9bec-98fe5bd5ffb4\n---\n# MD Conversion - Manage Internet access using managed browser policies with Microsoft Intune\nThe managed browser is a web browsing application that you can deploy in your organization using [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]. A managed browser policy configures an allow list or a block list that restricts the web sites that users of the managed browser can visit.\n\nBecause this app is a managed app, you can also apply mobile application management policies to the app, such as controlling the use of cut, copy and paste, preventing screen captures, and also ensuring that links to content that users click only open in other managed apps. For details, see [Configure and deploy mobile application management policies in the Microsoft Intune console](../Topic/Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md).\n\n> [!IMPORTANT]\n> If users install the managed browser themselves on an iOS device with a version less than iOS 9, it will not be managed by any policies you create. To ensure that the browser is managed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], they must uninstall the app before you can deploy it to them as a managed app. On iOS 9 and later, if the user installs the managed browser themselves they will be prompted to allow it to become managed by policy.\n\nYou can create managed browser policies for the following device types:\n\n-   Devices that run Android 4 and later\n\n-   Devices that run iOS 7.1 and later\n\nThe [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] Managed Browser supports opening web content from [Microsoft apps you can use with Microsoft Intune mobile application management policies](../Topic/Microsoft-apps-you-can-use-with-Microsoft-Intune-mobile-application-management-policies.md).\n\n## Create a managed browser policy\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com), click **Policy** &gt; **Add Policy**.\n\n2.  Configure one of the following **Software** policy types:\n\n    -   **Managed Browser Policy (Android 4 and later)**\n\n    -   **Managed Browser Policy (iOS 7.1 and later)**\n\n    For more information about how to create and deploy policies, see the [Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md) topic.\n\n3.  Use the following table to help you configure the managed browser policy settings:\n\n    |Setting name|More information|\n    |----------------|--------------------|\n    |**Name**|Enter a unique name for the managed browser policy to help you identify it in the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] console.|\n    |**Description**|Provide a description that gives an overview of the managed browser policy and other relevant information that helps you to locate it.|\n    |**Enable an allow list or block list to restrict the URLs the Managed Browser can open**|Select one of the following options:<br /><br />**Allow the managed browser to open only the URLs listed below** – Specify a list of URLs that the managed browser can open.<br /><br />**Block the managed browser from opening the URLs listed below** – Specify a list of URLs that the managed browser will be blocked from opening.<br /><br />For more information about the URL formats you can specify, see [URL format for allowed and blocked URLs](../Topic/Manage-Internet-access-using-managed-browser-policies-with-Microsoft-Intune.md#BKMK_URLs) in this topic.|\n\n4.  When you are finished, click **Save Policy**.\n\nThe new policy displays in the **Configuration Policies** node of the **Policy** workspace.\n\n## Create a software deployment for the managed browser app\nAfter you have created the managed browser policy, you can then create a software deployment for the managed browser app, and associate it with the managed browser policy you created.\n\n> [!IMPORTANT]\n> Managed browser policies are not deployed in the same way as other [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] polices. This type of policy must be associated with the managed browser software package.\n\nDeploy the app, ensuring that you select the managed browser policy on the **Mobile App Management** page to associate the policy with the app.\n\nFor more information about how to deploy apps, see [Deploy apps to mobile devices in Microsoft Intune - deleted](../Topic/Deploy-apps-to-mobile-devices-in-Microsoft-Intune---deleted.md).\n\n## Security and privacy for the managed browser\n\n-   On iOS devices, web sites that users visit that have an expired or untrusted certificate cannot be opened.\n\n-   Settings that users make for the built-in browser on their devices are not used by the managed browser. This is because the managed browser does not have access to these settings.\n\n-   If you configure the options **Require simple PIN for access** or **Require corporate credentials for access** in a mobile application management policy associated with the managed browser and a user clicks the help link on the authentication page, they can then browse any Internet sites regardless of whether they were added to a block list in the managed browser policy.\n\n-   The managed browser can only block access to sites when they are accessed directly. It cannot block access when intermediate services (such as a translation service) are used to access the site.\n\n-   To allow authentication, and to ensure that [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] documentation can be accessed,**&#42;.microsoft.com** is exempt from the allow or block list settings – it is always allowed.\n\n### Turn off usage data\nMicrosoft automatically collects anonymous data about the performance and use of the managed browser to improve Microsoft products and services, but users can turn off data collection by using the **Usage Data** setting on their device. You have no control over the collection of this data.\n\n## Reference information\n\n### <a name=\"BKMK_URLs\"></a>URL format for allowed and blocked URLs\nUse the following information to learn about the allowed formats and wildcards you can use when specifying URLs in the allowed and blocked lists.\n\n-   You can use the wildcard symbol ‘**&#42;**’ according to the rules in the permitted patterns list below.\n\n-   Ensure that you prefix all URLs with **http** or **https** when entering them into the list.\n\n-   You can specify port numbers in the address. If you do not specify a port number, the values used will be:\n\n    -   Port 80 for http\n\n    -   Port 443 for https\n\n    Using wildcards for the port number is not supported, for example, **http://www.contoso.com:&#42;** and **http://www.contoso.com: /&#42;**\n\n-   Use the following table to learn about the permitted patterns you can use when you specify URLs:\n\n    |URL|Description|Matches|Does not match|\n    |-------|---------------|-----------|------------------|\n    |http://www.contoso.com|Matches a single page|www.contoso.com|host.contoso.com<br /><br />www.contoso.com/images<br /><br />contoso.com/|\n    |http://contoso.com|Matches a single page|contoso.com/|host.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com|\n    |http://www.contoso.com/&#42;|Matches all URLs beginning with www.contoso.com|www.contoso.com<br /><br />www.contoso.com/images<br /><br />www.contoso.com/videos/tvshows|host.contoso.com<br /><br />host.contoso.com/images|\n    |http://&#42;.contoso.com/&#42;|Matches all sub-domains under contoso.com|developer.contoso.com/resources<br /><br />news.contoso.com/images<br /><br />news.contoso.com/videos|contoso.host.com|\n    |http://www.contoso.com/images|Matches a single folder|www.contoso.com/images|www.contoso.com/images/dogs|\n    |http://www.contoso.com:80|Matches a single page, using a port number|http://www.contoso.com:80||\n    |https://www.contoso.com|Matches a single, secure page|https://www.contoso.com|http://www.contoso.com|\n    |http://www.contoso.com/images/&#42;|Matches a single folder and all subfolders|www.contoso.com/images/dogs<br /><br />www.contoso.com/images/cats|www.contoso.com/videos|\n\n-   The following are examples of some of the inputs you cannot specify:\n\n    -   &#42;.com\n\n    -   &#42;.contoso/&#42;\n\n    -   www.contoso.com/&#42;images\n\n    -   www.contoso.com/&#42;images&#42;pigs\n\n    -   www.contoso.com/page&#42;\n\n    -   IP addresses\n\n    -   https://&#42;\n\n    -   http://&#42;\n\n    -   http://www.contoso.com:&#42;\n\n    -   http://www.contoso.com: /&#42;\n\n### How conflicts between the allow and block list are resolved\nIf multiple managed browser policies are deployed to a device and the settings conflict, both the mode (allow or block) and the URL lists are evaluated for conflicts. In case of a conflict, the following behavior applies:\n\n-   If the modes in each policy are the same, but the URL lists are different, the URLs will not be enforced on the device.\n\n-   If the modes in each policy are different, but the URL lists are the same, the URLs will not be enforced on the device.\n\n-   If a device is receiving managed browser policies for the first time and two policies conflict, the URLs will not be enforced on the device. Use the **Policy Conflicts** node of the **Policy** workspace to view the conflicts.\n\n-   If a device has already received a managed browser policy and a second policy is deployed with conflicting settings, the original settings remain on the device. Use the **Policy Conflicts** node of the **Policy** workspace to view the conflicts.\n\n## See Also\n[Enable access to company resources with Microsoft Intune - deleted](../Topic/Enable-access-to-company-resources-with-Microsoft-Intune---deleted.md)\n\n"
+}

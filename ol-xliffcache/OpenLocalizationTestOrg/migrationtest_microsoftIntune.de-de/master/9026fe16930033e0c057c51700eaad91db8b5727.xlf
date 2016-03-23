@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">ht</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">9026fe16930033e0c057c51700eaad91db8b5727</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Plan your user and device groups</source>
+          <target>Plan your user and device groups</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Plan your user and device groups</source>
+          <target>Plan your user and device groups</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Considered planning of your groups and policies will help you keep them organized and achieve the client behavior that you want.</source>
+          <target>Considered planning of your groups and policies will help you keep them organized and achieve the client behavior that you want.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Here are some the recommended practices for organizing and managing your Intune policies and groups.</source>
+          <target>Here are some the recommended practices for organizing and managing your Intune policies and groups.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Group basics</source>
+          <target>Group basics</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Groups in Intune provide great flexibility in managing your devices and users.</source>
+          <target>Groups in Intune provide great flexibility in managing your devices and users.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>You can set up groups by geographic location, department, hardware characteristics, operating system or based on whether the device is user-owned or company-owned, to suit your organizational needs.</source>
+          <target>You can set up groups by geographic location, department, hardware characteristics, operating system or based on whether the device is user-owned or company-owned, to suit your organizational needs.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>More information on how to create and manage groups can be found in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use groups to manage users and devices with Microsoft Intune</pc></source>
+          <target>More information on how to create and manage groups can be found in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Use groups to manage users and devices with Microsoft Intune</pc></target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Working with groups</source>
+          <target>Working with groups</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>The default view of the Groups node in the Intune Management console is:</source>
+          <target>The default view of the Groups node in the Intune Management console is:</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Policies are deployed onto groups, so group hierarchy is one of your key design considerations.</source>
+          <target>Policies are deployed onto groups, so group hierarchy is one of your key design considerations.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>It is also important to know that a group’s parent group cannot be changed once the group is created, so the design of your groups is critically important from the moment you start using the Intune service.</source>
+          <target>It is also important to know that a group’s parent group cannot be changed once the group is created, so the design of your groups is critically important from the moment you start using the Intune service.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Some of the recommended practices for designing a group hierarchy based on your organizational needs are  described here.</source>
+          <target>Some of the recommended practices for designing a group hierarchy based on your organizational needs are  described here.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Keep it simple</pc> should be your motto.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Keep it simple</pc> should be your motto.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>If your organization does not have specific needs such as those described here, keeping it simple and going with the default group structure and policies will make the service more manageable in the long term.</source>
+          <target>If your organization does not have specific needs such as those described here, keeping it simple and going with the default group structure and policies will make the service more manageable in the long term.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Maintenance will be easier if it is possible for you to treat your users equally with little differentiation by group,  thereby having to maintain  fewer policies.</source>
+          <target>Maintenance will be easier if it is possible for you to treat your users equally with little differentiation by group,  thereby having to maintain  fewer policies.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>All users and devices in your organization</source>
+          <target>All users and devices in your organization</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>You should have a parent group defined for all users and devices in your organization, as you are likely to have policies that will apply to all.</source>
+          <target>You should have a parent group defined for all users and devices in your organization, as you are likely to have policies that will apply to all.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This can be the default <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Users</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All devices</pc> groups in Intune.</source>
+          <target>This can be the default <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Users</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All devices</pc> groups in Intune.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>These groups can then be used to apply policies that are applicable to all users and devices within your organization.</source>
+          <target>These groups can then be used to apply policies that are applicable to all users and devices within your organization.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you are creating BYOD (bring your own device), Corporate Owned (CO) groups, then those groups can be the children of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Users</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All devices</pc>  parent groups.</source>
+          <target>If you are creating BYOD (bring your own device), Corporate Owned (CO) groups, then those groups can be the children of the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Users</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All devices</pc>  parent groups.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>BYOD and corporate owned devices</source>
+          <target>BYOD and corporate owned devices</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>If your organizational policy permits the usage of BYOD (bring your own device), Corporate Owned (CO) devices or a combination of both, then we recommend that you apply policies based on those two categories of devices.</source>
+          <target>If your organizational policy permits the usage of BYOD (bring your own device), Corporate Owned (CO) devices or a combination of both, then we recommend that you apply policies based on those two categories of devices.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>In the case of BYOD or a mix, policies should be carefully planned and designed in order not to infringe on local privacy regulations.</source>
+          <target>In the case of BYOD or a mix, policies should be carefully planned and designed in order not to infringe on local privacy regulations.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>This will also help employees understand the corporate management of their personal devices and may drive more towards application-level management rather than device-level management.</source>
+          <target>This will also help employees understand the corporate management of their personal devices and may drive more towards application-level management rather than device-level management.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Create a parent group for all users who will be bringing their own devices.</source>
+          <target>Create a parent group for all users who will be bringing their own devices.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>This group can then be used to apply policies that are applicable to all users in this category.</source>
+          <target>This group can then be used to apply policies that are applicable to all users in this category.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Similarly, you can create a group for the CO users in your organization, resulting in this:</source>
+          <target>Similarly, you can create a group for the CO users in your organization, resulting in this:</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Groups for geographic regions</source>
+          <target>Groups for geographic regions</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>If your organization needs policies for specific regions you can create groups based on this criterion.</source>
+          <target>If your organization needs policies for specific regions you can create groups based on this criterion.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>These Intune groups could be centered on regional groups that you have already created in your on-premises Active Directory (AD) and synchronized to Azure AD (AAD) or created directly in AAD.</source>
+          <target>These Intune groups could be centered on regional groups that you have already created in your on-premises Active Directory (AD) and synchronized to Azure AD (AAD) or created directly in AAD.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>These screen shots show how to create Intune groups based on groups synchronized from your on-premises AD.</source>
+          <target>These screen shots show how to create Intune groups based on groups synchronized from your on-premises AD.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>This examples assumes that you have an AD security group called <pc dataRefEnd="id2" dataRefStart="id1" id="p1">US Users Group</pc>.</source>
+          <target>This examples assumes that you have an AD security group called <pc dataRefEnd="id2" dataRefStart="id1" id="p1">US Users Group</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>First, provide the general information.</source>
+          <target>First, provide the general information.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under Membership criteria, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">US Users Group</pc>, synchronized from AD,  as the security group to use under Membership rules.</source>
+          <target>Under Membership criteria, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">US Users Group</pc>, synchronized from AD,  as the security group to use under Membership rules.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Review and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc> to finish creating the group</source>
+          <target>Review and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc> to finish creating the group</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>In our example, we’ve also created a Middle East and Asia group, MEA.</source>
+          <target>In our example, we’ve also created a Middle East and Asia group, MEA.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>If the group membership is not populated based on the security group membership, check that you have assigned Intune licenses to those members.</source>
+          <target>If the group membership is not populated based on the security group membership, check that you have assigned Intune licenses to those members.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Groups for specific hardware</source>
+          <target>Groups for specific hardware</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>If your organization has a requirement to have policies applicable to specific hardware types, you can create groups based on this criterion.</source>
+          <target>If your organization has a requirement to have policies applicable to specific hardware types, you can create groups based on this criterion.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>These Intune groups could be based on specific groups that you have already created in your on-premises Active Directory (AD) and synchronized to Azure AD (AAD) or created directly in AAD.</source>
+          <target>These Intune groups could be based on specific groups that you have already created in your on-premises Active Directory (AD) and synchronized to Azure AD (AAD) or created directly in AAD.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this example, we use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">US Users Group</pc> as the parent for the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Laptop Users</pc> group.</source>
+          <target>In this example, we use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">US Users Group</pc> as the parent for the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Laptop Users</pc> group.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>At this point, the groups hierarchy should appear as shown below.</source>
+          <target>At this point, the groups hierarchy should appear as shown below.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>As you see, there are now members within the Intune group <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Laptop Users</pc>.</source>
+          <target>As you see, there are now members within the Intune group <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Laptop Users</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>Any policies applied to this group will now be applied to  BYOD laptop users from the US region.</source>
+          <target>Any policies applied to this group will now be applied to  BYOD laptop users from the US region.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Groups for specific operating systems</source>
+          <target>Groups for specific operating systems</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>If your organization has a requirement to have policies applicable to specific operating systems  such as Android, iOS or Windows, you can create groups based on this criterion.</source>
+          <target>If your organization has a requirement to have policies applicable to specific operating systems  such as Android, iOS or Windows, you can create groups based on this criterion.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>As in the previous examples, these Intune groups could be based on OS-specific groups that you have already created in your on-premises Active Directory (AD) and synchronized to Azure AD (AAD) or directly created in AAD.</source>
+          <target>As in the previous examples, these Intune groups could be based on OS-specific groups that you have already created in your on-premises Active Directory (AD) and synchronized to Azure AD (AAD) or directly created in AAD.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Using the same method that we followed for the other examples, we can create groups based on users using specific OS platforms.</source>
+          <target>Using the same method that we followed for the other examples, we can create groups based on users using specific OS platforms.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>If you have users using multiple mobile platforms/operating systems and do not have an automated way to categorize users  as Android users, iOS users or Windows users, consider applying policies at the device level, which will give you better flexibility in applying OS-specific policies.</source>
+          <target>If you have users using multiple mobile platforms/operating systems and do not have an automated way to categorize users  as Android users, iOS users or Windows users, consider applying policies at the device level, which will give you better flexibility in applying OS-specific policies.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>You cannot provision groups dynamically based on the OS of the device .</source>
+          <target>You cannot provision groups dynamically based on the OS of the device .</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Do this using AD or AAD Security groups.</source>
+          <target>Do this using AD or AAD Security groups.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Once all your User groups are populated based on these organizational requirements, your group hierarchy should look like this:</source>
+          <target>Once all your User groups are populated based on these organizational requirements, your group hierarchy should look like this:</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>This hierarchy can be used to apply the organization's policies appropriately.</source>
+          <target>This hierarchy can be used to apply the organization's policies appropriately.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Device groups</source>
+          <target>Device groups</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>You can also create similar groups for devices in your organization as shown below, starting with a broad group that includes all employee owned devices, for the BYOD scenario:</source>
+          <target>You can also create similar groups for devices in your organization as shown below, starting with a broad group that includes all employee owned devices, for the BYOD scenario:</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Make sure you select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All devices (computers and mobile)</pc> so that the group will include all BYO devices:</source>
+          <target>Make sure you select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All devices (computers and mobile)</pc> so that the group will include all BYO devices:</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Review and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc> to create the BYOD group.</source>
+          <target>Review and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Finish</pc> to create the BYOD group.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Continue to create device groups, until you have a device group hierarchy similar to the user group hierarchy.</source>
+          <target>Continue to create device groups, until you have a device group hierarchy similar to the user group hierarchy.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>Then your group node in the Intune console should look similar to this:</source>
+          <target>Then your group node in the Intune console should look similar to this:</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Group hierarchies and naming conventions</source>
+          <target>Group hierarchies and naming conventions</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>To make the management of policies easier we recommend that you name each policy according to  purpose, platform and  scope to which it is applied.</source>
+          <target>To make the management of policies easier we recommend that you name each policy according to  purpose, platform and  scope to which it is applied.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>This naming standard should follow the group structure that you created  in preparation for applying your policies.</source>
+          <target>This naming standard should follow the group structure that you created  in preparation for applying your policies.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>For instance, for an Android policy that is applied to all corporate, android, mobile devices at the regional level US, the policy can be named</source>
+          <target>For instance, for an Android policy that is applied to all corporate, android, mobile devices at the regional level US, the policy can be named</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CO_US_Mob_Android_General</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">CO_US_Mob_Android_General</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>By naming the policies this way you will be able to quickly identify policies and their intended use and scope from the console’s policies node, as shown:</source>
+          <target>By naming the policies this way you will be able to quickly identify policies and their intended use and scope from the console’s policies node, as shown:</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

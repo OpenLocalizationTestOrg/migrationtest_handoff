@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">876f0e1529bc2733a79044018710b97d5a81ef6c</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Error evaluating device</source>
+          <target>Error evaluating device</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Error evaluating device</source>
+          <target>Error evaluating device</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Your device was found to be noncompliant with one or more of your company’s policies and an error occurred while evaluating the device for this condition.</source>
+          <target>Your device was found to be noncompliant with one or more of your company’s policies and an error occurred while evaluating the device for this condition.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To solve this problem, wait a few minutes, and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Check Compliance</pc>.</source>
+          <target>To solve this problem, wait a few minutes, and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Check Compliance</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>If the problem persists, contact your IT administrator.</source>
+          <target>If the problem persists, contact your IT administrator.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

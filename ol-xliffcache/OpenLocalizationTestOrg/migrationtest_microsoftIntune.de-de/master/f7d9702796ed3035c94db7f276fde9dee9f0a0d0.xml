@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "content": "Manage Internet access using managed browser policies",
+      "pos": [
+        11,
+        64
+      ]
+    },
+    {
+      "content": "Manage Internet access using managed browser policies",
+      "pos": [
+        221,
+        274
+      ]
+    },
+    {
+      "content": "Insert introduction here.",
+      "pos": [
+        275,
+        300
+      ]
+    },
+    {
+      "content": "Section Heading",
+      "pos": [
+        305,
+        320
+      ]
+    },
+    {
+      "content": "Insert section body here.",
+      "pos": [
+        321,
+        346
+      ]
+    },
+    {
+      "content": "Subsection Heading",
+      "pos": [
+        352,
+        370
+      ]
+    },
+    {
+      "content": "Insert subsection body here.",
+      "pos": [
+        371,
+        399
+      ]
+    }
+  ],
+  "content": "---\ntitle: Manage Internet access using managed browser policies\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: ce412e5a-f4f6-45f9-ac5a-bdfbf7cd96d5\nauthor: karthikaraman\n---\n# Manage Internet access using managed browser policies\nInsert introduction here.\n\n## Section Heading\nInsert section body here.\n\n### Subsection Heading\nInsert subsection body here.\n\n"
+}

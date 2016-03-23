@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">24c7f8c41faf9b64d06fe62225089316729a49bc</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>robstack - v2 of Deploy and Manage apps</source>
+          <target>robstack - v2 of Deploy and Manage apps</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>robstack - v2 of Deploy and Manage apps</source>
+          <target>robstack - v2 of Deploy and Manage apps</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>One of the primary reasons many companies use <ph dataRef="id1" id="ph1" /> is to manage the multitude of apps that your users need to get their work done.</source>
+          <target>One of the primary reasons many companies use <ph dataRef="id1" id="ph1" /> is to manage the multitude of apps that your users need to get their work done.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/dn646962.aspx)</data>
+          <data id="id3">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Getting your devices managed</pc> by <ph dataRef="id3" id="ph1" /> is just the first step in the many tasks you'll perform.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Getting your devices managed</pc> by <ph dataRef="id3" id="ph1" /> is just the first step in the many tasks you'll perform.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>For example, if your company uses Microsoft Word, there are versions available for Windows, iOS, Android and more.</source>
+          <target>For example, if your company uses Microsoft Word, there are versions available for Windows, iOS, Android and more.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>The challenge you, as an IT admin face is to manage the multitude of apps available, on many different device and computer platforms with the aim of allowing users to do their work while still ensuring the security of your company data.</source>
+          <target>The challenge you, as an IT admin face is to manage the multitude of apps available, on many different device and computer platforms with the aim of allowing users to do their work while still ensuring the security of your company data.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Get started</source>
+          <target>Get started</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/dn646955.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before you start working with apps, you need to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">learn about a few concepts</pc> that will help you in the process.</source>
+          <target>Before you start working with apps, you need to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">learn about a few concepts</pc> that will help you in the process.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This section teaches you about the prerequisites for app deployment, helps you find your way around the apps workspace, and teaches you about the different types of apps you can deploy with <ph dataRef="id1" id="ph1" />.</source>
+          <target>This section teaches you about the prerequisites for app deployment, helps you find your way around the apps workspace, and teaches you about the different types of apps you can deploy with <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Understand the app lifecycle</source>
+          <target>Understand the app lifecycle</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Just like with the management of your devices, apps have a lifecycle that takes you from preparation, to deployment, monitoring, updating, and retiring.</source>
+          <target>Just like with the management of your devices, apps have a lifecycle that takes you from preparation, to deployment, monitoring, updating, and retiring.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> can help you at all stages of this lifecycle.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> can help you at all stages of this lifecycle.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Plan</source>
+          <target>Plan</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](https://technet.microsoft.com/en-us/library/jj733634.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> gives you tools to <pc dataRefEnd="id3" dataRefStart="id2" id="p1">examine what apps are already in use</pc> in your organization and where they are installed.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> gives you tools to <pc dataRefEnd="id3" dataRefStart="id2" id="p1">examine what apps are already in use</pc> in your organization and where they are installed.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](https://technet.microsoft.com/en-us/library/dn646955.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> supports <pc dataRefEnd="id3" dataRefStart="id2" id="p1">installing a range of different apps</pc> including apps from the app store, web applications, and apps that were written in-house.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> supports <pc dataRefEnd="id3" dataRefStart="id2" id="p1">installing a range of different apps</pc> including apps from the app store, web applications, and apps that were written in-house.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Deploy</source>
+          <target>Deploy</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Once you understand the basics, you can start deploying apps.</source>
+          <target>Once you understand the basics, you can start deploying apps.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/dn646972.aspx)</data>
+          <data id="id3">[</data>
+          <data id="id4">](https://technet.microsoft.com/library/dn646961.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>In these sections, you'll find all you need to know to prepare your apps for deployment, and then deploy them to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">mobile devices</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">computers</pc>.</source>
+          <target>In these sections, you'll find all you need to know to prepare your apps for deployment, and then deploy them to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">mobile devices</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">computers</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Manage</source>
+          <target>Manage</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> console offers a range of tools to help you check how your app deployments are going.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> console offers a range of tools to help you check how your app deployments are going.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://technet.microsoft.com/library/dn646972.aspx#BKMK_MonitorSoftware)</data>
+          <data id="id3">[</data>
+          <data id="id4">](https://technet.microsoft.com/library/dn646961.aspx#BKMK_MonitorSoftware)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Here, you'll find out how to see which app deployments for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">mobile devices</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows PCs</pc> have succeeded, and which need further attention from you.</source>
+          <target>Here, you'll find out how to see which app deployments for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">mobile devices</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows PCs</pc> have succeeded, and which need further attention from you.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Update and retire</source>
+          <target>Update and retire</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Modern apps are often updated regularly.</source>
+          <target>Modern apps are often updated regularly.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>It can be a difficult job to try and ensure that all of your users are running the latest version of an app.</source>
+          <target>It can be a difficult job to try and ensure that all of your users are running the latest version of an app.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Fortunately, <ph dataRef="id1" id="ph1" /> provides a simple capability that lets you update a previously deployed app with a newer version of the same app.</source>
+          <target>Fortunately, <ph dataRef="id1" id="ph1" /> provides a simple capability that lets you update a previously deployed app with a newer version of the same app.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Additionally, after a time, it is likely that apps you deployed to devices will no longer be required and you'll want to uninstall them.</source>
+          <target>Additionally, after a time, it is likely that apps you deployed to devices will no longer be required and you'll want to uninstall them.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> makes this process simple for apps that you manage.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> makes this process simple for apps that you manage.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Update-apps-using-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For details, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update apps using Microsoft Intune</pc>.</source>
+          <target>For details, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update apps using Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>More resources</source>
+          <target>More resources</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Configure and deploy mobile application management policies in the Microsoft Intune console</source>
+          <target>Configure and deploy mobile application management policies in the Microsoft Intune console</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>If you're looking for information about using mobile application management policies to secure your apps, you'll find it here.</source>
+          <target>If you're looking for information about using mobile application management policies to secure your apps, you'll find it here.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Troubleshoot app deployment problems in Microsoft Intune</source>
+          <target>Troubleshoot app deployment problems in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>When things go wrong, you'll find help for common app deployment problems in this section.</source>
+          <target>When things go wrong, you'll find help for common app deployment problems in this section.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

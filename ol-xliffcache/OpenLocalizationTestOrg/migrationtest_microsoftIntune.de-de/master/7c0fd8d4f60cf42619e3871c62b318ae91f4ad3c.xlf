@@ -1,0 +1,2248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">7c0fd8d4f60cf42619e3871c62b318ae91f4ad3c</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - Prepare iOS apps for mobile application management with the Microsoft Intune App Wrapping Tool</source>
+          <target>MD Conversion - Prepare iOS apps for mobile application management with the Microsoft Intune App Wrapping Tool</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - Prepare iOS apps for mobile application management with the Microsoft Intune App Wrapping Tool</source>
+          <target>MD Conversion - Prepare iOS apps for mobile application management with the Microsoft Intune App Wrapping Tool</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune App Wrapping Tool for iOS</pc> to modify the behavior of in-house iOS apps by restricting features of the app without changing the code of the app itself.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune App Wrapping Tool for iOS</pc> to modify the behavior of in-house iOS apps by restricting features of the app without changing the code of the app itself.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>The tool is a Mac OS command line application that creates a ‘wrapper’ around an app.</source>
+          <target>The tool is a Mac OS command line application that creates a ‘wrapper’ around an app.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](../Topic/Configure-and-deploy-mobile-application-management-policies-in-the-Microsoft-Intune-console.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Once an app is processed, you can then change the apps functionality using an  <ph dataRef="id1" id="ph1" /> mobile application management policy that you configure (see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Configure and deploy mobile application management policies in the Microsoft Intune console</pc>).</source>
+          <target>Once an app is processed, you can then change the apps functionality using an  <ph dataRef="id1" id="ph1" /> mobile application management policy that you configure (see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Configure and deploy mobile application management policies in the Microsoft Intune console</pc>).</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://www.microsoft.com/en-us/download/details.aspx?id=45218)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To download the tool, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune App Wrapping Tool for iOS</pc>.</source>
+          <target>To download the tool, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune App Wrapping Tool for iOS</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Prereq"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Step 1: Fulfill the prerequisites for using the app wrapping tool</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Step 1: Fulfill the prerequisites for using the app wrapping tool</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Requirement</source>
+          <target>Requirement</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Details and more information</source>
+          <target>Details and more information</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Supported operating system and toolset</source>
+          <target>Supported operating system and toolset</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>You must run the app wrapping tool on a Mac computer that runs OS X 10.8.5 or later, which has the XCode toolset version 5 or later installed.</source>
+          <target>You must run the app wrapping tool on a Mac computer that runs OS X 10.8.5 or later, which has the XCode toolset version 5 or later installed.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Signing certificate and provisioning profile</source>
+          <target>Signing certificate and provisioning profile</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>You must have an Apple signing certificate and provisioning profile.</source>
+          <target>You must have an Apple signing certificate and provisioning profile.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://developer.apple.com/)</data>
+        </originalData>
+        <segment state="initial">
+          <source>See your <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apple developer documentation</pc>.</source>
+          <target>See your <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apple developer documentation</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Processing an app with the App Wrapping Tool</source>
+          <target>Processing an app with the App Wrapping Tool</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Apps must be developed and signed by your company, or an independent software vendor (ISV).</source>
+          <target>Apps must be developed and signed by your company, or an independent software vendor (ISV).</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>You cannot use this tool to process apps from the Apple Store.</source>
+          <target>You cannot use this tool to process apps from the Apple Store.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Apps must be written for iOS 7.0 or later.</source>
+          <target>Apps must be written for iOS 7.0 or later.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Apps must also be in the Position Independent Executable (PIE) format.</source>
+          <target>Apps must also be in the Position Independent Executable (PIE) format.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>For more information about the PIE format, see your Apple developer documentation.</source>
+          <target>For more information about the PIE format, see your Apple developer documentation.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Lastly, the app must have the extension <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.app</pc>, or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">.ipa</pc> format.</source>
+          <target>Lastly, the app must have the extension <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.app</pc>, or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">.ipa</pc> format.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>Apps the wrapping tool cannot process</source>
+          <target>Apps the wrapping tool cannot process</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Encrypted apps, unsigned apps, and apps with extended file attributes.</source>
+          <target>Encrypted apps, unsigned apps, and apps with extended file attributes.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Apps that use the Azure Active Directory Library (ADAL)</source>
+          <target>Apps that use the Azure Active Directory Library (ADAL)</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>If your app uses ADAL, the app must incorporate an ADAL version greater than or equal to 1.0.2, and the developer must grant their app access to the Intune Mobile Application Management resource.</source>
+          <target>If your app uses ADAL, the app must incorporate an ADAL version greater than or equal to 1.0.2, and the developer must grant their app access to the Intune Mobile Application Management resource.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Prepare-iOS-apps-for-mobile-application-management-with-the-Microsoft-Intune-App-Wrapping-Tool.md#BKMK_ADAL)</data>
+        </originalData>
+        <segment state="initial">
+          <source>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Information for apps that use the Azure Active Directory Library (ADAL)</pc> in this article for details about how to use ADAL.</source>
+          <target>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Information for apps that use the Azure Active Directory Library (ADAL)</pc> in this article for details about how to use ADAL.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Setting entitlements for your app</source>
+          <target>Setting entitlements for your app</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>You must set entitlements, which give the app additional permissions and capabilities beyond those typically granted, before you wrap the app.</source>
+          <target>You must set entitlements, which give the app additional permissions and capabilities beyond those typically granted, before you wrap the app.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_ios_entitlements)</data>
+        </originalData>
+        <segment state="initial">
+          <source>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Setting app entitlements</pc> for instructions.</source>
+          <target>See <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Setting app entitlements</pc> for instructions.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Step 2: Install the app wrapping tool</source>
+          <target>Step 2: Install the app wrapping tool</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](http://www.microsoft.com/en-us/download/default.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune App Wrapping Tool for iOS</pc> page on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Download Center</pc>, download the installation file for the app wrapping tool to a Mac computer.</source>
+          <target>From the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune App Wrapping Tool for iOS</pc> page on the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Download Center</pc>, download the installation file for the app wrapping tool to a Mac computer.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the Mac computer, double-click the installation file <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune App Wrapping Tool for iOS.dmg</pc>.</source>
+          <target>On the Mac computer, double-click the installation file <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune App Wrapping Tool for iOS.dmg</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Agree</pc> to accept the End User License Agreement (EULA).</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Agree</pc> to accept the End User License Agreement (EULA).</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>The installer is mounted and displayed on the Mac computer.</source>
+          <target>The installer is mounted and displayed on the Mac computer.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Open the installer and  copy the displayed files to a new folder on the Mac computer.</source>
+          <target>Open the installer and  copy the displayed files to a new folder on the Mac computer.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>You can now disconnect the mounted installer drive.</source>
+          <target>You can now disconnect the mounted installer drive.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>You are now ready to run the app wrapping tool.</source>
+          <target>You are now ready to run the app wrapping tool.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Step 3: Run the app wrapping tool</source>
+          <target>Step 3: Run the app wrapping tool</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>On the Mac computer, open a Terminal window and navigate to the folder where you saved the files.</source>
+          <target>On the Mac computer, open a Terminal window and navigate to the folder where you saved the files.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Because the executable resides inside the package, you’ll need to run the command as follows:</source>
+          <target>Because the executable resides inside the package, you’ll need to run the command as follows:</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Some parameters are optional as shown in the table below.</source>
+          <target>Some parameters are optional as shown in the table below.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Example:</pc> The following example command runs the app wrapping tool on an app named <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyApp.ipa</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Example:</pc> The following example command runs the app wrapping tool on an app named <pc dataRefEnd="id4" dataRefStart="id3" id="p2">MyApp.ipa</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <segment state="initial">
+          <source>A provisioning profile and SHA-1 hash are specified.</source>
+          <target>A provisioning profile and SHA-1 hash are specified.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The processed app is created and stored in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/users/myadmin/Documents</pc> on the Mac computer.</source>
+          <target>The processed app is created and stored in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">/users/myadmin/Documents</pc> on the Mac computer.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <segment state="initial">
+          <source>You can use the following command line properties with the app wrapping tool:</source>
+          <target>You can use the following command line properties with the app wrapping tool:</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>Property</source>
+          <target>Property</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>-h</source>
+          <target>-h</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <segment state="initial">
+          <source>Displays the available command-line properties for the app wrapping tool.</source>
+          <target>Displays the available command-line properties for the app wrapping tool.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>-i</source>
+          <target>-i</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>Specifies the path and file name of the input app.</source>
+          <target>Specifies the path and file name of the input app.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>-o</source>
+          <target>-o</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <segment state="initial">
+          <source>Specifies the path in which to save the processed app.</source>
+          <target>Specifies the path in which to save the processed app.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <segment state="initial">
+          <source>-p</source>
+          <target>-p</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Specifies the path to your provisioning profile for iOS apps.</source>
+          <target>Specifies the path to your provisioning profile for iOS apps.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>-c</source>
+          <target>-c</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Specifies the SHA1 hash of the signing certificate.</source>
+          <target>Specifies the SHA1 hash of the signing certificate.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>-a</source>
+          <target>-a</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>Client ID of the input app (in GUID format) if the app uses Azure Active Directory Libraries (Optional).</source>
+          <target>Client ID of the input app (in GUID format) if the app uses Azure Active Directory Libraries (Optional).</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <segment state="initial">
+          <source>-r</source>
+          <target>-r</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <segment state="initial">
+          <source>Redirect URI of the input app if the app uses Azure Active Directory Libraries (Optional).</source>
+          <target>Redirect URI of the input app if the app uses Azure Active Directory Libraries (Optional).</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <segment state="initial">
+          <source>-v</source>
+          <target>-v</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Output verbose messages to the console (Optional).</source>
+          <target>Output verbose messages to the console (Optional).</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>After processing completes, the message <pc dataRefEnd="id2" dataRefStart="id1" id="p1">The application was successfully wrapped</pc> will be displayed.</source>
+          <target>After processing completes, the message <pc dataRefEnd="id2" dataRefStart="id1" id="p1">The application was successfully wrapped</pc> will be displayed.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Prepare-iOS-apps-for-mobile-application-management-with-the-Microsoft-Intune-App-Wrapping-Tool.md#BKMK_Error)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If an error occurs, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Error messages</pc> for help.</source>
+          <target>If an error occurs, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Error messages</pc> for help.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>The wrapped app is saved in the output folder you specified previously.</source>
+          <target>The wrapped app is saved in the output folder you specified previously.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can now upload the app into <ph dataRef="id1" id="ph1" /> and associate it with a mobile application management policy.</source>
+          <target>You can now upload the app into <ph dataRef="id1" id="ph1" /> and associate it with a mobile application management policy.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Deploy-apps-to-mobile-devices-in-Microsoft-Intune---deleted.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy apps to mobile devices in Microsoft Intune - deleted</pc>.</source>
+          <target>To learn more, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy apps to mobile devices in Microsoft Intune - deleted</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>You must upload the app as a new app.</source>
+          <target>You must upload the app as a new app.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>You cannot update an older, unwrapped version of the app.</source>
+          <target>You cannot update an older, unwrapped version of the app.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can now deploy the app to your <ph dataRef="id1" id="ph1" /> groups, and the app will now run on the device using the app restrictions you specify.</source>
+          <target>You can now deploy the app to your <ph dataRef="id1" id="ph1" /> groups, and the app will now run on the device using the app restrictions you specify.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Error messages and log files</source>
+          <target>Error messages and log files</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <segment state="initial">
+          <source>Use the following information to troubleshoot issues you have with the app wrapping tool.</source>
+          <target>Use the following information to troubleshoot issues you have with the app wrapping tool.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_Error"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Error messages</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Error messages</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>If the app wrapping tool fails to complete successfully, one of the following error messages will be displayed:</source>
+          <target>If the app wrapping tool fails to complete successfully, one of the following error messages will be displayed:</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <segment state="initial">
+          <source>Error message</source>
+          <target>Error message</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>You must specify a valid iOS provisioning profile.</source>
+          <target>You must specify a valid iOS provisioning profile.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <segment state="initial">
+          <source>Your provisioning profile might not be valid.</source>
+          <target>Your provisioning profile might not be valid.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>Check to make sure you have the correct permissions for devices and that your profile is correctly targeting either development or distribution.</source>
+          <target>Check to make sure you have the correct permissions for devices and that your profile is correctly targeting either development or distribution.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Your provisioning profile might also be expired.</source>
+          <target>Your provisioning profile might also be expired.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>Specify a valid input application name.</source>
+          <target>Specify a valid input application name.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Make sure that the input application name you specified is correct.</source>
+          <target>Make sure that the input application name you specified is correct.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Specify a valid path to the output application.</source>
+          <target>Specify a valid path to the output application.</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <segment state="initial">
+          <source>Make sure that the path to the output application you specified exists, and is correct.</source>
+          <target>Make sure that the path to the output application you specified exists, and is correct.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Specify a valid input provisioning profile.</source>
+          <target>Specify a valid input provisioning profile.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Make sure you supplied a valid provisioning profile name and extension.</source>
+          <target>Make sure you supplied a valid provisioning profile name and extension.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Your provisioning profile might be missing entitlements or you might not have included the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">–p</pc> command-line option.</source>
+          <target>Your provisioning profile might be missing entitlements or you might not have included the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">–p</pc> command-line option.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>The input application you specified was not found.</source>
+          <target>The input application you specified was not found.</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Specify a valid input application name and path.</source>
+          <target>Specify a valid input application name and path.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Make sure your input app path is valid and exists.</source>
+          <target>Make sure your input app path is valid and exists.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>Make sure the input app exists at that location.</source>
+          <target>Make sure the input app exists at that location.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>The input provisioning profile file you specified was not found.</source>
+          <target>The input provisioning profile file you specified was not found.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Specify a valid input provisioning profile file.</source>
+          <target>Specify a valid input provisioning profile file.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <segment state="initial">
+          <source>Make sure that the path to the input provisioning file is valid and that the file you specified exists.</source>
+          <target>Make sure that the path to the input provisioning file is valid and that the file you specified exists.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>The output application folder you specified was not found.</source>
+          <target>The output application folder you specified was not found.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Specify a valid path to the output application.</source>
+          <target>Specify a valid path to the output application.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <segment state="initial">
+          <source>Make sure that the output path you specified is valid and exists.</source>
+          <target>Make sure that the output path you specified is valid and exists.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <segment state="initial">
+          <source>Output app does not have .ipa extension.</source>
+          <target>Output app does not have .ipa extension.</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Only apps with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.app</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">.ipa</pc> extensions are accepted by the app wrapping tool.</source>
+          <target>Only apps with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.app</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">.ipa</pc> extensions are accepted by the app wrapping tool.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <segment state="initial">
+          <source>Make sure your output file has a valid extension.</source>
+          <target>Make sure your output file has a valid extension.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <segment state="initial">
+          <source>An invalid signing certificate was specified.</source>
+          <target>An invalid signing certificate was specified.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Specify a valid Apple signing certificate.</source>
+          <target>Specify a valid Apple signing certificate.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>Make sure you’ve downloaded the correct signing certificate from the Apple developer portal.</source>
+          <target>Make sure you’ve downloaded the correct signing certificate from the Apple developer portal.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <segment state="initial">
+          <source>Your certificate might also be expired.</source>
+          <target>Your certificate might also be expired.</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>If your Apple certificate and provisioning profile can be used to correctly sign an app within Xcode, then they are valid for the app wrapping tool.</source>
+          <target>If your Apple certificate and provisioning profile can be used to correctly sign an app within Xcode, then they are valid for the app wrapping tool.</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>The input application you specified is invalid.</source>
+          <target>The input application you specified is invalid.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <segment state="initial">
+          <source>Specify a valid application.</source>
+          <target>Specify a valid application.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>Make sure you have a valid iOS application that has been compiled as an .app or .ipa file.</source>
+          <target>Make sure you have a valid iOS application that has been compiled as an .app or .ipa file.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>The input application you specified is encrypted.</source>
+          <target>The input application you specified is encrypted.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Specify a valid unencrypted application.</source>
+          <target>Specify a valid unencrypted application.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>The app wrapping tool does not support encrypted apps.</source>
+          <target>The app wrapping tool does not support encrypted apps.</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Specify an unencrypted app.</source>
+          <target>Specify an unencrypted app.</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>The input application you specified is not in a Position Independent Executable (PIE) format.</source>
+          <target>The input application you specified is not in a Position Independent Executable (PIE) format.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Specify a valid application in PIE format.</source>
+          <target>Specify a valid application in PIE format.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Position Independent Executable (PIE) apps can be loaded at a random memory address when run which can have security benefits.</source>
+          <target>Position Independent Executable (PIE) apps can be loaded at a random memory address when run which can have security benefits.</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>For more information, see your Apple Developer documentation.</source>
+          <target>For more information, see your Apple Developer documentation.</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>The input app you specified has already been wrapped.</source>
+          <target>The input app you specified has already been wrapped.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <segment state="initial">
+          <source>Specify a valid unwrapped application.</source>
+          <target>Specify a valid unwrapped application.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>You cannot process an app that has already been processed by the tool.</source>
+          <target>You cannot process an app that has already been processed by the tool.</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>If you want to process an app again, run the tool using the original version of the app.</source>
+          <target>If you want to process an app again, run the tool using the original version of the app.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>The input application you specified is not signed.</source>
+          <target>The input application you specified is not signed.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>Specify a valid signed application.</source>
+          <target>Specify a valid signed application.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>The app wrapping tool requires apps to be signed.</source>
+          <target>The app wrapping tool requires apps to be signed.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>Consult your developer documentation to learn how to sign a wrapped app.</source>
+          <target>Consult your developer documentation to learn how to sign a wrapped app.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>The input application you specified must be in the .ipa or .app format.</source>
+          <target>The input application you specified must be in the .ipa or .app format.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Only .app and .ipa extensions are accepted by the app wrapping tool.</source>
+          <target>Only .app and .ipa extensions are accepted by the app wrapping tool.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Make sure your input file has a valid extension and has been compiled as a .app or .ipa file.</source>
+          <target>Make sure your input file has a valid extension and has been compiled as a .app or .ipa file.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>The input app you specified has already been wrapped and is on the latest policy template version.</source>
+          <target>The input app you specified has already been wrapped and is on the latest policy template version.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>The app wrapping tool will not rewrap an existing wrapped app with the latest policy template version.</source>
+          <target>The app wrapping tool will not rewrap an existing wrapped app with the latest policy template version.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>The given Azure Active Directory Client ID not a well-formed GUID.</source>
+          <target>The given Azure Active Directory Client ID not a well-formed GUID.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Please specify a valid Client ID.</source>
+          <target>Please specify a valid Client ID.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>When using the Client ID parameter, make sure you’ve provided a valid Client ID in GUID format.</source>
+          <target>When using the Client ID parameter, make sure you’ve provided a valid Client ID in GUID format.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>The given Azure Active Directory reply URI is not a well-formed URI.</source>
+          <target>The given Azure Active Directory reply URI is not a well-formed URI.</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>Please specify a valid reply URI.</source>
+          <target>Please specify a valid reply URI.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>When using the reply URI command line property, make sure you’ve provided a valid reply URI.</source>
+          <target>When using the reply URI command line property, make sure you’ve provided a valid reply URI.</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>WARNING: You did not specify a SHA1 certificate hash.</source>
+          <target>WARNING: You did not specify a SHA1 certificate hash.</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Make sure that your wrapped application is signed before deploying.</source>
+          <target>Make sure that your wrapped application is signed before deploying.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Ensure that you specify a valid SHA hash (using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">–c</pc> command line property).</source>
+          <target>Ensure that you specify a valid SHA hash (using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">–c</pc> command line property).</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Log files for the app wrapping tool</source>
+          <target>Log files for the app wrapping tool</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <segment state="initial">
+          <source>Apps that have been wrapped by using the app wrapping tool generate logs which are written to the iOS client device console.</source>
+          <target>Apps that have been wrapped by using the app wrapping tool generate logs which are written to the iOS client device console.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>This information is useful in situations where you are having problems with the application and need to diagnose if the issue is related to the app wrapping tool.</source>
+          <target>This information is useful in situations where you are having problems with the application and need to diagnose if the issue is related to the app wrapping tool.</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>To retrieve this information, use the following steps:</source>
+          <target>To retrieve this information, use the following steps:</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>Reproduce the issue by running the app.</source>
+          <target>Reproduce the issue by running the app.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://developer.apple.com/library/ios/qa/qa1747/_index.html)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Collect the console output by following Apple's instructions for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Debugging Deployed iOS Apps</pc>.</source>
+          <target>Collect the console output by following Apple's instructions for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Debugging Deployed iOS Apps</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Filter the saved logs for App Restrictions output by entering the following script into the console:</source>
+          <target>Filter the saved logs for App Restrictions output by entering the following script into the console:</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <segment state="initial">
+          <source>You can submit the filtered logs to Microsoft.</source>
+          <target>You can submit the filtered logs to Microsoft.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>In the log file, the item ‘build version’ represents the build version of Xcode.</source>
+          <target>In the log file, the item ‘build version’ represents the build version of Xcode.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Wrapped apps will also present users the option to send logs directly from the device via email after the app crashes.</source>
+          <target>Wrapped apps will also present users the option to send logs directly from the device via email after the app crashes.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Users can send the log to you to examine and forward to Microsoft if required.</source>
+          <target>Users can send the log to you to examine and forward to Microsoft if required.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ADAL"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Information for apps that use the Azure Active Directory Library (ADAL)</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Information for apps that use the Azure Active Directory Library (ADAL)</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>The information in this section applies only to apps that use the Azure Active Directory Library (ADAL).</source>
+          <target>The information in this section applies only to apps that use the Azure Active Directory Library (ADAL).</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>If you are unsure if your app uses this library, contact the developer of the app.</source>
+          <target>If you are unsure if your app uses this library, contact the developer of the app.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>The app must incorporate an ADAL version greater than or equal to 1.0.2.</source>
+          <target>The app must incorporate an ADAL version greater than or equal to 1.0.2.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <segment state="initial">
+          <source>For apps that use ADAL, the following must be true:</source>
+          <target>For apps that use ADAL, the following must be true:</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>The app must incorporate an ADAL version greater than or equal to 1.0.2</source>
+          <target>The app must incorporate an ADAL version greater than or equal to 1.0.2</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_step_use_adal)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Developers must grant their app access to the Intune Mobile Application Management resource, as described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Steps to follow for apps that use ADAL</pc>.</source>
+          <target>Developers must grant their app access to the Intune Mobile Application Management resource, as described in <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Steps to follow for apps that use ADAL</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_adal_overview"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Overview of identifiers you need to get</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Overview of identifiers you need to get</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Apps that use ADAL must register via the Azure management portal to obtain two unique identifiers for their app:</source>
+          <target>Apps that use ADAL must register via the Azure management portal to obtain two unique identifiers for their app:</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Identifier</source>
+          <target>Identifier</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Default value</source>
+          <target>Default value</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>Client ID</source>
+          <target>Client ID</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>A unique GUID identifier is generated for each app after it registers with Azure Active Directory.</source>
+          <target>A unique GUID identifier is generated for each app after it registers with Azure Active Directory.</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>If you know the app's specific client ID, you can specify this value.</source>
+          <target>If you know the app's specific client ID, you can specify this value.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>Otherwise, the default value must be used.</source>
+          <target>Otherwise, the default value must be used.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>6c7e8096-f593-4d72-807f-a5f86dcc9c77</source>
+          <target>6c7e8096-f593-4d72-807f-a5f86dcc9c77</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Redirect URI</source>
+          <target>Redirect URI</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>A URI value that developers can provide when registering their app with Azure Active Directory to ensure that authentication tokens are returned specifically to that endpoint.</source>
+          <target>A URI value that developers can provide when registering their app with Azure Active Directory to ensure that authentication tokens are returned specifically to that endpoint.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Supplying a redirect URI is an optional parameter for the app wrapping tool.</source>
+          <target>Supplying a redirect URI is an optional parameter for the app wrapping tool.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>If it is not specified, a default URI will be used.</source>
+          <target>If it is not specified, a default URI will be used.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>urn:ietf:wg:oauth:2.0:oob</source>
+          <target>urn:ietf:wg:oauth:2.0:oob</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>When you do not supply the above values to the tool; the following additional values are automatically used:</source>
+          <target>When you do not supply the above values to the tool; the following additional values are automatically used:</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Authority URI</pc> - https://login.windows.net/common/oauth2/authorize</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Authority URI</pc> - https://login.windows.net/common/oauth2/authorize</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Resource ID</pc> - https://intunemam.microsoft.com</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Resource ID</pc> - https://intunemam.microsoft.com</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_step_use_adal"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Steps to follow for apps that use ADAL</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Steps to follow for apps that use ADAL</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_adal_overview)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Review <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overview of identifiers you need to get</pc> to identify the values that you need to get.</source>
+          <target>Review <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overview of identifiers you need to get</pc> to identify the values that you need to get.</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Configure access to mobile application management in Azure Active Directory by doing the following:</source>
+          <target>Configure access to mobile application management in Azure Active Directory by doing the following:</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>Log into an existing Azure Active Directory account in the Azure management portal.</source>
+          <target>Log into an existing Azure Active Directory account in the Azure management portal.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">existing LOB application registration</pc> in Azure Active Directory.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">existing LOB application registration</pc> in Azure Active Directory.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the configure section, choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Access to Web APIs in other applications</pc>.</source>
+          <target>In the configure section, choose <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Configure Access to Web APIs in other applications</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Permission to other applications</pc> section, from the first drop-down list, choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Intune Mobile Application Management</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Permission to other applications</pc> section, from the first drop-down list, choose <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Intune Mobile Application Management</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>You can now use the app's Client ID in the app wrapping tool.</source>
+          <target>You can now use the app's Client ID in the app wrapping tool.</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_adal_overview)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can find the app's Client ID in the Azure Active Directory management portal as described in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overview of identifiers you need to get</pc> section.</source>
+          <target>You can find the app's Client ID in the Azure Active Directory management portal as described in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Overview of identifiers you need to get</pc> section.</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Client-ID</pc> (using the property <pc dataRefEnd="id4" dataRefStart="id3" id="p2">–a</pc>) and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Redirect-URI</pc> values as command-line properties in the app wrapping tool.</source>
+          <target>Use the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Client-ID</pc> (using the property <pc dataRefEnd="id4" dataRefStart="id3" id="p2">–a</pc>) and <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Redirect-URI</pc> values as command-line properties in the app wrapping tool.</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>If you do not have these values, the default values are used.</source>
+          <target>If you do not have these values, the default values are used.</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>You must specify both values, or the end user will not be able to successfully authenticate the processed app.</source>
+          <target>You must specify both values, or the end user will not be able to successfully authenticate the processed app.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>Certificate, provisioning profile, and authentication requirements</source>
+          <target>Certificate, provisioning profile, and authentication requirements</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>Requirement</source>
+          <target>Requirement</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>Details</source>
+          <target>Details</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>Provisioning profile</source>
+          <target>Provisioning profile</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Make sure that the provisioning profile is valid before you include it</pc> - The app wrapping tool does not check whether the provisioning profile is expired when processing an iOS app.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Make sure that the provisioning profile is valid before you include it</pc> - The app wrapping tool does not check whether the provisioning profile is expired when processing an iOS app.</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>If an expired provisioning profile is specified, the app wrapping tool will include the expired provisioning profile, and you will not know there is a problem until the app fails to install on an iOS device.</source>
+          <target>If an expired provisioning profile is specified, the app wrapping tool will include the expired provisioning profile, and you will not know there is a problem until the app fails to install on an iOS device.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>Certificate</source>
+          <target>Certificate</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Make sure that the certificate is valid before you specify it</pc> - The tool does not check whether a certificate is expired when processing iOS apps.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Make sure that the certificate is valid before you specify it</pc> - The tool does not check whether a certificate is expired when processing iOS apps.</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>If the hash for an expired certificate is provided, the tool will process and sign the app, but it will fail to install on devices.</source>
+          <target>If the hash for an expired certificate is provided, the tool will process and sign the app, but it will fail to install on devices.</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Make sure that the certificate provided for signing the packaged application has a match in the provisioning profile</pc> - The tool does not validate if the provisioning profile has a match for the certificate provided for signing the wrapped application.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Make sure that the certificate provided for signing the packaged application has a match in the provisioning profile</pc> - The tool does not validate if the provisioning profile has a match for the certificate provided for signing the wrapped application.</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>Authentication</source>
+          <target>Authentication</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>A device must have a pin set for encryption to work.</source>
+          <target>A device must have a pin set for encryption to work.</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>On devices to which you have deployed a wrapped application, touching the status bar on the device will require the user to re-authenticate with <ph dataRef="id1" id="ph1" />.</source>
+          <target>On devices to which you have deployed a wrapped application, touching the status bar on the device will require the user to re-authenticate with <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <originalData>
+          <data id="id1">*</data>
+          <data id="id2">*</data>
+        </originalData>
+        <segment state="initial">
+          <source>The default policy in a wrapped application is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">authentication on re-launch</pc>.</source>
+          <target>The default policy in a wrapped application is <pc dataRefEnd="id2" dataRefStart="id1" id="p1">authentication on re-launch</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>iOS handles any external notification (for example a phone call) as exiting the app and then re-launching it.</source>
+          <target>iOS handles any external notification (for example a phone call) as exiting the app and then re-launching it.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>For wrapped apps, the first user who signs into any wrapped app from the same publisher is cached.</source>
+          <target>For wrapped apps, the first user who signs into any wrapped app from the same publisher is cached.</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>After this point, only that user is allowed to access the app.</source>
+          <target>After this point, only that user is allowed to access the app.</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>To reset the user, the device has to be unenrolled and then re-enrolled.</source>
+          <target>To reset the user, the device has to be unenrolled and then re-enrolled.</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>Troubleshooting and technical notes about ADAP</source>
+          <target>Troubleshooting and technical notes about ADAP</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>If no ADAL resources are found, the tool will include the ADAL dynamic library.</source>
+          <target>If no ADAL resources are found, the tool will include the ADAL dynamic library.</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The tool will search for the ADAL library with a name of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ADALiOS.bundle</pc> in the root folder.</source>
+          <target>The tool will search for the ADAL library with a name of <pc dataRefEnd="id2" dataRefStart="id1" id="p1">ADALiOS.bundle</pc> in the root folder.</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>The tool does not search for ADAL binaries (if any) within the app.</source>
+          <target>The tool does not search for ADAL binaries (if any) within the app.</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>If the app links to an outdated version, there may be runtime errors during login if authentication policies are enabled.</source>
+          <target>If the app links to an outdated version, there may be runtime errors during login if authentication policies are enabled.</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> fetches the AAD token to the <ph dataRef="id2" id="ph2" /> MAM resource-id for authentication.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> fetches the AAD token to the <ph dataRef="id2" id="ph2" /> MAM resource-id for authentication.</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>However, it is not used in any call that would in-turn verify the validity of the token.</source>
+          <target>However, it is not used in any call that would in-turn verify the validity of the token.</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> only reads the UPN of the signed-in user to determine app access.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> only reads the UPN of the signed-in user to determine app access.</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>The AAD token is not used for any further service calls.</source>
+          <target>The AAD token is not used for any further service calls.</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>Authentication tokens are shared between apps from the same publisher since they are stored in shared keychain.</source>
+          <target>Authentication tokens are shared between apps from the same publisher since they are stored in shared keychain.</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>If you want to isolate a specific app, then you must use a different signing certificate and provisioning profile for that app.</source>
+          <target>If you want to isolate a specific app, then you must use a different signing certificate and provisioning profile for that app.</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Double login prompts are prevented if you provide your client application’s Client ID and Redirect URI.</source>
+          <target>Double login prompts are prevented if you provide your client application’s Client ID and Redirect URI.</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This Client ID needs to be registered to access the published <ph dataRef="id1" id="ph1" /> MAM resource ID in the AAD Dashboard.</source>
+          <target>This Client ID needs to be registered to access the published <ph dataRef="id1" id="ph1" /> MAM resource ID in the AAD Dashboard.</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>Failure to do so will result in a login failure when the app runs.</source>
+          <target>Failure to do so will result in a login failure when the app runs.</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ios_entitlements"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Setting app entitlements</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Setting app entitlements</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before wrapping your app, you can grant <pc dataRefEnd="id2" dataRefStart="id1" id="p1">entitlements</pc> to give the app  additional permissions and capabilities that exceed what an app typically can do.</source>
+          <target>Before wrapping your app, you can grant <pc dataRefEnd="id2" dataRefStart="id1" id="p1">entitlements</pc> to give the app  additional permissions and capabilities that exceed what an app typically can do.</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>An <pc dataRefEnd="id2" dataRefStart="id1" id="p1">entitlement file</pc> is used during code signing to specify special permissions within your app (for example, access to a shared keychain).</source>
+          <target>An <pc dataRefEnd="id2" dataRefStart="id1" id="p1">entitlement file</pc> is used during code signing to specify special permissions within your app (for example, access to a shared keychain).</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specific app services, called <pc dataRefEnd="id2" dataRefStart="id1" id="p1">capabilities</pc>, are enabled within Xcode during app development.</source>
+          <target>Specific app services, called <pc dataRefEnd="id2" dataRefStart="id1" id="p1">capabilities</pc>, are enabled within Xcode during app development.</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>Once enabled, the capabilities are reflected in your entitlements file.</source>
+          <target>Once enabled, the capabilities are reflected in your entitlements file.</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information about entitlements and capabilities, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Adding Capabilities</pc> in the iOS Developer Library.</source>
+          <target>For more information about entitlements and capabilities, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Adding Capabilities</pc> in the iOS Developer Library.</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SupportedCapabilities/SupportedCapabilities.html)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For a complete list of supported capabilities, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Supported capabilities</pc>.</source>
+          <target>For a complete list of supported capabilities, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Supported capabilities</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>Supported capabilities for the App Wrapping Tool for iOS</source>
+          <target>Supported capabilities for the App Wrapping Tool for iOS</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>Capability</source>
+          <target>Capability</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>Description</source>
+          <target>Description</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>Recommended guidance</source>
+          <target>Recommended guidance</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>App Groups</source>
+          <target>App Groups</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <segment state="initial">
+          <source>Use app groups to allow multiple apps to access shared containers and allow additional inter-process communication between apps.</source>
+          <target>Use app groups to allow multiple apps to access shared containers and allow additional inter-process communication between apps.</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To enable app groups, open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Capabilities</pc> pane and click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ON</pc> switch in the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">App Groups</pc> section.</source>
+          <target>To enable app groups, open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Capabilities</pc> pane and click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">ON</pc> switch in the <pc dataRefEnd="id6" dataRefStart="id5" id="p3">App Groups</pc> section.</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <segment state="initial">
+          <source>You can add app groups or select existing ones.</source>
+          <target>You can add app groups or select existing ones.</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>When using App Groups, use reverse DNS notation:</source>
+          <target>When using App Groups, use reverse DNS notation:</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>group.com.companyName.AppGroup</source>
+          <target>group.com.companyName.AppGroup</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <segment state="initial">
+          <source>Background Modes</source>
+          <target>Background Modes</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>Enabling background modes allows your iOS app to continue running in the background.</source>
+          <target>Enabling background modes allows your iOS app to continue running in the background.</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>Data Protection</source>
+          <target>Data Protection</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>Data protection adds a level of security to files stored on disk by your iOS app.</source>
+          <target>Data protection adds a level of security to files stored on disk by your iOS app.</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>Data protection uses the built-in encryption hardware present on specific devices to store files in an encrypted format on disk.</source>
+          <target>Data protection uses the built-in encryption hardware present on specific devices to store files in an encrypted format on disk.</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <segment state="initial">
+          <source>Your app needs to be provisioned to use data protection.</source>
+          <target>Your app needs to be provisioned to use data protection.</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <segment state="initial">
+          <source>In-App Purchase</source>
+          <target>In-App Purchase</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>In-App purchase embeds a store directly into your app by enabling you to connect to the store and securely process payments from the user.</source>
+          <target>In-App purchase embeds a store directly into your app by enabling you to connect to the store and securely process payments from the user.</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <segment state="initial">
+          <source>You can use In-App Purchase to collect payment for enhanced functionality or for additional content usable by your app.</source>
+          <target>You can use In-App Purchase to collect payment for enhanced functionality or for additional content usable by your app.</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>Keychain Sharing</source>
+          <target>Keychain Sharing</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>Enabling keychain sharing allows your app to share passwords in the keychain with other apps developed by your team.</source>
+          <target>Enabling keychain sharing allows your app to share passwords in the keychain with other apps developed by your team.</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>When using Keychain Sharing, use reverse DNS notation:</source>
+          <target>When using Keychain Sharing, use reverse DNS notation:</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>com.companyName.KeychainGroup</source>
+          <target>com.companyName.KeychainGroup</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <segment state="initial">
+          <source>Personal VPN</source>
+          <target>Personal VPN</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>Enable personal VPN to allow your app to create and control a custom system VPN configuration using the Network Extension framework.</source>
+          <target>Enable personal VPN to allow your app to create and control a custom system VPN configuration using the Network Extension framework.</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>Push Notifications</source>
+          <target>Push Notifications</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>Apple Push Notification service (APNs) allows an app that isn’t running in the foreground to notify the user that it has information for the user.</source>
+          <target>Apple Push Notification service (APNs) allows an app that isn’t running in the foreground to notify the user that it has information for the user.</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>For push notifications to work, you need to use an app-specific provisioning profile.</source>
+          <target>For push notifications to work, you need to use an app-specific provisioning profile.</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Follow the steps in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apple developer documentation</pc>.</source>
+          <target>Follow the steps in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apple developer documentation</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <segment state="initial">
+          <source>Wireless Accessory Configuration</source>
+          <target>Wireless Accessory Configuration</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>Enabling wireless accessory configuration adds the External Accessory framework to your project and allows your app to configure MFi Wi-Fi accessories.</source>
+          <target>Enabling wireless accessory configuration adds the External Accessory framework to your project and allows your app to configure MFi Wi-Fi accessories.</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>Steps to enable entitlements</source>
+          <target>Steps to enable entitlements</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <segment state="initial">
+          <source>Enable capabilities in your app:</source>
+          <target>Enable capabilities in your app:</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In Xcode, navigate to your app’s target, and click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Capabilities</pc> pane.</source>
+          <target>In Xcode, navigate to your app’s target, and click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Capabilities</pc> pane.</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <segment state="initial">
+          <source>Turn on the appropriate capabilities.</source>
+          <target>Turn on the appropriate capabilities.</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/AddingCapabilities/AddingCapabilities.html)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For detailed information about each capability and how to determine the correct values, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Adding Capabilities</pc> in the iOS Developer Library.</source>
+          <target>For detailed information about each capability and how to determine the correct values, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Adding Capabilities</pc> in the iOS Developer Library.</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <segment state="initial">
+          <source>Note any IDs that you created during the process.</source>
+          <target>Note any IDs that you created during the process.</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <segment state="initial">
+          <source>Build and sign your app to be wrapped.</source>
+          <target>Build and sign your app to be wrapped.</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <segment state="initial">
+          <source>Enable entitlements in your provisioning profile:</source>
+          <target>Enable entitlements in your provisioning profile:</target>
+        </segment>
+      </unit>
+      <unit id="366">
+        <segment state="initial">
+          <source>Log in to the Apple Developer Member Center.</source>
+          <target>Log in to the Apple Developer Member Center.</target>
+        </segment>
+      </unit>
+      <unit id="367">
+        <segment state="initial">
+          <source>Create a provisioning profile for your app.</source>
+          <target>Create a provisioning profile for your app.</target>
+        </segment>
+      </unit>
+      <unit id="368">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://blogs.technet.com/b/microsoftintune/archive/2015/02/25/how-to-obtain-the-prerequisites-for-the-intune-app-wrapping-tool-for-ios.aspx)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For instructions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Obtain the Prerequisites for the Intune App Wrapping Tool for iOS</pc>.</source>
+          <target>For instructions, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">How to Obtain the Prerequisites for the Intune App Wrapping Tool for iOS</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="369">
+        <segment state="initial">
+          <source>In your provisioning profile, enable the same entitlements that you have in your app.</source>
+          <target>In your provisioning profile, enable the same entitlements that you have in your app.</target>
+        </segment>
+      </unit>
+      <unit id="370">
+        <segment state="initial">
+          <source>You will need to supply the same IDs that you specified during the development of your app.</source>
+          <target>You will need to supply the same IDs that you specified during the development of your app.</target>
+        </segment>
+      </unit>
+      <unit id="371">
+        <segment state="initial">
+          <source>Complete the provisioning profile wizard and download your file.</source>
+          <target>Complete the provisioning profile wizard and download your file.</target>
+        </segment>
+      </unit>
+      <unit id="372">
+        <segment state="initial">
+          <source>Ensure that you have satisfied all the prerequisites, and then wrap the app.</source>
+          <target>Ensure that you have satisfied all the prerequisites, and then wrap the app.</target>
+        </segment>
+      </unit>
+      <unit id="373">
+        <segment state="initial">
+          <source>Troubleshooting common errors with entitlements</source>
+          <target>Troubleshooting common errors with entitlements</target>
+        </segment>
+      </unit>
+      <unit id="374">
+        <segment state="initial">
+          <source>If the App Wrapping Tool for iOS displays an entitlement error, try the following troubleshooting steps.</source>
+          <target>If the App Wrapping Tool for iOS displays an entitlement error, try the following troubleshooting steps.</target>
+        </segment>
+      </unit>
+      <unit id="375">
+        <segment state="initial">
+          <source>Issue</source>
+          <target>Issue</target>
+        </segment>
+      </unit>
+      <unit id="376">
+        <segment state="initial">
+          <source>Cause</source>
+          <target>Cause</target>
+        </segment>
+      </unit>
+      <unit id="377">
+        <segment state="initial">
+          <source>Resolution</source>
+          <target>Resolution</target>
+        </segment>
+      </unit>
+      <unit id="378">
+        <segment state="initial">
+          <source>Failed to parse entitlements generated from the input application.</source>
+          <target>Failed to parse entitlements generated from the input application.</target>
+        </segment>
+      </unit>
+      <unit id="379">
+        <segment state="initial">
+          <source>The App Wrapping Tool cannot read the entitlements file that was extracted from the app.</source>
+          <target>The App Wrapping Tool cannot read the entitlements file that was extracted from the app.</target>
+        </segment>
+      </unit>
+      <unit id="380">
+        <segment state="initial">
+          <source>The entitlements file might be malformed.</source>
+          <target>The entitlements file might be malformed.</target>
+        </segment>
+      </unit>
+      <unit id="381">
+        <segment state="initial">
+          <source>Inspect the entitlements file for your app.</source>
+          <target>Inspect the entitlements file for your app.</target>
+        </segment>
+      </unit>
+      <unit id="382">
+        <segment state="initial">
+          <source>To do so, follow the instructions detailed below.</source>
+          <target>To do so, follow the instructions detailed below.</target>
+        </segment>
+      </unit>
+      <unit id="383">
+        <segment state="initial">
+          <source>When inspecting the entitlements file, check for any malformed syntax.</source>
+          <target>When inspecting the entitlements file, check for any malformed syntax.</target>
+        </segment>
+      </unit>
+      <unit id="384">
+        <segment state="initial">
+          <source>The file should be in XML format.</source>
+          <target>The file should be in XML format.</target>
+        </segment>
+      </unit>
+      <unit id="385">
+        <segment state="initial">
+          <source>Entitlements are missing in the provisioning profile (missing entitlements are listed).</source>
+          <target>Entitlements are missing in the provisioning profile (missing entitlements are listed).</target>
+        </segment>
+      </unit>
+      <unit id="386">
+        <segment state="initial">
+          <source>Repackage the app with a provisioning profile that has these entitlements.</source>
+          <target>Repackage the app with a provisioning profile that has these entitlements.</target>
+        </segment>
+      </unit>
+      <unit id="387">
+        <segment state="initial">
+          <source>There is a mismatch between the entitlements enabled in the provisioning profile and the capabilities enabled in the app.</source>
+          <target>There is a mismatch between the entitlements enabled in the provisioning profile and the capabilities enabled in the app.</target>
+        </segment>
+      </unit>
+      <unit id="388">
+        <segment state="initial">
+          <source>This mismatch also applies to the IDs associated with particular capabilities (i.e., App Groups, Keychain Access etc).</source>
+          <target>This mismatch also applies to the IDs associated with particular capabilities (i.e., App Groups, Keychain Access etc).</target>
+        </segment>
+      </unit>
+      <unit id="389">
+        <segment state="initial">
+          <source>Generally, you can create a new provisioning profile that enables the same capabilities as the app.</source>
+          <target>Generally, you can create a new provisioning profile that enables the same capabilities as the app.</target>
+        </segment>
+      </unit>
+      <unit id="390">
+        <segment state="initial">
+          <source>When IDs between the profile and app don't match, the App Wrapping Tool will replace the IDs if it is able to.</source>
+          <target>When IDs between the profile and app don't match, the App Wrapping Tool will replace the IDs if it is able to.</target>
+        </segment>
+      </unit>
+      <unit id="391">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](#BKMK_ios_use_e_param)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you still get this error after creating a new provisioning profile, you can try  removing entitlements from the app by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">–e</pc> parameter (see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Using the –e parameter to remove entitlements from an app</pc>.</source>
+          <target>If you still get this error after creating a new provisioning profile, you can try  removing entitlements from the app by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">–e</pc> parameter (see <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Using the –e parameter to remove entitlements from an app</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="392">
+        <segment state="initial">
+          <source>Finding the existing entitlements of a signed app</source>
+          <target>Finding the existing entitlements of a signed app</target>
+        </segment>
+      </unit>
+      <unit id="393">
+        <segment state="initial">
+          <source>To review the existing entitlements of a signed app and provisioning profile:</source>
+          <target>To review the existing entitlements of a signed app and provisioning profile:</target>
+        </segment>
+      </unit>
+      <unit id="394">
+        <segment state="initial">
+          <source>Find the .ipa file and change its the extension to .zip.</source>
+          <target>Find the .ipa file and change its the extension to .zip.</target>
+        </segment>
+      </unit>
+      <unit id="395">
+        <segment state="initial">
+          <source>Expand the .zip file.</source>
+          <target>Expand the .zip file.</target>
+        </segment>
+      </unit>
+      <unit id="396">
+        <segment state="initial">
+          <source>This will produce a Payload folder containing your .app bundle.</source>
+          <target>This will produce a Payload folder containing your .app bundle.</target>
+        </segment>
+      </unit>
+      <unit id="397">
+        <segment state="initial">
+          <source>Use the codesign tool to check the entitlements on the .app bundle like this:</source>
+          <target>Use the codesign tool to check the entitlements on the .app bundle like this:</target>
+        </segment>
+      </unit>
+      <unit id="398">
+        <originalData>
+          <data id="id1">`YourApp.app`</data>
+        </originalData>
+        <segment state="initial">
+          <source>where <ph dataRef="id1" id="ph1" /> is the actual name of your .app bundle.</source>
+          <target>where <ph dataRef="id1" id="ph1" /> is the actual name of your .app bundle.</target>
+        </segment>
+      </unit>
+      <unit id="399">
+        <segment state="initial">
+          <source>Use the security tool to check the entitlements of the app's embedded provisioning profile:</source>
+          <target>Use the security tool to check the entitlements of the app's embedded provisioning profile:</target>
+        </segment>
+      </unit>
+      <unit id="400">
+        <originalData>
+          <data id="id1">`YourApp.app`</data>
+        </originalData>
+        <segment state="initial">
+          <source>where <ph dataRef="id1" id="ph1" /> is the actual name of your .app bundle.</source>
+          <target>where <ph dataRef="id1" id="ph1" /> is the actual name of your .app bundle.</target>
+        </segment>
+      </unit>
+      <unit id="401">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_ios_use_e_param"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Using the –e parameter to remove entitlements from an app</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Using the –e parameter to remove entitlements from an app</target>
+        </segment>
+      </unit>
+      <unit id="402">
+        <segment state="initial">
+          <source>This command removes any enabled capabilities in the app that are not in the entitlements file.</source>
+          <target>This command removes any enabled capabilities in the app that are not in the entitlements file.</target>
+        </segment>
+      </unit>
+      <unit id="403">
+        <segment state="initial">
+          <source>If you remove capabilities that are being used by the app, it can break your app.</source>
+          <target>If you remove capabilities that are being used by the app, it can break your app.</target>
+        </segment>
+      </unit>
+      <unit id="404">
+        <segment state="initial">
+          <source>An example of where you might remove missing capabilities is if you have a vendor-produced app that has all capabilities by default.</source>
+          <target>An example of where you might remove missing capabilities is if you have a vendor-produced app that has all capabilities by default.</target>
+        </segment>
+      </unit>
+      <unit id="405">
+        <segment state="initial">
+          <source>Security and privacy for the app wrapping tool</source>
+          <target>Security and privacy for the app wrapping tool</target>
+        </segment>
+      </unit>
+      <unit id="406">
+        <segment state="initial">
+          <source>Use the following security and privacy best practices when you use the app wrapping tool.</source>
+          <target>Use the following security and privacy best practices when you use the app wrapping tool.</target>
+        </segment>
+      </unit>
+      <unit id="407">
+        <segment state="initial">
+          <source>The signing certificate, provisioning profile and the line-of-business app you specify must be on the same Mac computer that you use to run the app wrapping tool.</source>
+          <target>The signing certificate, provisioning profile and the line-of-business app you specify must be on the same Mac computer that you use to run the app wrapping tool.</target>
+        </segment>
+      </unit>
+      <unit id="408">
+        <segment state="initial">
+          <source>If the files are on a UNC path, ensure that these are accessible from the Mac computer.</source>
+          <target>If the files are on a UNC path, ensure that these are accessible from the Mac computer.</target>
+        </segment>
+      </unit>
+      <unit id="409">
+        <segment state="initial">
+          <source>The path must be secured via IPsec or SMB signing.</source>
+          <target>The path must be secured via IPsec or SMB signing.</target>
+        </segment>
+      </unit>
+      <unit id="410">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The wrapped application imported into the <ph dataRef="id1" id="ph1" /> console should be on the same computer that you run the tool on.</source>
+          <target>The wrapped application imported into the <ph dataRef="id1" id="ph1" /> console should be on the same computer that you run the tool on.</target>
+        </segment>
+      </unit>
+      <unit id="411">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If the file is on a UNC path, ensure that it is accessible on the computer running the <ph dataRef="id1" id="ph1" /> console.</source>
+          <target>If the file is on a UNC path, ensure that it is accessible on the computer running the <ph dataRef="id1" id="ph1" /> console.</target>
+        </segment>
+      </unit>
+      <unit id="412">
+        <segment state="initial">
+          <source>The path must be secured via IPsec or SMB signing.</source>
+          <target>The path must be secured via IPsec or SMB signing.</target>
+        </segment>
+      </unit>
+      <unit id="413">
+        <segment state="initial">
+          <source>The environment where the app wrapping tool is downloaded from the Microsoft Download Center site needs to be secured via IPsec or SMB signing.</source>
+          <target>The environment where the app wrapping tool is downloaded from the Microsoft Download Center site needs to be secured via IPsec or SMB signing.</target>
+        </segment>
+      </unit>
+      <unit id="414">
+        <segment state="initial">
+          <source>The app you process must come from a trust-worthy source to ensure protection against attacks.</source>
+          <target>The app you process must come from a trust-worthy source to ensure protection against attacks.</target>
+        </segment>
+      </unit>
+      <unit id="415">
+        <segment state="initial">
+          <source>Ensure that the output folder you specify in the app wrapping tool is secured, particularly if it is a remote folder.</source>
+          <target>Ensure that the output folder you specify in the app wrapping tool is secured, particularly if it is a remote folder.</target>
+        </segment>
+      </unit>
+      <unit id="416">
+        <segment state="initial">
+          <source>iOS apps that include a file upload dialog box can allow users to circumvent cut, copy and paste restrictions applied to the app.</source>
+          <target>iOS apps that include a file upload dialog box can allow users to circumvent cut, copy and paste restrictions applied to the app.</target>
+        </segment>
+      </unit>
+      <unit id="417">
+        <segment state="initial">
+          <source>For example, a user could use the file upload dialog box to upload a screenshot of the app data.</source>
+          <target>For example, a user could use the file upload dialog box to upload a screenshot of the app data.</target>
+        </segment>
+      </unit>
+      <unit id="418">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When users monitor the documents folder on their device from within a wrapped app, they might see a folder named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.msftintuneapplauncher</pc>.</source>
+          <target>When users monitor the documents folder on their device from within a wrapped app, they might see a folder named <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.msftintuneapplauncher</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="419">
+        <segment state="initial">
+          <source>If this folder is changed or deleted, this might affect the correct functioning of restricted apps.</source>
+          <target>If this folder is changed or deleted, this might affect the correct functioning of restricted apps.</target>
+        </segment>
+      </unit>
+      <unit id="420">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="421">
+        <segment state="initial">
+          <source>Configure and deploy mobile application management policies in the Microsoft Intune console</source>
+          <target>Configure and deploy mobile application management policies in the Microsoft Intune console</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

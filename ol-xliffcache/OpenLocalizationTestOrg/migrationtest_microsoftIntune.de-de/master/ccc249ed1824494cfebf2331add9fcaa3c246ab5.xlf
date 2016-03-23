@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">ccc249ed1824494cfebf2331add9fcaa3c246ab5</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>RASK core components</source>
+          <target>RASK core components</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>RASK core components</source>
+          <target>RASK core components</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>RASK is organized into 3 core components: Rollout Phases, Readiness Focus Areas, and the Deployment Readiness Report.</source>
+          <target>RASK is organized into 3 core components: Rollout Phases, Readiness Focus Areas, and the Deployment Readiness Report.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Together, these components create a framework designed for maximum flexibility and easy customization to reflect the unique characteristics of your organization and be relevant to deployments of almost any size or complexity.</source>
+          <target>Together, these components create a framework designed for maximum flexibility and easy customization to reflect the unique characteristics of your organization and be relevant to deployments of almost any size or complexity.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>This adaptable framework allows for easy navigation between phases to support good visibility of what's ahead or what you may have missed if you've discovered RASK after your deployment is already underway.</source>
+          <target>This adaptable framework allows for easy navigation between phases to support good visibility of what's ahead or what you may have missed if you've discovered RASK after your deployment is already underway.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>RASK rollout phases</source>
+          <target>RASK rollout phases</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Organized into five phases, Project Scope, Proof of Concept, Pilot, Enterprise rollout, and Run State, RASK loosely maps to the typical phases of a core technical deployment.</source>
+          <target>Organized into five phases, Project Scope, Proof of Concept, Pilot, Enterprise rollout, and Run State, RASK loosely maps to the typical phases of a core technical deployment.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>While your organization may use different terminology, the associated Phase definitions provide an easy mechanism to quickly identify which best represents your organization's current deployment state.</source>
+          <target>While your organization may use different terminology, the associated Phase definitions provide an easy mechanism to quickly identify which best represents your organization's current deployment state.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Project scope</source>
+          <target>Project scope</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Understand goals, deployment, and rollout strategy.</source>
+          <target>Understand goals, deployment, and rollout strategy.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Proof of concept</source>
+          <target>Proof of concept</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Test technical deployment &amp;amp; network architecture.</source>
+          <target>Test technical deployment &amp;amp; network architecture.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Pilot</source>
+          <target>Pilot</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>With a sample of enrolled devices, validate scenarios, resources, and rollout plans with user in preparation for broad rollout.</source>
+          <target>With a sample of enrolled devices, validate scenarios, resources, and rollout plans with user in preparation for broad rollout.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Enterprise rollout</source>
+          <target>Enterprise rollout</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Launch across all departments and user groups.</source>
+          <target>Launch across all departments and user groups.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Run state</source>
+          <target>Run state</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Operations plan for all key phases/focus areas, increase user-adoption.</source>
+          <target>Operations plan for all key phases/focus areas, increase user-adoption.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

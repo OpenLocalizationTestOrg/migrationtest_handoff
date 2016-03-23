@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">ef776e8a23691963994614954fc894d637dca519</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Proof of concept</source>
+          <target>Proof of concept</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Proof of concept</source>
+          <target>Proof of concept</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>The proof of concept phase should focus on determining the feasibility of your deployment to meet your company's requirements.</source>
+          <target>The proof of concept phase should focus on determining the feasibility of your deployment to meet your company's requirements.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>This phase includes a simple topology designed to validate specific technical scenarios.</source>
+          <target>This phase includes a simple topology designed to validate specific technical scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>The deployment should be in a test environment and should not host any production users.</source>
+          <target>The deployment should be in a test environment and should not host any production users.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Why is this important?</source>
+          <target>Why is this important?</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>A  proof of concept is important to understand the feasibility of your deployment before going to pilot users.</source>
+          <target>A  proof of concept is important to understand the feasibility of your deployment before going to pilot users.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>It should be considered a small scale experiment from which you will learn how it will work in your environment and validate specific scenarios before investing in the resources required for a  pilot.</source>
+          <target>It should be considered a small scale experiment from which you will learn how it will work in your environment and validate specific scenarios before investing in the resources required for a  pilot.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>The lessons learned in the proof of concept should influence your pilot and production design.</source>
+          <target>The lessons learned in the proof of concept should influence your pilot and production design.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Begin by reviewing the discovery questions to help scope and define your proof of concept.</source>
+          <target>Begin by reviewing the discovery questions to help scope and define your proof of concept.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Discovery questions</source>
+          <target>Discovery questions</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Discuss these questions with your project team to help scope your project details, uncover potential risks, and define actionable tasks which can be documented in the  Rollout Planning Guide and Project Plan.</source>
+          <target>Discuss these questions with your project team to help scope your project details, uncover potential risks, and define actionable tasks which can be documented in the  Rollout Planning Guide and Project Plan.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>What are the core scenarios <ph dataRef="id1" id="ph1" /> must meet to be successful for your company?</source>
+          <target>What are the core scenarios <ph dataRef="id1" id="ph1" /> must meet to be successful for your company?</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>What are the features you want to investigate and validate?</source>
+          <target>What are the features you want to investigate and validate?</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>What resources must you have in your test environment to complete the validation of these scenarios?</source>
+          <target>What resources must you have in your test environment to complete the validation of these scenarios?</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>Focus area goals</source>
+          <target>Focus area goals</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Review this section for guidance on focus-area activities for this stated phase of your rollout.</source>
+          <target>Review this section for guidance on focus-area activities for this stated phase of your rollout.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Planning</source>
+          <target>Planning</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>You must know the scenarios you need to validate, and what you need to complete this validation, before deploying your PoC infrastructure.</source>
+          <target>You must know the scenarios you need to validate, and what you need to complete this validation, before deploying your PoC infrastructure.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Help desk</source>
+          <target>Help desk</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <segment state="initial">
+          <source>The help desk does not need preparation for this phase of the project as there won't be any production users or devices involved.</source>
+          <target>The help desk does not need preparation for this phase of the project as there won't be any production users or devices involved.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>However, this is an opportunity for the help desk to learn about the deployment and operation of <ph dataRef="id1" id="ph1" />.</source>
+          <target>However, this is an opportunity for the help desk to learn about the deployment and operation of <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Awareness</source>
+          <target>Awareness</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>The technical team and executive sponsorship should have visibility into the progress of scenario testing.</source>
+          <target>The technical team and executive sponsorship should have visibility into the progress of scenario testing.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>The design team needs to be aware of the lessons learned to incorporate in its  design.</source>
+          <target>The design team needs to be aware of the lessons learned to incorporate in its  design.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Training</source>
+          <target>Training</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Administrators who will be managing users, devices, policies and applications should use the PoC as an opportunity to learn about the <ph dataRef="id1" id="ph1" /> console and features.</source>
+          <target>Administrators who will be managing users, devices, policies and applications should use the PoC as an opportunity to learn about the <ph dataRef="id1" id="ph1" /> console and features.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>Operations</source>
+          <target>Operations</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>The proof of concept does not require ongoing operations.</source>
+          <target>The proof of concept does not require ongoing operations.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>However, there may be specific scenarios that operations staff would want to understand or validate in the PoC.</source>
+          <target>However, there may be specific scenarios that operations staff would want to understand or validate in the PoC.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>Get started checklist</source>
+          <target>Get started checklist</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Here is a list of steps to get you started with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proof of concept</pc> phase.</source>
+          <target>Here is a list of steps to get you started with the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proof of concept</pc> phase.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Define your PoC success criteria.</source>
+          <target>Define your PoC success criteria.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>These should be based on validating business and technical requirements.</source>
+          <target>These should be based on validating business and technical requirements.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Identify the required resources to validate testing scenarios.</source>
+          <target>Identify the required resources to validate testing scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Identify suitable test environment that will mimic the production environment, for example, the needed number of devices of various operating systems.</source>
+          <target>Identify suitable test environment that will mimic the production environment, for example, the needed number of devices of various operating systems.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <segment state="initial">
+          <source>Common challenges</source>
+          <target>Common challenges</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Here are some  challenges that you may encounter in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proof of concept</pc> phase.</source>
+          <target>Here are some  challenges that you may encounter in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Proof of concept</pc> phase.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Getting the technical and human resources to validate production like scenarios.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Getting the technical and human resources to validate production like scenarios.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> Clearly articulate that the lessons learned in the PoC environment will assist in the technical design and improve the quality of the subsequent phases.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> Clearly articulate that the lessons learned in the PoC environment will assist in the technical design and improve the quality of the subsequent phases.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>Lacking resources for the PoC will require these lessons to be learned after the technical design has been completed -- possibly requiring redesigning some elements.</source>
+          <target>Lacking resources for the PoC will require these lessons to be learned after the technical design has been completed -- possibly requiring redesigning some elements.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Defining the testing scenarios that would be required in production.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Challenge:</pc> Defining the testing scenarios that would be required in production.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> Work with the executive sponsor, operations, telecom, network, and user teams to understand the requirements of a client management solution.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Mitigation:</pc> Work with the executive sponsor, operations, telecom, network, and user teams to understand the requirements of a client management solution.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

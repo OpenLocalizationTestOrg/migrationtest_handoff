@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">a92e4ce107b7aa799856c585f4b82f4f6ed0421d</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Passcode reset and remote lock</source>
+          <target>Passcode reset and remote lock</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Passcode reset and remote lock</source>
+          <target>Passcode reset and remote lock</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Insert introduction here.</source>
+          <target>Insert introduction here.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Passcode Reset</source>
+          <target>Passcode Reset</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>If a user forgets their passcode, you can help them by removing the passcode from a device or by forcing a new temporary passcode on a device.</source>
+          <target>If a user forgets their passcode, you can help them by removing the passcode from a device or by forcing a new temporary passcode on a device.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>The table below lists how passcode reset works on different mobile platforms.</source>
+          <target>The table below lists how passcode reset works on different mobile platforms.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Platform</source>
+          <target>Platform</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Passcode Reset</source>
+          <target>Passcode Reset</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>iOS</source>
+          <target>iOS</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Supported for clearing the passcode from a device.</source>
+          <target>Supported for clearing the passcode from a device.</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Does not create a new temporary passcode.</source>
+          <target>Does not create a new temporary passcode.</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Supported and a temporary passcode is created.</source>
+          <target>Supported and a temporary passcode is created.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>Windows Phone 8 and Windows Phone 8.1</source>
+          <target>Windows Phone 8 and Windows Phone 8.1</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Supported</source>
+          <target>Supported</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">[!INCLUDE[winblue_winrt_2](../Token/winblue_winrt_2_md.md)]</data>
+          <data id="id2">[!INCLUDE[win8RT_client_1](../Token/win8RT_client_1_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /></source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Not Supported</source>
+          <target>Not Supported</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Not Supported</source>
+          <target>Not Supported</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>To reset the passcode on a mobile device remotely through the Microsoft Intune Console</source>
+          <target>To reset the passcode on a mobile device remotely through the Microsoft Intune Console</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com/)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Groups</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">All Devices</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">All Mobile Devices</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Groups</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">All Devices</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">All Mobile Devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Direct Managed Devices</pc> for devices enrolled to <ph dataRef="id3" id="ph1" /> or <pc dataRefEnd="id5" dataRefStart="id4" id="p2">All Exchange ActiveSync Managed Devices</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Direct Managed Devices</pc> for devices enrolled to <ph dataRef="id3" id="ph1" /> or <pc dataRefEnd="id5" dataRefStart="id4" id="p2">All Exchange ActiveSync Managed Devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>You can also navigate to a device by user.</source>
+          <target>You can also navigate to a device by user.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Users</pc> and on the properties page for the user, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Devices</pc> tab, and then click the name of the mobile device that you want to wipe.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Users</pc> and on the properties page for the user, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Devices</pc> tab, and then click the name of the mobile device that you want to wipe.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the list, click the device or devices that you want to lock, and then on the taskbar click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Tasks</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Passcode Reset</pc>.</source>
+          <target>In the list, click the device or devices that you want to lock, and then on the taskbar click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Tasks</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Passcode Reset</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Remote Lock</source>
+          <target>Remote Lock</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>If a user loses their device you can lock the device remotely.</source>
+          <target>If a user loses their device you can lock the device remotely.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <segment state="initial">
+          <source>The table below lists how remote lock works on different mobile platforms.</source>
+          <target>The table below lists how remote lock works on different mobile platforms.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Platform</source>
+          <target>Platform</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Remote Lock</source>
+          <target>Remote Lock</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <segment state="initial">
+          <source>iOS</source>
+          <target>iOS</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Supported</source>
+          <target>Supported</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Supported</source>
+          <target>Supported</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>Windows Phone 8 and Windows Phone 8.1</source>
+          <target>Windows Phone 8 and Windows Phone 8.1</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>Supported</source>
+          <target>Supported</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">[!INCLUDE[winblue_winrt_2](../Token/winblue_winrt_2_md.md)]</data>
+          <data id="id2">[!INCLUDE[win8RT_client_1](../Token/win8RT_client_1_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /></source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> and <ph dataRef="id2" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>Supported if the current user of the device is the same user who enrolled the device.</source>
+          <target>Supported if the current user of the device is the same user who enrolled the device.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Windows 8.1</source>
+          <target>Windows 8.1</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <segment state="initial">
+          <source>Supported if the current user of the device is the same user who enrolled the device.</source>
+          <target>Supported if the current user of the device is the same user who enrolled the device.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>To lock a mobile device remotely through the Microsoft Intune Console</source>
+          <target>To lock a mobile device remotely through the Microsoft Intune Console</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com/)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Groups</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">All Devices</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">All Mobile Devices</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Groups</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">All Devices</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">All Mobile Devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Direct Managed Devices</pc> for devices enrolled to <ph dataRef="id3" id="ph1" /> or <pc dataRefEnd="id5" dataRefStart="id4" id="p2">All Exchange ActiveSync Managed Devices</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Direct Managed Devices</pc> for devices enrolled to <ph dataRef="id3" id="ph1" /> or <pc dataRefEnd="id5" dataRefStart="id4" id="p2">All Exchange ActiveSync Managed Devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <segment state="initial">
+          <source>You can also navigate to a device by user.</source>
+          <target>You can also navigate to a device by user.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Users</pc> and on the properties page for the user, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Devices</pc> tab, and then click the name of the mobile device that you want to wipe.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Users</pc> and on the properties page for the user, click the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Devices</pc> tab, and then click the name of the mobile device that you want to wipe.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the list, click the device or devices that you want to lock, and then on the taskbar click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Tasks</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Remote Lock</pc>.</source>
+          <target>In the list, click the device or devices that you want to lock, and then on the taskbar click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Tasks</pc> and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Remote Lock</pc>.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

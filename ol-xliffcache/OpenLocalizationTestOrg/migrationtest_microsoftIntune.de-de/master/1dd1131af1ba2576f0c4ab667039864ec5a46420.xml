@@ -1,0 +1,2663 @@
+{
+  "nodes": [
+    {
+      "content": "Set up iOS and Mac management with Microsoft Intune",
+      "pos": [
+        11,
+        62
+      ]
+    },
+    {
+      "content": "Set up iOS and Mac management with Microsoft Intune",
+      "pos": [
+        439,
+        490
+      ]
+    },
+    {
+      "content": "With <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, you can enable BYOD (\"bring your own device\") iOS and Mac OS X device enrollment to give access to company email and apps to iPhone, iPad and Mac users.",
+      "pos": [
+        491,
+        701
+      ]
+    },
+    {
+      "content": "Once users install the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> company portal app, their devices can be targeted with policy using the <ph id=\"ph2\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> administration console.",
+      "pos": [
+        702,
+        924
+      ]
+    },
+    {
+      "content": "Before you can manage iOS and Mac devices, you must import an Apple Push Notification service (APNs) certificate from Apple.",
+      "pos": [
+        926,
+        1050
+      ]
+    },
+    {
+      "content": "This certificate allows Intune to manage iOS and Mac devices and establishes an accredited and encrypted IP connection with the mobile device management authority services.",
+      "pos": [
+        1051,
+        1223
+      ]
+    },
+    {
+      "pos": [
+        1225,
+        1402
+      ],
+      "content": "As an alternative to enrollment with the Company Portal app, you can also <bpt id=\"p1\">[</bpt>enroll corporate-owned iOS devices<ept id=\"p1\">](https://technet.microsoft.com/library/dn408185.aspx#BKMK_CODiOS)</ept> ."
+    },
+    {
+      "content": "Prepare to manage iOS and Mac devices with Microsoft Intune",
+      "pos": [
+        1407,
+        1466
+      ]
+    },
+    {
+      "pos": [
+        1467,
+        1592
+      ],
+      "content": "The following steps allow <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> to manage iOS devices using the Company Portal."
+    },
+    {
+      "content": "Set up iOS and Mac enrollment with Intune",
+      "pos": [
+        1599,
+        1640
+      ]
+    },
+    {
+      "pos": [
+        1646,
+        1878
+      ],
+      "content": "**Set up Intune**\nIf you haven’t already, prepare for mobile device management by  [setting the mobile device management authority](https://technet.microsoft.com/library/mt346013.aspx) as **Microsoft Intune** and setting up MDM.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Set up Intune",
+          "pos": [
+            2,
+            15
+          ]
+        },
+        {
+          "content": "If you haven’t already, prepare for mobile device management by  <bpt id=\"p1\">[</bpt>setting the mobile device management authority<ept id=\"p1\">](https://technet.microsoft.com/library/mt346013.aspx)</ept> as <bpt id=\"p2\">**</bpt>Microsoft Intune<ept id=\"p2\">**</ept> and setting up MDM.",
+          "pos": [
+            18,
+            228
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        1884,
+        2373
+      ],
+      "content": "**Get a certificate signing request**\nAs an administrative user, open the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Administration** &gt; **Mobile Device Management** &gt; **iOS and Mac OS X** &gt; **Upload an APNs Certificate**, and click **Download the APNs certificate request**. Save the certificate signing request (.csr) file locally. The .csr file is used to request a trust relationship certificate from the Apple Push Certificates Portal.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Get a certificate signing request",
+          "pos": [
+            2,
+            35
+          ]
+        },
+        {
+          "content": "As an administrative user, open the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Administration** &gt; **Mobile Device Management** &gt; **iOS and Mac OS X** &gt; **Upload an APNs Certificate**, and click **Download the APNs certificate request**. Save the certificate signing request (.csr) file locally. The .csr file is used to request a trust relationship certificate from the Apple Push Certificates Portal.",
+          "pos": [
+            38,
+            485
+          ],
+          "nodes": [
+            {
+              "content": "As an administrative user, open the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept>, go to <bpt id=\"p2\">**</bpt>Administration<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Mobile Device Management<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>iOS and Mac OS X<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>Upload an APNs Certificate<ept id=\"p5\">**</ept>, and click <bpt id=\"p6\">**</bpt>Download the APNs certificate request<ept id=\"p6\">**</ept>.",
+              "pos": [
+                0,
+                282
+              ]
+            },
+            {
+              "content": "Save the certificate signing request (.csr) file locally.",
+              "pos": [
+                283,
+                340
+              ]
+            },
+            {
+              "content": "The .csr file is used to request a trust relationship certificate from the Apple Push Certificates Portal.",
+              "pos": [
+                341,
+                447
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        2434,
+        2967
+      ],
+      "content": "**Get an Apple Push Notification service certificate**\nGo to the [Apple Push Certificates Portal](http://go.microsoft.com/fwlink/?LinkId=269844) and sign in with your company Apple ID to create the APNs certificate using the .csr file. This Apple ID must be used in future to renew your APNs certificate. Download the APNs (.pem) certificate and save the file locally. This APNs certificate file is used to establish a trust relationship between the Apple Push Notification server and Intune’s mobile device management authority.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Get an Apple Push Notification service certificate",
+          "pos": [
+            2,
+            52
+          ]
+        },
+        {
+          "content": "Go to the [Apple Push Certificates Portal](http://go.microsoft.com/fwlink/?LinkId=269844) and sign in with your company Apple ID to create the APNs certificate using the .csr file. This Apple ID must be used in future to renew your APNs certificate. Download the APNs (.pem) certificate and save the file locally. This APNs certificate file is used to establish a trust relationship between the Apple Push Notification server and Intune’s mobile device management authority.",
+          "pos": [
+            55,
+            529
+          ],
+          "nodes": [
+            {
+              "content": "Go to the <bpt id=\"p1\">[</bpt>Apple Push Certificates Portal<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkId=269844)</ept> and sign in with your company Apple ID to create the APNs certificate using the .csr file.",
+              "pos": [
+                0,
+                180
+              ]
+            },
+            {
+              "content": "This Apple ID must be used in future to renew your APNs certificate.",
+              "pos": [
+                181,
+                249
+              ]
+            },
+            {
+              "content": "Download the APNs (.pem) certificate and save the file locally.",
+              "pos": [
+                250,
+                313
+              ]
+            },
+            {
+              "content": "This APNs certificate file is used to establish a trust relationship between the Apple Push Notification server and Intune’s mobile device management authority.",
+              "pos": [
+                314,
+                474
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        2973,
+        3468
+      ],
+      "content": "**Add the APNs certificate to Intune**\nIn the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Administration** &gt; **Mobile Device Management** &gt; **iOS and Mac OS X** &gt; **Upload an APNs Certificate**, and click **Upload the APNs certificate**. **Browse** to the certificate (.pem) file and click **Open** and then enter your **Apple ID**. With the APNs certificate, Intune can enroll and manage iOS devices by pushing policy to enrolled mobile devices.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Add the APNs certificate to Intune",
+          "pos": [
+            2,
+            36
+          ]
+        },
+        {
+          "content": "In the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Administration** &gt; **Mobile Device Management** &gt; **iOS and Mac OS X** &gt; **Upload an APNs Certificate**, and click **Upload the APNs certificate**. **Browse** to the certificate (.pem) file and click **Open** and then enter your **Apple ID**. With the APNs certificate, Intune can enroll and manage iOS devices by pushing policy to enrolled mobile devices.",
+          "pos": [
+            39,
+            491
+          ],
+          "nodes": [
+            {
+              "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept>, go to <bpt id=\"p2\">**</bpt>Administration<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Mobile Device Management<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>iOS and Mac OS X<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>Upload an APNs Certificate<ept id=\"p5\">**</ept>, and click <bpt id=\"p6\">**</bpt>Upload the APNs certificate<ept id=\"p6\">**</ept>.",
+              "pos": [
+                0,
+                243
+              ]
+            },
+            {
+              "content": "<bpt id=\"p1\">**</bpt>Browse<ept id=\"p1\">**</ept> to the certificate (.pem) file and click <bpt id=\"p2\">**</bpt>Open<ept id=\"p2\">**</ept> and then enter your <bpt id=\"p3\">**</bpt>Apple ID<ept id=\"p3\">**</ept>.",
+              "pos": [
+                244,
+                338
+              ]
+            },
+            {
+              "content": "With the APNs certificate, Intune can enroll and manage iOS devices by pushing policy to enrolled mobile devices.",
+              "pos": [
+                339,
+                452
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        3474,
+        3798
+      ],
+      "content": "**Tell users how to get access to company resources with the company portal**\nYour users will need to know how to enroll their devices and what to expect once they're brought into management. [What to tell your end users about using Microsoft Intune](../Topic/What-to-tell-your-end-users-about-using-Microsoft-Intune.md)",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Tell users how to get access to company resources with the company portal",
+          "pos": [
+            2,
+            75
+          ]
+        },
+        {
+          "content": "Your users will need to know how to enroll their devices and what to expect once they're brought into management. [What to tell your end users about using Microsoft Intune](../Topic/What-to-tell-your-end-users-about-using-Microsoft-Intune.md)",
+          "pos": [
+            78,
+            320
+          ],
+          "nodes": [
+            {
+              "content": "Your users will need to know how to enroll their devices and what to expect once they're brought into management.",
+              "pos": [
+                0,
+                113
+              ]
+            },
+            {
+              "content": "What to tell your end users about using Microsoft Intune",
+              "pos": [
+                115,
+                171
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        3803,
+        3890
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_CODiOS\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Corporate-owned device (COD) management with Microsoft Intune"
+    },
+    {
+      "content": "As an alternative to enrollment with the Company Portal app, you can enroll corporate-owned devices purchased from Apple.",
+      "pos": [
+        3891,
+        4012
+      ]
+    },
+    {
+      "content": "Intune supports the enrollment of corporate-owned iOS devices using the Apple Device Enrollment Program (DEP) or the <bpt id=\"p1\">[</bpt>Apple Configurator<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept> tool running on a Mac computer.",
+      "pos": [
+        4013,
+        4229
+      ]
+    },
+    {
+      "content": "You can enroll corporate-enrolled iOS devices in three ways:",
+      "pos": [
+        4231,
+        4291
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt><bpt id=\"p2\">[</bpt>Device Enrollment Program (DEP) device enrollment<ept id=\"p2\">](#BKMK_DEP)</ept><ept id=\"p1\">**</ept> – Deploys an enrollment profile  “over the air” that includes setup assistant options for the device.",
+      "pos": [
+        4297,
+        4465
+      ]
+    },
+    {
+      "content": "Devices enrolled through DEP cannot be un-enrolled by users.",
+      "pos": [
+        4466,
+        4526
+      ]
+    },
+    {
+      "pos": [
+        4532,
+        4718
+      ],
+      "content": "<bpt id=\"p1\">**</bpt><bpt id=\"p2\">[</bpt>Apple Configurator enrollment via Setup Assistant<ept id=\"p2\">](#BKMK_SAE)</ept><ept id=\"p1\">**</ept> – Factory resets the device using Apple Configurator, enrolls the device, and prepares it with Setup Assistant options."
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt><bpt id=\"p2\">[</bpt>Apple Configurator enrollment via Direct Enrollment<ept id=\"p2\">](#BKMK_DE)</ept><ept id=\"p1\">**</ept> – Creates an Apple Configurator-compliant file for use during device preparation via Apple Configurator.",
+      "pos": [
+        4725,
+        4897
+      ]
+    },
+    {
+      "content": "The enrolled device isn’t factory reset.",
+      "pos": [
+        4898,
+        4938
+      ]
+    },
+    {
+      "content": "This method only works if user affiliation is set to \"No user affinity.\"",
+      "pos": [
+        4939,
+        5011
+      ]
+    },
+    {
+      "pos": [
+        5015,
+        5539
+      ],
+      "content": "[!CAUTION]\nDevices enrolled with these methods require the Intune Company Portal app to enable certain Intune capabilities such as [Conditional Access](https://technet.microsoft.com/library/dn818907.aspx) and [Mobile Application Management](https://technet.microsoft.com/library/dn878026.aspx). Additional steps may be necessary to properly configure the Company Portal app. [Learn more](https://blogs.technet.microsoft.com/intunesupport/2015/12/28/update-to-company-portal-brings-benefits-to-corporate-owned-ios-devices/)",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "Devices enrolled with these methods require the Intune Company Portal app to enable certain Intune capabilities such as [Conditional Access](https://technet.microsoft.com/library/dn818907.aspx) and [Mobile Application Management](https://technet.microsoft.com/library/dn878026.aspx). Additional steps may be necessary to properly configure the Company Portal app. [Learn more](https://blogs.technet.microsoft.com/intunesupport/2015/12/28/update-to-company-portal-brings-benefits-to-corporate-owned-ios-devices/)",
+          "pos": [
+            11,
+            522
+          ],
+          "nodes": [
+            {
+              "content": "Devices enrolled with these methods require the Intune Company Portal app to enable certain Intune capabilities such as <bpt id=\"p1\">[</bpt>Conditional Access<ept id=\"p1\">](https://technet.microsoft.com/library/dn818907.aspx)</ept> and <bpt id=\"p2\">[</bpt>Mobile Application Management<ept id=\"p2\">](https://technet.microsoft.com/library/dn878026.aspx)</ept>.",
+              "pos": [
+                0,
+                283
+              ]
+            },
+            {
+              "content": "Additional steps may be necessary to properly configure the Company Portal app.",
+              "pos": [
+                284,
+                363
+              ]
+            },
+            {
+              "content": "Learn more",
+              "pos": [
+                365,
+                375
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        5544,
+        5613
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_DEP\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Apple DEP enrollment for iOS device enrollment"
+    },
+    {
+      "content": "To manage corporate-owned iOS devices with Apple’s Device Enrollment Program (DEP), your organization must join Apple DEP and acquire devices through that program.",
+      "pos": [
+        5615,
+        5778
+      ]
+    },
+    {
+      "content": "Details of that process are available at:  <bpt id=\"p1\">[</bpt>https://deploy.apple.com<ept id=\"p1\">](https://deploy.apple.com)</ept>.",
+      "pos": [
+        5779,
+        5875
+      ]
+    },
+    {
+      "content": "Advantages of the program include hands-free set up devices without USB-connecting each device to a computer.",
+      "pos": [
+        5876,
+        5985
+      ]
+    },
+    {
+      "content": "Before you can enroll corporate-owned iOS devices with DEP, you need a DEP Token from Apple.",
+      "pos": [
+        5987,
+        6079
+      ]
+    },
+    {
+      "content": "This token allows Intune to sync information about DEP-participating devices owned by your corporation.",
+      "pos": [
+        6080,
+        6183
+      ]
+    },
+    {
+      "content": "It also permits Intune to perform Enrollment Profile uploads to Apple and to assign devices to those profiles.",
+      "pos": [
+        6184,
+        6294
+      ]
+    },
+    {
+      "pos": [
+        6300,
+        6359
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_DEPtok\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Enable DEP management with Intune"
+    },
+    {
+      "pos": [
+        6365,
+        6540
+      ],
+      "content": "**Start managing iOS devices with Microsoft Intune**\nBefore you can enroll iOS Device Enrollment Program (DEP) devices, you must complete enable iOS management for Intune.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Start managing iOS devices with Microsoft Intune",
+          "pos": [
+            2,
+            50
+          ]
+        },
+        {
+          "content": "Before you can enroll iOS Device Enrollment Program (DEP) devices, you must complete enable iOS management for Intune.",
+          "pos": [
+            53,
+            171
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        6546,
+        6981
+      ],
+      "content": "**Get an Encryption Key**\nAs an administrative user, open the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Admin** &gt; **Mobile Device Management** &gt; **iOS** &gt; **Device Enrollment Program**, and click **Download Encryption Key**. Save the encryption key (.pem) file locally. The .pem file is used to request a trust-relationship certificate from the Apple Device Enrollment Program portal.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Get an Encryption Key",
+          "pos": [
+            2,
+            23
+          ]
+        },
+        {
+          "content": "As an administrative user, open the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Admin** &gt; **Mobile Device Management** &gt; **iOS** &gt; **Device Enrollment Program**, and click **Download Encryption Key**. Save the encryption key (.pem) file locally. The .pem file is used to request a trust-relationship certificate from the Apple Device Enrollment Program portal.",
+          "pos": [
+            26,
+            431
+          ],
+          "nodes": [
+            {
+              "content": "As an administrative user, open the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept>, go to <bpt id=\"p2\">**</bpt>Admin<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Mobile Device Management<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>iOS<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>Device Enrollment Program<ept id=\"p5\">**</ept>, and click <bpt id=\"p6\">**</bpt>Download Encryption Key<ept id=\"p6\">**</ept>.",
+              "pos": [
+                0,
+                245
+              ]
+            },
+            {
+              "content": "Save the encryption key (.pem) file locally.",
+              "pos": [
+                246,
+                290
+              ]
+            },
+            {
+              "content": "The .pem file is used to request a trust-relationship certificate from the Apple Device Enrollment Program portal.",
+              "pos": [
+                291,
+                405
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        6987,
+        7232
+      ],
+      "content": "**Get a Device Enrollment Program token**\nGo to the [Device Enrollment Program Portal](https://deploy.apple.com) (https://deploy.apple.com) and sign in with your company Apple ID. This Apple ID must be used in future to renew your DEP token.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Get a Device Enrollment Program token",
+          "pos": [
+            2,
+            39
+          ]
+        },
+        {
+          "content": "Go to the [Device Enrollment Program Portal](https://deploy.apple.com) (https://deploy.apple.com) and sign in with your company Apple ID. This Apple ID must be used in future to renew your DEP token.",
+          "pos": [
+            42,
+            241
+          ],
+          "nodes": [
+            {
+              "content": "Go to the <bpt id=\"p1\">[</bpt>Device Enrollment Program Portal<ept id=\"p1\">](https://deploy.apple.com)</ept> (https://deploy.apple.com) and sign in with your company Apple ID.",
+              "pos": [
+                0,
+                137
+              ]
+            },
+            {
+              "content": "This Apple ID must be used in future to renew your DEP token.",
+              "pos": [
+                138,
+                199
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        7242,
+        7410
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Device Enrollment Program Portal<ept id=\"p1\">](https://deploy.apple.com)</ept> portal, go <bpt id=\"p2\">**</bpt>Device Enrollment Program<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Manage Servers<ept id=\"p3\">**</ept>, and then click <bpt id=\"p4\">**</bpt>Add MDM Server<ept id=\"p4\">**</ept>."
+    },
+    {
+      "content": "Enter the <bpt id=\"p1\">**</bpt>MDM Server Name<ept id=\"p1\">**</ept> and then click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>.",
+      "pos": [
+        7420,
+        7474
+      ]
+    },
+    {
+      "content": "The server name is for your reference to identify the MDM server.",
+      "pos": [
+        7475,
+        7540
+      ]
+    },
+    {
+      "content": "It is not name or URL of the Microsoft Intune server.",
+      "pos": [
+        7541,
+        7594
+      ]
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt>Add &amp;lt;ServerName&amp;gt;<ept id=\"p1\">**</ept> dialog box opens.",
+      "pos": [
+        7604,
+        7652
+      ]
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>Choose File…<ept id=\"p1\">**</ept>",
+      "pos": [
+        7653,
+        7675
+      ]
+    },
+    {
+      "content": "to upload the .pem file and then click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept>.",
+      "pos": [
+        7676,
+        7724
+      ]
+    },
+    {
+      "content": "The <bpt id=\"p1\">**</bpt>Add &amp;lt;ServerName&amp;gt;<ept id=\"p1\">**</ept> dialog box displays a <bpt id=\"p2\">**</bpt>Your Server Token<ept id=\"p2\">**</ept> link.",
+      "pos": [
+        7734,
+        7814
+      ]
+    },
+    {
+      "content": "Download the server token (.p7m) file to your computer, and then click <bpt id=\"p1\">**</bpt>Done<ept id=\"p1\">**</ept>.",
+      "pos": [
+        7815,
+        7895
+      ]
+    },
+    {
+      "content": "This certificate (.p7m) file is used to establish a trust relationship between Intune and Apple’s Device Enrollment Program servers.",
+      "pos": [
+        7901,
+        8033
+      ]
+    },
+    {
+      "pos": [
+        8039,
+        8378
+      ],
+      "content": "**Add the DEP token to Intune**\nIn the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Admin** &gt; **Mobile Device Management** &gt; **iOS** &gt; **Device Enrollment Program**, and click **Upload the DEP Token**. **Browse** to the certificate (.p7m) file, enter your **Apple ID**, and click **Upload**.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Add the DEP token to Intune",
+          "pos": [
+            2,
+            29
+          ]
+        },
+        {
+          "content": "In the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Admin** &gt; **Mobile Device Management** &gt; **iOS** &gt; **Device Enrollment Program**, and click **Upload the DEP Token**. **Browse** to the certificate (.p7m) file, enter your **Apple ID**, and click **Upload**.",
+          "pos": [
+            32,
+            335
+          ],
+          "nodes": [
+            {
+              "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept>, go to <bpt id=\"p2\">**</bpt>Admin<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Mobile Device Management<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>iOS<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>Device Enrollment Program<ept id=\"p5\">**</ept>, and click <bpt id=\"p6\">**</bpt>Upload the DEP Token<ept id=\"p6\">**</ept>.",
+              "pos": [
+                0,
+                213
+              ]
+            },
+            {
+              "content": "<bpt id=\"p1\">**</bpt>Browse<ept id=\"p1\">**</ept> to the certificate (.p7m) file, enter your <bpt id=\"p2\">**</bpt>Apple ID<ept id=\"p2\">**</ept>, and click <bpt id=\"p3\">**</bpt>Upload<ept id=\"p3\">**</ept>.",
+              "pos": [
+                214,
+                303
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Setup Assistant enrollment for Apple Device Enrollment Program (DEP) devices",
+      "pos": [
+        8383,
+        8459
+      ]
+    },
+    {
+      "pos": [
+        8465,
+        9012
+      ],
+      "content": "**Add the Corporate Device Enrollment Policy**\nIn the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Policy** &gt; **Corporate Device Enrollment** and then click **Add**. Provide **General** details including **Name** and **Description**, specify whether devices assigned to the profile have user affinity or belong to a group, and then enable **Configure Device Enrollment Program settings for this policy** to support DEP. The **Setup assistant panes** define the iOS device settings configured during setup.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Add the Corporate Device Enrollment Policy",
+          "pos": [
+            2,
+            44
+          ]
+        },
+        {
+          "content": "In the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Policy** &gt; **Corporate Device Enrollment** and then click **Add**. Provide **General** details including **Name** and **Description**, specify whether devices assigned to the profile have user affinity or belong to a group, and then enable **Configure Device Enrollment Program settings for this policy** to support DEP. The **Setup assistant panes** define the iOS device settings configured during setup.",
+          "pos": [
+            47,
+            543
+          ],
+          "nodes": [
+            {
+              "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept>, go to <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Corporate Device Enrollment<ept id=\"p3\">**</ept> and then click <bpt id=\"p4\">**</bpt>Add<ept id=\"p4\">**</ept>.",
+              "pos": [
+                0,
+                156
+              ]
+            },
+            {
+              "content": "Provide <bpt id=\"p1\">**</bpt>General<ept id=\"p1\">**</ept> details including <bpt id=\"p2\">**</bpt>Name<ept id=\"p2\">**</ept> and <bpt id=\"p3\">**</bpt>Description<ept id=\"p3\">**</ept>, specify whether devices assigned to the profile have user affinity or belong to a group, and then enable <bpt id=\"p4\">**</bpt>Configure Device Enrollment Program settings for this policy<ept id=\"p4\">**</ept> to support DEP.",
+              "pos": [
+                157,
+                410
+              ]
+            },
+            {
+              "content": "The <bpt id=\"p1\">**</bpt>Setup assistant panes<ept id=\"p1\">**</ept> define the iOS device settings configured during setup.",
+              "pos": [
+                411,
+                496
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        9018,
+        9565
+      ],
+      "content": "**Assign DEP Devices for Management**\nGo to the [Device Enrollment Program Portal](https://deploy.apple.com) (https://deploy.apple.com) and sign in with your company Apple ID. Go **Deployment Program** &gt; **Device Enrollment Program** &gt; **Manage Devices**. Specify how you will **Choose Devices**, provide device information and specify details by device **Serial Number**, **Order Number**, or **Upload CSV File**. Next, select **Assign to Server** and select the &lt;ServerName&gt; specified for Microsoft Intune, and then click **OK**.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Assign DEP Devices for Management",
+          "pos": [
+            2,
+            35
+          ]
+        },
+        {
+          "content": "Go to the [Device Enrollment Program Portal](https://deploy.apple.com) (https://deploy.apple.com) and sign in with your company Apple ID. Go **Deployment Program** &gt; **Device Enrollment Program** &gt; **Manage Devices**. Specify how you will **Choose Devices**, provide device information and specify details by device **Serial Number**, **Order Number**, or **Upload CSV File**. Next, select **Assign to Server** and select the &lt;ServerName&gt; specified for Microsoft Intune, and then click **OK**.",
+          "pos": [
+            38,
+            543
+          ],
+          "nodes": [
+            {
+              "content": "Go to the <bpt id=\"p1\">[</bpt>Device Enrollment Program Portal<ept id=\"p1\">](https://deploy.apple.com)</ept> (https://deploy.apple.com) and sign in with your company Apple ID.",
+              "pos": [
+                0,
+                137
+              ]
+            },
+            {
+              "content": "Go <bpt id=\"p1\">**</bpt>Deployment Program<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Device Enrollment Program<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Manage Devices<ept id=\"p3\">**</ept>.",
+              "pos": [
+                138,
+                223
+              ]
+            },
+            {
+              "content": "Specify how you will <bpt id=\"p1\">**</bpt>Choose Devices<ept id=\"p1\">**</ept>, provide device information and specify details by device <bpt id=\"p2\">**</bpt>Serial Number<ept id=\"p2\">**</ept>, <bpt id=\"p3\">**</bpt>Order Number<ept id=\"p3\">**</ept>, or <bpt id=\"p4\">**</bpt>Upload CSV File<ept id=\"p4\">**</ept>.",
+              "pos": [
+                224,
+                382
+              ]
+            },
+            {
+              "content": "Next, select <bpt id=\"p1\">**</bpt>Assign to Server<ept id=\"p1\">**</ept> and select the &amp;lt;ServerName&amp;gt; specified for Microsoft Intune, and then click <bpt id=\"p2\">**</bpt>OK<ept id=\"p2\">**</ept>.",
+              "pos": [
+                383,
+                505
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        9571,
+        10238
+      ],
+      "content": "**Synchronize DEP-Managed Devices**\nAs an administrative user, open the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Admin** &gt; **Mobile Device Management** &gt; **iOS** &gt; **Device Enrollment Program**, and click **Sync now**. A sync request is sent to Apple. To see DEP-managed devices after synchronization, in the [Microsoft Intune administration console](http://manage.microsoft.com) go **Groups** &gt; **All Corporate-Owned Devices**. In the **Corporate-owned Devices** workspace, the **State** for managed devices reads “Not contacted” until the device is powered on and runs the Setup Assistant to enroll the device.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Synchronize DEP-Managed Devices",
+          "pos": [
+            2,
+            33
+          ]
+        },
+        {
+          "content": "As an administrative user, open the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Admin** &gt; **Mobile Device Management** &gt; **iOS** &gt; **Device Enrollment Program**, and click **Sync now**. A sync request is sent to Apple. To see DEP-managed devices after synchronization, in the [Microsoft Intune administration console](http://manage.microsoft.com) go **Groups** &gt; **All Corporate-Owned Devices**. In the **Corporate-owned Devices** workspace, the **State** for managed devices reads “Not contacted” until the device is powered on and runs the Setup Assistant to enroll the device.",
+          "pos": [
+            36,
+            663
+          ],
+          "nodes": [
+            {
+              "content": "As an administrative user, open the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept>, go to <bpt id=\"p2\">**</bpt>Admin<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Mobile Device Management<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>iOS<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>Device Enrollment Program<ept id=\"p5\">**</ept>, and click <bpt id=\"p6\">**</bpt>Sync now<ept id=\"p6\">**</ept>.",
+              "pos": [
+                0,
+                230
+              ]
+            },
+            {
+              "content": "A sync request is sent to Apple.",
+              "pos": [
+                231,
+                263
+              ]
+            },
+            {
+              "content": "To see DEP-managed devices after synchronization, in the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept> go <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>All Corporate-Owned Devices<ept id=\"p3\">**</ept>.",
+              "pos": [
+                264,
+                443
+              ]
+            },
+            {
+              "content": "In the <bpt id=\"p1\">**</bpt>Corporate-owned Devices<ept id=\"p1\">**</ept> workspace, the <bpt id=\"p2\">**</bpt>State<ept id=\"p2\">**</ept> for managed devices reads “Not contacted” until the device is powered on and runs the Setup Assistant to enroll the device.",
+              "pos": [
+                444,
+                627
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        10244,
+        10419
+      ],
+      "content": "**Distribute devices to users**\nYour corporate-owned devices can now be distributed to users. When an iOS device is turned on it will be enrolled for management by Intune.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Distribute devices to users",
+          "pos": [
+            2,
+            29
+          ]
+        },
+        {
+          "content": "Your corporate-owned devices can now be distributed to users. When an iOS device is turned on it will be enrolled for management by Intune.",
+          "pos": [
+            32,
+            171
+          ],
+          "nodes": [
+            {
+              "content": "Your corporate-owned devices can now be distributed to users.",
+              "pos": [
+                0,
+                61
+              ]
+            },
+            {
+              "content": "When an iOS device is turned on it will be enrolled for management by Intune.",
+              "pos": [
+                62,
+                139
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        10428,
+        10516
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_SAE\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Apple Configurator enrollment via Setup Assistant for iOS devices"
+    },
+    {
+      "content": "Using Apple Configurator you can factory reset iOS devices and prepares them for setup by the device’s new user.",
+      "pos": [
+        10518,
+        10630
+      ]
+    },
+    {
+      "content": "This method requires you to USB-connect the iOS device to a Mac computer to setup corporate enrollment and assumes you are using Apple Configurator 2.0.",
+      "pos": [
+        10632,
+        10784
+      ]
+    },
+    {
+      "content": "Prerequisites",
+      "pos": [
+        10788,
+        10801
+      ]
+    },
+    {
+      "content": "Physical access to iOS devices - Devices must be unconfigured (factory reset) without password protection",
+      "pos": [
+        10806,
+        10911
+      ]
+    },
+    {
+      "pos": [
+        10914,
+        11013
+      ],
+      "content": "Device serial numbers - <bpt id=\"p1\">[</bpt>How to get an iOS serial number<ept id=\"p1\">](https://support.apple.com/en-us/HT204308)</ept>"
+    },
+    {
+      "content": "USB connection cables",
+      "pos": [
+        11016,
+        11037
+      ]
+    },
+    {
+      "pos": [
+        11041,
+        11130
+      ],
+      "content": "Mac computer with <bpt id=\"p1\">[</bpt>Apple Configurator 2.0<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept>"
+    },
+    {
+      "pos": [
+        11140,
+        11208
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_AC1\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Enable Setup Assistant enrollment with Intune"
+    },
+    {
+      "pos": [
+        11214,
+        11490
+      ],
+      "content": "**Create mobile device group** (Optional) \nIf your business requires mobile device groups to help manage devices, create those groups. [Use groups to manage users and devices with Microsoft Intune](../Topic/Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md).",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "<bpt id=\"p1\">**</bpt>Create mobile device group<ept id=\"p1\">**</ept> (Optional)",
+          "pos": [
+            0,
+            41
+          ]
+        },
+        {
+          "content": "If your business requires mobile device groups to help manage devices, create those groups. [Use groups to manage users and devices with Microsoft Intune](../Topic/Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md).",
+          "pos": [
+            43,
+            272
+          ],
+          "nodes": [
+            {
+              "content": "If your business requires mobile device groups to help manage devices, create those groups.",
+              "pos": [
+                0,
+                91
+              ]
+            },
+            {
+              "content": "<bpt id=\"p1\">[</bpt>Use groups to manage users and devices with Microsoft Intune<ept id=\"p1\">](../Topic/Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md)</ept>.",
+              "pos": [
+                92,
+                229
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        11497,
+        11724
+      ],
+      "content": "**Create a profile for devices**\nA device enrollment profile defines the settings applied to a group of devices. If you have not already, create a device enrollment profile for iOS devices enrolled using Apple Configurator.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Create a profile for devices",
+          "pos": [
+            2,
+            30
+          ]
+        },
+        {
+          "content": "A device enrollment profile defines the settings applied to a group of devices. If you have not already, create a device enrollment profile for iOS devices enrolled using Apple Configurator.",
+          "pos": [
+            33,
+            223
+          ],
+          "nodes": [
+            {
+              "content": "A device enrollment profile defines the settings applied to a group of devices.",
+              "pos": [
+                0,
+                79
+              ]
+            },
+            {
+              "content": "If you have not already, create a device enrollment profile for iOS devices enrolled using Apple Configurator.",
+              "pos": [
+                80,
+                190
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "To create a profile",
+      "pos": [
+        11738,
+        11757
+      ]
+    },
+    {
+      "pos": [
+        11767,
+        11917
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept> go <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Corporate Owned Devices<ept id=\"p3\">**</ept>, and then click <bpt id=\"p4\">**</bpt>Add…<ept id=\"p4\">**</ept>."
+    },
+    {
+      "content": "Enter details for the device profiles:",
+      "pos": [
+        11927,
+        11965
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Name<ept id=\"p1\">**</ept> – Name of the device enrollment profile.",
+      "pos": [
+        11979,
+        12028
+      ]
+    },
+    {
+      "content": "(Not visible to users)",
+      "pos": [
+        12029,
+        12051
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Description<ept id=\"p1\">**</ept> - Description of the device enrollment profile.",
+      "pos": [
+        12065,
+        12128
+      ]
+    },
+    {
+      "content": "(Not visible to users)",
+      "pos": [
+        12129,
+        12151
+      ]
+    },
+    {
+      "pos": [
+        12165,
+        12225
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Enrollment Details<ept id=\"p1\">**</ept> – Specifies how devices are enrolled."
+    },
+    {
+      "pos": [
+        12243,
+        12539
+      ],
+      "content": "**Prompt for user affinity** – The iOS device can be affiliated with a user during initial setup and could then be permitted to access company data and email as that user. For most Setup Assistant scenarios, use **Prompt for user affinity**. \nThis mode supports a number of scenarios:",
+      "leadings": [
+        "",
+        "            "
+      ],
+      "nodes": [
+        {
+          "content": "**Prompt for user affinity** – The iOS device can be affiliated with a user during initial setup and could then be permitted to access company data and email as that user. For most Setup Assistant scenarios, use **Prompt for user affinity**.",
+          "pos": [
+            0,
+            241
+          ],
+          "nodes": [
+            {
+              "content": "<bpt id=\"p1\">**</bpt>Prompt for user affinity<ept id=\"p1\">**</ept> – The iOS device can be affiliated with a user during initial setup and could then be permitted to access company data and email as that user.",
+              "pos": [
+                0,
+                171
+              ]
+            },
+            {
+              "content": "For most Setup Assistant scenarios, use <bpt id=\"p1\">**</bpt>Prompt for user affinity<ept id=\"p1\">**</ept>.",
+              "pos": [
+                172,
+                241
+              ]
+            }
+          ]
+        },
+        {
+          "content": "This mode supports a number of scenarios:",
+          "pos": [
+            243,
+            284
+          ]
+        }
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Corporate-owned personal device<ept id=\"p1\">**</ept> – “Choose Your Own Device” (CYOD) Similar to privately owned or personal devices but the administrator has certain privileges including permission to wipe, reset, administer, and unenroll the device.",
+      "pos": [
+        12561,
+        12796
+      ]
+    },
+    {
+      "content": "The device’s user can install apps and has most other permissions for device use where not blocked by management policy.",
+      "pos": [
+        12797,
+        12917
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Device enrollment manager account<ept id=\"p1\">**</ept> – The device is enrolled using a special Intune administrator account.",
+      "pos": [
+        12939,
+        13047
+      ]
+    },
+    {
+      "content": "It can be managed as a private account, but only a user who knows the enrollment manager credentials can install apps, wipe, reset, administer, and unenroll the device.",
+      "pos": [
+        13048,
+        13216
+      ]
+    },
+    {
+      "content": "For information about enrolling a device shared by many users through a common account, see <bpt id=\"p1\">[</bpt>Enroll corporate-owned devices with the Device Enrollment Manager in Microsoft Intune<ept id=\"p1\">](../Topic/Enroll-corporate-owned-devices-with-the-Device-Enrollment-Manager-in-Microsoft-Intune.md)</ept>.",
+      "pos": [
+        13217,
+        13496
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>No user affinity<ept id=\"p1\">**</ept> – The device is user-less.",
+      "pos": [
+        13514,
+        13561
+      ]
+    },
+    {
+      "content": "Use this affiliation for devices that perform tasks without accessing local user data.",
+      "pos": [
+        13562,
+        13648
+      ]
+    },
+    {
+      "content": "Apps requiring user affiliation are disabled or won’t work.",
+      "pos": [
+        13649,
+        13708
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Device group pre-assignment<ept id=\"p1\">**</ept> – All devices deployed this profile will initially belong to this group.",
+      "pos": [
+        13722,
+        13826
+      ]
+    },
+    {
+      "content": "You can reassign devices after enrollment.",
+      "pos": [
+        13827,
+        13869
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Device Enrollment Program<ept id=\"p1\">**</ept> - The Apple Device Enrollment Program (DEP) settings cannot be used with Apple Configurator Setup Assistant enrollment.",
+      "pos": [
+        13892,
+        14041
+      ]
+    },
+    {
+      "content": "Ensure the toggle is set to <bpt id=\"p1\">**</bpt>off<ept id=\"p1\">**</ept>.",
+      "pos": [
+        14042,
+        14078
+      ]
+    },
+    {
+      "pos": [
+        14088,
+        14130
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Save Profile<ept id=\"p1\">**</ept> to add the profile."
+    },
+    {
+      "pos": [
+        14136,
+        14428
+      ],
+      "content": "**Add iOS devices to enroll with Setup Assistant**\nIn the [Microsoft Intune administration console](http://manage.microsoft.com) go **Groups** &gt; **All Devices** &gt; **All Corporate-owned Devices** &gt; **All Devices**, and then click **Add devices…**. You can add devices in two ways:",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Add iOS devices to enroll with Setup Assistant",
+          "pos": [
+            2,
+            48
+          ]
+        },
+        {
+          "content": "In the [Microsoft Intune administration console](http://manage.microsoft.com) go **Groups** &gt; **All Devices** &gt; **All Corporate-owned Devices** &gt; **All Devices**, and then click **Add devices…**. You can add devices in two ways:",
+          "pos": [
+            51,
+            288
+          ],
+          "nodes": [
+            {
+              "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept> go <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>All Devices<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>All Corporate-owned Devices<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>All Devices<ept id=\"p5\">**</ept>, and then click <bpt id=\"p6\">**</bpt>Add devices…<ept id=\"p6\">**</ept>.",
+              "pos": [
+                0,
+                204
+              ]
+            },
+            {
+              "content": "You can add devices in two ways:",
+              "pos": [
+                205,
+                237
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        14438,
+        14608
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Upload a CSV file containing serial numbers<ept id=\"p1\">**</ept> – Create a comma-separated value (.csv) list of two columns without a header, limited to 5000 devices or 5MB per csv file."
+    },
+    {
+      "content": "&amp;lt;Serial #1&amp;gt;",
+      "pos": [
+        14645,
+        14662
+      ]
+    },
+    {
+      "content": "&amp;lt;Device #1 Details&amp;gt;",
+      "pos": [
+        14663,
+        14688
+      ]
+    },
+    {
+      "content": "&amp;lt;Serial#2&amp;gt;",
+      "pos": [
+        14699,
+        14715
+      ]
+    },
+    {
+      "content": "&amp;lt;Device #2 Details&amp;gt;",
+      "pos": [
+        14716,
+        14741
+      ]
+    },
+    {
+      "content": "This .csv file when viewed in a text editor appears as:",
+      "pos": [
+        14751,
+        14806
+      ]
+    },
+    {
+      "pos": [
+        14891,
+        14989
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Manually add device details<ept id=\"p1\">**</ept> - Enter the serial number and device details of up to five devices"
+    },
+    {
+      "pos": [
+        14997,
+        15414
+      ],
+      "content": "[!NOTE]\nIf you must later remove corporate-owned devices from Intune management, you might need to remove the device serial number from Intune in the **Corporate-owned devices** group to disable device enrollment.  If Intune performs a disaster recovery procedure on or around the time that serial numbers were removed, you will need to verify that only active devices’ serial numbers are present in that group.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "If you must later remove corporate-owned devices from Intune management, you might need to remove the device serial number from Intune in the **Corporate-owned devices** group to disable device enrollment.  If Intune performs a disaster recovery procedure on or around the time that serial numbers were removed, you will need to verify that only active devices’ serial numbers are present in that group.",
+          "pos": [
+            8,
+            411
+          ],
+          "nodes": [
+            {
+              "content": "If you must later remove corporate-owned devices from Intune management, you might need to remove the device serial number from Intune in the <bpt id=\"p1\">**</bpt>Corporate-owned devices<ept id=\"p1\">**</ept> group to disable device enrollment.",
+              "pos": [
+                0,
+                205
+              ]
+            },
+            {
+              "content": "If Intune performs a disaster recovery procedure on or around the time that serial numbers were removed, you will need to verify that only active devices’ serial numbers are present in that group.",
+              "pos": [
+                207,
+                403
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        15420,
+        15444
+      ],
+      "content": "And then click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        15450,
+        15620
+      ],
+      "content": "**Select devices to enroll**\nConfirm the devices to enroll. Serial numbers already enrolled or enrolled by other means cannot be imported. Click **Next** to continue.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Select devices to enroll",
+          "pos": [
+            2,
+            26
+          ]
+        },
+        {
+          "content": "Confirm the devices to enroll. Serial numbers already enrolled or enrolled by other means cannot be imported. Click **Next** to continue.",
+          "pos": [
+            29,
+            166
+          ],
+          "nodes": [
+            {
+              "content": "Confirm the devices to enroll.",
+              "pos": [
+                0,
+                30
+              ]
+            },
+            {
+              "content": "Serial numbers already enrolled or enrolled by other means cannot be imported.",
+              "pos": [
+                31,
+                109
+              ]
+            },
+            {
+              "content": "Click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept> to continue.",
+              "pos": [
+                110,
+                137
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        15626,
+        15868
+      ],
+      "content": "**Assign profile**\nSpecify the profile to assign to added devices from the list of available profiles, review the **Enrollment profile details**, and then click **Finish**. Manually added devices can be assigned to any Enrollment profile.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Assign profile",
+          "pos": [
+            2,
+            16
+          ]
+        },
+        {
+          "content": "Specify the profile to assign to added devices from the list of available profiles, review the **Enrollment profile details**, and then click **Finish**. Manually added devices can be assigned to any Enrollment profile.",
+          "pos": [
+            19,
+            238
+          ],
+          "nodes": [
+            {
+              "content": "Specify the profile to assign to added devices from the list of available profiles, review the <bpt id=\"p1\">**</bpt>Enrollment profile details<ept id=\"p1\">**</ept>, and then click <bpt id=\"p2\">**</bpt>Finish<ept id=\"p2\">**</ept>.",
+              "pos": [
+                0,
+                153
+              ]
+            },
+            {
+              "content": "Manually added devices can be assigned to any Enrollment profile.",
+              "pos": [
+                154,
+                219
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        15874,
+        16287
+      ],
+      "content": "**Export a profile to deploy to iOS devices**\nIn the [Microsoft Intune administration console](http://manage.microsoft.com) go **Policy** &gt; **Corporate Device Enrollment**, and then select the device profile to deploy to mobile devices. Click **Export…** in the taskbar. Copy and save the **2.0 Profile URL**. You will upload it in Apple Configurator later to define the Intune profile used by iOS devices.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Export a profile to deploy to iOS devices",
+          "pos": [
+            2,
+            43
+          ]
+        },
+        {
+          "content": "In the [Microsoft Intune administration console](http://manage.microsoft.com) go **Policy** &gt; **Corporate Device Enrollment**, and then select the device profile to deploy to mobile devices. Click **Export…** in the taskbar. Copy and save the **2.0 Profile URL**. You will upload it in Apple Configurator later to define the Intune profile used by iOS devices.",
+          "pos": [
+            46,
+            409
+          ],
+          "nodes": [
+            {
+              "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept> go <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Corporate Device Enrollment<ept id=\"p3\">**</ept>, and then select the device profile to deploy to mobile devices.",
+              "pos": [
+                0,
+                193
+              ]
+            },
+            {
+              "content": "Click <bpt id=\"p1\">**</bpt>Export…<ept id=\"p1\">**</ept>",
+              "pos": [
+                194,
+                211
+              ]
+            },
+            {
+              "content": "in the taskbar.",
+              "pos": [
+                212,
+                227
+              ]
+            },
+            {
+              "content": "Copy and save the <bpt id=\"p1\">**</bpt>2.0 Profile URL<ept id=\"p1\">**</ept>.",
+              "pos": [
+                228,
+                266
+              ]
+            },
+            {
+              "content": "You will upload it in Apple Configurator later to define the Intune profile used by iOS devices.",
+              "pos": [
+                267,
+                363
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "To support Apple Configurator 2, the 2.0 Profile URL must be edited.",
+      "pos": [
+        16297,
+        16365
+      ]
+    },
+    {
+      "content": "Replace",
+      "pos": [
+        16366,
+        16373
+      ]
+    },
+    {
+      "content": "with",
+      "pos": [
+        16459,
+        16463
+      ]
+    },
+    {
+      "content": "You will upload this profile URL to the Apple DEP service using Apple Configurator in the following procedure to define the Intune profile used by iOS devices.",
+      "pos": [
+        16547,
+        16706
+      ]
+    },
+    {
+      "pos": [
+        16718,
+        16927
+      ],
+      "content": "[!NOTE]\nThe enrollment profile URL is valid for two weeks from when it is exported. After two weeks, you must export a new enrollment profile .mobileconfig file to enroll iOS devices with Setup Assistant.",
+      "leadings": [
+        "",
+        "   > "
+      ],
+      "nodes": [
+        {
+          "content": "The enrollment profile URL is valid for two weeks from when it is exported. After two weeks, you must export a new enrollment profile .mobileconfig file to enroll iOS devices with Setup Assistant.",
+          "pos": [
+            8,
+            204
+          ],
+          "nodes": [
+            {
+              "content": "The enrollment profile URL is valid for two weeks from when it is exported.",
+              "pos": [
+                0,
+                75
+              ]
+            },
+            {
+              "content": "After two weeks, you must export a new enrollment profile .mobileconfig file to enroll iOS devices with Setup Assistant.",
+              "pos": [
+                76,
+                196
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        16934,
+        17073
+      ],
+      "content": "**Prepare the device with Apple Configurator**\niOS devices are connected to the Mac computer and enrolled for mobile device management.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Prepare the device with Apple Configurator",
+          "pos": [
+            2,
+            44
+          ]
+        },
+        {
+          "content": "iOS devices are connected to the Mac computer and enrolled for mobile device management.",
+          "pos": [
+            47,
+            135
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        17083,
+        17207
+      ],
+      "content": "On Mac computer, open <bpt id=\"p1\">**</bpt>Apple Configurator 2<ept id=\"p1\">**</ept>, and connect the iOS mobile devices to the Apple computer with a USB adapter."
+    },
+    {
+      "pos": [
+        17223,
+        17471
+      ],
+      "content": "[!WARNING]\nThe devices will be reset to factory configurations during the enrollment process. As a best practice, reset the device and power it on. As a best practice, devices should be at the **Hello** screen when you connect the device.",
+      "leadings": [
+        "",
+        "        > "
+      ],
+      "nodes": [
+        {
+          "content": "The devices will be reset to factory configurations during the enrollment process. As a best practice, reset the device and power it on. As a best practice, devices should be at the **Hello** screen when you connect the device.",
+          "pos": [
+            11,
+            238
+          ],
+          "nodes": [
+            {
+              "content": "The devices will be reset to factory configurations during the enrollment process.",
+              "pos": [
+                0,
+                82
+              ]
+            },
+            {
+              "content": "As a best practice, reset the device and power it on.",
+              "pos": [
+                83,
+                136
+              ]
+            },
+            {
+              "content": "As a best practice, devices should be at the <bpt id=\"p1\">**</bpt>Hello<ept id=\"p1\">**</ept> screen when you connect the device.",
+              "pos": [
+                137,
+                227
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>Prepare<ept id=\"p1\">**</ept>.",
+      "pos": [
+        17481,
+        17499
+      ]
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Prepare iOS Device<ept id=\"p1\">**</ept> pane, select <bpt id=\"p2\">**</bpt>Manual<ept id=\"p2\">**</ept> and then click <bpt id=\"p3\">**</bpt>Next<ept id=\"p3\">**</ept>.",
+      "pos": [
+        17500,
+        17578
+      ]
+    },
+    {
+      "pos": [
+        17591,
+        17676
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Enroll in MDM Server<ept id=\"p1\">**</ept> pane, select <bpt id=\"p2\">**</bpt>New Server<ept id=\"p2\">**</ept>, and then click <bpt id=\"p3\">**</bpt>Next<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "On <bpt id=\"p1\">**</bpt>Define an MDM Server<ept id=\"p1\">**</ept> pane, enter a <bpt id=\"p2\">**</bpt>Name<ept id=\"p2\">**</ept>, paste the 2.0 Profile URL, and then click <bpt id=\"p3\">**</bpt>Next<ept id=\"p3\">**</ept>.",
+      "pos": [
+        17689,
+        17792
+      ]
+    },
+    {
+      "content": "You do not need to modify anchor certificates.",
+      "pos": [
+        17793,
+        17839
+      ]
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept> again.",
+      "pos": [
+        17840,
+        17861
+      ]
+    },
+    {
+      "pos": [
+        17874,
+        17966
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Supervise Devices<ept id=\"p1\">**</ept> pane, select the level of supervision, and then click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        17979,
+        18102
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Create an Organization<ept id=\"p1\">**</ept> pane, choose the <bpt id=\"p2\">**</bpt>Organization<ept id=\"p2\">**</ept> or create a new organization,  and then click <bpt id=\"p3\">**</bpt>Next<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Configure iOS Setup Assistant<ept id=\"p1\">**</ept> pane, choose the steps presented to the user, and then click <bpt id=\"p2\">**</bpt>Prepare<ept id=\"p2\">**</ept>.",
+      "pos": [
+        18115,
+        18229
+      ]
+    },
+    {
+      "content": "If prompted, authenticate to update trust settings.",
+      "pos": [
+        18230,
+        18281
+      ]
+    },
+    {
+      "content": "When the iOS device finishes preparing, you can disconnect the USB cable.",
+      "pos": [
+        18296,
+        18369
+      ]
+    },
+    {
+      "pos": [
+        18377,
+        18802
+      ],
+      "content": "**Distribute devices**\nThe devices are now ready for corporate enrollment. Power down the devices and distribute them to users. When the device is turned on, the Setup Assistant will start. During device setup, the Setup Assistant prompts users to apply a configuration from IT. The end-user must accept this configuration to enroll. When distributing devices, include instructions for users to accept this configuration.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Distribute devices",
+          "pos": [
+            2,
+            20
+          ]
+        },
+        {
+          "content": "The devices are now ready for corporate enrollment. Power down the devices and distribute them to users. When the device is turned on, the Setup Assistant will start. During device setup, the Setup Assistant prompts users to apply a configuration from IT. The end-user must accept this configuration to enroll. When distributing devices, include instructions for users to accept this configuration.",
+          "pos": [
+            23,
+            421
+          ],
+          "nodes": [
+            {
+              "content": "The devices are now ready for corporate enrollment.",
+              "pos": [
+                0,
+                51
+              ]
+            },
+            {
+              "content": "Power down the devices and distribute them to users.",
+              "pos": [
+                52,
+                104
+              ]
+            },
+            {
+              "content": "When the device is turned on, the Setup Assistant will start.",
+              "pos": [
+                105,
+                166
+              ]
+            },
+            {
+              "content": "During device setup, the Setup Assistant prompts users to apply a configuration from IT.",
+              "pos": [
+                167,
+                255
+              ]
+            },
+            {
+              "content": "The end-user must accept this configuration to enroll.",
+              "pos": [
+                256,
+                310
+              ]
+            },
+            {
+              "content": "When distributing devices, include instructions for users to accept this configuration.",
+              "pos": [
+                311,
+                398
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        18807,
+        18918
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_DE\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Apple Configurator enrollment via direct enrollment for iOS devices with Microsoft Intune"
+    },
+    {
+      "content": "Using Apple Configurator you can enroll iOS devices for management without resetting them to factory settings.",
+      "pos": [
+        18919,
+        19029
+      ]
+    },
+    {
+      "content": "This method is for devices with <bpt id=\"p1\">**</bpt>No user affinity<ept id=\"p1\">**</ept> and requires you to USB-connect the iOS device to a Mac computer to setup corporate enrollment.",
+      "pos": [
+        19030,
+        19178
+      ]
+    },
+    {
+      "content": "The Company Portal app is not supported for direct enrolled devices.",
+      "pos": [
+        19179,
+        19247
+      ]
+    },
+    {
+      "content": "This guidance assumes you are using Apple Configurator 2.0 on a Mac computer.",
+      "pos": [
+        19248,
+        19325
+      ]
+    },
+    {
+      "content": "Prerequisites",
+      "pos": [
+        19329,
+        19342
+      ]
+    },
+    {
+      "content": "Physical access to iOS devices",
+      "pos": [
+        19347,
+        19377
+      ]
+    },
+    {
+      "pos": [
+        19381,
+        19480
+      ],
+      "content": "Device serial numbers - <bpt id=\"p1\">[</bpt>How to get an iOS serial number<ept id=\"p1\">](https://support.apple.com/en-us/HT204308)</ept>"
+    },
+    {
+      "content": "USB connection cables",
+      "pos": [
+        19483,
+        19504
+      ]
+    },
+    {
+      "pos": [
+        19508,
+        19597
+      ],
+      "content": "Mac computer with <bpt id=\"p1\">[</bpt>Apple Configurator 2.0<ept id=\"p1\">](http://go.microsoft.com/fwlink/?LinkId=518017)</ept>"
+    },
+    {
+      "content": "Direct enrollment with Intune",
+      "pos": [
+        19606,
+        19635
+      ]
+    },
+    {
+      "pos": [
+        19641,
+        19857
+      ],
+      "content": "**Create a profile for devices**\nA device enrollment profile defines the settings applied to devices. If you have not already, create a device enrollment profile for iOS devices enrolled using Apple Configurator.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Create a profile for devices",
+          "pos": [
+            2,
+            30
+          ]
+        },
+        {
+          "content": "A device enrollment profile defines the settings applied to devices. If you have not already, create a device enrollment profile for iOS devices enrolled using Apple Configurator.",
+          "pos": [
+            33,
+            212
+          ],
+          "nodes": [
+            {
+              "content": "A device enrollment profile defines the settings applied to devices.",
+              "pos": [
+                0,
+                68
+              ]
+            },
+            {
+              "content": "If you have not already, create a device enrollment profile for iOS devices enrolled using Apple Configurator.",
+              "pos": [
+                69,
+                179
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "To create a profile",
+      "pos": [
+        19870,
+        19889
+      ]
+    },
+    {
+      "pos": [
+        19899,
+        20053
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept> go <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Corporate Device Enrollment<ept id=\"p3\">**</ept>, and then click <bpt id=\"p4\">**</bpt>Add…<ept id=\"p4\">**</ept>."
+    },
+    {
+      "content": "Enter details for the device profiles:",
+      "pos": [
+        20063,
+        20101
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Name<ept id=\"p1\">**</ept> – Name of the device enrollment profile.",
+      "pos": [
+        20115,
+        20164
+      ]
+    },
+    {
+      "content": "Not visible to users.",
+      "pos": [
+        20165,
+        20186
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Description<ept id=\"p1\">**</ept> - Description of the device enrollment profile.",
+      "pos": [
+        20200,
+        20263
+      ]
+    },
+    {
+      "content": "Not visible to users.",
+      "pos": [
+        20264,
+        20285
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>User affiliation<ept id=\"p1\">**</ept> – Specifies how devices are enrolled.",
+      "pos": [
+        20299,
+        20357
+      ]
+    },
+    {
+      "content": "For Direct Enrollment, select <bpt id=\"p1\">**</bpt>No user affinity<ept id=\"p1\">**</ept>.",
+      "pos": [
+        20358,
+        20409
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Device group pre-assignment<ept id=\"p1\">**</ept> – All devices deployed this profile will initially belong to this group.",
+      "pos": [
+        20423,
+        20527
+      ]
+    },
+    {
+      "content": "You can reassign devices after enrollment.",
+      "pos": [
+        20528,
+        20570
+      ]
+    },
+    {
+      "pos": [
+        20580,
+        20622
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Save Profile<ept id=\"p1\">**</ept> to add the profile."
+    },
+    {
+      "pos": [
+        20628,
+        20936
+      ],
+      "content": "**Add iOS devices to enroll with Apple Configurator** \nIn the [Microsoft Intune administration console](http://manage.microsoft.com) go **Groups** &gt; **All Devices** &gt; **Corporate pre-enrolled devices** &gt; **By iOS serial number**, and then click **Add devices…**. You can add devices in two ways:",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Add iOS devices to enroll with Apple Configurator",
+          "pos": [
+            2,
+            51
+          ]
+        },
+        {
+          "content": "In the [Microsoft Intune administration console](http://manage.microsoft.com) go **Groups** &gt; **All Devices** &gt; **Corporate pre-enrolled devices** &gt; **By iOS serial number**, and then click **Add devices…**. You can add devices in two ways:",
+          "pos": [
+            55,
+            304
+          ],
+          "nodes": [
+            {
+              "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept> go <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>All Devices<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Corporate pre-enrolled devices<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>By iOS serial number<ept id=\"p5\">**</ept>, and then click <bpt id=\"p6\">**</bpt>Add devices…<ept id=\"p6\">**</ept>.",
+              "pos": [
+                0,
+                216
+              ]
+            },
+            {
+              "content": "You can add devices in two ways:",
+              "pos": [
+                217,
+                249
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        20946,
+        21116
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Upload a CSV file containing serial numbers<ept id=\"p1\">**</ept> – Create a comma-separated value (.csv) list of two columns without a header, limited to 5000 devices or 5MB per csv file."
+    },
+    {
+      "content": "&amp;lt;Serial #1&amp;gt;",
+      "pos": [
+        21153,
+        21170
+      ]
+    },
+    {
+      "content": "&amp;lt;Device #1 Details&amp;gt;",
+      "pos": [
+        21171,
+        21196
+      ]
+    },
+    {
+      "content": "&amp;lt;Serial#2&amp;gt;",
+      "pos": [
+        21207,
+        21223
+      ]
+    },
+    {
+      "content": "&amp;lt;Device #2 Details&amp;gt;",
+      "pos": [
+        21224,
+        21249
+      ]
+    },
+    {
+      "content": "This .csv file when viewed in a text editor appears as:",
+      "pos": [
+        21259,
+        21314
+      ]
+    },
+    {
+      "pos": [
+        21399,
+        21523
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Manually add device details<ept id=\"p1\">**</ept> - Enter the serial number and device details of up to five devices, and then click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        21531,
+        21939
+      ],
+      "content": "[!NOTE]\nIf you must later remove corporate-owned devices from Intune management, you must remove the device serial number from Intune in the **Corporate-owned devices** group to disable device enrollment.  If Intune performs a disaster recovery procedure on or around the time that serial numbers were removed, you will need to verify that only active devices’ serial numbers are present in that group.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "If you must later remove corporate-owned devices from Intune management, you must remove the device serial number from Intune in the **Corporate-owned devices** group to disable device enrollment.  If Intune performs a disaster recovery procedure on or around the time that serial numbers were removed, you will need to verify that only active devices’ serial numbers are present in that group.",
+          "pos": [
+            8,
+            402
+          ],
+          "nodes": [
+            {
+              "content": "If you must later remove corporate-owned devices from Intune management, you must remove the device serial number from Intune in the <bpt id=\"p1\">**</bpt>Corporate-owned devices<ept id=\"p1\">**</ept> group to disable device enrollment.",
+              "pos": [
+                0,
+                196
+              ]
+            },
+            {
+              "content": "If Intune performs a disaster recovery procedure on or around the time that serial numbers were removed, you will need to verify that only active devices’ serial numbers are present in that group.",
+              "pos": [
+                198,
+                394
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        21945,
+        22115
+      ],
+      "content": "**Select devices to enroll**\nConfirm the devices to enroll. Serial numbers already enrolled or enrolled by other means cannot be imported. Click **Next** to continue.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Select devices to enroll",
+          "pos": [
+            2,
+            26
+          ]
+        },
+        {
+          "content": "Confirm the devices to enroll. Serial numbers already enrolled or enrolled by other means cannot be imported. Click **Next** to continue.",
+          "pos": [
+            29,
+            166
+          ],
+          "nodes": [
+            {
+              "content": "Confirm the devices to enroll.",
+              "pos": [
+                0,
+                30
+              ]
+            },
+            {
+              "content": "Serial numbers already enrolled or enrolled by other means cannot be imported.",
+              "pos": [
+                31,
+                109
+              ]
+            },
+            {
+              "content": "Click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept> to continue.",
+              "pos": [
+                110,
+                137
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        22121,
+        22363
+      ],
+      "content": "**Assign profile**\nSpecify the profile to assign to added devices from the list of available profiles, review the **Enrollment profile details**, and then click **Finish**. Manually added devices can be assigned to any Enrollment profile.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Assign profile",
+          "pos": [
+            2,
+            16
+          ]
+        },
+        {
+          "content": "Specify the profile to assign to added devices from the list of available profiles, review the **Enrollment profile details**, and then click **Finish**. Manually added devices can be assigned to any Enrollment profile.",
+          "pos": [
+            19,
+            238
+          ],
+          "nodes": [
+            {
+              "content": "Specify the profile to assign to added devices from the list of available profiles, review the <bpt id=\"p1\">**</bpt>Enrollment profile details<ept id=\"p1\">**</ept>, and then click <bpt id=\"p2\">**</bpt>Finish<ept id=\"p2\">**</ept>.",
+              "pos": [
+                0,
+                153
+              ]
+            },
+            {
+              "content": "Manually added devices can be assigned to any Enrollment profile.",
+              "pos": [
+                154,
+                219
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        22369,
+        22807
+      ],
+      "content": "**Select a profile to deploy to iOS devices**\nIn the [Microsoft Intune administration console](http://manage.microsoft.com) go **Policy** &gt; **Corporate Device Enrollment**, and then select the device profile to deploy to mobile devices. This profile should be the same profile that you assigned to deploy in the previous step. Click **Export…** in the taskbar. Click **Download profile** and save the downloaded .mobileconfig file.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Select a profile to deploy to iOS devices",
+          "pos": [
+            2,
+            43
+          ]
+        },
+        {
+          "content": "In the [Microsoft Intune administration console](http://manage.microsoft.com) go **Policy** &gt; **Corporate Device Enrollment**, and then select the device profile to deploy to mobile devices. This profile should be the same profile that you assigned to deploy in the previous step. Click **Export…** in the taskbar. Click **Download profile** and save the downloaded .mobileconfig file.",
+          "pos": [
+            46,
+            434
+          ],
+          "nodes": [
+            {
+              "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](http://manage.microsoft.com)</ept> go <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Corporate Device Enrollment<ept id=\"p3\">**</ept>, and then select the device profile to deploy to mobile devices.",
+              "pos": [
+                0,
+                193
+              ]
+            },
+            {
+              "content": "This profile should be the same profile that you assigned to deploy in the previous step.",
+              "pos": [
+                194,
+                283
+              ]
+            },
+            {
+              "content": "Click <bpt id=\"p1\">**</bpt>Export…<ept id=\"p1\">**</ept>",
+              "pos": [
+                284,
+                301
+              ]
+            },
+            {
+              "content": "in the taskbar.",
+              "pos": [
+                302,
+                317
+              ]
+            },
+            {
+              "content": "Click <bpt id=\"p1\">**</bpt>Download profile<ept id=\"p1\">**</ept> and save the downloaded .mobileconfig file.",
+              "pos": [
+                318,
+                388
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        22813,
+        22896
+      ],
+      "content": "**Transfer the file**\nCopy the downloaded .mobileconfig file to a Mac computer.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Transfer the file",
+          "pos": [
+            2,
+            19
+          ]
+        },
+        {
+          "content": "Copy the downloaded .mobileconfig file to a Mac computer.",
+          "pos": [
+            22,
+            79
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        22903,
+        23107
+      ],
+      "content": "[!NOTE]\nThe enrollment profile .mobileconfig file is valid for two weeks from when it is exported. After two, you must export a new enrollment profile URL to enroll iOS devices with Setup Assistant.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "The enrollment profile .mobileconfig file is valid for two weeks from when it is exported. After two, you must export a new enrollment profile URL to enroll iOS devices with Setup Assistant.",
+          "pos": [
+            8,
+            198
+          ],
+          "nodes": [
+            {
+              "content": "The enrollment profile .mobileconfig file is valid for two weeks from when it is exported.",
+              "pos": [
+                0,
+                90
+              ]
+            },
+            {
+              "content": "After two, you must export a new enrollment profile URL to enroll iOS devices with Setup Assistant.",
+              "pos": [
+                91,
+                190
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        23113,
+        23252
+      ],
+      "content": "**Prepare the device with Apple Configurator**\niOS devices are connected to the Mac computer and enrolled for mobile device management.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Prepare the device with Apple Configurator",
+          "pos": [
+            2,
+            44
+          ]
+        },
+        {
+          "content": "iOS devices are connected to the Mac computer and enrolled for mobile device management.",
+          "pos": [
+            47,
+            135
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        23262,
+        23315
+      ],
+      "content": "On a Mac computer, launch <bpt id=\"p1\">**</bpt>Apple Configurator 2.0<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "Connect the iOS device to the Mac computer with a USB cord.",
+      "pos": [
+        23325,
+        23384
+      ]
+    },
+    {
+      "content": "Close <bpt id=\"p1\">**</bpt>Photos<ept id=\"p1\">**</ept>, <bpt id=\"p2\">**</bpt>iTunes<ept id=\"p2\">**</ept>, and other apps that open for the device when the device is detected.",
+      "pos": [
+        23385,
+        23483
+      ]
+    },
+    {
+      "content": "In Apple Configurator, single-click the connected iOS device, and then click the <bpt id=\"p1\">**</bpt>Add<ept id=\"p1\">**</ept> button.",
+      "pos": [
+        23493,
+        23589
+      ]
+    },
+    {
+      "content": "Options that can be added to the device appear in the drop-down list.",
+      "pos": [
+        23590,
+        23659
+      ]
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>Profiles<ept id=\"p1\">**</ept> .",
+      "pos": [
+        23660,
+        23680
+      ]
+    },
+    {
+      "content": "Use the file picker to select the .mobileconfig file you exported from Intune, and then click <bpt id=\"p1\">**</bpt>Add<ept id=\"p1\">**</ept>.",
+      "pos": [
+        23690,
+        23792
+      ]
+    },
+    {
+      "content": "The profile is added to the device.",
+      "pos": [
+        23793,
+        23828
+      ]
+    },
+    {
+      "content": "If the device is <bpt id=\"p1\">**</bpt>Unsupervised<ept id=\"p1\">**</ept>, the installation will require acceptance on the device.",
+      "pos": [
+        23830,
+        23920
+      ]
+    },
+    {
+      "pos": [
+        23926,
+        24267
+      ],
+      "content": "**Install the profile**\nYou are ready to install the profile on the iOS device. The device must have already completed the Setup Assistant and be ready to use.  If enrollment entails app deployments, the device should have an Apple ID set up because the app deployments will require that you have an Apple ID signed in for the App Store.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Install the profile",
+          "pos": [
+            2,
+            21
+          ]
+        },
+        {
+          "content": "You are ready to install the profile on the iOS device. The device must have already completed the Setup Assistant and be ready to use.  If enrollment entails app deployments, the device should have an Apple ID set up because the app deployments will require that you have an Apple ID signed in for the App Store.",
+          "pos": [
+            24,
+            337
+          ],
+          "nodes": [
+            {
+              "content": "You are ready to install the profile on the iOS device.",
+              "pos": [
+                0,
+                55
+              ]
+            },
+            {
+              "content": "The device must have already completed the Setup Assistant and be ready to use.",
+              "pos": [
+                56,
+                135
+              ]
+            },
+            {
+              "content": "If enrollment entails app deployments, the device should have an Apple ID set up because the app deployments will require that you have an Apple ID signed in for the App Store.",
+              "pos": [
+                137,
+                313
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Completing profile acceptance for unsupervised iOS devices",
+      "pos": [
+        24280,
+        24338
+      ]
+    },
+    {
+      "content": "Unlock the iOS device.",
+      "pos": [
+        24348,
+        24370
+      ]
+    },
+    {
+      "pos": [
+        24380,
+        24459
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Install profile<ept id=\"p1\">**</ept> dialog for <bpt id=\"p2\">**</bpt>Management profile<ept id=\"p2\">**</ept>,  tap <bpt id=\"p3\">**</bpt>Install<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        24469,
+        24526
+      ],
+      "content": "Provide <bpt id=\"p1\">**</bpt>Device Passcode<ept id=\"p1\">**</ept> or <bpt id=\"p2\">**</bpt>Apple ID<ept id=\"p2\">**</ept>, if required."
+    },
+    {
+      "pos": [
+        24536,
+        24580
+      ],
+      "content": "Accept the <bpt id=\"p1\">**</bpt>Warning<ept id=\"p1\">**</ept>, and tap <bpt id=\"p2\">**</bpt>Install<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        24590,
+        24639
+      ],
+      "content": "Accept the <bpt id=\"p1\">**</bpt>Remote Warning<ept id=\"p1\">**</ept>, and tap <bpt id=\"p2\">**</bpt>Trust<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        24649,
+        24739
+      ],
+      "content": "When the <bpt id=\"p1\">**</bpt>Profile Installed<ept id=\"p1\">**</ept> box confirms the profile has <bpt id=\"p2\">**</bpt>Installed<ept id=\"p2\">**</ept>, click <bpt id=\"p3\">**</bpt>Done<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        24744,
+        25068
+      ],
+      "content": "**Verify profile**\n On the iOS device, launch **Settings** and go **General** &gt; **Device Management** &gt; **Management Profile** &gt;  and confirm the profile installation is listed, check the iOS policy restrictions, and installed apps. Policy restrictions and apps may take up to 10 minutes to appear on the device.",
+      "leadings": [
+        "",
+        "   "
+      ],
+      "nodes": [
+        {
+          "content": "Verify profile",
+          "pos": [
+            2,
+            16
+          ]
+        },
+        {
+          "content": " On the iOS device, launch **Settings** and go **General** &gt; **Device Management** &gt; **Management Profile** &gt;  and confirm the profile installation is listed, check the iOS policy restrictions, and installed apps. Policy restrictions and apps may take up to 10 minutes to appear on the device.",
+          "pos": [
+            19,
+            321
+          ],
+          "nodes": [
+            {
+              "content": "On the iOS device, launch <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> and go <bpt id=\"p2\">**</bpt>General<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Device Management<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Management Profile<ept id=\"p4\">**</ept> &amp;gt;  and confirm the profile installation is listed, check the iOS policy restrictions, and installed apps.",
+              "pos": [
+                1,
+                222
+              ]
+            },
+            {
+              "content": "Policy restrictions and apps may take up to 10 minutes to appear on the device.",
+              "pos": [
+                223,
+                302
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        25074,
+        25156
+      ],
+      "content": "**Distribute devices**\nThe iOS device is now enrolled with Intune and managed.",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "Distribute devices",
+          "pos": [
+            2,
+            20
+          ]
+        },
+        {
+          "content": "The iOS device is now enrolled with Intune and managed.",
+          "pos": [
+            23,
+            78
+          ]
+        }
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        25161,
+        25169
+      ]
+    },
+    {
+      "content": "Get ready to enroll devices in Microsoft Intune",
+      "pos": [
+        25171,
+        25218
+      ]
+    }
+  ],
+  "content": "---\ntitle: Set up iOS and Mac management with Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: dc451224-1372-4b84-b641-cfa67cb3849b\nauthor: NathBarn\ntranslation.priority.ht: \n  - cs-cz\n  - de-de\n  - es-es\n  - fr-fr\n  - hu-hu\n  - it-it\n  - ja-jp\n  - ko-kr\n  - nl-nl\n  - pl-pl\n  - pt-br\n  - pt-pt\n  - ru-ru\n  - sv-se\n  - tr-tr\n  - zh-cn\n  - zh-tw\n---\n# Set up iOS and Mac management with Microsoft Intune\nWith [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], you can enable BYOD (\"bring your own device\") iOS and Mac OS X device enrollment to give access to company email and apps to iPhone, iPad and Mac users. Once users install the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] company portal app, their devices can be targeted with policy using the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] administration console.  Before you can manage iOS and Mac devices, you must import an Apple Push Notification service (APNs) certificate from Apple. This certificate allows Intune to manage iOS and Mac devices and establishes an accredited and encrypted IP connection with the mobile device management authority services.\n\nAs an alternative to enrollment with the Company Portal app, you can also [enroll corporate-owned iOS devices](https://technet.microsoft.com/library/dn408185.aspx#BKMK_CODiOS) .\n\n## Prepare to manage iOS and Mac devices with Microsoft Intune\nThe following steps allow [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] to manage iOS devices using the Company Portal.\n\n#### Set up iOS and Mac enrollment with Intune\n\n1.  **Set up Intune**\n    If you haven’t already, prepare for mobile device management by  [setting the mobile device management authority](https://technet.microsoft.com/library/mt346013.aspx) as **Microsoft Intune** and setting up MDM.\n\n2.  **Get a certificate signing request**\n    As an administrative user, open the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Administration** &gt; **Mobile Device Management** &gt; **iOS and Mac OS X** &gt; **Upload an APNs Certificate**, and click **Download the APNs certificate request**. Save the certificate signing request (.csr) file locally. The .csr file is used to request a trust relationship certificate from the Apple Push Certificates Portal.\n\n    ![](../Image/Intune-iOS-enrollment-with-APNS.bmp)\n\n3.  **Get an Apple Push Notification service certificate**\n    Go to the [Apple Push Certificates Portal](http://go.microsoft.com/fwlink/?LinkId=269844) and sign in with your company Apple ID to create the APNs certificate using the .csr file. This Apple ID must be used in future to renew your APNs certificate. Download the APNs (.pem) certificate and save the file locally. This APNs certificate file is used to establish a trust relationship between the Apple Push Notification server and Intune’s mobile device management authority.\n\n4.  **Add the APNs certificate to Intune**\n    In the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Administration** &gt; **Mobile Device Management** &gt; **iOS and Mac OS X** &gt; **Upload an APNs Certificate**, and click **Upload the APNs certificate**. **Browse** to the certificate (.pem) file and click **Open** and then enter your **Apple ID**. With the APNs certificate, Intune can enroll and manage iOS devices by pushing policy to enrolled mobile devices.\n\n5.  **Tell users how to get access to company resources with the company portal**\n    Your users will need to know how to enroll their devices and what to expect once they're brought into management. [What to tell your end users about using Microsoft Intune](../Topic/What-to-tell-your-end-users-about-using-Microsoft-Intune.md)\n\n## <a name=\"BKMK_CODiOS\"></a>Corporate-owned device (COD) management with Microsoft Intune\nAs an alternative to enrollment with the Company Portal app, you can enroll corporate-owned devices purchased from Apple. Intune supports the enrollment of corporate-owned iOS devices using the Apple Device Enrollment Program (DEP) or the [Apple Configurator](http://go.microsoft.com/fwlink/?LinkId=518017) tool running on a Mac computer.\n\nYou can enroll corporate-enrolled iOS devices in three ways:\n\n-   **[Device Enrollment Program (DEP) device enrollment](#BKMK_DEP)** – Deploys an enrollment profile  “over the air” that includes setup assistant options for the device. Devices enrolled through DEP cannot be un-enrolled by users.\n\n-   **[Apple Configurator enrollment via Setup Assistant](#BKMK_SAE)** – Factory resets the device using Apple Configurator, enrolls the device, and prepares it with Setup Assistant options. \n\n-   **[Apple Configurator enrollment via Direct Enrollment](#BKMK_DE)** – Creates an Apple Configurator-compliant file for use during device preparation via Apple Configurator. The enrolled device isn’t factory reset. This method only works if user affiliation is set to \"No user affinity.\"\n\n> [!CAUTION]\n> Devices enrolled with these methods require the Intune Company Portal app to enable certain Intune capabilities such as [Conditional Access](https://technet.microsoft.com/library/dn818907.aspx) and [Mobile Application Management](https://technet.microsoft.com/library/dn878026.aspx). Additional steps may be necessary to properly configure the Company Portal app. [Learn more](https://blogs.technet.microsoft.com/intunesupport/2015/12/28/update-to-company-portal-brings-benefits-to-corporate-owned-ios-devices/)\n\n## <a name=\"BKMK_DEP\"></a>Apple DEP enrollment for iOS device enrollment \nTo manage corporate-owned iOS devices with Apple’s Device Enrollment Program (DEP), your organization must join Apple DEP and acquire devices through that program. Details of that process are available at:  [https://deploy.apple.com](https://deploy.apple.com). Advantages of the program include hands-free set up devices without USB-connecting each device to a computer.\n\nBefore you can enroll corporate-owned iOS devices with DEP, you need a DEP Token from Apple. This token allows Intune to sync information about DEP-participating devices owned by your corporation. It also permits Intune to perform Enrollment Profile uploads to Apple and to assign devices to those profiles.\n\n### <a name=\"BKMK_DEPtok\"></a>Enable DEP management with Intune\n\n1.  **Start managing iOS devices with Microsoft Intune**\n    Before you can enroll iOS Device Enrollment Program (DEP) devices, you must complete enable iOS management for Intune.\n\n2.  **Get an Encryption Key**\n    As an administrative user, open the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Admin** &gt; **Mobile Device Management** &gt; **iOS** &gt; **Device Enrollment Program**, and click **Download Encryption Key**. Save the encryption key (.pem) file locally. The .pem file is used to request a trust-relationship certificate from the Apple Device Enrollment Program portal.\n\n3.  **Get a Device Enrollment Program token**\n    Go to the [Device Enrollment Program Portal](https://deploy.apple.com) (https://deploy.apple.com) and sign in with your company Apple ID. This Apple ID must be used in future to renew your DEP token.\n\n    1.  In the [Device Enrollment Program Portal](https://deploy.apple.com) portal, go **Device Enrollment Program** &gt; **Manage Servers**, and then click **Add MDM Server**.\n\n    2.  Enter the **MDM Server Name** and then click **Next**. The server name is for your reference to identify the MDM server. It is not name or URL of the Microsoft Intune server.\n\n    3.  The **Add &lt;ServerName&gt;** dialog box opens. Click **Choose File…** to upload the .pem file and then click **Next**.\n\n    4.  The **Add &lt;ServerName&gt;** dialog box displays a **Your Server Token** link. Download the server token (.p7m) file to your computer, and then click **Done**.\n\n    This certificate (.p7m) file is used to establish a trust relationship between Intune and Apple’s Device Enrollment Program servers.\n\n4.  **Add the DEP token to Intune**\n    In the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Admin** &gt; **Mobile Device Management** &gt; **iOS** &gt; **Device Enrollment Program**, and click **Upload the DEP Token**. **Browse** to the certificate (.p7m) file, enter your **Apple ID**, and click **Upload**.\n### Setup Assistant enrollment for Apple Device Enrollment Program (DEP) devices \n1.  **Add the Corporate Device Enrollment Policy**\n    In the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Policy** &gt; **Corporate Device Enrollment** and then click **Add**. Provide **General** details including **Name** and **Description**, specify whether devices assigned to the profile have user affinity or belong to a group, and then enable **Configure Device Enrollment Program settings for this policy** to support DEP. The **Setup assistant panes** define the iOS device settings configured during setup.\n\n2.  **Assign DEP Devices for Management**\n    Go to the [Device Enrollment Program Portal](https://deploy.apple.com) (https://deploy.apple.com) and sign in with your company Apple ID. Go **Deployment Program** &gt; **Device Enrollment Program** &gt; **Manage Devices**. Specify how you will **Choose Devices**, provide device information and specify details by device **Serial Number**, **Order Number**, or **Upload CSV File**. Next, select **Assign to Server** and select the &lt;ServerName&gt; specified for Microsoft Intune, and then click **OK**.\n\n3.  **Synchronize DEP-Managed Devices**\n    As an administrative user, open the [Microsoft Intune administration console](http://manage.microsoft.com), go to **Admin** &gt; **Mobile Device Management** &gt; **iOS** &gt; **Device Enrollment Program**, and click **Sync now**. A sync request is sent to Apple. To see DEP-managed devices after synchronization, in the [Microsoft Intune administration console](http://manage.microsoft.com) go **Groups** &gt; **All Corporate-Owned Devices**. In the **Corporate-owned Devices** workspace, the **State** for managed devices reads “Not contacted” until the device is powered on and runs the Setup Assistant to enroll the device.\n\n4.  **Distribute devices to users**\n    Your corporate-owned devices can now be distributed to users. When an iOS device is turned on it will be enrolled for management by Intune.\n    \n## <a name=\"BKMK_SAE\"></a>Apple Configurator enrollment via Setup Assistant for iOS devices \nUsing Apple Configurator you can factory reset iOS devices and prepares them for setup by the device’s new user.  This method requires you to USB-connect the iOS device to a Mac computer to setup corporate enrollment and assumes you are using Apple Configurator 2.0.\n\n**Prerequisites**\n* Physical access to iOS devices - Devices must be unconfigured (factory reset) without password protection\n* Device serial numbers - [How to get an iOS serial number](https://support.apple.com/en-us/HT204308)\n* USB connection cables \n* Mac computer with [Apple Configurator 2.0](http://go.microsoft.com/fwlink/?LinkId=518017) \n \n\n#### <a name=\"BKMK_AC1\"></a>Enable Setup Assistant enrollment with Intune\n\n1.  **Create mobile device group** (Optional) \n    If your business requires mobile device groups to help manage devices, create those groups. [Use groups to manage users and devices with Microsoft Intune](../Topic/Use-groups-to-manage-users-and-devices-with-Microsoft-Intune.md). \n\n2.  **Create a profile for devices**\n    A device enrollment profile defines the settings applied to a group of devices. If you have not already, create a device enrollment profile for iOS devices enrolled using Apple Configurator. \n\n    ###### To create a profile\n\n    1.  In the [Microsoft Intune administration console](http://manage.microsoft.com) go **Policy** &gt; **Corporate Owned Devices**, and then click **Add…**.\n\n    2.  Enter details for the device profiles:\n\n        -   **Name** – Name of the device enrollment profile. (Not visible to users)\n\n        -   **Description** - Description of the device enrollment profile. (Not visible to users)\n\n        -   **Enrollment Details** – Specifies how devices are enrolled.\n\n            -   **Prompt for user affinity** – The iOS device can be affiliated with a user during initial setup and could then be permitted to access company data and email as that user. For most Setup Assistant scenarios, use **Prompt for user affinity**. \n            This mode supports a number of scenarios:\n\n                -   **Corporate-owned personal device** – “Choose Your Own Device” (CYOD) Similar to privately owned or personal devices but the administrator has certain privileges including permission to wipe, reset, administer, and unenroll the device. The device’s user can install apps and has most other permissions for device use where not blocked by management policy.\n\n                -   **Device enrollment manager account** – The device is enrolled using a special Intune administrator account. It can be managed as a private account, but only a user who knows the enrollment manager credentials can install apps, wipe, reset, administer, and unenroll the device. For information about enrolling a device shared by many users through a common account, see [Enroll corporate-owned devices with the Device Enrollment Manager in Microsoft Intune](../Topic/Enroll-corporate-owned-devices-with-the-Device-Enrollment-Manager-in-Microsoft-Intune.md).\n\n            -   **No user affinity** – The device is user-less. Use this affiliation for devices that perform tasks without accessing local user data. Apps requiring user affiliation are disabled or won’t work.\n\n        -   **Device group pre-assignment** – All devices deployed this profile will initially belong to this group. You can reassign devices after enrollment.\n        \n          -  **Device Enrollment Program** - The Apple Device Enrollment Program (DEP) settings cannot be used with Apple Configurator Setup Assistant enrollment. Ensure the toggle is set to **off**.\n\n    3.  Click **Save Profile** to add the profile.\n\n3.  **Add iOS devices to enroll with Setup Assistant**\n    In the [Microsoft Intune administration console](http://manage.microsoft.com) go **Groups** &gt; **All Devices** &gt; **All Corporate-owned Devices** &gt; **All Devices**, and then click **Add devices…**. You can add devices in two ways:\n\n    -   **Upload a CSV file containing serial numbers** – Create a comma-separated value (.csv) list of two columns without a header, limited to 5000 devices or 5MB per csv file.\n\n        |||\n        |-|-|\n        |&lt;Serial #1&gt;|&lt;Device #1 Details&gt;|\n        |&lt;Serial#2&gt;|&lt;Device #2 Details&gt;|\n        This .csv file when viewed in a text editor appears as:\n\n        ```\n        0000000,PO 1234\n        111111111,PO 1234\n        ```\n\n    -   **Manually add device details** - Enter the serial number and device details of up to five devices\n\n    > [!NOTE]\n    > If you must later remove corporate-owned devices from Intune management, you might need to remove the device serial number from Intune in the **Corporate-owned devices** group to disable device enrollment.  If Intune performs a disaster recovery procedure on or around the time that serial numbers were removed, you will need to verify that only active devices’ serial numbers are present in that group.\n\n    And then click **Next**.\n\n4.  **Select devices to enroll**\n    Confirm the devices to enroll. Serial numbers already enrolled or enrolled by other means cannot be imported. Click **Next** to continue.\n\n5.  **Assign profile**\n    Specify the profile to assign to added devices from the list of available profiles, review the **Enrollment profile details**, and then click **Finish**. Manually added devices can be assigned to any Enrollment profile.\n\n6.  **Export a profile to deploy to iOS devices**\n    In the [Microsoft Intune administration console](http://manage.microsoft.com) go **Policy** &gt; **Corporate Device Enrollment**, and then select the device profile to deploy to mobile devices. Click **Export…** in the taskbar. Copy and save the **2.0 Profile URL**. You will upload it in Apple Configurator later to define the Intune profile used by iOS devices.\n    \n    To support Apple Configurator 2, the 2.0 Profile URL must be edited. Replace \n```\nhttps://manage.microsoft.com/EnrollmentServer/Discovery.svc/iOS/ESProxy?id=\n```\nwith \n\n```\nhttps://appleconfigurator2.manage.microsoft.com/MDMServiceConfig?id=\n```\n\n   You will upload this profile URL to the Apple DEP service using Apple Configurator in the following procedure to define the Intune profile used by iOS devices.\n     \n   > [!NOTE]\n   > The enrollment profile URL is valid for two weeks from when it is exported. After two weeks, you must export a new enrollment profile .mobileconfig file to enroll iOS devices with Setup Assistant. \n\n7.  **Prepare the device with Apple Configurator**\n    iOS devices are connected to the Mac computer and enrolled for mobile device management.\n\n    1.  On Mac computer, open **Apple Configurator 2**, and connect the iOS mobile devices to the Apple computer with a USB adapter.\n    \n        > [!WARNING]\n        > The devices will be reset to factory configurations during the enrollment process. As a best practice, reset the device and power it on. As a best practice, devices should be at the **Hello** screen when you connect the device.\n\n    2.  Click **Prepare**. On the **Prepare iOS Device** pane, select **Manual** and then click **Next**.\n    \n    3. On the **Enroll in MDM Server** pane, select **New Server**, and then click **Next**.\n    \n    4. On **Define an MDM Server** pane, enter a **Name**, paste the 2.0 Profile URL, and then click **Next**. You do not need to modify anchor certificates. Click **Next** again.\n    \n    5. On the **Supervise Devices** pane, select the level of supervision, and then click **Next**.\n    \n    6. On the **Create an Organization** pane, choose the **Organization** or create a new organization,  and then click **Next**.\n    \n    7. On the **Configure iOS Setup Assistant** pane, choose the steps presented to the user, and then click **Prepare**. If prompted, authenticate to update trust settings.  \n    \n    8. When the iOS device finishes preparing, you can disconnect the USB cable.  \n\n8.  **Distribute devices**\n    The devices are now ready for corporate enrollment. Power down the devices and distribute them to users. When the device is turned on, the Setup Assistant will start. During device setup, the Setup Assistant prompts users to apply a configuration from IT. The end-user must accept this configuration to enroll. When distributing devices, include instructions for users to accept this configuration.\n\n## <a name=\"BKMK_DE\"></a>Apple Configurator enrollment via direct enrollment for iOS devices with Microsoft Intune\nUsing Apple Configurator you can enroll iOS devices for management without resetting them to factory settings. This method is for devices with **No user affinity** and requires you to USB-connect the iOS device to a Mac computer to setup corporate enrollment. The Company Portal app is not supported for direct enrolled devices. This guidance assumes you are using Apple Configurator 2.0 on a Mac computer.\n\n**Prerequisites**\n* Physical access to iOS devices \n* Device serial numbers - [How to get an iOS serial number](https://support.apple.com/en-us/HT204308)\n* USB connection cables \n* Mac computer with [Apple Configurator 2.0](http://go.microsoft.com/fwlink/?LinkId=518017) \n\n##### Direct enrollment with Intune\n\n1.  **Create a profile for devices**\n    A device enrollment profile defines the settings applied to devices. If you have not already, create a device enrollment profile for iOS devices enrolled using Apple Configurator.\n\n    ###### To create a profile\n\n    1.  In the [Microsoft Intune administration console](http://manage.microsoft.com) go **Policy** &gt; **Corporate Device Enrollment**, and then click **Add…**.\n\n    2.  Enter details for the device profiles:\n\n        -   **Name** – Name of the device enrollment profile. Not visible to users.\n\n        -   **Description** - Description of the device enrollment profile. Not visible to users.\n\n        -   **User affiliation** – Specifies how devices are enrolled. For Direct Enrollment, select **No user affinity**.\n\n        -   **Device group pre-assignment** – All devices deployed this profile will initially belong to this group. You can reassign devices after enrollment.\n\n    3.  Click **Save Profile** to add the profile.\n\n2.  **Add iOS devices to enroll with Apple Configurator** \n    In the [Microsoft Intune administration console](http://manage.microsoft.com) go **Groups** &gt; **All Devices** &gt; **Corporate pre-enrolled devices** &gt; **By iOS serial number**, and then click **Add devices…**. You can add devices in two ways:\n\n    -   **Upload a CSV file containing serial numbers** – Create a comma-separated value (.csv) list of two columns without a header, limited to 5000 devices or 5MB per csv file.\n\n        |||\n        |-|-|\n        |&lt;Serial #1&gt;|&lt;Device #1 Details&gt;|\n        |&lt;Serial#2&gt;|&lt;Device #2 Details&gt;|\n        This .csv file when viewed in a text editor appears as:\n\n        ```\n        0000000,PO 1234\n        111111111,PO 1234\n        ```\n\n    -   **Manually add device details** - Enter the serial number and device details of up to five devices, and then click **Next**.\n\n    > [!NOTE]\n    > If you must later remove corporate-owned devices from Intune management, you must remove the device serial number from Intune in the **Corporate-owned devices** group to disable device enrollment.  If Intune performs a disaster recovery procedure on or around the time that serial numbers were removed, you will need to verify that only active devices’ serial numbers are present in that group.\n\n3.  **Select devices to enroll**\n    Confirm the devices to enroll. Serial numbers already enrolled or enrolled by other means cannot be imported. Click **Next** to continue.\n\n4.  **Assign profile**\n    Specify the profile to assign to added devices from the list of available profiles, review the **Enrollment profile details**, and then click **Finish**. Manually added devices can be assigned to any Enrollment profile.\n\n5.  **Select a profile to deploy to iOS devices**\n    In the [Microsoft Intune administration console](http://manage.microsoft.com) go **Policy** &gt; **Corporate Device Enrollment**, and then select the device profile to deploy to mobile devices. This profile should be the same profile that you assigned to deploy in the previous step. Click **Export…** in the taskbar. Click **Download profile** and save the downloaded .mobileconfig file.\n\n6.  **Transfer the file**\n    Copy the downloaded .mobileconfig file to a Mac computer.\n    > [!NOTE]\n    > The enrollment profile .mobileconfig file is valid for two weeks from when it is exported. After two, you must export a new enrollment profile URL to enroll iOS devices with Setup Assistant. \n7.  **Prepare the device with Apple Configurator**\n    iOS devices are connected to the Mac computer and enrolled for mobile device management.\n\n    1.  On a Mac computer, launch **Apple Configurator 2.0**.\n\n    2.  Connect the iOS device to the Mac computer with a USB cord. Close **Photos**, **iTunes**, and other apps that open for the device when the device is detected.\n\n    3.  In Apple Configurator, single-click the connected iOS device, and then click the **Add** button. Options that can be added to the device appear in the drop-down list. Click **Profiles** .\n\n    4.  Use the file picker to select the .mobileconfig file you exported from Intune, and then click **Add**. The profile is added to the device.  If the device is **Unsupervised**, the installation will require acceptance on the device.\n\n8.  **Install the profile**\n    You are ready to install the profile on the iOS device. The device must have already completed the Setup Assistant and be ready to use.  If enrollment entails app deployments, the device should have an Apple ID set up because the app deployments will require that you have an Apple ID signed in for the App Store.\n\n    ###### Completing profile acceptance for unsupervised iOS devices\n\n    1.  Unlock the iOS device.\n\n    2.  In the **Install profile** dialog for **Management profile**,  tap **Install**.\n\n    3.  Provide **Device Passcode** or **Apple ID**, if required.\n\n    4.  Accept the **Warning**, and tap **Install**.\n\n    5.  Accept the **Remote Warning**, and tap **Trust**.\n\n    6.  When the **Profile Installed** box confirms the profile has **Installed**, click **Done**.\n\n9. **Verify profile**\n    On the iOS device, launch **Settings** and go **General** &gt; **Device Management** &gt; **Management Profile** &gt;  and confirm the profile installation is listed, check the iOS policy restrictions, and installed apps. Policy restrictions and apps may take up to 10 minutes to appear on the device.\n\n10. **Distribute devices**\n    The iOS device is now enrolled with Intune and managed.\n\n## See Also\n[Get ready to enroll devices in Microsoft Intune](../Topic/Get-ready-to-enroll-devices-in-Microsoft-Intune.md)\n\n"
+}

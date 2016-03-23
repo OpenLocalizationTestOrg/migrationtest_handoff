@@ -1,0 +1,2178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">3b64b500c3fe6617cc5c3e19fc031f6e6293c5ed</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Conversion - Help secure Windows PCs with Endpoint Protection for Microsoft Intune</source>
+          <target>MD Conversion - Help secure Windows PCs with Endpoint Protection for Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Conversion - Help secure Windows PCs with Endpoint Protection for Microsoft Intune</source>
+          <target>MD Conversion - Help secure Windows PCs with Endpoint Protection for Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> can help you to secure your managed computers in a number of ways, including Endpoint Protection which provides real-time protection against malware threats, keeps malware definitions up-to date, and automatically scans computers.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> can help you to secure your managed computers in a number of ways, including Endpoint Protection which provides real-time protection against malware threats, keeps malware definitions up-to date, and automatically scans computers.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> also provides tools that help you to manage and monitor malware attacks</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> also provides tools that help you to manage and monitor malware attacks</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you have not yet installed the <ph dataRef="id1" id="ph1" /> client on your computers, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Install the Windows PC client with Microsoft Intune</pc>.</source>
+          <target>If you have not yet installed the <ph dataRef="id1" id="ph1" /> client on your computers, see <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Install the Windows PC client with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the information in the following sections to help you configure, deploy and monitor <ph dataRef="id1" id="ph1" />.</source>
+          <target>Use the information in the following sections to help you configure, deploy and monitor <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Using Endpoint Protection in Microsoft Intune</source>
+          <target>Using Endpoint Protection in Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Before you start</source>
+          <target>Before you start</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>As an IT admin, one of your top priorities is to keep the computers that you manage free of malware and viruses.</source>
+          <target>As an IT admin, one of your top priorities is to keep the computers that you manage free of malware and viruses.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before you deploy <ph dataRef="id1" id="ph1" /> to client computers in your organization, you should decide how to protect your computers by selecting one of the following options and configuring its associated policy settings:</source>
+          <target>Before you deploy <ph dataRef="id1" id="ph1" /> to client computers in your organization, you should decide how to protect your computers by selecting one of the following options and configuring its associated policy settings:</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>I want to:</source>
+          <target>I want to:</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Endpoint Protection policy settings</source>
+          <target>Endpoint Protection policy settings</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> only if no third-party endpoint protection application is installed</source>
+          <target>Use <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> only if no third-party endpoint protection application is installed</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can use <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> on all computers where a third-party endpoint protection application is not installed.</source>
+          <target>You can use <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> on all computers where a third-party endpoint protection application is not installed.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Install Endpoint Protection = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Install Endpoint Protection = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enable Endpoint Protection = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Enable Endpoint Protection = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Install Endpoint Protection even if a third-party endpoint protection application is installed = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></source>
+          <target>Install Endpoint Protection even if a third-party endpoint protection application is installed = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a third-party endpoint protection application is detected, <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> will not be installed, or will be uninstalled if it has already been installed.</source>
+          <target>If a third-party endpoint protection application is detected, <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> will not be installed, or will be uninstalled if it has already been installed.</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" />, even if a third-party endpoint protection application is installed</source>
+          <target>Use <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" />, even if a third-party endpoint protection application is installed</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>With this approach, you will be running <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> and the third party endpoint protection application (if it is installed) simultaneously.</source>
+          <target>With this approach, you will be running <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> and the third party endpoint protection application (if it is installed) simultaneously.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>This is not a recommended configuration because of potential performance issues.</source>
+          <target>This is not a recommended configuration because of potential performance issues.</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Install Endpoint Protection = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Install Endpoint Protection = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enable Endpoint Protection = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Enable Endpoint Protection = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Install Endpoint Protection even if a third-party endpoint protection application is installed = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Install Endpoint Protection even if a third-party endpoint protection application is installed = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Use when:</source>
+          <target>Use when:</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You want to switch to using <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" />.</source>
+          <target>You want to switch to using <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You deploy a new client that will use <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /></source>
+          <target>You deploy a new client that will use <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /></target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You upgrade any client that will use <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" />.</source>
+          <target>You upgrade any client that will use <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id3">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use <ph dataRef="id1" id="ph1" /> without <ph dataRef="id2" id="ph2" /><ph dataRef="id3" id="ph3" /></source>
+          <target>Use <ph dataRef="id1" id="ph1" /> without <ph dataRef="id2" id="ph2" /><ph dataRef="id3" id="ph3" /></target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>In this case, you won’t be using <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> to protect your computers from malware and viruses.</source>
+          <target>In this case, you won’t be using <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> to protect your computers from malware and viruses.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>Instead, you will rely on a third-party endpoint protection application.</source>
+          <target>Instead, you will rely on a third-party endpoint protection application.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Install Endpoint Protection = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></source>
+          <target>Install Endpoint Protection = <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>If you are not using a third-party endpoint protection application, this configuration is not recommended, as it could expose your organization’s computers to malware or other attacks.</source>
+          <target>If you are not using a third-party endpoint protection application, this configuration is not recommended, as it could expose your organization’s computers to malware or other attacks.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" /> is not installed, and it is uninstalled if it was installed previously.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" /> is not installed, and it is uninstalled if it was installed previously.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you want to switch from your current endpoint protection application to <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" />, use the following steps which are explained in more detail later in this topic:</source>
+          <target>If you want to switch from your current endpoint protection application to <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" />, use the following steps which are explained in more detail later in this topic:</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Leave your current endpoint protection application running while you deploy the <ph dataRef="id1" id="ph1" /> client software to those computers.</source>
+          <target>Leave your current endpoint protection application running while you deploy the <ph dataRef="id1" id="ph1" /> client software to those computers.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Confirm that <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> is installed and is helping to secure client computers.</source>
+          <target>Confirm that <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> is installed and is helping to secure client computers.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Remove the third-party endpoint protection software by:</source>
+          <target>Remove the third-party endpoint protection software by:</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using <ph dataRef="id1" id="ph1" /> software distribution to deploy a software removal tool that is provided by the manufacturer of the third-party endpoint protection application.</source>
+          <target>Using <ph dataRef="id1" id="ph1" /> software distribution to deploy a software removal tool that is provided by the manufacturer of the third-party endpoint protection application.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Deploy-and-configure-apps-with-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy and configure apps with Microsoft Intune</pc>.</source>
+          <target>For more information, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Deploy and configure apps with Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>Removing the third-party endpoint protection application manually.</source>
+          <target>Removing the third-party endpoint protection application manually.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> will not uninstall third-party endpoint protection applications.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> will not uninstall third-party endpoint protection applications.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_HowtoConf"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />How to configure Microsoft Intune Endpoint Protection</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />How to configure Microsoft Intune Endpoint Protection</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+          <data id="id2">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Use the following procedure to help you configure <ph dataRef="id1" id="ph1" /> for <ph dataRef="id2" id="ph2" />.</source>
+          <target>Use the following procedure to help you configure <ph dataRef="id1" id="ph1" /> for <ph dataRef="id2" id="ph2" />.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> can manage <ph dataRef="id2" id="ph2" /> for Windows 10 Technical Preview.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> can manage <ph dataRef="id2" id="ph2" /> for Windows 10 Technical Preview.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <segment state="initial">
+          <source>Certain policy settings are only available for Windows 10.</source>
+          <target>Certain policy settings are only available for Windows 10.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com/)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc>, click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Policy</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configure and deploy a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune Agent Settings</pc> policy for the <ph dataRef="id3" id="ph1" /> settings.</source>
+          <target>Configure and deploy a <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune Agent Settings</pc> policy for the <ph dataRef="id3" id="ph1" /> settings.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <segment state="initial">
+          <source>You can use recommended settings or customize the settings.</source>
+          <target>You can use recommended settings or customize the settings.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you need more information about how to create and deploy policies, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Common Windows PC management tasks with the Microsoft Intune computer client</pc> topic.</source>
+          <target>If you need more information about how to create and deploy policies, see the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Common Windows PC management tasks with the Microsoft Intune computer client</pc> topic.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>The tables after this procedure show the values you can configure in the policy and also the recommended values that will be used if you don’t customize the policy.</source>
+          <target>The tables after this procedure show the values you can configure in the policy and also the recommended values that will be used if you don’t customize the policy.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can find these settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Endpoint Protection</pc> section.</source>
+          <target>You can find these settings in the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Endpoint Protection</pc> section.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can view the deployed <ph dataRef="id1" id="ph1" /> policy on the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">All Policies</pc> page of the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Policy</pc> workspace.</source>
+          <target>You can view the deployed <ph dataRef="id1" id="ph1" /> policy on the <pc dataRefEnd="id3" dataRefStart="id2" id="p1">All Policies</pc> page of the <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Policy</pc> workspace.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>Endpoint Protection service settings</source>
+          <target>Endpoint Protection service settings</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>Policy setting</source>
+          <target>Policy setting</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Install Endpoint Protection</source>
+          <target>Install Endpoint Protection</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to install <ph dataRef="id3" id="ph1" /> on managed computers.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to install <ph dataRef="id3" id="ph1" /> on managed computers.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If a third-party endpoint protection application is detected during installation, <ph dataRef="id1" id="ph1" /> will not be installed unless <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Install Endpoint Protection even if a third party endpoint protection application is installed</pc> is set to <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Yes</pc>.</source>
+          <target>If a third-party endpoint protection application is detected during installation, <ph dataRef="id1" id="ph1" /> will not be installed unless <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Install Endpoint Protection even if a third party endpoint protection application is installed</pc> is set to <pc dataRefEnd="id5" dataRefStart="id4" id="p2">Yes</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Intune <ph dataRef="id1" id="ph1" /> is installed on managed computers by default.</source>
+          <target>Intune <ph dataRef="id1" id="ph1" /> is installed on managed computers by default.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you don’t want <ph dataRef="id1" id="ph1" /> installed on your managed computers, you must explicitly set this policy to <pc dataRefEnd="id3" dataRefStart="id2" id="p1">No</pc>.</source>
+          <target>If you don’t want <ph dataRef="id1" id="ph1" /> installed on your managed computers, you must explicitly set this policy to <pc dataRefEnd="id3" dataRefStart="id2" id="p1">No</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If <ph dataRef="id1" id="ph1" /> was previously installed and the policy is updated to <pc dataRefEnd="id3" dataRefStart="id2" id="p1">No</pc>, then the <ph dataRef="id4" id="ph2" /> client will be uninstalled.</source>
+          <target>If <ph dataRef="id1" id="ph1" /> was previously installed and the policy is updated to <pc dataRefEnd="id3" dataRefStart="id2" id="p1">No</pc>, then the <ph dataRef="id4" id="ph2" /> client will be uninstalled.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <segment state="initial">
+          <source>Install Endpoint Protection even if a third party endpoint protection application is installed</source>
+          <target>Install Endpoint Protection even if a third party endpoint protection application is installed</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id4">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to install <ph dataRef="id3" id="ph1" /><ph dataRef="id4" id="ph2" /> even if a third-party endpoint protection application is detected.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to install <ph dataRef="id3" id="ph1" /><ph dataRef="id4" id="ph2" /> even if a third-party endpoint protection application is detected.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <segment state="initial">
+          <source>Enable Endpoint Protection</source>
+          <target>Enable Endpoint Protection</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id4">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+          <data id="id5">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to enable <ph dataRef="id3" id="ph1" /><ph dataRef="id4" id="ph2" /> on computers which have the <ph dataRef="id5" id="ph3" /> client.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to enable <ph dataRef="id3" id="ph1" /><ph dataRef="id4" id="ph2" /> on computers which have the <ph dataRef="id5" id="ph3" /> client.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id4">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+          <data id="id5">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc>, and <ph dataRef="id3" id="ph1" /><ph dataRef="id4" id="ph2" /> is installed, the <ph dataRef="id5" id="ph3" /> client user interface is not displayed to users and all protection features are inactive.</source>
+          <target>If set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc>, and <ph dataRef="id3" id="ph1" /><ph dataRef="id4" id="ph2" /> is installed, the <ph dataRef="id5" id="ph3" /> client user interface is not displayed to users and all protection features are inactive.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Disable Client UI</source>
+          <target>Disable Client UI</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id4">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to hide the <ph dataRef="id3" id="ph1" /><ph dataRef="id4" id="ph2" /> client user interface from users (requires a client computer restart to take effect).</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to hide the <ph dataRef="id3" id="ph1" /><ph dataRef="id4" id="ph2" /> client user interface from users (requires a client computer restart to take effect).</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <segment state="initial">
+          <source>Install Endpoint Protection even if a third party endpoint protection application is installed</source>
+          <target>Install Endpoint Protection even if a third party endpoint protection application is installed</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id4">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to force the installation of <ph dataRef="id3" id="ph1" /><ph dataRef="id4" id="ph2" />, even if a third-party endpoint protection application is detected.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to force the installation of <ph dataRef="id3" id="ph1" /><ph dataRef="id4" id="ph2" />, even if a third-party endpoint protection application is detected.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <segment state="initial">
+          <source>Create a system restore point before malware remediation</source>
+          <target>Create a system restore point before malware remediation</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to create a Windows System Restore Point before any malware remediation begins.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to create a Windows System Restore Point before any malware remediation begins.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Track resolved malware (days)</source>
+          <target>Track resolved malware (days)</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Lets <ph dataRef="id1" id="ph1" /> track resolved malware for a specified time so that you can manually check previously infected computers.</source>
+          <target>Lets <ph dataRef="id1" id="ph1" /> track resolved malware for a specified time so that you can manually check previously infected computers.</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>You can specify a value from 0 to 30 days.</source>
+          <target>You can specify a value from 0 to 30 days.</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">7 days</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">7 days</pc></target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+          <data id="id11">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id12">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+          <data id="id13">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id14">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+          <data id="id15">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you have set the policy values for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install Endpoint Protection</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable Endpoint Protection</pc> to <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Yes</pc>, and the policy value for  <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Install Endpoint Protection even if a third party endpoint protection application is installed</pc> to <pc dataRefEnd="id10" dataRefStart="id9" id="p5">No</pc>, <ph dataRef="id11" id="ph1" /><ph dataRef="id12" id="ph2" /> will detect that another endpoint protection application is installed and will be not be installed, or uninstalled if it is already present (however, <ph dataRef="id13" id="ph3" /><ph dataRef="id14" id="ph4" /> does report about the health of the other endpoint protection application in the <ph dataRef="id15" id="ph5" />).</source>
+          <target>If you have set the policy values for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install Endpoint Protection</pc> and <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Enable Endpoint Protection</pc> to <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Yes</pc>, and the policy value for  <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Install Endpoint Protection even if a third party endpoint protection application is installed</pc> to <pc dataRefEnd="id10" dataRefStart="id9" id="p5">No</pc>, <ph dataRef="id11" id="ph1" /><ph dataRef="id12" id="ph2" /> will detect that another endpoint protection application is installed and will be not be installed, or uninstalled if it is already present (however, <ph dataRef="id13" id="ph3" /><ph dataRef="id14" id="ph4" /> does report about the health of the other endpoint protection application in the <ph dataRef="id15" id="ph5" />).</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <segment state="initial">
+          <source>Real-time protection settings</source>
+          <target>Real-time protection settings</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <segment state="initial">
+          <source>Policy setting</source>
+          <target>Policy setting</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Enable real-time protection</source>
+          <target>Enable real-time protection</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <segment state="initial">
+          <source>Enables monitoring and scanning of all files and applications that are accessed.</source>
+          <target>Enables monitoring and scanning of all files and applications that are accessed.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>It also blocks any malicious files and applications before they can run on computers.</source>
+          <target>It also blocks any malicious files and applications before they can run on computers.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <segment state="initial">
+          <source>Scan all downloads</source>
+          <target>Scan all downloads</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <segment state="initial">
+          <source>Enables the scanning of all files and attachments that are downloaded from the Internet to computers.</source>
+          <target>Enables the scanning of all files and attachments that are downloaded from the Internet to computers.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <segment state="initial">
+          <source>Monitor file and program activity on computers</source>
+          <target>Monitor file and program activity on computers</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <segment state="initial">
+          <source>Enables the monitoring of incoming files and outgoing files, and program activity on computers.</source>
+          <target>Enables the monitoring of incoming files and outgoing files, and program activity on computers.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>With this setting, <ph dataRef="id1" id="ph1" /> can monitor when files and programs start to run and alert you about any actions they perform or actions that are taken on them.</source>
+          <target>With this setting, <ph dataRef="id1" id="ph1" /> can monitor when files and programs start to run and alert you about any actions they perform or actions that are taken on them.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <segment state="initial">
+          <source>Files monitored</source>
+          <target>Files monitored</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitor file and program activity on computers</pc> is enabled, this setting allows you to choose if only incoming, only outgoing, or all files are monitored.</source>
+          <target>If <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitor file and program activity on computers</pc> is enabled, this setting allows you to choose if only incoming, only outgoing, or all files are monitored.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitor all files</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Monitor all files</pc></target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <segment state="initial">
+          <source>Enable behavior monitoring</source>
+          <target>Enable behavior monitoring</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Allows <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> to check for certain patterns of suspicious activity on client computers.</source>
+          <target>Allows <ph dataRef="id1" id="ph1" /><ph dataRef="id2" id="ph2" /> to check for certain patterns of suspicious activity on client computers.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Enable Network Inspection System</source>
+          <target>Enable Network Inspection System</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <segment state="initial">
+          <source>Enables Network Inspection System (NIS) on client computers.</source>
+          <target>Enables Network Inspection System (NIS) on client computers.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkId=234249)</data>
+        </originalData>
+        <segment state="initial">
+          <source>NIS uses signatures of known vulnerabilities from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Malware Protection Center</pc> to help detect and block malicious network traffic.</source>
+          <target>NIS uses signatures of known vulnerabilities from the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Malware Protection Center</pc> to help detect and block malicious network traffic.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <segment state="initial">
+          <source>Scan schedule settings</source>
+          <target>Scan schedule settings</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>Policy setting</source>
+          <target>Policy setting</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <segment state="initial">
+          <source>Schedule a daily quick scan</source>
+          <target>Schedule a daily quick scan</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>Schedules a daily quick scan of both frequently used files and important system files on computers.</source>
+          <target>Schedules a daily quick scan of both frequently used files and important system files on computers.</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>This quick scan has a minimal effect on performance.</source>
+          <target>This quick scan has a minimal effect on performance.</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Run a quick scan if you have missed two consecutive scans</source>
+          <target>Run a quick scan if you have missed two consecutive scans</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configures <ph dataRef="id1" id="ph1" /> to automatically run a quick scan on computers if they miss two consecutive, scheduled quick scans.</source>
+          <target>Configures <ph dataRef="id1" id="ph1" /> to automatically run a quick scan on computers if they miss two consecutive, scheduled quick scans.</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <segment state="initial">
+          <source>Schedule a full scan</source>
+          <target>Schedule a full scan</target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>Configures a full scan of all files and resources on the local hard disks of computers.</source>
+          <target>Configures a full scan of all files and resources on the local hard disks of computers.</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>This scan can take some time and can affect computer performance (depending on the number of files and resources scanned).</source>
+          <target>This scan can take some time and can affect computer performance (depending on the number of files and resources scanned).</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <segment state="initial">
+          <source>Run a full scan if you have missed two consecutive full scans</source>
+          <target>Run a full scan if you have missed two consecutive full scans</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configures <ph dataRef="id1" id="ph1" /> to automatically run a full scan on computers if they miss two consecutive, scheduled full scans.</source>
+          <target>Configures <ph dataRef="id1" id="ph1" /> to automatically run a full scan on computers if they miss two consecutive, scheduled full scans.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <segment state="initial">
+          <source>Recommend value: Not configured</source>
+          <target>Recommend value: Not configured</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Scan options settings</source>
+          <target>Scan options settings</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Policy setting</source>
+          <target>Policy setting</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Run a full scan after installation of Endpoint Protection</source>
+          <target>Run a full scan after installation of Endpoint Protection</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Configures <ph dataRef="id1" id="ph1" /> to automatically run a full system scan after it is installed on computers.</source>
+          <target>Configures <ph dataRef="id1" id="ph1" /> to automatically run a full system scan after it is installed on computers.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>This scan runs only when computers are idle to minimize the effect on user productivity.</source>
+          <target>This scan runs only when computers are idle to minimize the effect on user productivity.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <segment state="initial">
+          <source>Automatically run a full scan when needed to follow up malware removal</source>
+          <target>Automatically run a full scan when needed to follow up malware removal</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to let <ph dataRef="id3" id="ph1" /> automatically run a full system scan on computers after the removal of malware to help confirm that other files were not affected.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to let <ph dataRef="id3" id="ph1" /> automatically run a full system scan on computers after the removal of malware to help confirm that other files were not affected.</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Start a scheduled scan only when the computer is idle</source>
+          <target>Start a scheduled scan only when the computer is idle</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to prevent scheduled scans from starting when computers are in use to prevent any loss of user productivity.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to prevent scheduled scans from starting when computers are in use to prevent any loss of user productivity.</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <segment state="initial">
+          <source>Check for the latest malware definitions before starting a scan</source>
+          <target>Check for the latest malware definitions before starting a scan</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to let <ph dataRef="id3" id="ph1" /> automatically check for the latest malware definitions before it starts a scan on computers.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to let <ph dataRef="id3" id="ph1" /> automatically check for the latest malware definitions before it starts a scan on computers.</target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>Scan archive files</source>
+          <target>Scan archive files</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to configure <ph dataRef="id3" id="ph1" /> to scan for malware in archive files (like .zip or .cab files) on computers.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to configure <ph dataRef="id3" id="ph1" /> to scan for malware in archive files (like .zip or .cab files) on computers.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>Scan email messages</source>
+          <target>Scan email messages</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to configure <ph dataRef="id3" id="ph1" /> to scan incoming email messages when they arrive on computers.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to configure <ph dataRef="id3" id="ph1" /> to scan incoming email messages when they arrive on computers.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Scan files opened from network shared folders</source>
+          <target>Scan files opened from network shared folders</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to configure <ph dataRef="id3" id="ph1" /> to scan files that are opened from shared folders on the network.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to configure <ph dataRef="id3" id="ph1" /> to scan files that are opened from shared folders on the network.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>These are typically files that are accessed by using a UNC path.</source>
+          <target>These are typically files that are accessed by using a UNC path.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Enabling this feature can cause problems for users who have read-only access because they cannot remove malware.</source>
+          <target>Enabling this feature can cause problems for users who have read-only access because they cannot remove malware.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>Scan mapped network drives</source>
+          <target>Scan mapped network drives</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to configure <ph dataRef="id3" id="ph1" /> to scan files on mapped network drives.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to configure <ph dataRef="id3" id="ph1" /> to scan files on mapped network drives.</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>Enabling this feature can cause problems for users who have read-only access because they cannot remove malware.</source>
+          <target>Enabling this feature can cause problems for users who have read-only access because they cannot remove malware.</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">No</pc></target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Scan removable drives</source>
+          <target>Scan removable drives</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to configure <ph dataRef="id3" id="ph1" /> to scan for malware and unwanted software in the contents of removable drives, like USB flash drives, when you run a full scan on computers.</source>
+          <target>Set to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to configure <ph dataRef="id3" id="ph1" /> to scan for malware and unwanted software in the contents of removable drives, like USB flash drives, when you run a full scan on computers.</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <segment state="initial">
+          <source>Limit CPU usage during a scan</source>
+          <target>Limit CPU usage during a scan</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <segment state="initial">
+          <source>Configures the maximum percentage of CPU usage that can be used during scheduled scans on computers.</source>
+          <target>Configures the maximum percentage of CPU usage that can be used during scheduled scans on computers.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>You can set this value from 1 to 100 percent.</source>
+          <target>You can set this value from 1 to 100 percent.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">50%</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">50%</pc></target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>Default actions settings</source>
+          <target>Default actions settings</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>Policy setting</source>
+          <target>Policy setting</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Choose how Endpoint Protection acts on malware of the following alert levels</source>
+          <target>Choose how Endpoint Protection acts on malware of the following alert levels</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specifies the default action that <ph dataRef="id1" id="ph1" /> takes when malware of various alert levels is detected.</source>
+          <target>Specifies the default action that <ph dataRef="id1" id="ph1" /> takes when malware of various alert levels is detected.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>For each alert level, you can remove the malware, quarantine it, or take Microsoft’s recommended action.</source>
+          <target>For each alert level, you can remove the malware, quarantine it, or take Microsoft’s recommended action.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recommended action</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recommended action</pc></target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>Excluded files and folders settings</source>
+          <target>Excluded files and folders settings</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>Policy setting</source>
+          <target>Policy setting</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>Files and folders to exclude when running a scan or using real-time protection</source>
+          <target>Files and folders to exclude when running a scan or using real-time protection</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Excludes specific files or folders when a scan is run or when real-time protection is used on computers.</source>
+          <target>Excludes specific files or folders when a scan is run or when real-time protection is used on computers.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>Excluded processes settings</source>
+          <target>Excluded processes settings</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Policy setting</source>
+          <target>Policy setting</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>Processes to exclude when running a scan or using real-time protection</source>
+          <target>Processes to exclude when running a scan or using real-time protection</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <segment state="initial">
+          <source>Lets you exclude specific processes when a scan is run or from real-time protection.</source>
+          <target>Lets you exclude specific processes when a scan is run or from real-time protection.</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can exclude only files with the following extensions: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.exe</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">.com</pc> or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">.scr</pc>.</source>
+          <target>You can exclude only files with the following extensions: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">.exe</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">.com</pc> or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">.scr</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>Excluded file types settings</source>
+          <target>Excluded file types settings</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>Policy setting</source>
+          <target>Policy setting</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>File extensions to exclude when running a scan or using real-time protection</source>
+          <target>File extensions to exclude when running a scan or using real-time protection</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <segment state="initial">
+          <source>Lets you exclude specific file name extensions when a scan is run or when real-time protection is used on computers.</source>
+          <target>Lets you exclude specific file name extensions when a scan is run or when real-time protection is used on computers.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>Microsoft Active Protection Service Settings</source>
+          <target>Microsoft Active Protection Service Settings</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>Microsoft Active Protection Service is an online community that helps you decide how to respond to potential threats.</source>
+          <target>Microsoft Active Protection Service is an online community that helps you decide how to respond to potential threats.</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>The community also helps stop the spread of new malware infections.</source>
+          <target>The community also helps stop the spread of new malware infections.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <segment state="initial">
+          <source>Policy setting</source>
+          <target>Policy setting</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <segment state="initial">
+          <source>Join Microsoft Active Protection Service</source>
+          <target>Join Microsoft Active Protection Service</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> automatically sends information about detected malware to the Microsoft Active Protection Service.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> automatically sends information about detected malware to the Microsoft Active Protection Service.</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>Microsoft does not use any information collected to identify you or to contact you.</source>
+          <target>Microsoft does not use any information collected to identify you or to contact you.</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>Membership level</source>
+          <target>Membership level</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>If you selected to join the Microsoft Active Protection Service, this setting lets you choose from one of the following membership levels:</source>
+          <target>If you selected to join the Microsoft Active Protection Service, this setting lets you choose from one of the following membership levels:</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Basic</pc> - Sends basic information to Microsoft about detected malware.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Basic</pc> - Sends basic information to Microsoft about detected malware.</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>This includes where the software came from, the actions that you apply or that <ph dataRef="id1" id="ph1" /> applies automatically, and whether the actions were successful.</source>
+          <target>This includes where the software came from, the actions that you apply or that <ph dataRef="id1" id="ph1" /> applies automatically, and whether the actions were successful.</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced</pc> - Sends more information to Microsoft about malware, spyware, and potentially unwanted software.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced</pc> - Sends more information to Microsoft about malware, spyware, and potentially unwanted software.</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>This includes the location of the software, file names, how the software operates, and how it has affected your computer.</source>
+          <target>This includes the location of the software, file names, how the software operates, and how it has affected your computer.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Advanced</pc></target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Receive dynamic definitions based on Microsoft Active Protection Service reports</source>
+          <target>Receive dynamic definitions based on Microsoft Active Protection Service reports</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> lets computers receive dynamic malware definitions based on information that <ph dataRef="id3" id="ph1" /> sends to the Microsoft Active Protection Service (if you have joined it) about detected malware.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> lets computers receive dynamic malware definitions based on information that <ph dataRef="id3" id="ph1" /> sends to the Microsoft Active Protection Service (if you have joined it) about detected malware.</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></source>
+          <target>Recommended value: <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc></target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>Management tasks for Endpoint Protection</source>
+          <target>Management tasks for Endpoint Protection</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The following tasks help you to carry out various management tasks on managed computers that run <ph dataRef="id1" id="ph1" />.</source>
+          <target>The following tasks help you to carry out various management tasks on managed computers that run <ph dataRef="id1" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>I want to</source>
+          <target>I want to</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the <ph dataRef="id1" id="ph1" /> console</source>
+          <target>From the <ph dataRef="id1" id="ph1" /> console</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>From the managed computer</source>
+          <target>From the managed computer</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>Update malware definitions</source>
+          <target>Update malware definitions</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Groups</pc> workspace, select the computers you want to update.</source>
+          <target>From the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Groups</pc> workspace, select the computers you want to update.</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Tasks</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update Malware Definitions</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Tasks</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update Malware Definitions</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start the <ph dataRef="id1" id="ph1" /> client software from the Windows notification area.</source>
+          <target>Start the <ph dataRef="id1" id="ph1" /> client software from the Windows notification area.</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update</pc> tab, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update</pc>.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Update</pc> tab, and then click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Update</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Run a malware scan</source>
+          <target>Run a malware scan</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Groups</pc> workspace, select the computers you want to scan.</source>
+          <target>From the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Groups</pc> workspace, select the computers you want to scan.</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run a Full Malware Scan</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run a Quick Malware Scan</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Run a Full Malware Scan</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Run a Quick Malware Scan</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <originalData>
+          <data id="id1">[!INCLUDE[epshort](../Token/epshort_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Start the <ph dataRef="id1" id="ph1" /> client software from the Windows notification area.</source>
+          <target>Start the <ph dataRef="id1" id="ph1" /> client software from the Windows notification area.</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Quick</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Full</pc>, or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Custom</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Scan now</pc>.</source>
+          <target>Select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Quick</pc>, <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Full</pc>, or <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Custom</pc>, and then click <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Scan now</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>You can view the status of a remote task by clicking the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Tasks</pc> link in the bottom right corner of the <ph dataRef="id3" id="ph1" />.</source>
+          <target>You can view the status of a remote task by clicking the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Tasks</pc> link in the bottom right corner of the <ph dataRef="id3" id="ph1" />.</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Task Status</pc> dialog box lists current remote tasks, task status, device name, any reported errors, and provides a link to troubleshooting information, if appropriate.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remote Task Status</pc> dialog box lists current remote tasks, task status, device name, any reported errors, and provides a link to troubleshooting information, if appropriate.</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_SCEPmon"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />How to monitor Endpoint Protection</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />How to monitor Endpoint Protection</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">[</data>
+          <data id="id4">](https://manage.microsoft.com/)</data>
+        </originalData>
+        <segment state="initial">
+          <source>You monitor the status of malware on your computers by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protection</pc> workspace of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Intune administration console</pc>.</source>
+          <target>You monitor the status of malware on your computers by using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protection</pc> workspace of the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Microsoft Intune administration console</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>This workspace contains two pages:</source>
+          <target>This workspace contains two pages:</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>Page name</source>
+          <target>Page name</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <segment state="initial">
+          <source>More information</source>
+          <target>More information</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>Endpoint Protection Overview</source>
+          <target>Endpoint Protection Overview</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>Displays important issues as links that you can click for more information.</source>
+          <target>Displays important issues as links that you can click for more information.</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <segment state="initial">
+          <source>Issues that might be displayed include:</source>
+          <target>Issues that might be displayed include:</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Malware instances that need follow-up</pc> – Click the link to see a list of malware issues including the follow up action that needs to be taken to resolve the issue.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Malware instances that need follow-up</pc> – Click the link to see a list of malware issues including the follow up action that needs to be taken to resolve the issue.</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>You can further drill into this list to see which computers are affected.</source>
+          <target>You can further drill into this list to see which computers are affected.</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computers with malware that need follow-up</pc> – Click the link to see all computers with unresolved malware issues including the follow up action that needs to be taken to resolve the issue.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Computers with malware that need follow-up</pc> – Click the link to see all computers with unresolved malware issues including the follow up action that needs to be taken to resolve the issue.</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Devices that are not protected</pc> – Click the link to see computers that are not protected by any endpoint protection software, either because no software is installed, or because there is an error.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Devices that are not protected</pc> – Click the link to see computers that are not protected by any endpoint protection software, either because no software is installed, or because there is an error.</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <segment state="initial">
+          <source>Select a computer to view more details.</source>
+          <target>Select a computer to view more details.</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Devices with another endpoint protection application running</pc> – Click the link to see computers that are running a third-party endpoint protection application.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Devices with another endpoint protection application running</pc> – Click the link to see computers that are running a third-party endpoint protection application.</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <segment state="initial">
+          <source>All Malware</source>
+          <target>All Malware</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <segment state="initial">
+          <source>Displays a list of all active malware found on your computers.</source>
+          <target>Displays a list of all active malware found on your computers.</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>You can drill into this list to see all computers that are affected by a particular piece of malware, or you can select one of the following tasks:</source>
+          <target>You can drill into this list to see all computers that are affected by a particular piece of malware, or you can select one of the following tasks:</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View Properties</pc> – Opens a page with more information about the selected malware.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">View Properties</pc> – Opens a page with more information about the selected malware.</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Learn About This Malware</pc> – Opens a topic from the Microsoft Malware Protection Center with more information about the malware.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Learn About This Malware</pc> – Opens a topic from the Microsoft Malware Protection Center with more information about the malware.</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protection</pc> workspace is not displayed in the administrator console until you have installed the client on, and are successfully managing at least one computer client.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Protection</pc> workspace is not displayed in the administrator console until you have installed the client on, and are successfully managing at least one computer client.</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <segment state="initial">
+          <source>How to view Recent Detection Paths for malware on computers</source>
+          <target>How to view Recent Detection Paths for malware on computers</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <segment state="initial">
+          <source>Intune can display the paths of up to 10 most recently detected instances of malware on a device.</source>
+          <target>Intune can display the paths of up to 10 most recently detected instances of malware on a device.</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recent Detection Path</pc> is disabled by default.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recent Detection Path</pc> is disabled by default.</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <segment state="initial">
+          <source>To enable this view:</source>
+          <target>To enable this view:</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>How to enable Recent Detection Paths for malware</source>
+          <target>How to enable Recent Detection Paths for malware</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://manage.microsoft.com/)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc> go <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Groups</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">All Devices</pc> .</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune administration console</pc> go <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Groups</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">All Devices</pc> .</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Malware</pc>.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Malware</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>Right-click a column header.</source>
+          <target>Right-click a column header.</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>A list of available columns appears.</source>
+          <target>A list of available columns appears.</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Mark the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recent Detection Paths</pc> checkbox in the list.</source>
+          <target>Mark the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recent Detection Paths</pc> checkbox in the list.</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recent Detection Paths</pc> column appears and displays up to 10 most recent malware instances monitored on the device.</source>
+          <target>The <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Recent Detection Paths</pc> column appears and displays up to 10 most recent malware instances monitored on the device.</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>Need more help?</source>
+          <target>Need more help?</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](../Topic/Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For further help and support, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Troubleshoot Endpoint Protection in Microsoft Intune</pc>.</source>
+          <target>For further help and support, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Troubleshoot Endpoint Protection in Microsoft Intune</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <segment state="initial">
+          <source>Manage Windows PCs with Microsoft Intune</source>
+          <target>Manage Windows PCs with Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

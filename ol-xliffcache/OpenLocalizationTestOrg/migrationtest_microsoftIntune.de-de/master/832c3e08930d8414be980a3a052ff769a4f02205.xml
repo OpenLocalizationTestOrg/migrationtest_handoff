@@ -1,0 +1,669 @@
+{
+  "nodes": [
+    {
+      "content": "Start a Microsoft Intune trial and deploy iOS PIN policy",
+      "pos": [
+        11,
+        67
+      ]
+    },
+    {
+      "content": "Start a Microsoft Intune trial and deploy iOS PIN policy",
+      "pos": [
+        448,
+        504
+      ]
+    },
+    {
+      "content": "These step-by-step instructions help you set up an Intune trial and configure a PIN policy for iOS devices.",
+      "pos": [
+        505,
+        612
+      ]
+    },
+    {
+      "content": "For a list of other common Intune evaluation tasks  that you can try, see <bpt id=\"p1\">[</bpt>Common Microsoft Intune evaluation tasks<ept id=\"p1\">](Common-Microsoft-Intune-evaluation-tasks.md)</ept>.",
+      "pos": [
+        613,
+        775
+      ]
+    },
+    {
+      "content": "These instructions explain:",
+      "pos": [
+        777,
+        804
+      ]
+    },
+    {
+      "content": "Review prerequisites for this task",
+      "pos": [
+        811,
+        845
+      ]
+    },
+    {
+      "content": "Create a free Intune trial account",
+      "pos": [
+        881,
+        915
+      ]
+    },
+    {
+      "content": "Create a test user",
+      "pos": [
+        954,
+        972
+      ]
+    },
+    {
+      "content": "Configure an iOS pin policy for the test user",
+      "pos": [
+        1010,
+        1055
+      ]
+    },
+    {
+      "content": "Validate that the policy is enforced on an iOS device",
+      "pos": [
+        1092,
+        1145
+      ]
+    },
+    {
+      "pos": [
+        1177,
+        1251
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_30day_review_prereqs\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Review prerequisites for this task"
+    },
+    {
+      "content": "Windows PC with Internet Explorer - for doing administrative tasks",
+      "pos": [
+        1257,
+        1323
+      ]
+    },
+    {
+      "content": "iOS 7.1 or later device for testing user policy validation",
+      "pos": [
+        1329,
+        1387
+      ]
+    },
+    {
+      "content": "Phone to authenticate yourself during trial sign-up",
+      "pos": [
+        1393,
+        1444
+      ]
+    },
+    {
+      "pos": [
+        1449,
+        1526
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_30day_create_trial_acct\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Create a free Intune trial account"
+    },
+    {
+      "pos": [
+        1529,
+        1628
+      ],
+      "content": "[!NOTE]\nIf you already have an Intune subscription, skip this section and go to the next section.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "If you already have an Intune subscription, skip this section and go to the next section.",
+          "pos": [
+            8,
+            97
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        1634,
+        1727
+      ],
+      "content": "Using a Windows PC, right-click <bpt id=\"p1\">**</bpt>Internet Explorer<ept id=\"p1\">**</ept> (IE) and select <bpt id=\"p2\">**</bpt>InPrivate Browsing<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        1809,
+        2007
+      ],
+      "content": "Go to the <bpt id=\"p1\">[</bpt>Intune sign-up portal<ept id=\"p1\">](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&amp;dl=INTUNE_A&amp;ali=1)</ept>, provide the requested information, and click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "Enter a user ID and password for your admin account and click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept>.",
+      "pos": [
+        2087,
+        2158
+      ]
+    },
+    {
+      "content": "You'll use this ID to log in to the Intune portal to do your admin tasks.",
+      "pos": [
+        2159,
+        2232
+      ]
+    },
+    {
+      "pos": [
+        2313,
+        2388
+      ],
+      "content": "Enter your cell phone number and click <bpt id=\"p1\">**</bpt>Text me<ept id=\"p1\">**</ept> to validate your number."
+    },
+    {
+      "pos": [
+        2467,
+        2550
+      ],
+      "content": "Save the information shown on the screen, and then click <bpt id=\"p1\">**</bpt>You're ready to go...<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        2631,
+        2691
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_30day_create_test_user\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Create a test user"
+    },
+    {
+      "pos": [
+        2697,
+        2767
+      ],
+      "content": "Using a Windows PC, click <bpt id=\"p1\">**</bpt>Start<ept id=\"p1\">**</ept> to go to the user management page."
+    },
+    {
+      "pos": [
+        2848,
+        2885
+      ],
+      "content": "Click the <bpt id=\"p1\">**</bpt>+<ept id=\"p1\">**</ept> button to add a user."
+    },
+    {
+      "pos": [
+        2965,
+        3005
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Create new user account<ept id=\"p1\">**</ept> page:"
+    },
+    {
+      "content": "Provide the test user information.",
+      "pos": [
+        3015,
+        3049
+      ]
+    },
+    {
+      "pos": [
+        3059,
+        3095
+      ],
+      "content": "Select the <bpt id=\"p1\">**</bpt>Type password<ept id=\"p1\">**</ept> option."
+    },
+    {
+      "pos": [
+        3105,
+        3195
+      ],
+      "content": "Clear the <bpt id=\"p1\">**</bpt>Make this person change their password the next time they sign in<ept id=\"p1\">**</ept> check box."
+    },
+    {
+      "pos": [
+        3205,
+        3222
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Create<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        3305,
+        3361
+      ],
+      "content": "On the user creation confirmation page, click <bpt id=\"p1\">**</bpt>Close<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        3444,
+        3506
+      ],
+      "content": "Click the <bpt id=\"p1\">**</bpt>Refresh<ept id=\"p1\">**</ept> button to see the test user you created."
+    },
+    {
+      "pos": [
+        3588,
+        3674
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_30day_cfg_ios_pin_pol\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Configure an iOS pin policy for the test user"
+    },
+    {
+      "content": "Using a Windows PC, set the MDM authority to be Intune:",
+      "pos": [
+        3680,
+        3735
+      ]
+    },
+    {
+      "content": "Go to <bpt id=\"p1\">[</bpt>Intune Management console<ept id=\"p1\">](http://manage.microsoft.com/)</ept>, log in with your admin account, and click <bpt id=\"p2\">**</bpt>Start Managing Mobile Devices<ept id=\"p2\">**</ept>.",
+      "pos": [
+        3745,
+        3886
+      ]
+    },
+    {
+      "content": "The Mobile Device Management authority page opens.",
+      "pos": [
+        3887,
+        3937
+      ]
+    },
+    {
+      "pos": [
+        4032,
+        4090
+      ],
+      "content": "Click the <bpt id=\"p1\">**</bpt>Set Mobile Device Management Authority<ept id=\"p1\">**</ept> link."
+    },
+    {
+      "content": "Enable iOS devices for enrollment.",
+      "pos": [
+        4176,
+        4210
+      ]
+    },
+    {
+      "content": "This process sets up a trusted certificate between the Apple Push Notification Service (APNs) and your Intune subscription.",
+      "pos": [
+        4211,
+        4334
+      ]
+    },
+    {
+      "pos": [
+        4344,
+        4391
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Enable the iOS and Mac OS X platform<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        4482,
+        4530
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Download the APNs Certificate Request<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "Specify a file name and location for your Certificate Signing Request (CSR), and then click <bpt id=\"p1\">**</bpt>Save<ept id=\"p1\">**</ept>.",
+      "pos": [
+        4624,
+        4725
+      ]
+    },
+    {
+      "content": "This file holds the public key that corresponds to a private key held by your Intune subscription.",
+      "pos": [
+        4726,
+        4824
+      ]
+    },
+    {
+      "pos": [
+        4915,
+        4974
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Apple Push Certificates portal<ept id=\"p1\">**</ept> to open a new tab."
+    },
+    {
+      "content": "Enter your Apple ID and password, and click <bpt id=\"p1\">**</bpt>Sign in<ept id=\"p1\">**</ept>.",
+      "pos": [
+        5067,
+        5123
+      ]
+    },
+    {
+      "content": "This ID can be the one you use on your iOS device to get apps from the iOS App Store.",
+      "pos": [
+        5124,
+        5209
+      ]
+    },
+    {
+      "pos": [
+        5302,
+        5333
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Create a Certificate<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        5422,
+        5492
+      ],
+      "content": "Read Apple’s Terms of Use, select the check box, and click <bpt id=\"p1\">**</bpt>Accept<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        5573,
+        5590
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Browse<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        5673,
+        5736
+      ],
+      "content": "Select the CSR file that you saved earlier, and click <bpt id=\"p1\">**</bpt>Open<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        5826,
+        5854
+      ],
+      "content": "Click the <bpt id=\"p1\">**</bpt>Upload<ept id=\"p1\">**</ept> button."
+    },
+    {
+      "pos": [
+        5942,
+        6007
+      ],
+      "content": "When you are prompted to download a JSON file, click <bpt id=\"p1\">**</bpt>Save as<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        6096,
+        6153
+      ],
+      "content": "Specify a location for your JSON file and click <bpt id=\"p1\">**</bpt>Save<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        6244,
+        6326
+      ],
+      "content": "If your page doesn’t redirect automatically after a few seconds, click <bpt id=\"p1\">**</bpt>Cancel<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        6418,
+        6486
+      ],
+      "content": "To retrieve your newly created certificate file, click <bpt id=\"p1\">**</bpt>Download<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        6580,
+        6644
+      ],
+      "content": "When you are prompted to download a PEM file, click <bpt id=\"p1\">**</bpt>Save as<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        6732,
+        6787
+      ],
+      "content": "Specify a location for the PEM file and click <bpt id=\"p1\">**</bpt>Save<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        6877,
+        6968
+      ],
+      "content": "Return to the Intune Management Console tab, and click the <bpt id=\"p1\">**</bpt>Upload the APNs Certificate<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        7055,
+        7096
+      ],
+      "content": "Enter your Apple ID and click <bpt id=\"p1\">**</bpt>Browse<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        7187,
+        7242
+      ],
+      "content": "Select the PEM file you just saved, and click <bpt id=\"p1\">**</bpt>Open<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        7332,
+        7349
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Upload<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "Your APNs certificate is now configured.",
+      "pos": [
+        7437,
+        7477
+      ]
+    },
+    {
+      "content": "Create a test user group for policy targeting:",
+      "pos": [
+        7562,
+        7608
+      ]
+    },
+    {
+      "pos": [
+        7618,
+        7653
+      ],
+      "content": "In the left pane, click <bpt id=\"p1\">**</bpt>Groups<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        7741,
+        7782
+      ],
+      "content": "At the far right, click <bpt id=\"p1\">**</bpt>Create Group<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        7869,
+        7952
+      ],
+      "content": "Provide a group name, select <bpt id=\"p1\">**</bpt>All Users<ept id=\"p1\">**</ept> as the parent group, and click <bpt id=\"p2\">**</bpt>Next<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        8040,
+        8149
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Start group membership with<ept id=\"p1\">**</ept> field, select <bpt id=\"p2\">**</bpt>All Users in the Parent group<ept id=\"p2\">**</ept>, and click <bpt id=\"p3\">**</bpt>Finish<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "Create an iOS PIN policy and target it to the test user group:",
+      "pos": [
+        8238,
+        8300
+      ]
+    },
+    {
+      "pos": [
+        8310,
+        8345
+      ],
+      "content": "In the left pane, click <bpt id=\"p1\">**</bpt>Policy<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        8433,
+        8472
+      ],
+      "content": "At the far right, click <bpt id=\"p1\">**</bpt>Add Policy<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        8560,
+        8651
+      ],
+      "content": "Expand the iOS node, select the <bpt id=\"p1\">**</bpt>General Configuration<ept id=\"p1\">**</ept> row, and click <bpt id=\"p2\">**</bpt>Create Policy<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        8740,
+        8886
+      ],
+      "content": "Type a name for the policy,  turn on the option <bpt id=\"p1\">**</bpt>Require a password to unlock mobile devices<ept id=\"p1\">**</ept>, and set the <bpt id=\"p2\">**</bpt>Minimum password length<ept id=\"p2\">**</ept> to <bpt id=\"p3\">**</bpt>4<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        8975,
+        9010
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept> to deploy the policy."
+    },
+    {
+      "pos": [
+        9102,
+        9175
+      ],
+      "content": "Click the user group previously created, click <bpt id=\"p1\">**</bpt>Add<ept id=\"p1\">**</ept>, and click <bpt id=\"p2\">**</bpt>Ok<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "You now have an iOS PIN policy that targets your test user group.",
+      "pos": [
+        9267,
+        9332
+      ]
+    },
+    {
+      "pos": [
+        9419,
+        9510
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_30day_validate_pol\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Validate that the policy is enforced on an iOS device"
+    },
+    {
+      "pos": [
+        9516,
+        9624
+      ],
+      "content": "On an iPad, launch the iOS App Store, install the free <bpt id=\"p1\">**</bpt>Microsoft Intune Company Portal<ept id=\"p1\">**</ept> app, and open it."
+    },
+    {
+      "pos": [
+        9711,
+        9779
+      ],
+      "content": "Enter your test user account name and password, and tap <bpt id=\"p1\">**</bpt>Sign in<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        9863,
+        9918
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Enroll<ept id=\"p1\">**</ept> to start enrolling the device in Intune."
+    },
+    {
+      "pos": [
+        9998,
+        10049
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Install Profile<ept id=\"p1\">**</ept> screen, tap <bpt id=\"p2\">**</bpt>Install<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        10136,
+        10187
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Install Profile<ept id=\"p1\">**</ept> dialog, tap <bpt id=\"p2\">**</bpt>Install<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        10274,
+        10317
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Warning<ept id=\"p1\">**</ept> screen, tap <bpt id=\"p2\">**</bpt>Install<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        10404,
+        10455
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Remote Management<ept id=\"p1\">**</ept> dialog, tap <bpt id=\"p2\">**</bpt>Trust<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "When the management profile finishes installing, tap <bpt id=\"p1\">**</bpt>Done<ept id=\"p1\">**</ept>.",
+      "pos": [
+        10540,
+        10602
+      ]
+    },
+    {
+      "content": "Enrollment is now complete.",
+      "pos": [
+        10603,
+        10630
+      ]
+    },
+    {
+      "pos": [
+        10711,
+        10789
+      ],
+      "content": "When enrollment is complete, tap <bpt id=\"p1\">**</bpt>OK<ept id=\"p1\">**</ept> and then close the Company Portal app."
+    },
+    {
+      "pos": [
+        10875,
+        10939
+      ],
+      "content": "When you are prompted to configure a passcode, tap <bpt id=\"p1\">**</bpt>Continue<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        11026,
+        11109
+      ],
+      "content": "Enter your passcode, tap <bpt id=\"p1\">**</bpt>Continue<ept id=\"p1\">**</ept>, enter your passcode again, and tap <bpt id=\"p2\">**</bpt>Save<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "Press the power button to lock your iPad, slide to unlock it, and see that you now need to enter your passcode to unlock the device.",
+      "pos": [
+        11193,
+        11325
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        11330,
+        11338
+      ]
+    },
+    {
+      "content": "Get started with a paid subscription to Microsoft Intune",
+      "pos": [
+        11340,
+        11396
+      ]
+    },
+    {
+      "content": "Common Microsoft Intune evaluation tasks",
+      "pos": [
+        11469,
+        11509
+      ]
+    },
+    {
+      "content": "Set up email access for iOS devices using Microsoft Intune",
+      "pos": [
+        11557,
+        11615
+      ]
+    }
+  ],
+  "content": "---\ntitle: Start a Microsoft Intune trial and deploy iOS PIN policy\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 06cb9a73-0f17-44b3-b334-86c98020316e\nauthor: Staciebarker\ntranslation.priority.ht: \n  - cs-cz\n  - de-de\n  - es-es\n  - fr-fr\n  - hu-hu\n  - it-it\n  - ja-jp\n  - ko-kr\n  - nl-nl\n  - pl-pl\n  - pt-br\n  - pt-pt\n  - ru-ru\n  - sv-se\n  - tr-tr\n  - zh-cn\n  - zh-tw\n---\n# Start a Microsoft Intune trial and deploy iOS PIN policy\nThese step-by-step instructions help you set up an Intune trial and configure a PIN policy for iOS devices. For a list of other common Intune evaluation tasks  that you can try, see [Common Microsoft Intune evaluation tasks](Common-Microsoft-Intune-evaluation-tasks.md).\n\nThese instructions explain:\n\n-   [Review prerequisites for this task](#BKMK_30day_review_prereqs)\n\n-   [Create a free Intune trial account](#BKMK_30day_create_trial_acct)\n\n-   [Create a test user](#BKMK_30day_create_test_user)\n\n-   [Configure an iOS pin policy for the test user](#BKMK_30day_cfg_ios_pin_pol)\n\n-   [Validate that the policy is enforced on an iOS device](#BKMK_30day_validate_pol)\n\n## <a name=\"BKMK_30day_review_prereqs\"></a>Review prerequisites for this task\n\n-   Windows PC with Internet Explorer - for doing administrative tasks\n\n-   iOS 7.1 or later device for testing user policy validation\n\n-   Phone to authenticate yourself during trial sign-up\n\n## <a name=\"BKMK_30day_create_trial_acct\"></a>Create a free Intune trial account\n> [!NOTE]\n> If you already have an Intune subscription, skip this section and go to the next section.\n\n1.  Using a Windows PC, right-click **Internet Explorer** (IE) and select **InPrivate Browsing**.\n\n    ![](../Image/30-day-trial-walkthrus/30day-start-trial-1-InPrivate.png)\n\n2.  Go to the [Intune sign-up portal](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&dl=INTUNE_A&ali=1), provide the requested information, and click **Next**.\n\n    ![](../Image/30-day-trial-walkthrus/30day-start-trial-2-abt-you.png)\n\n3.  Enter a user ID and password for your admin account and click **Next**. You'll use this ID to log in to the Intune portal to do your admin tasks.\n\n    ![](../Image/30-day-trial-walkthrus/30day-start-trial-3-createID.png)\n\n4.  Enter your cell phone number and click **Text me** to validate your number.\n\n    ![](../Image/30-day-trial-walkthrus/30day-start-trial-4-textme.png)\n\n5.  Save the information shown on the screen, and then click **You're ready to go...**.\n\n    ![](../Image/30-day-trial-walkthrus/30day-start-trial-5-ReadyToGo.png)\n\n## <a name=\"BKMK_30day_create_test_user\"></a>Create a test user\n\n1.  Using a Windows PC, click **Start** to go to the user management page.\n\n    ![](../Image/30-day-trial-walkthrus/30day-crt-user-6-click-start.png)\n\n2.  Click the **+** button to add a user.\n\n    ![](../Image/30-day-trial-walkthrus/30day-crt-user-7-click-plus.png)\n\n3.  On the **Create new user account** page:\n\n    1.  Provide the test user information.\n\n    2.  Select the **Type password** option.\n\n    3.  Clear the **Make this person change their password the next time they sign in** check box.\n\n    4.  Click **Create**.\n\n    ![](../Image/30-day-trial-walkthrus/30day-crt-user-8-add-user-info.png)\n\n4.  On the user creation confirmation page, click **Close**.\n\n    ![](../Image/30-day-trial-walkthrus/30day-crt-user-9-close-confirm.png)\n\n5.  Click the **Refresh** button to see the test user you created.\n\n    ![](../Image/30-day-trial-walkthrus/30day-crt-user-10-refresh-user.png)\n\n## <a name=\"BKMK_30day_cfg_ios_pin_pol\"></a>Configure an iOS pin policy for the test user\n\n1.  Using a Windows PC, set the MDM authority to be Intune:\n\n    1.  Go to [Intune Management console](http://manage.microsoft.com/), log in with your admin account, and click **Start Managing Mobile Devices**. The Mobile Device Management authority page opens.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-11-start-mg-mobl-dev.png)\n\n    2.  Click the **Set Mobile Device Management Authority** link.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-12-link-set-mdm.png)\n\n2.  Enable iOS devices for enrollment. This process sets up a trusted certificate between the Apple Push Notification Service (APNs) and your Intune subscription.\n\n    1.  Click **Enable the iOS and Mac OS X platform**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-13-enbl-ios-plat.png)\n\n    2.  Click **Download the APNs Certificate Request**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-14-dwnld-cert-reqst.png)\n\n    3.  Specify a file name and location for your Certificate Signing Request (CSR), and then click **Save**. This file holds the public key that corresponds to a private key held by your Intune subscription.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-15-cert-name-loc.png)\n\n    4.  Click **Apple Push Certificates portal** to open a new tab.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-16-cert-portl-link.png)\n\n    5.  Enter your Apple ID and password, and click **Sign in**. This ID can be the one you use on your iOS device to get apps from the iOS App Store.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-17-id-passw-signin.png)\n\n    6.  Click **Create a Certificate**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-18-create-cert.png)\n\n    7.  Read Apple’s Terms of Use, select the check box, and click **Accept**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-19-TOU.png)\n\n    8.  Click **Browse**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-20-browse.png)\n\n    9. Select the CSR file that you saved earlier, and click **Open**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-21-CSRfile-open.png)\n\n    10. Click the **Upload** button.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-22-upld-reqst.png)\n\n    11. When you are prompted to download a JSON file, click **Save as**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-23-json-saveas.png)\n\n    12. Specify a location for your JSON file and click **Save**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-24-json-save-loc.png)\n\n        If your page doesn’t redirect automatically after a few seconds, click **Cancel**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-25-json-pg-cancel.png)\n\n    13. To retrieve your newly created certificate file, click **Download**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-26-dwnld-retrv-cert.png)\n\n    14. When you are prompted to download a PEM file, click **Save as**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-27-pem-saveas.png)\n\n    15. Specify a location for the PEM file and click **Save**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-28-pem-save-loc.png)\n\n    16. Return to the Intune Management Console tab, and click the **Upload the APNs Certificate**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-29-upld-cert.png)\n\n    17. Enter your Apple ID and click **Browse**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-30-app-id-browse.png)\n\n    18. Select the PEM file you just saved, and click **Open**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-31-sel-pem-open.png)\n\n    19. Click **Upload**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-32-pem-upload.png)\n\n        Your APNs certificate is now configured.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-33-apns-confgd.png)\n\n3.  Create a test user group for policy targeting:\n\n    1.  In the left pane, click **Groups**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-34-clk-groups.png)\n\n    2.  At the far right, click **Create Group**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-35-crt-group.png)\n\n    3.  Provide a group name, select **All Users** as the parent group, and click **Next**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-36-name-group.png)\n\n    4.  In the **Start group membership with** field, select **All Users in the Parent group**, and click **Finish**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-37-all-users-group.png)\n\n4.  Create an iOS PIN policy and target it to the test user group:\n\n    1.  In the left pane, click **Policy**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-38-clk-policy.png)\n\n    2.  At the far right, click **Add Policy**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-39-add-policy.png)\n\n    3.  Expand the iOS node, select the **General Configuration** row, and click **Create Policy**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-40-gen_cfg_pol.png)\n\n    4.  Type a name for the policy,  turn on the option **Require a password to unlock mobile devices**, and set the **Minimum password length** to **4**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-41-name-policy.png)\n\n    5.  Click **Yes** to deploy the policy.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-42-yes-deploy-pol.png)\n\n    6.  Click the user group previously created, click **Add**, and click **Ok**.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-43-add-pol-to-grp.png)\n\n        You now have an iOS PIN policy that targets your test user group.\n\n        ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-44-policy-applied.png)\n\n## <a name=\"BKMK_30day_validate_pol\"></a>Validate that the policy is enforced on an iOS device\n\n1.  On an iPad, launch the iOS App Store, install the free **Microsoft Intune Company Portal** app, and open it.\n\n    ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-45-cportal-installed.jpg)\n\n2.  Enter your test user account name and password, and tap **Sign in**.\n\n    ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-46-cportal-signin.jpg)\n\n3.  Tap **Enroll** to start enrolling the device in Intune.\n\n    ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-47-tap-enroll.jpg)\n\n4.  On the **Install Profile** screen, tap **Install**.\n\n    ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-48-profile-install-1.jpg)\n\n5.  On the **Install Profile** dialog, tap **Install**.\n\n    ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-49-profile-install-2.jpg)\n\n6.  On the **Warning** screen, tap **Install**.\n\n    ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-50-warning-install-3.jpg)\n\n7.  On the **Remote Management** dialog, tap **Trust**.\n\n    ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-51-remt-mgmt-trust.jpg)\n\n8.  When the management profile finishes installing, tap **Done**. Enrollment is now complete.\n\n    ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-52-profile-done.jpg)\n\n9. When enrollment is complete, tap **OK** and then close the Company Portal app.\n\n    ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-53-devc-enrolled-ok.jpg)\n\n10. When you are prompted to configure a passcode, tap **Continue**.\n\n    ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-54-passcode-req-cont.jpg)\n\n11. Enter your passcode, tap **Continue**, enter your passcode again, and tap **Save**.\n\n    ![](../Image/30-day-trial-walkthrus/30day-cfg-pol-55-passcode-enter.jpg)\n\n12. Press the power button to lock your iPad, slide to unlock it, and see that you now need to enter your passcode to unlock the device.\n\n## See Also\n[Get started with a paid subscription to Microsoft Intune](../Topic/Get-started-with-a-paid-subscription-to-Microsoft-Intune.md)\n[Common Microsoft Intune evaluation tasks](Common-Microsoft-Intune-evaluation-tasks.md)\n[Set up email access for iOS devices using Microsoft Intune](Set-up-email-access-for-iOS-devices-using-Microsoft-Intune.md)\n\n"
+}

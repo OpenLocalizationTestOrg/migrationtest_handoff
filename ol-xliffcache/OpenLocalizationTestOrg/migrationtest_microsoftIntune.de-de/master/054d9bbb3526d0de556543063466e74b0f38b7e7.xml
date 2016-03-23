@@ -1,0 +1,1602 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - Keep Windows PCs up to date with software updates in Microsoft Intune",
+      "pos": [
+        11,
+        96
+      ]
+    },
+    {
+      "content": "MD Conversion - Keep Windows PCs up to date with software updates in Microsoft Intune",
+      "pos": [
+        231,
+        316
+      ]
+    },
+    {
+      "pos": [
+        317,
+        593
+      ],
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> can help you to secure your managed computers in a number of ways, including the management of software updates that keep your computers up to date by ensuring the latest patches and software updates are quickly installed."
+    },
+    {
+      "pos": [
+        595,
+        832
+      ],
+      "content": "If you have not yet installed the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> client on your computers, see <bpt id=\"p1\">[</bpt>Install the Windows PC client with Microsoft Intune<ept id=\"p1\">](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "content": "When new updates are available from Microsoft Update, or you have created a third-party update, and they are applicable to your managed computers, a notification is displayed on the <bpt id=\"p1\">**</bpt>Overview<ept id=\"p1\">**</ept> page of the <bpt id=\"p2\">**</bpt>Updates<ept id=\"p2\">**</ept> workspace.",
+      "pos": [
+        834,
+        1063
+      ]
+    },
+    {
+      "content": "After you click this notification link, you can then perform various operations like viewing more information about the update, approving or declining the update, and viewing the computers that will install the update if it is approved.",
+      "pos": [
+        1064,
+        1300
+      ]
+    },
+    {
+      "pos": [
+        1304,
+        1490
+      ],
+      "content": "[!IMPORTANT]\nThe **Updates** workspace is not displayed in the administrator console until you have installed the client on, and are successfully managing at least one computer client.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "The <bpt id=\"p1\">**</bpt>Updates<ept id=\"p1\">**</ept> workspace is not displayed in the administrator console until you have installed the client on, and are successfully managing at least one computer client.",
+          "pos": [
+            13,
+            184
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        1492,
+        1686
+      ],
+      "content": "As updates are approved and installed, you can examine the success or failure of the installation in the <bpt id=\"p1\">**</bpt>Updates<ept id=\"p1\">**</ept> workspace of the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> console."
+    },
+    {
+      "content": "The following sections will help you to keep software up to date on your managed computers.",
+      "pos": [
+        1688,
+        1779
+      ]
+    },
+    {
+      "content": "Before you start",
+      "pos": [
+        1784,
+        1800
+      ]
+    },
+    {
+      "content": "Before you begin to create and approve software updates, configure and deploy polices to your computers that control when and how the updates are installed.",
+      "pos": [
+        1801,
+        1957
+      ]
+    },
+    {
+      "content": "To configure update policy settings",
+      "pos": [
+        1964,
+        1999
+      ]
+    },
+    {
+      "pos": [
+        2005,
+        2141
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Overview<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Add Policy<ept id=\"p4\">**</ept>."
+    },
+    {
+      "content": "Configure and deploy a <bpt id=\"p1\">**</bpt>Microsoft Intune Agent Settings<ept id=\"p1\">**</ept> policy for the update settings.",
+      "pos": [
+        2147,
+        2237
+      ]
+    },
+    {
+      "content": "You can use recommended settings or customize the settings.",
+      "pos": [
+        2238,
+        2297
+      ]
+    },
+    {
+      "content": "If you need more information about how to create and deploy policies, see the <bpt id=\"p1\">[</bpt>Common Windows PC management tasks with the Microsoft Intune computer client<ept id=\"p1\">](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md)</ept> topic.",
+      "pos": [
+        2298,
+        2551
+      ]
+    },
+    {
+      "content": "The following table shows the values you can configure in the policy and also the recommended values that will be used if you don’t customize the policy.",
+      "pos": [
+        2557,
+        2710
+      ]
+    },
+    {
+      "content": "You can find these settings in the <bpt id=\"p1\">**</bpt>Updates<ept id=\"p1\">**</ept> section.",
+      "pos": [
+        2711,
+        2766
+      ]
+    },
+    {
+      "content": "Policy setting",
+      "pos": [
+        2773,
+        2787
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        2788,
+        2804
+      ]
+    },
+    {
+      "content": "Update and application detection frequency (hours)",
+      "pos": [
+        2859,
+        2909
+      ]
+    },
+    {
+      "content": "Specifies how frequently (from 8-22 hours) <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> checks for new updates and applications.",
+      "pos": [
+        2912,
+        3047
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>8<ept id=\"p1\">**</ept> hours.",
+      "pos": [
+        3059,
+        3090
+      ]
+    },
+    {
+      "content": "Automated or prompted installation of updates and applications",
+      "pos": [
+        3099,
+        3161
+      ]
+    },
+    {
+      "content": "Specifies whether updates are installed automatically or whether the user is prompted before installation.",
+      "pos": [
+        3164,
+        3270
+      ]
+    },
+    {
+      "content": "Additionally, this setting lets you schedule the installation of updates and applications.",
+      "pos": [
+        3271,
+        3361
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Install updates and applications automatically as scheduled<ept id=\"p1\">**</ept>  installs updates and applications using the specified schedule.",
+      "pos": [
+        3373,
+        3501
+      ]
+    },
+    {
+      "content": "As a dependent policy setting, <bpt id=\"p1\">**</bpt>Use Automatic Maintenance for Windows computers<ept id=\"p1\">**</ept>  specifies that updates and applications are installed during the Windows Automatic maintenance window.",
+      "pos": [
+        3513,
+        3699
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Prompt user for installation<ept id=\"p1\">**</ept> prompts the user to install updates when they are ready.",
+      "pos": [
+        3711,
+        3800
+      ]
+    },
+    {
+      "content": "Recommended values:",
+      "pos": [
+        3812,
+        3831
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Install updates and applications automatically as scheduled<ept id=\"p1\">**</ept> selected",
+      "pos": [
+        3843,
+        3915
+      ]
+    },
+    {
+      "content": "Day scheduled: Every day",
+      "pos": [
+        3929,
+        3953
+      ]
+    },
+    {
+      "content": "Time scheduled: 3:00 AM",
+      "pos": [
+        3969,
+        3992
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Use Automatic Maintenance for Windows computers<ept id=\"p1\">**</ept> selected",
+      "pos": [
+        4006,
+        4066
+      ]
+    },
+    {
+      "content": "Allow immediate installation of updates that do not interrupt Windows",
+      "pos": [
+        4075,
+        4144
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Allow<ept id=\"p1\">**</ept> installs updates immediately after they are downloaded, except for updates that would interrupt or restart Windows.",
+      "pos": [
+        4147,
+        4272
+      ]
+    },
+    {
+      "content": "Those updates are installed according to the configuration of the <bpt id=\"p1\">**</bpt>Automated or prompted installation of updates<ept id=\"p1\">**</ept> setting.",
+      "pos": [
+        4273,
+        4397
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Do not allow<ept id=\"p1\">**</ept> installs updates according to the configuration of the <bpt id=\"p2\">**</bpt>Automated or prompted installation of updates<ept id=\"p2\">**</ept> setting.",
+      "pos": [
+        4409,
+        4539
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Allow<ept id=\"p1\">**</ept>",
+      "pos": [
+        4551,
+        4579
+      ]
+    },
+    {
+      "content": "Delay to restart Windows after installation of scheduled updates and applications (minutes)",
+      "pos": [
+        4588,
+        4679
+      ]
+    },
+    {
+      "content": "Specifies (from 1-30 minutes), the time to wait to restart Windows after the installation of scheduled updates and applications.",
+      "pos": [
+        4682,
+        4810
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>15 minutes<ept id=\"p1\">**</ept>",
+      "pos": [
+        4822,
+        4855
+      ]
+    },
+    {
+      "content": "Delay following Windows restart to begin installing missed scheduled updates and applications (minutes)",
+      "pos": [
+        4864,
+        4967
+      ]
+    },
+    {
+      "content": "Specifies (from 1-60 minutes), how long to wait to start the installation of updates and applications after Windows is restarted when a scheduled update was missed.",
+      "pos": [
+        4970,
+        5134
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>5 minutes<ept id=\"p1\">**</ept>",
+      "pos": [
+        5146,
+        5178
+      ]
+    },
+    {
+      "content": "Allow logged-on user to control Windows restart after installation of scheduled updates and applications",
+      "pos": [
+        5187,
+        5291
+      ]
+    },
+    {
+      "content": "Specifies whether the logged-on user can delay restarting Windows (if set to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>), or be notified of the automatic Windows restart (if set to <bpt id=\"p2\">**</bpt>No<ept id=\"p2\">**</ept>).",
+      "pos": [
+        5294,
+        5448
+      ]
+    },
+    {
+      "content": "If no user is logged on when the scheduled installation of updates and applications is completed, Windows is restarted automatically when required.",
+      "pos": [
+        5449,
+        5596
+      ]
+    },
+    {
+      "content": "When set to <bpt id=\"p1\">**</bpt>No<ept id=\"p1\">**</ept>, by default, the time before Windows restarts is set to 5 minutes.",
+      "pos": [
+        5597,
+        5682
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        5694,
+        5720
+      ]
+    },
+    {
+      "pos": [
+        5729,
+        5849
+      ],
+      "content": "Prompt user to restart Windows during <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> client agent mandatory updates"
+    },
+    {
+      "content": "Specifies whether the logged on users is prompted to restart Windows when a <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> client mandatory update requires Windows to restart.",
+      "pos": [
+        5852,
+        6032
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>",
+      "pos": [
+        6044,
+        6070
+      ]
+    },
+    {
+      "content": "Microsoft Intune client agent mandatory updates installation schedule",
+      "pos": [
+        6079,
+        6148
+      ]
+    },
+    {
+      "content": "Schedules when the installation of client updates occur.",
+      "pos": [
+        6151,
+        6207
+      ]
+    },
+    {
+      "content": "Recommended value: not configured",
+      "pos": [
+        6219,
+        6252
+      ]
+    },
+    {
+      "content": "Delay between prompts to restart Windows after installation of scheduled updates and applications (minutes)",
+      "pos": [
+        6261,
+        6368
+      ]
+    },
+    {
+      "content": "Specifies how frequently (from 1-1440 minutes) the user is prompted to restart Windows when a scheduled update or application that requires restarting Windows is installed, and the user delays the restart.",
+      "pos": [
+        6371,
+        6576
+      ]
+    },
+    {
+      "content": "Recommended value: <bpt id=\"p1\">**</bpt>30 minutes<ept id=\"p1\">**</ept>",
+      "pos": [
+        6588,
+        6621
+      ]
+    },
+    {
+      "content": "Updating software made by Microsoft",
+      "pos": [
+        6627,
+        6662
+      ]
+    },
+    {
+      "content": "Updating Microsoft software requires very little work from you.",
+      "pos": [
+        6663,
+        6726
+      ]
+    },
+    {
+      "content": "However, before you start, there are two things you should configure:",
+      "pos": [
+        6727,
+        6796
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Product categories and update classifications<ept id=\"p1\">**</ept> – Defines the categories and classifications of the updates you want to make available to computers.",
+      "pos": [
+        6802,
+        6952
+      ]
+    },
+    {
+      "content": "For example, you might decide that you only want critical updates for Microsoft Office to be installed.",
+      "pos": [
+        6953,
+        7056
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Automatic approval rules<ept id=\"p1\">**</ept> – These rules automatically approve specified types of update and reduce your administrative overhead.",
+      "pos": [
+        7062,
+        7193
+      ]
+    },
+    {
+      "content": "For example, you might want to automatically approve all critical software updates.",
+      "pos": [
+        7194,
+        7277
+      ]
+    },
+    {
+      "content": "Use the following two procedures to help you get ready to use software updates:",
+      "pos": [
+        7279,
+        7358
+      ]
+    },
+    {
+      "content": "Configure the product categories and update classifications you want to make available to managed computers",
+      "pos": [
+        7365,
+        7472
+      ]
+    },
+    {
+      "pos": [
+        7478,
+        7592
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Admin<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Updates<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Service Settings: Updates<ept id=\"p1\">**</ept> page, in the <bpt id=\"p2\">**</bpt>Product Category<ept id=\"p2\">**</ept> list, select the update categories that you want to make available to computers.",
+      "pos": [
+        7598,
+        7749
+      ]
+    },
+    {
+      "content": "Note that the most common updates are selected by default.",
+      "pos": [
+        7750,
+        7808
+      ]
+    },
+    {
+      "pos": [
+        7816,
+        8153
+      ],
+      "content": "[!IMPORTANT]\nTo ensure that computers receive the updates that have been approved by the admin, the Windows Server Update Services (WSUS) Group Policy setting, **Specify Intranet Microsoft update service location** must not be applied to computers that have been enrolled with [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)].",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "To ensure that computers receive the updates that have been approved by the admin, the Windows Server Update Services (WSUS) Group Policy setting, <bpt id=\"p1\">**</bpt>Specify Intranet Microsoft update service location<ept id=\"p1\">**</ept> must not be applied to computers that have been enrolled with <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph>.",
+          "pos": [
+            13,
+            331
+          ]
+        }
+      ]
+    },
+    {
+      "content": "In the <bpt id=\"p1\">**</bpt>Update Classification<ept id=\"p1\">**</ept> list, select the classes of update that you want to make available to managed computers.",
+      "pos": [
+        8159,
+        8280
+      ]
+    },
+    {
+      "content": "Again, the most common options are selected by default.",
+      "pos": [
+        8281,
+        8336
+      ]
+    },
+    {
+      "pos": [
+        8342,
+        8382
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Save<ept id=\"p1\">**</ept> to store your selections."
+    },
+    {
+      "content": "To configure automatic approval rules for software updates",
+      "pos": [
+        8389,
+        8447
+      ]
+    },
+    {
+      "pos": [
+        8453,
+        8567
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Admin<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Updates<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        8573,
+        8673
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Automatic Approval Rules<ept id=\"p1\">**</ept> section of the <bpt id=\"p2\">**</bpt>Server Settings: Updates<ept id=\"p2\">**</ept> page, click <bpt id=\"p3\">**</bpt>New<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        8679,
+        8802
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>General<ept id=\"p1\">**</ept> page of the Create Automatic Approval Rule Wizard, specify a name and optional description for the rule."
+    },
+    {
+      "pos": [
+        8808,
+        8922
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Product Categories<ept id=\"p1\">**</ept> page, select any products for which you want to have updates approved automatically."
+    },
+    {
+      "pos": [
+        8928,
+        9048
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Update Classifications<ept id=\"p1\">**</ept> page, specify the update classifications that you want to have approved automatically."
+    },
+    {
+      "pos": [
+        9054,
+        9099
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Deployment<ept id=\"p1\">**</ept> page, do the following:"
+    },
+    {
+      "pos": [
+        9109,
+        9201
+      ],
+      "content": "Select the computer groups to which you want to deploy the new rule, and then click <bpt id=\"p1\">**</bpt>Add<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        9211,
+        9422
+      ],
+      "content": "To specify an installation deadline for the updates, select the <bpt id=\"p1\">**</bpt>Enforce an installation deadline for these updates<ept id=\"p1\">**</ept> check box, and then on the <bpt id=\"p2\">**</bpt>Installation deadline<ept id=\"p2\">**</ept> list, select the installation deadline."
+    },
+    {
+      "pos": [
+        9434,
+        9588
+      ],
+      "content": "[!NOTE]\nIf you specify an installation deadline, the managed computer might require one or more restarts after the deadline interval has passed.",
+      "leadings": [
+        "",
+        "        > "
+      ],
+      "nodes": [
+        {
+          "content": "If you specify an installation deadline, the managed computer might require one or more restarts after the deadline interval has passed.",
+          "pos": [
+            8,
+            144
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        9598,
+        9636
+      ],
+      "content": "When you are finished, click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        9642,
+        9731
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Summary<ept id=\"p1\">**</ept> page, review the settings for the new rule, and then click <bpt id=\"p2\">**</bpt>Finish<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        9733,
+        9841
+      ],
+      "content": "The new rule is shown in the <bpt id=\"p1\">**</bpt>Automatic Approval Rules<ept id=\"p1\">**</ept> section of the <bpt id=\"p2\">**</bpt>Service Settings: Updates<ept id=\"p2\">**</ept> page."
+    },
+    {
+      "pos": [
+        9845,
+        10332
+      ],
+      "content": "[!NOTE]\nWhen you create an automatic approval rule, it only approves future updates, and does not automatically approve previously existing updates that already exist in [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. To approve these updates you need to run the automatic approval rule. For more information, see [To edit, run, or delete an automatically approved update rule](../Topic/Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md#BKMK_editrun) below.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "When you create an automatic approval rule, it only approves future updates, and does not automatically approve previously existing updates that already exist in [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. To approve these updates you need to run the automatic approval rule. For more information, see [To edit, run, or delete an automatically approved update rule](../Topic/Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md#BKMK_editrun) below.",
+          "pos": [
+            8,
+            485
+          ],
+          "nodes": [
+            {
+              "content": "When you create an automatic approval rule, it only approves future updates, and does not automatically approve previously existing updates that already exist in <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+              "pos": [
+                0,
+                214
+              ]
+            },
+            {
+              "content": "To approve these updates you need to run the automatic approval rule.",
+              "pos": [
+                215,
+                284
+              ]
+            },
+            {
+              "content": "For more information, see <bpt id=\"p1\">[</bpt>To edit, run, or delete an automatically approved update rule<ept id=\"p1\">](../Topic/Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md#BKMK_editrun)</ept> below.",
+              "pos": [
+                285,
+                477
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        10338,
+        10426
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_editrun\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>To edit, run, or delete an automatically approved update rule"
+    },
+    {
+      "pos": [
+        10432,
+        10546
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Admin<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Updates<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        10552,
+        10645
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Automatic Approval Rules<ept id=\"p1\">**</ept> section, select a rule, and then do one of the following:"
+    },
+    {
+      "pos": [
+        10655,
+        10771
+      ],
+      "content": "To edit the rule, click <bpt id=\"p1\">**</bpt>Edit<ept id=\"p1\">**</ept>, and then change the rule’s parameters in the <bpt id=\"p2\">**</bpt>Update Auto Approval Rule Wizard<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        10781,
+        10821
+      ],
+      "content": "To run the rule, click <bpt id=\"p1\">**</bpt>Run Selected<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        10831,
+        10868
+      ],
+      "content": "To delete the rule, click <bpt id=\"p1\">**</bpt>Delete<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        10880,
+        10986
+      ],
+      "content": "[!NOTE]\nDeleting a rule does not affect previous updates that were approved by the deleted rule.",
+      "leadings": [
+        "",
+        "        > "
+      ],
+      "nodes": [
+        {
+          "content": "Deleting a rule does not affect previous updates that were approved by the deleted rule.",
+          "pos": [
+            8,
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Updating software not made by Microsoft",
+      "pos": [
+        10991,
+        11030
+      ]
+    },
+    {
+      "content": "You can deploy updates for software that is not made by Microsoft.",
+      "pos": [
+        11031,
+        11097
+      ]
+    },
+    {
+      "content": "You do this by using the <bpt id=\"p1\">**</bpt>Upload Update<ept id=\"p1\">**</ept> wizard to get the update into your Cloud Storage space, after which you can approve or decline the update just like with Microsoft software.",
+      "pos": [
+        11098,
+        11281
+      ]
+    },
+    {
+      "pos": [
+        11287,
+        11358
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"procstartwiz\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>To upload and configure a third-party update"
+    },
+    {
+      "pos": [
+        11364,
+        11497
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Updates<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Overview<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Upload<ept id=\"p4\">**</ept>."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Update files<ept id=\"p1\">**</ept> page, click <bpt id=\"p2\">**</bpt>Browse<ept id=\"p2\">**</ept> to select the setup files that are required to install the update package.",
+      "pos": [
+        11503,
+        11624
+      ]
+    },
+    {
+      "content": "The file can be a Windows Installer (.msi) file, a Windows Installer patch (.msp) file, or a .exe program file.",
+      "pos": [
+        11625,
+        11736
+      ]
+    },
+    {
+      "content": "You can also include any additional files or folders that are in the same folder as the setup file.",
+      "pos": [
+        11737,
+        11836
+      ]
+    },
+    {
+      "content": "The total size of the selected files to upload is displayed.",
+      "pos": [
+        11842,
+        11902
+      ]
+    },
+    {
+      "content": "Note that this size does not include the uncompressed or expanded sizes of installation files.",
+      "pos": [
+        11903,
+        11997
+      ]
+    },
+    {
+      "content": "After you specify the setup files, the <bpt id=\"p1\">**</bpt>Update description<ept id=\"p1\">**</ept> page displays the name, description, and classification for software information that <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> extracted from the software setup files.",
+      "pos": [
+        12003,
+        12243
+      ]
+    },
+    {
+      "content": "You can select a classification to label the type of update you are deploying (Updates, Critical Updates, Security Updates, Update Rollups or Service Packs).",
+      "pos": [
+        12244,
+        12401
+      ]
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept> when you are done.",
+      "pos": [
+        12402,
+        12435
+      ]
+    },
+    {
+      "pos": [
+        12441,
+        12627
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Requirements<ept id=\"p1\">**</ept> page of the wizard, choose the architecture (32-bit, 64-bit, or both), and the operating systems of the managed computers to which this update will be applicable."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Detection rules<ept id=\"p1\">**</ept> page, specify how <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> determines whether the update already exists on managed computers.",
+      "pos": [
+        12633,
+        12796
+      ]
+    },
+    {
+      "content": "If you use the default option, <bpt id=\"p1\">**</bpt>Use the default detection rules<ept id=\"p1\">**</ept>, <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> always installs the update package on each targeted computer once.",
+      "pos": [
+        12797,
+        12983
+      ]
+    },
+    {
+      "pos": [
+        12991,
+        13270
+      ],
+      "content": "[!NOTE]\nIf the update setup file that you specified is a Windows Installer or .msp file, the **Detection rules** page of the wizard does not appear. This is because Windows Installer and .msp files contain their own instructions for detecting previous update installations.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "If the update setup file that you specified is a Windows Installer or .msp file, the **Detection rules** page of the wizard does not appear. This is because Windows Installer and .msp files contain their own instructions for detecting previous update installations.",
+          "pos": [
+            8,
+            273
+          ],
+          "nodes": [
+            {
+              "content": "If the update setup file that you specified is a Windows Installer or .msp file, the <bpt id=\"p1\">**</bpt>Detection rules<ept id=\"p1\">**</ept> page of the wizard does not appear.",
+              "pos": [
+                0,
+                140
+              ]
+            },
+            {
+              "content": "This is because Windows Installer and .msp files contain their own instructions for detecting previous update installations.",
+              "pos": [
+                141,
+                265
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Select one or more of the following rules to determine whether the update is already installed on managed computers:",
+      "pos": [
+        13276,
+        13392
+      ]
+    },
+    {
+      "content": "File exists",
+      "pos": [
+        13404,
+        13415
+      ]
+    },
+    {
+      "content": "MSI product code exists",
+      "pos": [
+        13429,
+        13452
+      ]
+    },
+    {
+      "content": "Registry key exists",
+      "pos": [
+        13466,
+        13485
+      ]
+    },
+    {
+      "pos": [
+        13493,
+        13679
+      ],
+      "content": "Provide any further information that is required to configure the detection rule such as a file path and name, Windows Installer product code, or a registry key, and then click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Prerequisites<ept id=\"p1\">**</ept> page of the wizard, you specify any software that must already be installed before this update can be installed.",
+      "pos": [
+        13685,
+        13822
+      ]
+    },
+    {
+      "content": "You can specify <bpt id=\"p1\">**</bpt>None<ept id=\"p1\">**</ept>, select a software package that has already been added to, and is managed by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, or you can specify one of the following rules to describe the software:",
+      "pos": [
+        13823,
+        14049
+      ]
+    },
+    {
+      "content": "File exists",
+      "pos": [
+        14061,
+        14072
+      ]
+    },
+    {
+      "content": "MSI product code exists",
+      "pos": [
+        14086,
+        14109
+      ]
+    },
+    {
+      "content": "Registry key exists",
+      "pos": [
+        14123,
+        14142
+      ]
+    },
+    {
+      "pos": [
+        14150,
+        14333
+      ],
+      "content": "Provide any further information that is required to configure the detection rule like a file path and name, Windows Installer product code, or a registry key, and then click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Command line arguments<ept id=\"p1\">**</ept> page of the wizard, you can add any required installation properties to the installation command line to modify the behavior of the setup file.",
+      "pos": [
+        14338,
+        14515
+      ]
+    },
+    {
+      "content": "For example, some software supports the <bpt id=\"p1\">**</bpt>/q<ept id=\"p1\">**</ept> property to enable silent installation.",
+      "pos": [
+        14516,
+        14602
+      ]
+    },
+    {
+      "content": "Refer to the documentation for your software package to learn about any supported command line arguments.",
+      "pos": [
+        14603,
+        14708
+      ]
+    },
+    {
+      "content": "Specify any command line arguments you need and then click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept>.",
+      "pos": [
+        14709,
+        14777
+      ]
+    },
+    {
+      "pos": [
+        14785,
+        14942
+      ],
+      "content": "[!NOTE]\nIf the update does not support silent installation, you cannot install the update by using [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "If the update does not support silent installation, you cannot install the update by using <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+          "pos": [
+            8,
+            151
+          ]
+        }
+      ]
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Return codes<ept id=\"p1\">**</ept> page of the wizard, you can specify how return codes from the update installation are interpreted.",
+      "pos": [
+        14948,
+        15070
+      ]
+    },
+    {
+      "content": "By default, <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> uses industry-standard return codes to report a failed or successful installation of an update package.",
+      "pos": [
+        15071,
+        15238
+      ]
+    },
+    {
+      "content": "The supplied return codes are:",
+      "pos": [
+        15239,
+        15269
+      ]
+    },
+    {
+      "content": "Return code",
+      "pos": [
+        15276,
+        15287
+      ]
+    },
+    {
+      "content": "Interpretation",
+      "pos": [
+        15288,
+        15302
+      ]
+    },
+    {
+      "content": "0",
+      "pos": [
+        15352,
+        15353
+      ]
+    },
+    {
+      "content": "Success",
+      "pos": [
+        15356,
+        15363
+      ]
+    },
+    {
+      "content": "3010",
+      "pos": [
+        15372,
+        15376
+      ]
+    },
+    {
+      "content": "Success with restart",
+      "pos": [
+        15379,
+        15399
+      ]
+    },
+    {
+      "content": "Any return code that is not listed is considered a failure.",
+      "pos": [
+        15405,
+        15464
+      ]
+    },
+    {
+      "content": "Some updates use nonstandard interpretations for return codes.",
+      "pos": [
+        15470,
+        15532
+      ]
+    },
+    {
+      "content": "In this case, you can specify your own return code interpretations.",
+      "pos": [
+        15533,
+        15600
+      ]
+    },
+    {
+      "pos": [
+        15606,
+        15672
+      ],
+      "content": "Specify or edit the required return codes and then click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        15678,
+        15805
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Summary<ept id=\"p1\">**</ept> page of the wizard, review the actions that will be taken, and then click <bpt id=\"p2\">**</bpt>Upload<ept id=\"p2\">**</ept> to complete the wizard."
+    },
+    {
+      "content": "The uploaded update is stored in the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> Cloud Storage that you purchased.",
+      "pos": [
+        15807,
+        15929
+      ]
+    },
+    {
+      "content": "If you have insufficient free space to upload the update package, you are notified of this during the upload process.",
+      "pos": [
+        15930,
+        16047
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> cannot determine sufficient free space until after the update upload has started, because compressed setup and installation files require more space when they are uncompressed.",
+      "pos": [
+        16048,
+        16276
+      ]
+    },
+    {
+      "content": "After it is uploaded into <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>, a third-party update is displayed in the <bpt id=\"p1\">**</bpt>Updates<ept id=\"p1\">**</ept> workspace in the <bpt id=\"p2\">**</bpt>All Updates<ept id=\"p2\">**</ept> pane.",
+      "pos": [
+        16278,
+        16448
+      ]
+    },
+    {
+      "content": "You can then approve and deploy the update.",
+      "pos": [
+        16449,
+        16492
+      ]
+    },
+    {
+      "content": "For more information, see the <bpt id=\"p1\">[</bpt>Approving and declining updates<ept id=\"p1\">](../Topic/Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md#BKMK_Approve1)</ept> section in this topic.",
+      "pos": [
+        16493,
+        16676
+      ]
+    },
+    {
+      "pos": [
+        16681,
+        16740
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_Approve1\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Approving and declining updates"
+    },
+    {
+      "content": "When updates are ready to install, a message is shown on the <bpt id=\"p1\">**</bpt>Updates Overview<ept id=\"p1\">**</ept> page of the <bpt id=\"p2\">**</bpt>Updates<ept id=\"p2\">**</ept> workspace, under <bpt id=\"p3\">**</bpt>Update Status<ept id=\"p3\">**</ept>.",
+      "pos": [
+        16741,
+        16882
+      ]
+    },
+    {
+      "content": "Click this message to open the <bpt id=\"p1\">**</bpt>All Updates<ept id=\"p1\">**</ept> page to see which updates are ready for approval.",
+      "pos": [
+        16883,
+        16979
+      ]
+    },
+    {
+      "content": "You can use the <bpt id=\"p1\">**</bpt>Filters<ept id=\"p1\">**</ept> list to make it easier to find updates.",
+      "pos": [
+        16981,
+        17048
+      ]
+    },
+    {
+      "content": "For example, you can display only updates that failed, or updates that are superseded.",
+      "pos": [
+        17049,
+        17135
+      ]
+    },
+    {
+      "content": "When you select an update from the list, further commands are available that let you manage updates as shown in the following table:",
+      "pos": [
+        17137,
+        17269
+      ]
+    },
+    {
+      "content": "Task",
+      "pos": [
+        17272,
+        17276
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        17277,
+        17293
+      ]
+    },
+    {
+      "content": "View Properties",
+      "pos": [
+        17330,
+        17345
+      ]
+    },
+    {
+      "content": "Displays detailed information about the update including the number of computers to which it is applicable.",
+      "pos": [
+        17348,
+        17455
+      ]
+    },
+    {
+      "content": "Edit",
+      "pos": [
+        17460,
+        17464
+      ]
+    },
+    {
+      "content": "For non-Microsoft updates only.",
+      "pos": [
+        17467,
+        17498
+      ]
+    },
+    {
+      "content": "Allows you to edit the properties of the update.",
+      "pos": [
+        17499,
+        17547
+      ]
+    },
+    {
+      "content": "Approve",
+      "pos": [
+        17552,
+        17559
+      ]
+    },
+    {
+      "content": "Approves the selected update and allows you to configure which groups is will be deployed to.",
+      "pos": [
+        17562,
+        17655
+      ]
+    },
+    {
+      "content": "For more information, see the procedure <bpt id=\"p1\">[</bpt>To approve updates<ept id=\"p1\">](../Topic/Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md#BKMK_Approve)</ept> in this topic.",
+      "pos": [
+        17656,
+        17827
+      ]
+    },
+    {
+      "content": "Decline",
+      "pos": [
+        17832,
+        17839
+      ]
+    },
+    {
+      "content": "Removes any previous approvals for the update and hides the update from the default views.",
+      "pos": [
+        17842,
+        17932
+      ]
+    },
+    {
+      "content": "Additionally, any report data for the update will be removed.",
+      "pos": [
+        17933,
+        17994
+      ]
+    },
+    {
+      "content": "If you later want to locate a declined update, set the filter on the <bpt id=\"p1\">**</bpt>All Updates<ept id=\"p1\">**</ept> page to <bpt id=\"p2\">**</bpt>Declined<ept id=\"p2\">**</ept>.",
+      "pos": [
+        18006,
+        18112
+      ]
+    },
+    {
+      "content": "You can then approve this update as required.",
+      "pos": [
+        18113,
+        18158
+      ]
+    },
+    {
+      "content": "If an update was declined because the update was expired in Microsoft Update, that update cannot be approved in the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph>.",
+      "pos": [
+        18170,
+        18348
+      ]
+    },
+    {
+      "content": "If you delete an updates policy that is deployed to computers, the values of those updates policy settings are reset to the default state for the operating system that is installed on the computers.",
+      "pos": [
+        18360,
+        18558
+      ]
+    },
+    {
+      "content": "Delete",
+      "pos": [
+        18563,
+        18569
+      ]
+    },
+    {
+      "content": "For non-Microsoft updates only.",
+      "pos": [
+        18572,
+        18603
+      ]
+    },
+    {
+      "content": "Deletes the selected update.",
+      "pos": [
+        18604,
+        18632
+      ]
+    },
+    {
+      "content": "Upload",
+      "pos": [
+        18637,
+        18643
+      ]
+    },
+    {
+      "pos": [
+        18646,
+        18754
+      ],
+      "content": "Starts the <bpt id=\"p1\">**</bpt>Upload Update<ept id=\"p1\">**</ept> wizard that allows you to upload non-Microsoft updates that you want to deploy."
+    },
+    {
+      "pos": [
+        18761,
+        18806
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_Approve\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>To approve updates"
+    },
+    {
+      "pos": [
+        18812,
+        18961
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Updates<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Overview<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>New updates to approve<ept id=\"p4\">**</ept>."
+    },
+    {
+      "pos": [
+        18967,
+        19048
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Updates<ept id=\"p1\">**</ept> workspace, click <bpt id=\"p2\">**</bpt>Overview<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>New updates to approve<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        19056,
+        19230
+      ],
+      "content": "[!NOTE]\nThe **New updates to approve** link appears in the **Updates Status** area only when there is at least one managed computer that needs an update to be approved.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "The <bpt id=\"p1\">**</bpt>New updates to approve<ept id=\"p1\">**</ept> link appears in the <bpt id=\"p2\">**</bpt>Updates Status<ept id=\"p2\">**</ept> area only when there is at least one managed computer that needs an update to be approved.",
+          "pos": [
+            8,
+            168
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Select an update, review the update properties at the bottom of the page to ensure that you want to approve the update, and then click <bpt id=\"p1\">**</bpt>Approve<ept id=\"p1\">**</ept>.",
+      "pos": [
+        19236,
+        19383
+      ]
+    },
+    {
+      "content": "You can select multiple updates by holding down the <bpt id=\"p1\">**</bpt>CTRL<ept id=\"p1\">**</ept> key as you select each item.",
+      "pos": [
+        19384,
+        19473
+      ]
+    },
+    {
+      "content": "On the <bpt id=\"p1\">**</bpt>Select Groups<ept id=\"p1\">**</ept> page, select a group that you want to deploy the updates to, and then click <bpt id=\"p2\">**</bpt>Add<ept id=\"p2\">**</ept>.",
+      "pos": [
+        19479,
+        19588
+      ]
+    },
+    {
+      "content": "When you have finished specifying groups, click <bpt id=\"p1\">**</bpt>Next<ept id=\"p1\">**</ept>.",
+      "pos": [
+        19589,
+        19646
+      ]
+    },
+    {
+      "pos": [
+        19652,
+        19731
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Deployment Action<ept id=\"p1\">**</ept> page, do the following for each group in the list:"
+    },
+    {
+      "pos": [
+        19741,
+        19795
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Approval<ept id=\"p1\">**</ept> list, select one of the following:"
+    },
+    {
+      "pos": [
+        19809,
+        19888
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Required Install<ept id=\"p1\">**</ept> - Installs the update on computers in the specified group."
+    },
+    {
+      "pos": [
+        19902,
+        19982
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Do Not Install<ept id=\"p1\">**</ept> - Reports applicability only and does not install the update."
+    },
+    {
+      "pos": [
+        19996,
+        20091
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Available Install<ept id=\"p1\">**</ept> – The user can install the application on demand from the Company Portal."
+    },
+    {
+      "pos": [
+        20105,
+        20174
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Uninstall<ept id=\"p1\">**</ept> - Removes updates from computers in the targeted group."
+    },
+    {
+      "pos": [
+        20190,
+        20323
+      ],
+      "content": "[!IMPORTANT]\nThe update is removed even if it was not installed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].",
+      "leadings": [
+        "",
+        "            > "
+      ],
+      "nodes": [
+        {
+          "content": "The update is removed even if it was not installed by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph>.",
+          "pos": [
+            13,
+            119
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        20333,
+        20387
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Deadline<ept id=\"p1\">**</ept> list, select one of the following:"
+    },
+    {
+      "pos": [
+        20401,
+        20531
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>None<ept id=\"p1\">**</ept> - Indicates that no deadline is enforced for the installation of the update and users may decline the update continually."
+    },
+    {
+      "pos": [
+        20545,
+        20637
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>As soon as possible<ept id=\"p1\">**</ept> - Installs the update at the next opportunity on targeted computers."
+    },
+    {
+      "pos": [
+        20651,
+        20728
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Custom<ept id=\"p1\">**</ept> - Specifies the date and time that approved updates are installed."
+    },
+    {
+      "pos": [
+        20742,
+        20840
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>One week<ept id=\"p1\">**</ept>, <bpt id=\"p2\">**</bpt>Two weeks<ept id=\"p2\">**</ept>, <bpt id=\"p3\">**</bpt>One month<ept id=\"p3\">**</ept> – Installs the update within the specified time period."
+    },
+    {
+      "pos": [
+        20846,
+        20960
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Finish<ept id=\"p1\">**</ept> to save the settings, or click <bpt id=\"p2\">**</bpt>Cancel<ept id=\"p2\">**</ept> to discard the settings and return to the updates list."
+    },
+    {
+      "pos": [
+        20968,
+        21182
+      ],
+      "content": "[!IMPORTANT]\nUnless the action **Do Not Install**, **Required Install**, or **Uninstall** was explicitly configured for a child group, an action configured for a parent group is inherited by all its children.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "Unless the action <bpt id=\"p1\">**</bpt>Do Not Install<ept id=\"p1\">**</ept>, <bpt id=\"p2\">**</bpt>Required Install<ept id=\"p2\">**</ept>, or <bpt id=\"p3\">**</bpt>Uninstall<ept id=\"p3\">**</ept> was explicitly configured for a child group, an action configured for a parent group is inherited by all its children.",
+          "pos": [
+            13,
+            208
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        21188,
+        21300
+      ],
+      "content": "You can check the details pane at the bottom of the <bpt id=\"p1\">**</bpt>All Updates<ept id=\"p1\">**</ept> page for reminder messages about the update."
+    },
+    {
+      "content": "Need more help?",
+      "pos": [
+        21305,
+        21320
+      ]
+    },
+    {
+      "pos": [
+        21321,
+        21476
+      ],
+      "content": "For further help and support, see <bpt id=\"p1\">[</bpt>Troubleshoot Endpoint Protection in Microsoft Intune<ept id=\"p1\">](../Topic/Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        21481,
+        21489
+      ]
+    },
+    {
+      "content": "Manage Windows PCs with Microsoft Intune",
+      "pos": [
+        21491,
+        21531
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - Keep Windows PCs up to date with software updates in Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: bf9cd754-4381-4fef-afc1-bdc7b9935b4d\n---\n# MD Conversion - Keep Windows PCs up to date with software updates in Microsoft Intune\n[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] can help you to secure your managed computers in a number of ways, including the management of software updates that keep your computers up to date by ensuring the latest patches and software updates are quickly installed.\n\nIf you have not yet installed the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] client on your computers, see [Install the Windows PC client with Microsoft Intune](../Topic/Install-the-Windows-PC-client-with-Microsoft-Intune.md).\n\nWhen new updates are available from Microsoft Update, or you have created a third-party update, and they are applicable to your managed computers, a notification is displayed on the **Overview** page of the **Updates** workspace. After you click this notification link, you can then perform various operations like viewing more information about the update, approving or declining the update, and viewing the computers that will install the update if it is approved.\n\n> [!IMPORTANT]\n> The **Updates** workspace is not displayed in the administrator console until you have installed the client on, and are successfully managing at least one computer client.\n\nAs updates are approved and installed, you can examine the success or failure of the installation in the **Updates** workspace of the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] console.\n\nThe following sections will help you to keep software up to date on your managed computers.\n\n## Before you start\nBefore you begin to create and approve software updates, configure and deploy polices to your computers that control when and how the updates are installed.\n\n#### To configure update policy settings\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com/), click **Policy** &gt; **Overview** &gt; **Add Policy**.\n\n2.  Configure and deploy a **Microsoft Intune Agent Settings** policy for the update settings. You can use recommended settings or customize the settings. If you need more information about how to create and deploy policies, see the [Common Windows PC management tasks with the Microsoft Intune computer client](../Topic/Common-Windows-PC-management-tasks-with-the-Microsoft-Intune-computer-client.md) topic.\n\n    The following table shows the values you can configure in the policy and also the recommended values that will be used if you don’t customize the policy. You can find these settings in the **Updates** section.\n\n    |Policy setting|More information|\n    |------------------|--------------------|\n    |**Update and application detection frequency (hours)**|Specifies how frequently (from 8-22 hours) [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] checks for new updates and applications.<br /><br />Recommended value: **8** hours.|\n    |**Automated or prompted installation of updates and applications**|Specifies whether updates are installed automatically or whether the user is prompted before installation. Additionally, this setting lets you schedule the installation of updates and applications.<br /><br />**Install updates and applications automatically as scheduled**  installs updates and applications using the specified schedule.<br /><br />As a dependent policy setting, **Use Automatic Maintenance for Windows computers**  specifies that updates and applications are installed during the Windows Automatic maintenance window.<br /><br />**Prompt user for installation** prompts the user to install updates when they are ready.<br /><br />Recommended values:<br /><br />**Install updates and applications automatically as scheduled** selected<br /><br />**Day scheduled: Every day**<br /><br />**Time scheduled: 3:00 AM**<br /><br />**Use Automatic Maintenance for Windows computers** selected|\n    |**Allow immediate installation of updates that do not interrupt Windows**|**Allow** installs updates immediately after they are downloaded, except for updates that would interrupt or restart Windows. Those updates are installed according to the configuration of the **Automated or prompted installation of updates** setting.<br /><br />**Do not allow** installs updates according to the configuration of the **Automated or prompted installation of updates** setting.<br /><br />Recommended value: **Allow**|\n    |**Delay to restart Windows after installation of scheduled updates and applications (minutes)**|Specifies (from 1-30 minutes), the time to wait to restart Windows after the installation of scheduled updates and applications.<br /><br />Recommended value: **15 minutes**|\n    |**Delay following Windows restart to begin installing missed scheduled updates and applications (minutes)**|Specifies (from 1-60 minutes), how long to wait to start the installation of updates and applications after Windows is restarted when a scheduled update was missed.<br /><br />Recommended value: **5 minutes**|\n    |**Allow logged-on user to control Windows restart after installation of scheduled updates and applications**|Specifies whether the logged-on user can delay restarting Windows (if set to **Yes**), or be notified of the automatic Windows restart (if set to **No**). If no user is logged on when the scheduled installation of updates and applications is completed, Windows is restarted automatically when required. When set to **No**, by default, the time before Windows restarts is set to 5 minutes.<br /><br />Recommended value: **Yes**|\n    |**Prompt user to restart Windows during [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] client agent mandatory updates**|Specifies whether the logged on users is prompted to restart Windows when a [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] client mandatory update requires Windows to restart.<br /><br />Recommended value: **Yes**|\n    |**Microsoft Intune client agent mandatory updates installation schedule**|Schedules when the installation of client updates occur.<br /><br />Recommended value: not configured|\n    |**Delay between prompts to restart Windows after installation of scheduled updates and applications (minutes)**|Specifies how frequently (from 1-1440 minutes) the user is prompted to restart Windows when a scheduled update or application that requires restarting Windows is installed, and the user delays the restart.<br /><br />Recommended value: **30 minutes**|\n\n## Updating software made by Microsoft\nUpdating Microsoft software requires very little work from you. However, before you start, there are two things you should configure:\n\n-   **Product categories and update classifications** – Defines the categories and classifications of the updates you want to make available to computers. For example, you might decide that you only want critical updates for Microsoft Office to be installed.\n\n-   **Automatic approval rules** – These rules automatically approve specified types of update and reduce your administrative overhead. For example, you might want to automatically approve all critical software updates.\n\nUse the following two procedures to help you get ready to use software updates:\n\n#### Configure the product categories and update classifications you want to make available to managed computers\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com/), click **Admin** &gt; **Updates**.\n\n2.  On the **Service Settings: Updates** page, in the **Product Category** list, select the update categories that you want to make available to computers. Note that the most common updates are selected by default.\n\n    > [!IMPORTANT]\n    > To ensure that computers receive the updates that have been approved by the admin, the Windows Server Update Services (WSUS) Group Policy setting, **Specify Intranet Microsoft update service location** must not be applied to computers that have been enrolled with [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)].\n\n3.  In the **Update Classification** list, select the classes of update that you want to make available to managed computers. Again, the most common options are selected by default.\n\n4.  Click **Save** to store your selections.\n\n#### To configure automatic approval rules for software updates\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com/), click **Admin** &gt; **Updates**.\n\n2.  In the **Automatic Approval Rules** section of the **Server Settings: Updates** page, click **New**.\n\n3.  On the **General** page of the Create Automatic Approval Rule Wizard, specify a name and optional description for the rule.\n\n4.  On the **Product Categories** page, select any products for which you want to have updates approved automatically.\n\n5.  On the **Update Classifications** page, specify the update classifications that you want to have approved automatically.\n\n6.  On the **Deployment** page, do the following:\n\n    -   Select the computer groups to which you want to deploy the new rule, and then click **Add**.\n\n    -   To specify an installation deadline for the updates, select the **Enforce an installation deadline for these updates** check box, and then on the **Installation deadline** list, select the installation deadline.\n\n        > [!NOTE]\n        > If you specify an installation deadline, the managed computer might require one or more restarts after the deadline interval has passed.\n\n    -   When you are finished, click **Next**.\n\n7.  On the **Summary** page, review the settings for the new rule, and then click **Finish**.\n\nThe new rule is shown in the **Automatic Approval Rules** section of the **Service Settings: Updates** page.\n\n> [!NOTE]\n> When you create an automatic approval rule, it only approves future updates, and does not automatically approve previously existing updates that already exist in [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]. To approve these updates you need to run the automatic approval rule. For more information, see [To edit, run, or delete an automatically approved update rule](../Topic/Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md#BKMK_editrun) below.\n\n### <a name=\"BKMK_editrun\"></a>To edit, run, or delete an automatically approved update rule\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com/), click **Admin** &gt; **Updates**.\n\n2.  In the **Automatic Approval Rules** section, select a rule, and then do one of the following:\n\n    -   To edit the rule, click **Edit**, and then change the rule’s parameters in the **Update Auto Approval Rule Wizard**.\n\n    -   To run the rule, click **Run Selected**.\n\n    -   To delete the rule, click **Delete**.\n\n        > [!NOTE]\n        > Deleting a rule does not affect previous updates that were approved by the deleted rule.\n\n## Updating software not made by Microsoft\nYou can deploy updates for software that is not made by Microsoft. You do this by using the **Upload Update** wizard to get the update into your Cloud Storage space, after which you can approve or decline the update just like with Microsoft software.\n\n### <a name=\"procstartwiz\"></a>To upload and configure a third-party update\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com/), click **Updates** &gt; **Overview** &gt; **Upload**.\n\n2.  On the **Update files** page, click **Browse** to select the setup files that are required to install the update package. The file can be a Windows Installer (.msi) file, a Windows Installer patch (.msp) file, or a .exe program file. You can also include any additional files or folders that are in the same folder as the setup file.\n\n    The total size of the selected files to upload is displayed. Note that this size does not include the uncompressed or expanded sizes of installation files.\n\n3.  After you specify the setup files, the **Update description** page displays the name, description, and classification for software information that [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] extracted from the software setup files. You can select a classification to label the type of update you are deploying (Updates, Critical Updates, Security Updates, Update Rollups or Service Packs). Click **Next** when you are done.\n\n4.  On the **Requirements** page of the wizard, choose the architecture (32-bit, 64-bit, or both), and the operating systems of the managed computers to which this update will be applicable.\n\n5.  On the **Detection rules** page, specify how [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] determines whether the update already exists on managed computers. If you use the default option, **Use the default detection rules**, [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] always installs the update package on each targeted computer once.\n\n    > [!NOTE]\n    > If the update setup file that you specified is a Windows Installer or .msp file, the **Detection rules** page of the wizard does not appear. This is because Windows Installer and .msp files contain their own instructions for detecting previous update installations.\n\n    Select one or more of the following rules to determine whether the update is already installed on managed computers:\n\n    -   **File exists**\n\n    -   **MSI product code exists**\n\n    -   **Registry key exists**\n\n6.  Provide any further information that is required to configure the detection rule such as a file path and name, Windows Installer product code, or a registry key, and then click **Next**.\n\n7.  On the **Prerequisites** page of the wizard, you specify any software that must already be installed before this update can be installed. You can specify **None**, select a software package that has already been added to, and is managed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], or you can specify one of the following rules to describe the software:\n\n    -   **File exists**\n\n    -   **MSI product code exists**\n\n    -   **Registry key exists**\n\n8.  Provide any further information that is required to configure the detection rule like a file path and name, Windows Installer product code, or a registry key, and then click **Next**.\n\n9. On the **Command line arguments** page of the wizard, you can add any required installation properties to the installation command line to modify the behavior of the setup file. For example, some software supports the **/q** property to enable silent installation. Refer to the documentation for your software package to learn about any supported command line arguments. Specify any command line arguments you need and then click **Next**.\n\n    > [!NOTE]\n    > If the update does not support silent installation, you cannot install the update by using [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n10. On the **Return codes** page of the wizard, you can specify how return codes from the update installation are interpreted. By default, [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] uses industry-standard return codes to report a failed or successful installation of an update package. The supplied return codes are:\n\n    |Return code|Interpretation|\n    |---------------|------------------|\n    |**0**|Success|\n    |**3010**|Success with restart|\n    Any return code that is not listed is considered a failure.\n\n    Some updates use nonstandard interpretations for return codes. In this case, you can specify your own return code interpretations.\n\n    Specify or edit the required return codes and then click **Next**.\n\n11. On the **Summary** page of the wizard, review the actions that will be taken, and then click **Upload** to complete the wizard.\n\nThe uploaded update is stored in the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] Cloud Storage that you purchased. If you have insufficient free space to upload the update package, you are notified of this during the upload process. [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] cannot determine sufficient free space until after the update upload has started, because compressed setup and installation files require more space when they are uncompressed.\n\nAfter it is uploaded into [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)], a third-party update is displayed in the **Updates** workspace in the **All Updates** pane. You can then approve and deploy the update. For more information, see the [Approving and declining updates](../Topic/Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md#BKMK_Approve1) section in this topic.\n\n## <a name=\"BKMK_Approve1\"></a>Approving and declining updates\nWhen updates are ready to install, a message is shown on the **Updates Overview** page of the **Updates** workspace, under **Update Status**. Click this message to open the **All Updates** page to see which updates are ready for approval.\n\nYou can use the **Filters** list to make it easier to find updates. For example, you can display only updates that failed, or updates that are superseded.\n\nWhen you select an update from the list, further commands are available that let you manage updates as shown in the following table:\n\n|Task|More information|\n|--------|--------------------|\n|**View Properties**|Displays detailed information about the update including the number of computers to which it is applicable.|\n|**Edit**|For non-Microsoft updates only. Allows you to edit the properties of the update.|\n|**Approve**|Approves the selected update and allows you to configure which groups is will be deployed to. For more information, see the procedure [To approve updates](../Topic/Keep-Windows-PCs-up-to-date-with-software-updates-in-Microsoft-Intune.md#BKMK_Approve) in this topic.|\n|**Decline**|Removes any previous approvals for the update and hides the update from the default views. Additionally, any report data for the update will be removed.<br /><br />If you later want to locate a declined update, set the filter on the **All Updates** page to **Declined**. You can then approve this update as required.<br /><br />If an update was declined because the update was expired in Microsoft Update, that update cannot be approved in the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)].<br /><br />If you delete an updates policy that is deployed to computers, the values of those updates policy settings are reset to the default state for the operating system that is installed on the computers.|\n|**Delete**|For non-Microsoft updates only. Deletes the selected update.|\n|**Upload**|Starts the **Upload Update** wizard that allows you to upload non-Microsoft updates that you want to deploy.|\n\n### <a name=\"BKMK_Approve\"></a>To approve updates\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com/), click **Updates** &gt; **Overview** &gt; **New updates to approve**.\n\n    In the **Updates** workspace, click **Overview** &gt; **New updates to approve**.\n\n    > [!NOTE]\n    > The **New updates to approve** link appears in the **Updates Status** area only when there is at least one managed computer that needs an update to be approved.\n\n2.  Select an update, review the update properties at the bottom of the page to ensure that you want to approve the update, and then click **Approve**. You can select multiple updates by holding down the **CTRL** key as you select each item.\n\n3.  On the **Select Groups** page, select a group that you want to deploy the updates to, and then click **Add**. When you have finished specifying groups, click **Next**.\n\n4.  On the **Deployment Action** page, do the following for each group in the list:\n\n    -   On the **Approval** list, select one of the following:\n\n        -   **Required Install** - Installs the update on computers in the specified group.\n\n        -   **Do Not Install** - Reports applicability only and does not install the update.\n\n        -   **Available Install** – The user can install the application on demand from the Company Portal.\n\n        -   **Uninstall** - Removes updates from computers in the targeted group.\n\n            > [!IMPORTANT]\n            > The update is removed even if it was not installed by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)].\n\n    -   On the **Deadline** list, select one of the following:\n\n        -   **None** - Indicates that no deadline is enforced for the installation of the update and users may decline the update continually.\n\n        -   **As soon as possible** - Installs the update at the next opportunity on targeted computers.\n\n        -   **Custom** - Specifies the date and time that approved updates are installed.\n\n        -   **One week**, **Two weeks**, **One month** – Installs the update within the specified time period.\n\n5.  Click **Finish** to save the settings, or click **Cancel** to discard the settings and return to the updates list.\n\n    > [!IMPORTANT]\n    > Unless the action **Do Not Install**, **Required Install**, or **Uninstall** was explicitly configured for a child group, an action configured for a parent group is inherited by all its children.\n\n6.  You can check the details pane at the bottom of the **All Updates** page for reminder messages about the update.\n\n## Need more help?\nFor further help and support, see [Troubleshoot Endpoint Protection in Microsoft Intune](../Topic/Troubleshoot-Endpoint-Protection-in-Microsoft-Intune.md).\n\n## See Also\n[Manage Windows PCs with Microsoft Intune](../Topic/Manage-Windows-PCs-with-Microsoft-Intune.md)\n\n"
+}

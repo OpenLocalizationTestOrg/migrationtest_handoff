@@ -1,0 +1,2749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">c52410ab14f52f38538bd444e9274a388af2ac07</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>MD Using your Windows device with Intune</source>
+          <target>MD Using your Windows device with Intune</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>MD Using your Windows device with Intune</source>
+          <target>MD Using your Windows device with Intune</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>Use these steps  for tasks that you need to do on your Windows device or computer when your company is using Microsoft Intune:</source>
+          <target>Use these steps  for tasks that you need to do on your Windows device or computer when your company is using Microsoft Intune:</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Task category</source>
+          <target>Task category</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Tasks you can do</source>
+          <target>Tasks you can do</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Company Portal app installation and Intune enrollment</source>
+          <target>Company Portal app installation and Intune enrollment</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Enroll your Windows device in Intune</source>
+          <target>Enroll your Windows device in Intune</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>What happens when I install the Company Portal app and enroll my device in Intune?</source>
+          <target>What happens when I install the Company Portal app and enroll my device in Intune?</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>What can my IT admin see when I enroll my device in Intune?</source>
+          <target>What can my IT admin see when I enroll my device in Intune?</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Things you can do when your device is enrolled in Intune</source>
+          <target>Things you can do when your device is enrolled in Intune</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>What is the Company Portal website?</source>
+          <target>What is the Company Portal website?</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>Encrypt your device</source>
+          <target>Encrypt your device</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <segment state="initial">
+          <source>Reset (erase) your lost or stolen device</source>
+          <target>Reset (erase) your lost or stolen device</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <segment state="initial">
+          <source>What happens if I reset my Windows device using the Company Portal?</source>
+          <target>What happens if I reset my Windows device using the Company Portal?</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <segment state="initial">
+          <source>Unenroll your device from Intune</source>
+          <target>Unenroll your device from Intune</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>What happens when I remove my device from the Company Portal?</source>
+          <target>What happens when I remove my device from the Company Portal?</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <segment state="initial">
+          <source>Turn off Microsoft usage data collection</source>
+          <target>Turn off Microsoft usage data collection</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <segment state="initial">
+          <source>Fix Intune issues with your device</source>
+          <target>Fix Intune issues with your device</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Device doesn't have the required minimum operating system version</source>
+          <target>Device doesn't have the required minimum operating system version</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <segment state="initial">
+          <source>Device doesn't comply with the maximum operating system version</source>
+          <target>Device doesn't comply with the maximum operating system version</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_windows_enroll_instrucs"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Enroll your Windows device in Intune</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Enroll your Windows device in Intune</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <segment state="initial">
+          <source>To enroll, use the link that corresponds to the device you are using:</source>
+          <target>To enroll, use the link that corresponds to the device you are using:</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Windows 10</source>
+          <target>Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <segment state="initial">
+          <source>Windows 8.1 or Windows RT 8.1</source>
+          <target>Windows 8.1 or Windows RT 8.1</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <segment state="initial">
+          <source>Windows RT</source>
+          <target>Windows RT</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <segment state="initial">
+          <source>Windows Phone 8.1</source>
+          <target>Windows Phone 8.1</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <segment state="initial">
+          <source>Windows Phone 8</source>
+          <target>Windows Phone 8</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_enrollment_w10"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows 10</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows 10</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>To enroll your device:</source>
+          <target>To enroll your device:</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Go to Windows  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> and tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Accounts</pc>.</source>
+          <target>Go to Windows  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> and tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Accounts</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Your account</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Your account</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add a work or school account</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add a work or school account</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <segment state="initial">
+          <source>Sign in with your work or school credentials.</source>
+          <target>Sign in with your work or school credentials.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you followed the steps above, but still can't access your work or school email, files, and other data, go back to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Accounts</pc> and tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Work access</pc>.</source>
+          <target>If you followed the steps above, but still can't access your work or school email, files, and other data, go back to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Accounts</pc> and tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Work access</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>If you see your work or school account, congratulations.</source>
+          <target>If you see your work or school account, congratulations.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <segment state="initial">
+          <source>You’re connected.</source>
+          <target>You’re connected.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you don’t see your work or school account, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connect</pc>, and then sign in with your work or school credentials.</source>
+          <target>If you don’t see your work or school account, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Connect</pc>, and then sign in with your work or school credentials.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <segment state="initial">
+          <source>We also recommend that you install the Company Portal app, which lets you easily identify and get the company apps that are relevant to you and your role.</source>
+          <target>We also recommend that you install the Company Portal app, which lets you easily identify and get the company apps that are relevant to you and your role.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>Depending on how your company  configured Intune, the Company Portal app may have been installed as part of your enrollment process.</source>
+          <target>Depending on how your company  configured Intune, the Company Portal app may have been installed as part of your enrollment process.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To check if you have the app, look for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc> in your apps list.</source>
+          <target>To check if you have the app, look for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc> in your apps list.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <segment state="initial">
+          <source>If you don't see the Company Portal in your list of apps, follow these steps to install it.</source>
+          <target>If you don't see the Company Portal in your list of apps, follow these steps to install it.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Store</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Store</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Search</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">company portal</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Search</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">company portal</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the list of results, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install</pc>.</source>
+          <target>In the list of results, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap  either <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Free</pc>.</source>
+          <target>Tap  either <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Free</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <segment state="initial">
+          <source>The option shown depends on how your company configured the app.</source>
+          <target>The option shown depends on how your company configured the app.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_enrollment_w81orwrt81"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows 8.1 or Windows RT 8.1</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows 8.1 or Windows RT 8.1</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <segment state="initial">
+          <source>To enroll your device:</source>
+          <target>To enroll your device:</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the device, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PC Settings</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Network</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Workplace</pc>.</source>
+          <target>On the device, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">PC Settings</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Network</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">Workplace</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter your work or school email for the User ID, if required, and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Join</pc>.</source>
+          <target>Enter your work or school email for the User ID, if required, and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Join</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <segment state="initial">
+          <source>If your user ID is not required,  the email address that you entered when you logged into this device is used.</source>
+          <target>If your user ID is not required,  the email address that you entered when you logged into this device is used.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <segment state="initial">
+          <source>Type the password for your work or school email.</source>
+          <target>Type the password for your work or school email.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on device management</pc>, tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Turn on</pc>.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on device management</pc>, tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Turn on</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow apps and services from IT admin</pc> dialog,  select the  <pc dataRefEnd="id4" dataRefStart="id3" id="p2">I agree</pc> check box, and then tap <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Turn on</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Allow apps and services from IT admin</pc> dialog,  select the  <pc dataRefEnd="id4" dataRefStart="id3" id="p2">I agree</pc> check box, and then tap <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Turn on</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <segment state="initial">
+          <source>When you have successfully enrolled, you'll see the following screen.</source>
+          <target>When you have successfully enrolled, you'll see the following screen.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <segment state="initial">
+          <source>We also recommend that you install the Company Portal app, which lets you easily identify and get the company apps that are relevant to you and your role.</source>
+          <target>We also recommend that you install the Company Portal app, which lets you easily identify and get the company apps that are relevant to you and your role.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Depending on how your company  configured Intune, the Company Portal app may have been installed as part of your enrollment process.</source>
+          <target>Depending on how your company  configured Intune, the Company Portal app may have been installed as part of your enrollment process.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To check if you have the app, look for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc> in your apps list.</source>
+          <target>To check if you have the app, look for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc> in your apps list.</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <segment state="initial">
+          <source>If you don't see the Company Portal in your list of apps, follow these steps to install it.</source>
+          <target>If you don't see the Company Portal in your list of apps, follow these steps to install it.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Store</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Store</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Search</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">company portal</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Search</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">company portal</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the list of results, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc>.</source>
+          <target>In the list of results, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap  either <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Free</pc>.</source>
+          <target>Tap  either <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Free</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <segment state="initial">
+          <source>The option shown depends on how your company configured the app.</source>
+          <target>The option shown depends on how your company configured the app.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_enrollment_rt"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows RT</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows RT</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <segment state="initial">
+          <source>To enroll your device:</source>
+          <target>To enroll your device:</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and then type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">System Configuration</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc>, and then type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">System Configuration</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap the dialog box to open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Apps</pc>.</source>
+          <target>Tap the dialog box to open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Apps</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <segment state="initial">
+          <source>You may be asked to accept your company’s Terms and Conditions.</source>
+          <target>You may be asked to accept your company’s Terms and Conditions.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>Sign in using your credentials.</source>
+          <target>Sign in using your credentials.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>We also recommend that you install the Company Portal app, which lets you easily identify and get the company apps that are relevant to you and your role.</source>
+          <target>We also recommend that you install the Company Portal app, which lets you easily identify and get the company apps that are relevant to you and your role.</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <segment state="initial">
+          <source>Depending on how your company  configured Intune, the Company Portal app may have been installed as part of your enrollment process.</source>
+          <target>Depending on how your company  configured Intune, the Company Portal app may have been installed as part of your enrollment process.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To check if you have the app, look for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc> in your apps list.</source>
+          <target>To check if you have the app, look for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc> in your apps list.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <segment state="initial">
+          <source>If you don't see the Company Portal in your list of apps, follow these steps to install it.</source>
+          <target>If you don't see the Company Portal in your list of apps, follow these steps to install it.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Store</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Store</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Search</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">company portal</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Search</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">company portal</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the list of results, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc>.</source>
+          <target>In the list of results, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_enrollment_81"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows Phone 8.1</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows Phone 8.1</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <segment state="initial">
+          <source>To enroll your device in Intune, follow the instructions that apply to your company:</source>
+          <target>To enroll your device in Intune, follow the instructions that apply to your company:</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>If your company lets you use the Company Portal from the Windows Store</source>
+          <target>If your company lets you use the Company Portal from the Windows Store</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>If you aren’t allowed to access the Windows Store from your Windows Phone, or if you don’t have a Microsoft Account</source>
+          <target>If you aren’t allowed to access the Windows Store from your Windows Phone, or if you don’t have a Microsoft Account</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_comp_allows_cp"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />If your company lets you use the Company Portal from the Windows Store</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />If your company lets you use the Company Portal from the Windows Store</target>
+        </segment>
+      </unit>
+      <unit id="184">
+        <segment state="initial">
+          <source>Install the Company Portal app on your device:</source>
+          <target>Install the Company Portal app on your device:</target>
+        </segment>
+      </unit>
+      <unit id="185">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Store</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Store</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="186">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Search</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">company portal</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Search</pc> and type <pc dataRefEnd="id4" dataRefStart="id3" id="p2">company portal</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="187">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the list of results, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc>.</source>
+          <target>In the list of results, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="188">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc>  &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc>  &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Install</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="189">
+        <segment state="initial">
+          <source>Enroll your device:</source>
+          <target>Enroll your device:</target>
+        </segment>
+      </unit>
+      <unit id="190">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the device, open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune Company Portal</pc> app.</source>
+          <target>On the device, open the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune Company Portal</pc> app.</target>
+        </segment>
+      </unit>
+      <unit id="191">
+        <segment state="initial">
+          <source>Provide your credentials.</source>
+          <target>Provide your credentials.</target>
+        </segment>
+      </unit>
+      <unit id="192">
+        <segment state="initial">
+          <source>You may be asked to accept your company’s Terms and Conditions, if applicable.</source>
+          <target>You may be asked to accept your company’s Terms and Conditions, if applicable.</target>
+        </segment>
+      </unit>
+      <unit id="193">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Swipe to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">My Devices</pc>.</source>
+          <target>Swipe to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">My Devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="194">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tap to enroll or identify this device</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Tap to enroll or identify this device</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="195">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll this device</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll this device</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="196">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add account</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add account</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="197">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter additional information as requested and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sign in</pc> to complete the enrollment.</source>
+          <target>Enter additional information as requested and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sign in</pc> to complete the enrollment.</target>
+        </segment>
+      </unit>
+      <unit id="198">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>You should now see your workplace account listed on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Workplace</pc> page.</source>
+          <target>You should now see your workplace account listed on the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Workplace</pc> page.</target>
+        </segment>
+      </unit>
+      <unit id="199">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_comp_doesnt_allow_cp"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />If you aren’t allowed to access the Windows Store from your Windows Phone, or if you don’t have a Microsoft Account</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />If you aren’t allowed to access the Windows Store from your Windows Phone, or if you don’t have a Microsoft Account</target>
+        </segment>
+      </unit>
+      <unit id="200">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">workplace</pc>.</source>
+          <target>Tap  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">workplace</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="201">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">add account</pc>, and then sign in using your work account.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">add account</pc>, and then sign in using your work account.</target>
+        </segment>
+      </unit>
+      <unit id="202">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter additional information as requested, and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sign in</pc> to complete the enrollment.</source>
+          <target>Enter additional information as requested, and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">sign in</pc> to complete the enrollment.</target>
+        </segment>
+      </unit>
+      <unit id="203">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If prompted to install the company app or Hub, make sure the relevant box is checked and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">done</pc>.</source>
+          <target>If prompted to install the company app or Hub, make sure the relevant box is checked and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">done</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="204">
+        <segment state="initial">
+          <source>If your IT admin has configured the Company Portal to be installed  during enrollment, you will see the Company Portal appear in your app list.</source>
+          <target>If your IT admin has configured the Company Portal to be installed  during enrollment, you will see the Company Portal appear in your app list.</target>
+        </segment>
+      </unit>
+      <unit id="205">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_enrollment_wp8"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows Phone 8</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Windows Phone 8</target>
+        </segment>
+      </unit>
+      <unit id="206">
+        <segment state="initial">
+          <source>Enroll your device:</source>
+          <target>Enroll your device:</target>
+        </segment>
+      </unit>
+      <unit id="207">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the device, tap  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">company apps</pc>.</source>
+          <target>On the device, tap  <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">company apps</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="208">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">add account</pc>, and then sign in using your work account.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">add account</pc>, and then sign in using your work account.</target>
+        </segment>
+      </unit>
+      <unit id="209">
+        <segment state="initial">
+          <source>After the account is successfully added, you should be prompted to install the company app or Hub.</source>
+          <target>After the account is successfully added, you should be prompted to install the company app or Hub.</target>
+        </segment>
+      </unit>
+      <unit id="210">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Make sure the relevant box is checked and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">done</pc>.</source>
+          <target>Make sure the relevant box is checked and then tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">done</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="211">
+        <segment state="initial">
+          <source>The Company Portal will appear in your app list after it is installed.</source>
+          <target>The Company Portal will appear in your app list after it is installed.</target>
+        </segment>
+      </unit>
+      <unit id="212">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_what_happns_enroll_all"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens when I install the Company Portal app and enroll my device in Intune?</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens when I install the Company Portal app and enroll my device in Intune?</target>
+        </segment>
+      </unit>
+      <unit id="213">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_what_happens_w10"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens when I install the Company Portal app and enroll my Windows 10 device in Intune?</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens when I install the Company Portal app and enroll my Windows 10 device in Intune?</target>
+        </segment>
+      </unit>
+      <unit id="214">
+        <segment state="initial">
+          <source>When you install the Company Portal app and then use the app to enroll your Windows 10 Enterprise  or Professional device in Intune, you can then use the Company Portal app to:</source>
+          <target>When you install the Company Portal app and then use the app to enroll your Windows 10 Enterprise  or Professional device in Intune, you can then use the Company Portal app to:</target>
+        </segment>
+      </unit>
+      <unit id="215">
+        <segment state="initial">
+          <source>Access the company’s network, and your email and work files</source>
+          <target>Access the company’s network, and your email and work files</target>
+        </segment>
+      </unit>
+      <unit id="216">
+        <segment state="initial">
+          <source>Get company apps from the Company Portal</source>
+          <target>Get company apps from the Company Portal</target>
+        </segment>
+      </unit>
+      <unit id="217">
+        <segment state="initial">
+          <source>Automatically configure your company email account</source>
+          <target>Automatically configure your company email account</target>
+        </segment>
+      </unit>
+      <unit id="218">
+        <segment state="initial">
+          <source>Reset your phone to factory settings if it is lost or stolen</source>
+          <target>Reset your phone to factory settings if it is lost or stolen</target>
+        </segment>
+      </unit>
+      <unit id="219">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_enrollment_w10)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the steps to enroll, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 10</pc>.</source>
+          <target>For the steps to enroll, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 10</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="220">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_win_what_IT_can_see)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about what your IT admin can and can't see on your device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What can my IT admin see when I enroll my device in Intune?</pc></source>
+          <target>For information about what your IT admin can and can't see on your device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What can my IT admin see when I enroll my device in Intune?</pc></target>
+        </segment>
+      </unit>
+      <unit id="221">
+        <segment state="initial">
+          <source>When you add a computer:</source>
+          <target>When you add a computer:</target>
+        </segment>
+      </unit>
+      <unit id="222">
+        <segment state="initial">
+          <source>You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information.</source>
+          <target>You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information.</target>
+        </segment>
+      </unit>
+      <unit id="223">
+        <segment state="initial">
+          <source>This software may be updated automatically by your IT administrator.</source>
+          <target>This software may be updated automatically by your IT administrator.</target>
+        </segment>
+      </unit>
+      <unit id="224">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> Endpoint Protection may be installed on your computer.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> Endpoint Protection may be installed on your computer.</target>
+        </segment>
+      </unit>
+      <unit id="225">
+        <segment state="initial">
+          <source>This is software that checks for viruses and malware.</source>
+          <target>This is software that checks for viruses and malware.</target>
+        </segment>
+      </unit>
+      <unit id="226">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkID=247324)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, please refer to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Endpoint Protection Privacy Statement</pc>.</source>
+          <target>For more information, please refer to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Endpoint Protection Privacy Statement</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="227">
+        <segment state="initial">
+          <source>Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.</source>
+          <target>Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.</target>
+        </segment>
+      </unit>
+      <unit id="228">
+        <segment state="initial">
+          <source>Require you to accept terms and conditions.</source>
+          <target>Require you to accept terms and conditions.</target>
+        </segment>
+      </unit>
+      <unit id="229">
+        <segment state="initial">
+          <source>Your IT administrator can collect or delete data from your computer’s hard drive.</source>
+          <target>Your IT administrator can collect or delete data from your computer’s hard drive.</target>
+        </segment>
+      </unit>
+      <unit id="230">
+        <segment state="initial">
+          <source>Your IT administrator could also delete the entire hard drive.</source>
+          <target>Your IT administrator could also delete the entire hard drive.</target>
+        </segment>
+      </unit>
+      <unit id="231">
+        <segment state="initial">
+          <source>Your IT administrator can install apps and updates on your computer.</source>
+          <target>Your IT administrator can install apps and updates on your computer.</target>
+        </segment>
+      </unit>
+      <unit id="232">
+        <segment state="initial">
+          <source>Your IT administrator may enforce policies on the computer.</source>
+          <target>Your IT administrator may enforce policies on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="233">
+        <segment state="initial">
+          <source>For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.</source>
+          <target>For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.</target>
+        </segment>
+      </unit>
+      <unit id="234">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_what_happens_w81"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens when I install the Company Portal app and enroll my Windows 8.1 or Windows RT device in Intune?</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens when I install the Company Portal app and enroll my Windows 8.1 or Windows RT device in Intune?</target>
+        </segment>
+      </unit>
+      <unit id="235">
+        <segment state="initial">
+          <source>When you install the Company Portal app and then use the app to enroll your Windows 8.1 Enterprise  or Professional or Windows RT device in Intune, you can then use the Company Portal app to:</source>
+          <target>When you install the Company Portal app and then use the app to enroll your Windows 8.1 Enterprise  or Professional or Windows RT device in Intune, you can then use the Company Portal app to:</target>
+        </segment>
+      </unit>
+      <unit id="236">
+        <segment state="initial">
+          <source>Access the company’s network, and your email and work files</source>
+          <target>Access the company’s network, and your email and work files</target>
+        </segment>
+      </unit>
+      <unit id="237">
+        <segment state="initial">
+          <source>Get company apps from the Company Portal</source>
+          <target>Get company apps from the Company Portal</target>
+        </segment>
+      </unit>
+      <unit id="238">
+        <segment state="initial">
+          <source>Automatically configure your company email account</source>
+          <target>Automatically configure your company email account</target>
+        </segment>
+      </unit>
+      <unit id="239">
+        <segment state="initial">
+          <source>Reset your phone to factory settings if it is lost or stolen</source>
+          <target>Reset your phone to factory settings if it is lost or stolen</target>
+        </segment>
+      </unit>
+      <unit id="240">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_enrollment_w81orwrt81)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the steps to enroll, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 8.1 or Windows RT 8.1</pc>.</source>
+          <target>For the steps to enroll, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows 8.1 or Windows RT 8.1</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="241">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_win_what_IT_can_see)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about what your IT admin can and can't see on your device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What can my IT admin see when I enroll my device in Intune?</pc></source>
+          <target>For information about what your IT admin can and can't see on your device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What can my IT admin see when I enroll my device in Intune?</pc></target>
+        </segment>
+      </unit>
+      <unit id="242">
+        <segment state="initial">
+          <source>When you add a computer:</source>
+          <target>When you add a computer:</target>
+        </segment>
+      </unit>
+      <unit id="243">
+        <segment state="initial">
+          <source>You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information.</source>
+          <target>You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information.</target>
+        </segment>
+      </unit>
+      <unit id="244">
+        <segment state="initial">
+          <source>This software may be updated automatically by your IT administrator.</source>
+          <target>This software may be updated automatically by your IT administrator.</target>
+        </segment>
+      </unit>
+      <unit id="245">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> Endpoint Protection may be installed on your computer.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> Endpoint Protection may be installed on your computer.</target>
+        </segment>
+      </unit>
+      <unit id="246">
+        <segment state="initial">
+          <source>This is software that checks for viruses and malware.</source>
+          <target>This is software that checks for viruses and malware.</target>
+        </segment>
+      </unit>
+      <unit id="247">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkID=247324)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, please refer to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Endpoint Protection Privacy Statement</pc>.</source>
+          <target>For more information, please refer to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Endpoint Protection Privacy Statement</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="248">
+        <segment state="initial">
+          <source>Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.</source>
+          <target>Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.</target>
+        </segment>
+      </unit>
+      <unit id="249">
+        <segment state="initial">
+          <source>Require you to accept terms and conditions.</source>
+          <target>Require you to accept terms and conditions.</target>
+        </segment>
+      </unit>
+      <unit id="250">
+        <segment state="initial">
+          <source>Your IT administrator can collect or delete data from your computer’s hard drive.</source>
+          <target>Your IT administrator can collect or delete data from your computer’s hard drive.</target>
+        </segment>
+      </unit>
+      <unit id="251">
+        <segment state="initial">
+          <source>Your IT administrator could also delete the entire hard drive.</source>
+          <target>Your IT administrator could also delete the entire hard drive.</target>
+        </segment>
+      </unit>
+      <unit id="252">
+        <segment state="initial">
+          <source>Your IT administrator can install apps and updates on your computer.</source>
+          <target>Your IT administrator can install apps and updates on your computer.</target>
+        </segment>
+      </unit>
+      <unit id="253">
+        <segment state="initial">
+          <source>Your IT administrator may enforce policies on the computer.</source>
+          <target>Your IT administrator may enforce policies on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="254">
+        <segment state="initial">
+          <source>For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.</source>
+          <target>For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.</target>
+        </segment>
+      </unit>
+      <unit id="255">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_what_happens_phone8"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens when I install the Company Portal app and enroll my Windows Phone 8.1 or Windows Phone 8 device in Intune?</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens when I install the Company Portal app and enroll my Windows Phone 8.1 or Windows Phone 8 device in Intune?</target>
+        </segment>
+      </unit>
+      <unit id="256">
+        <segment state="initial">
+          <source>When you install the Company Portal app and then use the app to enroll your Windows Phone 8.1 or Windows Phone 8 device in Intune, you can then use the Company Portal app to:</source>
+          <target>When you install the Company Portal app and then use the app to enroll your Windows Phone 8.1 or Windows Phone 8 device in Intune, you can then use the Company Portal app to:</target>
+        </segment>
+      </unit>
+      <unit id="257">
+        <segment state="initial">
+          <source>Access the company’s network, and your email and work files</source>
+          <target>Access the company’s network, and your email and work files</target>
+        </segment>
+      </unit>
+      <unit id="258">
+        <segment state="initial">
+          <source>Get company apps from the Company Portal</source>
+          <target>Get company apps from the Company Portal</target>
+        </segment>
+      </unit>
+      <unit id="259">
+        <segment state="initial">
+          <source>Automatically configure your company email account</source>
+          <target>Automatically configure your company email account</target>
+        </segment>
+      </unit>
+      <unit id="260">
+        <segment state="initial">
+          <source>Reset your phone to factory settings if it is lost or stolen</source>
+          <target>Reset your phone to factory settings if it is lost or stolen</target>
+        </segment>
+      </unit>
+      <unit id="261">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_enrollment_81)</data>
+          <data id="id3">[</data>
+          <data id="id4">](#BKMK_enrollment_wp8)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For the steps to enroll, see<pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Phone 8.1</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows Phone 8</pc>.</source>
+          <target>For the steps to enroll, see<pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Phone 8.1</pc> or <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Windows Phone 8</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="262">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_win_what_IT_can_see)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about what your IT admin can and can't see on your device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What can my IT admin see when I enroll my device in Intune?</pc>.</source>
+          <target>For information about what your IT admin can and can't see on your device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What can my IT admin see when I enroll my device in Intune?</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="263">
+        <segment state="initial">
+          <source>When you add your Windows Phone device, you are giving your IT administrator permission to access the device.</source>
+          <target>When you add your Windows Phone device, you are giving your IT administrator permission to access the device.</target>
+        </segment>
+      </unit>
+      <unit id="264">
+        <segment state="initial">
+          <source>They can do things like:</source>
+          <target>They can do things like:</target>
+        </segment>
+      </unit>
+      <unit id="265">
+        <segment state="initial">
+          <source>Reset your device back to manufacturer’s default settings.</source>
+          <target>Reset your device back to manufacturer’s default settings.</target>
+        </segment>
+      </unit>
+      <unit id="266">
+        <segment state="initial">
+          <source>This is helpful if the device is lost or stolen.</source>
+          <target>This is helpful if the device is lost or stolen.</target>
+        </segment>
+      </unit>
+      <unit id="267">
+        <segment state="initial">
+          <source>Remove all company related data and business apps that were installed.</source>
+          <target>Remove all company related data and business apps that were installed.</target>
+        </segment>
+      </unit>
+      <unit id="268">
+        <segment state="initial">
+          <source>Your personal data and settings aren’t removed.</source>
+          <target>Your personal data and settings aren’t removed.</target>
+        </segment>
+      </unit>
+      <unit id="269">
+        <segment state="initial">
+          <source>Force you to have a password or PIN on the device, which may lock you out of the device, or reset your device back to manufacturer’s default settings, which may include the deletion of data, if there are too many incorrect password attempts.</source>
+          <target>Force you to have a password or PIN on the device, which may lock you out of the device, or reset your device back to manufacturer’s default settings, which may include the deletion of data, if there are too many incorrect password attempts.</target>
+        </segment>
+      </unit>
+      <unit id="270">
+        <segment state="initial">
+          <source>Force all the data on the device to be encrypted.</source>
+          <target>Force all the data on the device to be encrypted.</target>
+        </segment>
+      </unit>
+      <unit id="271">
+        <segment state="initial">
+          <source>This helps protect the data if the device is lost or stolen.</source>
+          <target>This helps protect the data if the device is lost or stolen.</target>
+        </segment>
+      </unit>
+      <unit id="272">
+        <segment state="initial">
+          <source>Require you to accept terms and conditions.</source>
+          <target>Require you to accept terms and conditions.</target>
+        </segment>
+      </unit>
+      <unit id="273">
+        <segment state="initial">
+          <source>Disable the SD card.</source>
+          <target>Disable the SD card.</target>
+        </segment>
+      </unit>
+      <unit id="274">
+        <segment state="initial">
+          <source>Install updates to apps on your device.</source>
+          <target>Install updates to apps on your device.</target>
+        </segment>
+      </unit>
+      <unit id="275">
+        <segment state="initial">
+          <source>This applies to updates only.</source>
+          <target>This applies to updates only.</target>
+        </segment>
+      </unit>
+      <unit id="276">
+        <segment state="initial">
+          <source>Your IT administrator cannot force new apps to install on your device, but you can choose to install apps you see in the company portal.</source>
+          <target>Your IT administrator cannot force new apps to install on your device, but you can choose to install apps you see in the company portal.</target>
+        </segment>
+      </unit>
+      <unit id="277">
+        <segment state="initial">
+          <source>After your device is added to the company portal, approximately every 8 hours it will:</source>
+          <target>After your device is added to the company portal, approximately every 8 hours it will:</target>
+        </segment>
+      </unit>
+      <unit id="278">
+        <segment state="initial">
+          <source>Download any policy or app updates that your IT administrator has made available.</source>
+          <target>Download any policy or app updates that your IT administrator has made available.</target>
+        </segment>
+      </unit>
+      <unit id="279">
+        <segment state="initial">
+          <source>Send any hardware inventory updates.</source>
+          <target>Send any hardware inventory updates.</target>
+        </segment>
+      </unit>
+      <unit id="280">
+        <segment state="initial">
+          <source>Send any company app inventory updates.</source>
+          <target>Send any company app inventory updates.</target>
+        </segment>
+      </unit>
+      <unit id="281">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_what_happens_vista"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens when I install the Company Portal app and enroll my Windows 7 or  Vista device in Intune?</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens when I install the Company Portal app and enroll my Windows 7 or  Vista device in Intune?</target>
+        </segment>
+      </unit>
+      <unit id="282">
+        <segment state="initial">
+          <source>When you install the Company Portal app and then use the app to enroll your Windows 7 or Vista device in Intune, you can then use the Company Portal app to:</source>
+          <target>When you install the Company Portal app and then use the app to enroll your Windows 7 or Vista device in Intune, you can then use the Company Portal app to:</target>
+        </segment>
+      </unit>
+      <unit id="283">
+        <segment state="initial">
+          <source>Access the company’s network, and your email and work files</source>
+          <target>Access the company’s network, and your email and work files</target>
+        </segment>
+      </unit>
+      <unit id="284">
+        <segment state="initial">
+          <source>Get company apps from the Company Portal</source>
+          <target>Get company apps from the Company Portal</target>
+        </segment>
+      </unit>
+      <unit id="285">
+        <segment state="initial">
+          <source>Automatically configure your company email account</source>
+          <target>Automatically configure your company email account</target>
+        </segment>
+      </unit>
+      <unit id="286">
+        <segment state="initial">
+          <source>Reset your phone to factory settings if it is lost or stolen</source>
+          <target>Reset your phone to factory settings if it is lost or stolen</target>
+        </segment>
+      </unit>
+      <unit id="287">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_win_what_IT_can_see)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For information about what your IT admin can and can't see on your device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What can my IT admin see when I enroll my device in Intune?</pc>.</source>
+          <target>For information about what your IT admin can and can't see on your device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What can my IT admin see when I enroll my device in Intune?</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="288">
+        <segment state="initial">
+          <source>When you add a computer:</source>
+          <target>When you add a computer:</target>
+        </segment>
+      </unit>
+      <unit id="289">
+        <segment state="initial">
+          <source>You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information.</source>
+          <target>You’ll have some software installed on your computer to make it possible for your IT administrator to manage the computer, and make it possible for you to get to company resources like apps and support information.</target>
+        </segment>
+      </unit>
+      <unit id="290">
+        <segment state="initial">
+          <source>This software may be updated automatically by your IT administrator.</source>
+          <target>This software may be updated automatically by your IT administrator.</target>
+        </segment>
+      </unit>
+      <unit id="291">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" /> Endpoint Protection may be installed on your computer.</source>
+          <target>
+            <ph dataRef="id1" id="ph1" /> Endpoint Protection may be installed on your computer.</target>
+        </segment>
+      </unit>
+      <unit id="292">
+        <segment state="initial">
+          <source>This is software that checks for viruses and malware.</source>
+          <target>This is software that checks for viruses and malware.</target>
+        </segment>
+      </unit>
+      <unit id="293">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://go.microsoft.com/fwlink/?LinkID=247324)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more information, please refer to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Endpoint Protection Privacy Statement</pc>.</source>
+          <target>For more information, please refer to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Endpoint Protection Privacy Statement</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="294">
+        <segment state="initial">
+          <source>Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.</source>
+          <target>Your IT administrator can take an inventory of all of the software installed on the computer, including software you have personally installed.</target>
+        </segment>
+      </unit>
+      <unit id="295">
+        <segment state="initial">
+          <source>Require you to accept terms and conditions.</source>
+          <target>Require you to accept terms and conditions.</target>
+        </segment>
+      </unit>
+      <unit id="296">
+        <segment state="initial">
+          <source>Your IT administrator can collect or delete data from your computer’s hard drive.</source>
+          <target>Your IT administrator can collect or delete data from your computer’s hard drive.</target>
+        </segment>
+      </unit>
+      <unit id="297">
+        <segment state="initial">
+          <source>Your IT administrator could also delete the entire hard drive.</source>
+          <target>Your IT administrator could also delete the entire hard drive.</target>
+        </segment>
+      </unit>
+      <unit id="298">
+        <segment state="initial">
+          <source>Your IT administrator can install apps and updates on your computer.</source>
+          <target>Your IT administrator can install apps and updates on your computer.</target>
+        </segment>
+      </unit>
+      <unit id="299">
+        <segment state="initial">
+          <source>Your IT administrator may enforce policies on the computer.</source>
+          <target>Your IT administrator may enforce policies on the computer.</target>
+        </segment>
+      </unit>
+      <unit id="300">
+        <segment state="initial">
+          <source>For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.</source>
+          <target>For example, you might be required to set a password or PIN on the computer, which may lock you out of the computer, or delete all data from your computer’s hard drive, if there are too many incorrect password attempts.</target>
+        </segment>
+      </unit>
+      <unit id="301">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_win_what_IT_can_see"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What can my IT admin see when I enroll my device in Intune?</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What can my IT admin see when I enroll my device in Intune?</target>
+        </segment>
+      </unit>
+      <unit id="302">
+        <segment state="initial">
+          <source>When  you enroll your device in Intune, you are giving your IT administrator permission to manage your device to help protect the company information on the device.</source>
+          <target>When  you enroll your device in Intune, you are giving your IT administrator permission to manage your device to help protect the company information on the device.</target>
+        </segment>
+      </unit>
+      <unit id="303">
+        <segment state="initial">
+          <source>What IT cannot see</source>
+          <target>What IT cannot see</target>
+        </segment>
+      </unit>
+      <unit id="304">
+        <segment state="initial">
+          <source>Call history</source>
+          <target>Call history</target>
+        </segment>
+      </unit>
+      <unit id="305">
+        <segment state="initial">
+          <source>Text messages</source>
+          <target>Text messages</target>
+        </segment>
+      </unit>
+      <unit id="306">
+        <segment state="initial">
+          <source>Personal email, contacts, and calendar</source>
+          <target>Personal email, contacts, and calendar</target>
+        </segment>
+      </unit>
+      <unit id="307">
+        <segment state="initial">
+          <source>Web history</source>
+          <target>Web history</target>
+        </segment>
+      </unit>
+      <unit id="308">
+        <segment state="initial">
+          <source>Location</source>
+          <target>Location</target>
+        </segment>
+      </unit>
+      <unit id="309">
+        <segment state="initial">
+          <source>Camera roll</source>
+          <target>Camera roll</target>
+        </segment>
+      </unit>
+      <unit id="310">
+        <segment state="initial">
+          <source>Personal data</source>
+          <target>Personal data</target>
+        </segment>
+      </unit>
+      <unit id="311">
+        <segment state="initial">
+          <source>What IT can see</source>
+          <target>What IT can see</target>
+        </segment>
+      </unit>
+      <unit id="312">
+        <segment state="initial">
+          <source>Owner</source>
+          <target>Owner</target>
+        </segment>
+      </unit>
+      <unit id="313">
+        <segment state="initial">
+          <source>Device name</source>
+          <target>Device name</target>
+        </segment>
+      </unit>
+      <unit id="314">
+        <segment state="initial">
+          <source>Serial number</source>
+          <target>Serial number</target>
+        </segment>
+      </unit>
+      <unit id="315">
+        <segment state="initial">
+          <source>Manufacturer</source>
+          <target>Manufacturer</target>
+        </segment>
+      </unit>
+      <unit id="316">
+        <segment state="initial">
+          <source>Model</source>
+          <target>Model</target>
+        </segment>
+      </unit>
+      <unit id="317">
+        <segment state="initial">
+          <source>Operating system</source>
+          <target>Operating system</target>
+        </segment>
+      </unit>
+      <unit id="318">
+        <segment state="initial">
+          <source>Company apps</source>
+          <target>Company apps</target>
+        </segment>
+      </unit>
+      <unit id="319">
+        <segment state="initial">
+          <source>Personal apps</source>
+          <target>Personal apps</target>
+        </segment>
+      </unit>
+      <unit id="320">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_win_whatis_cp_website"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What is the Company Portal website?</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What is the Company Portal website?</target>
+        </segment>
+      </unit>
+      <unit id="321">
+        <segment state="initial">
+          <source>The Company Portal website is your company’s web interface that you use to  manage your work computers and devices, and your personal computers and devices that you choose to use at work.</source>
+          <target>The Company Portal website is your company’s web interface that you use to  manage your work computers and devices, and your personal computers and devices that you choose to use at work.</target>
+        </segment>
+      </unit>
+      <unit id="322">
+        <segment state="initial">
+          <source>Once you add your computer or device to the Company Portal, you can:</source>
+          <target>Once you add your computer or device to the Company Portal, you can:</target>
+        </segment>
+      </unit>
+      <unit id="323">
+        <segment state="initial">
+          <source>Browse for and download company apps</source>
+          <target>Browse for and download company apps</target>
+        </segment>
+      </unit>
+      <unit id="324">
+        <segment state="initial">
+          <source>Manage devices that you have added to the Company Portal</source>
+          <target>Manage devices that you have added to the Company Portal</target>
+        </segment>
+      </unit>
+      <unit id="325">
+        <segment state="initial">
+          <source>Find contact information for your IT administrator</source>
+          <target>Find contact information for your IT administrator</target>
+        </segment>
+      </unit>
+      <unit id="326">
+        <segment state="initial">
+          <source>When you add a computer or device to the Company Portal, some software may be installed or an app may be downloaded (depending on the device).</source>
+          <target>When you add a computer or device to the Company Portal, some software may be installed or an app may be downloaded (depending on the device).</target>
+        </segment>
+      </unit>
+      <unit id="327">
+        <segment state="initial">
+          <source>You are also giving your IT administrator permission to manage your device to help protect the company information on the device.</source>
+          <target>You are also giving your IT administrator permission to manage your device to help protect the company information on the device.</target>
+        </segment>
+      </unit>
+      <unit id="328">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_win_encrypt_device"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Encrypt your device</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Encrypt your device</target>
+        </segment>
+      </unit>
+      <unit id="329">
+        <segment state="initial">
+          <source>You can encrypt your device either by adding a Microsoft account or by enabling BitLocker.</source>
+          <target>You can encrypt your device either by adding a Microsoft account or by enabling BitLocker.</target>
+        </segment>
+      </unit>
+      <unit id="330">
+        <segment state="initial">
+          <source>Option 1: Add a Microsoft account</source>
+          <target>Option 1: Add a Microsoft account</target>
+        </segment>
+      </unit>
+      <unit id="331">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Search for, then start the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PC Settings</pc> app.</source>
+          <target>Search for, then start the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PC Settings</pc> app.</target>
+        </segment>
+      </unit>
+      <unit id="332">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Accounts</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Your account</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Connect to a Microsoft account</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Accounts</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Your account</pc>, and then click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Connect to a Microsoft account</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="333">
+        <segment state="initial">
+          <source>Follow the instructions shown.</source>
+          <target>Follow the instructions shown.</target>
+        </segment>
+      </unit>
+      <unit id="334">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](http://go.microsoft.com/fwlink/?LinkId=519071)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Ensure that your device is enrolled with <ph dataRef="id1" id="ph1" /> by following the instructions in <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Enroll your device to use it at work</pc>.</source>
+          <target>Ensure that your device is enrolled with <ph dataRef="id1" id="ph1" /> by following the instructions in <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Enroll your device to use it at work</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="335">
+        <segment state="initial">
+          <source>Option 2: Enable BitLocker</source>
+          <target>Option 2: Enable BitLocker</target>
+        </segment>
+      </unit>
+      <unit id="336">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Search for, then start the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manage BitLocker</pc> app.</source>
+          <target>Search for, then start the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Manage BitLocker</pc> app.</target>
+        </segment>
+      </unit>
+      <unit id="337">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on BitLocker</pc>, then follow the instructions shown to encrypt each of your drives.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on BitLocker</pc>, then follow the instructions shown to encrypt each of your drives.</target>
+        </segment>
+      </unit>
+      <unit id="338">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</data>
+          <data id="id2">[</data>
+          <data id="id3">](http://go.microsoft.com/fwlink/?LinkId=519071)</data>
+        </originalData>
+        <segment state="initial">
+          <source>Ensure that your device is enrolled with <ph dataRef="id1" id="ph1" /> by following the instructions in <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Enroll your device to use it at work</pc>.</source>
+          <target>Ensure that your device is enrolled with <ph dataRef="id1" id="ph1" /> by following the instructions in <pc dataRefEnd="id3" dataRefStart="id2" id="p1">Enroll your device to use it at work</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="339">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_win_erase_lost_device"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Reset (erase) your lost or stolen device</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Reset (erase) your lost or stolen device</target>
+        </segment>
+      </unit>
+      <unit id="340">
+        <segment state="initial">
+          <source>If your device is enrolled in Intune, and your device is lost or stolen, you can reset it to factory defaults.</source>
+          <target>If your device is enrolled in Intune, and your device is lost or stolen, you can reset it to factory defaults.</target>
+        </segment>
+      </unit>
+      <unit id="341">
+        <segment state="initial">
+          <source>Resetting a device to factor defaults removes both your personal and work information from it.</source>
+          <target>Resetting a device to factor defaults removes both your personal and work information from it.</target>
+        </segment>
+      </unit>
+      <unit id="342">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more about what happens when you reset your device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What happens if I reset my Windows device using the Company Portal?</pc>.</source>
+          <target>For more about what happens when you reset your device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What happens if I reset my Windows device using the Company Portal?</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="343">
+        <segment state="initial">
+          <source>In your browser, open your Company Portal, and sign in to your work account.</source>
+          <target>In your browser, open your Company Portal, and sign in to your work account.</target>
+        </segment>
+      </unit>
+      <unit id="344">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">My Devices</pc>, select the lost or stolen device.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">My Devices</pc>, select the lost or stolen device.</target>
+        </segment>
+      </unit>
+      <unit id="345">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reset</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reset</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reset</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Reset</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="346">
+        <segment state="initial">
+          <source>If you are unable to reset your lost or stolen device, contact IT to reset it for you.</source>
+          <target>If you are unable to reset your lost or stolen device, contact IT to reset it for you.</target>
+        </segment>
+      </unit>
+      <unit id="347">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_win_what_happs_reset_devc"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens if I reset my Windows device using the Company Portal?</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens if I reset my Windows device using the Company Portal?</target>
+        </segment>
+      </unit>
+      <unit id="348">
+        <segment state="initial">
+          <source>When you use the Company Portal to reset your personal device, some apps and settings on your device may be deleted, including some of your personal data.</source>
+          <target>When you use the Company Portal to reset your personal device, some apps and settings on your device may be deleted, including some of your personal data.</target>
+        </segment>
+      </unit>
+      <unit id="349">
+        <segment state="initial">
+          <source>What happens on each device depends on the type of device you have and how you are using the device, as described in the following table.</source>
+          <target>What happens on each device depends on the type of device you have and how you are using the device, as described in the following table.</target>
+        </segment>
+      </unit>
+      <unit id="350">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_win_erase_lost_device)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For instructions on how to reset your lost or stolen device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reset (erase) your lost or stolen device</pc>.</source>
+          <target>For instructions on how to reset your lost or stolen device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Reset (erase) your lost or stolen device</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="351">
+        <segment state="initial">
+          <source>Device configuration and management</source>
+          <target>Device configuration and management</target>
+        </segment>
+      </unit>
+      <unit id="352">
+        <segment state="initial">
+          <source>Device type</source>
+          <target>Device type</target>
+        </segment>
+      </unit>
+      <unit id="353">
+        <segment state="initial">
+          <source>Your IT admin manages your mobile device</source>
+          <target>Your IT admin manages your mobile device</target>
+        </segment>
+      </unit>
+      <unit id="354">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="355">
+        <segment state="initial">
+          <source>When you reset your Android device, your device won’t appear in the company portal anymore and your company email account will be deleted and unsaved email will be deleted.</source>
+          <target>When you reset your Android device, your device won’t appear in the company portal anymore and your company email account will be deleted and unsaved email will be deleted.</target>
+        </segment>
+      </unit>
+      <unit id="356">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">iOS Devices (iPhone and iPad)</pc>, your device won’t appear in the company portal anymore and the company portal tries to reset the device back to the manufacturer’s default settings.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">iOS Devices (iPhone and iPad)</pc>, your device won’t appear in the company portal anymore and the company portal tries to reset the device back to the manufacturer’s default settings.</target>
+        </segment>
+      </unit>
+      <unit id="357">
+        <segment state="initial">
+          <source>Your personal data, apps and settings will be removed.</source>
+          <target>Your personal data, apps and settings will be removed.</target>
+        </segment>
+      </unit>
+      <unit id="358">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Phone 8.1 and Windows Phone 8</pc>, your device won’t appear in the company portal anymore and the company portal tries to reset the device back to the manufacturer’s default settings.</source>
+          <target>
+            <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows Phone 8.1 and Windows Phone 8</pc>, your device won’t appear in the company portal anymore and the company portal tries to reset the device back to the manufacturer’s default settings.</target>
+        </segment>
+      </unit>
+      <unit id="359">
+        <segment state="initial">
+          <source>Your personal data, apps and settings will be removed.</source>
+          <target>Your personal data, apps and settings will be removed.</target>
+        </segment>
+      </unit>
+      <unit id="360">
+        <segment state="initial">
+          <source>Windows RT</source>
+          <target>Windows RT</target>
+        </segment>
+      </unit>
+      <unit id="361">
+        <segment state="initial">
+          <source>You cannot reset a Windows RT device unless it is used for email only.</source>
+          <target>You cannot reset a Windows RT device unless it is used for email only.</target>
+        </segment>
+      </unit>
+      <unit id="362">
+        <segment state="initial">
+          <source>Your device can access company email only</source>
+          <target>Your device can access company email only</target>
+        </segment>
+      </unit>
+      <unit id="363">
+        <segment state="initial">
+          <source>Android</source>
+          <target>Android</target>
+        </segment>
+      </unit>
+      <unit id="364">
+        <segment state="initial">
+          <source>Your device won’t appear in the company portal anymore and the company portal tries to reset the device back to the manufacturer’s defaults.</source>
+          <target>Your device won’t appear in the company portal anymore and the company portal tries to reset the device back to the manufacturer’s defaults.</target>
+        </segment>
+      </unit>
+      <unit id="365">
+        <segment state="initial">
+          <source>All your personal data and settings will be removed.</source>
+          <target>All your personal data and settings will be removed.</target>
+        </segment>
+      </unit>
+      <unit id="366">
+        <segment state="initial">
+          <source>iOS Devices (iPhone and iPad)</source>
+          <target>iOS Devices (iPhone and iPad)</target>
+        </segment>
+      </unit>
+      <unit id="367">
+        <segment state="initial">
+          <source>Your device won’t appear in the company portal anymore and your company email account will be deleted and unsaved email will be deleted.</source>
+          <target>Your device won’t appear in the company portal anymore and your company email account will be deleted and unsaved email will be deleted.</target>
+        </segment>
+      </unit>
+      <unit id="368">
+        <segment state="initial">
+          <source>Windows Phone 8.1 and Windows Phone 8</source>
+          <target>Windows Phone 8.1 and Windows Phone 8</target>
+        </segment>
+      </unit>
+      <unit id="369">
+        <segment state="initial">
+          <source>Your device won’t appear in the company portal anymore and your company email account will be deleted and unsaved email will be deleted.</source>
+          <target>Your device won’t appear in the company portal anymore and your company email account will be deleted and unsaved email will be deleted.</target>
+        </segment>
+      </unit>
+      <unit id="370">
+        <segment state="initial">
+          <source>Windows RT</source>
+          <target>Windows RT</target>
+        </segment>
+      </unit>
+      <unit id="371">
+        <segment state="initial">
+          <source>Your device won’t appear in the company portal anymore and your company email account will be deleted and unsaved email will be deleted.</source>
+          <target>Your device won’t appear in the company portal anymore and your company email account will be deleted and unsaved email will be deleted.</target>
+        </segment>
+      </unit>
+      <unit id="372">
+        <segment state="initial">
+          <source>Windows 7 or Windows Vista Computers</source>
+          <target>Windows 7 or Windows Vista Computers</target>
+        </segment>
+      </unit>
+      <unit id="373">
+        <segment state="initial">
+          <source>You cannot reset a computer that is running Windows 7 or earlier that is used for email only.</source>
+          <target>You cannot reset a computer that is running Windows 7 or earlier that is used for email only.</target>
+        </segment>
+      </unit>
+      <unit id="374">
+        <segment state="initial">
+          <source>Windows 8.1 and Windows 8 Computers</source>
+          <target>Windows 8.1 and Windows 8 Computers</target>
+        </segment>
+      </unit>
+      <unit id="375">
+        <segment state="initial">
+          <source>Your device won’t appear in the company portal anymore and your company email account will be deleted and unsaved email will be deleted.</source>
+          <target>Your device won’t appear in the company portal anymore and your company email account will be deleted and unsaved email will be deleted.</target>
+        </segment>
+      </unit>
+      <unit id="376">
+        <segment state="initial">
+          <source>PCs and laptops</source>
+          <target>PCs and laptops</target>
+        </segment>
+      </unit>
+      <unit id="377">
+        <segment state="initial">
+          <source>Windows 8.1 and Windows 8 Computers</source>
+          <target>Windows 8.1 and Windows 8 Computers</target>
+        </segment>
+      </unit>
+      <unit id="378">
+        <segment state="initial">
+          <source>You cannot reset a computer that is running Windows 8 or Windows 8.1 unless it is used for email only.</source>
+          <target>You cannot reset a computer that is running Windows 8 or Windows 8.1 unless it is used for email only.</target>
+        </segment>
+      </unit>
+      <unit id="379">
+        <segment state="initial">
+          <source>Windows 7 or Windows Vista Computers</source>
+          <target>Windows 7 or Windows Vista Computers</target>
+        </segment>
+      </unit>
+      <unit id="380">
+        <segment state="initial">
+          <source>You cannot reset a computer that is running Windows 7 or earlier.</source>
+          <target>You cannot reset a computer that is running Windows 7 or earlier.</target>
+        </segment>
+      </unit>
+      <unit id="381">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_win_unenroll_device"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Unenroll your device from Intune</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Unenroll your device from Intune</target>
+        </segment>
+      </unit>
+      <unit id="382">
+        <segment state="initial">
+          <source>If you enrolled in Intune, but no longer want to use your device for work or school and don't need to access work or school email, apps, or other resources, you need to unenroll your device.</source>
+          <target>If you enrolled in Intune, but no longer want to use your device for work or school and don't need to access work or school email, apps, or other resources, you need to unenroll your device.</target>
+        </segment>
+      </unit>
+      <unit id="383">
+        <segment state="initial">
+          <source>Once you unenroll your device from Intune, you will no longer be able to access these resources.</source>
+          <target>Once you unenroll your device from Intune, you will no longer be able to access these resources.</target>
+        </segment>
+      </unit>
+      <unit id="384">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](#BKMK_what_happs_unenroll_win)</data>
+        </originalData>
+        <segment state="initial">
+          <source>For more about what happens when you unenroll your device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What happens when I remove my device from the Company Portal?</pc>.</source>
+          <target>For more about what happens when you unenroll your device, see <pc dataRefEnd="id2" dataRefStart="id1" id="p1">What happens when I remove my device from the Company Portal?</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="385">
+        <segment state="initial">
+          <source>To unenroll your device, use the steps that match the device you're using.</source>
+          <target>To unenroll your device, use the steps that match the device you're using.</target>
+        </segment>
+      </unit>
+      <unit id="386">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_win_unenroll_w10"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Unenroll your Windows 10 device</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Unenroll your Windows 10 device</target>
+        </segment>
+      </unit>
+      <unit id="387">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>From your apps list, tap the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc> app.</source>
+          <target>From your apps list, tap the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Company Portal</pc> app.</target>
+        </segment>
+      </unit>
+      <unit id="388">
+        <segment state="initial">
+          <source>Sign in using your work or school credentials.</source>
+          <target>Sign in using your work or school credentials.</target>
+        </segment>
+      </unit>
+      <unit id="389">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">My Devices</pc>, select the device you want to unenroll.</source>
+          <target>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">My Devices</pc>, select the device you want to unenroll.</target>
+        </segment>
+      </unit>
+      <unit id="390">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remove</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Remove</pc>.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Remove</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Remove</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="391">
+        <segment state="initial">
+          <source>Unenroll your Windows 8.1 computer</source>
+          <target>Unenroll your Windows 8.1 computer</target>
+        </segment>
+      </unit>
+      <unit id="392">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Go to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PC Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Network</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Workplace</pc>.</source>
+          <target>Go to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">PC Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Network</pc> &amp;gt; <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Workplace</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="393">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workplace Join</pc>, tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Leave</pc>.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Workplace Join</pc>, tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Leave</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="394">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on device management,</pc> tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Turn off</pc>.</source>
+          <target>Under <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn on device management,</pc> tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Turn off</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="395">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the popup window that opens, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn off</pc>.</source>
+          <target>On the popup window that opens, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Turn off</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="396">
+        <segment state="initial">
+          <source>Unenroll your Windows Phone 8.1 device</source>
+          <target>Unenroll your Windows Phone 8.1 device</target>
+        </segment>
+      </unit>
+      <unit id="397">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Go to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Workplace</pc>.</source>
+          <target>Go to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Workplace</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="398">
+        <segment state="initial">
+          <source>Tap the workplace account that you want to unenroll.</source>
+          <target>Tap the workplace account that you want to unenroll.</target>
+        </segment>
+      </unit>
+      <unit id="399">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Delete</pc> at the bottom of the screen.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Delete</pc> at the bottom of the screen.</target>
+        </segment>
+      </unit>
+      <unit id="400">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Delete account</pc> dialog, tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delete</pc>.</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Delete account</pc> dialog, tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Delete</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="401">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_what_happs_unenroll_win"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens when I remove my device from the Company Portal?</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />What happens when I remove my device from the Company Portal?</target>
+        </segment>
+      </unit>
+      <unit id="402">
+        <segment state="initial">
+          <source>The following events happen when you remove my device from the Company Portal</source>
+          <target>The following events happen when you remove my device from the Company Portal</target>
+        </segment>
+      </unit>
+      <unit id="403">
+        <segment state="initial">
+          <source>Windows Phone 8.1 or Windows Phone 8</source>
+          <target>Windows Phone 8.1 or Windows Phone 8</target>
+        </segment>
+      </unit>
+      <unit id="404">
+        <segment state="initial">
+          <source>The Company Portal app is uninstalled from your device, which means that your device won’t appear in the company portal anymore, and you won't be able to install apps from the Company Portal app or Company Portal website.</source>
+          <target>The Company Portal app is uninstalled from your device, which means that your device won’t appear in the company portal anymore, and you won't be able to install apps from the Company Portal app or Company Portal website.</target>
+        </segment>
+      </unit>
+      <unit id="405">
+        <segment state="initial">
+          <source>You can’t use company apps and company data on your device anymore.</source>
+          <target>You can’t use company apps and company data on your device anymore.</target>
+        </segment>
+      </unit>
+      <unit id="406">
+        <segment state="initial">
+          <source>Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.</source>
+          <target>Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.</target>
+        </segment>
+      </unit>
+      <unit id="407">
+        <segment state="initial">
+          <source>The only exception to this is encryption policies, which will still apply.</source>
+          <target>The only exception to this is encryption policies, which will still apply.</target>
+        </segment>
+      </unit>
+      <unit id="408">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If your company policy required that your Windows Phone be encrypted, the only way to unencrypt your phone is to reset your phone using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> menu on your Windows Phone.</source>
+          <target>If your company policy required that your Windows Phone be encrypted, the only way to unencrypt your phone is to reset your phone using the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> menu on your Windows Phone.</target>
+        </segment>
+      </unit>
+      <unit id="409">
+        <segment state="initial">
+          <source>Windows RT running Windows 8.1 or Windows RT</source>
+          <target>Windows RT running Windows 8.1 or Windows RT</target>
+        </segment>
+      </unit>
+      <unit id="410">
+        <segment state="initial">
+          <source>The Company Portal app is uninstalled from your device, which means that your device won’t appear in the company portal anymore, and you won't be able to install apps from the Company Portal.</source>
+          <target>The Company Portal app is uninstalled from your device, which means that your device won’t appear in the company portal anymore, and you won't be able to install apps from the Company Portal.</target>
+        </segment>
+      </unit>
+      <unit id="411">
+        <segment state="initial">
+          <source>You can’t use company apps and company data on your device anymore.</source>
+          <target>You can’t use company apps and company data on your device anymore.</target>
+        </segment>
+      </unit>
+      <unit id="412">
+        <segment state="initial">
+          <source>Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.</source>
+          <target>Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.</target>
+        </segment>
+      </unit>
+      <unit id="413">
+        <segment state="initial">
+          <source>You might not be able to connect to your company network using Wi-Fi or a Virtual Private Network anymore.</source>
+          <target>You might not be able to connect to your company network using Wi-Fi or a Virtual Private Network anymore.</target>
+        </segment>
+      </unit>
+      <unit id="414">
+        <segment state="initial">
+          <source>You might not have access to some company resources, such as file shares or internal web sites, on your device anymore.</source>
+          <target>You might not have access to some company resources, such as file shares or internal web sites, on your device anymore.</target>
+        </segment>
+      </unit>
+      <unit id="415">
+        <segment state="initial">
+          <source>Some mail apps, such as Windows Mail, won’t be able to access company email that is stored on your device anymore.</source>
+          <target>Some mail apps, such as Windows Mail, won’t be able to access company email that is stored on your device anymore.</target>
+        </segment>
+      </unit>
+      <unit id="416">
+        <segment state="initial">
+          <source>When you remove your Windows RT device, the following happens:</source>
+          <target>When you remove your Windows RT device, the following happens:</target>
+        </segment>
+      </unit>
+      <unit id="417">
+        <segment state="initial">
+          <source>The Company Portal app is uninstalled from your device, which means that your device won’t appear in the company portal anymore, and you won't be able to install apps from the Company Portal.</source>
+          <target>The Company Portal app is uninstalled from your device, which means that your device won’t appear in the company portal anymore, and you won't be able to install apps from the Company Portal.</target>
+        </segment>
+      </unit>
+      <unit id="418">
+        <segment state="initial">
+          <source>You can’t use company apps and company data on your device anymore.</source>
+          <target>You can’t use company apps and company data on your device anymore.</target>
+        </segment>
+      </unit>
+      <unit id="419">
+        <segment state="initial">
+          <source>Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.</source>
+          <target>Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.</target>
+        </segment>
+      </unit>
+      <unit id="420">
+        <segment state="initial">
+          <source>Windows 8.1, Windows 8, Windows 7, Vista</source>
+          <target>Windows 8.1, Windows 8, Windows 7, Vista</target>
+        </segment>
+      </unit>
+      <unit id="421">
+        <segment state="initial">
+          <source>Your device won’t appear in the company portal anymore, and you can’t install apps from the company portal anymore.</source>
+          <target>Your device won’t appear in the company portal anymore, and you can’t install apps from the company portal anymore.</target>
+        </segment>
+      </unit>
+      <unit id="422">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If you installed the <ph dataRef="id1" id="ph1" /> client software, it’s removed from your computer.</source>
+          <target>If you installed the <ph dataRef="id1" id="ph1" /> client software, it’s removed from your computer.</target>
+        </segment>
+      </unit>
+      <unit id="423">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>The <ph dataRef="id1" id="ph1" /> Endpoint Protection software is removed from your computer.</source>
+          <target>The <ph dataRef="id1" id="ph1" /> Endpoint Protection software is removed from your computer.</target>
+        </segment>
+      </unit>
+      <unit id="424">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>If your computer has other virus protection software installed and it is disabled, that software may be re-enabled after <ph dataRef="id1" id="ph1" /> Endpoint Protection is removed.</source>
+          <target>If your computer has other virus protection software installed and it is disabled, that software may be re-enabled after <ph dataRef="id1" id="ph1" /> Endpoint Protection is removed.</target>
+        </segment>
+      </unit>
+      <unit id="425">
+        <segment state="initial">
+          <source>You should check your computer after removing it from the company portal.</source>
+          <target>You should check your computer after removing it from the company portal.</target>
+        </segment>
+      </unit>
+      <unit id="426">
+        <segment state="initial">
+          <source>If the other virus protection software is not re-enabled or no other virus protection software is installed, your computer may be vulnerable to viruses and malware.</source>
+          <target>If the other virus protection software is not re-enabled or no other virus protection software is installed, your computer may be vulnerable to viruses and malware.</target>
+        </segment>
+      </unit>
+      <unit id="427">
+        <segment state="initial">
+          <source>Any settings that were changed on your device when you added it (for example, disabling the camera, will no longer apply).</source>
+          <target>Any settings that were changed on your device when you added it (for example, disabling the camera, will no longer apply).</target>
+        </segment>
+      </unit>
+      <unit id="428">
+        <originalData>
+          <data id="id1">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</data>
+        </originalData>
+        <segment state="initial">
+          <source>Your computer will no longer receive automatic software updates or antivirus software updates from the <ph dataRef="id1" id="ph1" /> service.</source>
+          <target>Your computer will no longer receive automatic software updates or antivirus software updates from the <ph dataRef="id1" id="ph1" /> service.</target>
+        </segment>
+      </unit>
+      <unit id="429">
+        <segment state="initial">
+          <source>However, depending on how it is configured, your computer may still receive updates from the Windows Server Update Services, Windows Update, or Microsoft Update.</source>
+          <target>However, depending on how it is configured, your computer may still receive updates from the Windows Server Update Services, Windows Update, or Microsoft Update.</target>
+        </segment>
+      </unit>
+      <unit id="430">
+        <segment state="initial">
+          <source>In addition, for Windows 8.1:</source>
+          <target>In addition, for Windows 8.1:</target>
+        </segment>
+      </unit>
+      <unit id="431">
+        <segment state="initial">
+          <source>You can’t use company apps and company data on your device anymore.</source>
+          <target>You can’t use company apps and company data on your device anymore.</target>
+        </segment>
+      </unit>
+      <unit id="432">
+        <segment state="initial">
+          <source>Some mail apps, such as Windows Mail, won’t be able to access company email that is stored on your device anymore.</source>
+          <target>Some mail apps, such as Windows Mail, won’t be able to access company email that is stored on your device anymore.</target>
+        </segment>
+      </unit>
+      <unit id="433">
+        <segment state="initial">
+          <source>You might not be able to connect to your company network using Wi-Fi or a Virtual Private Network.</source>
+          <target>You might not be able to connect to your company network using Wi-Fi or a Virtual Private Network.</target>
+        </segment>
+      </unit>
+      <unit id="434">
+        <segment state="initial">
+          <source>You might not have access to some company resources, such as file shares or internal web sites, on your device anymore.</source>
+          <target>You might not have access to some company resources, such as file shares or internal web sites, on your device anymore.</target>
+        </segment>
+      </unit>
+      <unit id="435">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_windows_pc_data_collect"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Turn off Microsoft usage data collection</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Turn off Microsoft usage data collection</target>
+        </segment>
+      </unit>
+      <unit id="436">
+        <segment state="initial">
+          <source>In order to improve its products and services, Microsoft automatically collects anonymous data about the reliability and performance of the Company Portal app and how it is used.</source>
+          <target>In order to improve its products and services, Microsoft automatically collects anonymous data about the reliability and performance of the Company Portal app and how it is used.</target>
+        </segment>
+      </unit>
+      <unit id="437">
+        <segment state="initial">
+          <source>You can turn off the collection of that data by using the Usage Data setting in the Company Portal app.</source>
+          <target>You can turn off the collection of that data by using the Usage Data setting in the Company Portal app.</target>
+        </segment>
+      </unit>
+      <unit id="438">
+        <segment state="initial">
+          <source>IT administrators have no control over the collection of the data, and they cannot change your selection for the setting.</source>
+          <target>IT administrators have no control over the collection of the data, and they cannot change your selection for the setting.</target>
+        </segment>
+      </unit>
+      <unit id="439">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_win_troubleshoot_device"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Fix issues with your device</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Fix issues with your device</target>
+        </segment>
+      </unit>
+      <unit id="440">
+        <segment state="initial">
+          <source>Use this information to fix issues with your device when you're trying to install the Company Portal app, enroll your device in Intune, or if you've already enrolled in Intune.</source>
+          <target>Use this information to fix issues with your device when you're trying to install the Company Portal app, enroll your device in Intune, or if you've already enrolled in Intune.</target>
+        </segment>
+      </unit>
+      <unit id="441">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_win_no_min_os"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Device doesn't have the required minimum operating system version</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Device doesn't have the required minimum operating system version</target>
+        </segment>
+      </unit>
+      <unit id="442">
+        <segment state="initial">
+          <source>Your device doesn’t meet the minimum operating system version required by your IT department.</source>
+          <target>Your device doesn’t meet the minimum operating system version required by your IT department.</target>
+        </segment>
+      </unit>
+      <unit id="443">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+          <data id="id7">**</data>
+          <data id="id8">**</data>
+          <data id="id9">**</data>
+          <data id="id10">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before updating your mobile device, check the current operating system version by tapping <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">about</pc>, and then tap <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Settings</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">phone update</pc> &amp;gt; <pc dataRefEnd="id10" dataRefStart="id9" id="p5">check for updates</pc> to update your device.</source>
+          <target>Before updating your mobile device, check the current operating system version by tapping <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">about</pc>, and then tap <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Settings</pc> &amp;gt; <pc dataRefEnd="id8" dataRefStart="id7" id="p4">phone update</pc> &amp;gt; <pc dataRefEnd="id10" dataRefStart="id9" id="p5">check for updates</pc> to update your device.</target>
+        </segment>
+      </unit>
+      <unit id="444">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Before updating your computer, search for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">operating system</pc> and follow the prompts to identify your current operating system version.</source>
+          <target>Before updating your computer, search for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">operating system</pc> and follow the prompts to identify your current operating system version.</target>
+        </segment>
+      </unit>
+      <unit id="445">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To update computers with operating systems earlier than Windows 10, search for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows updates</pc>.</source>
+          <target>To update computers with operating systems earlier than Windows 10, search for <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Windows updates</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="446">
+        <segment state="initial">
+          <source>If your Windows operating system version is 8.1, you’ll see 6.3.xxxx instead of 8.1 when you check your update version.</source>
+          <target>If your Windows operating system version is 8.1, you’ll see 6.3.xxxx instead of 8.1 when you check your update version.</target>
+        </segment>
+      </unit>
+      <unit id="447">
+        <originalData>
+          <data id="id1">&lt;a name="BKMK_win_no_max_os"&gt;</data>
+          <data id="id2">&lt;/a&gt;</data>
+        </originalData>
+        <segment state="initial">
+          <source>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Device doesn't comply with the maximum operating system version</source>
+          <target>
+            <ph dataRef="id1" id="ph1" />
+            <ph dataRef="id2" id="ph2" />Device doesn't comply with the maximum operating system version</target>
+        </segment>
+      </unit>
+      <unit id="448">
+        <segment state="initial">
+          <source>Your device does not comply with your IT admin's policy for the maximum version of the operating system.</source>
+          <target>Your device does not comply with your IT admin's policy for the maximum version of the operating system.</target>
+        </segment>
+      </unit>
+      <unit id="449">
+        <segment state="initial">
+          <source>Contact your IT admin for help.</source>
+          <target>Contact your IT admin for help.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

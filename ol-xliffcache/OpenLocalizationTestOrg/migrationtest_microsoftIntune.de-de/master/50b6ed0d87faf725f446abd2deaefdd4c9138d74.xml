@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "content": "Partner Content",
+      "pos": [
+        11,
+        26
+      ]
+    },
+    {
+      "content": "Partner Content",
+      "pos": [
+        207,
+        222
+      ]
+    },
+    {
+      "content": "Insert introduction here.",
+      "pos": [
+        223,
+        248
+      ]
+    },
+    {
+      "content": "Section Heading",
+      "pos": [
+        253,
+        268
+      ]
+    },
+    {
+      "content": "Insert section body here.",
+      "pos": [
+        269,
+        294
+      ]
+    },
+    {
+      "content": "Subsection Heading",
+      "pos": [
+        300,
+        318
+      ]
+    },
+    {
+      "content": "Insert subsection body here.",
+      "pos": [
+        319,
+        347
+      ]
+    }
+  ],
+  "content": "---\ntitle: Partner Content\nms.custom: na\nms.reviewer: na\nms.service: microsoft-intune\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: c65a19e8-070f-481a-baa7-cd467d64dcb2\nauthor: Brenduns\n---\n# Partner Content\nInsert introduction here.\n\n## Section Heading\nInsert section body here.\n\n### Subsection Heading\nInsert subsection body here.\n\n"
+}

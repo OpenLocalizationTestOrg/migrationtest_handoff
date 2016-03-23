@@ -1,0 +1,1534 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune",
+      "pos": [
+        11,
+        121
+      ]
+    },
+    {
+      "content": "MD Conversion - Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune",
+      "pos": [
+        256,
+        366
+      ]
+    },
+    {
+      "content": "<ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> provides selective wipe, full wipe, remote lock, and passcode reset capabilities.",
+      "pos": [
+        367,
+        502
+      ]
+    },
+    {
+      "content": "Because mobile devices can store sensitive corporate data and provide access to many corporate resources, you can issue a remote device wipe command from the <ph id=\"ph1\">[!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)]</ph> to wipe a lost or stolen device.",
+      "pos": [
+        503,
+        755
+      ]
+    },
+    {
+      "content": "Also, users can issue a remote device wipe command from the <ph id=\"ph1\">[!INCLUDE[wit_iwportal_1](../Token/wit_iwportal_1_md.md)]</ph> on privately owned devices enrolled in Intune.",
+      "pos": [
+        756,
+        920
+      ]
+    },
+    {
+      "pos": [
+        924,
+        1155
+      ],
+      "content": "[!NOTE]\nThis topic is only about wiping devices managed by Intune. You can also use [the Azure preview portal](https://portal.azure.com) to [wipe company data from apps](https://technet.microsoft.com/en-us/library/mt627826.aspx).",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "This topic is only about wiping devices managed by Intune. You can also use [the Azure preview portal](https://portal.azure.com) to [wipe company data from apps](https://technet.microsoft.com/en-us/library/mt627826.aspx).",
+          "pos": [
+            8,
+            229
+          ],
+          "nodes": [
+            {
+              "content": "This topic is only about wiping devices managed by Intune.",
+              "pos": [
+                0,
+                58
+              ]
+            },
+            {
+              "content": "You can also use <bpt id=\"p1\">[</bpt>the Azure preview portal<ept id=\"p1\">](https://portal.azure.com)</ept> to <bpt id=\"p2\">[</bpt>wipe company data from apps<ept id=\"p2\">](https://technet.microsoft.com/en-us/library/mt627826.aspx)</ept>.",
+              "pos": [
+                59,
+                221
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        1160,
+        1266
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"bkmk_wipe\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Use Retire/Wipe to help secure a lost device or to retire a device from active use"
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Full wipe<ept id=\"p1\">**</ept> restores a device to its factory default settings, removing all company and user data and settings.",
+      "pos": [
+        1267,
+        1380
+      ]
+    },
+    {
+      "content": "The device is removed from Intune.",
+      "pos": [
+        1385,
+        1419
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Be careful about selecting full wipe; your data cannot be recovered<ept id=\"p1\">**</ept>.",
+      "pos": [
+        1420,
+        1492
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Selective wipe<ept id=\"p1\">**</ept> removes company data from a device.",
+      "pos": [
+        1494,
+        1548
+      ]
+    },
+    {
+      "content": "The device is removed from Intune.",
+      "pos": [
+        1551,
+        1585
+      ]
+    },
+    {
+      "content": "The following tables describe by platform what data is removed and the effect on data that remains on the device after a selective wipe.",
+      "pos": [
+        1586,
+        1722
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        1726,
+        1729
+      ]
+    },
+    {
+      "content": "Data type",
+      "pos": [
+        1734,
+        1743
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        1744,
+        1747
+      ]
+    },
+    {
+      "pos": [
+        1774,
+        1874
+      ],
+      "content": "Company apps and associated data installed by <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph>."
+    },
+    {
+      "content": "Apps are uninstalled.",
+      "pos": [
+        1875,
+        1896
+      ]
+    },
+    {
+      "content": "Company app data is removed.",
+      "pos": [
+        1897,
+        1925
+      ]
+    },
+    {
+      "content": "App data from Microsoft apps that use mobile app management is removed.",
+      "pos": [
+        1937,
+        2008
+      ]
+    },
+    {
+      "content": "The app is not removed.",
+      "pos": [
+        2009,
+        2032
+      ]
+    },
+    {
+      "content": "Settings",
+      "pos": [
+        2035,
+        2043
+      ]
+    },
+    {
+      "pos": [
+        2044,
+        2192
+      ],
+      "content": "Configurations that were set by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> policy are no longer enforced and users can change the settings."
+    },
+    {
+      "content": "Wi-Fi and VPN profile settings",
+      "pos": [
+        2195,
+        2225
+      ]
+    },
+    {
+      "content": "Removed",
+      "pos": [
+        2226,
+        2233
+      ]
+    },
+    {
+      "content": "Certificate profile settings",
+      "pos": [
+        2236,
+        2264
+      ]
+    },
+    {
+      "content": "Certificates removed and revoked.",
+      "pos": [
+        2265,
+        2298
+      ]
+    },
+    {
+      "content": "Management Agent",
+      "pos": [
+        2301,
+        2317
+      ]
+    },
+    {
+      "content": "Management profile is removed.",
+      "pos": [
+        2318,
+        2348
+      ]
+    },
+    {
+      "content": "Email",
+      "pos": [
+        2351,
+        2356
+      ]
+    },
+    {
+      "pos": [
+        2357,
+        2507
+      ],
+      "content": "Email profiles that are provisioned through <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> are removed and cached email on the device is deleted."
+    },
+    {
+      "content": "Azure Active Directory (AAD) Unjoin",
+      "pos": [
+        2510,
+        2545
+      ]
+    },
+    {
+      "content": "AAD Record removed",
+      "pos": [
+        2546,
+        2564
+      ]
+    },
+    {
+      "content": "Android",
+      "pos": [
+        2568,
+        2575
+      ]
+    },
+    {
+      "content": "Data type",
+      "pos": [
+        2580,
+        2589
+      ]
+    },
+    {
+      "content": "Android",
+      "pos": [
+        2590,
+        2597
+      ]
+    },
+    {
+      "content": "Android Samsung KNOX",
+      "pos": [
+        2598,
+        2618
+      ]
+    },
+    {
+      "content": "Web links",
+      "pos": [
+        2674,
+        2683
+      ]
+    },
+    {
+      "content": "Removed.",
+      "pos": [
+        2684,
+        2692
+      ]
+    },
+    {
+      "content": "Removed",
+      "pos": [
+        2693,
+        2700
+      ]
+    },
+    {
+      "content": "Unmanaged Google Play apps",
+      "pos": [
+        2703,
+        2729
+      ]
+    },
+    {
+      "content": "Apps and data remain installed",
+      "pos": [
+        2730,
+        2760
+      ]
+    },
+    {
+      "content": "Apps and data remain installed",
+      "pos": [
+        2761,
+        2791
+      ]
+    },
+    {
+      "content": "Unmanaged line of business apps",
+      "pos": [
+        2794,
+        2825
+      ]
+    },
+    {
+      "content": "Apps and data remain installed",
+      "pos": [
+        2826,
+        2856
+      ]
+    },
+    {
+      "content": "Apps are uninstalled and data local to app is removed as a result.",
+      "pos": [
+        2857,
+        2923
+      ]
+    },
+    {
+      "content": "No data outside the app (SD card, etc.) is removed.",
+      "pos": [
+        2924,
+        2975
+      ]
+    },
+    {
+      "content": "Managed Google Play apps",
+      "pos": [
+        2978,
+        3002
+      ]
+    },
+    {
+      "content": "App data is removed.",
+      "pos": [
+        3003,
+        3023
+      ]
+    },
+    {
+      "content": "App is not removed.",
+      "pos": [
+        3024,
+        3043
+      ]
+    },
+    {
+      "content": "Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted but aren't removed.",
+      "pos": [
+        3044,
+        3145
+      ]
+    },
+    {
+      "content": "App data is removed.",
+      "pos": [
+        3146,
+        3166
+      ]
+    },
+    {
+      "content": "App is not removed.",
+      "pos": [
+        3167,
+        3186
+      ]
+    },
+    {
+      "content": "Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted but aren't removed.",
+      "pos": [
+        3187,
+        3288
+      ]
+    },
+    {
+      "content": "Managed line of business apps",
+      "pos": [
+        3291,
+        3320
+      ]
+    },
+    {
+      "content": "App data is removed.",
+      "pos": [
+        3321,
+        3341
+      ]
+    },
+    {
+      "content": "App is not removed.",
+      "pos": [
+        3342,
+        3361
+      ]
+    },
+    {
+      "content": "Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted but aren't removed.",
+      "pos": [
+        3362,
+        3463
+      ]
+    },
+    {
+      "content": "App data is removed.",
+      "pos": [
+        3464,
+        3484
+      ]
+    },
+    {
+      "content": "App is not removed.",
+      "pos": [
+        3485,
+        3504
+      ]
+    },
+    {
+      "content": "Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted but aren't removed.",
+      "pos": [
+        3505,
+        3606
+      ]
+    },
+    {
+      "content": "Settings",
+      "pos": [
+        3609,
+        3617
+      ]
+    },
+    {
+      "pos": [
+        3618,
+        3766
+      ],
+      "content": "Configurations that were set by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> policy are no longer enforced and users can change the settings."
+    },
+    {
+      "pos": [
+        3767,
+        3915
+      ],
+      "content": "Configurations that were set by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> policy are no longer enforced and users can change the settings."
+    },
+    {
+      "content": "Wi-Fi and VPN profile settings",
+      "pos": [
+        3918,
+        3948
+      ]
+    },
+    {
+      "content": "Removed",
+      "pos": [
+        3949,
+        3956
+      ]
+    },
+    {
+      "content": "Removed",
+      "pos": [
+        3957,
+        3964
+      ]
+    },
+    {
+      "content": "Certificate profile settings",
+      "pos": [
+        3967,
+        3995
+      ]
+    },
+    {
+      "content": "Certificates revoked, but not removed.",
+      "pos": [
+        3996,
+        4034
+      ]
+    },
+    {
+      "content": "Certificates removed and revoked.",
+      "pos": [
+        4035,
+        4068
+      ]
+    },
+    {
+      "content": "Management Agent",
+      "pos": [
+        4071,
+        4087
+      ]
+    },
+    {
+      "content": "Device Administrator privilege is revoked.",
+      "pos": [
+        4088,
+        4130
+      ]
+    },
+    {
+      "content": "Device Administrator privilege is revoked.",
+      "pos": [
+        4131,
+        4173
+      ]
+    },
+    {
+      "content": "Email",
+      "pos": [
+        4176,
+        4181
+      ]
+    },
+    {
+      "content": "Email  received by the Microsoft Outlook app for Android  app is removed.",
+      "pos": [
+        4182,
+        4255
+      ]
+    },
+    {
+      "pos": [
+        4256,
+        4406
+      ],
+      "content": "Email profiles that are provisioned through <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> are removed and cached email on the device is deleted."
+    },
+    {
+      "content": "Azure Active Directory (AAD) Unjoin",
+      "pos": [
+        4409,
+        4444
+      ]
+    },
+    {
+      "content": "AAD Record removed",
+      "pos": [
+        4445,
+        4463
+      ]
+    },
+    {
+      "content": "AAD Record removed",
+      "pos": [
+        4464,
+        4482
+      ]
+    },
+    {
+      "content": "Windows",
+      "pos": [
+        4486,
+        4493
+      ]
+    },
+    {
+      "content": "Data type",
+      "pos": [
+        4498,
+        4507
+      ]
+    },
+    {
+      "content": "Windows 8.1 (enrolled as a mobile device) and Windows RT 8.1",
+      "pos": [
+        4508,
+        4568
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        4569,
+        4579
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        4580,
+        4617
+      ]
+    },
+    {
+      "pos": [
+        4758,
+        4858
+      ],
+      "content": "Company apps and associated data installed by <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph>."
+    },
+    {
+      "content": "Files protected by EFS will have their key revoked and the user will not be able to open the files.",
+      "pos": [
+        4859,
+        4958
+      ]
+    },
+    {
+      "content": "Will not remove company apps.",
+      "pos": [
+        4959,
+        4988
+      ]
+    },
+    {
+      "content": "Apps originally installed through the company portal are uninstalled.",
+      "pos": [
+        4989,
+        5058
+      ]
+    },
+    {
+      "content": "Company app data is removed.",
+      "pos": [
+        5059,
+        5087
+      ]
+    },
+    {
+      "content": "Settings",
+      "pos": [
+        5090,
+        5098
+      ]
+    },
+    {
+      "pos": [
+        5099,
+        5247
+      ],
+      "content": "Configurations that were set by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> policy are no longer enforced and users can change the settings."
+    },
+    {
+      "pos": [
+        5248,
+        5396
+      ],
+      "content": "Configurations that were set by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> policy are no longer enforced and users can change the settings."
+    },
+    {
+      "pos": [
+        5397,
+        5545
+      ],
+      "content": "Configurations that were set by <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> policy are no longer enforced and users can change the settings."
+    },
+    {
+      "content": "Wi-Fi and VPN profile settings",
+      "pos": [
+        5548,
+        5578
+      ]
+    },
+    {
+      "content": "Removed",
+      "pos": [
+        5579,
+        5586
+      ]
+    },
+    {
+      "content": "Removed",
+      "pos": [
+        5587,
+        5594
+      ]
+    },
+    {
+      "content": "Not supported",
+      "pos": [
+        5595,
+        5608
+      ]
+    },
+    {
+      "content": "Certificate profile settings",
+      "pos": [
+        5611,
+        5639
+      ]
+    },
+    {
+      "content": "Certificates removed and revoked.",
+      "pos": [
+        5640,
+        5673
+      ]
+    },
+    {
+      "content": "Certificates removed and revoked.",
+      "pos": [
+        5674,
+        5707
+      ]
+    },
+    {
+      "content": "Not supported",
+      "pos": [
+        5708,
+        5721
+      ]
+    },
+    {
+      "content": "Management Agent",
+      "pos": [
+        5724,
+        5740
+      ]
+    },
+    {
+      "content": "Not applicable.",
+      "pos": [
+        5741,
+        5756
+      ]
+    },
+    {
+      "content": "Management agent is built-in.",
+      "pos": [
+        5757,
+        5786
+      ]
+    },
+    {
+      "content": "Not applicable.",
+      "pos": [
+        5787,
+        5802
+      ]
+    },
+    {
+      "content": "Management agent is built-in.",
+      "pos": [
+        5803,
+        5832
+      ]
+    },
+    {
+      "content": "Not applicable.",
+      "pos": [
+        5833,
+        5848
+      ]
+    },
+    {
+      "content": "Management agent is built-in.",
+      "pos": [
+        5849,
+        5878
+      ]
+    },
+    {
+      "content": "Email",
+      "pos": [
+        5881,
+        5886
+      ]
+    },
+    {
+      "content": "Removes email that is EFS enabled which includes the Mail app for Windows email and attachments.",
+      "pos": [
+        5887,
+        5983
+      ]
+    },
+    {
+      "content": "Not supported",
+      "pos": [
+        5984,
+        5997
+      ]
+    },
+    {
+      "pos": [
+        5998,
+        6148
+      ],
+      "content": "Email profiles that are provisioned through <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> are removed and cached email on the device is deleted."
+    },
+    {
+      "content": "Azure Active Directory (AAD) Unjoin",
+      "pos": [
+        6151,
+        6186
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        6187,
+        6189
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        6190,
+        6192
+      ]
+    },
+    {
+      "content": "AAD Record removed",
+      "pos": [
+        6193,
+        6211
+      ]
+    },
+    {
+      "content": "To remotely wipe a device from the Intune administrator console",
+      "pos": [
+        6219,
+        6282
+      ]
+    },
+    {
+      "content": "Select devices to be wiped.",
+      "pos": [
+        6288,
+        6315
+      ]
+    },
+    {
+      "content": "You can find them either by user or by device.",
+      "pos": [
+        6316,
+        6362
+      ]
+    },
+    {
+      "content": "By user:",
+      "pos": [
+        6374,
+        6382
+      ]
+    },
+    {
+      "pos": [
+        6398,
+        6504
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Intune administrator console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>All Users<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "Click the name of the user whose mobile device you want to wipe.",
+      "pos": [
+        6518,
+        6582
+      ]
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>View Properties<ept id=\"p1\">**</ept>.",
+      "pos": [
+        6583,
+        6609
+      ]
+    },
+    {
+      "content": "On the user's <bpt id=\"p1\">**</bpt>Properties<ept id=\"p1\">**</ept>  page, click <bpt id=\"p2\">**</bpt>Devices<ept id=\"p2\">**</ept>, and then click the name of the mobile device you want to wipe.",
+      "pos": [
+        6623,
+        6740
+      ]
+    },
+    {
+      "content": "Use Ctrl+click to multi-select devices.",
+      "pos": [
+        6741,
+        6780
+      ]
+    },
+    {
+      "content": "By device:",
+      "pos": [
+        6792,
+        6802
+      ]
+    },
+    {
+      "pos": [
+        6818,
+        6933
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Intune administrator console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>All Mobile Devices<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "Click <bpt id=\"p1\">**</bpt>Devices<ept id=\"p1\">**</ept>, and then click the name of the mobile device you want to wipe.",
+      "pos": [
+        6947,
+        7028
+      ]
+    },
+    {
+      "content": "Use Ctrl+click to multi-select devices.",
+      "pos": [
+        7029,
+        7068
+      ]
+    },
+    {
+      "pos": [
+        7074,
+        7096
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Retire/Wipe<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "A message appears, prompting you to confirm whether you want to retire the device.",
+      "pos": [
+        7102,
+        7184
+      ]
+    },
+    {
+      "pos": [
+        7194,
+        7282
+      ],
+      "content": "To perform a <bpt id=\"p1\">**</bpt>Selective wipe<ept id=\"p1\">**</ept> which only removes company apps and data, click <bpt id=\"p2\">**</bpt>Yes<ept id=\"p2\">**</ept>."
+    },
+    {
+      "content": "To perform a <bpt id=\"p1\">**</bpt>Full wipe<ept id=\"p1\">**</ept> that erases all apps and data and returns the device to factory default settings, select <bpt id=\"p2\">**</bpt>Wipe the device before retiring<ept id=\"p2\">**</ept>.",
+      "pos": [
+        7292,
+        7444
+      ]
+    },
+    {
+      "content": "This action applies to all platforms except Windows 8.1.",
+      "pos": [
+        7445,
+        7501
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>You cannot recover data removed by a full wipe<ept id=\"p1\">**</ept>.",
+      "pos": [
+        7502,
+        7553
+      ]
+    },
+    {
+      "content": "It takes less than 15 minutes for a wipe to propagate across all device types.",
+      "pos": [
+        7555,
+        7633
+      ]
+    },
+    {
+      "content": "Wiping Encryption File System (EFS)-enabled content",
+      "pos": [
+        7639,
+        7690
+      ]
+    },
+    {
+      "content": "Selective wipe of EFS-encrypted content is supported by Windows 8.1 and Windows RT 8.1.",
+      "pos": [
+        7691,
+        7778
+      ]
+    },
+    {
+      "content": "The following apply to a selective wipe of EFS-enabled content:",
+      "pos": [
+        7779,
+        7842
+      ]
+    },
+    {
+      "content": "Only apps and data that are protected by EFS using the same Internet domain as the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> account are selectively wiped.",
+      "pos": [
+        7848,
+        8013
+      ]
+    },
+    {
+      "content": "For more information, see <bpt id=\"p1\">[</bpt>Windows Selective Wipe for Device Data Management<ept id=\"p1\">](http://technet.microsoft.com/library/dn486874.aspx)</ept>.",
+      "pos": [
+        8014,
+        8144
+      ]
+    },
+    {
+      "content": "If there are any changes are made to the domain associated with EFS, the changes can take up to 48 hours before apps and data using the new domain can be selectively wiped.",
+      "pos": [
+        8150,
+        8322
+      ]
+    },
+    {
+      "pos": [
+        8328,
+        8430
+      ],
+      "content": "Each domain that is registered with <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> will be wiped."
+    },
+    {
+      "content": "The data and apps that are currently supported by EFS selective wipe are:",
+      "pos": [
+        8432,
+        8505
+      ]
+    },
+    {
+      "content": "Mail app for Windows",
+      "pos": [
+        8511,
+        8531
+      ]
+    },
+    {
+      "content": "Work Folders",
+      "pos": [
+        8537,
+        8549
+      ]
+    },
+    {
+      "content": "Files and folders encrypted by EFS.",
+      "pos": [
+        8555,
+        8590
+      ]
+    },
+    {
+      "content": "For more information, see <bpt id=\"p1\">[</bpt>Best practices for the Encrypting File System<ept id=\"p1\">](http://support.microsoft.com/kb/223316)</ept>.",
+      "pos": [
+        8591,
+        8705
+      ]
+    },
+    {
+      "content": "If your organization maintains its identity in Active Directory, it must use the Directory Sync (DirSync) tool to sync information into AAD for EFS selective wipe to work correctly.",
+      "pos": [
+        8711,
+        8892
+      ]
+    },
+    {
+      "content": "For more information on DirSync, see <bpt id=\"p1\">[</bpt>Directory Sync Scenario<ept id=\"p1\">](http://technet.microsoft.com/library/dn441212.aspx)</ept> in the Azure Active Directory documentation.",
+      "pos": [
+        8894,
+        9053
+      ]
+    },
+    {
+      "content": "Monitor retire, wipe, and delete actions",
+      "pos": [
+        9059,
+        9099
+      ]
+    },
+    {
+      "content": "To get a report of devices that have been retired, wiped, or deleted, and who performed the action:",
+      "pos": [
+        9100,
+        9199
+      ]
+    },
+    {
+      "pos": [
+        9205,
+        9326
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Intune administrator  console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Reports<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Device History Reports<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        9332,
+        9404
+      ],
+      "content": "Provide a start and end date for the report, then click <bpt id=\"p1\">**</bpt>View Report<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        9410,
+        9468
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_passcode\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Reset the passcode on a device"
+    },
+    {
+      "content": "If a user forgets their passcode, you can help them by removing the passcode from a device or by forcing a new temporary passcode on a device.",
+      "pos": [
+        9469,
+        9611
+      ]
+    },
+    {
+      "content": "The table below lists how passcode reset works on different mobile platforms.",
+      "pos": [
+        9612,
+        9689
+      ]
+    },
+    {
+      "content": "Platform",
+      "pos": [
+        9692,
+        9700
+      ]
+    },
+    {
+      "content": "Passcode reset",
+      "pos": [
+        9701,
+        9715
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        9752,
+        9755
+      ]
+    },
+    {
+      "content": "Supported for clearing the passcode from a device.",
+      "pos": [
+        9756,
+        9806
+      ]
+    },
+    {
+      "content": "Does not create a new temporary passcode.",
+      "pos": [
+        9807,
+        9848
+      ]
+    },
+    {
+      "content": "Android",
+      "pos": [
+        9851,
+        9858
+      ]
+    },
+    {
+      "content": "Supported and a temporary passcode is created.",
+      "pos": [
+        9859,
+        9905
+      ]
+    },
+    {
+      "content": "Windows 10",
+      "pos": [
+        9908,
+        9918
+      ]
+    },
+    {
+      "content": "Not supported at this time.",
+      "pos": [
+        9919,
+        9946
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        9949,
+        9986
+      ]
+    },
+    {
+      "content": "Supported",
+      "pos": [
+        9987,
+        9996
+      ]
+    },
+    {
+      "pos": [
+        9999,
+        10122
+      ],
+      "content": "<ph id=\"ph1\">[!INCLUDE[winblue_winrt_2](../Token/winblue_winrt_2_md.md)]</ph> and <ph id=\"ph2\">[!INCLUDE[win8RT_client_1](../Token/win8RT_client_1_md.md)]</ph>"
+    },
+    {
+      "content": "Not Supported",
+      "pos": [
+        10123,
+        10136
+      ]
+    },
+    {
+      "content": "Windows 8.1",
+      "pos": [
+        10139,
+        10150
+      ]
+    },
+    {
+      "content": "Not Supported",
+      "pos": [
+        10151,
+        10164
+      ]
+    },
+    {
+      "content": "To reset the passcode on a mobile device remotely through the Microsoft Intune console",
+      "pos": [
+        10173,
+        10259
+      ]
+    },
+    {
+      "pos": [
+        10265,
+        10401
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Intue administrator  console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>All Devices<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>All Mobile Devices<ept id=\"p4\">**</ept>."
+    },
+    {
+      "pos": [
+        10407,
+        10522
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>All Direct Managed Devices<ept id=\"p1\">**</ept> for devices enrolled in Intune or <bpt id=\"p2\">**</bpt>All Exchange ActiveSync Managed Devices<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        10530,
+        10719
+      ],
+      "content": "[!TIP]\nYou can also navigate to a device by user. Click **All Users**. On the user's properties page, click **Devices**, and then click the name of the mobile device you want to wipe.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "You can also navigate to a device by user. Click **All Users**. On the user's properties page, click **Devices**, and then click the name of the mobile device you want to wipe.",
+          "pos": [
+            7,
+            183
+          ],
+          "nodes": [
+            {
+              "content": "You can also navigate to a device by user.",
+              "pos": [
+                0,
+                42
+              ]
+            },
+            {
+              "content": "Click <bpt id=\"p1\">**</bpt>All Users<ept id=\"p1\">**</ept>.",
+              "pos": [
+                43,
+                63
+              ]
+            },
+            {
+              "content": "On the user's properties page, click <bpt id=\"p1\">**</bpt>Devices<ept id=\"p1\">**</ept>, and then click the name of the mobile device you want to wipe.",
+              "pos": [
+                64,
+                176
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "In the list, click the device or devices that you want to lock.",
+      "pos": [
+        10725,
+        10788
+      ]
+    },
+    {
+      "content": "On the taskbar, click <bpt id=\"p1\">**</bpt>Remote Tasks<ept id=\"p1\">**</ept>, and select <bpt id=\"p2\">**</bpt>Passcode Reset<ept id=\"p2\">**</ept>.",
+      "pos": [
+        10789,
+        10859
+      ]
+    },
+    {
+      "content": "Lock a device remotely",
+      "pos": [
+        10865,
+        10887
+      ]
+    },
+    {
+      "content": "If a user loses their device you can lock the device remotely.",
+      "pos": [
+        10888,
+        10950
+      ]
+    },
+    {
+      "content": "The table below lists how remote lock works on different mobile platforms.",
+      "pos": [
+        10951,
+        11025
+      ]
+    },
+    {
+      "content": "Platform",
+      "pos": [
+        11028,
+        11036
+      ]
+    },
+    {
+      "content": "Remote lock",
+      "pos": [
+        11037,
+        11048
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        11082,
+        11085
+      ]
+    },
+    {
+      "content": "Supported",
+      "pos": [
+        11086,
+        11095
+      ]
+    },
+    {
+      "content": "Android",
+      "pos": [
+        11098,
+        11105
+      ]
+    },
+    {
+      "content": "Supported",
+      "pos": [
+        11106,
+        11115
+      ]
+    },
+    {
+      "content": "Windows 10",
+      "pos": [
+        11118,
+        11128
+      ]
+    },
+    {
+      "content": "Not supported at this time.",
+      "pos": [
+        11129,
+        11156
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        11159,
+        11196
+      ]
+    },
+    {
+      "content": "Supported",
+      "pos": [
+        11197,
+        11206
+      ]
+    },
+    {
+      "pos": [
+        11209,
+        11332
+      ],
+      "content": "<ph id=\"ph1\">[!INCLUDE[winblue_winrt_2](../Token/winblue_winrt_2_md.md)]</ph> and <ph id=\"ph2\">[!INCLUDE[win8RT_client_1](../Token/win8RT_client_1_md.md)]</ph>"
+    },
+    {
+      "content": "Supported if the current user of the device is the same user who enrolled the device.",
+      "pos": [
+        11333,
+        11418
+      ]
+    },
+    {
+      "content": "Windows 8.1",
+      "pos": [
+        11421,
+        11432
+      ]
+    },
+    {
+      "content": "Supported if the current user of the device is the same user who enrolled the device.",
+      "pos": [
+        11433,
+        11518
+      ]
+    },
+    {
+      "content": "To lock a mobile device remotely through the Microsoft Intune console",
+      "pos": [
+        11527,
+        11596
+      ]
+    },
+    {
+      "pos": [
+        11602,
+        11739
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Intune administrator  console<ept id=\"p1\">](https://manage.microsoft.com/)</ept>, click <bpt id=\"p2\">**</bpt>Groups<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>All Devices<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>All Mobile Devices<ept id=\"p4\">**</ept>."
+    },
+    {
+      "pos": [
+        11745,
+        11862
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>All Direct Managed Devices<ept id=\"p1\">**</ept> for devices enrolled in  Intune  or <bpt id=\"p2\">**</bpt>All Exchange ActiveSync Managed Devices<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        11870,
+        12059
+      ],
+      "content": "[!TIP]\nYou can also navigate to a device by user. Click **All Users**. On the user's properties page, click **Devices**, and then click the name of the mobile device you want to wipe.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "You can also navigate to a device by user. Click **All Users**. On the user's properties page, click **Devices**, and then click the name of the mobile device you want to wipe.",
+          "pos": [
+            7,
+            183
+          ],
+          "nodes": [
+            {
+              "content": "You can also navigate to a device by user.",
+              "pos": [
+                0,
+                42
+              ]
+            },
+            {
+              "content": "Click <bpt id=\"p1\">**</bpt>All Users<ept id=\"p1\">**</ept>.",
+              "pos": [
+                43,
+                63
+              ]
+            },
+            {
+              "content": "On the user's properties page, click <bpt id=\"p1\">**</bpt>Devices<ept id=\"p1\">**</ept>, and then click the name of the mobile device you want to wipe.",
+              "pos": [
+                64,
+                176
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "In the list, click the device or devices that you want to lock.",
+      "pos": [
+        12065,
+        12128
+      ]
+    },
+    {
+      "content": "On the taskbar, click <bpt id=\"p1\">**</bpt>Remote Tasks<ept id=\"p1\">**</ept>, and select <bpt id=\"p2\">**</bpt>Remote Lock<ept id=\"p2\">**</ept>.",
+      "pos": [
+        12129,
+        12196
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        12201,
+        12209
+      ]
+    },
+    {
+      "content": "Retire data and devices from Microsoft Intune management",
+      "pos": [
+        12211,
+        12267
+      ]
+    },
+    {
+      "content": "Windows Selective Wipe for Device Data Management",
+      "pos": [
+        12340,
+        12389
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: fbccc270-1eb9-4c3c-b787-b66de8763676\n---\n# MD Conversion - Help protect your data with remote wipe, remote lock, or passcode reset using Microsoft Intune\n[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] provides selective wipe, full wipe, remote lock, and passcode reset capabilities. Because mobile devices can store sensitive corporate data and provide access to many corporate resources, you can issue a remote device wipe command from the [!INCLUDE[wit_adminconsole](../Token/wit_adminconsole_md.md)] to wipe a lost or stolen device. Also, users can issue a remote device wipe command from the [!INCLUDE[wit_iwportal_1](../Token/wit_iwportal_1_md.md)] on privately owned devices enrolled in Intune.\n\n> [!NOTE]\n> This topic is only about wiping devices managed by Intune. You can also use [the Azure preview portal](https://portal.azure.com) to [wipe company data from apps](https://technet.microsoft.com/en-us/library/mt627826.aspx).\n\n## <a name=\"bkmk_wipe\"></a>Use Retire/Wipe to help secure a lost device or to retire a device from active use\n**Full wipe** restores a device to its factory default settings, removing all company and user data and settings.     The device is removed from Intune. **Be careful about selecting full wipe; your data cannot be recovered**.\n\n**Selective wipe** removes company data from a device.   The device is removed from Intune. The following tables describe by platform what data is removed and the effect on data that remains on the device after a selective wipe.\n\n**iOS**\n\n|Data type|iOS|\n|-------------|-------|\n|Company apps and associated data installed by [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)].|Apps are uninstalled. Company app data is removed.<br /><br />App data from Microsoft apps that use mobile app management is removed. The app is not removed.|\n|Settings|Configurations that were set by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] policy are no longer enforced and users can change the settings.|\n|Wi-Fi and VPN profile settings|Removed|\n|Certificate profile settings|Certificates removed and revoked.|\n|Management Agent|Management profile is removed.|\n|Email|Email profiles that are provisioned through [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] are removed and cached email on the device is deleted.|\n|Azure Active Directory (AAD) Unjoin|AAD Record removed|\n**Android**\n\n|Data type|Android|Android Samsung KNOX|\n|-------------|-----------|------------------------|\n|Web links|Removed.|Removed|\n|Unmanaged Google Play apps|Apps and data remain installed|Apps and data remain installed|\n|Unmanaged line of business apps|Apps and data remain installed|Apps are uninstalled and data local to app is removed as a result. No data outside the app (SD card, etc.) is removed.|\n|Managed Google Play apps|App data is removed. App is not removed. Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted but aren't removed.|App data is removed. App is not removed. Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted but aren't removed.|\n|Managed line of business apps|App data is removed. App is not removed. Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted but aren't removed.|App data is removed. App is not removed. Data protected by MAM encryption outside the app (SD card, etc.) remain encrypted but aren't removed.|\n|Settings|Configurations that were set by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] policy are no longer enforced and users can change the settings.|Configurations that were set by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] policy are no longer enforced and users can change the settings.|\n|Wi-Fi and VPN profile settings|Removed|Removed|\n|Certificate profile settings|Certificates revoked, but not removed.|Certificates removed and revoked.|\n|Management Agent|Device Administrator privilege is revoked.|Device Administrator privilege is revoked.|\n|Email|Email  received by the Microsoft Outlook app for Android  app is removed.|Email profiles that are provisioned through [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] are removed and cached email on the device is deleted.|\n|Azure Active Directory (AAD) Unjoin|AAD Record removed|AAD Record removed|\n**Windows**\n\n|Data type|Windows 8.1 (enrolled as a mobile device) and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|\n|-------------|----------------------------------------------------------------|--------------|-----------------------------------------|\n|Company apps and associated data installed by [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)].|Files protected by EFS will have their key revoked and the user will not be able to open the files.|Will not remove company apps.|Apps originally installed through the company portal are uninstalled. Company app data is removed.|\n|Settings|Configurations that were set by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] policy are no longer enforced and users can change the settings.|Configurations that were set by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] policy are no longer enforced and users can change the settings.|Configurations that were set by [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] policy are no longer enforced and users can change the settings.|\n|Wi-Fi and VPN profile settings|Removed|Removed|Not supported|\n|Certificate profile settings|Certificates removed and revoked.|Certificates removed and revoked.|Not supported|\n|Management Agent|Not applicable. Management agent is built-in.|Not applicable. Management agent is built-in.|Not applicable. Management agent is built-in.|\n|Email|Removes email that is EFS enabled which includes the Mail app for Windows email and attachments.|Not supported|Email profiles that are provisioned through [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] are removed and cached email on the device is deleted.|\n|Azure Active Directory (AAD) Unjoin|No|No|AAD Record removed|\n\n#### To remotely wipe a device from the Intune administrator console\n\n1.  Select devices to be wiped. You can find them either by user or by device.\n\n    -   **By user:**\n\n        1.  In the [Intune administrator console](https://manage.microsoft.com/), click **Groups** &gt; **All Users**.\n\n        2.  Click the name of the user whose mobile device you want to wipe. Click **View Properties**.\n\n        3.  On the user's **Properties**  page, click **Devices**, and then click the name of the mobile device you want to wipe. Use Ctrl+click to multi-select devices.\n\n    -   **By device:**\n\n        1.  In the [Intune administrator console](https://manage.microsoft.com/), click **Groups** &gt; **All Mobile Devices**.\n\n        2.  Click **Devices**, and then click the name of the mobile device you want to wipe. Use Ctrl+click to multi-select devices.\n\n2.  Click **Retire/Wipe**.\n\n3.  A message appears, prompting you to confirm whether you want to retire the device.\n\n    -   To perform a **Selective wipe** which only removes company apps and data, click **Yes**.\n\n    -   To perform a **Full wipe** that erases all apps and data and returns the device to factory default settings, select **Wipe the device before retiring**. This action applies to all platforms except Windows 8.1. **You cannot recover data removed by a full wipe**.\n\nIt takes less than 15 minutes for a wipe to propagate across all device types.\n\n### Wiping Encryption File System (EFS)-enabled content\nSelective wipe of EFS-encrypted content is supported by Windows 8.1 and Windows RT 8.1. The following apply to a selective wipe of EFS-enabled content:\n\n-   Only apps and data that are protected by EFS using the same Internet domain as the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] account are selectively wiped. For more information, see [Windows Selective Wipe for Device Data Management](http://technet.microsoft.com/library/dn486874.aspx).\n\n-   If there are any changes are made to the domain associated with EFS, the changes can take up to 48 hours before apps and data using the new domain can be selectively wiped.\n\n-   Each domain that is registered with [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] will be wiped.\n\nThe data and apps that are currently supported by EFS selective wipe are:\n\n-   Mail app for Windows\n\n-   Work Folders\n\n-   Files and folders encrypted by EFS. For more information, see [Best practices for the Encrypting File System](http://support.microsoft.com/kb/223316).\n\n-   If your organization maintains its identity in Active Directory, it must use the Directory Sync (DirSync) tool to sync information into AAD for EFS selective wipe to work correctly.  For more information on DirSync, see [Directory Sync Scenario](http://technet.microsoft.com/library/dn441212.aspx) in the Azure Active Directory documentation.\n\n### Monitor retire, wipe, and delete actions\nTo get a report of devices that have been retired, wiped, or deleted, and who performed the action:\n\n1.  In the [Intune administrator  console](https://manage.microsoft.com/), click **Reports** &gt; **Device History Reports**.\n\n2.  Provide a start and end date for the report, then click **View Report**.\n\n### <a name=\"BKMK_passcode\"></a>Reset the passcode on a device\nIf a user forgets their passcode, you can help them by removing the passcode from a device or by forcing a new temporary passcode on a device. The table below lists how passcode reset works on different mobile platforms.\n\n|Platform|Passcode reset|\n|------------|------------------|\n|iOS|Supported for clearing the passcode from a device. Does not create a new temporary passcode.|\n|Android|Supported and a temporary passcode is created.|\n|Windows 10|Not supported at this time.|\n|Windows Phone 8 and Windows Phone 8.1|Supported|\n|[!INCLUDE[winblue_winrt_2](../Token/winblue_winrt_2_md.md)] and [!INCLUDE[win8RT_client_1](../Token/win8RT_client_1_md.md)]|Not Supported|\n|Windows 8.1|Not Supported|\n\n##### To reset the passcode on a mobile device remotely through the Microsoft Intune console\n\n1.  In the [Intue administrator  console](https://manage.microsoft.com/), click **Groups** &gt; **All Devices** &gt; **All Mobile Devices**.\n\n2.  Click **All Direct Managed Devices** for devices enrolled in Intune or **All Exchange ActiveSync Managed Devices**.\n\n    > [!TIP]\n    > You can also navigate to a device by user. Click **All Users**. On the user's properties page, click **Devices**, and then click the name of the mobile device you want to wipe.\n\n3.  In the list, click the device or devices that you want to lock. On the taskbar, click **Remote Tasks**, and select **Passcode Reset**.\n\n### Lock a device remotely\nIf a user loses their device you can lock the device remotely. The table below lists how remote lock works on different mobile platforms.\n\n|Platform|Remote lock|\n|------------|---------------|\n|iOS|Supported|\n|Android|Supported|\n|Windows 10|Not supported at this time.|\n|Windows Phone 8 and Windows Phone 8.1|Supported|\n|[!INCLUDE[winblue_winrt_2](../Token/winblue_winrt_2_md.md)] and [!INCLUDE[win8RT_client_1](../Token/win8RT_client_1_md.md)]|Supported if the current user of the device is the same user who enrolled the device.|\n|Windows 8.1|Supported if the current user of the device is the same user who enrolled the device.|\n\n##### To lock a mobile device remotely through the Microsoft Intune console\n\n1.  In the [Intune administrator  console](https://manage.microsoft.com/), click **Groups** &gt; **All Devices** &gt; **All Mobile Devices**.\n\n2.  Click **All Direct Managed Devices** for devices enrolled in  Intune  or **All Exchange ActiveSync Managed Devices**.\n\n    > [!TIP]\n    > You can also navigate to a device by user. Click **All Users**. On the user's properties page, click **Devices**, and then click the name of the mobile device you want to wipe.\n\n3.  In the list, click the device or devices that you want to lock. On the taskbar, click **Remote Tasks**, and select **Remote Lock**.\n\n## See Also\n[Retire data and devices from Microsoft Intune management](../Topic/Retire-data-and-devices-from-Microsoft-Intune-management.md)\n[Windows Selective Wipe for Device Data Management](http://technet.microsoft.com/library/dn486874.aspx)\n\n"
+}

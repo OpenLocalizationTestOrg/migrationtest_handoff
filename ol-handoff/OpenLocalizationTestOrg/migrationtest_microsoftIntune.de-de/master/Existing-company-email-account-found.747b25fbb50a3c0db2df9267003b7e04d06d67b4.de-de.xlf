@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">df32ea43cedbed6b309eaea2a7bd3557ad23329a</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Existing company email account found</source>
+          <target>Existing company email account found</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Existing company email account found</source>
+          <target>Existing company email account found</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>You already have a company email account.</source>
+          <target>You already have a company email account.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>To continue to connect to your company email, you’ll need to take the following steps to enable your IT admin to properly set up and manage your account:</source>
+          <target>To continue to connect to your company email, you’ll need to take the following steps to enable your IT admin to properly set up and manage your account:</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> on your device, remove the connection you previously set up to your company email.</source>
+          <target>In <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> on your device, remove the connection you previously set up to your company email.</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>For example, on an iOS device, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Mail, Contacts, Calendar</pc>.</source>
+          <target>For example, on an iOS device, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Settings</pc> &amp;gt; <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Mail, Contacts, Calendar</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select your work email account, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Delete</pc>.</source>
+          <target>Select your work email account, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Delete</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Open the company portal app on your device and tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Check Compliance</pc>.</source>
+          <target>Open the company portal app on your device and tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Check Compliance</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>Wait a short time for new email settings to be applied to your device automatically.</source>
+          <target>Wait a short time for new email settings to be applied to your device automatically.</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>If new email settings do not appear after a while, contact your IT admin.</source>
+          <target>If new email settings do not appear after a while, contact your IT admin.</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

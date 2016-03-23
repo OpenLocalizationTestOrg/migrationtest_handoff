@@ -1,0 +1,2079 @@
+{
+  "nodes": [
+    {
+      "content": "MDUsing your Android device with Intune",
+      "pos": [
+        11,
+        50
+      ]
+    },
+    {
+      "content": "MDUsing your Android device with Intune",
+      "pos": [
+        185,
+        224
+      ]
+    },
+    {
+      "content": "Use these  steps for tasks that you need to do on your Android device when your company is using Microsoft Intune:",
+      "pos": [
+        225,
+        339
+      ]
+    },
+    {
+      "content": "Task category",
+      "pos": [
+        342,
+        355
+      ]
+    },
+    {
+      "content": "Tasks you can do",
+      "pos": [
+        356,
+        372
+      ]
+    },
+    {
+      "content": "Company Portal app installation and Intune enrollment",
+      "pos": [
+        416,
+        469
+      ]
+    },
+    {
+      "content": "Install the Microsoft Intune Company Portal app",
+      "pos": [
+        471,
+        518
+      ]
+    },
+    {
+      "content": "Sign in to the Company Portal",
+      "pos": [
+        559,
+        588
+      ]
+    },
+    {
+      "content": "Enroll your device in Intune",
+      "pos": [
+        624,
+        652
+      ]
+    },
+    {
+      "content": "What happens when I install the Company Portal app and enroll my device in Intune?",
+      "pos": [
+        690,
+        772
+      ]
+    },
+    {
+      "content": "Things you can do when your device is enrolled in Intune",
+      "pos": [
+        803,
+        859
+      ]
+    },
+    {
+      "content": "What is the Company Portal website and what can I do with it?",
+      "pos": [
+        861,
+        922
+      ]
+    },
+    {
+      "content": "Use managed apps on your device",
+      "pos": [
+        966,
+        997
+      ]
+    },
+    {
+      "content": "Encrypt your device",
+      "pos": [
+        1036,
+        1055
+      ]
+    },
+    {
+      "content": "Set your PIN or password",
+      "pos": [
+        1101,
+        1125
+      ]
+    },
+    {
+      "content": "Install your company's Virtual Private Network (VPN)",
+      "pos": [
+        1159,
+        1211
+      ]
+    },
+    {
+      "content": "Set the amount of time before your device is locked",
+      "pos": [
+        1249,
+        1300
+      ]
+    },
+    {
+      "content": "Reset (erase) your lost or stolen device",
+      "pos": [
+        1345,
+        1385
+      ]
+    },
+    {
+      "content": "Turn off Microsoft usage data collection",
+      "pos": [
+        1429,
+        1469
+      ]
+    },
+    {
+      "content": "Unenroll your device from Intune by using the Company Portal app",
+      "pos": [
+        1508,
+        1572
+      ]
+    },
+    {
+      "content": "Unenroll your device from Intune if you declined Terms of Use",
+      "pos": [
+        1617,
+        1678
+      ]
+    },
+    {
+      "content": "What happens when you unenroll your device from Intune?",
+      "pos": [
+        1720,
+        1775
+      ]
+    },
+    {
+      "content": "Fix issues with your device",
+      "pos": [
+        1811,
+        1838
+      ]
+    },
+    {
+      "content": "Use Verbose Logging to help your IT admin fix issues",
+      "pos": [
+        1840,
+        1892
+      ]
+    },
+    {
+      "content": "Send diagnostic data logs to your IT admin using email",
+      "pos": [
+        1933,
+        1987
+      ]
+    },
+    {
+      "content": "Send diagnostic data logs to your IT admin using a USB cable",
+      "pos": [
+        2028,
+        2088
+      ]
+    },
+    {
+      "content": "Send enrollment errors to your IT admin",
+      "pos": [
+        2133,
+        2172
+      ]
+    },
+    {
+      "content": "Device doesn't have the required minimum operating system version",
+      "pos": [
+        2217,
+        2282
+      ]
+    },
+    {
+      "content": "Device doesn't comply with the maximum operating system version",
+      "pos": [
+        2318,
+        2381
+      ]
+    },
+    {
+      "content": "Your device is rooted and you can't connect",
+      "pos": [
+        2417,
+        2460
+      ]
+    },
+    {
+      "pos": [
+        2493,
+        2579
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_install_cp_app\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Install the Microsoft Intune Company Portal app"
+    },
+    {
+      "content": "The Company Portal is an app that you install on your device to give you access to your company or school apps, email, and network.",
+      "pos": [
+        2580,
+        2711
+      ]
+    },
+    {
+      "content": "Before you can get access, you have to install the Company Portal app, and then  use the app to enroll your device in Microsoft Intune.",
+      "pos": [
+        2713,
+        2848
+      ]
+    },
+    {
+      "content": "To find out more about what enrolling means, see <bpt id=\"p1\">[</bpt>What happens when I install the Company Portal app and enroll my device in Intune?<ept id=\"p1\">](#BKMK_andr_what_happs_add)</ept>.",
+      "pos": [
+        2849,
+        3010
+      ]
+    },
+    {
+      "pos": [
+        3016,
+        3049
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Home<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Play Store<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        3055,
+        3102
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Search<ept id=\"p1\">**</ept> box, type <bpt id=\"p2\">**</bpt>company portal<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        3108,
+        3138
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Intune Company Portal<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        3206,
+        3222
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>INSTALL<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        3288,
+        3303
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>ACCEPT<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        3370,
+        3433
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_signin_cp\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Sign in to the Company Portal"
+    },
+    {
+      "content": "After you install the Company Portal app, you'll need to sign in to the app to enroll your device in Intune.",
+      "pos": [
+        3434,
+        3542
+      ]
+    },
+    {
+      "content": "Once you enroll, you can  sign in to the Company Portal anytime to download company apps and do other tasks.",
+      "pos": [
+        3543,
+        3651
+      ]
+    },
+    {
+      "content": "For more about what you can do, see <bpt id=\"p1\">[</bpt>What happens when I install the Company Portal app and enroll my device in Intune?<ept id=\"p1\">](#BKMK_andr_what_happs_add)</ept>.",
+      "pos": [
+        3652,
+        3800
+      ]
+    },
+    {
+      "pos": [
+        3806,
+        3850
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Company Portal<ept id=\"p1\">**</ept> in your list of apps."
+    },
+    {
+      "pos": [
+        3920,
+        3963
+      ],
+      "content": "On the <bpt id=\"p1\">**</bpt>Welcome<ept id=\"p1\">**</ept> screen, tap <bpt id=\"p2\">**</bpt>Sign in<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        4033,
+        4109
+      ],
+      "content": "Enter your work or school email and your password, and then Tap <bpt id=\"p1\">**</bpt>Sign in<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "If you are signing into the Company Portal app for the first time, and your company or school is using Intune, you will be prompted to enroll your device in Intune.",
+      "pos": [
+        4175,
+        4339
+      ]
+    },
+    {
+      "content": "To enroll, follow the steps in <bpt id=\"p1\">[</bpt>Enroll your device in Intune<ept id=\"p1\">](#BKMK_andr_enroll_devc)</ept>.",
+      "pos": [
+        4340,
+        4426
+      ]
+    },
+    {
+      "content": "For Android 6.0 or later devices only:",
+      "pos": [
+        4434,
+        4472
+      ]
+    },
+    {
+      "content": "When you sign in to the Company Portal app for the first time to enroll your device, you see the message, <bpt id=\"p1\">**</bpt>Allow Company Portal to make and manage phone calls?<ept id=\"p1\">**</ept>.",
+      "pos": [
+        4480,
+        4643
+      ]
+    },
+    {
+      "content": "This message is misleading, because <bpt id=\"p1\">**</bpt>Microsoft never makes or manages your phone calls!<ept id=\"p1\">**</ept>",
+      "pos": [
+        4644,
+        4734
+      ]
+    },
+    {
+      "content": "Google controls the message text, so Microsoft cannot change it.",
+      "pos": [
+        4735,
+        4799
+      ]
+    },
+    {
+      "content": "When you allow access, all you're doing is allowing the Company Portal app to see your phone number and an ID called an IMEI.",
+      "pos": [
+        4801,
+        4926
+      ]
+    },
+    {
+      "content": "If you deny access, the message will appear again the next time you sign in to the Company Portal, but you can turn off future messages by tapping the <bpt id=\"p1\">**</bpt>Never ask again<ept id=\"p1\">**</ept> check box.",
+      "pos": [
+        4932,
+        5113
+      ]
+    },
+    {
+      "content": "If you later decide to allow access, go to <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Apps<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Company Portal<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Permissions<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>Phone<ept id=\"p5\">**</ept>, and then turn on the permission.",
+      "pos": [
+        5115,
+        5278
+      ]
+    },
+    {
+      "pos": [
+        5343,
+        5407
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_enroll_devc\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Enroll your device in Intune"
+    },
+    {
+      "content": "When you enroll your device in Intune, you can access the company’s network, and get your work email,  work files, and company apps.",
+      "pos": [
+        5408,
+        5540
+      ]
+    },
+    {
+      "content": "To find out more about what you can do when you enroll, see <bpt id=\"p1\">[</bpt>What happens when I install the Company Portal app and enroll my device in Intune?<ept id=\"p1\">](#BKMK_andr_what_happs_add)</ept>.",
+      "pos": [
+        5541,
+        5713
+      ]
+    },
+    {
+      "content": "If you have issues while trying to enroll, see <bpt id=\"p1\">[</bpt>Send enrollment errors to your IT admin<ept id=\"p1\">](#BKMK_andr_send_enroll_errors)</ept>.",
+      "pos": [
+        5714,
+        5834
+      ]
+    },
+    {
+      "content": "To enroll, use the steps that match the type of device you have:",
+      "pos": [
+        5836,
+        5900
+      ]
+    },
+    {
+      "content": "Enroll your native (not a Samsung Knox) device in Intune",
+      "pos": [
+        5907,
+        5963
+      ]
+    },
+    {
+      "content": "Enroll your Samsung Knox device in Intune",
+      "pos": [
+        5997,
+        6038
+      ]
+    },
+    {
+      "pos": [
+        6069,
+        6163
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_enroll_native\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Enroll your native (not a Samsung Knox) device in Intune"
+    },
+    {
+      "content": "The instructions for enrolling are different for a Samsung Knox Android device versus a \"native,\" non-Samsung Knox Android device.",
+      "pos": [
+        6164,
+        6294
+      ]
+    },
+    {
+      "content": "To determine if you have a Samsung Knox device, go to <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>About phone<ept id=\"p2\">**</ept>.",
+      "pos": [
+        6295,
+        6383
+      ]
+    },
+    {
+      "content": "If you don't see the word  \"Knox\" listed there, follow these enrollment instructions.",
+      "pos": [
+        6384,
+        6469
+      ]
+    },
+    {
+      "pos": [
+        6475,
+        6584
+      ],
+      "content": "On the Company Portal <bpt id=\"p1\">**</bpt>Welcome<ept id=\"p1\">**</ept> screen, tap <bpt id=\"p2\">**</bpt>Sign in<ept id=\"p2\">**</ept>, and then sign in with your work or school account."
+    },
+    {
+      "pos": [
+        6654,
+        6743
+      ],
+      "content": "If your IT admin set up company terms and conditions, tap <bpt id=\"p1\">**</bpt>ACCEPT<ept id=\"p1\">**</ept> to accept the terms."
+    },
+    {
+      "pos": [
+        6811,
+        6826
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>ENROLL<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        6888,
+        6905
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Activate<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "Follow the prompts to enter a PIN or password.",
+      "pos": [
+        6976,
+        7022
+      ]
+    },
+    {
+      "content": "If you already set up a PIN or password on this device, you won't see this screen or be required to enter a new PIN or password.",
+      "pos": [
+        7023,
+        7151
+      ]
+    },
+    {
+      "pos": [
+        7217,
+        7303
+      ],
+      "content": "On the  <bpt id=\"p1\">**</bpt>Name the certificate<ept id=\"p1\">**</ept> screen, tap <bpt id=\"p2\">**</bpt>OK<ept id=\"p2\">**</ept> to accept the default certificate."
+    },
+    {
+      "content": "Your device is now enrolled in Intune.",
+      "pos": [
+        7370,
+        7408
+      ]
+    },
+    {
+      "pos": [
+        7410,
+        7553
+      ],
+      "content": "If you get an error while trying to enroll your device in Intune, see <bpt id=\"p1\">[</bpt>Send enrollment errors to your IT admin<ept id=\"p1\">](#BKMK_andr_send_enroll_errors)</ept>."
+    },
+    {
+      "pos": [
+        7559,
+        7636
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_enroll_knox\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Enroll your Samsung Knox device in Intune"
+    },
+    {
+      "content": "To determine if you have a Samsung Knox device, go to <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>About phone<ept id=\"p2\">**</ept>.",
+      "pos": [
+        7637,
+        7725
+      ]
+    },
+    {
+      "content": "If you see \"Knox\" listed there, you have a Samsung Knox device.",
+      "pos": [
+        7726,
+        7789
+      ]
+    },
+    {
+      "pos": [
+        7795,
+        7900
+      ],
+      "content": "On the Company Portal Welcome screen, tap <bpt id=\"p1\">**</bpt>Sign in<ept id=\"p1\">**</ept>, and then sign in with your work or school account."
+    },
+    {
+      "pos": [
+        7970,
+        8059
+      ],
+      "content": "If your IT admin set up company terms and conditions, tap <bpt id=\"p1\">**</bpt>ACCEPT<ept id=\"p1\">**</ept> to accept the terms."
+    },
+    {
+      "pos": [
+        8127,
+        8142
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>ENROLL<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        8204,
+        8221
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>ACTIVATE<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        8285,
+        8344
+      ],
+      "content": "Accept the Samsung Knox Privacy Policy and tap <bpt id=\"p1\">**</bpt>CONFIRM<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "Your device is now enrolled in Intune.",
+      "pos": [
+        8406,
+        8444
+      ]
+    },
+    {
+      "pos": [
+        8449,
+        8570
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_what_happs_add\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>What happens when I install the Company Portal app and enroll my device in Intune?"
+    },
+    {
+      "content": "You start by installing the Company Portal app, and then use the app to enroll your device in Intune.",
+      "pos": [
+        8571,
+        8672
+      ]
+    },
+    {
+      "content": "Once your device is enrolled, you  can use the Company Portal app to:",
+      "pos": [
+        8673,
+        8742
+      ]
+    },
+    {
+      "content": "Access the company network, email, and work files",
+      "pos": [
+        8748,
+        8797
+      ]
+    },
+    {
+      "content": "Get company apps from the Company Portal app or Company Portal website",
+      "pos": [
+        8803,
+        8873
+      ]
+    },
+    {
+      "content": "Automatically configure your company email account",
+      "pos": [
+        8879,
+        8929
+      ]
+    },
+    {
+      "content": "Reset your phone to factory settings if it is lost or stolen",
+      "pos": [
+        8935,
+        8995
+      ]
+    },
+    {
+      "content": "When  you enroll your device in Intune, you are giving your IT administrator permission to manage your device to help protect the company information on the device.",
+      "pos": [
+        8997,
+        9161
+      ]
+    },
+    {
+      "content": "What IT cannot see",
+      "pos": [
+        9165,
+        9183
+      ]
+    },
+    {
+      "content": "Call history",
+      "pos": [
+        9191,
+        9203
+      ]
+    },
+    {
+      "content": "Text messages",
+      "pos": [
+        9209,
+        9222
+      ]
+    },
+    {
+      "content": "Personal email, contacts, and calendar",
+      "pos": [
+        9228,
+        9266
+      ]
+    },
+    {
+      "content": "Web history",
+      "pos": [
+        9272,
+        9283
+      ]
+    },
+    {
+      "content": "Location",
+      "pos": [
+        9289,
+        9297
+      ]
+    },
+    {
+      "content": "Camera roll",
+      "pos": [
+        9303,
+        9314
+      ]
+    },
+    {
+      "content": "Personal data",
+      "pos": [
+        9320,
+        9333
+      ]
+    },
+    {
+      "content": "What IT can see",
+      "pos": [
+        9337,
+        9352
+      ]
+    },
+    {
+      "content": "Owner",
+      "pos": [
+        9360,
+        9365
+      ]
+    },
+    {
+      "content": "Device name",
+      "pos": [
+        9371,
+        9382
+      ]
+    },
+    {
+      "content": "Serial number",
+      "pos": [
+        9388,
+        9401
+      ]
+    },
+    {
+      "content": "Manufacturer",
+      "pos": [
+        9407,
+        9419
+      ]
+    },
+    {
+      "content": "Model",
+      "pos": [
+        9425,
+        9430
+      ]
+    },
+    {
+      "content": "Operating system",
+      "pos": [
+        9436,
+        9452
+      ]
+    },
+    {
+      "content": "Company apps",
+      "pos": [
+        9458,
+        9470
+      ]
+    },
+    {
+      "content": "Personal apps",
+      "pos": [
+        9476,
+        9489
+      ]
+    },
+    {
+      "content": "When you add your Android device, you are giving your IT administrator permission to access the device.",
+      "pos": [
+        9491,
+        9594
+      ]
+    },
+    {
+      "content": "They can do things like:",
+      "pos": [
+        9595,
+        9619
+      ]
+    },
+    {
+      "content": "Reset your device back to manufacturer’s defaults.",
+      "pos": [
+        9625,
+        9675
+      ]
+    },
+    {
+      "content": "This is helpful if the device is lost or stolen.",
+      "pos": [
+        9676,
+        9724
+      ]
+    },
+    {
+      "content": "Remove all company related data.",
+      "pos": [
+        9730,
+        9762
+      ]
+    },
+    {
+      "content": "Your personal data and settings aren’t removed.",
+      "pos": [
+        9763,
+        9810
+      ]
+    },
+    {
+      "content": "Force you to have a password or PIN on the device, which may lock you out of the device, or reset your device back to manufacturer’s default settings, which may include the deletion of data, if there are too many incorrect password attempts.",
+      "pos": [
+        9816,
+        10057
+      ]
+    },
+    {
+      "content": "Require you to accept terms and conditions.",
+      "pos": [
+        10063,
+        10106
+      ]
+    },
+    {
+      "content": "Enable or disable the camera on your device.",
+      "pos": [
+        10112,
+        10156
+      ]
+    },
+    {
+      "content": "Force all the data, including corporate and personal data, on the device to be encrypted.",
+      "pos": [
+        10162,
+        10251
+      ]
+    },
+    {
+      "content": "This helps protect the data if the device is lost or stolen.",
+      "pos": [
+        10252,
+        10312
+      ]
+    },
+    {
+      "content": "After your device is added to the Company Portal, approximately every 8 hours it will:",
+      "pos": [
+        10318,
+        10404
+      ]
+    },
+    {
+      "content": "Download any policy or app updates that your IT administrator has made available.",
+      "pos": [
+        10414,
+        10495
+      ]
+    },
+    {
+      "content": "Send any hardware inventory updates (these updates do not contain personal information).",
+      "pos": [
+        10505,
+        10593
+      ]
+    },
+    {
+      "content": "Send any company app inventory updates (these updates do not contain personal information).",
+      "pos": [
+        10603,
+        10694
+      ]
+    },
+    {
+      "content": "What happens if I reset my Android device using the Company Portal?",
+      "pos": [
+        10699,
+        10766
+      ]
+    },
+    {
+      "content": "When you use the Company Portal to reset your personal device, some apps and settings on your device may be deleted, including some of your personal data.",
+      "pos": [
+        10767,
+        10921
+      ]
+    },
+    {
+      "content": "What happens on each device depends on the type of device you have and how you are using the device, as described in the following table.",
+      "pos": [
+        10922,
+        11059
+      ]
+    },
+    {
+      "content": "Device configuration and management",
+      "pos": [
+        11062,
+        11097
+      ]
+    },
+    {
+      "content": "Device type",
+      "pos": [
+        11098,
+        11109
+      ]
+    },
+    {
+      "content": "Your IT admin manages your mobile device",
+      "pos": [
+        11170,
+        11210
+      ]
+    },
+    {
+      "content": "Android",
+      "pos": [
+        11213,
+        11220
+      ]
+    },
+    {
+      "content": "When you reset your Android device, your device won’t appear in the company portal anymore and your company email account will be deleted and unsaved email will be deleted.",
+      "pos": [
+        11234,
+        11406
+      ]
+    },
+    {
+      "content": "Your device can access company email only",
+      "pos": [
+        11409,
+        11450
+      ]
+    },
+    {
+      "content": "Android",
+      "pos": [
+        11453,
+        11460
+      ]
+    },
+    {
+      "content": "When you reset your Android device, your device won’t appear in the company portal anymore and the company portal tries to reset the device back to the manufacturer’s defaults.",
+      "pos": [
+        11474,
+        11650
+      ]
+    },
+    {
+      "content": "All your personal data and settings will be removed.",
+      "pos": [
+        11651,
+        11703
+      ]
+    },
+    {
+      "pos": [
+        11709,
+        11812
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_whatis_cp_website\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>What is the Company Portal website and what can I do with it?"
+    },
+    {
+      "content": "The <bpt id=\"p1\">[</bpt>Company Portal website<ept id=\"p1\">](http://portal.manage.microsoft.com)</ept> is your company’s web interface that you use to manage your work computers and devices, and your personal computers and devices that you choose to use at work.",
+      "pos": [
+        11813,
+        12037
+      ]
+    },
+    {
+      "content": "You can do most of the same tasks on this website that you can do by using the Company Portal app that you install on your device.",
+      "pos": [
+        12038,
+        12168
+      ]
+    },
+    {
+      "content": "You can do the following tasks from the Company Portal website:",
+      "pos": [
+        12170,
+        12233
+      ]
+    },
+    {
+      "content": "Browse for and download company apps",
+      "pos": [
+        12239,
+        12275
+      ]
+    },
+    {
+      "content": "Rename your device",
+      "pos": [
+        12281,
+        12299
+      ]
+    },
+    {
+      "content": "Remove your device from Intune",
+      "pos": [
+        12305,
+        12335
+      ]
+    },
+    {
+      "content": "Reset your mobile device to its factory default settings",
+      "pos": [
+        12341,
+        12397
+      ]
+    },
+    {
+      "content": "Find contact information for your IT administrator",
+      "pos": [
+        12403,
+        12453
+      ]
+    },
+    {
+      "pos": [
+        12458,
+        12526
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_use_mgd_apps\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Use managed apps on your device"
+    },
+    {
+      "content": "Managed apps are apps that your IT administrator can configure to help protect company data that you can access in that app.",
+      "pos": [
+        12527,
+        12651
+      ]
+    },
+    {
+      "content": "When you access company data in a managed app, you may notice that the app works a little differently from what you expect.",
+      "pos": [
+        12652,
+        12775
+      ]
+    },
+    {
+      "content": "For example, you might not be able to copy and paste protected company data, or you might not be able to save that data to certain locations.",
+      "pos": [
+        12776,
+        12917
+      ]
+    },
+    {
+      "content": "Different managed apps can also work together on your device to allow you to do your daily tasks, while keeping corporate data protected.",
+      "pos": [
+        12919,
+        13056
+      ]
+    },
+    {
+      "content": "For example, if you open a company file in one managed app, and another managed app is required to view that file, the managed app that allows you to view the file opens automatically.",
+      "pos": [
+        13057,
+        13241
+      ]
+    },
+    {
+      "content": "If a required app is not available, certain actions, like opening a document or accessing a web link from within a managed document, might not be available.",
+      "pos": [
+        13242,
+        13398
+      ]
+    },
+    {
+      "content": "When you access company data in a managed app, you see a message like the one below, which lets you know that the app you are opening is managed.",
+      "pos": [
+        13400,
+        13545
+      ]
+    },
+    {
+      "content": "How do I get managed apps?",
+      "pos": [
+        13604,
+        13630
+      ]
+    },
+    {
+      "content": "You get managed apps in a couple of different ways:",
+      "pos": [
+        13631,
+        13682
+      ]
+    },
+    {
+      "content": "When your device is enrolled in Microsoft Intune, you either install the app from your Company Portal app or Company Portal website, or your IT admin might install it on your device.",
+      "pos": [
+        13688,
+        13870
+      ]
+    },
+    {
+      "content": "To find out about enrollment, see <bpt id=\"p1\">[</bpt>Enroll your device in Intune<ept id=\"p1\">](#BKMK_andr_enroll_devc)</ept>.",
+      "pos": [
+        13871,
+        13960
+      ]
+    },
+    {
+      "content": "You install an app from the Play Store and then sign in with your corporate user account that is managed by Intune.",
+      "pos": [
+        13966,
+        14081
+      ]
+    },
+    {
+      "content": "What can my IT admin manage in an app?",
+      "pos": [
+        14087,
+        14125
+      ]
+    },
+    {
+      "content": "Here are some examples of options that your IT admin can manage in an app and that can affect your interactions with company data on your device:",
+      "pos": [
+        14126,
+        14271
+      ]
+    },
+    {
+      "content": "Access to specific websites",
+      "pos": [
+        14277,
+        14304
+      ]
+    },
+    {
+      "content": "Transfers of data between apps",
+      "pos": [
+        14310,
+        14340
+      ]
+    },
+    {
+      "content": "Saving files",
+      "pos": [
+        14346,
+        14358
+      ]
+    },
+    {
+      "content": "Copy and paste operations",
+      "pos": [
+        14364,
+        14389
+      ]
+    },
+    {
+      "content": "PIN access requirements",
+      "pos": [
+        14395,
+        14418
+      ]
+    },
+    {
+      "content": "Your login, using company credentials",
+      "pos": [
+        14424,
+        14461
+      ]
+    },
+    {
+      "content": "Ability to back up to the cloud",
+      "pos": [
+        14467,
+        14498
+      ]
+    },
+    {
+      "content": "Ability to take screenshots",
+      "pos": [
+        14504,
+        14531
+      ]
+    },
+    {
+      "content": "Data encryption requirements",
+      "pos": [
+        14537,
+        14565
+      ]
+    },
+    {
+      "content": "Some common apps that your IT department might manage are:",
+      "pos": [
+        14567,
+        14625
+      ]
+    },
+    {
+      "content": "Managed web browser",
+      "pos": [
+        14631,
+        14650
+      ]
+    },
+    {
+      "content": "Managed image viewer",
+      "pos": [
+        14656,
+        14676
+      ]
+    },
+    {
+      "content": "Managed PDF viewer",
+      "pos": [
+        14682,
+        14700
+      ]
+    },
+    {
+      "content": "Managed AV player",
+      "pos": [
+        14706,
+        14723
+      ]
+    },
+    {
+      "content": "Microsoft Word, Excel, PowerPoint",
+      "pos": [
+        14729,
+        14762
+      ]
+    },
+    {
+      "content": "Contact your IT admin for more information about the managed apps on your device.",
+      "pos": [
+        14764,
+        14845
+      ]
+    },
+    {
+      "pos": [
+        14850,
+        14913
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_encrypt_your_device\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Encrypt your device"
+    },
+    {
+      "content": "If your company or organization requires you to encrypt your device before you can access company files, email, or data, follow these steps to encrypt your device:",
+      "pos": [
+        14914,
+        15077
+      ]
+    },
+    {
+      "content": "Ensure that your device is connected to the charger.",
+      "pos": [
+        15083,
+        15135
+      ]
+    },
+    {
+      "content": "Tap <bpt id=\"p1\">**</bpt>Search<ept id=\"p1\">**</ept>.",
+      "pos": [
+        15141,
+        15156
+      ]
+    },
+    {
+      "content": "In the Search box, type <bpt id=\"p1\">**</bpt>company portal<ept id=\"p1\">**</ept>.",
+      "pos": [
+        15157,
+        15200
+      ]
+    },
+    {
+      "content": "Ensure that a screen lock PIN or password has been set for your device.",
+      "pos": [
+        15206,
+        15277
+      ]
+    },
+    {
+      "pos": [
+        15283,
+        15422
+      ],
+      "content": "In Settings, click **Security** &gt; **Encrypt Phone**.\n(On some phones, you’ll need to click **Storage** &gt; **Storage encryption**).",
+      "leadings": [
+        "",
+        "    "
+      ],
+      "nodes": [
+        {
+          "content": "In Settings, click <bpt id=\"p1\">**</bpt>Security<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Encrypt Phone<ept id=\"p2\">**</ept>.",
+          "pos": [
+            0,
+            55
+          ]
+        },
+        {
+          "content": "(On some phones, you’ll need to click <bpt id=\"p1\">**</bpt>Storage<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Storage encryption<ept id=\"p2\">**</ept>).",
+          "pos": [
+            56,
+            135
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Follow the on-screen instructions.",
+      "pos": [
+        15428,
+        15462
+      ]
+    },
+    {
+      "content": "During encryption, your device might restart several times.",
+      "pos": [
+        15463,
+        15522
+      ]
+    },
+    {
+      "pos": [
+        15528,
+        15712
+      ],
+      "content": "Ensure that your device is enrolled with Microsoft Intune by following the instructions in <bpt id=\"p1\">[</bpt>Enroll your device in Microsoft Intune<ept id=\"p1\">](../Topic/Enroll-your-device-in-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "pos": [
+        15717,
+        15773
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_set_pin\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Set your PIN or password"
+    },
+    {
+      "pos": [
+        15779,
+        15854
+      ],
+      "content": "Tap  <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Security<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Screen Lock<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Password<ept id=\"p4\">**</ept>."
+    },
+    {
+      "content": "Choose and confirm your new password.",
+      "pos": [
+        15860,
+        15897
+      ]
+    },
+    {
+      "pos": [
+        15903,
+        16049
+      ],
+      "content": "Ensure that your device is enrolled with Microsoft Intune by following the instructions in <bpt id=\"p1\">[</bpt>Enroll your device in Intune<ept id=\"p1\">](#BKMK_andr_enroll_devc)</ept>."
+    },
+    {
+      "pos": [
+        16055,
+        16084
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>GET<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>INSTALL<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        16089,
+        16177
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_install_vpn\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Install your company's Virtual Private Network (VPN)"
+    },
+    {
+      "content": "If your IT administrator has configured a VPN application to enable you to  connect to your company's resources, you'll see a notification on your device indicating that you need to install a VPN app.",
+      "pos": [
+        16178,
+        16378
+      ]
+    },
+    {
+      "content": "Follow these steps to install the VPN app:",
+      "pos": [
+        16379,
+        16421
+      ]
+    },
+    {
+      "pos": [
+        16427,
+        16507
+      ],
+      "content": "Pull down the notification drawer, and tap <bpt id=\"p1\">**</bpt>Tap to install this required app<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        16513,
+        16596
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Play Store<ept id=\"p1\">**</ept>, click <bpt id=\"p2\">**</bpt>INSTALL<ept id=\"p2\">**</ept> and follow the prompts to install the app."
+    },
+    {
+      "pos": [
+        16602,
+        16694
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Install corporate VPN profile<ept id=\"p1\">**</ept> and follow the prompts to accept and activate the app."
+    },
+    {
+      "pos": [
+        16699,
+        16793
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_set_time_befr_lock\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Set the amount of time before your device is locked"
+    },
+    {
+      "pos": [
+        16799,
+        16933
+      ],
+      "content": "In <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> on your device, click <bpt id=\"p2\">**</bpt>Security<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Automatically Lock<ept id=\"p3\">**</ept> (this appears as <bpt id=\"p4\">**</bpt>Lock phone after<ept id=\"p4\">**</ept> on some devices)."
+    },
+    {
+      "content": "Specify the password timeout value.",
+      "pos": [
+        16939,
+        16974
+      ]
+    },
+    {
+      "pos": [
+        16980,
+        17163
+      ],
+      "content": "Ensure that your device is enrolled with <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> by following the instructions in <bpt id=\"p1\">[</bpt>Enroll your device in Intune<ept id=\"p1\">](#BKMK_andr_enroll_devc)</ept>."
+    },
+    {
+      "pos": [
+        17168,
+        17250
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_erase_lost_device\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Reset (erase) your lost or stolen device"
+    },
+    {
+      "content": "If your phone is lost or stolen, you can reset it to factory defaults.",
+      "pos": [
+        17251,
+        17321
+      ]
+    },
+    {
+      "pos": [
+        17325,
+        17432
+      ],
+      "content": "[!WARNING]\nResetting a device to factor defaults removes both your personal and work information from it.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "Resetting a device to factor defaults removes both your personal and work information from it.",
+          "pos": [
+            11,
+            105
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        17438,
+        17525
+      ],
+      "content": "Open <bpt id=\"p1\">**</bpt>portal.manage.microsoft.com<ept id=\"p1\">**</ept> in your browser, and sign in to your work account."
+    },
+    {
+      "pos": [
+        17531,
+        17600
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>My Devices<ept id=\"p1\">**</ept> and select the name of the lost of stolen  device."
+    },
+    {
+      "pos": [
+        17606,
+        17637
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Reset<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Reset<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        17645,
+        17760
+      ],
+      "content": "[!NOTE]\nIf you are unable to reset your lost or stolen device, ask your IT administrator to reset it for you.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "If you are unable to reset your lost or stolen device, ask your IT administrator to reset it for you.",
+          "pos": [
+            8,
+            109
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        17765,
+        17842
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_data_collect\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Turn off Microsoft usage data collection"
+    },
+    {
+      "content": "In order to improve its products and services, Microsoft automatically collects anonymous data about the reliability and performance of the Company Portal app and how it is used.",
+      "pos": [
+        17843,
+        18021
+      ]
+    },
+    {
+      "content": "You can turn off the collection of that data by using the Usage Data setting in the Company Portal app.",
+      "pos": [
+        18022,
+        18125
+      ]
+    },
+    {
+      "content": "IT administrators have no control over the collection of the data, and they cannot change your selection for the setting.",
+      "pos": [
+        18126,
+        18247
+      ]
+    },
+    {
+      "pos": [
+        18252,
+        18359
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_unenroll_device_cp\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Unenroll your device from Intune by using the Company Portal app"
+    },
+    {
+      "content": "When you unenroll your device from Intune, your device will no longer be able to access company resources.",
+      "pos": [
+        18360,
+        18466
+      ]
+    },
+    {
+      "content": "For more about what happens when you unenroll, see <bpt id=\"p1\">[</bpt>What happens when you unenroll your device from Intune?<ept id=\"p1\">](#BKMK_andr_what_happs_unenroll)</ept>.",
+      "pos": [
+        18468,
+        18609
+      ]
+    },
+    {
+      "content": "To unenroll your device from Intune and uninstall the Company Portal app:",
+      "pos": [
+        18611,
+        18684
+      ]
+    },
+    {
+      "content": "Sign in to the Company Portal app.",
+      "pos": [
+        18690,
+        18724
+      ]
+    },
+    {
+      "pos": [
+        18730,
+        18797
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>MY DEVICES<ept id=\"p1\">**</ept> and then select the device you want to unenroll."
+    },
+    {
+      "content": "Tap the trash can icon.",
+      "pos": [
+        18864,
+        18887
+      ]
+    },
+    {
+      "pos": [
+        18949,
+        19005
+      ],
+      "content": "On the warning page, tap <bpt id=\"p1\">**</bpt>OK<ept id=\"p1\">**</ept> to unenroll your device."
+    },
+    {
+      "pos": [
+        19074,
+        19175
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_unenroll_device\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Unenroll your device from Intune if you declined Terms of Use"
+    },
+    {
+      "content": "Use these instructions to unenroll from Intune only if you declined the Terms of Use while trying to sign in to the Company Portal app.",
+      "pos": [
+        19176,
+        19311
+      ]
+    },
+    {
+      "content": "When you decline the Terms, you cannot sign in to the Company Portal app.",
+      "pos": [
+        19313,
+        19386
+      ]
+    },
+    {
+      "content": "To unenroll your device, you generally use the Company Portal app, so these instructions are a workaround method for unenrolling when you have declined the Terms.",
+      "pos": [
+        19387,
+        19549
+      ]
+    },
+    {
+      "content": "The best way to unenroll your device is to accept the Terms, sign in to the Company Portal app, and then unenroll.",
+      "pos": [
+        19550,
+        19664
+      ]
+    },
+    {
+      "content": "See <bpt id=\"p1\">[</bpt>Unenroll your device from Intune by using the Company Portal app<ept id=\"p1\">](#BKMK_andr_unenroll_device_cp)</ept>.",
+      "pos": [
+        19666,
+        19768
+      ]
+    },
+    {
+      "content": "When you uninstall the Company Portal app, you are also unenrolling your device from Intune, which means that your device will no longer be able to access company resources.",
+      "pos": [
+        19770,
+        19943
+      ]
+    },
+    {
+      "content": "For more about what happens when you unenroll, see <bpt id=\"p1\">[</bpt>What happens when you unenroll your device from Intune?<ept id=\"p1\">](#BKMK_andr_what_happs_unenroll)</ept>.",
+      "pos": [
+        19945,
+        20086
+      ]
+    },
+    {
+      "content": "Before you can uninstall the Company Portal app, you have to go to the <bpt id=\"p1\">**</bpt>Device administrators<ept id=\"p1\">**</ept> setting, and turn off <bpt id=\"p2\">**</bpt>Company Portal<ept id=\"p2\">**</ept>.",
+      "pos": [
+        20088,
+        20226
+      ]
+    },
+    {
+      "content": "The steps may differ a little, depending on which Android device you have.",
+      "pos": [
+        20227,
+        20301
+      ]
+    },
+    {
+      "content": "To unenroll your device from Intune and uninstall the Company Portal app:",
+      "pos": [
+        20303,
+        20376
+      ]
+    },
+    {
+      "pos": [
+        20382,
+        20468
+      ],
+      "content": "Go to <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Security &amp;amp; Screen Lock<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Device administrators<ept id=\"p3\">**</ept>."
+    },
+    {
+      "content": "Completing this step immediately unenrolls your device.",
+      "pos": [
+        20474,
+        20529
+      ]
+    },
+    {
+      "pos": [
+        20535,
+        20596
+      ],
+      "content": "Clear the check box next to, or turn off, <bpt id=\"p1\">**</bpt>Company Portal<ept id=\"p1\">**</ept>."
+    },
+    {
+      "content": "You can now uninstall the Company Portal app.",
+      "pos": [
+        20602,
+        20647
+      ]
+    },
+    {
+      "pos": [
+        20652,
+        20751
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_what_happs_unenroll\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>What happens when you unenroll your device from Intune?"
+    },
+    {
+      "pos": [
+        20752,
+        20891
+      ],
+      "content": "For instructions on how to unenroll, see <bpt id=\"p1\">[</bpt>Unenroll your device from Intune by using the Company Portal app<ept id=\"p1\">](#BKMK_andr_unenroll_device_cp)</ept>."
+    },
+    {
+      "content": "When you unenroll your device from Intune:",
+      "pos": [
+        20893,
+        20935
+      ]
+    },
+    {
+      "content": "Your device won’t appear in the Company Portal anymore.",
+      "pos": [
+        20941,
+        20996
+      ]
+    },
+    {
+      "content": "You can’t install apps from the Company Portal anymore.",
+      "pos": [
+        21002,
+        21057
+      ]
+    },
+    {
+      "content": "Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.",
+      "pos": [
+        21063,
+        21223
+      ]
+    },
+    {
+      "content": "You might not have access to some company resources, such as file shares or internal web sites, on your device anymore.",
+      "pos": [
+        21229,
+        21348
+      ]
+    },
+    {
+      "content": "If your device is set up only to get company email, and you unenroll your device, your device won't appear in the Company Portal anymore.",
+      "pos": [
+        21350,
+        21487
+      ]
+    },
+    {
+      "content": ".",
+      "pos": [
+        21488,
+        21489
+      ]
+    },
+    {
+      "pos": [
+        21494,
+        21556
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_fix_issues\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Fix issues with your device"
+    },
+    {
+      "content": "Use this information to fix issues with your device when you're trying to install the Company Portal app, enroll your device in Intune, or if you've already enrolled in Intune.",
+      "pos": [
+        21557,
+        21733
+      ]
+    },
+    {
+      "pos": [
+        21739,
+        21830
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_verboselogging\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Use Verbose Logging to help your IT admin fix issues"
+    },
+    {
+      "content": "When your device is enrolled in Intune, you can use the <bpt id=\"p1\">**</bpt>Verbose Logging<ept id=\"p1\">**</ept> setting to make the Company Portal app and Intune-managed apps record detailed logs about what's happening on your device.",
+      "pos": [
+        21831,
+        22029
+      ]
+    },
+    {
+      "content": "These logs help your IT admin fix any issues that you might have when you're using the Company Portal or an app that's managed by Intune.",
+      "pos": [
+        22030,
+        22167
+      ]
+    },
+    {
+      "content": "Verbose Logging is enabled on your device  by default, and the  logs that are sent to your IT admin  include your email address.",
+      "pos": [
+        22168,
+        22296
+      ]
+    },
+    {
+      "pos": [
+        22298,
+        22494
+      ],
+      "content": "To turn <bpt id=\"p1\">**</bpt>Verbose Logging<ept id=\"p1\">**</ept> on or off, sign in to the Company Portal app using your work or school credentials, tap <bpt id=\"p2\">**</bpt>Settings<ept id=\"p2\">**</ept>, and tap the on/off button next to the <bpt id=\"p3\">**</bpt>Verbose Logging<ept id=\"p3\">**</ept> setting."
+    },
+    {
+      "pos": [
+        22500,
+        22593
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_send_diag_logs\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Send diagnostic data logs to your IT admin using email"
+    },
+    {
+      "content": "If you get an error while you're working with your school or company apps or while you're in the Company Portal app, you can send diagnostic data logs  to help your IT admin figure out and fix the error.",
+      "pos": [
+        22594,
+        22797
+      ]
+    },
+    {
+      "content": "To include all of the details in the logs, which will make it easier for your IT admin to figure out the issue, turn on Verbose Logging.",
+      "pos": [
+        22798,
+        22934
+      ]
+    },
+    {
+      "content": "Open the Company Portal app.",
+      "pos": [
+        22940,
+        22968
+      ]
+    },
+    {
+      "pos": [
+        22974,
+        23006
+      ],
+      "content": "Tap <bpt id=\"p1\">**</bpt>Menu<ept id=\"p1\">**</ept> &amp;gt;  <bpt id=\"p2\">**</bpt>Settings<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        23014,
+        23135
+      ],
+      "content": "[!NOTE]\n**Menu** could be a software button or a hardware button, depending on the type of Android device you have.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "<bpt id=\"p1\">**</bpt>Menu<ept id=\"p1\">**</ept> could be a software button or a hardware button, depending on the type of Android device you have.",
+          "pos": [
+            8,
+            115
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        23141,
+        23186
+      ],
+      "content": "Under <bpt id=\"p1\">**</bpt>Diagnostic Data<ept id=\"p1\">**</ept>, tap <bpt id=\"p2\">**</bpt>Send Data<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        23194,
+        23389
+      ],
+      "content": "[!NOTE]\n**If you're using Android 6.0 or later devices only:**  When you tap **Send Data**, you see the message, **Allow Company Portal to access photos, media, and files on your device?**.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "<bpt id=\"p1\">**</bpt>If you're using Android 6.0 or later devices only:<ept id=\"p1\">**</ept>  When you tap <bpt id=\"p2\">**</bpt>Send Data<ept id=\"p2\">**</ept>, you see the message, <bpt id=\"p3\">**</bpt>Allow Company Portal to access photos, media, and files on your device?<ept id=\"p3\">**</ept>.",
+          "pos": [
+            8,
+            189
+          ]
+        }
+      ]
+    },
+    {
+      "content": "This message is misleading, because <bpt id=\"p1\">**</bpt>Microsoft never accesses the photos, media, or files on your device!<ept id=\"p1\">**</ept>",
+      "pos": [
+        23403,
+        23511
+      ]
+    },
+    {
+      "content": "Google controls the message text, so Microsoft cannot change it.",
+      "pos": [
+        23512,
+        23576
+      ]
+    },
+    {
+      "content": "When you allow access, all you're doing is allowing your device to write data logs to the device's SD card, which enables you to move those logs by using a USB cable.",
+      "pos": [
+        23578,
+        23744
+      ]
+    },
+    {
+      "content": "If you deny access, the message will appear again the next time you tap  <bpt id=\"p1\">**</bpt>Send Data<ept id=\"p1\">**</ept>, but you can turn off future messages by tapping the <bpt id=\"p2\">**</bpt>Never ask again<ept id=\"p2\">**</ept> check box.",
+      "pos": [
+        23758,
+        23928
+      ]
+    },
+    {
+      "content": "If you later decide to allow access, go to <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Apps<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Company Portal<ept id=\"p3\">**</ept> &amp;gt; <bpt id=\"p4\">**</bpt>Permissions<ept id=\"p4\">**</ept> &amp;gt; <bpt id=\"p5\">**</bpt>Storage<ept id=\"p5\">**</ept>, and then turn on the permission.",
+      "pos": [
+        23930,
+        24095
+      ]
+    },
+    {
+      "content": "Follow the prompts to choose an email app to use for sending the logs to your IT admin.",
+      "pos": [
+        24101,
+        24188
+      ]
+    },
+    {
+      "content": "The app will create a pre-addressed email with all the logs attached.",
+      "pos": [
+        24189,
+        24258
+      ]
+    },
+    {
+      "pos": [
+        24264,
+        24367
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_send_diag_usbcable\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Send diagnostic data logs to your IT admin using a USB cable"
+    },
+    {
+      "content": "If you're using a computer rather than a mobile device, and you want to send data logs to have your IT admin figure out and fix your issue, use these steps:",
+      "pos": [
+        24368,
+        24524
+      ]
+    },
+    {
+      "content": "Before you start, make sure that you have your IT admin's email address.",
+      "pos": [
+        24530,
+        24602
+      ]
+    },
+    {
+      "content": "It is typically listed on your Company Portal website or in your Company Portal app.",
+      "pos": [
+        24603,
+        24687
+      ]
+    },
+    {
+      "content": "Use a USB cable to connect your device to a computer.",
+      "pos": [
+        24693,
+        24746
+      ]
+    },
+    {
+      "content": "On the computer, look for a directory that has the name of your phone.",
+      "pos": [
+        24752,
+        24822
+      ]
+    },
+    {
+      "content": "In that directory, find &amp;lt;Android Device&amp;gt;\\Phone\\Android\\data\\com.microsoft.windowsintune.companyportal\\files\\.",
+      "pos": [
+        24823,
+        24938
+      ]
+    },
+    {
+      "content": "Attach all of the files to an email and send them to your IT admin.",
+      "pos": [
+        24944,
+        25011
+      ]
+    },
+    {
+      "pos": [
+        25017,
+        25099
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_send_enroll_errors\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Send enrollment errors to your IT admin"
+    },
+    {
+      "content": "If you get an error while trying to enroll your device in Intune, you can try enrolling again by tapping <bpt id=\"p1\">**</bpt>Retry<ept id=\"p1\">**</ept>, or send the error information to your IT admin in an email by tapping <bpt id=\"p2\">**</bpt>Send info<ept id=\"p2\">**</ept>.",
+      "pos": [
+        25100,
+        25300
+      ]
+    },
+    {
+      "content": "An email, addressed to your IT administrator, is automatically created and contains the logs that your IT admin needs to help troubleshoot your device.",
+      "pos": [
+        25301,
+        25452
+      ]
+    },
+    {
+      "pos": [
+        25458,
+        25557
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_no_min_os\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Device doesn't have the required minimum operating system version"
+    },
+    {
+      "content": "Your device doesn’t meet the minimum operating system version required by your IT department.",
+      "pos": [
+        25558,
+        25651
+      ]
+    },
+    {
+      "content": "Before updating your device, check the current operating system version by tapping <bpt id=\"p1\">**</bpt>Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>About phone<ept id=\"p2\">**</ept>, and then check to see if an update is available for your device by tapping <bpt id=\"p3\">**</bpt>Settings<ept id=\"p3\">**</ept>, and then finding the update option.",
+      "pos": [
+        25652,
+        25894
+      ]
+    },
+    {
+      "pos": [
+        25900,
+        25997
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_no_max_os\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Device doesn't comply with the maximum operating system version"
+    },
+    {
+      "content": "Your device does not comply with your IT admin's policy for the maximum version of the operating system.",
+      "pos": [
+        25998,
+        26102
+      ]
+    },
+    {
+      "content": "Contact your IT admin for help.",
+      "pos": [
+        26103,
+        26134
+      ]
+    },
+    {
+      "pos": [
+        26140,
+        26221
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_andr_device_rooted\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Your device is rooted and you can't connect"
+    },
+    {
+      "content": "When your device is rooted, it means that your device has been changed to enable certain capabilities that could compromise company resources and security.",
+      "pos": [
+        26222,
+        26377
+      ]
+    },
+    {
+      "content": "When your device is rooted, you cannot access company resources and must contact your IT admin to  help you reconnect to company resources.",
+      "pos": [
+        26378,
+        26517
+      ]
+    }
+  ],
+  "content": "---\ntitle: MDUsing your Android device with Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 8c068c86-141c-4f4c-890d-c317292a3f1d\n---\n# MDUsing your Android device with Intune\nUse these  steps for tasks that you need to do on your Android device when your company is using Microsoft Intune:\n\n|Task category|Tasks you can do|\n|-----------------|--------------------|\n|Company Portal app installation and Intune enrollment|[Install the Microsoft Intune Company Portal app](#BKMK_andr_install_cp_app)<br /><br />[Sign in to the Company Portal](#BKMK_andr_signin_cp)<br /><br />[Enroll your device in Intune](#BKMK_andr_enroll_devc)<br /><br />[What happens when I install the Company Portal app and enroll my device in Intune?](#BKMK_andr_what_happs_add)|\n|Things you can do when your device is enrolled in Intune|[What is the Company Portal website and what can I do with it?](#BKMK_andr_whatis_cp_website)<br /><br />[Use managed apps on your device](#BKMK_andr_use_mgd_apps)<br /><br />[Encrypt your device](#BKMK_andr_encrypt_your_device)<br /><br />[Set your PIN or password](#BKMK_andr_set_pin)<br /><br />[Install your company's Virtual Private Network (VPN)](#BKMK_andr_install_vpn)<br /><br />[Set the amount of time before your device is locked](#BKMK_andr_set_time_befr_lock)<br /><br />[Reset (erase) your lost or stolen device](#BKMK_andr_erase_lost_device)<br /><br />[Turn off Microsoft usage data collection](#BKMK_andr_data_collect)<br /><br />[Unenroll your device from Intune by using the Company Portal app](#BKMK_andr_unenroll_device_cp)<br /><br />[Unenroll your device from Intune if you declined Terms of Use](#BKMK_andr_unenroll_device)<br /><br />[What happens when you unenroll your device from Intune?](#BKMK_andr_what_happs_unenroll)|\n|Fix issues with your device|[Use Verbose Logging to help your IT admin fix issues](#BKMK_andr_verboselogging)<br /><br />[Send diagnostic data logs to your IT admin using email](#BKMK_andr_send_diag_logs)<br /><br />[Send diagnostic data logs to your IT admin using a USB cable](#BKMK_andr_send_diag_usbcable)<br /><br />[Send enrollment errors to your IT admin](#BKMK_andr_send_enroll_errors)<br /><br />[Device doesn't have the required minimum operating system version](#BKMK_andr_no_min_os)<br /><br />[Device doesn't comply with the maximum operating system version](#BKMK_andr_no_max_os)<br /><br />[Your device is rooted and you can't connect](#BKMK_andr_device_rooted)|\n\n## <a name=\"BKMK_andr_install_cp_app\"></a>Install the Microsoft Intune Company Portal app\nThe Company Portal is an app that you install on your device to give you access to your company or school apps, email, and network.  Before you can get access, you have to install the Company Portal app, and then  use the app to enroll your device in Microsoft Intune. To find out more about what enrolling means, see [What happens when I install the Company Portal app and enroll my device in Intune?](#BKMK_andr_what_happs_add).\n\n1.  Tap **Home** &gt; **Play Store**.\n\n2.  In the **Search** box, type **company portal**.\n\n3.  Tap **Intune Company Portal**.\n\n    ![](../Image/IW-Help-pics/and-cpinstall-1-search-cp.png)\n\n4.  Tap **INSTALL**.\n\n    ![](../Image/IW-Help-pics/and-cpinstall-2-install.png)\n\n5.  Tap **ACCEPT**.\n\n    ![](../Image/IW-Help-pics/and-cpinstall-3-cp-accept.png)\n\n## <a name=\"BKMK_andr_signin_cp\"></a>Sign in to the Company Portal\nAfter you install the Company Portal app, you'll need to sign in to the app to enroll your device in Intune. Once you enroll, you can  sign in to the Company Portal anytime to download company apps and do other tasks. For more about what you can do, see [What happens when I install the Company Portal app and enroll my device in Intune?](#BKMK_andr_what_happs_add).\n\n1.  Tap **Company Portal** in your list of apps.\n\n    ![](../Image/IW-Help-pics/and-enroll-1-cp-find-CP-app.png)\n\n2.  On the **Welcome** screen, tap **Sign in**.\n\n    ![](../Image/IW-Help-pics/and-enroll-0-welcome-screen.png)\n\n3.  Enter your work or school email and your password, and then Tap **Sign in**.\n\n    ![](../Image/IW-Help-pics/and-enroll-2-cp-sign-in.png)\n\n    If you are signing into the Company Portal app for the first time, and your company or school is using Intune, you will be prompted to enroll your device in Intune. To enroll, follow the steps in [Enroll your device in Intune](#BKMK_andr_enroll_devc).\n\n    **For Android 6.0 or later devices only:**\n\n    When you sign in to the Company Portal app for the first time to enroll your device, you see the message, **Allow Company Portal to make and manage phone calls?**. This message is misleading, because **Microsoft never makes or manages your phone calls!** Google controls the message text, so Microsoft cannot change it.  When you allow access, all you're doing is allowing the Company Portal app to see your phone number and an ID called an IMEI.\n\n    If you deny access, the message will appear again the next time you sign in to the Company Portal, but you can turn off future messages by tapping the **Never ask again** check box.  If you later decide to allow access, go to **Settings** &gt; **Apps** &gt; **Company Portal** &gt; **Permissions** &gt; **Phone**, and then turn on the permission.\n\n    ![](../Image/IW-Help-pics/andr-allow-phone-access.png)\n\n## <a name=\"BKMK_andr_enroll_devc\"></a>Enroll your device in Intune\nWhen you enroll your device in Intune, you can access the company’s network, and get your work email,  work files, and company apps. To find out more about what you can do when you enroll, see [What happens when I install the Company Portal app and enroll my device in Intune?](#BKMK_andr_what_happs_add). If you have issues while trying to enroll, see [Send enrollment errors to your IT admin](#BKMK_andr_send_enroll_errors).\n\nTo enroll, use the steps that match the type of device you have:\n\n-   [Enroll your native (not a Samsung Knox) device in Intune](#BKMK_andr_enroll_native)\n\n-   [Enroll your Samsung Knox device in Intune](#BKMK_andr_enroll_knox)\n\n### <a name=\"BKMK_andr_enroll_native\"></a>Enroll your native (not a Samsung Knox) device in Intune\nThe instructions for enrolling are different for a Samsung Knox Android device versus a \"native,\" non-Samsung Knox Android device. To determine if you have a Samsung Knox device, go to **Settings** &gt; **About phone**. If you don't see the word  \"Knox\" listed there, follow these enrollment instructions.\n\n1.  On the Company Portal **Welcome** screen, tap **Sign in**, and then sign in with your work or school account.\n\n    ![](../Image/IW-Help-pics/and-enroll-0-welcome-screen.png)\n\n2.  If your IT admin set up company terms and conditions, tap **ACCEPT** to accept the terms.\n\n    ![](../Image/IW-Help-pics/and-enroll-3-accept-terms.png)\n\n3.  Tap **ENROLL**.\n\n    ![](../Image/IW-Help-pics/and-enroll-4-enroll.png)\n\n4.  Tap **Activate**.\n\n    ![](../Image/IW-Help-pics/and-enroll-5-activate-native.png)\n\n5.  Follow the prompts to enter a PIN or password. If you already set up a PIN or password on this device, you won't see this screen or be required to enter a new PIN or password.\n\n    ![](../Image/IW-Help-pics/and-enroll-6-PIN-native.png)\n\n6.  On the  **Name the certificate** screen, tap **OK** to accept the default certificate.\n\n    ![](../Image/IW-Help-pics/and-enroll-7-cert-native.png)\n\n    Your device is now enrolled in Intune.\n\nIf you get an error while trying to enroll your device in Intune, see [Send enrollment errors to your IT admin](#BKMK_andr_send_enroll_errors).\n\n### <a name=\"BKMK_andr_enroll_knox\"></a>Enroll your Samsung Knox device in Intune\nTo determine if you have a Samsung Knox device, go to **Settings** &gt; **About phone**. If you see \"Knox\" listed there, you have a Samsung Knox device.\n\n1.  On the Company Portal Welcome screen, tap **Sign in**, and then sign in with your work or school account.\n\n    ![](../Image/IW-Help-pics/and-enroll-0-welcome-screen.png)\n\n2.  If your IT admin set up company terms and conditions, tap **ACCEPT** to accept the terms.\n\n    ![](../Image/IW-Help-pics/and-enroll-3-accept-terms.png)\n\n3.  Tap **ENROLL**.\n\n    ![](../Image/IW-Help-pics/and-enroll-4-enroll.png)\n\n4.  Tap **ACTIVATE**.\n\n    ![](../Image/IW-Help-pics/and-enroll-5-activate.png)\n\n5.  Accept the Samsung Knox Privacy Policy and tap **CONFIRM**.\n\n    ![](../Image/IW-Help-pics/and-enroll-6-knox-agree.png)\n\nYour device is now enrolled in Intune.\n\n## <a name=\"BKMK_andr_what_happs_add\"></a>What happens when I install the Company Portal app and enroll my device in Intune?\nYou start by installing the Company Portal app, and then use the app to enroll your device in Intune. Once your device is enrolled, you  can use the Company Portal app to:\n\n-   Access the company network, email, and work files\n\n-   Get company apps from the Company Portal app or Company Portal website\n\n-   Automatically configure your company email account\n\n-   Reset your phone to factory settings if it is lost or stolen\n\nWhen  you enroll your device in Intune, you are giving your IT administrator permission to manage your device to help protect the company information on the device.\n\n**What IT cannot see**\n\n-   Call history\n\n-   Text messages\n\n-   Personal email, contacts, and calendar\n\n-   Web history\n\n-   Location\n\n-   Camera roll\n\n-   Personal data\n\n**What IT can see**\n\n-   Owner\n\n-   Device name\n\n-   Serial number\n\n-   Manufacturer\n\n-   Model\n\n-   Operating system\n\n-   Company apps\n\n-   Personal apps\n\nWhen you add your Android device, you are giving your IT administrator permission to access the device. They can do things like:\n\n-   Reset your device back to manufacturer’s defaults. This is helpful if the device is lost or stolen.\n\n-   Remove all company related data. Your personal data and settings aren’t removed.\n\n-   Force you to have a password or PIN on the device, which may lock you out of the device, or reset your device back to manufacturer’s default settings, which may include the deletion of data, if there are too many incorrect password attempts.\n\n-   Require you to accept terms and conditions.\n\n-   Enable or disable the camera on your device.\n\n-   Force all the data, including corporate and personal data, on the device to be encrypted. This helps protect the data if the device is lost or stolen.\n\n-   After your device is added to the Company Portal, approximately every 8 hours it will:\n\n    -   Download any policy or app updates that your IT administrator has made available.\n\n    -   Send any hardware inventory updates (these updates do not contain personal information).\n\n    -   Send any company app inventory updates (these updates do not contain personal information).\n\n## What happens if I reset my Android device using the Company Portal?\nWhen you use the Company Portal to reset your personal device, some apps and settings on your device may be deleted, including some of your personal data. What happens on each device depends on the type of device you have and how you are using the device, as described in the following table.\n\n|Device configuration and management|Device type|\n|---------------------------------------|---------------|\n|Your IT admin manages your mobile device|**Android**<br /><br />When you reset your Android device, your device won’t appear in the company portal anymore and your company email account will be deleted and unsaved email will be deleted.|\n|Your device can access company email only|**Android**<br /><br />When you reset your Android device, your device won’t appear in the company portal anymore and the company portal tries to reset the device back to the manufacturer’s defaults. All your personal data and settings will be removed.|\n\n## <a name=\"BKMK_andr_whatis_cp_website\"></a>What is the Company Portal website and what can I do with it?\nThe [Company Portal website](http://portal.manage.microsoft.com) is your company’s web interface that you use to manage your work computers and devices, and your personal computers and devices that you choose to use at work. You can do most of the same tasks on this website that you can do by using the Company Portal app that you install on your device.\n\nYou can do the following tasks from the Company Portal website:\n\n-   Browse for and download company apps\n\n-   Rename your device\n\n-   Remove your device from Intune\n\n-   Reset your mobile device to its factory default settings\n\n-   Find contact information for your IT administrator\n\n## <a name=\"BKMK_andr_use_mgd_apps\"></a>Use managed apps on your device\nManaged apps are apps that your IT administrator can configure to help protect company data that you can access in that app. When you access company data in a managed app, you may notice that the app works a little differently from what you expect. For example, you might not be able to copy and paste protected company data, or you might not be able to save that data to certain locations.\n\nDifferent managed apps can also work together on your device to allow you to do your daily tasks, while keeping corporate data protected. For example, if you open a company file in one managed app, and another managed app is required to view that file, the managed app that allows you to view the file opens automatically. If a required app is not available, certain actions, like opening a document or accessing a web link from within a managed document, might not be available.\n\nWhen you access company data in a managed app, you see a message like the one below, which lets you know that the app you are opening is managed.\n\n![](../Image/IW-Help-pics/managed-apps-message.png)\n\n### How do I get managed apps?\nYou get managed apps in a couple of different ways:\n\n-   When your device is enrolled in Microsoft Intune, you either install the app from your Company Portal app or Company Portal website, or your IT admin might install it on your device. To find out about enrollment, see [Enroll your device in Intune](#BKMK_andr_enroll_devc).\n\n-   You install an app from the Play Store and then sign in with your corporate user account that is managed by Intune.\n\n### What can my IT admin manage in an app?\nHere are some examples of options that your IT admin can manage in an app and that can affect your interactions with company data on your device:\n\n-   Access to specific websites\n\n-   Transfers of data between apps\n\n-   Saving files\n\n-   Copy and paste operations\n\n-   PIN access requirements\n\n-   Your login, using company credentials\n\n-   Ability to back up to the cloud\n\n-   Ability to take screenshots\n\n-   Data encryption requirements\n\nSome common apps that your IT department might manage are:\n\n-   Managed web browser\n\n-   Managed image viewer\n\n-   Managed PDF viewer\n\n-   Managed AV player\n\n-   Microsoft Word, Excel, PowerPoint\n\nContact your IT admin for more information about the managed apps on your device.\n\n## <a name=\"BKMK_andr_encrypt_your_device\"></a>Encrypt your device\nIf your company or organization requires you to encrypt your device before you can access company files, email, or data, follow these steps to encrypt your device:\n\n1.  Ensure that your device is connected to the charger.\n\n2.  Tap **Search**. In the Search box, type **company portal**.\n\n3.  Ensure that a screen lock PIN or password has been set for your device.\n\n4.  In Settings, click **Security** &gt; **Encrypt Phone**.\n    (On some phones, you’ll need to click **Storage** &gt; **Storage encryption**).\n\n5.  Follow the on-screen instructions. During encryption, your device might restart several times.\n\n6.  Ensure that your device is enrolled with Microsoft Intune by following the instructions in [Enroll your device in Microsoft Intune](../Topic/Enroll-your-device-in-Microsoft-Intune.md).\n\n## <a name=\"BKMK_andr_set_pin\"></a>Set your PIN or password\n\n1.  Tap  **Settings** &gt; **Security** &gt; **Screen Lock** &gt; **Password**.\n\n2.  Choose and confirm your new password.\n\n3.  Ensure that your device is enrolled with Microsoft Intune by following the instructions in [Enroll your device in Intune](#BKMK_andr_enroll_devc).\n\n4.  Tap **GET** &gt; **INSTALL**.\n\n## <a name=\"BKMK_andr_install_vpn\"></a>Install your company's Virtual Private Network (VPN)\nIf your IT administrator has configured a VPN application to enable you to  connect to your company's resources, you'll see a notification on your device indicating that you need to install a VPN app. Follow these steps to install the VPN app:\n\n1.  Pull down the notification drawer, and tap **Tap to install this required app**.\n\n2.  In the **Play Store**, click **INSTALL** and follow the prompts to install the app.\n\n3.  Tap **Install corporate VPN profile** and follow the prompts to accept and activate the app.\n\n## <a name=\"BKMK_andr_set_time_befr_lock\"></a>Set the amount of time before your device is locked\n\n1.  In **Settings** on your device, click **Security** &gt; **Automatically Lock** (this appears as **Lock phone after** on some devices).\n\n2.  Specify the password timeout value.\n\n3.  Ensure that your device is enrolled with [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] by following the instructions in [Enroll your device in Intune](#BKMK_andr_enroll_devc).\n\n## <a name=\"BKMK_andr_erase_lost_device\"></a>Reset (erase) your lost or stolen device\nIf your phone is lost or stolen, you can reset it to factory defaults.\n\n> [!WARNING]\n> Resetting a device to factor defaults removes both your personal and work information from it.\n\n1.  Open **portal.manage.microsoft.com** in your browser, and sign in to your work account.\n\n2.  Tap **My Devices** and select the name of the lost of stolen  device.\n\n3.  Click **Reset** &gt; **Reset**.\n\n    > [!NOTE]\n    > If you are unable to reset your lost or stolen device, ask your IT administrator to reset it for you.\n\n## <a name=\"BKMK_andr_data_collect\"></a>Turn off Microsoft usage data collection\nIn order to improve its products and services, Microsoft automatically collects anonymous data about the reliability and performance of the Company Portal app and how it is used. You can turn off the collection of that data by using the Usage Data setting in the Company Portal app. IT administrators have no control over the collection of the data, and they cannot change your selection for the setting.\n\n## <a name=\"BKMK_andr_unenroll_device_cp\"></a>Unenroll your device from Intune by using the Company Portal app\nWhen you unenroll your device from Intune, your device will no longer be able to access company resources.  For more about what happens when you unenroll, see [What happens when you unenroll your device from Intune?](#BKMK_andr_what_happs_unenroll).\n\nTo unenroll your device from Intune and uninstall the Company Portal app:\n\n1.  Sign in to the Company Portal app.\n\n2.  Tap **MY DEVICES** and then select the device you want to unenroll.\n\n    ![](../Image/IW-Help-pics/andr-1-my-devices-choose.png)\n\n3.  Tap the trash can icon.\n\n    ![](../Image/IW-Help-pics/andr-2-tap-trashcan.png)\n\n    On the warning page, tap **OK** to unenroll your device.\n\n    ![](../Image/IW-Help-pics/andr-3-warning-about-remove.png)\n\n## <a name=\"BKMK_andr_unenroll_device\"></a>Unenroll your device from Intune if you declined Terms of Use\nUse these instructions to unenroll from Intune only if you declined the Terms of Use while trying to sign in to the Company Portal app.  When you decline the Terms, you cannot sign in to the Company Portal app. To unenroll your device, you generally use the Company Portal app, so these instructions are a workaround method for unenrolling when you have declined the Terms. The best way to unenroll your device is to accept the Terms, sign in to the Company Portal app, and then unenroll.  See [Unenroll your device from Intune by using the Company Portal app](#BKMK_andr_unenroll_device_cp).\n\nWhen you uninstall the Company Portal app, you are also unenrolling your device from Intune, which means that your device will no longer be able to access company resources.  For more about what happens when you unenroll, see [What happens when you unenroll your device from Intune?](#BKMK_andr_what_happs_unenroll).\n\nBefore you can uninstall the Company Portal app, you have to go to the **Device administrators** setting, and turn off **Company Portal**. The steps may differ a little, depending on which Android device you have.\n\nTo unenroll your device from Intune and uninstall the Company Portal app:\n\n1.  Go to **Settings** &gt; **Security &amp; Screen Lock** &gt; **Device administrators**.\n\n    Completing this step immediately unenrolls your device.\n\n2.  Clear the check box next to, or turn off, **Company Portal**.\n\n    You can now uninstall the Company Portal app.\n\n## <a name=\"BKMK_andr_what_happs_unenroll\"></a>What happens when you unenroll your device from Intune?\nFor instructions on how to unenroll, see [Unenroll your device from Intune by using the Company Portal app](#BKMK_andr_unenroll_device_cp).\n\nWhen you unenroll your device from Intune:\n\n-   Your device won’t appear in the Company Portal anymore.\n\n-   You can’t install apps from the Company Portal anymore.\n\n-   Any settings that were changed on your device when you added it, for example disabling the camera, or requiring a certain password length, will no longer apply.\n\n-   You might not have access to some company resources, such as file shares or internal web sites, on your device anymore.\n\nIf your device is set up only to get company email, and you unenroll your device, your device won't appear in the Company Portal anymore. .\n\n## <a name=\"BKMK_andr_fix_issues\"></a>Fix issues with your device\nUse this information to fix issues with your device when you're trying to install the Company Portal app, enroll your device in Intune, or if you've already enrolled in Intune.\n\n### <a name=\"BKMK_andr_verboselogging\"></a>Use Verbose Logging to help your IT admin fix issues\nWhen your device is enrolled in Intune, you can use the **Verbose Logging** setting to make the Company Portal app and Intune-managed apps record detailed logs about what's happening on your device. These logs help your IT admin fix any issues that you might have when you're using the Company Portal or an app that's managed by Intune. Verbose Logging is enabled on your device  by default, and the  logs that are sent to your IT admin  include your email address.\n\nTo turn **Verbose Logging** on or off, sign in to the Company Portal app using your work or school credentials, tap **Settings**, and tap the on/off button next to the **Verbose Logging** setting.\n\n### <a name=\"BKMK_andr_send_diag_logs\"></a>Send diagnostic data logs to your IT admin using email\nIf you get an error while you're working with your school or company apps or while you're in the Company Portal app, you can send diagnostic data logs  to help your IT admin figure out and fix the error. To include all of the details in the logs, which will make it easier for your IT admin to figure out the issue, turn on Verbose Logging.\n\n1.  Open the Company Portal app.\n\n2.  Tap **Menu** &gt;  **Settings**.\n\n    > [!NOTE]\n    > **Menu** could be a software button or a hardware button, depending on the type of Android device you have.\n\n3.  Under **Diagnostic Data**, tap **Send Data**.\n\n    > [!NOTE]\n    > **If you're using Android 6.0 or later devices only:**  When you tap **Send Data**, you see the message, **Allow Company Portal to access photos, media, and files on your device?**.\n    > \n    > This message is misleading, because **Microsoft never accesses the photos, media, or files on your device!** Google controls the message text, so Microsoft cannot change it.  When you allow access, all you're doing is allowing your device to write data logs to the device's SD card, which enables you to move those logs by using a USB cable.\n    > \n    > If you deny access, the message will appear again the next time you tap  **Send Data**, but you can turn off future messages by tapping the **Never ask again** check box.  If you later decide to allow access, go to **Settings** &gt; **Apps** &gt; **Company Portal** &gt; **Permissions** &gt; **Storage**, and then turn on the permission.\n\n4.  Follow the prompts to choose an email app to use for sending the logs to your IT admin. The app will create a pre-addressed email with all the logs attached.\n\n### <a name=\"BKMK_andr_send_diag_usbcable\"></a>Send diagnostic data logs to your IT admin using a USB cable\nIf you're using a computer rather than a mobile device, and you want to send data logs to have your IT admin figure out and fix your issue, use these steps:\n\n1.  Before you start, make sure that you have your IT admin's email address. It is typically listed on your Company Portal website or in your Company Portal app.\n\n2.  Use a USB cable to connect your device to a computer.\n\n3.  On the computer, look for a directory that has the name of your phone. In that directory, find &lt;Android Device&gt;\\Phone\\Android\\data\\com.microsoft.windowsintune.companyportal\\files\\.\n\n4.  Attach all of the files to an email and send them to your IT admin.\n\n### <a name=\"BKMK_andr_send_enroll_errors\"></a>Send enrollment errors to your IT admin\nIf you get an error while trying to enroll your device in Intune, you can try enrolling again by tapping **Retry**, or send the error information to your IT admin in an email by tapping **Send info**. An email, addressed to your IT administrator, is automatically created and contains the logs that your IT admin needs to help troubleshoot your device.\n\n### <a name=\"BKMK_andr_no_min_os\"></a>Device doesn't have the required minimum operating system version\nYour device doesn’t meet the minimum operating system version required by your IT department. Before updating your device, check the current operating system version by tapping **Settings** &gt; **About phone**, and then check to see if an update is available for your device by tapping **Settings**, and then finding the update option.\n\n### <a name=\"BKMK_andr_no_max_os\"></a>Device doesn't comply with the maximum operating system version\nYour device does not comply with your IT admin's policy for the maximum version of the operating system. Contact your IT admin for help.\n\n### <a name=\"BKMK_andr_device_rooted\"></a>Your device is rooted and you can't connect\nWhen your device is rooted, it means that your device has been changed to enable certain capabilities that could compromise company resources and security. When your device is rooted, you cannot access company resources and must contact your IT admin to  help you reconnect to company resources.\n\n"
+}

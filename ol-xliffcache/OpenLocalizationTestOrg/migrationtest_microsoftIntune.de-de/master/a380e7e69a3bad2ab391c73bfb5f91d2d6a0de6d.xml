@@ -1,0 +1,334 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - Windows Phone custom policy settings in Microsoft Intune",
+      "pos": [
+        11,
+        83
+      ]
+    },
+    {
+      "content": "MD Conversion - Windows Phone custom policy settings in Microsoft Intune",
+      "pos": [
+        218,
+        290
+      ]
+    },
+    {
+      "content": "Use the <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph><bpt id=\"p1\">**</bpt>Windows Phone custom configuration policy<ept id=\"p1\">**</ept> to deploy OMA-URI (Open Mobile Alliance Uniform Resource Identifier) settings that can be used to control features on <bpt id=\"p2\">**</bpt>Windows Phone 8.1 devices<ept id=\"p2\">**</ept>.",
+      "pos": [
+        291,
+        546
+      ]
+    },
+    {
+      "content": "These are standard settings that many mobile device manufacturers use to control device features.",
+      "pos": [
+        547,
+        644
+      ]
+    },
+    {
+      "content": "This capability is intended to allow you to deploy Windows Phone settings that are not configurable with an <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> policy.",
+      "pos": [
+        646,
+        813
+      ]
+    },
+    {
+      "content": "For information about the settings you can configure with these policies, see <bpt id=\"p1\">[</bpt>Manage settings and features on your devices with Microsoft Intune policies<ept id=\"p1\">](../Topic/Manage-settings-and-features-on-your-devices-with-Microsoft-Intune-policies.md)</ept>.",
+      "pos": [
+        814,
+        1059
+      ]
+    },
+    {
+      "pos": [
+        1061,
+        1226
+      ],
+      "content": "For help creating OMA-URI settings for Windows Phone devices, see <bpt id=\"p1\">[</bpt>Windows Phone 8.1 MDM protocol documentation<ept id=\"p1\">](http://technet.microsoft.com/library/dn499787.aspx)</ept>."
+    },
+    {
+      "content": "How to create a Windows Phone custom policy",
+      "pos": [
+        1231,
+        1274
+      ]
+    },
+    {
+      "pos": [
+        1280,
+        1397
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com)</ept>, click <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Add Policy<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        1403,
+        1496
+      ],
+      "content": "Under <bpt id=\"p1\">**</bpt>Windows<ept id=\"p1\">**</ept>, configure a <bpt id=\"p2\">**</bpt>Custom Configuration (Windows Phone 8.1 and later)<ept id=\"p2\">**</ept> policy."
+    },
+    {
+      "pos": [
+        1502,
+        1715
+      ],
+      "content": "For help creating and deploying policies, see the <bpt id=\"p1\">[</bpt>Use policies to manage computers and mobile devices with Microsoft Intune<ept id=\"p1\">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "content": "You can only create and deploy a custom policy.",
+      "pos": [
+        1721,
+        1768
+      ]
+    },
+    {
+      "content": "Recommended settings are not available.",
+      "pos": [
+        1769,
+        1808
+      ]
+    },
+    {
+      "content": "Use the following table to help you configure the general policy settings:",
+      "pos": [
+        1814,
+        1888
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        1895,
+        1907
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        1908,
+        1924
+      ]
+    },
+    {
+      "content": "Name",
+      "pos": [
+        1977,
+        1981
+      ]
+    },
+    {
+      "pos": [
+        1984,
+        2110
+      ],
+      "content": "Enter a unique name for the policy to help you identify it in the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> console."
+    },
+    {
+      "content": "Description",
+      "pos": [
+        2119,
+        2130
+      ]
+    },
+    {
+      "content": "Provide a description that gives an overview of the policy and other relevant information that helps you to locate it.",
+      "pos": [
+        2133,
+        2251
+      ]
+    },
+    {
+      "content": "In the <bpt id=\"p1\">**</bpt>OMA-URI Settings<ept id=\"p1\">**</ept> section, click <bpt id=\"p2\">**</bpt>Add<ept id=\"p2\">**</ept> to add a setting.",
+      "pos": [
+        2258,
+        2326
+      ]
+    },
+    {
+      "content": "You can also edit or delete an existing setting.",
+      "pos": [
+        2327,
+        2375
+      ]
+    },
+    {
+      "pos": [
+        2381,
+        2466
+      ],
+      "content": "In the <bpt id=\"p1\">**</bpt>Add or Edit OMA-URI<ept id=\"p1\">**</ept> Setting dialog box, specify the following information:"
+    },
+    {
+      "content": "Item",
+      "pos": [
+        2473,
+        2477
+      ]
+    },
+    {
+      "content": "More information",
+      "pos": [
+        2478,
+        2494
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        2539,
+        2551
+      ]
+    },
+    {
+      "content": "Enter a unique name for the OMA-URI setting to help you identify it in the list of settings.",
+      "pos": [
+        2554,
+        2646
+      ]
+    },
+    {
+      "content": "Setting description",
+      "pos": [
+        2655,
+        2674
+      ]
+    },
+    {
+      "content": "Provide a description that gives an overview of the setting and other relevant information to help you locate it.",
+      "pos": [
+        2677,
+        2790
+      ]
+    },
+    {
+      "content": "Data type",
+      "pos": [
+        2799,
+        2808
+      ]
+    },
+    {
+      "content": "Select the date type in which you will specify this OMA-URI setting.",
+      "pos": [
+        2811,
+        2879
+      ]
+    },
+    {
+      "content": "Choose from <bpt id=\"p1\">**</bpt>String, String (XML), Date and time, Integer, Floating point<ept id=\"p1\">**</ept>, or <bpt id=\"p2\">**</bpt>Boolean<ept id=\"p2\">**</ept>.",
+      "pos": [
+        2880,
+        2973
+      ]
+    },
+    {
+      "content": "OMA-URI (Case Sensitive)",
+      "pos": [
+        2982,
+        3006
+      ]
+    },
+    {
+      "content": "Specify the OMA-URI you want to supply a setting for.",
+      "pos": [
+        3009,
+        3062
+      ]
+    },
+    {
+      "content": "Value",
+      "pos": [
+        3071,
+        3076
+      ]
+    },
+    {
+      "content": "Specify the value to associate with the OMA-URI you specified previously.",
+      "pos": [
+        3079,
+        3152
+      ]
+    },
+    {
+      "pos": [
+        3159,
+        3233
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>OK<ept id=\"p1\">**</ept> to save the setting and return to the <bpt id=\"p2\">**</bpt>Create Policy<ept id=\"p2\">**</ept> page."
+    },
+    {
+      "content": "Continue to add as many settings as you require.",
+      "pos": [
+        3239,
+        3287
+      ]
+    },
+    {
+      "content": "When you are done, click <bpt id=\"p1\">**</bpt>Save Policy<ept id=\"p1\">**</ept>.",
+      "pos": [
+        3288,
+        3329
+      ]
+    },
+    {
+      "pos": [
+        3331,
+        3422
+      ],
+      "content": "The new policy displays in the <bpt id=\"p1\">**</bpt>Configuration Policies<ept id=\"p1\">**</ept> node of the <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> workspace."
+    },
+    {
+      "content": "Deploy a Windows Phone Custom policy",
+      "pos": [
+        3427,
+        3463
+      ]
+    },
+    {
+      "content": "Deploy the policy to one or more groups of users or devices in your organization.",
+      "pos": [
+        3469,
+        3550
+      ]
+    },
+    {
+      "pos": [
+        3552,
+        3770
+      ],
+      "content": "For more information about how to deploy policies, see <bpt id=\"p1\">[</bpt>Use policies to manage computers and mobile devices with Microsoft Intune<ept id=\"p1\">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "content": "A status summary and alerts on the <bpt id=\"p1\">**</bpt>Overview<ept id=\"p1\">**</ept> page of the <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> workspace identify issues with the policy that require your attention.",
+      "pos": [
+        3772,
+        3913
+      ]
+    },
+    {
+      "content": "Additionally, a status summary appears in the <bpt id=\"p1\">**</bpt>Dashboard<ept id=\"p1\">**</ept> workspace.",
+      "pos": [
+        3914,
+        3984
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        3989,
+        3997
+      ]
+    },
+    {
+      "content": "Use policies to manage computers and mobile devices with Microsoft Intune",
+      "pos": [
+        3999,
+        4072
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - Windows Phone custom policy settings in Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: 6bc5c2af-4666-49a3-b489-9833e732764b\n---\n# MD Conversion - Windows Phone custom policy settings in Microsoft Intune\nUse the [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]**Windows Phone custom configuration policy** to deploy OMA-URI (Open Mobile Alliance Uniform Resource Identifier) settings that can be used to control features on **Windows Phone 8.1 devices**. These are standard settings that many mobile device manufacturers use to control device features.\n\nThis capability is intended to allow you to deploy Windows Phone settings that are not configurable with an [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] policy. For information about the settings you can configure with these policies, see [Manage settings and features on your devices with Microsoft Intune policies](../Topic/Manage-settings-and-features-on-your-devices-with-Microsoft-Intune-policies.md).\n\nFor help creating OMA-URI settings for Windows Phone devices, see [Windows Phone 8.1 MDM protocol documentation](http://technet.microsoft.com/library/dn499787.aspx).\n\n## How to create a Windows Phone custom policy\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com), click **Policy** &gt; **Add Policy**.\n\n2.  Under **Windows**, configure a **Custom Configuration (Windows Phone 8.1 and later)** policy.\n\n    For help creating and deploying policies, see the [Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md).\n\n    You can only create and deploy a custom policy. Recommended settings are not available.\n\n3.  Use the following table to help you configure the general policy settings:\n\n    |Setting name|More information|\n    |----------------|--------------------|\n    |**Name**|Enter a unique name for the policy to help you identify it in the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] console.|\n    |**Description**|Provide a description that gives an overview of the policy and other relevant information that helps you to locate it.|\n\n4.  In the **OMA-URI Settings** section, click **Add** to add a setting. You can also edit or delete an existing setting.\n\n5.  In the **Add or Edit OMA-URI** Setting dialog box, specify the following information:\n\n    |Item|More information|\n    |--------|--------------------|\n    |**Setting name**|Enter a unique name for the OMA-URI setting to help you identify it in the list of settings.|\n    |**Setting description**|Provide a description that gives an overview of the setting and other relevant information to help you locate it.|\n    |**Data type**|Select the date type in which you will specify this OMA-URI setting. Choose from **String, String (XML), Date and time, Integer, Floating point**, or **Boolean**.|\n    |**OMA-URI (Case Sensitive)**|Specify the OMA-URI you want to supply a setting for.|\n    |**Value**|Specify the value to associate with the OMA-URI you specified previously.|\n\n6.  Click **OK** to save the setting and return to the **Create Policy** page.\n\n7.  Continue to add as many settings as you require. When you are done, click **Save Policy**.\n\nThe new policy displays in the **Configuration Policies** node of the **Policy** workspace.\n\n## Deploy a Windows Phone Custom policy\n\n1.  Deploy the policy to one or more groups of users or devices in your organization.\n\nFor more information about how to deploy policies, see [Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md).\n\nA status summary and alerts on the **Overview** page of the **Policy** workspace identify issues with the policy that require your attention. Additionally, a status summary appears in the **Dashboard** workspace.\n\n## See Also\n[Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)\n\n"
+}

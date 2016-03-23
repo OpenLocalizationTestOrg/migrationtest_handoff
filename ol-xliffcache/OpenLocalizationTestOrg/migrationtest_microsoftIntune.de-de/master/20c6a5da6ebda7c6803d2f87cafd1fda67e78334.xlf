@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">ht</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">20c6a5da6ebda7c6803d2f87cafd1fda67e78334</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>Common Microsoft Intune evaluation tasks</source>
+          <target>Common Microsoft Intune evaluation tasks</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>Common Microsoft Intune evaluation tasks</source>
+          <target>Common Microsoft Intune evaluation tasks</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>These evaluation tasks provide illustrated, step-by-step instructions for common tasks that you are likely to do when you're evaluating Intune:</source>
+          <target>These evaluation tasks provide illustrated, step-by-step instructions for common tasks that you are likely to do when you're evaluating Intune:</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>Start a Microsoft Intune trial and deploy iOS PIN policy</source>
+          <target>Start a Microsoft Intune trial and deploy iOS PIN policy</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>Set up email access for iOS devices using Microsoft Intune</source>
+          <target>Set up email access for iOS devices using Microsoft Intune</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>Check back soon, as more tasks will be added in the near future.</source>
+          <target>Check back soon, as more tasks will be added in the near future.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Start using Microsoft Intune</source>
+          <target>Start using Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>

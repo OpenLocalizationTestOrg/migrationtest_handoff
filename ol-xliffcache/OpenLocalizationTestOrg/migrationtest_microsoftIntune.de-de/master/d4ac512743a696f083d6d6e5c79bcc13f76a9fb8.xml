@@ -1,0 +1,4835 @@
+{
+  "nodes": [
+    {
+      "content": "MD Conversion - Mobile device security policy settings in Microsoft Intune",
+      "pos": [
+        11,
+        85
+      ]
+    },
+    {
+      "content": "MD Conversion - Mobile device security policy settings in Microsoft Intune",
+      "pos": [
+        220,
+        294
+      ]
+    },
+    {
+      "pos": [
+        297,
+        767
+      ],
+      "content": "[!IMPORTANT]\n[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] now features separate configuration policies for each device platform, and these policies contain the most up-to-date settings you can use. You can continue to use the mobile device security policy and any existing deployments will still work. However, you should plan to migrate to the new configuration policies as soon as possible as the mobile device security policy will be removed in the future.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] now features separate configuration policies for each device platform, and these policies contain the most up-to-date settings you can use. You can continue to use the mobile device security policy and any existing deployments will still work. However, you should plan to migrate to the new configuration policies as soon as possible as the mobile device security policy will be removed in the future.",
+          "pos": [
+            13,
+            468
+          ],
+          "nodes": [
+            {
+              "content": "<ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> now features separate configuration policies for each device platform, and these policies contain the most up-to-date settings you can use.",
+              "pos": [
+                0,
+                193
+              ]
+            },
+            {
+              "content": "You can continue to use the mobile device security policy and any existing deployments will still work.",
+              "pos": [
+                194,
+                297
+              ]
+            },
+            {
+              "content": "However, you should plan to migrate to the new configuration policies as soon as possible as the mobile device security policy will be removed in the future.",
+              "pos": [
+                298,
+                455
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Use <ph id=\"ph1\">[!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)]</ph> mobile device security policies to configure a wide range of settings that you can deploy to managed devices in your organization.",
+      "pos": [
+        769,
+        957
+      ]
+    },
+    {
+      "content": "These settings can be used to control the functionality and security of your devices.",
+      "pos": [
+        958,
+        1043
+      ]
+    },
+    {
+      "content": "You can create and deploy mobile device security policies for the following device types:",
+      "pos": [
+        1045,
+        1134
+      ]
+    },
+    {
+      "content": "Windows RT 8.1 and enrolled Windows 8.1 devices",
+      "pos": [
+        1140,
+        1187
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        1193,
+        1203
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        1209,
+        1246
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        1252,
+        1255
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        1261,
+        1285
+      ]
+    },
+    {
+      "pos": [
+        1289,
+        1415
+      ],
+      "content": "[!NOTE]\nSome settings are not applicable to some devices. See the table below for a full list of settings you can configure.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "Some settings are not applicable to some devices. See the table below for a full list of settings you can configure.",
+          "pos": [
+            8,
+            124
+          ],
+          "nodes": [
+            {
+              "content": "Some settings are not applicable to some devices.",
+              "pos": [
+                0,
+                49
+              ]
+            },
+            {
+              "content": "See the table below for a full list of settings you can configure.",
+              "pos": [
+                50,
+                116
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": "Create a mobile device security policy",
+      "pos": [
+        1420,
+        1458
+      ]
+    },
+    {
+      "pos": [
+        1464,
+        1581
+      ],
+      "content": "In the <bpt id=\"p1\">[</bpt>Microsoft Intune administration console<ept id=\"p1\">](https://manage.microsoft.com)</ept>, click <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> &amp;gt; <bpt id=\"p3\">**</bpt>Add Policy<ept id=\"p3\">**</ept>."
+    },
+    {
+      "pos": [
+        1587,
+        1659
+      ],
+      "content": "Click <bpt id=\"p1\">**</bpt>Common Mobile Device Settings<ept id=\"p1\">**</ept> &amp;gt; <bpt id=\"p2\">**</bpt>Mobile Device Security<ept id=\"p2\">**</ept>."
+    },
+    {
+      "pos": [
+        1665,
+        1824
+      ],
+      "content": "Choose whether you want to create a policy that contains recommended settings, or whether you want to create a custom policy, and then click <bpt id=\"p1\">**</bpt>Create Policy<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        1832,
+        1939
+      ],
+      "content": "[!TIP]\nClick the information icon next to each setting to view the recommended value for the setting.",
+      "leadings": [
+        "",
+        "    > "
+      ],
+      "nodes": [
+        {
+          "content": "Click the information icon next to each setting to view the recommended value for the setting.",
+          "pos": [
+            7,
+            101
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        1945,
+        2184
+      ],
+      "content": "For more information about how to create and deploy policies, see the <bpt id=\"p1\">[</bpt>Use policies to manage computers and mobile devices with Microsoft Intune<ept id=\"p1\">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</ept> topic."
+    },
+    {
+      "pos": [
+        2190,
+        2396
+      ],
+      "content": "See the <bpt id=\"p1\">[</bpt>Policy settings for mobile devices<ept id=\"p1\">](../Topic/Mobile-device-security-policy-settings-in-Microsoft-Intune.md#BKMK_Settings)</ept> section in this topic for information about the settings you can configure."
+    },
+    {
+      "pos": [
+        2402,
+        2447
+      ],
+      "content": "When you are finished, click <bpt id=\"p1\">**</bpt>Save Policy<ept id=\"p1\">**</ept>."
+    },
+    {
+      "pos": [
+        2449,
+        2540
+      ],
+      "content": "The new policy displays in the <bpt id=\"p1\">**</bpt>Configuration Policies<ept id=\"p1\">**</ept> node of the <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> workspace."
+    },
+    {
+      "content": "Deploy a mobile device security policy",
+      "pos": [
+        2545,
+        2583
+      ]
+    },
+    {
+      "content": "Deploy the mobile device security policy to one or more groups of users or devices in your organization.",
+      "pos": [
+        2589,
+        2693
+      ]
+    },
+    {
+      "pos": [
+        2695,
+        2913
+      ],
+      "content": "For more information about how to deploy policies, see <bpt id=\"p1\">[</bpt>Use policies to manage computers and mobile devices with Microsoft Intune<ept id=\"p1\">](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)</ept>."
+    },
+    {
+      "content": "A status summary and alerts on the <bpt id=\"p1\">**</bpt>Overview<ept id=\"p1\">**</ept> page of the <bpt id=\"p2\">**</bpt>Policy<ept id=\"p2\">**</ept> workspace identify issues with the policy that require your attention.",
+      "pos": [
+        2915,
+        3056
+      ]
+    },
+    {
+      "content": "Additionally, a status summary appears in the <bpt id=\"p1\">**</bpt>Dashboard<ept id=\"p1\">**</ept> workspace.",
+      "pos": [
+        3057,
+        3127
+      ]
+    },
+    {
+      "pos": [
+        3131,
+        3281
+      ],
+      "content": "[!IMPORTANT]\nIt might take up to 24 hours for status information to appear in the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] admin console.",
+      "leadings": [
+        "",
+        "> "
+      ],
+      "nodes": [
+        {
+          "content": "It might take up to 24 hours for status information to appear in the <ph id=\"ph1\">[!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)]</ph> admin console.",
+          "pos": [
+            13,
+            148
+          ]
+        }
+      ]
+    },
+    {
+      "pos": [
+        3286,
+        3348
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_Settings\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Policy settings for mobile devices"
+    },
+    {
+      "pos": [
+        3354,
+        3394
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_sec\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Security settings"
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        3397,
+        3409
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        3410,
+        3440
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        3441,
+        3451
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        3452,
+        3489
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        3490,
+        3493
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        3494,
+        3518
+      ]
+    },
+    {
+      "content": "Require a password to unlock mobile devices",
+      "pos": [
+        3671,
+        3714
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        3717,
+        3719
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        3720,
+        3722
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        3723,
+        3726
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        3727,
+        3730
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        3731,
+        3734
+      ]
+    },
+    {
+      "content": "Required password type",
+      "pos": [
+        3739,
+        3761
+      ]
+    },
+    {
+      "content": "(specifies the type of password that will be required, such as numeric only, or alphanumeric)",
+      "pos": [
+        3775,
+        3868
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        3869,
+        3872
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        3873,
+        3876
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        3877,
+        3880
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        3881,
+        3884
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        3885,
+        3887
+      ]
+    },
+    {
+      "content": "Required password type – Minimum number of character sets",
+      "pos": [
+        3892,
+        3949
+      ]
+    },
+    {
+      "content": "There are four character sets, lowercase letters, uppercase letters, numbers, and symbols.",
+      "pos": [
+        3963,
+        4053
+      ]
+    },
+    {
+      "content": "This setting specifies how many different character sets must be included in the password).",
+      "pos": [
+        4054,
+        4145
+      ]
+    },
+    {
+      "content": "However, for iOS devices, this specifies the number of symbol characters must be included in the password)",
+      "pos": [
+        4146,
+        4252
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4253,
+        4256
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4257,
+        4260
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4261,
+        4264
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4265,
+        4268
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4269,
+        4271
+      ]
+    },
+    {
+      "content": "Minimum password length",
+      "pos": [
+        4276,
+        4299
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4302,
+        4305
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4306,
+        4309
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4310,
+        4313
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4314,
+        4317
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4318,
+        4321
+      ]
+    },
+    {
+      "content": "Allow simple passwords",
+      "pos": [
+        4326,
+        4348
+      ]
+    },
+    {
+      "content": "Simple passwords include ‘0000’ and ‘1234’",
+      "pos": [
+        4362,
+        4404
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4405,
+        4407
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4408,
+        4410
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4411,
+        4414
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4415,
+        4418
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4419,
+        4421
+      ]
+    },
+    {
+      "content": "Number of repeated sign-in failures to allow before the device is wiped",
+      "pos": [
+        4426,
+        4497
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4500,
+        4503
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4504,
+        4507
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4508,
+        4511
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4512,
+        4515
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4516,
+        4519
+      ]
+    },
+    {
+      "pos": [
+        4522,
+        4583
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Minutes of inactivity before screen turns off<ept id=\"p1\">**</ept><ph id=\"ph1\">&lt;sup&gt;</ph>1<ph id=\"ph2\">&lt;/sup&gt;</ph>"
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4584,
+        4587
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4588,
+        4591
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4592,
+        4595
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4596,
+        4599
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4600,
+        4603
+      ]
+    },
+    {
+      "content": "Password expiration (days)",
+      "pos": [
+        4608,
+        4634
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4637,
+        4640
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4641,
+        4644
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4645,
+        4648
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4649,
+        4652
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4653,
+        4656
+      ]
+    },
+    {
+      "content": "Remember password history",
+      "pos": [
+        4661,
+        4686
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4689,
+        4692
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4693,
+        4696
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4697,
+        4700
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4701,
+        4704
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4705,
+        4708
+      ]
+    },
+    {
+      "pos": [
+        4711,
+        4782
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Remember password history<ept id=\"p1\">**</ept> – <bpt id=\"p2\">**</bpt>Prevent reuse of previous passwords<ept id=\"p2\">**</ept>"
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4783,
+        4786
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4787,
+        4790
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4791,
+        4794
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4795,
+        4798
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4799,
+        4802
+      ]
+    },
+    {
+      "content": "Password quality",
+      "pos": [
+        4807,
+        4823
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4826,
+        4828
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4829,
+        4831
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4832,
+        4834
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4835,
+        4837
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4838,
+        4841
+      ]
+    },
+    {
+      "content": "Allow picture password and PIN",
+      "pos": [
+        4846,
+        4876
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4879,
+        4882
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4883,
+        4886
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4887,
+        4889
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4890,
+        4892
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4893,
+        4895
+      ]
+    },
+    {
+      "content": "Minutes of inactivity before password is required",
+      "pos": [
+        4900,
+        4949
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4952,
+        4954
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4955,
+        4957
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4958,
+        4960
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        4961,
+        4964
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4965,
+        4967
+      ]
+    },
+    {
+      "content": "Allow fingerprint unlock",
+      "pos": [
+        4972,
+        4996
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        4999,
+        5001
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5002,
+        5004
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5005,
+        5007
+      ]
+    },
+    {
+      "content": "iOS 7 and later",
+      "pos": [
+        5008,
+        5023
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        5024,
+        5026
+      ]
+    },
+    {
+      "content": "For iOS devices, when you configure the settings <bpt id=\"p1\">**</bpt>Minutes of inactivity before screen turns off<ept id=\"p1\">**</ept> and <bpt id=\"p2\">**</bpt>Minutes of inactivity before password is required<ept id=\"p2\">**</ept>, they are applied in sequence.",
+      "pos": [
+        5028,
+        5215
+      ]
+    },
+    {
+      "content": "For example, if you set the value for both settings to <bpt id=\"p1\">**</bpt>5<ept id=\"p1\">**</ept> minutes, the screen will turn off automatically after 5 minutes, and the device will be locked after an additional 5 minutes.",
+      "pos": [
+        5216,
+        5402
+      ]
+    },
+    {
+      "content": "However, if the user turns off the screen manually, the second setting is immediately applied.",
+      "pos": [
+        5403,
+        5497
+      ]
+    },
+    {
+      "content": "In the same example, after the user turns off the screen, the device will lock 5 minutes later.",
+      "pos": [
+        5498,
+        5593
+      ]
+    },
+    {
+      "content": "When you set deploy a password length policy to devices that run Windows RT, users will be forced to reset their password, even if their current password complies with the policy requirements.",
+      "pos": [
+        5595,
+        5787
+      ]
+    },
+    {
+      "content": "Encryption settings",
+      "pos": [
+        5793,
+        5812
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        5815,
+        5827
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        5828,
+        5858
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        5859,
+        5869
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        5870,
+        5907
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        5908,
+        5911
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        5912,
+        5936
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Require encryption on mobile device<ept id=\"p1\">**</ept><ph id=\"ph1\">&lt;sup&gt;</ph>1<ph id=\"ph2\">&lt;/sup&gt;</ph>",
+      "pos": [
+        6087,
+        6138
+      ]
+    },
+    {
+      "content": "For Windows Phone 8 devices, you must set this to <bpt id=\"p1\">**</bpt>Yes<ept id=\"p1\">**</ept>.",
+      "pos": [
+        6150,
+        6208
+      ]
+    },
+    {
+      "content": "To enable encryption on iOS devices, enable the setting <bpt id=\"p1\">**</bpt>Require a password to unlock mobile devices<ept id=\"p1\">**</ept>.",
+      "pos": [
+        6220,
+        6324
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6325,
+        6328
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        6329,
+        6331
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6332,
+        6335
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        6336,
+        6338
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6339,
+        6342
+      ]
+    },
+    {
+      "content": "Require encryption on storage cards",
+      "pos": [
+        6347,
+        6382
+      ]
+    },
+    {
+      "content": "Applies to devices that are managed by Exchange ActiveSync also.",
+      "pos": [
+        6396,
+        6460
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        6461,
+        6464
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        6465,
+        6468
+      ]
+    },
+    {
+      "content": "n/a (apps and associated data are automatically encrypted)",
+      "pos": [
+        6469,
+        6527
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        6528,
+        6531
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        6532,
+        6535
+      ]
+    },
+    {
+      "content": "Additional information for devices that run Windows 8.1",
+      "pos": [
+        6537,
+        6592
+      ]
+    },
+    {
+      "pos": [
+        6598,
+        6776
+      ],
+      "content": "To enforce encryption on devices that run Windows 8.1, you must install the <bpt id=\"p1\">[</bpt>December 2014 MDM client update for Windows<ept id=\"p1\">](http://support.microsoft.com/kb/3013816)</ept> on each device."
+    },
+    {
+      "content": "If you enable this setting for Windows 8.1 devices, all users of the device must have a Microsoft Account.",
+      "pos": [
+        6782,
+        6888
+      ]
+    },
+    {
+      "pos": [
+        6894,
+        7087
+      ],
+      "content": "For encryption to work, the device must meet the Microsoft <bpt id=\"p1\">[</bpt>InstantGo<ept id=\"p1\">](http://blogs.windows.com/bloggingwindows/2014/06/19/instantgo-a-better-way-to-sleep/)</ept> hardware certification requirements."
+    },
+    {
+      "content": "When you enforce encryption on a device, the recovery key is only accessible from the users Microsoft Account, accessed from their OneDrive account.",
+      "pos": [
+        7093,
+        7241
+      ]
+    },
+    {
+      "content": "You cannot recover this key on behalf of a user.",
+      "pos": [
+        7242,
+        7290
+      ]
+    },
+    {
+      "content": "Malware settings",
+      "pos": [
+        7296,
+        7312
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        7315,
+        7327
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        7328,
+        7358
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        7359,
+        7369
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        7370,
+        7407
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        7408,
+        7411
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        7412,
+        7436
+      ]
+    },
+    {
+      "content": "Require network firewall",
+      "pos": [
+        7589,
+        7613
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7616,
+        7619
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7620,
+        7622
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7623,
+        7625
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7626,
+        7628
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7629,
+        7631
+      ]
+    },
+    {
+      "content": "Enable SmartScreen",
+      "pos": [
+        7636,
+        7654
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7657,
+        7660
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7661,
+        7663
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7664,
+        7666
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7667,
+        7669
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        7670,
+        7672
+      ]
+    },
+    {
+      "content": "System settings",
+      "pos": [
+        7679,
+        7694
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        7697,
+        7709
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        7710,
+        7740
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        7741,
+        7751
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        7752,
+        7789
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        7790,
+        7793
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        7794,
+        7818
+      ]
+    },
+    {
+      "content": "Require automatic updates",
+      "pos": [
+        7971,
+        7996
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        7999,
+        8002
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8003,
+        8005
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8006,
+        8008
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8009,
+        8011
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8012,
+        8014
+      ]
+    },
+    {
+      "content": "Require automatic updates – Minimum classification of updates to install automatically",
+      "pos": [
+        8019,
+        8105
+      ]
+    },
+    {
+      "content": "Choose the classification of updates that will be installed automatically:",
+      "pos": [
+        8119,
+        8193
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Important<ept id=\"p1\">**</ept> – Installs all updates classified as important.",
+      "pos": [
+        8205,
+        8266
+      ]
+    },
+    {
+      "content": "<bpt id=\"p1\">**</bpt>Recommended<ept id=\"p1\">**</ept> – Installs all updates classified as important or recommended.",
+      "pos": [
+        8278,
+        8356
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8357,
+        8360
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8361,
+        8363
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8364,
+        8366
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8367,
+        8369
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8370,
+        8372
+      ]
+    },
+    {
+      "content": "Allow screen capture",
+      "pos": [
+        8377,
+        8397
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8400,
+        8402
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8403,
+        8405
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        8406,
+        8428
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8429,
+        8432
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        8433,
+        8456
+      ]
+    },
+    {
+      "content": "Allow control center in lock screen",
+      "pos": [
+        8461,
+        8496
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8499,
+        8501
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8502,
+        8504
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8505,
+        8507
+      ]
+    },
+    {
+      "content": "iOS 7 and later",
+      "pos": [
+        8508,
+        8523
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8524,
+        8526
+      ]
+    },
+    {
+      "content": "Allow notification view in lock screen",
+      "pos": [
+        8531,
+        8569
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8572,
+        8574
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8575,
+        8577
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8578,
+        8580
+      ]
+    },
+    {
+      "content": "iOS 7 and later",
+      "pos": [
+        8581,
+        8596
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8597,
+        8599
+      ]
+    },
+    {
+      "content": "Allow today view in lock screen",
+      "pos": [
+        8604,
+        8635
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8638,
+        8640
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8641,
+        8643
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8644,
+        8646
+      ]
+    },
+    {
+      "content": "iOS 7 and later",
+      "pos": [
+        8647,
+        8662
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8663,
+        8665
+      ]
+    },
+    {
+      "content": "User Account Control",
+      "pos": [
+        8670,
+        8690
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8693,
+        8696
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8697,
+        8699
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8700,
+        8702
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8703,
+        8705
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8706,
+        8708
+      ]
+    },
+    {
+      "content": "Allow diagnostic data submission",
+      "pos": [
+        8713,
+        8745
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8748,
+        8751
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8752,
+        8754
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        8755,
+        8777
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8778,
+        8781
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        8782,
+        8805
+      ]
+    },
+    {
+      "content": "Allow untrusted TLS certificates",
+      "pos": [
+        8810,
+        8842
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8845,
+        8847
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8848,
+        8850
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8851,
+        8853
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8854,
+        8857
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8858,
+        8860
+      ]
+    },
+    {
+      "content": "Allow personal wallet software while locked",
+      "pos": [
+        8865,
+        8908
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8911,
+        8913
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8914,
+        8916
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8917,
+        8919
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        8920,
+        8923
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8924,
+        8926
+      ]
+    },
+    {
+      "content": "Allow factory reset",
+      "pos": [
+        8931,
+        8950
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8953,
+        8955
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8956,
+        8958
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8959,
+        8961
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        8962,
+        8964
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        8965,
+        8988
+      ]
+    },
+    {
+      "pos": [
+        8990,
+        9168
+      ],
+      "content": "To enforce encryption on devices that run Windows 8.1, you must install the <bpt id=\"p1\">[</bpt>December 2014 MDM client update for Windows<ept id=\"p1\">](http://support.microsoft.com/kb/3013816)</ept> on each device."
+    },
+    {
+      "pos": [
+        9174,
+        9234
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_cloud\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Cloud settings – documents and data"
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        9237,
+        9249
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        9250,
+        9280
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        9281,
+        9291
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        9292,
+        9329
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        9330,
+        9333
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        9334,
+        9358
+      ]
+    },
+    {
+      "content": "Allow backup to iCloud",
+      "pos": [
+        9511,
+        9533
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9536,
+        9538
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9539,
+        9541
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9542,
+        9544
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9545,
+        9548
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9549,
+        9551
+      ]
+    },
+    {
+      "content": "Allow document sync to iCloud",
+      "pos": [
+        9556,
+        9585
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9588,
+        9590
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9591,
+        9593
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9594,
+        9596
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9597,
+        9600
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9601,
+        9603
+      ]
+    },
+    {
+      "content": "Allow Photo Stream sync to iCloud",
+      "pos": [
+        9608,
+        9641
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9644,
+        9646
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9647,
+        9649
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9650,
+        9652
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9653,
+        9656
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9657,
+        9659
+      ]
+    },
+    {
+      "content": "Require encrypted backup",
+      "pos": [
+        9664,
+        9688
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9691,
+        9693
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9694,
+        9696
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9697,
+        9699
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9700,
+        9703
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9704,
+        9706
+      ]
+    },
+    {
+      "content": "Work Folders URL",
+      "pos": [
+        9711,
+        9727
+      ]
+    },
+    {
+      "content": "(sets the URL of the work folder to allow documents to be synchronized across devices)",
+      "pos": [
+        9741,
+        9827
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        9828,
+        9831
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9832,
+        9834
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9835,
+        9837
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9838,
+        9840
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9841,
+        9843
+      ]
+    },
+    {
+      "content": "Allow Google backup",
+      "pos": [
+        9848,
+        9867
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9870,
+        9872
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9873,
+        9875
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9876,
+        9878
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        9879,
+        9881
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        9882,
+        9905
+      ]
+    },
+    {
+      "content": "Cloud settings – accounts and synchronization",
+      "pos": [
+        9912,
+        9957
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        9960,
+        9972
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        9973,
+        10003
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        10004,
+        10014
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        10015,
+        10052
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        10053,
+        10056
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        10057,
+        10081
+      ]
+    },
+    {
+      "content": "Allow Microsoft account",
+      "pos": [
+        10234,
+        10257
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        10260,
+        10262
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        10263,
+        10265
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        10266,
+        10288
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        10289,
+        10291
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        10292,
+        10294
+      ]
+    },
+    {
+      "content": "Allow Google account auto sync",
+      "pos": [
+        10299,
+        10329
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        10332,
+        10334
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        10335,
+        10337
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        10338,
+        10340
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        10341,
+        10343
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        10344,
+        10367
+      ]
+    },
+    {
+      "pos": [
+        10374,
+        10413
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_email\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Email settings"
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        10416,
+        10428
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        10429,
+        10459
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        10460,
+        10470
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        10471,
+        10508
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        10509,
+        10512
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        10513,
+        10537
+      ]
+    },
+    {
+      "pos": [
+        10688,
+        10745
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Allow users to download email attachments<ept id=\"p1\">**</ept><ph id=\"ph1\">&lt;sup&gt;</ph>1<ph id=\"ph2\">&lt;/sup&gt;</ph>"
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        10746,
+        10749
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        10750,
+        10753
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        10754,
+        10757
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        10758,
+        10761
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        10762,
+        10765
+      ]
+    },
+    {
+      "pos": [
+        10768,
+        10865
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Email synchronization period<ept id=\"p1\">**</ept> Applies to devices that are managed by Exchange ActiveSync also."
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        10866,
+        10869
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        10870,
+        10873
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        10874,
+        10877
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        10878,
+        10881
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        10882,
+        10885
+      ]
+    },
+    {
+      "pos": [
+        10888,
+        11068
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Allow mobile devices that don’t fully support these settings to synchronize with Exchange (Exchange ActiveSync)<ept id=\"p1\">**</ept> Applies to devices that are managed by Exchange ActiveSync also."
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        11069,
+        11072
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        11073,
+        11076
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        11077,
+        11080
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        11081,
+        11084
+      ]
+    },
+    {
+      "content": "n/a",
+      "pos": [
+        11085,
+        11088
+      ]
+    },
+    {
+      "content": "Make Microsoft account optional in Windows Mail application",
+      "pos": [
+        11093,
+        11152
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11155,
+        11158
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11159,
+        11161
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11162,
+        11164
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11165,
+        11167
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11168,
+        11170
+      ]
+    },
+    {
+      "content": "Allow custom email accounts",
+      "pos": [
+        11175,
+        11202
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11205,
+        11207
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11208,
+        11210
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        11211,
+        11233
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11234,
+        11236
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11237,
+        11239
+      ]
+    },
+    {
+      "pos": [
+        11246,
+        11303
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_browser\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Application settings - browser"
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        11306,
+        11318
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        11319,
+        11349
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        11350,
+        11360
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        11361,
+        11398
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        11399,
+        11402
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        11403,
+        11427
+      ]
+    },
+    {
+      "content": "Allow web browser",
+      "pos": [
+        11580,
+        11597
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11600,
+        11602
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11603,
+        11605
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        11606,
+        11628
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11629,
+        11632
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        11633,
+        11656
+      ]
+    },
+    {
+      "content": "Allow autofill",
+      "pos": [
+        11661,
+        11675
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11678,
+        11681
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11682,
+        11684
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11685,
+        11687
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11688,
+        11691
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        11692,
+        11715
+      ]
+    },
+    {
+      "content": "Allow pop-up blocker",
+      "pos": [
+        11720,
+        11740
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11743,
+        11746
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11747,
+        11749
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11750,
+        11752
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11753,
+        11756
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        11757,
+        11780
+      ]
+    },
+    {
+      "content": "Allow cookies",
+      "pos": [
+        11785,
+        11798
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11801,
+        11803
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11804,
+        11806
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11807,
+        11809
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11810,
+        11813
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        11814,
+        11837
+      ]
+    },
+    {
+      "content": "Allow plug-ins",
+      "pos": [
+        11842,
+        11856
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11859,
+        11862
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11863,
+        11865
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11866,
+        11868
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11869,
+        11871
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11872,
+        11874
+      ]
+    },
+    {
+      "content": "Allow active scripting",
+      "pos": [
+        11879,
+        11901
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11904,
+        11907
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11908,
+        11910
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11911,
+        11913
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11914,
+        11917
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        11918,
+        11941
+      ]
+    },
+    {
+      "content": "Allow fraud warning",
+      "pos": [
+        11946,
+        11965
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11968,
+        11971
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11972,
+        11974
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11975,
+        11977
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        11978,
+        11981
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        11982,
+        11984
+      ]
+    },
+    {
+      "content": "Allow intranet site for single word entry",
+      "pos": [
+        11989,
+        12030
+      ]
+    },
+    {
+      "content": "(allows use of a single word to direct Internet Explorer to a web site, such as ‘Bing’)",
+      "pos": [
+        12044,
+        12131
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        12132,
+        12135
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12136,
+        12138
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12139,
+        12141
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12142,
+        12144
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12145,
+        12147
+      ]
+    },
+    {
+      "content": "Allow automatic detection of intranet network",
+      "pos": [
+        12152,
+        12197
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        12200,
+        12203
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12204,
+        12206
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12207,
+        12209
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12210,
+        12212
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12213,
+        12215
+      ]
+    },
+    {
+      "content": "Security level for Internet",
+      "pos": [
+        12220,
+        12247
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        12250,
+        12253
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12254,
+        12256
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12257,
+        12259
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12260,
+        12262
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12263,
+        12265
+      ]
+    },
+    {
+      "content": "Security level for intranet",
+      "pos": [
+        12270,
+        12297
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        12300,
+        12303
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12304,
+        12306
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12307,
+        12309
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12310,
+        12312
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12313,
+        12315
+      ]
+    },
+    {
+      "content": "Security level for trusted sites",
+      "pos": [
+        12320,
+        12352
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        12355,
+        12358
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12359,
+        12361
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12362,
+        12364
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12365,
+        12367
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12368,
+        12370
+      ]
+    },
+    {
+      "content": "Security level for restricted sites",
+      "pos": [
+        12375,
+        12410
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        12413,
+        12416
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12417,
+        12419
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12420,
+        12422
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12423,
+        12425
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12426,
+        12428
+      ]
+    },
+    {
+      "content": "Send Do Not Track header",
+      "pos": [
+        12433,
+        12457
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        12460,
+        12463
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12464,
+        12466
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12467,
+        12469
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12470,
+        12472
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12473,
+        12475
+      ]
+    },
+    {
+      "content": "Allow Enterprise Mode menu access",
+      "pos": [
+        12480,
+        12513
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        12516,
+        12519
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12520,
+        12522
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12523,
+        12525
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12526,
+        12528
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12529,
+        12531
+      ]
+    },
+    {
+      "content": "Enterprise Mode site list location",
+      "pos": [
+        12536,
+        12570
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        12573,
+        12576
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12577,
+        12579
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12580,
+        12582
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12583,
+        12585
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12586,
+        12588
+      ]
+    },
+    {
+      "pos": [
+        12595,
+        12646
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_apps\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Application settings - apps"
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        12649,
+        12661
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        12662,
+        12692
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        12693,
+        12703
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        12704,
+        12741
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        12742,
+        12745
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        12746,
+        12770
+      ]
+    },
+    {
+      "content": "Allow application store",
+      "pos": [
+        12923,
+        12946
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12949,
+        12951
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        12952,
+        12954
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        12955,
+        12977
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        12978,
+        12981
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        12982,
+        13005
+      ]
+    },
+    {
+      "content": "Require a password to access application store",
+      "pos": [
+        13010,
+        13056
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13059,
+        13061
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13062,
+        13064
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13065,
+        13067
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        13068,
+        13071
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13072,
+        13074
+      ]
+    },
+    {
+      "content": "Allow in-app purchases",
+      "pos": [
+        13079,
+        13101
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13104,
+        13106
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13107,
+        13109
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13110,
+        13112
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        13113,
+        13116
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13117,
+        13119
+      ]
+    },
+    {
+      "content": "Allow managed documents in other unmanaged apps",
+      "pos": [
+        13124,
+        13171
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13174,
+        13176
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13177,
+        13179
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13180,
+        13182
+      ]
+    },
+    {
+      "content": "iOS 7 and later",
+      "pos": [
+        13183,
+        13198
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13199,
+        13201
+      ]
+    },
+    {
+      "content": "Allow unmanaged documents in other managed apps",
+      "pos": [
+        13206,
+        13253
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13256,
+        13258
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13259,
+        13261
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13262,
+        13264
+      ]
+    },
+    {
+      "content": "iOS 7 and later",
+      "pos": [
+        13265,
+        13280
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13281,
+        13283
+      ]
+    },
+    {
+      "content": "Allow video conferencing",
+      "pos": [
+        13288,
+        13312
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13315,
+        13317
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13318,
+        13320
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13321,
+        13323
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        13324,
+        13327
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13328,
+        13330
+      ]
+    },
+    {
+      "content": "Allow adult content in media store",
+      "pos": [
+        13335,
+        13369
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13372,
+        13374
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13375,
+        13377
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13378,
+        13380
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        13381,
+        13384
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13385,
+        13387
+      ]
+    },
+    {
+      "content": "Allow app installation",
+      "pos": [
+        13392,
+        13414
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13417,
+        13419
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13420,
+        13422
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13423,
+        13425
+      ]
+    },
+    {
+      "content": "iOS 6 and later",
+      "pos": [
+        13426,
+        13441
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13442,
+        13444
+      ]
+    },
+    {
+      "content": "Application settings - gaming",
+      "pos": [
+        13451,
+        13480
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        13483,
+        13495
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        13496,
+        13526
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        13527,
+        13537
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        13538,
+        13575
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        13576,
+        13579
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        13580,
+        13604
+      ]
+    },
+    {
+      "content": "Allow Game Center friends",
+      "pos": [
+        13757,
+        13782
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13785,
+        13787
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13788,
+        13790
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13791,
+        13793
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        13794,
+        13797
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13798,
+        13800
+      ]
+    },
+    {
+      "content": "Allow multiplayer gaming",
+      "pos": [
+        13805,
+        13829
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13832,
+        13834
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13835,
+        13837
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13838,
+        13840
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        13841,
+        13844
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        13845,
+        13847
+      ]
+    },
+    {
+      "pos": [
+        13854,
+        13917
+      ],
+      "content": "<ph id=\"ph1\">&lt;a name=\"BKMK_hard\"&gt;</ph><ph id=\"ph2\">&lt;/a&gt;</ph>Device capabilities settings - hardware"
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        13920,
+        13932
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        13933,
+        13963
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        13964,
+        13974
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        13975,
+        14012
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        14013,
+        14016
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        14017,
+        14041
+      ]
+    },
+    {
+      "content": "Allow camera",
+      "pos": [
+        14194,
+        14206
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14209,
+        14211
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14212,
+        14214
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        14215,
+        14237
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        14238,
+        14241
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        14242,
+        14245
+      ]
+    },
+    {
+      "content": "Allow removable storage",
+      "pos": [
+        14250,
+        14273
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14276,
+        14278
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14279,
+        14281
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        14282,
+        14285
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14286,
+        14288
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        14289,
+        14312
+      ]
+    },
+    {
+      "content": "Allow Wi-Fi",
+      "pos": [
+        14317,
+        14328
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14331,
+        14333
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14334,
+        14336
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        14337,
+        14359
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14360,
+        14362
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        14363,
+        14386
+      ]
+    },
+    {
+      "content": "Allow Wi-Fi tethering",
+      "pos": [
+        14391,
+        14412
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14415,
+        14417
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14418,
+        14420
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        14421,
+        14443
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14444,
+        14446
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        14447,
+        14470
+      ]
+    },
+    {
+      "content": "Allow automatic connection to free Wi-Fi hotspots",
+      "pos": [
+        14475,
+        14524
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14527,
+        14529
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14530,
+        14532
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        14533,
+        14555
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14556,
+        14558
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14559,
+        14561
+      ]
+    },
+    {
+      "content": "Allow Wi-Fi hotspot reporting",
+      "pos": [
+        14566,
+        14595
+      ]
+    },
+    {
+      "content": "(send information about Wi-Fi connections to help discover nearby connections)",
+      "pos": [
+        14609,
+        14687
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14688,
+        14690
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14691,
+        14693
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        14694,
+        14716
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14717,
+        14719
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14720,
+        14722
+      ]
+    },
+    {
+      "content": "Allow geolocation",
+      "pos": [
+        14727,
+        14744
+      ]
+    },
+    {
+      "content": "(allows the device to utilize location information)",
+      "pos": [
+        14758,
+        14809
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14810,
+        14812
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14813,
+        14815
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        14816,
+        14838
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14839,
+        14841
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        14842,
+        14865
+      ]
+    },
+    {
+      "content": "Allow NFC",
+      "pos": [
+        14870,
+        14879
+      ]
+    },
+    {
+      "content": "(allows operations that use near field communication)",
+      "pos": [
+        14893,
+        14946
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14947,
+        14949
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14950,
+        14952
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        14953,
+        14975
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        14976,
+        14978
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        14979,
+        15002
+      ]
+    },
+    {
+      "content": "Allow Bluetooth",
+      "pos": [
+        15007,
+        15022
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15025,
+        15027
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15028,
+        15030
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        15031,
+        15053
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15054,
+        15056
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        15057,
+        15080
+      ]
+    },
+    {
+      "pos": [
+        15083,
+        15247
+      ],
+      "content": "<bpt id=\"p1\">**</bpt>Allow power off<ept id=\"p1\">**</ept> If disabled, the setting <bpt id=\"p2\">**</bpt>Number of repeated sign in failures to allow before the device is wiped<ept id=\"p2\">**</ept> for Samsung KNOX devices does not function."
+    },
+    {
+      "content": "No",
+      "pos": [
+        15248,
+        15250
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15251,
+        15253
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15254,
+        15256
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15257,
+        15259
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        15260,
+        15283
+      ]
+    },
+    {
+      "content": "Device capabilities settings - cellular",
+      "pos": [
+        15290,
+        15329
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        15332,
+        15344
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        15345,
+        15375
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        15376,
+        15386
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        15387,
+        15424
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        15425,
+        15428
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        15429,
+        15453
+      ]
+    },
+    {
+      "content": "Allow voice roaming",
+      "pos": [
+        15606,
+        15625
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15628,
+        15630
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15631,
+        15633
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15634,
+        15636
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        15637,
+        15640
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        15641,
+        15664
+      ]
+    },
+    {
+      "content": "Allow data roaming",
+      "pos": [
+        15669,
+        15687
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        15690,
+        15693
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15694,
+        15696
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15697,
+        15699
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        15700,
+        15703
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        15704,
+        15727
+      ]
+    },
+    {
+      "content": "Allow automatic synchronization while roaming",
+      "pos": [
+        15732,
+        15777
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15780,
+        15782
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15783,
+        15785
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15786,
+        15788
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        15789,
+        15792
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15793,
+        15795
+      ]
+    },
+    {
+      "content": "Allow SMS/MMS messaging",
+      "pos": [
+        15800,
+        15823
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15826,
+        15828
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15829,
+        15831
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15832,
+        15834
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        15835,
+        15837
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        15838,
+        15861
+      ]
+    },
+    {
+      "content": "Device capabilities settings - features",
+      "pos": [
+        15868,
+        15907
+      ]
+    },
+    {
+      "content": "Setting name",
+      "pos": [
+        15910,
+        15922
+      ]
+    },
+    {
+      "content": "Windows 8.1 and Windows RT 8.1",
+      "pos": [
+        15923,
+        15953
+      ]
+    },
+    {
+      "content": "Windows RT",
+      "pos": [
+        15954,
+        15964
+      ]
+    },
+    {
+      "content": "Windows Phone 8 and Windows Phone 8.1",
+      "pos": [
+        15965,
+        16002
+      ]
+    },
+    {
+      "content": "iOS",
+      "pos": [
+        16003,
+        16006
+      ]
+    },
+    {
+      "content": "Android and Samsung KNOX",
+      "pos": [
+        16007,
+        16031
+      ]
+    },
+    {
+      "content": "Allow voice assistant",
+      "pos": [
+        16184,
+        16205
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16208,
+        16210
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16211,
+        16213
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16214,
+        16216
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        16217,
+        16220
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        16221,
+        16244
+      ]
+    },
+    {
+      "content": "Allow voice assistant while device is locked",
+      "pos": [
+        16249,
+        16293
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16296,
+        16298
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16299,
+        16301
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16302,
+        16304
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        16305,
+        16308
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16309,
+        16311
+      ]
+    },
+    {
+      "content": "Allow voice dialing",
+      "pos": [
+        16316,
+        16335
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16338,
+        16340
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16341,
+        16343
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16344,
+        16346
+      ]
+    },
+    {
+      "content": "Yes",
+      "pos": [
+        16347,
+        16350
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        16351,
+        16374
+      ]
+    },
+    {
+      "content": "Allow copy and paste",
+      "pos": [
+        16379,
+        16399
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16402,
+        16404
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16405,
+        16407
+      ]
+    },
+    {
+      "content": "Windows Phone 8.1 only",
+      "pos": [
+        16408,
+        16430
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16431,
+        16433
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        16434,
+        16457
+      ]
+    },
+    {
+      "content": "Allow clipboard share between applications",
+      "pos": [
+        16462,
+        16504
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16507,
+        16509
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16510,
+        16512
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16513,
+        16515
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16516,
+        16518
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        16519,
+        16542
+      ]
+    },
+    {
+      "content": "Allow YouTube",
+      "pos": [
+        16547,
+        16560
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16563,
+        16565
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16566,
+        16568
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16569,
+        16571
+      ]
+    },
+    {
+      "content": "No",
+      "pos": [
+        16572,
+        16574
+      ]
+    },
+    {
+      "content": "Yes (Samsung KNOX only)",
+      "pos": [
+        16575,
+        16598
+      ]
+    },
+    {
+      "content": "See Also",
+      "pos": [
+        16604,
+        16612
+      ]
+    },
+    {
+      "content": "Use policies to manage computers and mobile devices with Microsoft Intune",
+      "pos": [
+        16614,
+        16687
+      ]
+    }
+  ],
+  "content": "---\ntitle: MD Conversion - Mobile device security policy settings in Microsoft Intune\nms.custom: na\nms.reviewer: na\nms.suite: na\nms.tgt_pltfrm: na\nms.topic: article\nms.assetid: cf3cc1ba-ffe9-4c9a-b005-f24e9afd1ee6\n---\n# MD Conversion - Mobile device security policy settings in Microsoft Intune\n> [!IMPORTANT]\n> [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] now features separate configuration policies for each device platform, and these policies contain the most up-to-date settings you can use. You can continue to use the mobile device security policy and any existing deployments will still work. However, you should plan to migrate to the new configuration policies as soon as possible as the mobile device security policy will be removed in the future.\n\nUse [!INCLUDE[wit_firstref](../Token/wit_firstref_md.md)] mobile device security policies to configure a wide range of settings that you can deploy to managed devices in your organization. These settings can be used to control the functionality and security of your devices.\n\nYou can create and deploy mobile device security policies for the following device types:\n\n-   Windows RT 8.1 and enrolled Windows 8.1 devices\n\n-   Windows RT\n\n-   Windows Phone 8 and Windows Phone 8.1\n\n-   iOS\n\n-   Android and Samsung KNOX\n\n> [!NOTE]\n> Some settings are not applicable to some devices. See the table below for a full list of settings you can configure.\n\n## Create a mobile device security policy\n\n1.  In the [Microsoft Intune administration console](https://manage.microsoft.com), click **Policy** &gt; **Add Policy**.\n\n2.  Click **Common Mobile Device Settings** &gt; **Mobile Device Security**.\n\n3.  Choose whether you want to create a policy that contains recommended settings, or whether you want to create a custom policy, and then click **Create Policy**.\n\n    > [!TIP]\n    > Click the information icon next to each setting to view the recommended value for the setting.\n\n    For more information about how to create and deploy policies, see the [Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md) topic.\n\n4.  See the [Policy settings for mobile devices](../Topic/Mobile-device-security-policy-settings-in-Microsoft-Intune.md#BKMK_Settings) section in this topic for information about the settings you can configure.\n\n5.  When you are finished, click **Save Policy**.\n\nThe new policy displays in the **Configuration Policies** node of the **Policy** workspace.\n\n## Deploy a mobile device security policy\n\n1.  Deploy the mobile device security policy to one or more groups of users or devices in your organization.\n\nFor more information about how to deploy policies, see [Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md).\n\nA status summary and alerts on the **Overview** page of the **Policy** workspace identify issues with the policy that require your attention. Additionally, a status summary appears in the **Dashboard** workspace.\n\n> [!IMPORTANT]\n> It might take up to 24 hours for status information to appear in the [!INCLUDE[wit_nextref](../Token/wit_nextref_md.md)] admin console.\n\n## <a name=\"BKMK_Settings\"></a>Policy settings for mobile devices\n\n### <a name=\"BKMK_sec\"></a>Security settings\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Require a password to unlock mobile devices**|No|No|Yes|Yes|Yes|\n|**Required password type**<br /><br />(specifies the type of password that will be required, such as numeric only, or alphanumeric)|Yes|Yes|Yes|Yes|No|\n|**Required password type – Minimum number of character sets**<br /><br />There are four character sets, lowercase letters, uppercase letters, numbers, and symbols. This setting specifies how many different character sets must be included in the password). However, for iOS devices, this specifies the number of symbol characters must be included in the password)|Yes|Yes|Yes|Yes|No|\n|**Minimum password length**|Yes|Yes|Yes|Yes|Yes|\n|**Allow simple passwords**<br /><br />Simple passwords include ‘0000’ and ‘1234’|No|No|Yes|Yes|No|\n|**Number of repeated sign-in failures to allow before the device is wiped**|Yes|Yes|Yes|Yes|Yes|\n|**Minutes of inactivity before screen turns off**<sup>1</sup>|Yes|Yes|Yes|Yes|Yes|\n|**Password expiration (days)**|Yes|Yes|Yes|Yes|Yes|\n|**Remember password history**|Yes|Yes|Yes|Yes|Yes|\n|**Remember password history** – **Prevent reuse of previous passwords**|Yes|Yes|Yes|Yes|Yes|\n|**Password quality**|No|No|No|No|Yes|\n|**Allow picture password and PIN**|Yes|Yes|No|No|No|\n|**Minutes of inactivity before password is required**|No|No|No|Yes|No|\n|**Allow fingerprint unlock**|No|No|No|iOS 7 and later|No|\nFor iOS devices, when you configure the settings **Minutes of inactivity before screen turns off** and **Minutes of inactivity before password is required**, they are applied in sequence. For example, if you set the value for both settings to **5** minutes, the screen will turn off automatically after 5 minutes, and the device will be locked after an additional 5 minutes. However, if the user turns off the screen manually, the second setting is immediately applied. In the same example, after the user turns off the screen, the device will lock 5 minutes later.\n\nWhen you set deploy a password length policy to devices that run Windows RT, users will be forced to reset their password, even if their current password complies with the policy requirements.\n\n### Encryption settings\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Require encryption on mobile device**<sup>1</sup><br /><br />For Windows Phone 8 devices, you must set this to **Yes**.<br /><br />To enable encryption on iOS devices, enable the setting **Require a password to unlock mobile devices**.|Yes|No|Yes|No|Yes|\n|**Require encryption on storage cards**<br /><br />Applies to devices that are managed by Exchange ActiveSync also.|n/a|n/a|n/a (apps and associated data are automatically encrypted)|n/a|Yes|\nAdditional information for devices that run Windows 8.1\n\n-   To enforce encryption on devices that run Windows 8.1, you must install the [December 2014 MDM client update for Windows](http://support.microsoft.com/kb/3013816) on each device.\n\n-   If you enable this setting for Windows 8.1 devices, all users of the device must have a Microsoft Account.\n\n-   For encryption to work, the device must meet the Microsoft [InstantGo](http://blogs.windows.com/bloggingwindows/2014/06/19/instantgo-a-better-way-to-sleep/) hardware certification requirements.\n\n-   When you enforce encryption on a device, the recovery key is only accessible from the users Microsoft Account, accessed from their OneDrive account. You cannot recover this key on behalf of a user.\n\n### Malware settings\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Require network firewall**|Yes|No|No|No|No|\n|**Enable SmartScreen**|Yes|No|No|No|No|\n\n### System settings\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Require automatic updates**|Yes|No|No|No|No|\n|**Require automatic updates – Minimum classification of updates to install automatically**<br /><br />Choose the classification of updates that will be installed automatically:<br /><br />**Important** – Installs all updates classified as important.<br /><br />**Recommended** – Installs all updates classified as important or recommended.|Yes|No|No|No|No|\n|**Allow screen capture**|No|No|Windows Phone 8.1 only|Yes|Yes (Samsung KNOX only)|\n|**Allow control center in lock screen**|No|No|No|iOS 7 and later|No|\n|**Allow notification view in lock screen**|No|No|No|iOS 7 and later|No|\n|**Allow today view in lock screen**|No|No|No|iOS 7 and later|No|\n|**User Account Control**|Yes|No|No|No|No|\n|**Allow diagnostic data submission**|Yes|No|Windows Phone 8.1 only|Yes|Yes (Samsung KNOX only)|\n|**Allow untrusted TLS certificates**|No|No|No|Yes|No|\n|**Allow personal wallet software while locked**|No|No|No|Yes|No|\n|**Allow factory reset**|No|No|No|No|Yes (Samsung KNOX only)|\nTo enforce encryption on devices that run Windows 8.1, you must install the [December 2014 MDM client update for Windows](http://support.microsoft.com/kb/3013816) on each device.\n\n### <a name=\"BKMK_cloud\"></a>Cloud settings – documents and data\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Allow backup to iCloud**|No|No|No|Yes|No|\n|**Allow document sync to iCloud**|No|No|No|Yes|No|\n|**Allow Photo Stream sync to iCloud**|No|No|No|Yes|No|\n|**Require encrypted backup**|No|No|No|Yes|No|\n|**Work Folders URL**<br /><br />(sets the URL of the work folder to allow documents to be synchronized across devices)|Yes|No|No|No|No|\n|**Allow Google backup**|No|No|No|No|Yes (Samsung KNOX only)|\n\n### Cloud settings – accounts and synchronization\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Allow Microsoft account**|No|No|Windows Phone 8.1 only|No|No|\n|**Allow Google account auto sync**|No|No|No|No|Yes (Samsung KNOX only)|\n\n### <a name=\"BKMK_email\"></a>Email settings\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Allow users to download email attachments**<sup>1</sup>|n/a|n/a|n/a|n/a|n/a|\n|**Email synchronization period** Applies to devices that are managed by Exchange ActiveSync also.|n/a|n/a|n/a|n/a|n/a|\n|**Allow mobile devices that don’t fully support these settings to synchronize with Exchange (Exchange ActiveSync)** Applies to devices that are managed by Exchange ActiveSync also.|n/a|n/a|n/a|n/a|n/a|\n|**Make Microsoft account optional in Windows Mail application**|Yes|No|No|No|No|\n|**Allow custom email accounts**|No|No|Windows Phone 8.1 only|No|No|\n\n### <a name=\"BKMK_browser\"></a>Application settings - browser\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Allow web browser**|No|No|Windows Phone 8.1 only|Yes|Yes (Samsung KNOX only)|\n|**Allow autofill**|Yes|No|No|Yes|Yes (Samsung KNOX only)|\n|**Allow pop-up blocker**|Yes|No|No|Yes|Yes (Samsung KNOX only)|\n|**Allow cookies**|No|No|No|Yes|Yes (Samsung KNOX only)|\n|**Allow plug-ins**|Yes|No|No|No|No|\n|**Allow active scripting**|Yes|No|No|Yes|Yes (Samsung KNOX only)|\n|**Allow fraud warning**|Yes|No|No|Yes|No|\n|**Allow intranet site for single word entry**<br /><br />(allows use of a single word to direct Internet Explorer to a web site, such as ‘Bing’)|Yes|No|No|No|No|\n|**Allow automatic detection of intranet network**|Yes|No|No|No|No|\n|**Security level for Internet**|Yes|No|No|No|No|\n|**Security level for intranet**|Yes|No|No|No|No|\n|**Security level for trusted sites**|Yes|No|No|No|No|\n|**Security level for restricted sites**|Yes|No|No|No|No|\n|**Send Do Not Track header**|Yes|No|No|No|No|\n|**Allow Enterprise Mode menu access**|Yes|No|No|No|No|\n|**Enterprise Mode site list location**|Yes|No|No|No|No|\n\n### <a name=\"BKMK_apps\"></a>Application settings - apps\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Allow application store**|No|No|Windows Phone 8.1 only|Yes|Yes (Samsung KNOX only)|\n|**Require a password to access application store**|No|No|No|Yes|No|\n|**Allow in-app purchases**|No|No|No|Yes|No|\n|**Allow managed documents in other unmanaged apps**|No|No|No|iOS 7 and later|No|\n|**Allow unmanaged documents in other managed apps**|No|No|No|iOS 7 and later|No|\n|**Allow video conferencing**|No|No|No|Yes|No|\n|**Allow adult content in media store**|No|No|No|Yes|No|\n|**Allow app installation**|No|No|No|iOS 6 and later|No|\n\n### Application settings - gaming\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Allow Game Center friends**|No|No|No|Yes|No|\n|**Allow multiplayer gaming**|No|No|No|Yes|No|\n\n### <a name=\"BKMK_hard\"></a>Device capabilities settings - hardware\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Allow camera**|No|No|Windows Phone 8.1 only|Yes|Yes|\n|**Allow removable storage**|No|No|Yes|No|Yes (Samsung KNOX only)|\n|**Allow Wi-Fi**|No|No|Windows Phone 8.1 only|No|Yes (Samsung KNOX only)|\n|**Allow Wi-Fi tethering**|No|No|Windows Phone 8.1 only|No|Yes (Samsung KNOX only)|\n|**Allow automatic connection to free Wi-Fi hotspots**|No|No|Windows Phone 8.1 only|No|No|\n|**Allow Wi-Fi hotspot reporting**<br /><br />(send information about Wi-Fi connections to help discover nearby connections)|No|No|Windows Phone 8.1 only|No|No|\n|**Allow geolocation**<br /><br />(allows the device to utilize location information)|No|No|Windows Phone 8.1 only|No|Yes (Samsung KNOX only)|\n|**Allow NFC**<br /><br />(allows operations that use near field communication)|No|No|Windows Phone 8.1 only|No|Yes (Samsung KNOX only)|\n|**Allow Bluetooth**|No|No|Windows Phone 8.1 only|No|Yes (Samsung KNOX only)|\n|**Allow power off** If disabled, the setting **Number of repeated sign in failures to allow before the device is wiped** for Samsung KNOX devices does not function.|No|No|No|No|Yes (Samsung KNOX only)|\n\n### Device capabilities settings - cellular\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Allow voice roaming**|No|No|No|Yes|Yes (Samsung KNOX only)|\n|**Allow data roaming**|Yes|No|No|Yes|Yes (Samsung KNOX only)|\n|**Allow automatic synchronization while roaming**|No|No|No|Yes|No|\n|**Allow SMS/MMS messaging**|No|No|No|No|Yes (Samsung KNOX only)|\n\n### Device capabilities settings - features\n\n|Setting name|Windows 8.1 and Windows RT 8.1|Windows RT|Windows Phone 8 and Windows Phone 8.1|iOS|Android and Samsung KNOX|\n|----------------|----------------------------------|--------------|-----------------------------------------|-------|----------------------------|\n|**Allow voice assistant**|No|No|No|Yes|Yes (Samsung KNOX only)|\n|**Allow voice assistant while device is locked**|No|No|No|Yes|No|\n|**Allow voice dialing**|No|No|No|Yes|Yes (Samsung KNOX only)|\n|**Allow copy and paste**|No|No|Windows Phone 8.1 only|No|Yes (Samsung KNOX only)|\n|**Allow clipboard share between applications**|No|No|No|No|Yes (Samsung KNOX only)|\n|**Allow YouTube**|No|No|No|No|Yes (Samsung KNOX only)|\n\n## See Also\n[Use policies to manage computers and mobile devices with Microsoft Intune](../Topic/Use-policies-to-manage-computers-and-mobile-devices-with-Microsoft-Intune.md)\n\n"
+}

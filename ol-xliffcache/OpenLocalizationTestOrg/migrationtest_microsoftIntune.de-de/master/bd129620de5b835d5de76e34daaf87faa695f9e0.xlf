@@ -1,0 +1,746 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff srcLang="en-US" trgLang="de-de" version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" xmlns:mda="urn:oasis:names:tc:xliff:metadata:2.0">
+  <file id="1">
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="oltranslationpriority">
+        </mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <mda:metadata>
+      <mda:metaGroup>
+        <mda:meta type="olfilehash">bd129620de5b835d5de76e34daaf87faa695f9e0</mda:meta>
+      </mda:metaGroup>
+    </mda:metadata>
+    <group id="content">
+      <unit id="101">
+        <segment state="initial">
+          <source>30-day trial revision</source>
+          <target>30-day trial revision</target>
+        </segment>
+      </unit>
+      <unit id="102">
+        <segment state="initial">
+          <source>30-day trial revision</source>
+          <target>30-day trial revision</target>
+        </segment>
+      </unit>
+      <unit id="103">
+        <segment state="initial">
+          <source>These step-by-step instructions help you set up an Intune trial and configure a PIN policy for iOS devices.</source>
+          <target>These step-by-step instructions help you set up an Intune trial and configure a PIN policy for iOS devices.</target>
+        </segment>
+      </unit>
+      <unit id="104">
+        <segment state="initial">
+          <source>For a list of other common Intune evaluation tasks  that you can try, see _____________________.</source>
+          <target>For a list of other common Intune evaluation tasks  that you can try, see _____________________.</target>
+        </segment>
+      </unit>
+      <unit id="105">
+        <segment state="initial">
+          <source>What's covered in this walkthrough</source>
+          <target>What's covered in this walkthrough</target>
+        </segment>
+      </unit>
+      <unit id="106">
+        <segment state="initial">
+          <source>If you have already set up your Intune trial, you can skip the sections that don't apply to you.</source>
+          <target>If you have already set up your Intune trial, you can skip the sections that don't apply to you.</target>
+        </segment>
+      </unit>
+      <unit id="107">
+        <segment state="initial">
+          <source>Prerequisites for this walk-through</source>
+          <target>Prerequisites for this walk-through</target>
+        </segment>
+      </unit>
+      <unit id="108">
+        <segment state="initial">
+          <source>Windows PC with Internet Explorer - for doing administrative tasks</source>
+          <target>Windows PC with Internet Explorer - for doing administrative tasks</target>
+        </segment>
+      </unit>
+      <unit id="109">
+        <segment state="initial">
+          <source>iOS 7.1 or later device for testing user policy validation</source>
+          <target>iOS 7.1 or later device for testing user policy validation</target>
+        </segment>
+      </unit>
+      <unit id="110">
+        <segment state="initial">
+          <source>Phone to authenticate yourself during trial sign-up</source>
+          <target>Phone to authenticate yourself during trial sign-up</target>
+        </segment>
+      </unit>
+      <unit id="111">
+        <segment state="initial">
+          <source>Start a free Intune trial</source>
+          <target>Start a free Intune trial</target>
+        </segment>
+      </unit>
+      <unit id="112">
+        <segment state="initial">
+          <source>If you already have an Intune subscription, skip this section and go to ___________________.</source>
+          <target>If you already have an Intune subscription, skip this section and go to ___________________.</target>
+        </segment>
+      </unit>
+      <unit id="113">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using a Windows PC, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Internet Explorer</pc> (IE) and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">InPrivate Browsing</pc>.</source>
+          <target>Using a Windows PC, right-click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Internet Explorer</pc> (IE) and select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">InPrivate Browsing</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="114">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](https://portal.office.com/Signup/Signup.aspx?OfferId=40BE278A-DFD1-470a-9EF7-9F2596EA7FF9&amp;dl=INTUNE_A&amp;ali=1)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Go to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune sign-up portal</pc>, provide the requested information, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>Go to the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune sign-up portal</pc>, provide the requested information, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="115">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter a user ID and password for your admin account and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</source>
+          <target>Enter a user ID and password for your admin account and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="116">
+        <segment state="initial">
+          <source>You'll use this ID to log in to the Intune portal to do your admin tasks.</source>
+          <target>You'll use this ID to log in to the Intune portal to do your admin tasks.</target>
+        </segment>
+      </unit>
+      <unit id="117">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter your cell phone number and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Text me</pc> to validate your number.</source>
+          <target>Enter your cell phone number and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Text me</pc> to validate your number.</target>
+        </segment>
+      </unit>
+      <unit id="118">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Save the information shown on the screen, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">You're ready to go...</pc>.</source>
+          <target>Save the information shown on the screen, and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">You're ready to go...</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="119">
+        <segment state="initial">
+          <source>Create a test user</source>
+          <target>Create a test user</target>
+        </segment>
+      </unit>
+      <unit id="120">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Using a Windows PC, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> to go to the user management page.</source>
+          <target>Using a Windows PC, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start</pc> to go to the user management page.</target>
+        </segment>
+      </unit>
+      <unit id="121">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">+</pc> button to add a user.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">+</pc> button to add a user.</target>
+        </segment>
+      </unit>
+      <unit id="122">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create new user account</pc> page:</source>
+          <target>On the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create new user account</pc> page:</target>
+        </segment>
+      </unit>
+      <unit id="123">
+        <segment state="initial">
+          <source>Provide the test user information.</source>
+          <target>Provide the test user information.</target>
+        </segment>
+      </unit>
+      <unit id="124">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Type password</pc> option.</source>
+          <target>Select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Type password</pc> option.</target>
+        </segment>
+      </unit>
+      <unit id="125">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Clear the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Make this person change their password the next time they sign in</pc> check box.</source>
+          <target>Clear the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Make this person change their password the next time they sign in</pc> check box.</target>
+        </segment>
+      </unit>
+      <unit id="126">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="127">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On the user creation confirmation page, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Close</pc>.</source>
+          <target>On the user creation confirmation page, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Close</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="128">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh</pc> button to see the test user you created.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Refresh</pc> button to see the test user you created.</target>
+        </segment>
+      </unit>
+      <unit id="129">
+        <segment state="initial">
+          <source>Configure an iOS pin policy for the test user</source>
+          <target>Configure an iOS pin policy for the test user</target>
+        </segment>
+      </unit>
+      <unit id="130">
+        <segment state="initial">
+          <source>Using a Windows PC, set the MDM authority to be Intune:</source>
+          <target>Using a Windows PC, set the MDM authority to be Intune:</target>
+        </segment>
+      </unit>
+      <unit id="131">
+        <originalData>
+          <data id="id1">[</data>
+          <data id="id2">](http://manage.microsoft.com/)</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Go to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune Management console</pc>, log in with your admin account, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Start Managing Mobile Devices</pc>.</source>
+          <target>Go to <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Intune Management console</pc>, log in with your admin account, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Start Managing Mobile Devices</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="132">
+        <segment state="initial">
+          <source>The Mobile Device Management authority page opens.</source>
+          <target>The Mobile Device Management authority page opens.</target>
+        </segment>
+      </unit>
+      <unit id="133">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set Mobile Device Management Authority</pc> link.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Set Mobile Device Management Authority</pc> link.</target>
+        </segment>
+      </unit>
+      <unit id="134">
+        <segment state="initial">
+          <source>Enable iOS devices for enrollment.</source>
+          <target>Enable iOS devices for enrollment.</target>
+        </segment>
+      </unit>
+      <unit id="135">
+        <segment state="initial">
+          <source>This process sets up a trusted certificate between the Apple Push Notification Service (APNs) and your Intune subscription.</source>
+          <target>This process sets up a trusted certificate between the Apple Push Notification Service (APNs) and your Intune subscription.</target>
+        </segment>
+      </unit>
+      <unit id="136">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable the iOS and Mac OS X platform</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enable the iOS and Mac OS X platform</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="137">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Download the APNs Certificate Request</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Download the APNs Certificate Request</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="138">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify a file name and location for your Certificate Signing Request (CSR), and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</source>
+          <target>Specify a file name and location for your Certificate Signing Request (CSR), and then click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="139">
+        <segment state="initial">
+          <source>This file holds the public key that corresponds to a private key held by your Intune subscription.</source>
+          <target>This file holds the public key that corresponds to a private key held by your Intune subscription.</target>
+        </segment>
+      </unit>
+      <unit id="140">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apple Push Certificates portal</pc> to open a new tab.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Apple Push Certificates portal</pc> to open a new tab.</target>
+        </segment>
+      </unit>
+      <unit id="141">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter your Apple ID and password, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sign in</pc>.</source>
+          <target>Enter your Apple ID and password, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sign in</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="142">
+        <segment state="initial">
+          <source>This ID can be the one you use on your iOS device to get apps from the Apple Store.</source>
+          <target>This ID can be the one you use on your iOS device to get apps from the Apple Store.</target>
+        </segment>
+      </unit>
+      <unit id="143">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a Certificate</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create a Certificate</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="144">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Read Apple’s Terms of Use, select the check box, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Accept</pc>.</source>
+          <target>Read Apple’s Terms of Use, select the check box, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Accept</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="145">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="146">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the CSR file that you saved earlier, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open</pc>.</source>
+          <target>Select the CSR file that you saved earlier, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="147">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload</pc> button.</source>
+          <target>Click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload</pc> button.</target>
+        </segment>
+      </unit>
+      <unit id="148">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are prompted to download a JSON file, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save as</pc>.</source>
+          <target>When you are prompted to download a JSON file, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save as</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="149">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Specify a location for your JSON file and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</source>
+          <target>Specify a location for your JSON file and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="150">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>If your page doesn’t redirect automatically after a few seconds, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cancel</pc>.</source>
+          <target>If your page doesn’t redirect automatically after a few seconds, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Cancel</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="151">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>To retrieve your newly created certificate file, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Download</pc>.</source>
+          <target>To retrieve your newly created certificate file, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Download</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="152">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are prompted to download a PEM file, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save as</pc>.</source>
+          <target>When you are prompted to download a PEM file, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Save as</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="153">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Return to the Intune Management Console tab, and click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload the APNs Certificate</pc>.</source>
+          <target>Return to the Intune Management Console tab, and click the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload the APNs Certificate</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="154">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter your Apple ID and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse</pc>.</source>
+          <target>Enter your Apple ID and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Browse</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="155">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Select the PEM file you just saved, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open</pc>.</source>
+          <target>Select the PEM file you just saved, and click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Open</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="156">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload</pc>.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Upload</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="157">
+        <segment state="initial">
+          <source>Your APNs certificate is now configured.</source>
+          <target>Your APNs certificate is now configured.</target>
+        </segment>
+      </unit>
+      <unit id="158">
+        <segment state="initial">
+          <source>Create a test user group for policy targeting:</source>
+          <target>Create a test user group for policy targeting:</target>
+        </segment>
+      </unit>
+      <unit id="159">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the left pane, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Groups</pc>.</source>
+          <target>In the left pane, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Groups</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="160">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>At the far right, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create Group</pc>.</source>
+          <target>At the far right, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Create Group</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="161">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Provide a group name, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Users</pc> as the parent group, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</source>
+          <target>Provide a group name, select <pc dataRefEnd="id2" dataRefStart="id1" id="p1">All Users</pc> as the parent group, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Next</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="162">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start group membership with</pc> field, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All Users in the Parent group</pc>, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Finish</pc>.</source>
+          <target>In the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Start group membership with</pc> field, select <pc dataRefEnd="id4" dataRefStart="id3" id="p2">All Users in the Parent group</pc>, and click <pc dataRefEnd="id6" dataRefStart="id5" id="p3">Finish</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="163">
+        <segment state="initial">
+          <source>Create an iOS PIN policy and target it to the test user group:</source>
+          <target>Create an iOS PIN policy and target it to the test user group:</target>
+        </segment>
+      </unit>
+      <unit id="164">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>In the left pane, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc>.</source>
+          <target>In the left pane, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="165">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>At the far right, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Policy</pc>.</source>
+          <target>At the far right, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="166">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Expand the iOS node, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General Configuration</pc> row, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create Policy</pc>.</source>
+          <target>Expand the iOS node, select the <pc dataRefEnd="id2" dataRefStart="id1" id="p1">General Configuration</pc> row, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Create Policy</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="167">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+          <data id="id5">**</data>
+          <data id="id6">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Type a name for the policy,  turn on the option <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require a password to unlock mobile devices</pc>, and set the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Minimum password length</pc> to <pc dataRefEnd="id6" dataRefStart="id5" id="p3">4</pc>.</source>
+          <target>Type a name for the policy,  turn on the option <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Require a password to unlock mobile devices</pc>, and set the <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Minimum password length</pc> to <pc dataRefEnd="id6" dataRefStart="id5" id="p3">4</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="168">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to deploy the policy.</source>
+          <target>Click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Yes</pc> to deploy the policy.</target>
+        </segment>
+      </unit>
+      <unit id="169">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Click the user group previously created, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Ok</pc>.</source>
+          <target>Click the user group previously created, click <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Add</pc>, and click <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Ok</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="170">
+        <segment state="initial">
+          <source>You now have an iOS PIN policy that targets your test user group.</source>
+          <target>You now have an iOS PIN policy that targets your test user group.</target>
+        </segment>
+      </unit>
+      <unit id="171">
+        <segment state="initial">
+          <source>Validate that the policy is enforced on an iOS device</source>
+          <target>Validate that the policy is enforced on an iOS device</target>
+        </segment>
+      </unit>
+      <unit id="172">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>On an iPad, launch the Apple App Store, install the free <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune Company Portal</pc> app, and open it.</source>
+          <target>On an iPad, launch the Apple App Store, install the free <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Microsoft Intune Company Portal</pc> app, and open it.</target>
+        </segment>
+      </unit>
+      <unit id="173">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter your test user account name and password, and tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sign in</pc>.</source>
+          <target>Enter your test user account name and password, and tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Sign in</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="174">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll</pc> to start enrolling the device in Intune.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Enroll</pc> to start enrolling the device in Intune.</target>
+        </segment>
+      </unit>
+      <unit id="175">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc> three times and Trust once to install the management.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Install</pc> three times and Trust once to install the management.</target>
+        </segment>
+      </unit>
+      <unit id="176">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When the management profile finishes installing, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Done</pc>.</source>
+          <target>When the management profile finishes installing, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Done</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="177">
+        <segment state="initial">
+          <source>Enrollment is now complete.</source>
+          <target>Enrollment is now complete.</target>
+        </segment>
+      </unit>
+      <unit id="178">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> and then close the Company Portal app.</source>
+          <target>Tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">OK</pc> and then close the Company Portal app.</target>
+        </segment>
+      </unit>
+      <unit id="179">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>When you are prompted to configure a passcode, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Continue</pc>.</source>
+          <target>When you are prompted to configure a passcode, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Continue</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="180">
+        <originalData>
+          <data id="id1">**</data>
+          <data id="id2">**</data>
+          <data id="id3">**</data>
+          <data id="id4">**</data>
+        </originalData>
+        <segment state="initial">
+          <source>Enter your passcode, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Continue</pc>, enter your passcode again, and tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Save</pc>.</source>
+          <target>Enter your passcode, tap <pc dataRefEnd="id2" dataRefStart="id1" id="p1">Continue</pc>, enter your passcode again, and tap <pc dataRefEnd="id4" dataRefStart="id3" id="p2">Save</pc>.</target>
+        </segment>
+      </unit>
+      <unit id="181">
+        <segment state="initial">
+          <source>Press the power button to lock your iPad, slide to unlock it, and see that you need to enter your passcode to unlock the device.</source>
+          <target>Press the power button to lock your iPad, slide to unlock it, and see that you need to enter your passcode to unlock the device.</target>
+        </segment>
+      </unit>
+      <unit id="182">
+        <segment state="initial">
+          <source>See Also</source>
+          <target>See Also</target>
+        </segment>
+      </unit>
+      <unit id="183">
+        <segment state="initial">
+          <source>Get started with a paid subscription to Microsoft Intune</source>
+          <target>Get started with a paid subscription to Microsoft Intune</target>
+        </segment>
+      </unit>
+    </group>
+  </file>
+</xliff>
